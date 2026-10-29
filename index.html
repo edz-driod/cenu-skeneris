@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="lv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cenu skeneris</title>
+<meta name="description" content="Bite, Tele2 un LMT telefonu, viedpulksteņu un austiņu cenas un to vēsture">
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f9f9f7;
+    --surface: #fcfcfb;
+    --ink: #0b0b0b;
+    --ink-2: #52514e;
+    --muted: #898781;
+    --grid: #e1e0d9;
+    --axis: #c3c2b7;
+    --ring: rgba(11,11,11,0.10);
+    --hover: rgba(11,11,11,0.04);
+    --bite: #2a78d6;      /* kategoriskais slots 1 */
+    --tele2: #eb6834;     /* kategoriskais slots 2 */
+    --lmt: #1baf7a;       /* kategoriskais slots 3 */
+    --down: #006300;      /* cena kritusies = labi */
+    --up: #d03b3b;
+    --accent: #2a78d6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7;
+      --muted: #898781; --grid: #2c2c2a; --axis: #383835;
+      --ring: rgba(255,255,255,0.10); --hover: rgba(255,255,255,0.05);
+      --bite: #3987e5; --tele2: #d95926; --lmt: #199e70; --down: #0ca30c; --up: #e66767; --accent: #3987e5;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7;
+    --muted: #898781; --grid: #2c2c2a; --axis: #383835;
+    --ring: rgba(255,255,255,0.10); --hover: rgba(255,255,255,0.05);
+    --bite: #3987e5; --tele2: #d95926; --lmt: #199e70; --down: #0ca30c; --up: #e66767; --accent: #3987e5;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--page); color: var(--ink);
+    font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 24px; margin: 0 0 2px; letter-spacing: -0.01em; }
+  .sub { color: var(--ink-2); margin: 0 0 20px; font-size: 14px; }
+  .sub .warn { color: var(--up); }
+
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-bottom: 20px; }
+  .tile { background: var(--surface); border: 1px solid var(--ring); border-radius: 12px; padding: 12px 14px; }
+  .tile .k { color: var(--ink-2); font-size: 13px; display: flex; align-items: center; gap: 6px; }
+  .tile .v { font-size: 26px; font-weight: 600; margin-top: 2px; }
+  @media (max-width: 640px) { .tiles { grid-template-columns: repeat(2, 1fr); } }
+
+  .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; flex: none; }
+  .dot.bite { background: var(--bite); } .dot.tele2 { background: var(--tele2); } .dot.lmt { background: var(--lmt); }
+
+  .cats { display: flex; gap: 4px; margin-bottom: 14px; border-bottom: 1px solid var(--grid); overflow-x: auto; }
+  .cats button {
+    font: inherit; font-weight: 600; border: 0; background: none; color: var(--ink-2); cursor: pointer;
+    padding: 8px 12px 10px; border-bottom: 2px solid transparent; margin-bottom: -1px; white-space: nowrap;
+  }
+  .cats button[aria-selected=true] { color: var(--ink); border-bottom-color: var(--ink); }
+  .cats .n { color: var(--muted); font-weight: 400; margin-left: 4px; font-size: 13px; }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; align-items: center; }
+  .filters input[type=search], .filters select {
+    font: inherit; color: var(--ink); background: var(--surface);
+    border: 1px solid var(--ring); border-radius: 10px; padding: 8px 12px; min-height: 40px;
+  }
+  .filters input[type=search] { flex: 1 1 220px; }
+  .seg { display: inline-flex; border: 1px solid var(--ring); border-radius: 10px; overflow: hidden; background: var(--surface); }
+  .seg button {
+    font: inherit; border: 0; background: none; color: var(--ink-2); padding: 8px 12px; min-height: 40px; cursor: pointer;
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .seg button[aria-pressed=true] { background: var(--hover); color: var(--ink); font-weight: 600; }
+  .chk { display: inline-flex; align-items: center; gap: 6px; color: var(--ink-2); padding: 0 4px; min-height: 40px; cursor: pointer; }
+
+  .card { background: var(--surface); border: 1px solid var(--ring); border-radius: 14px; overflow: hidden; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid var(--grid); vertical-align: middle; }
+  th { font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; cursor: pointer; user-select: none; white-space: nowrap; }
+  th.num, td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  th[aria-sort=ascending]::after { content: " ↑"; } th[aria-sort=descending]::after { content: " ↓"; }
+  tbody tr { cursor: pointer; }
+  tbody tr:hover { background: var(--hover); }
+  tbody tr:last-child td { border-bottom: 0; }
+  .name { display: flex; align-items: center; gap: 10px; }
+  .name .b { color: var(--muted); font-size: 12px; }
+  .old { color: var(--muted); text-decoration: line-through; font-size: 12px; display: block; }
+  .disc { color: var(--down); font-weight: 600; white-space: nowrap; }
+  .low { color: var(--down); }
+  .same { color: var(--muted); }
+  .empty { padding: 40px 16px; text-align: center; color: var(--ink-2); }
+  @media (max-width: 640px) {
+    th, td { padding: 9px 10px; }
+    .hide-sm { display: none; }
+  }
+
+  dialog {
+    border: 1px solid var(--ring); border-radius: 16px; padding: 0; background: var(--surface); color: var(--ink);
+    width: min(760px, calc(100vw - 24px)); max-height: calc(100vh - 24px);
+  }
+  dialog::backdrop { background: rgba(0,0,0,.4); }
+  .dlg { padding: 18px 18px 20px; }
+  .dlg-head { display: flex; justify-content: space-between; gap: 12px; align-items: start; }
+  .dlg h2 { margin: 0; font-size: 20px; }
+  .dlg .x { font: inherit; font-size: 22px; line-height: 1; border: 0; background: none; color: var(--ink-2); cursor: pointer; padding: 4px 8px; }
+  .offers { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin: 14px 0 18px; }
+  .offer { border: 1px solid var(--ring); border-radius: 12px; padding: 10px 12px; }
+  .offer .op { display: flex; align-items: center; gap: 6px; color: var(--ink-2); font-size: 13px; }
+  .offer .p { font-size: 22px; font-weight: 600; }
+  .offer .m { color: var(--ink-2); font-size: 13px; }
+  .offer a { color: var(--accent); font-size: 13px; }
+  .best { font-size: 11px; font-weight: 600; color: var(--down); border: 1px solid currentColor; border-radius: 6px; padding: 0 5px; margin-left: auto; }
+  .chart-title { font-size: 14px; font-weight: 600; margin: 0 0 4px; }
+  .legend { display: flex; gap: 14px; font-size: 13px; color: var(--ink-2); margin-bottom: 4px; }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .chart { position: relative; }
+  .chart svg { display: block; width: 100%; overflow: visible; }
+  .chart text { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+  .tip {
+    position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--ring);
+    border-radius: 8px; padding: 6px 9px; font-size: 12px; box-shadow: 0 4px 14px rgba(0,0,0,.12);
+    white-space: nowrap; display: none; z-index: 2;
+  }
+  .tip .t { color: var(--muted); margin-bottom: 2px; }
+  .tip .r { display: flex; align-items: center; gap: 6px; }
+  .tip b { font-variant-numeric: tabular-nums; margin-left: auto; padding-left: 10px; }
+  details { margin-top: 14px; font-size: 13px; }
+  details summary { cursor: pointer; color: var(--ink-2); }
+  details table td, details table th { padding: 6px 8px; font-size: 12px; }
+  .foot { color: var(--muted); font-size: 12px; margin-top: 16px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Cenu skeneris</h1>
+  <p class="sub" id="sub">Ielādē datus…</p>
+
+  <div class="cats" role="tablist" aria-label="Kategorija" id="cats"></div>
+  <div class="tiles" id="tiles"></div>
+
+  <div class="filters">
+    <input type="search" id="q" placeholder="Meklēt, piem. iPhone 17, Galaxy Watch, AirPods…" aria-label="Meklēt">
+    <div class="seg" role="group" aria-label="Operators" id="ops">
+      <button data-op="" aria-pressed="true">Visi</button>
+      <button data-op="bite" aria-pressed="false"><span class="dot bite"></span>Bite</button>
+      <button data-op="tele2" aria-pressed="false"><span class="dot tele2"></span>Tele2</button>
+      <button data-op="lmt" aria-pressed="false"><span class="dot lmt"></span>LMT</button>
+    </div>
+    <label class="chk"><input type="checkbox" id="sale"> Tikai akcijas</label>
+  </div>
+
+  <div class="card">
+    <table>
+      <thead><tr>
+        <th data-k="name">Ierīce</th>
+        <th data-k="full" class="num">Cena</th>
+        <th data-k="monthly" class="num">Mēnesī</th>
+        <th data-k="disc" class="num hide-sm">Atlaide</th>
+        <th data-k="min" class="num hide-sm">Zemākā</th>
+      </tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+  <p class="foot">Dati: bite.lv, tele2.lv un lmt.lv, atjaunojas divreiz dienā. Klikšķini uz ierīces, lai redzētu cenu vēsturi un salīdzinājumu.</p>
+</div>
+
+<dialog id="dlg"><div class="dlg" id="dlgBody"></div></dialog>
+
+<script>
+const OPS = { bite: "Bite", tele2: "Tele2", lmt: "LMT" };
+const CATS = { telefoni: "Telefoni", pulksteni: "Viedpulksteņi", austinas: "Austiņas" };
+const eur = v => v == null ? "–" : v.toLocaleString("lv-LV", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " €";
+const eur0 = v => v.toLocaleString("lv-LV", { maximumFractionDigits: 0 }) + " €";
+const fmtDate = d => d.toLocaleDateString("lv-LV", { day: "2-digit", month: "2-digit", year: "numeric" });
+const fmtDT = d => d.toLocaleString("lv-LV", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" });
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const num = s => s === "" || s == null ? null : +s;
+
+// Viens un tas pats modelis abos operatoros: bez atmiņas apjoma, 5G u.tml.
+// Piem. "Xiaomi Redmi Note 15 5G 256GB" (Tele2), "Redmi Note 15" (LMT), "Galaxy Watch9 LTE" (Bite) ->
+// "redmi note 15", "galaxy watch 9" – lai vienu un to pašu ierīci atpazītu visos operatoros.
+const modelKey = p => p.category + "|" + (`${p.brand || ""} ${p.model || ""}`).toLowerCase()
+  .split("|")[0]                                             // Bite: "AirPods 5 | Wireless Charging Case" -> pirms "|"
+  .replace(/\b\d+\s?\/\s?\d+\s?(gb|tb)\b/g, " ").replace(/\b\d+\s?(gb|tb)\b/g, " ")
+  .replace(/\b(5g|4g|lte|esim|bt|gps|dual sim|ds|wi-?fi)\b/g, " ")
+  .replace(/([a-z])(\d)/g, "$1 $2")                          // watch9 -> watch 9
+  .replace(/^(xiaomi )(redmi|poco)\b/, "$2")                 // Xiaomi Redmi -> Redmi
+  .replace(/[^a-z0-9]+/g, " ").trim();
+
+function parseCSV(text) {
+  const rows = []; let row = [], f = "", q = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (q) {
+      if (c === '"') { if (text[i + 1] === '"') { f += '"'; i++; } else q = false; }
+      else f += c;
+    } else if (c === '"') q = true;
+    else if (c === ",") { row.push(f); f = ""; }
+    else if (c === "\n") { row.push(f); rows.push(row); row = []; f = ""; }
+    else if (c !== "\r") f += c;
+  }
+  if (f || row.length) { row.push(f); rows.push(row); }
+  const [head, ...body] = rows;
+  return body.filter(r => r.length === head.length).map(r => Object.fromEntries(head.map((h, i) => [h, r[i]])));
+}
+
+let ITEMS = [], HIST = {}, NOW = new Date(), META = null,
+  state = { cat: "telefoni", q: "", op: "", sale: false, sort: "name", dir: 1 };
+const onSale = p => p.disc > 0 || (p.monthly_old && p.monthly_old > p.monthly);
+
+async function load() {
+  const [csv, latest, meta] = await Promise.all([
+    fetch("data/prices.csv", { cache: "no-store" }).then(r => r.ok ? r.text() : ""),
+    fetch("data/latest.json", { cache: "no-store" }).then(r => r.ok ? r.json() : {}),
+    fetch("data/meta.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).catch(() => null),
+  ]);
+  META = meta;
+  if (meta?.scanned_at) NOW = new Date(meta.scanned_at);
+
+  for (const r of csv ? parseCSV(csv) : []) {
+    const key = `${r.operator}:${r.id}`;
+    (HIST[key] ||= []).push({ t: new Date(r.scanned_at), full: num(r.full), monthly: num(r.monthly) });
+  }
+  for (const h of Object.values(HIST)) h.sort((a, b) => a.t - b.t);
+
+  ITEMS = Object.entries(latest).map(([key, p]) => ({ ...p, category: p.category || "telefoni", key })).map(p => {
+    const key = p.key;
+    const h = HIST[key] || [];
+    const fulls = h.map(x => x.full).concat(p.full).filter(v => v != null);
+    const min = fulls.length ? Math.min(...fulls) : null;
+    const disc = p.full_old && p.full ? p.full_old - p.full : null;
+    return { ...p, key, mk: modelKey(p), min, disc, name: `${p.brand || ""} ${p.model || ""}`.trim(), since: h[0]?.t };
+  });
+
+  render();
+}
+
+function renderHeader() {
+  const sub = document.getElementById("sub");
+  sub.innerHTML = ITEMS.length
+    ? `Atjaunots ${esc(fmtDT(NOW))}` + (META?.errors?.length ? ` · <span class="warn">⚠ ${esc(META.errors.join("; "))}</span>` : "")
+    : "Datu vēl nav. Palaid skenēšanu GitHub Actions cilnē.";
+
+  const cats = ["telefoni", "pulksteni", "austinas"].filter(c => ITEMS.some(p => p.category === c));
+  if (!cats.includes(state.cat) && state.cat !== "") state.cat = cats[0] || "";
+  document.getElementById("cats").innerHTML = [...cats, ""].map(c => {
+    const n = ITEMS.filter(p => !c || p.category === c).length;
+    return `<button role="tab" data-cat="${c}" aria-selected="${state.cat === c}">${c ? CATS[c] : "Visi"}<span class="n">${n}</span></button>`;
+  }).join("");
+
+  const inCat = ITEMS.filter(p => !state.cat || p.category === state.cat);
+  const ops = Object.keys(OPS).filter(op => ITEMS.some(p => p.operator === op));
+  document.querySelectorAll("#ops button[data-op]").forEach(b => { b.hidden = b.dataset.op && !ops.includes(b.dataset.op); });
+  document.getElementById("tiles").innerHTML = ops.map(op => `
+    <div class="tile"><div class="k"><span class="dot ${op}"></span>${OPS[op]}</div><div class="v">${inCat.filter(p => p.operator === op).length}</div></div>`).join("") + `
+    <div class="tile"><div class="k">Akcijās</div><div class="v">${inCat.filter(onSale).length}</div></div>`;
+}
+
+function render() {
+  renderHeader();
+  const q = state.q.toLowerCase().trim();
+  let list = ITEMS.filter(p =>
+    (!state.cat || p.category === state.cat) &&
+    (!state.op || p.operator === state.op) &&
+    (!q || p.name.toLowerCase().includes(q)) &&
+    (!state.sale || onSale(p)));
+  const k = state.sort, d = state.dir;
+  list.sort((a, b) => k === "name"
+    ? a.name.localeCompare(b.name, "lv") * d || a.operator.localeCompare(b.operator)
+    : ((a[k] ?? -Infinity) - (b[k] ?? -Infinity)) * d);
+
+  document.querySelectorAll("th[data-k]").forEach(th =>
+    th.setAttribute("aria-sort", th.dataset.k === k ? (d > 0 ? "ascending" : "descending") : "none"));
+
+  document.getElementById("rows").innerHTML = list.length ? list.map(p => `
+    <tr data-key="${esc(p.key)}" tabindex="0">
+      <td><div class="name"><span class="dot ${p.operator}" title="${OPS[p.operator]}"></span>
+        <div><div class="b">${esc(p.brand)} · ${OPS[p.operator]}${state.cat ? "" : " · " + CATS[p.category]}</div>${esc(p.model)}</div></div></td>
+      <td class="num">${eur(p.full)}${p.full_old ? `<span class="old">${eur(p.full_old)}</span>` : ""}</td>
+      <td class="num">${eur(p.monthly)}${p.monthly_old ? `<span class="old">${eur(p.monthly_old)}</span>` : ""}</td>
+      <td class="num hide-sm">${p.disc > 0 ? `<span class="disc">−${eur0(p.disc)}</span>` : ""}</td>
+      <td class="num hide-sm">${p.min == null ? "" : `<span class="${p.min < p.full ? "low" : "same"}" title="${p.min < p.full ? "Agrāk bija lētāk" : "Šī ir zemākā cena"}">${eur(p.min)}</span>`}</td>
+    </tr>`).join("") : `<tr><td colspan="5" class="empty">Nekas netika atrasts.</td></tr>`;
+}
+
+/* ---------- Detaļas ---------- */
+function openDetail(key) {
+  const p = ITEMS.find(x => x.key === key);
+  if (!p) return;
+  const twins = ITEMS.filter(x => x.mk === p.mk && x.key !== p.key);
+  const group = [p, ...twins].sort((a, b) => a.operator.localeCompare(b.operator) || (a.full ?? 0) - (b.full ?? 0));
+  const cheapest = Math.min(...group.map(x => x.full ?? Infinity));
+
+  const series = group.map(x => {
+    const h = (HIST[x.key] || []).filter(e => e.full != null);
+    const pts = h.length ? h.map(e => ({ t: e.t, v: e.full })) : [{ t: NOW, v: x.full }];
+    return { op: x.operator, label: group.filter(g => g.operator === x.operator).length > 1 ? `${OPS[x.operator]} · ${x.model}` : OPS[x.operator], pts };
+  });
+
+  document.getElementById("dlgBody").innerHTML = `
+    <div class="dlg-head">
+      <div><div style="color:var(--muted);font-size:13px">${esc(p.brand)}</div><h2>${esc(p.model)}</h2></div>
+      <button class="x" aria-label="Aizvērt" onclick="dlg.close()">×</button>
+    </div>
+    <div class="offers">${group.map(x => `
+      <div class="offer">
+        <div class="op"><span class="dot ${x.operator}"></span>${OPS[x.operator]}${group.length > 1 && x.full === cheapest ? '<span class="best">LĒTĀKAIS</span>' : ""}</div>
+        <div class="p">${eur(x.full)}</div>
+        <div class="m">${eur(x.monthly)} / mēn.${x.full_old ? ` · bija ${eur(x.full_old)}` : ""}</div>
+        <div class="m">Zemākā vēsturē: ${eur(x.min)}</div>
+        ${x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">Atvērt veikalā ↗</a>` : ""}
+      </div>`).join("")}
+    </div>
+    <p class="chart-title">Pilnā cena laika gaitā</p>
+    ${series.length > 1 ? `<div class="legend">${series.map(s => `<span><span class="dot ${s.op}"></span>${esc(s.label)}</span>`).join("")}</div>` : ""}
+    <div class="chart" id="chart"></div>
+    <details><summary>Cenu izmaiņas tabulā</summary>
+      <table><thead><tr><th>Datums</th><th>Operators</th><th class="num">Cena</th><th class="num">Mēnesī</th></tr></thead><tbody>
+      ${group.flatMap(x => (HIST[x.key] || []).map(e => ({ ...e, op: x.operator })))
+        .sort((a, b) => b.t - a.t)
+        .map(e => `<tr><td>${fmtDT(e.t)}</td><td>${OPS[e.op]}</td><td class="num">${eur(e.full)}</td><td class="num">${eur(e.monthly)}</td></tr>`).join("")
+        || `<tr><td colspan="4">Vēstures vēl nav.</td></tr>`}
+      </tbody></table>
+    </details>`;
+  dlg.showModal();
+  drawChart(document.getElementById("chart"), series);
+}
+
+/* ---------- Grafiks: pakāpju līnija (cena ir spēkā līdz nākamajai izmaiņai) ---------- */
+function niceTicks(min, max, n = 4) {
+  if (min === max) { min -= 50; max += 50; }
+  const span = max - min, step0 = span / n, mag = 10 ** Math.floor(Math.log10(step0));
+  const step = [1, 2, 2.5, 5, 10].map(m => m * mag).find(s => s >= step0);
+  const lo = Math.floor(min / step) * step, hi = Math.ceil(max / step) * step;
+  const t = []; for (let v = lo; v <= hi + 1e-9; v += step) t.push(v);
+  return t;
+}
+
+function drawChart(el, series) {
+  const W = el.clientWidth || 600, H = 230, M = { t: 12, r: 56, b: 26, l: 52 };
+  const iw = W - M.l - M.r, ih = H - M.t - M.b;
+  const all = series.flatMap(s => s.pts);
+  let t0 = Math.min(...all.map(p => +p.t)), t1 = +NOW;
+  if (t1 - t0 < 864e5) t0 = t1 - 864e5;               // vismaz 1 diena
+  const yt = niceTicks(Math.min(...all.map(p => p.v)), Math.max(...all.map(p => p.v)));
+  const y0 = yt[0], y1 = yt[yt.length - 1];
+  const X = t => M.l + (t - t0) / (t1 - t0) * iw;
+  const Y = v => M.t + ih - (v - y0) / (y1 - y0) * ih;
+  const color = op => `var(--${op})`;
+
+  const at = (s, t) => { let v = null; for (const p of s.pts) { if (+p.t <= t) v = p.v; else break; } return v; };
+
+  // x ass ķeksīši: ~4 datumi
+  const nx = W < 520 ? 2 : 3, short = W < 520;
+  const xt = []; for (let i = 0; i <= nx; i++) xt.push(t0 + (t1 - t0) * i / nx);
+  const xLabel = t => short ? new Date(t).toLocaleDateString("lv-LV", { day: "2-digit", month: "2-digit" }) : fmtDate(new Date(t));
+
+  const paths = series.map(s => {
+    let d = "";
+    s.pts.forEach((p, i) => {
+      const x = X(+p.t), y = Y(p.v);
+      d += i === 0 ? `M${x},${y}` : `H${x}V${y}`;
+    });
+    d += `H${X(t1)}`;
+    return d;
+  });
+
+  // tiešie marķējumi līnijas galā; ja pārklājas, pabīda
+  const ends = series.map((s, i) => ({ i, y: Y(s.pts[s.pts.length - 1].v), v: s.pts[s.pts.length - 1].v }))
+    .sort((a, b) => a.y - b.y);
+  for (let i = 1; i < ends.length; i++) if (ends[i].y - ends[i - 1].y < 14) ends[i].y = ends[i - 1].y + 14;
+
+  el.innerHTML = `
+  <svg viewBox="0 0 ${W} ${H}" height="${H}" role="img" aria-label="Cenu vēstures grafiks">
+    ${yt.map(v => `<line x1="${M.l}" x2="${W - M.r}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--grid)"/>
+      <text x="${M.l - 8}" y="${Y(v) + 4}" text-anchor="end">${eur0(v)}</text>`).join("")}
+    <line x1="${M.l}" x2="${W - M.r}" y1="${M.t + ih}" y2="${M.t + ih}" stroke="var(--axis)"/>
+    ${xt.map((t, i) => `<text x="${X(t)}" y="${H - 6}" text-anchor="${i === 0 ? "start" : i === nx ? "end" : "middle"}">${xLabel(t)}</text>`).join("")}
+    ${paths.map((d, i) => `<path d="${d}" fill="none" stroke="${color(series[i].op)}" stroke-width="2" stroke-linejoin="round"/>`).join("")}
+    ${series.map(s => s.pts.map(p => `<circle cx="${X(+p.t)}" cy="${Y(p.v)}" r="4" fill="${color(s.op)}" stroke="var(--surface)" stroke-width="2"/>`).join("")).join("")}
+    ${ends.map(e => `<text x="${W - M.r + 6}" y="${e.y + 4}" style="fill:var(--ink-2)">${eur0(e.v)}</text>`).join("")}
+    <line id="xh" y1="${M.t}" y2="${M.t + ih}" stroke="var(--axis)" style="display:none"/>
+    <g id="hdots"></g>
+    <rect x="${M.l}" y="${M.t}" width="${iw}" height="${ih}" fill="transparent" id="hit"/>
+  </svg><div class="tip" id="tip"></div>`;
+
+  const svg = el.querySelector("svg"), tip = el.querySelector("#tip"), xh = el.querySelector("#xh"), hd = el.querySelector("#hdots");
+  const move = ev => {
+    const r = svg.getBoundingClientRect(), sx = (ev.clientX - r.left) * W / r.width;
+    const t = t0 + Math.max(0, Math.min(1, (sx - M.l) / iw)) * (t1 - t0), x = X(t);
+    xh.setAttribute("x1", x); xh.setAttribute("x2", x); xh.style.display = "";
+    const vals = series.map(s => ({ s, v: at(s, t) }));
+    hd.innerHTML = vals.filter(o => o.v != null).map(o => `<circle cx="${x}" cy="${Y(o.v)}" r="5" fill="${color(o.s.op)}" stroke="var(--surface)" stroke-width="2"/>`).join("");
+    tip.innerHTML = `<div class="t">${fmtDT(new Date(t))}</div>` + vals.map(o =>
+      `<div class="r"><span class="dot ${o.s.op}"></span>${esc(o.s.label)}<b>${o.v == null ? "–" : eur(o.v)}</b></div>`).join("");
+    tip.style.display = "block";
+    const px = x * r.width / W, tw = tip.offsetWidth;
+    tip.style.left = Math.min(Math.max(0, px + 12), r.width - tw) + "px";
+    tip.style.top = "6px";
+  };
+  const leave = () => { tip.style.display = "none"; xh.style.display = "none"; hd.innerHTML = ""; };
+  const hit = el.querySelector("#hit");
+  hit.addEventListener("pointermove", move);
+  hit.addEventListener("pointerdown", move);
+  hit.addEventListener("pointerleave", leave);
+}
+
+/* ---------- Notikumi ---------- */
+const dlg = document.getElementById("dlg");
+dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
+document.getElementById("cats").addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  state.cat = b.dataset.cat; render();
+});
+document.getElementById("q").addEventListener("input", e => { state.q = e.target.value; render(); });
+document.getElementById("sale").addEventListener("change", e => { state.sale = e.target.checked; render(); });
+document.getElementById("ops").addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  state.op = b.dataset.op;
+  document.querySelectorAll("#ops button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  render();
+});
+document.querySelectorAll("th[data-k]").forEach(th => th.addEventListener("click", () => {
+  const k = th.dataset.k;
+  state.dir = state.sort === k ? -state.dir : (k === "disc" ? -1 : 1);
+  state.sort = k; render();
+}));
+const rows = document.getElementById("rows");
+rows.addEventListener("click", e => { const tr = e.target.closest("tr[data-key]"); if (tr) openDetail(tr.dataset.key); });
+rows.addEventListener("keydown", e => { if (e.key === "Enter") { const tr = e.target.closest("tr[data-key]"); if (tr) openDetail(tr.dataset.key); } });
+
+load().catch(err => { document.getElementById("sub").textContent = "Neizdevās ielādēt datus: " + err.message; });
+</script>
+</body>
+</html>
