@@ -266,7 +266,8 @@ def scan_lmt(client, slug):
 SPEAKER_WORDS = re.compile(
     r"skaļrun|skalrun|speaker|soundbar|boombox|partybox|homepod|home ?pod|"
     r"\bjbl (charge|flip|go|clip|xtreme|pulse|boombox|partybox|encore)|"
-    r"wonderboom|megaboom|soundlink|\becho\b|\bnest\b|soundcore motion|"
+    r"wonderboom|megaboom|soundlink|\becho\b|\bnest\b|soundcore motion|\bboom ?\d|"
+    r"\bht-s|\bsoundbar|logitech [sz] ?\d|\bsrs\b|\bbluetooth speaker|"
     r"\bsrs-|\bult field|emberton|stanmore|acton|woburn|marshall (middleton|willen|kilburn)",
     re.I,
 )

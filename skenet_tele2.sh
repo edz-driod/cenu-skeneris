@@ -6,7 +6,7 @@ cd "$(dirname "$0")"
 # export TG_TOKEN=123456:ABC...   # Telegram (neobligāti)
 # export TG_CHAT=123456789
 export OPERATORI=tele2
-git pull --rebase --quiet origin main
+git pull --rebase --autostash --quiet origin main
 python3 -m pip install --quiet -r requirements.txt
 python3 scan.py || true
 git add data

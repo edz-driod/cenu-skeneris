@@ -12,8 +12,10 @@ REM set TG_CHAT=123456789
 set OPERATORI=tele2
 set PYTHONUTF8=1
 
-git pull --rebase --quiet origin main
+git pull --rebase --autostash --quiet origin main
 python -m pip install --quiet -r requirements.txt
 python scan.py
 git add data
-git commit --quiet -m "Tele2 cenas (lokāli)" && git push --quiet origin main
+git commit --quiet -m "Tele2 cenas (lokāli)"
+git pull --rebase --quiet origin main
+git push --quiet origin main
