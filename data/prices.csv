@@ -1,0 +1,466 @@
+scanned_at,operator,category,id,brand,model,monthly,monthly_old,full,full_old,url
+2026-10-29T18:53:00+00:00,bite,telefoni,23413,Samsung,Galaxy A27,8.29,14.54,199.0,349.0,https://www.bite.lv/lv/telefoni/samsung-galaxy-a27
+2026-10-29T18:53:00+00:00,bite,telefoni,22509,Samsung,Galaxy A57,11.84,22.04,379.0,529.0,https://www.bite.lv/lv/telefoni/samsung-galaxy-a57
+2026-10-29T18:53:00+00:00,bite,telefoni,24395,Samsung,Galaxy S26 FE,31.21,,999.0,,https://www.bite.lv/lv/telefoni/samsung-galaxy-s26-fe
+2026-10-29T18:53:00+00:00,bite,telefoni,24605,Xiaomi,Redmi Note 17,10.37,,249.0,,https://www.bite.lv/lv/telefoni/xiaomi-redmi-note-17
+2026-10-29T18:53:00+00:00,bite,telefoni,24611,Xiaomi,Redmi Note 17 Pro Max,22.87,,549.0,,https://www.bite.lv/lv/telefoni/xiaomi-redmi-note-17-pro-max
+2026-10-29T18:53:00+00:00,bite,telefoni,20609,Apple,iPhone 17 Pro,39.96,,1279.0,,https://www.bite.lv/lv/telefoni/apple-iphone-17-pro
+2026-10-29T18:53:00+00:00,bite,telefoni,20611,Apple,iPhone 17 Pro Max,43.71,,1399.0,,https://www.bite.lv/lv/telefoni/apple-iphone-17-pro-max
+2026-10-29T18:53:00+00:00,bite,telefoni,20567,Samsung,Galaxy A17,14.54,,349.0,,https://www.bite.lv/lv/telefoni/samsung-galaxy-a17-0
+2026-10-29T18:53:00+00:00,bite,telefoni,24571,Poco,F9 Ultra,36.62,41.62,879.0,999.0,https://www.bite.lv/lv/telefoni/poco-f9-ultra
+2026-10-29T18:53:00+00:00,bite,telefoni,23661,Samsung,Galaxy Fold8 Ultra,61.53,92.45,1969.0,2219.0,https://www.bite.lv/lv/telefoni/samsung-galaxy-fold8-ultra
+2026-10-29T18:53:00+00:00,bite,telefoni,22817,Xiaomi,17T Pro,34.12,41.62,819.0,999.0,https://www.bite.lv/lv/telefoni/xiaomi-17t-pro
+2026-10-29T18:53:00+00:00,bite,telefoni,22121,Xiaomi,17,34.12,41.62,819.0,999.0,https://www.bite.lv/lv/telefoni/xiaomi-17
+2026-10-29T18:53:00+00:00,bite,telefoni,18067,Samsung,Galaxy S25,21.53,35.79,689.0,859.0,https://www.bite.lv/lv/telefoni/samsung-galaxy-s25
+2026-10-29T18:53:00+00:00,bite,telefoni,23657,Samsung,Galaxy Flip8,36.21,54.54,1159.0,1309.0,https://www.bite.lv/lv/telefoni/samsung-galaxy-flip8
+2026-10-29T18:53:00+00:00,bite,telefoni,22815,Xiaomi,17T,25.79,31.2,619.0,749.0,https://www.bite.lv/lv/telefoni/xiaomi-17t
+2026-10-29T18:53:00+00:00,bite,telefoni,23659,Samsung,Galaxy Fold8,59.34,84.12,1899.0,2019.0,https://www.bite.lv/lv/telefoni/samsung-galaxy-fold8
+2026-10-29T18:53:00+00:00,bite,telefoni,22177,Samsung,Galaxy S26,28.09,42.04,899.0,1009.0,https://www.bite.lv/lv/telefoni/samsung-galaxy-s26
+2026-10-29T18:53:00+00:00,bite,telefoni,21647,Honor,Magic8 Pro,49.95,54.12,1199.0,1299.0,https://www.bite.lv/lv/telefoni/honor-magic8-pro
+2026-10-29T18:53:00+00:00,bite,telefoni,18055,Xiaomi,Redmi Note 14 5G,8.29,11.2,199.0,269.0,https://www.bite.lv/lv/telefoni/xiaomi-redmi-note-14-5g
+2026-10-29T18:53:00+00:00,bite,telefoni,16807,Samsung,Galaxy S24+ | Izpakota ierīce,47.46,49.95,1139.05,1199.0,https://www.bite.lv/lv/telefoni/samsung-galaxy-s24plus-izpakota-ierice
+2026-10-29T18:53:00+00:00,bite,telefoni,20409,Xiaomi,Redmi 15,7.45,9.54,179.0,229.0,https://www.bite.lv/lv/telefoni/xiaomi-redmi-15-1
+2026-10-29T18:53:00+00:00,bite,telefoni,22123,Xiaomi,17 Ultra,60.37,62.45,1449.0,1499.0,https://www.bite.lv/lv/telefoni/xiaomi-17-ultra
+2026-10-29T18:53:00+00:00,bite,telefoni,21645,Honor,Magic8 Lite,16.62,18.7,399.0,449.0,https://www.bite.lv/lv/telefoni/honor-magic8-lite
+2026-10-29T18:53:00+00:00,bite,telefoni,24879,Samsung,Galaxy S25 FE | Izpakota ierīce,32.41,34.12,778.05,819.0,https://www.bite.lv/lv/telefoni/samsung-galaxy-s25-fe-izpakota-ierice
+2026-10-29T18:53:00+00:00,bite,telefoni,22511,Poco,X8 Pro,17.45,19.12,419.0,459.0,https://www.bite.lv/lv/telefoni/poco-x8-pro
+2026-10-29T18:53:00+00:00,bite,telefoni,20407,Xiaomi,Redmi 15C,5.77,7.32,138.57,175.77,https://www.bite.lv/lv/telefoni/xiaomi-redmi-15c
+2026-10-29T18:53:00+00:00,bite,telefoni,15295,Hammer,Blade V,11.36,12.7,272.68,304.85,https://www.bite.lv/lv/telefoni/hammer-blade-v
+2026-10-29T18:53:00+00:00,bite,telefoni,20411,Xiaomi,Redmi 15,8.29,9.54,199.0,229.0,https://www.bite.lv/lv/telefoni/xiaomi-redmi-15
+2026-10-29T18:53:00+00:00,bite,telefoni,21589,Xiaomi,Redmi Note 15 Pro 4G,10.37,11.36,249.0,272.68,https://www.bite.lv/lv/telefoni/xiaomi-redmi-note-15-pro-4g
+2026-10-29T18:53:00+00:00,bite,telefoni,21585,Xiaomi,Redmi Note 15 4G,9.12,9.54,219.0,229.0,https://www.bite.lv/lv/telefoni/xiaomi-redmi-note-15-4g
+2026-10-29T18:53:00+00:00,bite,telefoni,20839,Poco,C85,4.54,4.95,109.0,119.0,https://www.bite.lv/lv/telefoni/poco-c85
+2026-10-29T18:53:00+00:00,bite,telefoni,24861,Doro,1880 | Izpakota ierīce,,,75.05,79.0,https://www.bite.lv/lv/telefoni/doro-1880-izpakota-ierice
+2026-10-29T18:53:00+00:00,bite,telefoni,25063,Poco,C95 Pro,9.95,,239.0,,https://www.bite.lv/lv/telefoni/poco-c95-pro
+2026-10-29T18:53:00+00:00,bite,telefoni,25065,Poco,X8,16.62,,399.0,,https://www.bite.lv/lv/telefoni/poco-x8
+2026-10-29T18:53:00+00:00,bite,telefoni,24825,Samsung,Galaxy A18,11.62,,279.0,,https://www.bite.lv/lv/telefoni/samsung-galaxy-a18
+2026-10-29T18:53:00+00:00,bite,telefoni,24697,Apple,iPhone 18 Pro,48.4,,1549.0,,https://www.bite.lv/lv/telefoni/apple-iphone-18-pro
+2026-10-29T18:53:00+00:00,bite,telefoni,24699,Apple,iPhone 18 Pro Max,53.09,,1699.0,,https://www.bite.lv/lv/telefoni/apple-iphone-18-pro-max
+2026-10-29T18:53:00+00:00,bite,telefoni,24701,Apple,iPhone Duo,76.53,,2449.0,,https://www.bite.lv/lv/telefoni/apple-iphone-duo
+2026-10-29T18:53:00+00:00,bite,telefoni,24607,Xiaomi,Redmi Note 17,12.45,,299.0,,https://www.bite.lv/lv/telefoni/xiaomi-redmi-note-17-0
+2026-10-29T18:53:00+00:00,bite,telefoni,24609,Xiaomi,Redmi Note 17 Pro,16.62,,399.0,,https://www.bite.lv/lv/telefoni/xiaomi-redmi-note-17-pro
+2026-10-29T18:53:00+00:00,bite,telefoni,24565,Xiaomi,Redmi 17,8.29,,199.0,,https://www.bite.lv/lv/telefoni/xiaomi-redmi-17
+2026-10-29T18:53:00+00:00,bite,telefoni,24567,Xiaomi,Redmi 17,9.54,,229.0,,https://www.bite.lv/lv/telefoni/xiaomi-redmi-17-0
+2026-10-29T18:53:00+00:00,bite,telefoni,24569,Poco,F9 Pro,33.29,,799.0,,https://www.bite.lv/lv/telefoni/poco-f9-pro
+2026-10-29T18:53:00+00:00,bite,telefoni,23601,Honor,600 Smart,12.45,,299.0,,https://www.bite.lv/lv/telefoni/honor-600-smart
+2026-10-29T18:53:00+00:00,bite,telefoni,23603,Honor,600 Lite,16.62,,399.0,,https://www.bite.lv/lv/telefoni/honor-600-lite
+2026-10-29T18:53:00+00:00,bite,telefoni,23605,Honor,600,29.12,,699.0,,https://www.bite.lv/lv/telefoni/honor-600
+2026-10-29T18:53:00+00:00,bite,telefoni,23607,Honor,600 Pro,45.79,,1099.0,,https://www.bite.lv/lv/telefoni/honor-600-pro
+2026-10-29T18:53:00+00:00,bite,telefoni,22581,Nothing,Phone (4a Pro),23.29,,559.0,,https://www.bite.lv/lv/telefoni/nothing-phone-4a-pro
+2026-10-29T18:53:00+00:00,bite,telefoni,22513,Poco,X8 Pro Max,24.95,,599.0,,https://www.bite.lv/lv/telefoni/poco-x8-pro-max
+2026-10-29T18:53:00+00:00,bite,telefoni,22507,Samsung,Galaxy A37,17.87,,429.0,,https://www.bite.lv/lv/telefoni/samsung-galaxy-a37
+2026-10-29T18:53:00+00:00,bite,telefoni,22297,Apple,iPhone 17e,28.09,,899.0,,https://www.bite.lv/lv/telefoni/apple-iphone-17e
+2026-10-29T18:53:00+00:00,bite,telefoni,22293,Hammer,Energy X2,14.95,,359.0,,https://www.bite.lv/lv/telefoni/hammer-energy-x2
+2026-10-29T18:53:00+00:00,bite,telefoni,22295,Hammer,Iron 6,14.95,,359.0,,https://www.bite.lv/lv/telefoni/hammer-iron-6
+2026-10-29T18:53:00+00:00,bite,telefoni,22179,Samsung,Galaxy S26+,45.59,,1459.0,,https://www.bite.lv/lv/telefoni/samsung-galaxy-s26plus
+2026-10-29T18:53:00+00:00,bite,telefoni,22181,Samsung,Galaxy S26 Ultra,45.59,,1459.0,,https://www.bite.lv/lv/telefoni/samsung-galaxy-s26-ultra
+2026-10-29T18:53:00+00:00,bite,telefoni,21637,Poco,M8,10.37,,249.0,,https://www.bite.lv/lv/telefoni/poco-m8
+2026-10-29T18:53:00+00:00,bite,telefoni,21639,Poco,M8 Pro,14.37,,345.07,,https://www.bite.lv/lv/telefoni/poco-m8-pro
+2026-10-29T18:53:00+00:00,bite,telefoni,20607,Apple,iPhone 17,36.84,,1179.0,,https://www.bite.lv/lv/telefoni/apple-iphone-17
+2026-10-29T18:53:00+00:00,bite,telefoni,20553,MaxCom,MM41D,,,93.0,,https://www.bite.lv/lv/telefoni/maxcom-mm41d
+2026-10-29T18:53:00+00:00,bite,telefoni,20555,MaxCom,MM39D,,,47.0,,https://www.bite.lv/lv/telefoni/maxcom-mm39d
+2026-10-29T18:53:00+00:00,bite,telefoni,20405,Xiaomi,Redmi 15C 4G,4.99,,119.97,,https://www.bite.lv/lv/telefoni/xiaomi-redmi-15c-4g
+2026-10-29T18:53:00+00:00,bite,telefoni,19965,Realme,14,12.45,,299.0,,https://www.bite.lv/lv/telefoni/realme-14
+2026-10-29T18:53:00+00:00,bite,telefoni,19969,Realme,GT 7,24.12,,579.0,,https://www.bite.lv/lv/telefoni/realme-gt-7
+2026-10-29T18:53:00+00:00,bite,telefoni,19735,HMD,105 4G,,,41.99,,https://www.bite.lv/lv/telefoni/hmd-105-4g
+2026-10-29T18:53:00+00:00,bite,telefoni,18541,Apple,iPhone 16e,21.21,,679.0,,https://www.bite.lv/lv/telefoni/apple-iphone-16e
+2026-10-29T18:53:00+00:00,bite,telefoni,17393,HMD,Skyline,21.2,,509.0,,https://www.bite.lv/lv/telefoni/hmd-skyline
+2026-10-29T18:53:00+00:00,bite,telefoni,16975,Apple,iPhone 16,31.21,,999.0,,https://www.bite.lv/lv/telefoni/apple-iphone-16
+2026-10-29T18:53:00+00:00,bite,telefoni,14297,Samsung,Galaxy Xcover 7 EE,17.87,,429.0,,https://www.bite.lv/lv/telefoni/samsung-galaxy-xcover-7-ee
+2026-10-29T18:53:00+00:00,bite,telefoni,13573,myPhone,Halo 3 LTE,,,46.8,,https://www.bite.lv/lv/telefoni/myphone-halo-3-lte
+2026-10-29T18:53:00+00:00,bite,telefoni,13571,myPhone,6410 LTE,,,36.0,,https://www.bite.lv/lv/telefoni/myphone-6410-lte
+2026-10-29T18:53:00+00:00,bite,telefoni,13419,Apple,iPhone 15,25.59,,819.0,,https://www.bite.lv/lv/telefoni/apple-iphone-15
+2026-10-29T18:53:00+00:00,bite,pulksteni,20161,Samsung,Galaxy Watch8 LTE,17.87,,429.0,,https://www.bite.lv/lv/esim-viedpulksteni/samsung-galaxy-watch8-lte
+2026-10-29T18:53:00+00:00,bite,pulksteni,20169,Samsung,Galaxy Watch8 Classic LTE,22.87,24.12,549.0,579.0,https://www.bite.lv/lv/esim-viedpulksteni/samsung-galaxy-watch8-classic-lte
+2026-10-29T18:53:00+00:00,bite,pulksteni,23663,Samsung,Galaxy Watch9 LTE,19.12,,459.0,,https://www.bite.lv/lv/esim-viedpulksteni/samsung-galaxy-watch9-lte
+2026-10-29T18:53:00+00:00,bite,pulksteni,23665,Samsung,Galaxy Watch Ultra2 LTE,22.87,31.2,549.0,749.0,https://www.bite.lv/lv/esim-viedpulksteni/samsung-galaxy-watch-ultra2-lte
+2026-10-29T18:53:00+00:00,bite,pulksteni,16769,Samsung,Galaxy Watch6 Classic 43mm | Izpakota ierīce,13.02,19.54,312.55,469.0,https://www.bite.lv/lv/esim-viedpulksteni/samsung-galaxy-watch6-classic-43mm-izpakota-ierice
+2026-10-29T18:53:00+00:00,bite,pulksteni,16103,Samsung,Galaxy Watch6 Classic 47mm | Izpakota ierīce,14.21,16.72,341.05,401.37,https://www.bite.lv/lv/esim-viedpulksteni/samsung-galaxy-watch6-classic-47mm-izpakota-ierice
+2026-10-29T18:53:00+00:00,bite,pulksteni,25069,Huawei,Watch 6 Pro Ceramics Case | 43 mm,25.79,28.29,619.0,679.0,https://www.bite.lv/lv/esim-viedpulksteni/huawei-watch-6-pro-ceramics-case-43-mm
+2026-10-29T18:53:00+00:00,bite,pulksteni,25071,Huawei,Watch 6 Stainless Steel Case | 46 mm,17.87,20.37,429.0,489.0,https://www.bite.lv/lv/esim-viedpulksteni/huawei-watch-6-stainless-steel-case-46-mm
+2026-10-29T18:53:00+00:00,bite,pulksteni,25073,Huawei,Watch 6 Pro Titanium Case | 46 mm,25.79,28.29,619.0,679.0,https://www.bite.lv/lv/esim-viedpulksteni/huawei-watch-6-pro-titanium-case-46-mm
+2026-10-29T18:53:00+00:00,bite,pulksteni,13917,Canyon,"4G Kids Smartwatch ""Jondy"" KW-44",,,59.0,119.0,https://www.bite.lv/lv/sim-bernu-viedpulksteni/canyon-4g-kids-smartwatch-jondy-kw-44
+2026-10-29T18:53:00+00:00,bite,pulksteni,24911,Apple,Watch Ultra 3 Titanium Case | Izpakota ierīce,36.77,38.7,882.55,929.0,https://www.bite.lv/lv/esim-viedpulksteni/apple-watch-ultra-3-titanium-case-izpakota-ierice
+2026-10-29T18:53:00+00:00,bite,pulksteni,20983,Huawei,Watch 5 LTE Titanium | Izpakota ierīce,25.68,27.04,616.55,649.0,https://www.bite.lv/lv/esim-viedpulksteni/huawei-watch-5-lte-titanium-izpakota-ierice
+2026-10-29T18:53:00+00:00,bite,pulksteni,24915,Huawei,Watch 5 LTE Titanium | Izpakota ierīce,21.73,22.87,521.55,549.0,https://www.bite.lv/lv/esim-viedpulksteni/huawei-watch-5-lte-titanium-izpakota-ierice-0
+2026-10-29T18:53:00+00:00,bite,pulksteni,24921,Xplora,XGO3 Kids smartwatch 2nd | Izpakota ierīce,6.68,7.04,160.55,169.0,https://www.bite.lv/lv/sim-bernu-viedpulksteni/xplora-xgo3-kids-smartwatch-2nd-izpakota-ierice
+2026-10-29T18:53:00+00:00,bite,pulksteni,16767,Super G,Active Pro bērnu drošības pulkstenis | Izpakota ierīce,5.89,6.2,141.55,149.0,https://www.bite.lv/lv/sim-bernu-viedpulksteni/super-g-active-pro-bernu-drosibas-pulkstenis-izpakota-ierice
+2026-10-29T18:53:00+00:00,bite,pulksteni,24703,Apple,Watch Series 12 Aluminium Case,24.12,,579.0,,https://www.bite.lv/lv/esim-viedpulksteni/apple-watch-series-12-aluminium-case
+2026-10-29T18:53:00+00:00,bite,pulksteni,24705,Apple,Watch Series 12 Titanium Case,35.79,,859.0,,https://www.bite.lv/lv/esim-viedpulksteni/apple-watch-series-12-titanium-case
+2026-10-29T18:53:00+00:00,bite,pulksteni,24707,Apple,Watch Series 12 Ceramic Case,44.12,,1059.0,,https://www.bite.lv/lv/esim-viedpulksteni/apple-watch-series-12-ceramic-case
+2026-10-29T18:53:00+00:00,bite,pulksteni,24709,Apple,Watch Ultra 4 Titanium Case,43.29,,1039.0,,https://www.bite.lv/lv/esim-viedpulksteni/apple-watch-ultra-4-titanium-case
+2026-10-29T18:53:00+00:00,bite,pulksteni,24681,Garmin,fēnix 9 Pro inReach | 43 mm,49.95,,1199.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-fenix-9-pro-inreach-43-mm
+2026-10-29T18:53:00+00:00,bite,pulksteni,24687,Garmin,fēnix 9 | 43 mm,,,999.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-fenix-9-43-mm
+2026-10-29T18:53:00+00:00,bite,pulksteni,24689,Garmin,fēnix 9 | 47 mm,41.62,,999.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-fenix-9-47-mm
+2026-10-29T18:53:00+00:00,bite,pulksteni,24691,Garmin,fēnix 9 | 51 mm,,,1099.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-fenix-9-51-mm
+2026-10-29T18:53:00+00:00,bite,pulksteni,23765,Garett,Twin 2,,,79.0,,https://www.bite.lv/lv/sim-bernu-viedpulksteni/garett-twin-2
+2026-10-29T18:53:00+00:00,bite,pulksteni,23767,Garett,Essa,,,89.0,,https://www.bite.lv/lv/sim-bernu-viedpulksteni/garett-essa
+2026-10-29T18:53:00+00:00,bite,pulksteni,23769,Garett,Essa 2 AI,4.54,,109.0,,https://www.bite.lv/lv/sim-bernu-viedpulksteni/garett-essa-2-ai
+2026-10-29T18:53:00+00:00,bite,pulksteni,23771,Garett,Vita 4G Senior Smartwatch,,,99.0,,https://www.bite.lv/lv/esim-viedpulksteni/garett-vita-4g-senior-smartwatch
+2026-10-29T18:53:00+00:00,bite,pulksteni,23773,TCL,Movetime 4G Kids Smartwatch MT48,5.37,,129.0,,https://www.bite.lv/lv/sim-bernu-viedpulksteni/tcl-movetime-4g-kids-smartwatch-mt48
+2026-10-29T18:53:00+00:00,bite,pulksteni,23725,Garmin,CIRQA Smart Band | L/XL,,,199.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-cirqa-smart-band-lxl
+2026-10-29T18:53:00+00:00,bite,pulksteni,23727,Garmin,CIRQA Smart Band | S/M,,,199.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-cirqa-smart-band-sm
+2026-10-29T18:53:00+00:00,bite,pulksteni,22989,Garmin,Forerunner 170,,,259.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-forerunner-170
+2026-10-29T18:53:00+00:00,bite,pulksteni,22991,Garmin,Forerunner 70,9.12,,215.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-forerunner-70
+2026-10-29T18:53:00+00:00,bite,pulksteni,22809,Xplora,XGO3 Kids smartwatch 2nd,7.04,,169.0,,https://www.bite.lv/lv/sim-bernu-viedpulksteni/xplora-xgo3-kids-smartwatch-2nd
+2026-10-29T18:53:00+00:00,bite,pulksteni,22811,Xplora,X6Play Kids smartwatch 2nd,9.12,,219.0,,https://www.bite.lv/lv/sim-bernu-viedpulksteni/xplora-x6play-kids-smartwatch-2nd
+2026-10-29T18:53:00+00:00,bite,pulksteni,22805,Xiaomi,Smart Band 9 Active,,,29.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/xiaomi-smart-band-9-active
+2026-10-29T18:53:00+00:00,bite,pulksteni,22741,Garmin,Forerunner 265,,,329.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-forerunner-265
+2026-10-29T18:53:00+00:00,bite,pulksteni,22725,Garmin,Forerunner 265S,,,339.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-forerunner-265s
+2026-10-29T18:53:00+00:00,bite,pulksteni,22743,Garmin,Instinct 3 45 mm | Solar,,,249.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-instinct-3-45-mm-solar
+2026-10-29T18:53:00+00:00,bite,pulksteni,22745,Garmin,Instinct 3 50 mm | Solar,,,279.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-instinct-3-50-mm-solar
+2026-10-29T18:53:00+00:00,bite,pulksteni,22729,Huawei,Watch GT Runner 2,16.62,,399.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/huawei-watch-gt-runner-2
+2026-10-29T18:53:00+00:00,bite,pulksteni,22005,Super G,i5,6.62,,159.0,,https://www.bite.lv/lv/sim-bernu-viedpulksteni/super-g-i5
+2026-10-29T18:53:00+00:00,bite,pulksteni,21567,Canyon,"""Zefir"" KW-49",,,129.0,,https://www.bite.lv/lv/sim-bernu-viedpulksteni/canyon-zefir-kw-49
+2026-10-29T18:53:00+00:00,bite,pulksteni,21331,OnePlus,Watch 3 | 43mm,10.79,,259.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/oneplus-watch-3-43mm
+2026-10-29T18:53:00+00:00,bite,pulksteni,21153,Garmin,Kids Bounce 2,,,249.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-kids-bounce-2
+2026-10-29T18:53:00+00:00,bite,pulksteni,21155,Garmin,Venu 4 | 41 mm,,,419.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-venu-4-41-mm
+2026-10-29T18:53:00+00:00,bite,pulksteni,21157,Garmin,Venu 4 | 45 mm,,,419.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-venu-4-45-mm
+2026-10-29T18:53:00+00:00,bite,pulksteni,20825,Garmin,fēnix 8 Pro | 47mm,,,879.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-fenix-8-pro-47mm
+2026-10-29T18:53:00+00:00,bite,pulksteni,20615,Apple,Watch SE 3 Aluminium Case,13.7,,329.0,,https://www.bite.lv/lv/esim-viedpulksteni/apple-watch-se-3-aluminium-case
+2026-10-29T18:53:00+00:00,bite,pulksteni,20621,Apple,Watch Ultra 3 Titanium Case,38.7,,929.0,,https://www.bite.lv/lv/esim-viedpulksteni/apple-watch-ultra-3-titanium-case
+2026-10-29T18:53:00+00:00,bite,pulksteni,20343,Garmin,Venu X1,,,529.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-venu-x1
+2026-10-29T18:53:00+00:00,bite,pulksteni,19685,Canyon,"4G Kids Smartwatch ""Sunny"" KW-48",,,149.0,,https://www.bite.lv/lv/sim-bernu-viedpulksteni/canyon-4g-kids-smartwatch-sunny-kw-48
+2026-10-29T18:53:00+00:00,bite,pulksteni,19379,Garmin,Vivoactive 6,,,235.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-vivoactive-6
+2026-10-29T18:53:00+00:00,bite,pulksteni,18095,Garmin,Instinct 3 | 45 mm,,,279.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-instinct-3-45-mm
+2026-10-29T18:53:00+00:00,bite,pulksteni,18097,Garmin,Instinct 3 | 50 mm,,,359.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-instinct-3-50-mm
+2026-10-29T18:53:00+00:00,bite,pulksteni,18063,Xiaomi,Redmi Watch 5 Active,,,39.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/xiaomi-redmi-watch-5-active
+2026-10-29T18:53:00+00:00,bite,pulksteni,16679,Garmin,fēnix 8 AMOLED | 51mm,,,699.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-fenix-8-amoled-51mm
+2026-10-29T18:53:00+00:00,bite,pulksteni,16543,Kake Make,Kids 4G LT38KAKEMAKE,,,109.0,,https://www.bite.lv/lv/sim-bernu-viedpulksteni/kake-make-kids-4g-lt38kakemake
+2026-10-29T18:53:00+00:00,bite,pulksteni,14801,Garmin,Forerunner 165,,,185.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-forerunner-165
+2026-10-29T18:53:00+00:00,bite,pulksteni,13667,Garmin,Venu 3S,,,335.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-venu-3s
+2026-10-29T18:53:00+00:00,bite,pulksteni,13645,Garmin,Vivoactive 5,,,159.0,,https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-vivoactive-5
+2026-10-29T18:53:00+00:00,bite,pulksteni,10461,Super G,Active Pro bērnu drošības pulkstenis,6.2,,149.0,,https://www.bite.lv/lv/sim-bernu-viedpulksteni/super-g-active-pro-bernu-drosibas-pulkstenis
+2026-10-29T18:53:00+00:00,bite,austinas,19793,JBL,Tune Flex 2,,,45.0,69.0,https://www.bite.lv/lv/austinas/jbl-tune-flex-2
+2026-10-29T18:53:00+00:00,bite,austinas,24711,Apple,AirPods 5,6.2,,149.0,,https://www.bite.lv/lv/ear-austinas/apple-airpods-5
+2026-10-29T18:53:00+00:00,bite,austinas,24713,Apple,AirPods 5 | Wireless Charging Case,7.04,,169.0,,https://www.bite.lv/lv/ear-austinas/apple-airpods-5-wireless-charging-case
+2026-10-29T18:53:00+00:00,bite,austinas,13101,JBL,Tune 770NC,,,49.0,89.0,https://www.bite.lv/lv/over-ear-austinas/jbl-tune-770nc
+2026-10-29T18:53:00+00:00,bite,austinas,21167,JBL,Wave Buds 2,,,35.0,69.0,https://www.bite.lv/lv/austinas/jbl-wave-buds-2
+2026-10-29T18:53:00+00:00,bite,austinas,19277,JBL,Tour ONE M3,7.45,12.45,179.0,299.0,https://www.bite.lv/lv/over-ear-austinas/jbl-tour-one-m3
+2026-10-29T18:53:00+00:00,bite,austinas,10873,Sudio,E2,,,69.0,126.0,https://www.bite.lv/lv/austinas/sudio-e2
+2026-10-29T18:53:00+00:00,bite,austinas,11005,Monster,Clarity 108,,,39.0,90.0,https://www.bite.lv/lv/ear-austinas/monster-clarity-108
+2026-10-29T18:53:00+00:00,bite,austinas,21169,JBL,Wave Beam 2,,,35.0,79.0,https://www.bite.lv/lv/austinas/jbl-wave-beam-2
+2026-10-29T18:53:00+00:00,bite,austinas,11289,Sudio,N2 Pro,,,45.0,79.0,https://www.bite.lv/lv/austinas/sudio-n2-pro
+2026-10-29T18:53:00+00:00,bite,austinas,16985,Apple,AirPods 4,9.91,12.41,119.0,149.0,https://www.bite.lv/lv/austinas/apple-airpods-4
+2026-10-29T18:53:00+00:00,bite,austinas,13117,JBL,Vibe Buds,,,29.0,59.0,https://www.bite.lv/lv/ear-austinas/jbl-vibe-buds
+2026-10-29T18:53:00+00:00,bite,austinas,13881,Sudio,K2 Hybrid,,,39.0,65.0,https://www.bite.lv/lv/over-ear-austinas/sudio-k2-hybrid
+2026-10-29T18:53:00+00:00,bite,austinas,13139,Sudio,A1 Wireless Bluetooth Earbuds,,,19.0,39.0,https://www.bite.lv/lv/ear-austinas/sudio-a1-wireless-bluetooth-earbuds
+2026-10-29T18:53:00+00:00,bite,austinas,13099,JBL,Tune 670NC,,,39.0,59.0,https://www.bite.lv/lv/over-ear-austinas/jbl-tune-670nc
+2026-10-29T18:53:00+00:00,bite,austinas,14013,Sudio,A1 Pro,,,26.97,46.49,https://www.bite.lv/lv/austinas/sudio-a1-pro
+2026-10-29T18:53:00+00:00,bite,austinas,4847,OnePlus,Buds,,,72.0,90.0,https://www.bite.lv/lv/austinas/oneplus-buds
+2026-10-29T18:53:00+00:00,bite,austinas,24839,JBL,Tune 770NC | Izpakota ierīce,,,84.55,89.0,https://www.bite.lv/lv/over-ear-austinas/jbl-tune-770nc-izpakota-ierice-1
+2026-10-29T18:53:00+00:00,bite,austinas,24837,JBL,Tune 770NC | Izpakota ierīce,,,84.55,89.0,https://www.bite.lv/lv/over-ear-austinas/jbl-tune-770nc-izpakota-ierice-0
+2026-10-29T18:53:00+00:00,bite,austinas,24835,JBL,T110 | Izpakota ierīce,,,9.49,9.99,https://www.bite.lv/lv/austinas/jbl-t110-izpakota-ierice
+2026-10-29T18:53:00+00:00,bite,austinas,25135,JBL,Live 780NC,5.37,,129.0,,https://www.bite.lv/lv/over-ear-austinas/jbl-live-780nc
+2026-10-29T18:53:00+00:00,bite,austinas,25141,JBL,Quantum 400,,,79.0,,https://www.bite.lv/lv/over-ear-austinas/jbl-quantum-400
+2026-10-29T18:53:00+00:00,bite,austinas,25143,JBL,Tune 535BT,,,49.0,,https://www.bite.lv/lv/ear-austinas/jbl-tune-535bt
+2026-10-29T18:53:00+00:00,bite,austinas,25145,JBL,Tune 735BT,,,59.0,,https://www.bite.lv/lv/over-ear-austinas/jbl-tune-735bt
+2026-10-29T18:53:00+00:00,bite,austinas,25147,JBL,Tune 785NC,,,99.0,,https://www.bite.lv/lv/over-ear-austinas/jbl-tune-785nc
+2026-10-29T18:53:00+00:00,bite,austinas,24675,Honor,Choice Pro,,,99.0,,https://www.bite.lv/lv/over-ear-austinas/honor-choice-pro
+2026-10-29T18:53:00+00:00,bite,austinas,24677,Xiaomi,Redmi Buds 8 Lite,,,26.9,,https://www.bite.lv/lv/ear-austinas/xiaomi-redmi-buds-8-lite
+2026-10-29T18:53:00+00:00,bite,austinas,23723,JBL,Tune 520BT 2,,,29.0,,https://www.bite.lv/lv/ear-austinas/jbl-tune-520bt-2
+2026-10-29T18:53:00+00:00,bite,austinas,23401,Lenovo,H210,,,48.0,,https://www.bite.lv/lv/over-ear-austinas/lenovo-h210
+2026-10-29T18:53:00+00:00,bite,austinas,22847,Anker Soundcore,Space One Pro,7.87,,189.0,,https://www.bite.lv/lv/over-ear-austinas/anker-soundcore-space-one-pro
+2026-10-29T18:53:00+00:00,bite,austinas,22849,Anker Soundcore,Liberty 4 Pro,,,129.0,,https://www.bite.lv/lv/austinas/anker-soundcore-liberty-4-pro
+2026-10-29T18:53:00+00:00,bite,austinas,22851,Anker Soundcore,R60i,,,69.0,,https://www.bite.lv/lv/ear-austinas/anker-soundcore-r60i
+2026-10-29T18:53:00+00:00,bite,austinas,22853,Anker Soundcore,Liberty Buds,,,79.0,,https://www.bite.lv/lv/austinas/anker-soundcore-liberty-buds
+2026-10-29T18:53:00+00:00,bite,austinas,22855,Anker Soundcore,V20i,,,39.0,,https://www.bite.lv/lv/open-ear-austinas/anker-soundcore-v20i
+2026-10-29T18:53:00+00:00,bite,austinas,22857,Anker Soundcore,Sleep A20,6.2,,149.0,,https://www.bite.lv/lv/austinas/anker-soundcore-sleep-a20
+2026-10-29T18:53:00+00:00,bite,austinas,22859,Anker Soundcore,Sleep A30,10.37,,249.0,,https://www.bite.lv/lv/austinas/anker-soundcore-sleep-a30
+2026-10-29T18:53:00+00:00,bite,austinas,22747,JBL,Tune 530BT,,,49.0,,https://www.bite.lv/lv/ear-austinas/jbl-tune-530bt
+2026-10-29T18:53:00+00:00,bite,austinas,22749,JBL,Tune 680NC,,,79.0,,https://www.bite.lv/lv/ear-austinas/jbl-tune-680nc
+2026-10-29T18:53:00+00:00,bite,austinas,22751,JBL,Tune 730BT,,,59.0,,https://www.bite.lv/lv/over-ear-austinas/jbl-tune-730bt
+2026-10-29T18:53:00+00:00,bite,austinas,22753,JBL,Tune 780NC,,,99.0,,https://www.bite.lv/lv/over-ear-austinas/jbl-tune-780nc
+2026-10-29T18:53:00+00:00,bite,austinas,22757,JBL,Live 680NC,6.2,,149.0,,https://www.bite.lv/lv/ear-austinas/jbl-live-680nc
+2026-10-29T18:53:00+00:00,bite,austinas,22585,Apple,AirPods Max 2,24.95,,599.0,,https://www.bite.lv/lv/over-ear-austinas/apple-airpods-max-2
+2026-10-29T18:53:00+00:00,bite,austinas,22183,Samsung,Galaxy Buds4,7.45,,179.0,,https://www.bite.lv/lv/austinas/samsung-galaxy-buds4
+2026-10-29T18:53:00+00:00,bite,austinas,22185,Samsung,Galaxy Buds4 Pro,10.37,,249.0,,https://www.bite.lv/lv/austinas/samsung-galaxy-buds4-pro
+2026-10-29T18:53:00+00:00,bite,austinas,22059,OnePlus,Buds 4,4.95,,119.0,,https://www.bite.lv/lv/austinas/oneplus-buds-4
+2026-10-29T18:53:00+00:00,bite,austinas,21443,Huawei,Freebuds 7i,,,99.0,,https://www.bite.lv/lv/austinas/huawei-freebuds-7i
+2026-10-29T18:53:00+00:00,bite,austinas,21171,JBL,Live Buds 3,8.29,,199.0,,https://www.bite.lv/lv/austinas/jbl-live-buds-3
+2026-10-29T18:53:00+00:00,bite,austinas,21173,JBL,Live Flex 3,8.29,,199.0,,https://www.bite.lv/lv/austinas/jbl-live-flex-3
+2026-10-29T18:53:00+00:00,bite,austinas,21159,JBL,Quantum 100 M2,,,39.0,,https://www.bite.lv/lv/over-ear-austinas/jbl-quantum-100-m2
+2026-10-29T18:53:00+00:00,bite,austinas,21161,JBL,Quantum 350,,,99.0,,https://www.bite.lv/lv/over-ear-austinas/jbl-quantum-350
+2026-10-29T18:53:00+00:00,bite,austinas,21165,JBL,Quantum 910,10.37,,249.0,,https://www.bite.lv/lv/over-ear-austinas/jbl-quantum-910
+2026-10-29T18:53:00+00:00,bite,austinas,20623,Apple,AirPods Pro 3,10.79,,259.0,,https://www.bite.lv/lv/austinas/apple-airpods-pro-3
+2026-10-29T18:53:00+00:00,bite,austinas,20559,Samsung,Galaxy Buds3 FE,6.2,,149.0,,https://www.bite.lv/lv/austinas/samsung-galaxy-buds3-fe
+2026-10-29T18:53:00+00:00,bite,austinas,20483,Anker,Soundcore Liberty 4 NC,,,89.0,,https://www.bite.lv/lv/austinas/anker-soundcore-liberty-4-nc
+2026-10-29T18:53:00+00:00,bite,austinas,20485,Anker,Soundcore Liberty 5,,,99.0,,https://www.bite.lv/lv/austinas/anker-soundcore-liberty-5
+2026-10-29T18:53:00+00:00,bite,austinas,20487,Anker,Soundcore Sport X20,,,99.0,,https://www.bite.lv/lv/ear-austinas/anker-soundcore-sport-x20
+2026-10-29T18:53:00+00:00,bite,austinas,20491,Anker,Soundcore K20i,,,19.0,,https://www.bite.lv/lv/austinas/anker-soundcore-k20i
+2026-10-29T18:53:00+00:00,bite,austinas,20499,Anker,Soundcore Q20i,,,49.0,,https://www.bite.lv/lv/over-ear-austinas/anker-soundcore-q20i
+2026-10-29T18:53:00+00:00,bite,austinas,20501,Anker,Soundcore Q11i,,,39.0,,https://www.bite.lv/lv/over-ear-austinas/anker-soundcore-q11i
+2026-10-29T18:53:00+00:00,bite,austinas,20461,Anker,Soundcore Q30,,,79.0,,https://www.bite.lv/lv/over-ear-austinas/anker-soundcore-q30
+2026-10-29T18:53:00+00:00,bite,austinas,20463,Anker,Soundcore Space One,,,99.0,,https://www.bite.lv/lv/over-ear-austinas/anker-soundcore-space-one
+2026-10-29T18:53:00+00:00,bite,austinas,19839,OnePlus,Nord Buds 3 Pro,,,59.0,,https://www.bite.lv/lv/austinas/oneplus-nord-buds-3-pro
+2026-10-29T18:53:00+00:00,bite,austinas,19785,JBL,Junior 470NC,,,69.0,,https://www.bite.lv/lv/over-ear-austinas/jbl-junior-470nc
+2026-10-29T18:53:00+00:00,bite,austinas,19787,JBL,Wave Flex 2,,,79.0,,https://www.bite.lv/lv/austinas/jbl-wave-flex-2
+2026-10-29T18:53:00+00:00,bite,austinas,19789,JBL,Tune Beam 2,,,85.0,,https://www.bite.lv/lv/austinas/jbl-tune-beam-2
+2026-10-29T18:53:00+00:00,bite,austinas,19791,JBL,Tune Buds 2,,,69.0,,https://www.bite.lv/lv/austinas/jbl-tune-buds-2
+2026-10-29T18:53:00+00:00,bite,austinas,19803,JBL,Live Beam 3,8.29,,199.0,,https://www.bite.lv/lv/austinas/jbl-live-beam-3
+2026-10-29T18:53:00+00:00,bite,austinas,19797,JBL,Endurance Race 2,,,99.0,,https://www.bite.lv/lv/ear-austinas/jbl-endurance-race-2
+2026-10-29T18:53:00+00:00,bite,austinas,19525,Xiaomi,Redmi Buds 6,,,44.9,,https://www.bite.lv/lv/austinas/xiaomi-redmi-buds-6
+2026-10-29T18:53:00+00:00,bite,austinas,18867,Huawei,FreeArc,,,89.0,,https://www.bite.lv/lv/open-ear-austinas/huawei-freearc
+2026-10-29T18:53:00+00:00,bite,austinas,18695,Dyson,onTrac,20.79,,499.0,,https://www.bite.lv/lv/over-ear-austinas/dyson-ontrac
+2026-10-29T18:53:00+00:00,bite,austinas,18675,Marshall,Motif II A.N.C.,8.29,,199.0,,https://www.bite.lv/lv/austinas/marshall-motif-ii-anc
+2026-10-29T18:53:00+00:00,bite,austinas,18677,Marshall,Mode EQ,,,79.0,,https://www.bite.lv/lv/austinas/marshall-mode-eq
+2026-10-29T18:53:00+00:00,bite,austinas,18679,Marshall,Minor IV,5.37,,129.0,,https://www.bite.lv/lv/austinas/marshall-minor-iv
+2026-10-29T18:53:00+00:00,bite,austinas,18683,Marshall,Mode,,,59.0,,https://www.bite.lv/lv/austinas/marshall-mode
+2026-10-29T18:53:00+00:00,bite,austinas,18589,Marshall,Major V,6.2,,149.0,,https://www.bite.lv/lv/ear-austinas/marshall-major-v
+2026-10-29T18:53:00+00:00,bite,austinas,17973,Sony,WH-CH720N,,,99.0,,https://www.bite.lv/lv/over-ear-austinas/sony-wh-ch720n
+2026-10-29T18:53:00+00:00,bite,austinas,17975,Sony,ULT WEAR,7.49,,179.9,,https://www.bite.lv/lv/over-ear-austinas/sony-ult-wear
+2026-10-29T18:53:00+00:00,bite,austinas,17905,Marshall,Major IV,5.37,,129.0,,https://www.bite.lv/lv/ear-austinas/marshall-major-iv
+2026-10-29T18:53:00+00:00,bite,austinas,17893,Canyon,OnRiff 10,,,49.99,,https://www.bite.lv/lv/over-ear-austinas/canyon-onriff-10
+2026-10-29T18:53:00+00:00,bite,austinas,17899,Sony,WH-1000XM5,13.29,,319.0,,https://www.bite.lv/lv/over-ear-austinas/sony-wh-1000xm5
+2026-10-29T18:53:00+00:00,bite,austinas,17705,Dyson,onTrac WP02,20.79,,499.0,,https://www.bite.lv/lv/over-ear-austinas/dyson-ontrac-wp02
+2026-10-29T18:53:00+00:00,bite,austinas,17493,Apple,Ear-Pods,,,25.0,,https://www.bite.lv/lv/austinas/apple-ear-pods
+2026-10-29T18:53:00+00:00,bite,austinas,16841,Sennheiser,HD 400S,,,69.0,,https://www.bite.lv/lv/over-ear-austinas/sennheiser-hd-400s
+2026-10-29T18:53:00+00:00,bite,austinas,16659,Xiaomi,Redmi Buds 6 Active,,,16.99,,https://www.bite.lv/lv/austinas/xiaomi-redmi-buds-6-active
+2026-10-29T18:53:00+00:00,bite,austinas,16667,Sennheiser,HD 560S,8.29,,199.0,,https://www.bite.lv/lv/over-ear-austinas/sennheiser-hd-560s
+2026-10-29T18:53:00+00:00,bite,austinas,16669,Sennheiser,HD 599,8.29,,199.0,,https://www.bite.lv/lv/over-ear-austinas/sennheiser-hd-599
+2026-10-29T18:53:00+00:00,bite,austinas,16671,Sennheiser,HD 569,6.2,,149.0,,https://www.bite.lv/lv/over-ear-austinas/sennheiser-hd-569
+2026-10-29T18:53:00+00:00,bite,austinas,16549,Kake Make,Bezvadu austiņas bērniem,,,39.99,,https://www.bite.lv/lv/ear-austinas/kake-make-bezvadu-austinas-berniem
+2026-10-29T18:53:00+00:00,bite,austinas,16331,Samsung,Galaxy Buds3,,,179.0,,https://www.bite.lv/lv/austinas/samsung-galaxy-buds3
+2026-10-29T18:53:00+00:00,bite,austinas,16269,Beats by Dre,Solo Buds,,,89.0,,https://www.bite.lv/lv/austinas/beats-dre-solo-buds
+2026-10-29T18:53:00+00:00,bite,austinas,16089,JBL,Vibe Flex,,,39.0,,https://www.bite.lv/lv/austinas/jbl-vibe-flex
+2026-10-29T18:53:00+00:00,bite,austinas,16091,JBL,Wave Buds,,,39.0,,https://www.bite.lv/lv/austinas/jbl-wave-buds
+2026-10-29T18:53:00+00:00,bite,austinas,15625,JBL,Live 770NC,,,75.0,,https://www.bite.lv/lv/over-ear-austinas/jbl-live-770nc
+2026-10-29T18:53:00+00:00,bite,austinas,15479,JBL,Tune 310C USB-C,,,19.9,,https://www.bite.lv/lv/austinas/jbl-tune-310c-usb-c
+2026-10-29T18:53:00+00:00,bite,austinas,15431,JBL,Live 670NC,,,59.0,,https://www.bite.lv/lv/ear-austinas/jbl-live-670nc
+2026-10-29T18:53:00+00:00,bite,austinas,15297,Honor,Choice Earbuds X5,,,50.0,,https://www.bite.lv/lv/austinas/honor-choice-earbuds-x5
+2026-10-29T18:53:00+00:00,bite,austinas,14791,Sennheiser,Momentum True Wireless 4,12.45,,299.0,,https://www.bite.lv/lv/austinas/sennheiser-momentum-true-wireless-4
+2026-10-29T18:53:00+00:00,bite,austinas,14793,Sennheiser,Accentum Plus Wireless,9.54,,229.0,,https://www.bite.lv/lv/over-ear-austinas/sennheiser-accentum-plus-wireless
+2026-10-29T18:53:00+00:00,bite,austinas,14779,Beats by Dre,Beats Flex,,,76.0,,https://www.bite.lv/lv/austinas/beats-dre-beats-flex
+2026-10-29T18:53:00+00:00,bite,austinas,14531,Skullcandy,DIME 3 True Wireless Earbuds,,,39.95,,https://www.bite.lv/lv/austinas/skullcandy-dime-3-true-wireless-earbuds
+2026-10-29T18:53:00+00:00,bite,austinas,14533,Skullcandy,Crusher Evo Wireless Headphones,7.87,,189.0,,https://www.bite.lv/lv/over-ear-austinas/skullcandy-crusher-evo-wireless-headphones
+2026-10-29T18:53:00+00:00,bite,austinas,14125,Xiaomi,Redmi Buds 5 Pro,,,69.0,,https://www.bite.lv/lv/austinas/xiaomi-redmi-buds-5-pro
+2026-10-29T18:53:00+00:00,bite,austinas,13751,Realme,Buds Air Pro,,,68.0,,https://www.bite.lv/lv/austinas/realme-buds-air-pro
+2026-10-29T18:53:00+00:00,bite,austinas,13695,Sennheiser,ACCENTUM Wireless,7.5,,180.0,,https://www.bite.lv/lv/over-ear-austinas/sennheiser-accentum-wireless
+2026-10-29T18:53:00+00:00,bite,austinas,13297,Razer,BlackShark V2 X,,,79.99,,https://www.bite.lv/lv/over-ear-austinas/razer-blackshark-v2-x-0
+2026-10-29T18:53:00+00:00,bite,austinas,13341,Beats by Dre,Studio Pro,16.5,,396.0,,https://www.bite.lv/lv/over-ear-austinas/beats-dre-studio-pro
+2026-10-29T18:53:00+00:00,bite,austinas,13343,Beats by Dre,Studio Buds +,8.29,,199.0,,https://www.bite.lv/lv/austinas/beats-dre-studio-buds-plus
+2026-10-29T18:53:00+00:00,bite,austinas,13097,JBL,Tune 520BT,,,25.0,,https://www.bite.lv/lv/over-ear-austinas/jbl-tune-520bt
+2026-10-29T18:53:00+00:00,bite,austinas,13103,JBL,Tune 720BT,,,59.0,,https://www.bite.lv/lv/over-ear-austinas/jbl-tune-720bt
+2026-10-29T18:53:00+00:00,bite,austinas,13107,JBL,Wave Flex,,,39.0,,https://www.bite.lv/lv/austinas/jbl-wave-flex
+2026-10-29T18:53:00+00:00,bite,austinas,13113,JBL,Tune Flex,,,49.0,,https://www.bite.lv/lv/austinas/jbl-tune-flex
+2026-10-29T18:53:00+00:00,bite,austinas,12847,Logitech,Stereo H111,,,19.99,,https://www.bite.lv/lv/ear-austinas/logitech-stereo-h111
+2026-10-29T18:53:00+00:00,bite,austinas,12871,Logitech,H151 Stereo,,,23.99,,https://www.bite.lv/lv/ear-austinas/logitech-h151-stereo
+2026-10-29T18:53:00+00:00,bite,austinas,12873,Logitech,H340 USB Headset,,,29.99,,https://www.bite.lv/lv/ear-austinas/logitech-h340-usb-headset
+2026-10-29T18:53:00+00:00,bite,austinas,12523,Razer,Gaming Headset Kraken V3 X,,,84.99,,https://www.bite.lv/lv/over-ear-austinas/razer-gaming-headset-kraken-v3-x
+2026-10-29T18:53:00+00:00,bite,austinas,11441,Sennheiser,Momentum 4,14.54,,349.0,,https://www.bite.lv/lv/over-ear-austinas/sennheiser-momentum-4
+2026-10-29T18:53:00+00:00,bite,austinas,9587,JBL,JR 460NC,,,43.0,,https://www.bite.lv/lv/over-ear-austinas/jbl-jr-460nc
+2026-10-29T18:53:00+00:00,bite,austinas,8511,Samsung,"3,5 mm austiņas",,,14.9,,https://www.bite.lv/lv/ear-austinas/samsung-35-mm-austinas
+2026-10-29T18:53:00+00:00,bite,austinas,8029,JBL,JR310BT,,,29.0,,https://www.bite.lv/lv/ear-austinas/jbl-jr310bt
+2026-10-29T18:53:00+00:00,bite,austinas,6491,JBL,T110,,,9.99,,https://www.bite.lv/lv/austinas/jbl-t110
+2026-10-29T18:53:00+00:00,bite,austinas,5255,Monster,Clarity 101 bezvadu austiņas,5.0,,39.0,120.0,https://www.bite.lv/lv/ear-austinas/monster-clarity-101-bezvadu-austinas
+2026-10-29T18:53:00+00:00,bite,austinas,4374,Samsung,AKG Type-C Earphones,,,29.9,,https://www.bite.lv/lv/austinas/samsung-akg-type-c-earphones
+2026-10-29T18:53:00+00:00,lmt,telefoni,5fd67342-13b2-46f1-9739-872724f5c468,Samsung,Galaxy S25 Ultra,41.63,,999.0,,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-s25-ultra/12-256-gb-titana-melna-dl
+2026-10-29T18:53:00+00:00,lmt,telefoni,02b07014-7433-4a82-880f-3ab39f875575,Samsung,Galaxy S25 Edge,28.3,,679.0,,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-s25-edge/256-gb-titana-melna-dl
+2026-10-29T18:53:00+00:00,lmt,telefoni,6e42b48e-37ab-4587-97aa-092c0362345b,Redmi,A7 Pro 4G,4.96,,119.0,,https://www.lmt.lv/veikals/visi-telefoni/redmi-a7-pro-4g/melna
+2026-10-29T18:53:00+00:00,lmt,telefoni,2adcbcfc-0bd9-499e-bd4d-d5b452f06ef8,POCO,C95 Pro,9.96,,239.0,,https://www.lmt.lv/veikals/visi-telefoni/poco-c95-pro/zala-128-gb
+2026-10-29T18:53:00+00:00,lmt,telefoni,8e3d132c-7517-4ca2-838a-864a89c370b1,Samsung,Galaxy S25 FE,24.96,33.71,599.0,809.01,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-s25-fe/tumsi-zila-8-256-gb
+2026-10-29T18:53:00+00:00,lmt,telefoni,e57d8bb9-d573-41eb-9f76-26452f2ef0fa,POCO,X8,14.96,16.63,359.0,399.0,https://www.lmt.lv/veikals/visi-telefoni/poco-x8/oranza
+2026-10-29T18:53:00+00:00,lmt,telefoni,358d2957-ff02-423a-8e81-8bcc49cc71c0,Apple,iPhone Duo,102.05,,2449.0,,https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-duo/256gb-star-white
+2026-10-29T18:53:00+00:00,lmt,telefoni,8cbfd4eb-39e6-46d9-8631-8c04adbfb461,Apple,iPhone 18 Pro Max,70.8,,1699.0,,https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-18-pro-max/256gb-burgundy
+2026-10-29T18:53:00+00:00,lmt,telefoni,aea5df98-7ff4-4c6e-a4cc-18b0aafd494d,Apple,iPhone 18 Pro,64.55,,1549.01,,https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-18-pro/256gb-black
+2026-10-29T18:53:00+00:00,lmt,telefoni,30098e0a-2a1e-4c3f-bd56-36e99cbe7a64,Hammer,Iron 6 5G,12.46,14.55,299.0,349.0,https://www.lmt.lv/veikals/visi-telefoni/hammer-iron-6-5g/melna-128-gb
+2026-10-29T18:53:00+00:00,lmt,telefoni,bd26616d-05d1-42e5-b84d-8bfdedbf0b79,Redmi,Note 17 Pro Max 5G,22.88,,549.0,,https://www.lmt.lv/veikals/visi-telefoni/redmi-note-17-pro-max-5g/zala
+2026-10-29T18:53:00+00:00,lmt,telefoni,454eed7f-60cf-4707-b2a5-a05846762c23,Redmi,Note 17 Pro 5G,16.63,,399.0,,https://www.lmt.lv/veikals/visi-telefoni/redmi-note-17-pro-5g/violeta
+2026-10-29T18:53:00+00:00,lmt,telefoni,29f5e83e-c2e6-4910-a19c-8a0cef8d9c1b,Redmi,Note 17 5G,12.46,,299.0,,https://www.lmt.lv/veikals/visi-telefoni/redmi-note-17-5g/melna
+2026-10-29T18:53:00+00:00,lmt,telefoni,5c45fbae-79f5-4557-ba9d-721dcb3fede9,Samsung,Galaxy Fold8,83.3,,1999.0,,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-fold8/lavanda-12-gb-256-gb
+2026-10-29T18:53:00+00:00,lmt,telefoni,675bf746-8eae-4200-ae4e-0008ea0cdd34,Samsung,Galaxy Flip8,54.13,,1299.0,,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-flip8/roza-12-gb-256-gb
+2026-10-29T18:53:00+00:00,lmt,telefoni,7a9f0c65-5ad7-4077-9dd6-9bea9aac83a9,Redmi,17 5G,8.3,9.55,199.0,229.0,https://www.lmt.lv/veikals/visi-telefoni/redmi-17-5g/melna
+2026-10-29T18:53:00+00:00,lmt,telefoni,043cb6ef-9c36-4bc8-a32a-84f3b993390e,Samsung,Galaxy S26 FE,33.3,,799.0,,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-s26-fe/8-128-gb-mellenu
+2026-10-29T18:53:00+00:00,lmt,telefoni,d944bfc3-6515-4cad-8f6e-994c9b774190,Google,Pixel 11 Pro XL,64.55,,1549.01,,https://www.lmt.lv/veikals/visi-telefoni/google-pixel-11-pro-xl/olivu
+2026-10-29T18:53:00+00:00,lmt,telefoni,82d2a6bf-1e33-462a-901b-27a714de5895,Google,Pixel 11 Pro,55.38,,1329.0,,https://www.lmt.lv/veikals/visi-telefoni/google-pixel-11-pro/kanjona
+2026-10-29T18:53:00+00:00,lmt,telefoni,28248506-7dee-4ff1-8ab0-df8d37df3d61,POCO,F9 Pro,31.25,,749.99,,https://www.lmt.lv/veikals/visi-telefoni/poco-f9-pro/melna
+2026-10-29T18:53:00+00:00,lmt,telefoni,569ae68a-d885-4642-b48e-0a94a8f98d2b,POCO,F9 Ultra,37.46,,899.01,,https://www.lmt.lv/veikals/visi-telefoni/poco-f9-ultra/tumsi-sarkana
+2026-10-29T18:53:00+00:00,lmt,telefoni,3876cc6f-2f01-4fd5-8027-52355a7972c7,Samsung,Galaxy A56 EE,13.71,,329.0,,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-a56-ee/lieliska-grafita
+2026-10-29T18:53:00+00:00,lmt,telefoni,11b37104-f17b-4bce-a18b-9c955d903568,POCO,X8 Pro,16.63,18.71,399.0,448.99,https://www.lmt.lv/veikals/visi-telefoni/poco-x8-pro/dzeltena
+2026-10-29T18:53:00+00:00,lmt,telefoni,2ff35b0a-8faf-4bf3-b113-28451fc08ff8,Samsung,Galaxy Fold8 Ultra,91.63,,2199.01,,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-fold8-ultra/violeta-12-gb-256-gb
+2026-10-29T18:53:00+00:00,lmt,telefoni,3b347ecc-333e-4cd6-ba9c-80c7234d949e,Google,Pixel 11,45.8,,1098.99,,https://www.lmt.lv/veikals/visi-telefoni/google-pixel-11/pistacija-12-256-gb
+2026-10-29T18:53:00+00:00,lmt,telefoni,3b48e0ed-9c9b-4121-80ce-2ebcfbbe1baa,Samsung,Galaxy A27,8.3,14.55,199.0,349.0,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-a27/6-128-gb-melna
+2026-10-29T18:53:00+00:00,lmt,telefoni,4f63b308-ee63-4d02-9096-73681b1ff54e,Xiaomi,17T Pro,41.63,,999.0,,https://www.lmt.lv/veikals/visi-telefoni/xiaomi-17t-pro/tumsi-zila
+2026-10-29T18:53:00+00:00,lmt,telefoni,778c90df-56c2-4209-8742-01c18fa7c495,Xiaomi,17T,24.96,31.21,599.0,749.0,https://www.lmt.lv/veikals/visi-telefoni/xiaomi-17t/violeta
+2026-10-29T18:53:00+00:00,lmt,telefoni,9a210f33-0388-42c6-805d-655513bb6025,POCO,X8 Pro Max,22.46,24.13,539.0,579.0,https://www.lmt.lv/veikals/visi-telefoni/poco-x8-pro-max/256-gb-melna
+2026-10-29T18:53:00+00:00,lmt,telefoni,aa32d52f-4d18-4642-bba4-e7631f1e6c21,Nothing,Phone (4a) Pro,23.3,,559.0,,https://www.lmt.lv/veikals/visi-telefoni/nothing-phone-4a-pro/8-gb-128-gb-melna
+2026-10-29T18:53:00+00:00,lmt,telefoni,46dc32ab-262a-456f-a996-dd040b9df3e1,Apple,iPhone 17e,37.46,,899.01,,https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-17e/256-gb-gaisi-roza
+2026-10-29T18:53:00+00:00,lmt,telefoni,03bf9c3a-505c-4a8e-be43-f8d59d3a8785,Samsung,Galaxy A57,17.88,,429.01,,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-a57/8-128-gb-lieliski-gaisi-violeta
+2026-10-29T18:53:00+00:00,lmt,telefoni,60145cc0-bc3d-40d7-95b6-c6cc9c5dd058,Samsung,Galaxy A37,17.46,,419.0,,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-a37/6-128-gb-lieliski-balta
+2026-10-29T18:53:00+00:00,lmt,telefoni,09c4519c-d1d6-4bb4-84c2-8522d818bb59,Xiaomi,17 Ultra,54.13,62.46,1299.0,1499.0,https://www.lmt.lv/veikals/visi-telefoni/xiaomi-17-ultra/zala
+2026-10-29T18:53:00+00:00,lmt,telefoni,d4d5f2d4-e57e-4681-b0a4-c64614caeeaa,Doro,Leva E10,3.13,,75.0,,https://www.lmt.lv/veikals/visi-telefoni/doro-leva-e10/melna
+2026-10-29T18:53:00+00:00,lmt,telefoni,541cb584-4cc1-44dc-821d-786d6f2e0568,Google,Pixel 10a,24.96,,599.0,,https://www.lmt.lv/veikals/visi-telefoni/google-pixel-10a/128-gb-obsidians
+2026-10-29T18:53:00+00:00,lmt,telefoni,46fc5751-6478-47b5-93f6-1ed7ebd10d88,Samsung,Galaxy S26+,52.05,,1249.0,,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-s26-plus/12-256-gb-kobalta-violeta
+2026-10-29T18:53:00+00:00,lmt,telefoni,e34ff218-8d55-4502-9d1b-e5c22d99c1d7,Samsung,Galaxy S26,41.63,,999.0,,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-s26/12-256-gb-kobalta-violeta
+2026-10-29T18:53:00+00:00,lmt,telefoni,604dc160-bcb9-4d98-85a3-b5d7ee10b2bb,Samsung,Galaxy S26 Ultra,59.55,,1429.0,,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-s26-ultra/12-256-gb-kobalta-violeta
+2026-10-29T18:53:00+00:00,lmt,telefoni,847dcb5c-32c3-439d-b132-e50efe02311d,Samsung,Galaxy A17 4G,8.3,,199.0,,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-a17-4g/gaisi-zila
+2026-10-29T18:53:00+00:00,lmt,telefoni,f032567b-2a43-4f70-bb8a-a983b0fa71a2,Nokia,225 4G,2.88,,68.99,,https://www.lmt.lv/veikals/visi-telefoni/nokia-225-4g/tumsi-zila
+2026-10-29T18:53:00+00:00,lmt,telefoni,aa07513b-1529-403e-b487-7c79dc8912f7,Apple,iPhone 17 Pro Max,60.38,,1449.0,,https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-17-pro-max/256-gb-tumsi-zila
+2026-10-29T18:53:00+00:00,lmt,telefoni,ca31c512-7c1a-40b1-9061-a6d6af1852e5,Apple,iPhone 17 Pro,53.71,,1289.0,,https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-17-pro/256-gb-kosmiski-oranza
+2026-10-29T18:53:00+00:00,lmt,telefoni,368ba449-6a77-448a-9a84-d089068828b3,Apple,iPhone 17,49.13,,1179.0,,https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-17/256-gb-zala
+2026-10-29T18:53:00+00:00,lmt,telefoni,8c0f7fde-5fb6-4458-a7a1-ae8ff806beb4,POCO,C85,5.0,,120.0,,https://www.lmt.lv/veikals/visi-telefoni/poco-c85/128-gb-melna
+2026-10-29T18:53:00+00:00,lmt,telefoni,90d7c16e-c945-400b-b58e-e76eae9dfa0a,Samsung,Galaxy A17 5G,8.71,,209.0,,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-a17-5g/melna
+2026-10-29T18:53:00+00:00,lmt,telefoni,681fdcd4-c392-4fd7-bf46-7c02d7cada1b,Samsung,Galaxy S25,24.13,26.21,579.0,628.99,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-s25/128-gb-zilmelna
+2026-10-29T18:53:00+00:00,lmt,telefoni,d7cd3c9e-8261-483a-acf0-0c775a589bc6,Samsung,Galaxy Flip7 FE,20.8,37.46,499.0,899.01,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-flip7-fe/8-128-gb-melna
+2026-10-29T18:53:00+00:00,lmt,telefoni,3b64f24c-fc2e-45d2-ad58-1f8465cc1827,Samsung,Galaxy XCover7 Pro,21.63,23.71,519.0,569.0,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-xcover7-pro/6-gb-128-gb-melna
+2026-10-29T18:53:00+00:00,lmt,telefoni,e917316f-3cd6-4c6c-92cb-68c35806c17b,Apple,iPhone 16e,30.38,32.05,729.0,769.0,https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-16e/256-gb-melna
+2026-10-29T18:53:00+00:00,lmt,telefoni,0631d43c-5118-4125-b9e3-788812dfa9ce,Apple,iPhone 16,44.13,,1059.0,,https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-16/melns-128-gb
+2026-10-29T18:53:00+00:00,lmt,telefoni,f7b7f43b-17f2-42df-9f25-5f07ca952a1e,Samsung,Galaxy Xcover7,10.38,12.46,249.0,299.0,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-xcover-7/melns
+2026-10-29T18:53:00+00:00,lmt,telefoni,f5321bd7-3c26-41ed-a066-6215bda4a781,Apple,iPhone 15,34.96,,839.0,,https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-15/melns-128-gb
+2026-10-29T18:53:00+00:00,lmt,telefoni,db245eb6-f1f0-49f6-9dcc-e5587ca2e25d,Google,Pixel 10 Pro XL,34.87,,836.83,,https://www.lmt.lv/veikals/visi-telefoni/google-pixel-10-pro-xl/16-512-gb-obsidians-mazlietots
+2026-10-29T18:53:00+00:00,lmt,telefoni,db681f98-145b-484b-99d1-09ae1f844b9b,Xiaomi,15T,18.12,,434.83,,https://www.lmt.lv/veikals/visi-telefoni/xiaomi-15t/melna-mazlietots
+2026-10-29T18:53:00+00:00,lmt,telefoni,f16dc255-eb1e-4e55-9c95-32403dbd1e0a,Google,Pixel 10,19.52,,468.33,,https://www.lmt.lv/veikals/visi-telefoni/google-pixel-10/12-128-gb-obsidians-mazlietots
+2026-10-29T18:53:00+00:00,lmt,telefoni,4755a84f-d34d-4220-8eb3-881691cd2f98,Xiaomi,15,21.75,,521.93,,https://www.lmt.lv/veikals/visi-telefoni/xiaomi-15/melna-mazlietots
+2026-10-29T18:53:00+00:00,lmt,telefoni,ca1ee642-fc1b-4df3-8e32-a5bd29362f2f,Nothing,Phone (3a) Pro,11.14,,267.33,,https://www.lmt.lv/veikals/visi-telefoni/nothing-phone-3a-pro/melna-mazlietots
+2026-10-29T18:53:00+00:00,lmt,telefoni,a235b1e6-b106-422f-aae3-9baff5a7471e,Apple,iPhone 16 Plus,32.64,,783.24,,https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-16-plus/melns-256-gb-mazlietots
+2026-10-29T18:53:00+00:00,lmt,telefoni,b9f2d25d-a490-4608-9a83-b274971f856c,POCO,X7 Pro,11.14,,267.33,,https://www.lmt.lv/veikals/visi-telefoni/poco-x7-pro/melna-mazlietots
+2026-10-29T18:53:00+00:00,lmt,telefoni,4f469720-107b-42f8-9b71-540f68cef081,Redmi,Note 14 5G,5.56,,133.33,,https://www.lmt.lv/veikals/visi-telefoni/redmi-note-14-5g/melna-mazlietots
+2026-10-29T18:53:00+00:00,lmt,telefoni,7b7084d8-c697-4383-84d5-b47d211b6d60,Xiaomi,14T,11.14,,267.33,,https://www.lmt.lv/veikals/visi-telefoni/xiaomi-14t/citronu-zals-mazlietots
+2026-10-29T18:53:00+00:00,lmt,telefoni,3c78e605-16c3-4301-afbb-81e7d7f73586,Samsung,Galaxy A56,9.75,,233.83,,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-a56/128-gb-peleka-mazlietots
+2026-10-29T18:53:00+00:00,lmt,telefoni,4be166d1-ba1e-4fb8-b1f9-1e36c9ca6c4f,Apple,iPhone 16 Pro Max,45.53,,1092.63,,https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-16-pro-max/zeltaini-bruns-titana-256-gb-mazlietots
+2026-10-29T18:53:00+00:00,lmt,telefoni,08cd211b-afab-4f39-a2aa-53af7886d7e6,Redmi,Note 14 4G,6.12,,146.73,,https://www.lmt.lv/veikals/visi-telefoni/redmi-note-14-4g/melna-mazlietots
+2026-10-29T18:53:00+00:00,lmt,telefoni,6c4daf72-8e6c-476a-a97b-0f0af2be084c,Samsung,Galaxy S25+,19.41,,465.65,,https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-s25-plus/12-256-gb-tumsi-zila-mazlietots
+2026-10-29T18:53:00+00:00,lmt,telefoni,2e38908a-3f8c-40ce-9424-855852493c92,Apple,iPhone 16 Pro,32.92,,789.93,,https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-16-pro/zeltaini-bruns-titana-128-gb-mazlietots
+2026-10-29T18:53:00+00:00,lmt,telefoni,d261b1ea-3b1d-434a-be1a-de4a939a935f,Apple,iPhone 15 Pro,26.78,,642.53,,https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-15-pro/balts-128-gb-mazlietots-4
+2026-10-29T18:53:00+00:00,lmt,telefoni,1fe0f6a7-9329-4c7b-9db2-2ff7e5845195,Apple,iPhone 15 Pro Max,36.9,,885.5,,https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-15-pro-max/dabigs-titans-256-gb-mazlietots
+2026-10-29T18:53:00+00:00,lmt,telefoni,8a9fd253-f3ff-46ec-be1f-4541c1b2f6aa,Apple,iPhone 14 Pro,23.99,,575.53,,https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-14-pro/iphone-14-pro-silver-256-mazlietots
+2026-10-29T18:53:00+00:00,lmt,pulksteni,53158733-4f64-4c15-b05d-fc3b842ef263,Apple,Watch Ultra 4 49mm,39.13,,939.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/apple-watch-ultra-4-49mm/ocean-melna
+2026-10-29T18:53:00+00:00,lmt,pulksteni,a5e6e3ec-1318-4ef0-86a4-32abfb829efc,Apple,Watch Series 12 46mm,39.13,,939.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/apple-watch-series-12-46mm/dabiga-sm
+2026-10-29T18:53:00+00:00,lmt,pulksteni,0a2b95e8-2472-48ab-b2ba-415305a33d9f,Apple,Watch Series 12 42mm,37.05,,889.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/apple-watch-series-12-42mm/zelta
+2026-10-29T18:53:00+00:00,lmt,pulksteni,618daeb6-bbcb-421f-853f-5087f1f56d89,Apple,Watch Series 12 46mm Aluminium Case,21.63,,519.01,,https://www.lmt.lv/veikals/visi-viedpulksteni/apple-watch-series-12-46mm-aluminium-case/melna-sm
+2026-10-29T18:53:00+00:00,lmt,pulksteni,9c597591-4695-48e7-b3e9-14677122ad42,Apple,Watch Series 12 42mm Aluminium Case,19.55,,469.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/apple-watch-series-12-42mm-aluminium-case/smilsu-sm
+2026-10-29T18:53:00+00:00,lmt,pulksteni,982ff4f1-6d68-4e15-9987-ba2447cc0f3e,Apple,Watch SE 3 44mm,13.3,,319.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/apple-watch-se-3-44mm/zila-sm
+2026-10-29T18:53:00+00:00,lmt,pulksteni,3bebbc6e-07fa-4245-84d3-db3803aabce0,Apple,Watch SE 3 40mm,12.05,,289.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/apple-watch-se-3/smilsu-sm
+2026-10-29T18:53:00+00:00,lmt,pulksteni,93283cdc-4eb9-4aa1-82ae-3664d66cb7df,Garmin,fēnix 9 Pro Solar 51mm,54.13,,1299.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-fenix-9-pro-solar-51mm/titana
+2026-10-29T18:53:00+00:00,lmt,pulksteni,f9d92e32-0f58-4665-889f-eed7d4697e65,Garmin,fēnix 9 Pro 51mm,54.13,,1299.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-fenix-9-pro-51mm/titana
+2026-10-29T18:53:00+00:00,lmt,pulksteni,66048c0b-efc3-4094-9341-f66696061832,Garmin,fēnix 9 Pro 47mm,49.96,,1199.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-fenix-9-pro-47mm/titana
+2026-10-29T18:53:00+00:00,lmt,pulksteni,68d917cc-3fd1-4525-88d6-d6a578cf0545,Garmin,fēnix 9 Pro 43mm,49.96,,1199.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-fenix-9-pro-43mm/titana
+2026-10-29T18:53:00+00:00,lmt,pulksteni,c49efcf9-4fe4-4584-8070-c213a27d8b64,Garmin,fēnix 9 43mm,41.63,,999.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-fenix-9-43mm/titana
+2026-10-29T18:53:00+00:00,lmt,pulksteni,2d3d6b66-58e6-49c6-ad32-8118ec5bfd62,Garmin,fēnix 9 47mm,41.63,,999.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-fenix-9-47mm/titana
+2026-10-29T18:53:00+00:00,lmt,pulksteni,89d582c2-5fce-486d-bc01-be8b2c799c77,Garmin,fēnix 9 51mm,45.8,,1098.99,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-fenix-9-51mm/titana
+2026-10-29T18:53:00+00:00,lmt,pulksteni,390c2cd5-1b5a-4dcc-a460-994e869922bd,Huawei,Watch 6 Pro 46mm,26.21,28.3,629.0,679.0,https://www.lmt.lv/veikals/visi-viedpulksteni/huawei-watch-6-pro-46mm/melna-titana
+2026-10-29T18:53:00+00:00,lmt,pulksteni,5967f777-6d38-4054-94ce-2c1cf2b8fcb7,Huawei,Watch 6 46mm,18.3,20.38,439.0,489.0,https://www.lmt.lv/veikals/visi-viedpulksteni/huawei-watch-6-46mm/melna
+2026-10-29T18:53:00+00:00,lmt,pulksteni,026492b3-53bd-4f92-9372-92830e18ffd6,Huawei,Watch 6 Pro 43mm,26.21,28.3,629.0,679.0,https://www.lmt.lv/veikals/visi-viedpulksteni/huawei-watch-6-pro-43mm/balta
+2026-10-29T18:53:00+00:00,lmt,pulksteni,428b548b-bfe5-49e0-be26-f8c711432059,Huawei,Watch 6 42mm,16.63,18.71,399.0,448.99,https://www.lmt.lv/veikals/visi-viedpulksteni/huawei-watch-6-42mm/roza
+2026-10-29T18:53:00+00:00,lmt,pulksteni,eb3e46ed-8e14-4198-bb3b-7052425a574b,Huawei,Watch D3,18.71,,448.99,,https://www.lmt.lv/veikals/visi-viedpulksteni/huawei-watch-d3/balta
+2026-10-29T18:53:00+00:00,lmt,pulksteni,ca9d225d-e2c8-42f6-a064-2d3b56b03947,Huawei,Watch GT7 41mm,12.46,,299.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/huawei-watch-gt7-41mm/roza
+2026-10-29T18:53:00+00:00,lmt,pulksteni,6d929b58-5710-48fa-86f3-5fe48c2c3543,Huawei,Watch GT7 46mm,12.46,,299.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/huawei-watch-gt7-46mm/dzeltena
+2026-10-29T18:53:00+00:00,lmt,pulksteni,d5df3b96-90f0-478c-ab51-45023f365eb9,Huawei,Watch GT7 Pro 46mm,17.88,,429.01,,https://www.lmt.lv/veikals/visi-viedpulksteni/huawei-watch-gt7-pro-46mm/melna
+2026-10-29T18:53:00+00:00,lmt,pulksteni,9f879481-2215-4d0b-be69-c2a66025889a,Google,Pixel Watch 5 45mm,18.71,,448.99,,https://www.lmt.lv/veikals/visi-viedpulksteni/google-pixel-watch-5-45mm/obsidians
+2026-10-29T18:53:00+00:00,lmt,pulksteni,1456fedb-3b4c-4fdb-8e33-b419eff8bb53,Google,Pixel Watch 5 41mm,17.46,,419.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/google-pixel-watch-5-41mm/obsidians
+2026-10-29T18:53:00+00:00,lmt,pulksteni,0aa95e9a-c323-4eb3-8b38-d1e09dc064ae,Garmin,Cirqa,8.3,,199.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-cirqa/melna-s-m
+2026-10-29T18:53:00+00:00,lmt,pulksteni,9aa5fb0a-cfe1-49f9-a22b-d8085c366a2c,Samsung,Galaxy Watch Ultra2,31.21,,749.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/samsung-galaxy-watch-ultra2/sudraba
+2026-10-29T18:53:00+00:00,lmt,pulksteni,811874f9-956a-49ce-a55b-e3612e393f3d,Samsung,Galaxy Watch9 40mm,12.46,17.05,299.0,409.0,https://www.lmt.lv/veikals/visi-viedpulksteni/samsung-galaxy-watch9-40mm/kremkrasa-bt
+2026-10-29T18:53:00+00:00,lmt,pulksteni,80a628c3-731a-47cf-b254-7579ae9ace26,Samsung,Galaxy Watch9 44mm,13.3,18.3,319.0,439.0,https://www.lmt.lv/veikals/visi-viedpulksteni/samsung-galaxy-watch9-44mm/sudraba-bt
+2026-10-29T18:53:00+00:00,lmt,pulksteni,d9299164-2292-4132-8d65-15368d08465a,Garmin,Forerunner 70,10.38,,249.01,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-forerunner-70/melna
+2026-10-29T18:53:00+00:00,lmt,pulksteni,2c445029-6819-4506-85b9-af0205ccf181,Xiaomi,Watch S5 46mm,7.05,,169.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/xiaomi-watch-s5-46mm/melna
+2026-10-29T18:53:00+00:00,lmt,pulksteni,498cd81f-18bd-48ad-b9e1-26be7007de38,Huawei,Fit 5 Pro,10.38,12.46,249.0,299.0,https://www.lmt.lv/veikals/visi-viedpulksteni/huawei-fit-5-pro/melna
+2026-10-29T18:53:00+00:00,lmt,pulksteni,6d096292-c012-43a8-b064-3b8a0fba32cd,Huawei,Fit 5,6.63,8.3,159.0,199.0,https://www.lmt.lv/veikals/visi-viedpulksteni/huawei-fit-5/violeta
+2026-10-29T18:53:00+00:00,lmt,pulksteni,f3996f0a-0af7-4067-9b12-4c6b17776170,Huawei,Watch GT Runner 2 ar papildu siksniņu,12.46,16.63,299.0,399.0,https://www.lmt.lv/veikals/visi-viedpulksteni/huawei-watch-gt-runner-2-ar-papildu-siksninu/melna
+2026-10-29T18:53:00+00:00,lmt,pulksteni,f251f531-48ee-4633-8e1e-f8605f676874,Huawei,Band 11 Pro,3.3,,79.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/huawei-band-11-pro/melna
+2026-10-29T18:53:00+00:00,lmt,pulksteni,e7529be6-ec7c-4784-bfb0-b4e4820b165a,Huawei,Band 11,1.88,2.46,45.0,59.0,https://www.lmt.lv/veikals/visi-viedpulksteni/huawei-band-11/violeta
+2026-10-29T18:53:00+00:00,lmt,pulksteni,99adc8bd-fef6-4a1c-86fd-03ecff198f78,Garmin,Bounce 2,12.46,,299.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-bounce-2/peleka
+2026-10-29T18:53:00+00:00,lmt,pulksteni,5e75ba2d-6090-4c22-b972-5a8742e9f929,Garmin,Venu 4 41mm,19.55,,469.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-venu-4-41mm/besa
+2026-10-29T18:53:00+00:00,lmt,pulksteni,e75b398d-34c6-478a-bcb5-deeb29c00067,Garmin,Venu 4 45mm,19.55,,469.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-venu-4-45mm/melna
+2026-10-29T18:53:00+00:00,lmt,pulksteni,a1f98a20-dd74-4e01-803c-04ab02340c4e,Apple,Watch SE 3 2025 44mm,14.96,,358.99,,https://www.lmt.lv/veikals/visi-viedpulksteni/apple-watch-se-3-2025-44mm/cellular-pusnakts-m-l
+2026-10-29T18:53:00+00:00,lmt,pulksteni,52ecb5b1-4fba-4164-bbab-38e8df228453,Apple,Watch SE 3 2025 40mm,11.63,,279.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/apple-watch-se-3-2025-40mm/gps-pusnakts-s-m
+2026-10-29T18:53:00+00:00,lmt,pulksteni,54d3e125-5ca3-42a2-b32e-30ece9b1c436,Apple,Watch Series 11 46mm,20.38,,489.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/apple-watch-series-11-46mm/gps-melna-melna-m-l
+2026-10-29T18:53:00+00:00,lmt,pulksteni,a793b227-024c-4f87-87e5-072276b02a77,Apple,Watch Series 11 42mm Titanium Case,36.21,,869.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/apple-watch-series-11-42mm-titanium-case/zelta-milanese
+2026-10-29T18:53:00+00:00,lmt,pulksteni,e949e9b2-4926-486c-b5e0-2b33240e7368,Apple,Watch Ultra 3 49mm,38.3,,919.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/apple-watch-ultra-3-49mm/melna-ocean
+2026-10-29T18:53:00+00:00,lmt,pulksteni,4f0519c0-a1b8-4239-927e-8894f75beceb,Huawei,Watch Ultimate 2,37.5,,900.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/huawei-watch-ultimate2/melna
+2026-10-29T18:53:00+00:00,lmt,pulksteni,83d23312-bbf9-43a8-b196-60823fbad104,Huawei,Watch GT 6 41mm,12.5,,300.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/huawei-watch-gt6-41mm/zelta
+2026-10-29T18:53:00+00:00,lmt,pulksteni,f12e84b8-3a06-450f-ad44-f5e722e458ca,Huawei,Watch GT 6 Pro 46mm,15.84,,380.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/huawei-watch-gt6-pro-46mm/melna
+2026-10-29T18:53:00+00:00,lmt,pulksteni,56b7c284-6e47-4f58-8d75-217d172cfea3,Huawei,Watch GT 6 46mm,10.42,,250.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/huawei-watch-gt6-46mm/melna
+2026-10-29T18:53:00+00:00,lmt,pulksteni,5d510223-9683-4a8c-b030-d422aa1c3f9a,Xplora,X6Play Gen2,9.55,,229.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/xplora-x6play-gen2/melna
+2026-10-29T18:53:00+00:00,lmt,pulksteni,602da5d4-3f2c-46a6-906d-2af302b11e71,Xiaomi,Smart Band 10,2.09,,50.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/xiaomi-smart-band-10/melna
+2026-10-29T18:53:00+00:00,lmt,pulksteni,1c9c4781-8d53-4656-bc37-0e3690645e5e,Samsung,Galaxy Watch8 44mm,15.8,,379.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/samsung-galaxy-watch8-44mm/lte-grafita
+2026-10-29T18:53:00+00:00,lmt,pulksteni,586272cb-a18b-46c7-900f-beac07fedfe2,Samsung,Galaxy Watch8 40mm,14.55,,349.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/samsung-galaxy-watch8-40mm/lte-sudraba
+2026-10-29T18:53:00+00:00,lmt,pulksteni,d9aee671-2408-4005-b689-f2a23a4fd612,Garmin,Venu X1,33.3,,799.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-venu-x1/melna
+2026-10-29T18:53:00+00:00,lmt,pulksteni,10916f19-4883-466b-89c6-da77f2aa1161,Garmin,Vivoactive 6,12.3,,295.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-vivoactive-6/zelta
+2026-10-29T18:53:00+00:00,lmt,pulksteni,1b857674-2f60-49b8-90cb-4be8c3a35cec,Huawei,Fit 4,5.8,,139.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/huawei-fit-4/balta
+2026-10-29T18:53:00+00:00,lmt,pulksteni,538d2e61-41e6-4522-9d01-cd0b1104c636,Huawei,Watch 5 42mm,20.63,22.71,495.0,545.0,https://www.lmt.lv/veikals/visi-viedpulksteni/huawei-watch-5-42-mm/42-mm-zelta
+2026-10-29T18:53:00+00:00,lmt,pulksteni,b9b24572-1c8b-486e-9db9-20cd52ce9055,Huawei,Watch 5 46mm,20.63,27.05,495.0,649.0,https://www.lmt.lv/veikals/visi-viedpulksteni/huawei-watch-5-46mm-2/46-mm-titana
+2026-10-29T18:53:00+00:00,lmt,pulksteni,5c4d51b1-034a-4a78-a002-bffe6ab0afe4,Huawei,Band 10,2.09,,50.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/huawei-band-10/melna
+2026-10-29T18:53:00+00:00,lmt,pulksteni,9cd9dd60-c71e-4be0-834b-18001c3e3dce,Garmin,Instinct 3 50mm,14.55,,349.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-instinct-3-50mm/melna
+2026-10-29T18:53:00+00:00,lmt,pulksteni,f755b34a-7700-45f9-9fa7-0cce0ea7b839,Garmin,Instinct 3 45mm,13.3,,319.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-instinct-3-45mm/melns
+2026-10-29T18:53:00+00:00,lmt,pulksteni,7b66ea30-c03b-40ca-b42e-5c3dabe0ae42,Xplora,XGO3 Gen2,7.05,,169.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/xplora-xgo3-gen2/melns
+2026-10-29T18:53:00+00:00,lmt,pulksteni,f1d33292-0571-4892-a460-42c25634384f,Garmin,Lily 2 Active,14.55,,349.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-lily-2-active/zelta
+2026-10-29T18:53:00+00:00,lmt,pulksteni,a14e3556-7076-4be4-96ce-bae68063b179,Garmin,fēnix 8 51mm,33.3,,799.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-fenix-8-51mm/peleks
+2026-10-29T18:53:00+00:00,lmt,pulksteni,3eddda9a-4c7b-42c4-8b95-01f47f32bfd5,Garmin,fēnix 8 47mm,29.13,,699.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-fenix-8-47mm/peleks
+2026-10-29T18:53:00+00:00,lmt,pulksteni,19f0f30a-38ce-45b2-bb2d-3b96aa37ea57,Garmin,Forerunner 165,8.3,,199.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-forerunner-165/melns-zilganpeleks
+2026-10-29T18:53:00+00:00,lmt,pulksteni,7446ea21-6db8-48ff-8894-fcaf52d5cb83,Samsung,Galaxy Fit3,2.88,,68.99,,https://www.lmt.lv/veikals/visi-viedpulksteni/samsung-galaxy-fit3/peleks
+2026-10-29T18:53:00+00:00,lmt,pulksteni,afcbf6a4-409b-489d-84ac-c3ebcb04816b,Garmin,Vivoactive 5,8.71,,209.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-vivoactive-5/cream-gold-with-ivory-band
+2026-10-29T18:53:00+00:00,lmt,pulksteni,3c45ba67-a333-47ca-9cf1-2e9e1d4bcc24,Garmin,Venu 3S,15.8,,379.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-venu-3s/soft-gold-with-ivory-band
+2026-10-29T18:53:00+00:00,lmt,pulksteni,28d07a0a-40c2-4339-859f-0c19e9040e1d,Garmin,Venu 3,15.8,,379.0,,https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-venu-3/slate-with-black-band
+2026-10-29T18:53:00+00:00,lmt,pulksteni,38d7d6c4-ae1e-4934-918d-95a320fa874d,Apple,Watch Series 9 41mm Aluminium,17.94,,430.43,,https://www.lmt.lv/veikals/visi-viedpulksteni/apple-watch-series-9-lte-41mm/melns-sport-band-s-m-mazlietots
+2026-10-29T18:53:00+00:00,lmt,pulksteni,63f373f6-4762-4d48-8d53-aa947a0bd416,Apple,Watch Series 9 45mm Aluminium,16.45,,394.63,,https://www.lmt.lv/veikals/visi-viedpulksteni/apple-watch-series-9-45mm/melns-sport-band-m-l-45-mm-mazlietots
+2026-10-29T18:53:00+00:00,lmt,austinas,24bea9e9-d06f-4e66-9031-df6b91b72916,Sony,WH-1000XM6,19.96,,479.0,,https://www.lmt.lv/veikals/austinas/sony-wh-1000xm6/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,6981859f-00b1-4469-b90b-78cafd45b936,Urbanista,Shibuya,2.05,,49.01,,https://www.lmt.lv/veikals/austinas/urbanista-shibuya/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,8b30e333-59bd-403c-aa5b-aab5281d0765,Urbanista,San Francisco 2,,,19.0,,https://www.lmt.lv/veikals/austinas/urbanista-san-francisco-2/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,549817c1-90c1-48bc-bc80-fa4aec5b6b7b,JBL,Live 780NC,7.46,,179.0,,https://www.lmt.lv/veikals/austinas/jbl-live-780nc/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,9b2c6404-4c45-4dcf-8b84-6f39f1d9e614,Sennheiser,Momentum 5,15.59,,374.0,,https://www.lmt.lv/veikals/austinas/sennheiser-momentum-5/zila
+2026-10-29T18:53:00+00:00,lmt,austinas,e7f5c24a-c7d2-4ed9-8a8f-dc32280bc70b,Nothing,Headphone (1) Pro,15.8,,379.0,,https://www.lmt.lv/veikals/austinas/nothing-headphone-1-pro/balta
+2026-10-29T18:53:00+00:00,lmt,austinas,c1abebdf-9593-495a-bd45-04d2d8533485,Beats,360 Performance Knit Cushions,12.46,,299.0,,https://www.lmt.lv/veikals/austinas/beats-360-performance-knit-cushions/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,ecdb4a1c-0004-46ee-988c-91124c908a62,Apple,AirPods 5 with Wireless Charging Case,7.46,,179.0,,https://www.lmt.lv/veikals/austinas/apple-airpods-5-with-wireless-charging-case/balta
+2026-10-29T18:53:00+00:00,lmt,austinas,5e332d4d-f25a-4cff-a2d2-63b97dc3ed7e,Apple,AirPods 5,6.63,,158.99,,https://www.lmt.lv/veikals/austinas/apple-airpods-5/balta
+2026-10-29T18:53:00+00:00,lmt,austinas,a5d0e878-d124-43a5-8cfb-a1b346bad362,Huawei,Freebuds Neo,5.38,,129.0,,https://www.lmt.lv/veikals/austinas/huawei-freebuds-neo/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,e94872bc-ae6e-4631-8729-d50fd3003e50,Nothing,Ear (3a),4.13,,99.0,,https://www.lmt.lv/veikals/austinas/nothing-ear-3a/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,f382d20e-9475-4a7e-99c5-1181def10bd8,Razer,Kraken Kitty V2,3.5,,84.0,,https://www.lmt.lv/veikals/austinas/razer-kraken-kitty-v2/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,de63fa03-94a8-4dce-8f9e-53079dec9888,Huawei,FreeClip 2 S,9.55,,229.0,,https://www.lmt.lv/veikals/austinas/huawei-freeclip-2-s/zila
+2026-10-29T18:53:00+00:00,lmt,austinas,7d894c27-4719-4fdd-8111-6e360f9e1310,Razer,Blackshark V2 Pro,6.42,,154.0,,https://www.lmt.lv/veikals/austinas/razer-blackshark-v2-pro/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,e8de7535-598f-4178-8b37-f20acf32c69c,Razer,Kraken V4 X,2.88,,68.99,,https://www.lmt.lv/veikals/austinas/razer-kraken-v4-x/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,d0aa7a61-39f5-42e0-974b-937b0c1bae19,JBL,Tune 735 BT,2.05,3.3,49.0,79.0,https://www.lmt.lv/veikals/austinas/jbl-tune-735-bt/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,862c5b88-f897-4205-80f6-5444464f2001,Xiaomi,Redmi Buds 8 Active,1.05,,25.0,,https://www.lmt.lv/veikals/austinas/xiaomi-redmi-buds-8-active/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,f752845a-f12f-4190-b015-d08c6fdefc77,Huawei,FreeClip 2,7.05,8.3,169.0,199.0,https://www.lmt.lv/veikals/austinas/huawei-freeclip-2/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,15d66a20-20b6-442e-8813-d114b5a70496,Asus,ROG Delta S Core,5.8,,139.0,,https://www.lmt.lv/veikals/austinas/asus-rog-delta-s-core/melna-sarkana
+2026-10-29T18:53:00+00:00,lmt,austinas,304e15fb-8263-48e3-83c4-11b7aaedfc1b,Xiaomi,Redmi Buds 8 Pro,3.3,,79.0,,https://www.lmt.lv/veikals/austinas/xiaomi-redmi-buds-8-pro/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,ed12ec0a-0cf6-4b35-81c0-b0411b8bc34f,JBL,Tune 680NC,4.13,,99.0,,https://www.lmt.lv/veikals/austinas/jbl-tune-680nc/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,ed8e47d6-d324-48af-97cc-a23a66728137,JBL,Tune 535BT,2.46,,59.0,,https://www.lmt.lv/veikals/austinas/jbl-tune-535bt/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,c3a089f9-b213-4d34-9563-368643a37aa2,JBL,Tune Beam 2 Ghost Edition,2.71,,65.0,,https://www.lmt.lv/veikals/austinas/jbl-tune-beam-2-ghost-edition/balta
+2026-10-29T18:53:00+00:00,lmt,austinas,3c7c3023-2ae8-448a-81ec-f15f454dccd7,JBL,Tune Beam 2,2.71,,65.0,,https://www.lmt.lv/veikals/austinas/jbl-tune-beam-2/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,6c6be1e9-989f-4c73-8107-2f30e320e5aa,Apple,AirPods Max 2,24.96,,599.0,,https://www.lmt.lv/veikals/austinas/apple-airpods-max-2/zvaigznu
+2026-10-29T18:53:00+00:00,lmt,austinas,5cc1fa9f-b469-4445-8a6d-c0766a3ab8c9,Nothing,Headphone (a),7.05,,169.0,,https://www.lmt.lv/veikals/austinas/nothing-headphone-a/balta
+2026-10-29T18:53:00+00:00,lmt,austinas,9ebc1b71-2486-48d2-900d-b8f519c4b691,Shokz,OpenRun Pro 2,8.3,,199.0,,https://www.lmt.lv/veikals/austinas/shokz-openrun-pro-2/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,da2bf46d-af51-442a-b807-c52286d76781,Huawei,FreeBuds Pro 5,7.05,,169.0,,https://www.lmt.lv/veikals/austinas/huawei-freebuds-pro-5/besa
+2026-10-29T18:53:00+00:00,lmt,austinas,3d7eb5b0-3cf1-4ea5-905b-117b248a1f26,Samsung,Galaxy Buds4 Pro,7.05,10.34,169.0,248.0,https://www.lmt.lv/veikals/austinas/samsung-galaxy-buds4-pro/balta
+2026-10-29T18:53:00+00:00,lmt,austinas,df3ac08d-ddd3-46ee-8b62-ef81eca56bb4,Samsung,Galaxy Buds4,7.46,,179.0,,https://www.lmt.lv/veikals/austinas/samsung-galaxy-buds4/balta
+2026-10-29T18:53:00+00:00,lmt,austinas,9b560ecd-3a22-4ea9-8bff-40017fa70243,Anker,Soundcore Sleep A30,8.13,,195.0,,https://www.lmt.lv/veikals/austinas/anker-soundcore-sleep-a30/balta
+2026-10-29T18:53:00+00:00,lmt,austinas,845eb3be-80ea-4bde-b5c7-d599e581e72c,Beats,Powerbeats Fit,9.38,,225.0,,https://www.lmt.lv/veikals/austinas/beats-powerbeats-fit/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,2ca7e637-2e46-478f-b586-e5f9f3f6fea0,Sony,Playstation Pulse Elite ar uzglabāšanas somu,6.25,,150.0,,https://www.lmt.lv/veikals/austinas/sony-playstation-pulse-elite-ar-uzglabasanas-somu/balta
+2026-10-29T18:53:00+00:00,lmt,austinas,c0299988-5298-4b56-bdcb-db630dc10de3,Samsung,Galaxy Buds3 FE,5.38,,129.0,,https://www.lmt.lv/veikals/austinas/samsung-galaxy-buds3-fe/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,63cb6cbb-776f-43f4-8e84-a36345f6a4c1,Nothing,Ear (3),6.21,,149.0,,https://www.lmt.lv/veikals/austinas/nothing-ear-3/balta
+2026-10-29T18:53:00+00:00,lmt,austinas,88c7903a-9c1d-492e-a8c0-13eb544473f6,Sony,WH-1000XM5,16.63,,399.0,,https://www.lmt.lv/veikals/austinas/sony-wh-1000xm5/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,5128315a-d057-4bca-bc20-59f6acb23a8e,Apple,AirPods Pro 3,10.8,,259.0,,https://www.lmt.lv/veikals/austinas/airpods-pro-3/balta
+2026-10-29T18:53:00+00:00,lmt,austinas,8b9555be-5e4e-4757-bf8b-cb889e517ed0,Huawei,FreeBuds SE4,2.05,2.46,49.0,59.0,https://www.lmt.lv/veikals/austinas/huawei-freebuds-se4/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,97b52cd8-3524-4699-a226-7293992d571d,Huawei,FreeBuds 7i,4.13,,99.0,,https://www.lmt.lv/veikals/austinas/huawei-freebuds-7i/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,2a010d9c-4430-4327-9100-defc7faabf53,Google,Pixel Buds 2a,6.21,,149.0,,https://www.lmt.lv/veikals/austinas/google-pixel-buds-2a/iriss
+2026-10-29T18:53:00+00:00,lmt,austinas,5c651c46-6ce1-49ee-ada0-ad70396df046,Nothing,Headphone (1),7.05,10.8,169.0,259.0,https://www.lmt.lv/veikals/austinas/nothing-headphone-1/balta
+2026-10-29T18:53:00+00:00,lmt,austinas,221c1c95-b5e5-4c85-8f65-9fee7c8a4c79,Marshall,Major V,6.21,,149.0,,https://www.lmt.lv/veikals/austinas/marshall-major-v/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,db1522ec-0cfa-4126-a93f-46a0d04804d5,Razer,Kraken X Lite,1.42,,34.0,,https://www.lmt.lv/veikals/austinas/razer-kraken-x-lite/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,01a72ce7-7519-40c6-908d-6594b5b6d25b,JBL,Tour One M3,7.46,13.71,179.0,329.0,https://www.lmt.lv/veikals/austinas/jbl-tour-one-m3/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,fac81ebd-94cf-4c11-a077-43f3de676dc8,Xiaomi,Type-C,,,11.0,,https://www.lmt.lv/veikals/austinas/xiaomi-type-c/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,1d665fbf-94c4-4076-872e-488dc87eb302,Mi,Piston Basic,,,9.0,,https://www.lmt.lv/veikals/austinas/mi-in-ear-basic/balta
+2026-10-29T18:53:00+00:00,lmt,austinas,87d41ba1-889a-48bf-bf1f-77d1ba0a35b3,Redmi,Buds 6 Pro,2.92,3.3,70.0,79.0,https://www.lmt.lv/veikals/austinas/redmi-buds-6-pro/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,1f847645-52b3-4ccc-8987-f19218ce6ff4,Beats,Powerbeats Pro 2,11.84,,284.0,,https://www.lmt.lv/veikals/austinas/beats-powerbeats-pro-2/melnas
+2026-10-29T18:53:00+00:00,lmt,austinas,3b14bd91-c062-4813-bbba-ec2bbcf8f165,Redmi,Buds 6,2.09,,50.0,,https://www.lmt.lv/veikals/austinas/redmi-buds-6/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,2812a78e-6248-47cd-83e4-b453e701f57d,Huawei,FreeBuds SE 3,2.0,,48.0,,https://www.lmt.lv/veikals/austinas/huawei-freebuds-se-3/besa
+2026-10-29T18:53:00+00:00,lmt,austinas,ff538a65-6742-46df-b568-82a87988e2e9,Huawei,FreeArc,4.96,,119.0,,https://www.lmt.lv/veikals/austinas/huawei-freearc/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,b7a349b0-cc39-4b7a-8570-92b70c53135b,Razer,Kraken V4 Pro,17.05,,409.0,,https://www.lmt.lv/veikals/austinas/razer-kraken-v4-pro/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,f3e8346e-b2bf-4970-837e-77fdde91c4ac,Tech-Protect,ausu uzgaļi Apple Airpods Pro 1&2,,,9.0,,https://www.lmt.lv/veikals/austinas/tech-protect-ausu-uzgali-apple-airpods-pro-1-2/balti
+2026-10-29T18:53:00+00:00,lmt,austinas,415c4937-74b9-46e3-8ac7-2a74bb454d41,Apple,AirPods Max (2024),22.88,24.96,549.0,599.0,https://www.lmt.lv/veikals/austinas/apple-airpods-max-2024/pusnakts-melna
+2026-10-29T18:53:00+00:00,lmt,austinas,632be0a7-c1de-453c-acc3-924eb76a396d,Apple,AirPods 4 Active Noise Cancellation,6.63,,158.99,,https://www.lmt.lv/veikals/austinas/apple-airpods-4-active-noise-cancellation/baltas-active-noise-cancellation
+2026-10-29T18:53:00+00:00,lmt,austinas,b5556572-13c7-4ef0-84c8-93a639baf3d8,Apple,AirPods 4,5.38,,129.0,,https://www.lmt.lv/veikals/austinas/apple-airpods-4/baltas
+2026-10-29T18:53:00+00:00,lmt,austinas,cdc98da4-3bdb-44f8-a750-d4ab4ef6311d,Razer,Blackshark V2 HyperSpeed,4.55,,109.0,,https://www.lmt.lv/veikals/austinas/razer-blackshark-v2-hyperspeed/melna
+2026-10-29T18:53:00+00:00,lmt,austinas,020e3cd2-0ca8-43d7-a72f-a504625b5e44,JBL,Tune 310C,,,22.0,,https://www.lmt.lv/veikals/austinas/jbl-tune-310c/melnas
+2026-10-29T18:53:00+00:00,lmt,austinas,f7110e96-2678-4903-8947-ccc9d2f1d68e,JBL,Tune 305C,,,20.0,,https://www.lmt.lv/veikals/austinas/jbl-tune-305c/melnas
+2026-10-29T18:53:00+00:00,lmt,austinas,42ada637-00b1-4fd7-91bd-2dd6802ff76b,Sony,Playstation 5 Pulse Explore,8.3,,199.0,,https://www.lmt.lv/veikals/austinas/sony-playstation-5-pulse-explore/melns-balts
+2026-10-29T18:53:00+00:00,lmt,austinas,f3a4de73-8b20-442f-b6f7-7b91a5744c21,Apple,EarPods USB-C,,,25.0,,https://www.lmt.lv/veikals/austinas/apple-earpods/usb-c
+2026-10-29T18:53:00+00:00,lmt,austinas,333427b8-e2f9-488c-bfe5-2b812bd45da0,JBL,Tune 520BT,1.21,,29.0,,https://www.lmt.lv/veikals/austinas/jbl-tune-520bt-on-ear/melnas
+2026-10-29T18:53:00+00:00,lmt,austinas,01ea1692-02d5-44e5-b05b-b3e7c885a23a,Razer,Barracuda X,4.55,,109.0,,https://www.lmt.lv/veikals/austinas/razer-barracuda-x-2022/melnas
+2026-10-29T18:53:00+00:00,lmt,austinas,5ccad2be-b525-4b32-91e9-e2a998d08951,Austiņu,tīrīšanas komplekts KeyBudz AirCare,,,18.98,,https://www.lmt.lv/veikals/austinas/austinu-tirisanas-komplekts-keybudz-aircare/keybudz-aircare
+2026-10-29T18:53:00+00:00,lmt,austinas,050745ab-3ccb-4f42-bde9-f95a91f94021,Cellularline,Sparrow Type-C In-Ear Earphones,,,15.0,,https://www.lmt.lv/veikals/austinas/cellularline-sparrow-type-c-in-ear-earphones/melnas
+2026-10-29T18:53:00+00:00,lmt,austinas,3fc3f79a-01f4-495d-8db5-dfab33be76f2,Razer,Blackshark V2 X,1.84,,44.0,,https://www.lmt.lv/veikals/austinas/razer-blackshark-v2-x/melnas
+2026-10-29T18:53:00+00:00,lmt,austinas,5c2e107b-ac05-431b-8b7d-df7189df0473,Samsung,Type-C Stereo,,,25.0,,https://www.lmt.lv/veikals/austinas/samsung-type-c-stereo-heaphones/baltas
+2026-10-29T18:53:00+00:00,lmt,austinas,55d29c5f-b7f1-45d1-9020-c32c06dbd27f,JBL,Tune 110 3.5mm,,,12.0,,https://www.lmt.lv/veikals/austinas/jbl-t110-in-ear-3-5mm/melnas
+2026-10-29T18:53:00+00:00,lmt,austinas,75266bf6-d16b-46bd-9d00-311d9afe0ab2,Apple,Earpods Lightning,,,28.0,,https://www.lmt.lv/veikals/austinas/apple-earpods-lightning/balts
+2026-10-29T18:53:00+00:00,lmt,austinas,0e4fbb06-6c95-41a7-872c-21879866448b,Apple,EarPods 3.5mm,,,25.0,,https://www.lmt.lv/veikals/austinas/apple-earpods-3-5mm/balta
