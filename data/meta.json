@@ -1,5 +1,5 @@
 {
- "scanned_at": "2026-10-29T18:53:00+00:00",
+ "scanned_at": "2026-10-29T18:55:43+00:00",
  "counts": {
   "bite/telefoni": 71,
   "tele2/telefoni": 0,
@@ -12,8 +12,8 @@
   "lmt/austinas": 70
  },
  "errors": [
-  "tele2/telefoni: Expecting value: line 1 column 1 (char 0)",
-  "tele2/pulksteni: Expecting value: line 1 column 1 (char 0)",
-  "tele2/austinas: Expecting value: line 1 column 1 (char 0)"
+  "tele2/telefoni: 0 produktu (HTTP 200, 1317 B, title='tele2.lv', sākums='<!doctype html>\\n<html lang=\"lv\">\\n<head>\\n<meta charset=\"utf-8\">\\n<meta name=\"viewp')",
+  "tele2/pulksteni: 0 produktu (HTTP 200, 1317 B, title='tele2.lv', sākums='<!doctype html>\\n<html lang=\"lv\">\\n<head>\\n<meta charset=\"utf-8\">\\n<meta name=\"viewp')",
+  "tele2/austinas: 0 produktu (HTTP 200, 1317 B, title='tele2.lv', sākums='<!doctype html>\\n<html lang=\"lv\">\\n<head>\\n<meta charset=\"utf-8\">\\n<meta name=\"viewp')"
  ]
 }
