@@ -114,30 +114,35 @@ def parse_bite(fragment, base="https://www.bite.lv"):
 # ---------------------------------------------------------------- Tele2
 
 def scan_tele2(client, path, params=None):
-    """path – piem. "/telefoni/" vai "/viedpaligi/"; params – papildu filtri."""
-    products = {}
-    for page in range(1, 30):
-        if page > 1:
-            time.sleep(DELAY)
-        r = client.get(
-            "https://www.tele2.lv" + path,
-            params={"filter": 1, **(params or {}), "p": page, "xhr": 1},
-            headers={"X-Requested-With": "XMLHttpRequest"},
-            timeout=30,
+    """path – piem. "/telefoni/" vai "/viedpaligi/"; params – papildu filtri.
+
+    Tele2 lapa ar ?p=N parāda visus produktus no 1. līdz N. lapai, tāpēc pietiek ar
+    vienu pieprasījumu ar lielu N.
+    """
+    r = client.get(
+        "https://www.tele2.lv" + path,
+        params={"filter": 1, **(params or {}), "p": 30},
+        headers={"Accept": "text/html,application/xhtml+xml"},
+        timeout=30,
+    )
+    r.raise_for_status()
+    items = {p["id"]: p for p in parse_tele2(r.text)}  # dublikātus izmet
+    if not items:
+        title = re.search(r"<title>(.*?)</title>", r.text, re.S | re.I)
+        raise RuntimeError(
+            f"0 produktu (HTTP {r.status_code}, {len(r.text)} B, "
+            f"title={title.group(1).strip()[:60] if title else '-'!r}, "
+            f"sākums={r.text[:80].strip()!r})"
         )
-        r.raise_for_status()
-        items = parse_tele2(json.loads(r.text)["html"])
-        if not items:
-            break
-        for p in items:  # lapās mēdz atkārtoties produkti -> dublikātus izmet
-            products[p["id"]] = p
-    return list(products.values())
+    return list(items.values())
 
 
 def parse_tele2(html):
     soup = BeautifulSoup(html, "html.parser")
     out = []
     for a in soup.select("a.deviceVw[data-gaid]"):
+        if a.find_parent(class_="swiper"):  # akciju slīdnis augšā, nav produktu saraksts
+            continue
         pr = a.select_one(".price")
         current = pr.select_one(".new, .normal") if pr else None
         prev = pr.select_one(".prev") if pr else None
