@@ -340,6 +340,7 @@ SPEAKER_WORDS = re.compile(
 VARIANTS = DATA / "variants.json"
 VARIANT_CATEGORIES = {"telefoni", "pulksteni"}
 VARIANT_DELAY = 0.8
+VARIANT_ERRORS = []
 BITE_VARIANT_ATTRS = ("capacity", "size_mm", "connectivity")  # krāsas neskenē – cena parasti tā pati
 
 
@@ -405,7 +406,8 @@ def bite_variants(client, url):
                 data={**fields, field: val, "_triggering_element_name": field, "_drupal_ajax": "1"},
                 headers={"X-Requested-With": "XMLHttpRequest"}, timeout=30,
             )
-            r.raise_for_status()
+            if r.status_code != 200 or not r.text.lstrip().startswith("["):
+                raise RuntimeError(f"variantu AJAX: HTTP {r.status_code}, {r.text[:150]!r}")
             blob = "".join(c.get("data") or "" for c in r.json() if isinstance(c, dict))
             m = re.search(r'variation-id="(\d+)"', blob)
             if m and m.group(1) not in vids:
@@ -459,6 +461,7 @@ def scan_variants(client, products, old_variants, now, budget_s=600):
                 done += 1
         except Exception as e:  # viena produkta kļūda neaptur pārējos
             failed += 1
+            VARIANT_ERRORS.append(f"{key}: {e}"[:300])
             print(f"  varianti {key}: {e}")
     print(f"varianti: {done} produkti atjaunoti, {failed} kļūdas, {len(todo) - done - failed} atlikti")
     return result
@@ -596,6 +599,7 @@ def main():
         "counts": {f"{op}/{cat}": sum(1 for p in new.values() if (p["operator"], p["category"]) == (op, cat))
                    for op, cat, _ in SOURCES},
         "errors": old_errors + errors,
+        "variant_errors": VARIANT_ERRORS[:5],
     }, ensure_ascii=False, indent=1), "utf-8")
 
     msgs = diff(old, new, scanned) if old else []
