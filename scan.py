@@ -128,12 +128,13 @@ def scan_tele2(client, path, params=None):
     r.raise_for_status()
     items = {p["id"]: p for p in parse_tele2(r.text)}  # dublikātus izmet
     if not items:
-        (DATA / "tele2_atbilde.html").write_text(r.text, "utf-8")  # diagnostikai
         title = re.search(r"<title>(.*?)</title>", r.text, re.S | re.I)
         raise RuntimeError(
             f"0 produktu (HTTP {r.status_code}, {len(r.text)} B, "
             f"title={title.group(1).strip()[:60] if title else '-'!r}, "
             f"sākums={r.text[:80].strip()!r})"
+            + (" – Tele2 anti-bot pārbaude; skenē Tele2 no sava datora (sk. README)"
+               if "anubis" in r.text.lower() or "Pārbaudei vajadzīgs JavaScript" in r.text else "")
         )
     return list(items.values())
 
@@ -329,10 +330,20 @@ def main():
     for v in old.values():  # vecie dati pirms kategoriju ieviešanas
         v.setdefault("category", "telefoni")
 
+    # OPERATORI=bite,lmt – skenē tikai šos (pārējo dati paliek neskarti). Noderīgi, ja
+    # daļu operatoru skenē GitHub, bet daļu – tavs dators (piem. Tele2 bloķē GitHub serverus).
+    only = {x.strip() for x in os.getenv("OPERATORI", "").split(",") if x.strip()}
+
     new, errors, scanned, failed = {}, [], set(), set()
     with requests.Session() as client:
         client.headers.update(HEADERS)
         for op, cat, fn in SOURCES:
+            if only and op not in only:
+                failed.add((op, cat))  # nepieraksta vēsturi un neziņo "vairs nav"
+                for k, v in old.items():
+                    if (v["operator"], v["category"]) == (op, cat):
+                        new.setdefault(k, v)
+                continue
             try:
                 items = fn(client)
                 if not items:
@@ -373,11 +384,16 @@ def main():
                 w.writerow({"scanned_at": now, **p})
 
     LATEST.write_text(json.dumps(new, ensure_ascii=False, indent=1), "utf-8")
+    old_meta = json.loads(META.read_text("utf-8")) if META.exists() else {}
+    updated = old_meta.get("updated", {})
+    updated.update({f"{op}/{cat}": now for op, cat in scanned})
+    old_errors = [e for e in old_meta.get("errors", []) if only and e.split("/")[0] not in only]
     META.write_text(json.dumps({
         "scanned_at": now,
+        "updated": updated,
         "counts": {f"{op}/{cat}": sum(1 for p in new.values() if (p["operator"], p["category"]) == (op, cat))
                    for op, cat, _ in SOURCES},
-        "errors": errors,
+        "errors": old_errors + errors,
     }, ensure_ascii=False, indent=1), "utf-8")
 
     msgs = diff(old, new, scanned) if old else []

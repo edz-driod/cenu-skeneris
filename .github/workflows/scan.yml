@@ -29,6 +29,7 @@ jobs:
       - name: Skenē cenas
         run: python scan.py
         env:
+          OPERATORI: bite,lmt     # Tele2 bloķē GitHub serverus – to skenē lokāli (sk. README)
           TG_TOKEN: ${{ secrets.TG_TOKEN }}
           TG_CHAT: ${{ secrets.TG_CHAT }}
 

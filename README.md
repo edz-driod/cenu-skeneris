@@ -22,6 +22,18 @@ Ko skenēt, nosaka saraksts `SOURCES` faila `scan.py` beigās. Katrs ieraksts ir
 
 Starp pieprasījumiem ir 1,5 s pauze.
 
+**Tele2 un GitHub:** Tele2 GitHub serveriem rāda anti-bot pārbaudes lapu, tāpēc GitHub Actions
+skenē tikai Bite un LMT (`OPERATORI: bite,lmt` failā `.github/workflows/scan.yml`).
+Tele2 skenē tavs dators ar `skenet_tele2.bat` (Windows) vai `skenet_tele2.sh` (macOS/Linux).
+Abi raksta tajos pašos `data/` failos, un katrs atjaunina tikai savu operatoru.
+
+Uzstādīšana datorā:
+1. Uzinstalē [Git](https://git-scm.com) un [Python](https://python.org) (Windows instalatorā atzīmē “Add to PATH”).
+2. `git clone https://github.com/edz-driod/cenu-skeneris.git`
+3. Palaid `skenet_tele2.bat` vienreiz ar roku. Pirmajā reizē Git prasīs pieslēgties GitHub.
+4. Windows: *Task Scheduler → Create Basic Task → Daily*, 8:20, darbība *Start a program* → `skenet_tele2.bat`.
+   Pēc tam *Properties → Triggers* pievieno otru laiku 18:20 un atzīmē *Run task as soon as possible after a scheduled start is missed*.
+
 **LMT un Cloudflare:** LMT lapa ir aiz Cloudflare. Ja GitHub serveru IP adreses tiek bloķētas,
 LMT avoti atsūtīs kļūdu "neatradu __NUXT_DATA__", bet Bite un Tele2 turpinās strādāt.
 Tādā gadījumā skeneri var palaist savā datorā (`python scan.py` ar Windows Task Scheduler vai cron)
