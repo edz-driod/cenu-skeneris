@@ -108,7 +108,8 @@
   th .dot { margin-right: 5px; vertical-align: 1px; }
   .variants { margin: 6px 0 0; padding: 0; list-style: none; font-size: 12px; color: var(--ink-2); }
   .variants li { display: flex; justify-content: space-between; gap: 8px; }
-  .variants b { font-weight: 500; font-variant-numeric: tabular-nums; }
+  .variants b { font-weight: 500; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .variants .more { color: var(--muted); }
   @media (max-width: 640px) {
     td.cmp { padding: 9px 5px; font-size: 13px; }
     td.cmp .mm { display: none; }
@@ -225,6 +226,8 @@ const baseKey = p => p.category + (OPENED.test(p.model || "") ? "|izpakota" : ""
   .normalize("NFD").replace(/[̀-ͯ]/g, "")         // fēnix -> fenix
   .split("|")[0]                                             // Bite: "AirPods 5 | Wireless Charging Case"
   .replace(/\(.*?\)/g, " ")                                  // iekavās – krāsas, kodi
+  .replace(/\b\d+\s?[\/+]\s?\d+\s?(gb|tb)?\b/g, " ")        // 12+256GB, 8/256GB (pirms "+" apstrādes)
+  .replace(/([a-z0-9])\+/g, "$1 plus")                      // Galaxy S26+ -> s26 plus
   .replace(/\bbojats iepakojums\b|\bizpakota ierice\b|\bwith .*$/g, " ")
   .replace(/\s-\s/g, " ")
   .replace(/\b\d+\s?[\/+]\s?\d+\s?(gb|tb)?\b/g, " ")        // 12+256GB, 8/256GB
@@ -463,7 +466,7 @@ function openDetail(key) {
         <div class="p">${list.length > 1 ? '<span style="font-size:13px;font-weight:400;color:var(--muted)">no </span>' : ""}${eur(x.full)}</div>
         <div class="m">${eur(x.monthly)} / mēn.${x.full_old ? ` · bija ${eur(x.full_old)}` : ""}</div>
         <div class="m">Zemākā vēsturē: ${eur(Math.min(...list.map(v => v.min ?? Infinity)))}</div>
-        ${list.length > 1 ? `<ul class="variants">${list.map(v => `<li><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.model)}</a><b>${eur(v.full)}</b></li>`).join("")}</ul>`
+        ${list.length > 1 ? `<ul class="variants">${list.slice(0, 6).map(v => `<li><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.model)}</a><b>${eur(v.full)}</b></li>`).join("")}${list.length > 6 ? `<li class="more">… un vēl ${list.length - 6} varianti (krāsas, atmiņa)</li>` : ""}</ul>`
           : (x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">Atvērt veikalā ↗</a>` : "")}
       </div>`; }).join("")}
     </div>

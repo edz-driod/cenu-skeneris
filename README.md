@@ -1,4 +1,4 @@
-# Cenu skeneris – Bite, Tele2, LMT
+# Cenu skeneris – Bite, Tele2, LMT, Tet
 
 Divreiz dienā nolasa telefonu, viedpulksteņu un austiņu cenas no operatoriem, saglabā vēsturi `data/prices.csv`
 un nosūta Telegram ziņu, ja kāda cena mainās, parādās jauns telefons vai kāds pazūd.
@@ -19,11 +19,12 @@ Ko skenēt, nosaka saraksts `SOURCES` faila `scan.py` beigās. Katrs ieraksts ir
 | Bite viedpulksteņi | ✅ | `bite.lv/lv/viedpulksteni`, tāpat kā telefoni. |
 | Bite austiņas | ✅ | `bite.lv/lv/austinas`, tāpat kā telefoni. |
 | LMT telefoni, viedpulksteņi, austiņas | ✅ | `lmt.lv/veikals/<visi-telefoni / visi-viedpulksteni / austinas>?page=N&perPage=54`. LMT ir Nuxt lapa: cenas ir lapas `<script id="__NUXT_DATA__">` JSON (pilnā cena, 24 mēn. nomaksa, vecā cena). |
+| Tet telefoni, viedpulksteņi, austiņas | ✅ | `tet.lv/veikals/...html?page=N` (Magento, 58 preces lapā). Cenas no kartītes `data-pricing` JSON, mēneša maksājums no redzamā teksta. Katra krāsa ir atsevišķa prece – salīdzinājumā tās apvieno. |
 
 Starp pieprasījumiem ir 1,5 s pauze.
 
 **Tele2 un GitHub:** Tele2 GitHub serveriem rāda anti-bot pārbaudes lapu, tāpēc GitHub Actions
-skenē tikai Bite un LMT (`OPERATORI: bite,lmt` failā `.github/workflows/scan.yml`).
+skenē Bite, LMT un Tet (`OPERATORI: bite,lmt,tet` failā `.github/workflows/scan.yml`).
 Tele2 skenē tavs dators ar `skenet_tele2.bat` (Windows) vai `skenet_tele2.sh` (macOS/Linux).
 Abi raksta tajos pašos `data/` failos, un katrs atjaunina tikai savu operatoru.
 
