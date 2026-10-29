@@ -110,6 +110,17 @@
   .variants li { display: flex; justify-content: space-between; gap: 8px; }
   .variants b { font-weight: 500; font-variant-numeric: tabular-nums; white-space: nowrap; }
   .variants .more { color: var(--muted); }
+  .skus { width: 100%; border-collapse: collapse; margin: 4px 0 18px; font-size: 14px; }
+  .skus th, .skus td { padding: 7px 8px; border-bottom: 1px solid var(--grid); text-align: right; white-space: nowrap; }
+  .skus th:first-child, .skus td:first-child { text-align: left; }
+  .skus th { font-size: 12px; color: var(--muted); font-weight: 600; cursor: default; text-transform: none; letter-spacing: 0; }
+  .skus td a { color: inherit; text-decoration: none; font-variant-numeric: tabular-nums; }
+  .skus td a:hover { text-decoration: underline; }
+  .skus td.win a { color: var(--down); font-weight: 700; }
+  .skus td.na { color: var(--muted); }
+  .skus .vk { font-weight: 600; }
+  .skus-wrap { overflow-x: auto; }
+  .note { color: var(--muted); font-size: 12px; margin: -12px 0 16px; }
   @media (max-width: 640px) {
     td.cmp { padding: 9px 5px; font-size: 13px; }
     td.cmp .mm { display: none; }
@@ -277,17 +288,18 @@ function parseCSV(text) {
   return body.filter(r => r.length === head.length).map(r => Object.fromEntries(head.map((h, i) => [h, r[i]])));
 }
 
-let ITEMS = [], HIST = {}, NOW = new Date(), META = null,
+let ITEMS = [], HIST = {}, NOW = new Date(), META = null, VARIANTS = {},
   state = { view: "list", cat: "telefoni", q: "", op: "", sale: false, multi: true, sort: "name", dir: 1 };
 const onSale = p => p.disc > 0 || (p.monthly_old && p.monthly_old > p.monthly);
 
 async function load() {
-  const [csv, latest, meta] = await Promise.all([
+  const [csv, latest, meta, variants] = await Promise.all([
     fetch("data/prices.csv", { cache: "no-store" }).then(r => r.ok ? r.text() : ""),
     fetch("data/latest.json", { cache: "no-store" }).then(r => r.ok ? r.json() : {}),
     fetch("data/meta.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch("data/variants.json", { cache: "no-store" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
   ]);
-  META = meta;
+  META = meta; VARIANTS = variants || {};
   if (meta?.scanned_at) NOW = new Date(meta.scanned_at);
 
   for (const r of csv ? parseCSV(csv) : []) {
@@ -432,6 +444,58 @@ function renderCompare() {
 }
 
 /* ---------- Detaļas ---------- */
+/* ---------- Precīzie varianti (SKU) ---------- */
+// No nosaukuma/varianta apraksta izvelk to, kas ietekmē cenu: telefoniem atmiņu, pulksteņiem izmēru un LTE.
+function variantKey(text, category) {
+  const t = (" " + (text || "") + " ").toLowerCase().replace(/[-_]/g, " ");
+  if (category === "telefoni") {
+    const all = [...t.matchAll(/(\d+)\s?(gb|tb)\b/g)];
+    // "8 256 gb" (LMT slug) / "12+256gb" -> 256; ja vienīgais skaitlis ir RAM (≤16 GB) un ir vēl viens – ņem lielāko
+    let best = null;
+    for (const m of all) { const gb = m[2] === "tb" ? +m[1] * 1024 : +m[1]; if (gb >= 32 && (!best || gb > best)) best = gb; }
+    if (!best) { const pair = t.match(/\b(\d{1,2})\s(\d{2,4})\s?gb\b/); if (pair) best = +pair[2]; }
+    return best ? (best >= 1024 ? best / 1024 + " TB" : best + " GB") : "";
+  }
+  if (category === "pulksteni") {
+    const size = t.match(/\b(\d{2})\s?mm\b/), lte = /\b(lte|esim|cellular)\b/.test(t);
+    return [size ? size[1] + " mm" : "", lte ? "LTE" : ""].filter(Boolean).join(" · ");
+  }
+  return "";
+}
+const vkOrder = k => { const n = parseFloat(k) || 0; return (/tb/i.test(k) ? n * 1024 : n) + (/LTE/.test(k) ? 0.5 : 0); };
+
+// Visi zināmie konkrētie varianti grupai: Bite/LMT no variants.json, Tele2/Tet – katra prece pati par sevi.
+function skuRows(g) {
+  const rows = [];
+  for (const p of g.items) {
+    const vs = VARIANTS[p.key]?.variants;
+    if (vs?.length) for (const v of vs) rows.push({ op: p.operator, vk: variantKey(`${p.model} ${v.label}`, g.category), full: v.full, url: v.url, label: v.label });
+    else rows.push({ op: p.operator, vk: variantKey(p.model, g.category), full: p.full, url: p.url, label: p.model });
+  }
+  return rows.filter(r => r.full != null);
+}
+
+function skuTable(g, ops) {
+  if (!VARIANT_CATS.has(g.category)) return "";
+  const rows = skuRows(g);
+  const keys = [...new Set(rows.map(r => r.vk))].sort((a, b) => (a === "") - (b === "") || vkOrder(a) - vkOrder(b));
+  if (keys.length < 2 && !(keys.length === 1 && keys[0])) return "";
+  const body = keys.map(k => {
+    const cells = ops.map(op => {
+      const rs = rows.filter(r => r.op === op && r.vk === k).sort((a, b) => a.full - b.full);
+      return rs[0] || null;
+    });
+    const prices = cells.filter(Boolean).map(c => c.full), min = Math.min(...prices);
+    return `<tr><td class="vk">${esc(k || "Nav norādīts")}</td>${cells.map(c => !c ? '<td class="na">–</td>'
+      : `<td class="${prices.length > 1 && c.full === min ? "win" : ""}"><a href="${esc(c.url)}" target="_blank" rel="noopener" title="${esc(c.label)}">${eur(c.full)}</a></td>`).join("")}</tr>`;
+  }).join("");
+  return `<p class="chart-title">Precīzs salīdzinājums pa variantiem</p>
+    <div class="skus-wrap"><table class="skus"><thead><tr><th>Variants</th>${ops.map(op => `<th><span class="dot ${op}"></span>${OPS[op]}</th>`).join("")}</tr></thead>
+    <tbody>${body}</tbody></table></div>
+    <p class="note">Lētākā krāsa katram variantam. Zaļā cena – lētākais operators šim variantam. Uzspied cenu, lai atvērtu veikalā.</p>`;
+}
+const VARIANT_CATS = new Set(["telefoni", "pulksteni"]);
+
 function openDetail(key) {
   const p = ITEMS.find(x => x.key === key);
   if (!p) return;
@@ -470,6 +534,7 @@ function openDetail(key) {
           : (x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">Atvērt veikalā ↗</a>` : "")}
       </div>`; }).join("")}
     </div>
+    ${skuTable(g, ops)}
     <p class="chart-title">Pilnā cena laika gaitā${g.items.length > ops.length ? " (lētākais variants)" : ""}</p>
     ${series.length > 1 ? `<div class="legend">${series.map(s => `<span><span class="dot ${s.op}"></span>${esc(s.label)}</span>`).join("")}</div>` : ""}
     <div class="chart" id="chart"></div>
