@@ -331,6 +331,139 @@ SPEAKER_WORDS = re.compile(
 )
 
 
+# ---------------------------------------------------------------- Varianti (precīzi SKU)
+
+# Bite un LMT sarakstos katram modelim ir tikai viena cena ("no"). Precīzās katra varianta
+# (atmiņa, pulksteņa izmērs, LTE) cenas ir produkta lapā. Tās saglabā data/variants.json:
+#   {"bite:24395": {"updated": "...", "variants": [{"sku", "label", "full", "url"}, ...]}, ...}
+# Tele2 un Tet katrs variants jau ir atsevišķa prece sarakstā, tāpēc tiem tas nav vajadzīgs.
+VARIANTS = DATA / "variants.json"
+VARIANT_CATEGORIES = {"telefoni", "pulksteni"}
+VARIANT_DELAY = 0.8
+BITE_VARIANT_ATTRS = ("capacity", "size_mm", "connectivity")  # krāsas neskenē – cena parasti tā pati
+
+
+def _jsonld_offer(soup):
+    for s in soup.select('script[type="application/ld+json"]'):
+        try:
+            data = json.loads(s.string or "")
+        except ValueError:
+            continue
+        for node in data.get("@graph", [data]) if isinstance(data, dict) else []:
+            if isinstance(node, dict) and node.get("@type") == "Product":
+                offer = node.get("offers") or {}
+                if isinstance(offer, list):
+                    offer = offer[0] if offer else {}
+                return node.get("sku"), price(str(offer.get("price") or ""))
+    return None, None
+
+
+def _bite_variant_page(client, url, vid=None):
+    r = client.get(url, params={"v": vid} if vid else None, timeout=30)
+    r.raise_for_status()
+    soup = BeautifulSoup(r.text, "html.parser")
+    sku, full = _jsonld_offer(soup)
+    lab = soup.select_one(".js-product-variation-attributes")
+    vid_el = soup.select_one("[data-variation-id]")
+    this_vid = vid or (vid_el.get("data-variation-id") if vid_el else None)
+    return soup, {
+        "sku": sku,
+        "label": lab.get_text(" ", strip=True) if lab else "",
+        "full": full,
+        "url": f"{url}?v={this_vid}" if this_vid else url,
+    }, this_vid
+
+
+def bite_variants(client, url):
+    soup, first, first_vid = _bite_variant_page(client, url)
+    variants, vids = [first], {first_vid}
+    form = next((f for f in soup.select("form") if f.select_one('input[name*="[attribute_"]')), None)
+    if not form:
+        return variants
+    fields = {}
+    for i in form.select("input, select"):
+        name, typ = i.get("name"), (i.get("type") or "").lower()
+        if not name or typ in ("submit", "button"):
+            continue
+        if typ in ("radio", "checkbox"):
+            if i.has_attr("checked"):
+                fields[name] = i.get("value", "")
+        elif i.name == "select":
+            opt = i.select_one("option[selected]") or i.select_one("option")
+            fields[name] = opt.get("value", "") if opt else ""
+        else:
+            fields[name] = i.get("value", "")
+    for attr in BITE_VARIANT_ATTRS:
+        field = f"purchased_entity[0][attributes][attribute_{attr}]"
+        options = [i.get("value") for i in form.select(f'input[name="{field}"]')]
+        for val in dict.fromkeys(options):
+            if val == fields.get(field):
+                continue
+            time.sleep(VARIANT_DELAY)
+            r = client.post(
+                url, params={"ajax_form": 1, "_wrapper_format": "drupal_ajax"},
+                data={**fields, field: val, "_triggering_element_name": field, "_drupal_ajax": "1"},
+                headers={"X-Requested-With": "XMLHttpRequest"}, timeout=30,
+            )
+            r.raise_for_status()
+            blob = "".join(c.get("data") or "" for c in r.json() if isinstance(c, dict))
+            m = re.search(r'variation-id="(\d+)"', blob)
+            if m and m.group(1) not in vids:
+                vids.add(m.group(1))
+                time.sleep(VARIANT_DELAY)
+                variants.append(_bite_variant_page(client, url, m.group(1))[1])
+    return variants
+
+
+def lmt_variants(client, url):
+    r = client.get(url.split("?")[0], timeout=30)
+    r.raise_for_status()
+    root = nuxt_data(r.text)
+    pset = next((v for k, v in (root.get("data") or {}).items() if k.startswith("product-set-")), None)
+    data = (pset or {}).get("data") or {}
+    base = url.split("?")[0].rsplit("/", 1)[0]
+    out = []
+    for p in data.get("products") or []:
+        if p.get("generalCondition") not in (None, "new"):
+            continue
+        conds = p.get("conditions") or []
+        cond = next((c for c in conds if c.get("type") == "new"), conds[0] if conds else {})
+        plans = cond.get("pricePlans")
+        out.append({
+            "sku": p.get("sku"),
+            "label": (p.get("slug") or "").replace("-", " "),
+            "full": lmt_plan(plans, "full", "actual", "singlePayment"),
+            "full_old": lmt_plan(plans, "full", "before", "singlePayment"),
+            "url": f"{base}/{p.get('slug')}",
+        })
+    return out
+
+
+def scan_variants(client, products, old_variants, now, budget_s=600):
+    """Atjauno variantus Bite/LMT telefoniem un pulksteņiem. Kļūdas gadījumā paliek vecie dati."""
+    fns = {"bite": bite_variants, "lmt": lmt_variants}
+    result = {k: v for k, v in old_variants.items() if k in products}  # izmet vairs neesošos
+    start, done, failed = time.monotonic(), 0, 0
+    todo = [(k, p) for k, p in products.items()
+            if p["operator"] in fns and p.get("category") in VARIANT_CATEGORIES and p.get("url")]
+    # vispirms tie, kas nav atjaunoti visilgāk – ja laiks beidzas, nākamreiz turpina ar pārējiem
+    todo.sort(key=lambda kp: (old_variants.get(kp[0]) or {}).get("updated", ""))
+    for key, p in todo:
+        if time.monotonic() - start > budget_s:
+            break
+        try:
+            time.sleep(VARIANT_DELAY)
+            variants = [v for v in fns[p["operator"]](client, p["url"]) if v.get("full")]
+            if variants:
+                result[key] = {"updated": now, "variants": variants}
+                done += 1
+        except Exception as e:  # viena produkta kļūda neaptur pārējos
+            failed += 1
+            print(f"  varianti {key}: {e}")
+    print(f"varianti: {done} produkti atjaunoti, {failed} kļūdas, {len(todo) - done - failed} atlikti")
+    return result
+
+
 def only_headphones(items):
     return [p for p in items if not SPEAKER_WORDS.search(f"{p['brand'] or ''} {p['model'] or ''}")]
 
@@ -443,6 +576,16 @@ def main():
                 w.writerow({"scanned_at": now, **p})
 
     LATEST.write_text(json.dumps(new, ensure_ascii=False, indent=1), "utf-8")
+
+    # precīzās variantu cenas (Bite/LMT telefoni un pulksteņi) – tikai šoreiz skenētajiem operatoriem
+    if os.getenv("VARIANTI", "1") != "0":
+        old_var = json.loads(VARIANTS.read_text("utf-8")) if VARIANTS.exists() else {}
+        todo = {k: p for k, p in new.items() if (p["operator"], p["category"]) in scanned}
+        keep = {k: v for k, v in old_var.items() if k in new and k not in todo}
+        with requests.Session() as client:
+            client.headers.update(HEADERS)
+            fresh = scan_variants(client, todo, old_var, now)
+        VARIANTS.write_text(json.dumps({**keep, **fresh}, ensure_ascii=False, indent=0), "utf-8")
     old_meta = json.loads(META.read_text("utf-8")) if META.exists() else {}
     updated = old_meta.get("updated", {})
     updated.update({f"{op}/{cat}": now for op, cat in scanned})
