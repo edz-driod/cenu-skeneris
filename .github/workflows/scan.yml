@@ -40,4 +40,5 @@ jobs:
           git config user.email "cenu-bots@users.noreply.github.com"
           git add data
           git diff --cached --quiet || git commit -m "Cenas $(date -u +'%Y-%m-%d %H:%M')"
-          git push
+          # kamēr skenēja, repozitorijā var būt nonākušas citas izmaiņas (piem. Tele2 no datora)
+          for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && break; sleep 5; done
