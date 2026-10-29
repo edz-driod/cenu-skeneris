@@ -80,7 +80,7 @@ def scan_bite(client, path):
         )
         r.raise_for_status()
         fragment = "".join(
-            cmd.get("data") or "" for cmd in r.json() if cmd.get("command") == "insert"
+            cmd["data"] for cmd in r.json() if cmd.get("command") == "insert" and isinstance(cmd.get("data"), str)
         )
         products += parse_bite(fragment, base)
     return products
@@ -408,7 +408,7 @@ def bite_variants(client, url):
             )
             if r.status_code != 200 or not r.text.lstrip().startswith("["):
                 raise RuntimeError(f"variantu AJAX: HTTP {r.status_code}, {r.text[:150]!r}")
-            blob = "".join(c.get("data") or "" for c in r.json() if isinstance(c, dict))
+            blob = "".join(c["data"] for c in r.json() if isinstance(c, dict) and isinstance(c.get("data"), str))
             m = re.search(r'variation-id="(\d+)"', blob)
             if m and m.group(1) not in vids:
                 vids.add(m.group(1))
