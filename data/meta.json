@@ -1,18 +1,18 @@
 {
- "scanned_at": "2026-10-29T19:46:40+00:00",
+ "scanned_at": "2026-10-29T20:09:51+00:00",
  "updated": {
-  "lmt/telefoni": "2026-10-29T19:46:40+00:00",
-  "lmt/pulksteni": "2026-10-29T19:46:40+00:00",
-  "lmt/austinas": "2026-10-29T19:46:40+00:00",
-  "bite/telefoni": "2026-10-29T19:46:40+00:00",
-  "bite/pulksteni": "2026-10-29T19:46:40+00:00",
-  "bite/austinas": "2026-10-29T19:46:40+00:00",
+  "lmt/telefoni": "2026-10-29T20:09:51+00:00",
+  "lmt/pulksteni": "2026-10-29T20:09:51+00:00",
+  "lmt/austinas": "2026-10-29T20:09:51+00:00",
+  "bite/telefoni": "2026-10-29T20:09:51+00:00",
+  "bite/pulksteni": "2026-10-29T20:09:51+00:00",
+  "bite/austinas": "2026-10-29T20:09:51+00:00",
   "tele2/pulksteni": "2026-10-29T19:19:22+00:00",
   "tele2/austinas": "2026-10-29T19:19:22+00:00",
   "tele2/telefoni": "2026-10-29T19:19:22+00:00",
-  "tet/austinas": "2026-10-29T19:46:40+00:00",
-  "tet/telefoni": "2026-10-29T19:46:40+00:00",
-  "tet/pulksteni": "2026-10-29T19:46:40+00:00"
+  "tet/austinas": "2026-10-29T20:09:51+00:00",
+  "tet/telefoni": "2026-10-29T20:09:51+00:00",
+  "tet/pulksteni": "2026-10-29T20:09:51+00:00"
  },
  "counts": {
   "bite/telefoni": 71,
@@ -24,9 +24,9 @@
   "lmt/telefoni": 70,
   "lmt/pulksteni": 70,
   "lmt/austinas": 70,
-  "tet/telefoni": 309,
+  "tet/telefoni": 310,
   "tet/pulksteni": 291,
-  "tet/austinas": 434
+  "tet/austinas": 435
  },
  "errors": []
 }
