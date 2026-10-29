@@ -60,6 +60,19 @@ pilno cenu, veco pilno cenu, saiti.
 5. **Pirmā palaišana:** *Actions → Cenu skenēšana → Run workflow*.
    Pirmajā reizē tiek tikai saglabātas cenas. Paziņojumi nāks no nākamās reizes.
 
+## Precīzie varianti (SKU)
+
+Bite un LMT saraksta lapās katram modelim ir tikai cena “no”. Tāpēc skeneris papildus atver
+Bite un LMT **telefonu un pulksteņu** produktu lapas un saglabā katra varianta cenu `data/variants.json`:
+- **LMT:** produkta lapas JSON satur visus variantus (1 pieprasījums modelim).
+- **Bite:** atmiņas / izmēra / LTE izvēle tiek pārslēgta ar to pašu AJAX pieprasījumu, ko sūta lapa,
+  un cena tiek nolasīta no varianta lapas (`?v=<id>`).
+
+Tele2 un Tet katrs variants jau ir atsevišķa prece. Lapā, uzspiežot uz ierīces, augšā redzama
+tabula: rindās varianti (piem. 128 / 256 / 512 GB vai 40 mm / 44 mm · LTE), kolonnās operatori.
+Variantu skenēšanai atvēlētas ≤10 min; ja laiks beidzas, nākamreiz turpina ar neatjaunotajiem.
+Izslēgt: `VARIANTI=0`.
+
 ## Lokāla palaišana
 
 ```bash

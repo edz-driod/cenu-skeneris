@@ -120,6 +120,13 @@
   .skus td.na { color: var(--muted); }
   .skus .vk { font-weight: 600; }
   .skus-wrap { overflow-x: auto; }
+  @media (max-width: 640px) {
+    .skus { font-size: 12px; }
+    .skus th, .skus td { padding: 7px 3px; }
+    .skus th { font-size: 11px; }
+    .skus th .dot { display: none; }
+  }
+  .dlg-head + .chart-title { margin-top: 14px; }
   .note { color: var(--muted); font-size: 12px; margin: -12px 0 16px; }
   @media (max-width: 640px) {
     td.cmp { padding: 9px 5px; font-size: 13px; }
@@ -406,7 +413,8 @@ function buildGroups(items) {
     const multiVariant = grp.items.length > grp.nOps;
     const clean = m => multiVariant
       ? m.split("|")[0].replace(/\(.*?\)/g, "").replace(/\s*-?\s*\b\d+\s?mm\b/gi, "")
-          .replace(/\b\d+\s?\/?\s?\d*\s?(GB|TB)\b/gi, "").replace(/\s+/g, " ").trim()
+          .replace(/\b\d+\s?\/?\s?\d*\s?(GB|TB)\b/gi, "").replace(/\b(LTE|BT|eSIM|5G|4G)\b/gi, "")
+          .replace(/\s+/g, " ").trim()
       : m;
     grp.brand = rep.brand; grp.model = clean(rep.model || ""); grp.name = `${rep.brand || ""} ${grp.model}`.trim(); grp.category = rep.category;
     for (const op of Object.keys(OPS)) grp[op] = grp.best[op]?.full ?? null;
@@ -469,7 +477,10 @@ function skuRows(g) {
   const rows = [];
   for (const p of g.items) {
     const vs = VARIANTS[p.key]?.variants;
-    if (vs?.length) for (const v of vs) rows.push({ op: p.operator, vk: variantKey(`${p.model} ${v.label}`, g.category), full: v.full, url: v.url, label: v.label });
+    if (vs?.length) for (const v of vs) {
+      const lab = (v.label || "").replace(/^(\d{2})(?=\s*(,|$))/, "$1 mm");   // Bite pulksteņi: "40, Balts" -> "40 mm, Balts"
+      rows.push({ op: p.operator, vk: variantKey(`${p.model} ${lab}`, g.category), full: v.full, url: v.url, label: v.label });
+    }
     else rows.push({ op: p.operator, vk: variantKey(p.model, g.category), full: p.full, url: p.url, label: p.model });
   }
   return rows.filter(r => r.full != null);
@@ -517,11 +528,13 @@ function openDetail(key) {
     return { op, label: OPS[op], pts };
   });
 
+  const sku = skuTable(g, ops);
   document.getElementById("dlgBody").innerHTML = `
     <div class="dlg-head">
       <div><div style="color:var(--muted);font-size:13px">${esc(g.brand)}</div><h2>${esc(g.model)}</h2></div>
       <button class="x" aria-label="Aizvērt" onclick="dlg.close()">×</button>
     </div>
+    ${sku}
     <div class="offers">${ops.map(op => {
       const list = g.byOp[op], x = list[0];
       return `
@@ -530,11 +543,10 @@ function openDetail(key) {
         <div class="p">${list.length > 1 ? '<span style="font-size:13px;font-weight:400;color:var(--muted)">no </span>' : ""}${eur(x.full)}</div>
         <div class="m">${eur(x.monthly)} / mēn.${x.full_old ? ` · bija ${eur(x.full_old)}` : ""}</div>
         <div class="m">Zemākā vēsturē: ${eur(Math.min(...list.map(v => v.min ?? Infinity)))}</div>
-        ${list.length > 1 ? `<ul class="variants">${list.slice(0, 6).map(v => `<li><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.model)}</a><b>${eur(v.full)}</b></li>`).join("")}${list.length > 6 ? `<li class="more">… un vēl ${list.length - 6} varianti (krāsas, atmiņa)</li>` : ""}</ul>`
+        ${list.length > 1 && !sku ? `<ul class="variants">${list.slice(0, 6).map(v => `<li><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.model)}</a><b>${eur(v.full)}</b></li>`).join("")}${list.length > 6 ? `<li class="more">… un vēl ${list.length - 6} varianti (krāsas, atmiņa)</li>` : ""}</ul>`
           : (x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">Atvērt veikalā ↗</a>` : "")}
       </div>`; }).join("")}
     </div>
-    ${skuTable(g, ops)}
     <p class="chart-title">Pilnā cena laika gaitā${g.items.length > ops.length ? " (lētākais variants)" : ""}</p>
     ${series.length > 1 ? `<div class="legend">${series.map(s => `<span><span class="dot ${s.op}"></span>${esc(s.label)}</span>`).join("")}</div>` : ""}
     <div class="chart" id="chart"></div>
