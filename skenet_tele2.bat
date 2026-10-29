@@ -5,9 +5,11 @@ REM Vajag: Git un Python (https://git-scm.com, https://python.org) un šo mapi, 
 
 cd /d "%~dp0"
 
-REM Telegram paziņojumi (neobligāti) – ieraksti savas vērtības:
-REM set TG_TOKEN=123456:ABC...
-REM set TG_CHAT=123456789
+REM Telegram paziņojumi (neobligāti): izveido failu telegram.bat šajā pašā mapē ar divām rindām
+REM   set TG_TOKEN=123456:ABC...
+REM   set TG_CHAT=123456789
+REM telegram.bat netiek augšupielādēts GitHub (.gitignore), tāpēc token paliek tikai tavā datorā.
+if exist "%~dp0telegram.bat" call "%~dp0telegram.bat"
 
 set OPERATORI=tele2
 set PYTHONUTF8=1
