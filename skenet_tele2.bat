@@ -16,6 +16,6 @@ git pull --rebase --autostash --quiet origin main
 python -m pip install --quiet -r requirements.txt
 python scan.py
 git add data
-git commit --quiet -m "Tele2 cenas (lokāli)"
+git commit --quiet -m "Tele2 cenas (lokali)"
 git pull --rebase --quiet origin main
 git push --quiet origin main

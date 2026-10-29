@@ -10,4 +10,4 @@ git pull --rebase --autostash --quiet origin main
 python3 -m pip install --quiet -r requirements.txt
 python3 scan.py || true
 git add data
-git commit --quiet -m "Tele2 cenas (lokāli)" && git push --quiet origin main || true
+git commit --quiet -m "Tele2 cenas (lokali)" && git push --quiet origin main || true
