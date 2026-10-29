@@ -20,6 +20,7 @@
     --bite: #2a78d6;      /* kategoriskais slots 1 */
     --tele2: #eb6834;     /* kategoriskais slots 2 */
     --lmt: #1baf7a;       /* kategoriskais slots 3 */
+    --tet: #eda100;       /* kategoriskais slots 4 */
     --down: #006300;      /* cena kritusies = labi */
     --up: #d03b3b;
     --accent: #2a78d6;
@@ -30,7 +31,7 @@
       --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7;
       --muted: #898781; --grid: #2c2c2a; --axis: #383835;
       --ring: rgba(255,255,255,0.10); --hover: rgba(255,255,255,0.05);
-      --bite: #3987e5; --tele2: #d95926; --lmt: #199e70; --down: #0ca30c; --up: #e66767; --accent: #3987e5;
+      --bite: #3987e5; --tele2: #d95926; --lmt: #199e70; --tet: #c98500; --down: #0ca30c; --up: #e66767; --accent: #3987e5;
     }
   }
   :root[data-theme="dark"] {
@@ -38,7 +39,7 @@
     --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7;
     --muted: #898781; --grid: #2c2c2a; --axis: #383835;
     --ring: rgba(255,255,255,0.10); --hover: rgba(255,255,255,0.05);
-    --bite: #3987e5; --tele2: #d95926; --lmt: #199e70; --down: #0ca30c; --up: #e66767; --accent: #3987e5;
+    --bite: #3987e5; --tele2: #d95926; --lmt: #199e70; --tet: #c98500; --down: #0ca30c; --up: #e66767; --accent: #3987e5;
   }
 
   * { box-sizing: border-box; }
@@ -59,7 +60,7 @@
   @media (max-width: 640px) { .tiles { grid-template-columns: repeat(2, 1fr); } }
 
   .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; flex: none; }
-  .dot.bite { background: var(--bite); } .dot.tele2 { background: var(--tele2); } .dot.lmt { background: var(--lmt); }
+  .dot.bite { background: var(--bite); } .dot.tele2 { background: var(--tele2); } .dot.lmt { background: var(--lmt); } .dot.tet { background: var(--tet); }
 
   .cats { display: flex; gap: 4px; margin-bottom: 14px; border-bottom: 1px solid var(--grid); overflow-x: auto; }
   .cats button {
@@ -178,6 +179,7 @@
       <button data-op="bite" aria-pressed="false"><span class="dot bite"></span>Bite</button>
       <button data-op="tele2" aria-pressed="false"><span class="dot tele2"></span>Tele2</button>
       <button data-op="lmt" aria-pressed="false"><span class="dot lmt"></span>LMT</button>
+      <button data-op="tet" aria-pressed="false"><span class="dot tet"></span>Tet</button>
     </div>
     <label class="chk"><input type="checkbox" id="sale"> Tikai akcijas</label>
     <label class="chk" id="multiWrap" hidden><input type="checkbox" id="multi" checked> Tikai 2+ operatoros</label>
@@ -189,13 +191,13 @@
       <tbody id="rows"></tbody>
     </table>
   </div>
-  <p class="foot">Dati: bite.lv, tele2.lv un lmt.lv, atjaunojas divreiz dienā. Klikšķini uz ierīces, lai redzētu cenu vēsturi. Skatā “Salīdzinājums” katram modelim redzamas visu operatoru cenas; ✓ = lētākais.</p>
+  <p class="foot">Dati: bite.lv, tele2.lv, lmt.lv un tet.lv, atjaunojas divreiz dienā. Klikšķini uz ierīces, lai redzētu cenu vēsturi. Skatā “Salīdzinājums” katram modelim redzamas visu operatoru cenas; ✓ = lētākais.</p>
 </div>
 
 <dialog id="dlg"><div class="dlg" id="dlgBody"></div></dialog>
 
 <script>
-const OPS = { bite: "Bite", tele2: "Tele2", lmt: "LMT" };
+const OPS = { bite: "Bite", tele2: "Tele2", lmt: "LMT", tet: "Tet" };
 const CATS = { telefoni: "Telefoni", pulksteni: "Viedpulksteņi", austinas: "Austiņas" };
 const eur = v => v == null ? "–" : v.toLocaleString("lv-LV", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " €";
 const eur0 = v => v.toLocaleString("lv-LV", { maximumFractionDigits: 0 }) + " €";
@@ -206,23 +208,54 @@ const num = s => s === "" || s == null ? null : +s;
 
 // Viens un tas pats modelis abos operatoros: bez atmiņas apjoma, 5G u.tml.
 // Viena un tā pati ierīce visos operatoros: "Xiaomi Redmi Note 15 5G 256GB" (Tele2), "Redmi Note 15" (LMT),
-// "Galaxy Watch9 LTE" (Bite), "Galaxy Watch 9 44mm BT" (Tele2) -> "redmi note 15", "galaxy watch 9".
-// Atmiņas apjoms, pulksteņa izmērs, korpusa materiāls u.c. tiek ignorēti – tie ir viena produkta varianti.
-const OPENED = /bojāts iepakojums|izpakot|mazlietot|atjaunot|refurb|demo/i;  // nav salīdzināms ar jaunu preci
-const modelKey = p => p.category + (OPENED.test(p.model || "") ? "|izpakota" : "") + "|" + (`${p.brand || ""} ${p.model || ""}`).toLowerCase()
-  .normalize("NFD").replace(/[̀-ͯ]/g, "")         // fēnix -> fenix, bērnu -> bernu
+// "Galaxy Watch9 LTE" (Bite), "Galaxy S26 12+256GB Black" (Tet) -> "redmi note 15", "galaxy watch 9", "galaxy s 26".
+// Atmiņa, pulksteņa izmērs, krāsa, korpusa materiāls u.c. tiek ignorēti – tie ir viena produkta varianti.
+const OPENED = /bojāts iepakojums|izpakot|mazlietot|atjaunot|refurb|demo|pre-?owned/i;  // nav salīdzināms ar jaunu preci
+const COLOR_RE = new RegExp("\\b(" + ("black|white|silver|gold|golden|blue|green|red|pink|purple|gray|grey|graphite|midnight|" +
+  "starlight|burgundy|slate|navy|cream|beige|orange|yellow|violet|lavender|mint|natural|desert|cosmic|sky|space|jet|rose|" +
+  "onyx|obsidian|porcelain|sage|ivory|charcoal|coral|teal|lime|bronze|copper|champagne|olive|aqua|ice|icy|shadow|phantom|" +
+  "cobalt|emerald|frost|stone|sand|denim|indigo|plum|lilac|peach|mocha|ocean|forest|arctic|polar|dark|light|deep|pale|" +
+  "mist|misty|glacier|aurora|nebula|tidal|mystic|jade|marble|pearl|matte?|glossy|brown|melns|balts|zils|zals|sarkans|" +
+  "roza|peleks|sudraba|zelta") + ")\\b", "g");
+// vārdi, kas apzīmē citu modeli (Pixel 11 Pro XL ≠ Pixel 11 Pro) – tos prefiksu apvienošana neaiztiek
+const MODEL_WORDS = new Set(("pro max ultra plus lite mini fe se classic edge fold flip neo active x s e air nc anc fit band " +
+  "watch buds kids smart t r note prime power go open studio solo sport xl solar amoled inreach sapphire play wired eq " +
+  "carbon dlc slim compact gaming").split(" "));
+const baseKey = p => p.category + (OPENED.test(p.model || "") ? "|izpakota" : "") + "|" + (`${p.brand || ""} ${p.model || ""}`).toLowerCase()
+  .normalize("NFD").replace(/[̀-ͯ]/g, "")         // fēnix -> fenix
   .split("|")[0]                                             // Bite: "AirPods 5 | Wireless Charging Case"
   .replace(/\(.*?\)/g, " ")                                  // iekavās – krāsas, kodi
   .replace(/\bbojats iepakojums\b|\bizpakota ierice\b|\bwith .*$/g, " ")
-  .replace(/\b\d+\s?\/\s?\d+\s?(gb|tb)\b/g, " ").replace(/\b\d+\s?(gb|tb)\b/g, " ")
+  .replace(/\s-\s/g, " ")
+  .replace(/\b\d+\s?[\/+]\s?\d+\s?(gb|tb)?\b/g, " ")        // 12+256GB, 8/256GB
+  .replace(/\b\d+\s?(gb|tb)\b/g, " ")
   .replace(/\b\d+\s?mm\b/g, " ")                              // pulksteņa izmērs
-  .replace(/\b(aluminium|aluminum|titanium|ceramics?|stainless steel|case|edition)\b/g, " ")
+  .replace(/\b(aluminium|aluminum|titanium|ceramics?|stainless steel|case|edition|silicone|band|loop|strap|leather|milanese|nylon|fabric|metal|steel)\b/g, " ")
+  .replace(COLOR_RE, " ")
   .replace(/(\d)bt\b/g, "$1")                                 // tune 535bt -> tune 535
-  .replace(/\b(5g|4g|lte|esim|bt|gps|cellular|dual sim|ds|wi-?fi|bluetooth)\b/g, " ")
+  .replace(/\b(5g|4g|lte|esim|bt|gps|cellular|dual sim|ds|wi-?fi|bluetooth|wireless|true)\b/g, " ")
   .replace(/([a-z])(\d)/g, "$1 $2")                          // watch9 -> watch 9
   .replace(/[^a-z0-9]+/g, " ").trim()
   .replace(/\b(\w+) \1\b/g, "$1")                             // "trust trust" -> "trust"
   .replace(/^(xiaomi )(redmi|poco)\b/, "$2");                // Xiaomi Redmi -> Redmi
+
+// Prefiksu apvienošana: "samsung galaxy a 57 awesome icyblue" -> "samsung galaxy a 57", ja atlikušie vārdi
+// nav cipari vai modeļa apzīmējumi (neparasti krāsu nosaukumi, ko nevar uzskaitīt).
+function canonicalKeys(keys) {
+  const ks = [...new Set(keys)].sort((a, b) => b.length - a.length), map = {};
+  for (const k of ks) {
+    let best = null;
+    for (const g of ks) {
+      if (g.length >= k.length || !k.startsWith(g + " ")) continue;
+      if (k.slice(g.length + 1).split(" ").some(w => /\d/.test(w) || MODEL_WORDS.has(w))) continue;
+      if (!best || g.length > best.length) best = g;
+    }
+    map[k] = best || k;
+  }
+  for (const k in map) { let v = map[k]; while (map[v] !== v) v = map[v]; map[k] = v; }
+  return map;
+}
+const modelKey = baseKey;
 
 function parseCSV(text) {
   const rows = []; let row = [], f = "", q = false;
@@ -266,8 +299,10 @@ async function load() {
     const fulls = h.map(x => x.full).concat(p.full).filter(v => v != null);
     const min = fulls.length ? Math.min(...fulls) : null;
     const disc = p.full_old && p.full ? p.full_old - p.full : null;
-    return { ...p, key, mk: modelKey(p), min, disc, name: `${p.brand || ""} ${p.model || ""}`.trim(), since: h[0]?.t };
+    return { ...p, key, mk: baseKey(p), min, disc, name: `${p.brand || ""} ${p.model || ""}`.trim(), since: h[0]?.t };
   });
+  const canon = canonicalKeys(ITEMS.map(p => p.mk));
+  ITEMS.forEach(p => { p.mk = canon[p.mk]; });
 
   render();
 }

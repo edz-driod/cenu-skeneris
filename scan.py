@@ -1,5 +1,5 @@
 """
-Cenu skeneris: Bite, Tele2 un LMT telefonu, viedpulksteņu un austiņu cenas.
+Cenu skeneris: Bite, Tele2, LMT un Tet telefonu, viedpulksteņu un austiņu cenas.
 
 Ko skenēt, nosaka saraksts SOURCES faila apakšā: (operators, kategorija, funkcija).
 
@@ -259,6 +259,64 @@ def scan_lmt(client, slug):
     return list(products.values())
 
 
+# ---------------------------------------------------------------- Tet
+
+# Tet veikals (Magento): produkti ir lapas HTML, pa 58 lapā (?page=N). Katrā kartītē ir
+# data-pricing JSON ar cenu un veco cenu; mēneša maksājumu ņem no redzamā teksta.
+# Lapa aiz pēdējās atkal rāda 1. lapu, tāpēc apstājas, kad jaunu produktu vairs nav.
+
+def parse_tet(html):
+    soup = BeautifulSoup(html, "html.parser")
+    out = []
+    for card in soup.select(".i-product-item[data-id]"):
+        name = (card.get("data-name") or "").strip()
+        if not name:
+            continue
+        brand, _, model = name.partition(" ")
+        try:
+            pricing = json.loads(card.select_one("[data-pricing]")["data-pricing"])
+        except (TypeError, KeyError, ValueError):
+            pricing = {}
+        full = pricing.get("price") or price(card.get("data-price"))
+        msrp = pricing.get("msrp") or None
+        month = card.select_one(".js-price-with-vat .i-product-item__price-month span")
+        link = card.select_one("a.i-product-item__link")
+        href = link.get("href", "") if link else ""
+        out.append({
+            "operator": "tet",
+            "id": card["data-id"],
+            "brand": brand,
+            "model": model or name,
+            "monthly": price(month.get_text()) if month else None,
+            "monthly_old": None,
+            "full": float(full) if full else None,
+            "full_old": float(msrp) if msrp and full and msrp > full else None,
+            "url": href if href.startswith("http") else "https://www.tet.lv" + href,
+        })
+    return out
+
+
+def scan_tet(client, path):
+    """path – kategorija, piem. "/veikals/telefoni/telefoni-un-aksesuari/viedtalruni.html"."""
+    products = {}
+    for page in range(1, 30):
+        if page > 1:
+            time.sleep(DELAY)
+        r = client.get("https://www.tet.lv" + path, params={"page": page}, timeout=30)
+        r.raise_for_status()
+        items = parse_tet(r.text)
+        fresh = [p for p in items if p["id"] not in products]
+        if not fresh:
+            if page == 1:
+                title = re.search(r"<title>(.*?)</title>", r.text, re.S | re.I)
+                raise RuntimeError(f"0 produktu (HTTP {r.status_code}, {len(r.text)} B, "
+                                   f"title={title.group(1).strip()[:60] if title else '-'!r})")
+            break
+        for p in fresh:
+            products[p["id"]] = p
+    return list(products.values())
+
+
 # ---------------------------------------------------------------- Austiņas no jauktām audio sadaļām
 
 # Tele2 (un dažkārt citi) austiņas un skaļruņus rāda vienā sadaļā.
@@ -420,6 +478,9 @@ SOURCES = [
     ("lmt",   "telefoni",  lambda c: scan_lmt(c, "visi-telefoni")),
     ("lmt",   "pulksteni", lambda c: scan_lmt(c, "visi-viedpulksteni")),
     ("lmt",   "austinas",  lambda c: only_headphones(scan_lmt(c, "austinas"))),
+    ("tet",   "telefoni",  lambda c: scan_tet(c, "/veikals/telefoni/telefoni-un-aksesuari/viedtalruni.html")),
+    ("tet",   "pulksteni", lambda c: scan_tet(c, "/veikals/viedierices/viedpulksteni-un-aproces/viedie-pulksteni.html")),
+    ("tet",   "austinas",  lambda c: only_headphones(scan_tet(c, "/veikals/datortehnika/audio-d/austinas.html"))),
 ]
 
 
