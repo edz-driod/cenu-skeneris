@@ -53,6 +53,21 @@
   .sub { color: var(--ink-2); margin: 0 0 20px; font-size: 14px; }
   .sub .warn { color: var(--up); }
 
+  .top { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; margin-bottom: 14px; }
+  .top .sub { margin: 0; }
+  .legend-ops { display: flex; gap: 12px; flex-wrap: wrap; font-size: 13px; color: var(--ink-2); }
+  .legend-ops span { display: inline-flex; align-items: center; gap: 6px; }
+  .stats { color: var(--ink-2); font-size: 13px; margin: -4px 0 14px; }
+  .stats b { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+  .brands { display: flex; gap: 6px; overflow-x: auto; padding: 2px 0 10px; margin-bottom: 4px; scrollbar-width: thin; }
+  .brands button {
+    font: inherit; font-size: 13px; white-space: nowrap; cursor: pointer; color: var(--ink-2);
+    background: var(--surface); border: 1px solid var(--ring); border-radius: 999px; padding: 5px 11px; min-height: 32px;
+  }
+  .brands button .n { color: var(--muted); margin-left: 4px; font-variant-numeric: tabular-nums; }
+  .brands button[aria-pressed=true] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+  .brands button[aria-pressed=true] .n { color: inherit; opacity: .7; }
+  .save { display: none; }
   .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-bottom: 20px; }
   .tile { background: var(--surface); border: 1px solid var(--ring); border-radius: 12px; padding: 12px 14px; }
   .tile .k { color: var(--ink-2); font-size: 13px; display: flex; align-items: center; gap: 6px; }
@@ -137,6 +152,22 @@
     .compare td:first-child { padding-right: 4px; }
   }
   .card { overflow-x: auto; }
+  @media (max-width: 640px) {
+    .compare thead { display: none; }
+    .compare tbody tr { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px 10px; padding: 12px; border-bottom: 1px solid var(--grid); }
+    .compare tbody tr:last-child { border-bottom: 0; }
+    .compare td { border: 0; padding: 0 !important; }
+    .compare td:first-child { grid-column: 1 / -1; padding-bottom: 4px !important; }
+    .compare td.cmp { display: flex; align-items: baseline; justify-content: space-between; gap: 6px; font-size: 14px;
+      background: var(--hover); border-radius: 8px; padding: 6px 8px !important; }
+    .compare td.cmp::before { content: attr(data-op); font-size: 12px; color: var(--ink-2); display: inline-flex; align-items: center; }
+    .compare td.cmp .from { display: inline; margin-left: auto; }
+    .compare td.cmp .pp { margin-left: 2px; }
+    .compare td.cmp.win { outline: 1.5px solid var(--down); outline-offset: -1.5px; }
+    .compare td.cmp.win .pp::before { content: ""; }
+    .compare .save { display: inline-block; margin-left: 8px; }
+    .compare td.empty { grid-column: 1 / -1; }
+  }
   .empty { padding: 40px 16px; text-align: center; color: var(--ink-2); }
   @media (max-width: 640px) {
     th, td { padding: 9px 10px; }
@@ -181,16 +212,21 @@
 </head>
 <body>
 <div class="wrap">
-  <h1>Cenu skeneris</h1>
-  <p class="sub" id="sub">Ielādē datus…</p>
+  <header class="top">
+    <div>
+      <h1>Cenu skeneris</h1>
+      <p class="sub" id="sub">Ielādē datus…</p>
+    </div>
+    <div class="legend-ops" id="legendOps"></div>
+  </header>
 
   <div class="cats" role="tablist" aria-label="Kategorija" id="cats"></div>
-  <div class="tiles" id="tiles"></div>
+  <p class="stats" id="stats"></p>
 
   <div class="filters">
     <div class="seg" role="group" aria-label="Skats" id="views">
-      <button data-view="list" aria-pressed="true">Saraksts</button>
-      <button data-view="compare" aria-pressed="false">Salīdzinājums</button>
+      <button data-view="compare" aria-pressed="true">Salīdzinājums</button>
+      <button data-view="list" aria-pressed="false">Saraksts</button>
     </div>
     <input type="search" id="q" placeholder="Meklēt, piem. iPhone 17, Galaxy Watch, AirPods…" aria-label="Meklēt">
     <div class="seg" role="group" aria-label="Operators" id="ops">
@@ -203,6 +239,7 @@
     <label class="chk"><input type="checkbox" id="sale"> Tikai akcijas</label>
     <label class="chk" id="multiWrap" hidden><input type="checkbox" id="multi" checked> Tikai 2+ operatoros</label>
   </div>
+  <div class="brands" id="brands" role="group" aria-label="Ražotājs"></div>
 
   <div class="card">
     <table id="tbl">
@@ -210,7 +247,7 @@
       <tbody id="rows"></tbody>
     </table>
   </div>
-  <p class="foot">Dati: bite.lv, tele2.lv, lmt.lv un tet.lv, atjaunojas divreiz dienā. Klikšķini uz ierīces, lai redzētu cenu vēsturi. Skatā “Salīdzinājums” katram modelim redzamas visu operatoru cenas; ✓ = lētākais.</p>
+  <p class="foot">Dati: bite.lv, tele2.lv, lmt.lv un tet.lv, atjaunojas divreiz dienā. Salīdzinājumā zaļā cena ir lētākā; “no” – operatoram ir vairāki varianti. Uzspied uz ierīces, lai redzētu precīzas variantu cenas un vēsturi.</p>
 </div>
 
 <dialog id="dlg"><div class="dlg" id="dlgBody"></div></dialog>
@@ -296,7 +333,7 @@ function parseCSV(text) {
 }
 
 let ITEMS = [], HIST = {}, NOW = new Date(), META = null, VARIANTS = {},
-  state = { view: "list", cat: "telefoni", q: "", op: "", sale: false, multi: true, sort: "name", dir: 1 };
+  state = { view: "compare", cat: "telefoni", q: "", op: "", brand: "", sale: false, multi: true, sort: "diff", dir: -1 };
 const onSale = p => p.disc > 0 || (p.monthly_old && p.monthly_old > p.monthly);
 
 async function load() {
@@ -325,6 +362,14 @@ async function load() {
   });
   const canon = canonicalKeys(ITEMS.map(p => p.mk));
   ITEMS.forEach(p => { p.mk = canon[p.mk]; });
+  // ražotājs: viena rakstība ("SAMSUNG"/"Samsung"), Redmi/POCO -> Xiaomi, Huami -> Amazfit
+  const spell = {};
+  for (const p of ITEMS) { const k = brandKey(p.brand); (spell[k] ||= {})[p.brand] = (spell[k][p.brand] || 0) + 1; }
+  ITEMS.forEach(p => {
+    const k = brandKey(p.brand);
+    p.brandN = BRAND_ALIAS[k] || Object.entries(spell[k] || {}).sort((a, b) => b[1] - a[1] || (/[a-z]/.test(b[0]) - /[a-z]/.test(a[0])))[0]?.[0] || p.brand || "Cits";
+    p.search = searchNorm(`${p.brand} ${p.brandN} ${p.model}`);
+  });
 
   render();
 }
@@ -345,9 +390,12 @@ function renderHeader() {
   const inCat = ITEMS.filter(p => !state.cat || p.category === state.cat);
   const ops = Object.keys(OPS).filter(op => ITEMS.some(p => p.operator === op));
   document.querySelectorAll("#ops button[data-op]").forEach(b => { b.hidden = b.dataset.op && !ops.includes(b.dataset.op); });
-  document.getElementById("tiles").innerHTML = ops.map(op => `
-    <div class="tile"><div class="k"><span class="dot ${op}"></span>${OPS[op]}</div><div class="v">${inCat.filter(p => p.operator === op).length}</div></div>`).join("") + `
-    <div class="tile"><div class="k">Akcijās</div><div class="v">${inCat.filter(onSale).length}</div></div>`;
+  document.getElementById("legendOps").innerHTML = ops.map(op => `<span><span class="dot ${op}"></span>${OPS[op]}</span>`).join("");
+  const groups = buildGroups(inCat), multi = groups.filter(g => g.nOps > 1);
+  const save = multi.reduce((m, g) => g.diff > (m?.diff || 0) ? g : m, null);
+  document.getElementById("stats").innerHTML =
+    `<b>${inCat.length}</b> preces · <b>${multi.length}</b> modeļi pieejami vairākos operatoros · <b>${inCat.filter(onSale).length}</b> akcijās` +
+    (save ? ` · lielākā starpība <b>${eur0(save.diff)}</b> (${esc(save.brand)} ${esc(save.model)}${save.diffVk ? " " + esc(save.diffVk) : ""})` : "");
 }
 
 const LIST_COLS = [["name", "Ierīce", ""], ["full", "Cena", "num"], ["monthly", "Mēnesī", "num"],
@@ -358,13 +406,33 @@ function setHead(cols) {
     `<th data-k="${k}" class="${cls}" aria-sort="${state.sort === k ? (state.dir > 0 ? "ascending" : "descending") : "none"}">${label}</th>`).join("") + "</tr>";
 }
 
-function baseFilter(p) {
-  const q = state.q.toLowerCase().trim();
-  return (!state.cat || p.category === state.cat) && (!q || p.name.toLowerCase().includes(q));
+const BRAND_ALIAS = { redmi: "Xiaomi", poco: "Xiaomi", xiaomi: "Xiaomi", huami: "Amazfit", amazfit: "Amazfit", beats: "Beats" };
+const brandKey = b => (b || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+// meklēšana: "watch 9" atrod "Watch9", "fenix" atrod "fēnix"
+const searchNorm = t => (t || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+  .replace(/([a-z])(\d)/g, "$1 $2").replace(/(\d)([a-z])/g, "$1 $2").replace(/[^a-z0-9]+/g, " ").trim();
+
+function baseFilter(p, ignoreBrand) {
+  const q = searchNorm(state.q);
+  return (!state.cat || p.category === state.cat)
+    && (ignoreBrand || !state.brand || p.brandN === state.brand)
+    && (!q || q.split(" ").every(w => (" " + p.search + " ").includes(" " + w) ));
+}
+
+function renderBrands() {
+  const pool = ITEMS.filter(p => baseFilter(p, true) && (state.view === "compare" || !state.op || p.operator === state.op));
+  const n = {};
+  for (const p of pool) n[p.brandN] = (n[p.brandN] || 0) + 1;
+  const list = Object.entries(n).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  if (state.brand && !n[state.brand]) list.unshift([state.brand, 0]);
+  document.getElementById("brands").innerHTML =
+    `<button data-brand="" aria-pressed="${!state.brand}">Visi ražotāji</button>` +
+    list.map(([b, c]) => `<button data-brand="${esc(b)}" aria-pressed="${state.brand === b}">${esc(b)}<span class="n">${c}</span></button>`).join("");
 }
 
 function render() {
   renderHeader();
+  renderBrands();
   document.querySelectorAll("#views button").forEach(b => b.setAttribute("aria-pressed", b.dataset.view === state.view));
   document.getElementById("ops").hidden = state.view === "compare";
   document.getElementById("multiWrap").hidden = state.view !== "compare";
@@ -407,7 +475,7 @@ function buildGroups(items) {
     const prices = Object.values(grp.best).map(p => p.full).filter(v => v != null);
     grp.nOps = Object.keys(grp.byOp).length;
     grp.min = prices.length ? Math.min(...prices) : null;
-    grp.diff = prices.length > 1 ? Math.max(...prices) - grp.min : null;
+    grp.diff = null; grp.diffVk = null;
     // nosaukums: īsākais (parasti bez atmiņas/krāsas piebildēm)
     const rep = [...grp.items].sort((a, b) => a.name.length - b.name.length)[0];
     const multiVariant = grp.items.length > grp.nOps;
@@ -418,6 +486,15 @@ function buildGroups(items) {
       : m;
     grp.brand = rep.brand; grp.model = clean(rep.model || ""); grp.name = `${rep.brand || ""} ${grp.model}`.trim(); grp.category = rep.category;
     for (const op of Object.keys(OPS)) grp[op] = grp.best[op]?.full ?? null;
+    // starpība tikai starp vienādiem variantiem (piem. 256 GB pret 256 GB), nevis "no" cenām
+    if (grp.nOps > 1) {
+      const byVk = {};
+      for (const r of skuRows(grp)) { const m = (byVk[r.vk] ||= {}); m[r.op] = Math.min(m[r.op] ?? Infinity, r.full); }
+      for (const [vk, m] of Object.entries(byVk)) {
+        const v = Object.values(m);
+        if (v.length > 1 && Math.max(...v) - Math.min(...v) > (grp.diff ?? -1)) { grp.diff = Math.max(...v) - Math.min(...v); grp.diffVk = vk; }
+      }
+    }
   }
   return [...g.values()];
 }
@@ -427,7 +504,7 @@ function renderCompare() {
   const cols = [["name", "Ierīce", ""], ...ops.map(op => [op, `<span class="dot ${op}"></span>${OPS[op]}`, "num"]),
     ["diff", "Starpība", "num hide-sm"]];
   if (!cols.some(c => c[0] === state.sort)) { state.sort = "diff"; state.dir = -1; }
-  let groups = buildGroups(ITEMS.filter(baseFilter))
+  let groups = buildGroups(ITEMS.filter(p => baseFilter(p)))
     .filter(g => (!state.multi || g.nOps > 1) && (!state.sale || g.items.some(onSale)));
   const k = state.sort, d = state.dir;
   groups.sort((a, b) => k === "name" ? a.name.localeCompare(b.name, "lv") * d
@@ -436,18 +513,18 @@ function renderCompare() {
 
   const cell = (g, op) => {
     const list = g.byOp[op];
-    if (!list) return `<td class="num cmp"><span class="none">–</span></td>`;
+    if (!list) return `<td class="num cmp" data-op="${OPS[op]}"><span class="none">–</span></td>`;
     const p = list[0], win = g.nOps > 1 && p.full === g.min;
-    return `<td class="num cmp${win ? " win" : ""}" title="${esc(list.map(x => `${x.model}: ${eur(x.full)}`).join("\n"))}">
+    return `<td class="num cmp${win ? " win" : ""}" data-op="${OPS[op]}" title="${esc(list.map(x => `${x.model}: ${eur(x.full)}`).join("\n"))}">
       ${list.length > 1 ? '<span class="from">no</span>' : ""}<span class="pp">${eur(p.full)}</span>
       <span class="mm">${p.monthly != null ? eur(p.monthly) + "/mēn." : ""}${onSale(p) ? ' <span class="disc">akcija</span>' : ""}</span></td>`;
   };
 
   document.getElementById("rows").innerHTML = groups.length ? groups.map(g => `
     <tr data-key="${esc(g.items[0].key)}" tabindex="0">
-      <td><div class="name"><div><div class="b">${esc(g.brand)}${state.cat ? "" : " · " + CATS[g.category]}</div>${esc(g.model)}</div></div></td>
+      <td><div class="name"><div><div class="b">${esc(g.brand)}${state.cat ? "" : " · " + CATS[g.category]}</div>${esc(g.model)}${g.diff ? `<span class="save disc">−${eur0(g.diff)}</span>` : ""}</div></div></td>
       ${ops.map(op => cell(g, op)).join("")}
-      <td class="num hide-sm">${g.diff ? `<span class="disc">${eur0(g.diff)}</span>` : ""}</td>
+      <td class="num hide-sm">${g.diff ? `<span class="disc">${eur0(g.diff)}</span>${g.diffVk ? `<span class="mm" style="display:block;color:var(--muted);font-size:12px">${esc(g.diffVk)}</span>` : ""}` : ""}</td>
     </tr>`).join("") : `<tr><td colspan="${cols.length}" class="empty">Nekas netika atrasts.</td></tr>`;
 }
 
@@ -647,7 +724,7 @@ const dlg = document.getElementById("dlg");
 dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
 document.getElementById("cats").addEventListener("click", e => {
   const b = e.target.closest("button"); if (!b) return;
-  state.cat = b.dataset.cat; render();
+  state.cat = b.dataset.cat; state.brand = ""; render();
 });
 document.getElementById("q").addEventListener("input", e => { state.q = e.target.value; render(); });
 document.getElementById("sale").addEventListener("change", e => { state.sale = e.target.checked; render(); });
@@ -666,6 +743,10 @@ document.getElementById("head").addEventListener("click", e => {
 document.getElementById("views").addEventListener("click", e => {
   const b = e.target.closest("button"); if (!b) return;
   state.view = b.dataset.view; render();
+});
+document.getElementById("brands").addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  state.brand = state.brand === b.dataset.brand ? "" : b.dataset.brand; render();
 });
 document.getElementById("multi").addEventListener("change", e => { state.multi = e.target.checked; render(); });
 const rows = document.getElementById("rows");
