@@ -464,3 +464,207 @@ scanned_at,operator,category,id,brand,model,monthly,monthly_old,full,full_old,ur
 2026-10-29T18:53:00+00:00,lmt,austinas,55d29c5f-b7f1-45d1-9020-c32c06dbd27f,JBL,Tune 110 3.5mm,,,12.0,,https://www.lmt.lv/veikals/austinas/jbl-t110-in-ear-3-5mm/melnas
 2026-10-29T18:53:00+00:00,lmt,austinas,75266bf6-d16b-46bd-9d00-311d9afe0ab2,Apple,Earpods Lightning,,,28.0,,https://www.lmt.lv/veikals/austinas/apple-earpods-lightning/balts
 2026-10-29T18:53:00+00:00,lmt,austinas,0e4fbb06-6c95-41a7-872c-21879866448b,Apple,EarPods 3.5mm,,,25.0,,https://www.lmt.lv/veikals/austinas/apple-earpods-3-5mm/balta
+2026-10-29T19:11:24+00:00,tele2,telefoni,41955,Apple,iPhone 18 Pro 256GB,62.45,,1499.0,,https://www.tele2.lv/telefoni/iphone-18-pro-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41804,POCO,F9 Pro 256GB,33.28,,799.0,,https://www.tele2.lv/telefoni/f9-pro-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41776,Samsung,Galaxy S26 FE 5G 128GB,31.2,33.29,749.0,799.0,https://www.tele2.lv/telefoni/galaxy-s26-fe-5g-128gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41832,Xiaomi,Redmi Note 17 Pro Max 5G 256GB,22.83,,549.0,,https://www.tele2.lv/telefoni/redmi-note-17-pro-max-5g-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41950,Apple,iPhone 18 Pro Max 256GB,69.53,,1669.0,,https://www.tele2.lv/telefoni/iphone-18-pro-max-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,38631,Apple,iPhone 17 Pro 256GB,50.36,52.03,1209.0,1249.0,https://www.tele2.lv/telefoni/iphone-17-pro-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41806,POCO,F9 Ultra 256GB,37.45,,899.0,,https://www.tele2.lv/telefoni/f9-ultra-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41775,Samsung,Galaxy S26 FE 5G 256GB,35.37,37.45,849.0,899.0,https://www.tele2.lv/telefoni/galaxy-s26-fe-5g-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41833,Xiaomi,Redmi Note 17 Pro 5G 256GB,16.58,,399.0,,https://www.tele2.lv/telefoni/redmi-note-17-pro-5g-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41224,Samsung,Galaxy Fold 8 5G 1TB,104.53,108.7,2509.0,2609.0,https://www.tele2.lv/telefoni/galaxy-fold-8-5g-1tb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,38632,Apple,iPhone 17 Pro 512GB,62.45,,1499.0,,https://www.tele2.lv/telefoni/iphone-17-pro-512gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41869,Xiaomi,Redmi Note 17 4G 128GB,10.37,,249.0,,https://www.tele2.lv/telefoni/redmi-note-17-4g-128gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,37332,Samsung,Galaxy Fold7 5G 1TB,92.45,100.78,2219.0,2419.0,https://www.tele2.lv/telefoni/samsung-galaxy-fold7-5g-1tb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41225,Samsung,Galaxy Fold 8 5G 512GB,88.28,92.45,2119.0,2219.0,https://www.tele2.lv/telefoni/galaxy-fold-8-5g-512gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,38634,Apple,iPhone 17 Pro Max 256GB,59.08,,1419.0,,https://www.tele2.lv/telefoni/iphone-17-pro-max-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41834,Xiaomi,Redmi Note 17 5G 128GB,12.45,,299.0,,https://www.tele2.lv/telefoni/redmi-note-17-5g-128gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41226,Samsung,Galaxy Fold 8 5G 256GB,79.95,84.12,1919.0,2019.0,https://www.tele2.lv/telefoni/galaxy-fold-8-5g-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,38768,Apple,iPhone 17 Pro Max 512GB,69.95,,1679.0,,https://www.tele2.lv/telefoni/iphone-17-pro-max-512gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40989,Xiaomi,17T 256GB,24.95,31.2,599.0,749.0,https://www.tele2.lv/telefoni/xiaomi-17t-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41599,Samsung,Galaxy A27 5G 256GB,20.78,,499.0,,https://www.tele2.lv/telefoni/galaxy-a27-5g-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41600,Samsung,Galaxy A27 5G 128GB,15.78,,379.0,,https://www.tele2.lv/telefoni/galaxy-a27-5g-128gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41222,Samsung,Galaxy Flip 8 5G 256GB,50.36,54.53,1209.0,1309.0,https://www.tele2.lv/telefoni/galaxy-flip-8-5g-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40649,Samsung,Galaxy A37 5G 256GB,24.53,,589.0,,https://www.tele2.lv/telefoni/galaxy-a37-5g-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40648,Samsung,Galaxy A37 5G 128GB,19.53,,469.0,,https://www.tele2.lv/telefoni/galaxy-a37-5g-128gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41223,Samsung,Galaxy Flip 8 5G 512GB,58.7,62.87,1409.0,1509.0,https://www.tele2.lv/telefoni/galaxy-flip-8-5g-512gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40275,Apple,iPhone 17e 256GB,37.03,,889.0,,https://www.tele2.lv/telefoni/iphone-17e-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40261,Xiaomi,17 5G 256GB,31.58,41.58,759.0,999.0,https://www.tele2.lv/telefoni/17-5g-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40646,Samsung,Galaxy A57 5G 256GB,17.87,27.45,429.0,659.0,https://www.tele2.lv/telefoni/galaxy-a57-5g-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40647,Samsung,Galaxy A57 5G 128GB,14.12,24.08,339.0,579.0,https://www.tele2.lv/telefoni/galaxy-a57-5g-128gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,38139,Xiaomi,Redmi 15C 4G 4/128GB,5.37,,129.0,,https://www.tele2.lv/telefoni/redmi-15c-4128gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,33539,Apple,iPhone 16 128GB,43.28,,1039.0,,https://www.tele2.lv/telefoni/iphone-16-128gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40985,Xiaomi,17T Pro 512GB,41.58,,999.0,,https://www.tele2.lv/telefoni/xiaomi-17t-pro-512gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41229,Samsung,Galaxy Fold8 Ultra 5G 256GB,86.2,92.45,2069.0,2219.0,https://www.tele2.lv/telefoni/galaxy-fold-ultra-8-5g-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40140,Samsung,Galaxy S26 Ultra 5G 1TB,74.95,89.95,1799.0,2159.0,https://www.tele2.lv/telefoni/galaxy-s26-ultra-5g-1tb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40138,Samsung,Galaxy S26 Ultra 5G 512GB,62.45,73.28,1499.0,1759.0,https://www.tele2.lv/telefoni/galaxy-s26-ultra-5g-512gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40139,Samsung,Galaxy S26 Ultra 5G 256GB,54.12,64.95,1299.0,1559.0,https://www.tele2.lv/telefoni/galaxy-s26-ultra-5g-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,38628,Apple,iPhone Air 256GB,45.78,,1099.0,,https://www.tele2.lv/telefoni/iphone-air-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40132,Samsung,Galaxy S26 5G 512GB,45.78,54.53,1099.0,1309.0,https://www.tele2.lv/telefoni/galaxy-s26-5g-512gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40133,Samsung,Galaxy S26 5G 256GB,37.45,46.2,899.0,1109.0,https://www.tele2.lv/telefoni/galaxy-s26-5g-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41228,Samsung,Galaxy Fold8 Ultra 5G 512GB,94.53,100.78,2269.0,2419.0,https://www.tele2.lv/telefoni/galaxy-fold-ultra-8-5g-512gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,35254,Samsung,Galaxy S25 Ultra 5G 256GB,60.79,,1459.0,,https://www.tele2.lv/telefoni/galaxy-s25-ultra-5g-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,38629,Apple,iPhone Air 512GB,56.2,,1349.0,,https://www.tele2.lv/telefoni/iphone-air-512gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40137,Samsung,Galaxy S26+ 5G 512GB,54.12,64.95,1299.0,1559.0,https://www.tele2.lv/telefoni/galaxy-s26-5g-512gb0/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40136,Samsung,Galaxy S26+ 5G 256GB,45.79,56.62,1099.0,1359.0,https://www.tele2.lv/telefoni/galaxy-s26-5g-256gb0/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40959,Samsung,Galaxy S26 Ultra EE 512GB,62.46,69.12,1499.0,1659.0,https://www.tele2.lv/telefoni/galaxy-s26-ultra-ee-512gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40850,Samsung,Galaxy S26 Ultra EE 256GB,54.12,60.78,1299.0,1459.0,https://www.tele2.lv/telefoni/galaxy-s26-ultra-ee-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40905,POCO,X8 Pro Max 512GB,24.53,25.78,589.0,619.0,https://www.tele2.lv/telefoni/x8-pro-max-512gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40906,POCO,X8 Pro Max 256GB,22.87,23.7,549.0,569.0,https://www.tele2.lv/telefoni/x8-pro-max-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41783,POCO,X8 Pro 512GB,19.95,20.78,479.0,499.0,https://www.tele2.lv/telefoni/x8-pro-512gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41782,POCO,X8 Pro 256GB,17.03,18.28,409.0,439.0,https://www.tele2.lv/telefoni/x8-pro-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,30689,Samsung,Galaxy Xcover7,10.37,14.95,249.0,359.0,https://www.tele2.lv/telefoni/samsung-galaxy-xcover7/
+2026-10-29T19:11:24+00:00,tele2,telefoni,42055,Samsung,Galaxy A17 5G 128GB,7.87,12.45,189.0,299.0,https://www.tele2.lv/telefoni/galaxy-a17-5g-128gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41813,Xiaomi,Redmi 17 4G 128GB,7.45,8.28,179.0,199.0,https://www.tele2.lv/telefoni/redmi-17-4g-128gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41814,Xiaomi,Redmi A7 Pro 4G 64GB,4.95,6.2,119.0,149.0,https://www.tele2.lv/telefoni/redmi-a7-pro-4g-64gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40907,POCO,F8 Pro 256GB,22.87,24.95,549.0,599.0,https://www.tele2.lv/telefoni/f8-pro-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41947,Apple,iPhone 18 Pro Max 2TB,132.45,,3179.0,,https://www.tele2.lv/telefoni/iphone-18-pro-max-2tb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40908,POCO,F8 Pro 512GB,27.03,,649.0,,https://www.tele2.lv/telefoni/f8-pro-512gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41952,Apple,iPhone 18 Pro 2TB,124.95,,2999.0,,https://www.tele2.lv/telefoni/iphone-18-pro-2tb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41948,Apple,iPhone 18 Pro Max 1TB,99.95,,2399.0,,https://www.tele2.lv/telefoni/iphone-18-pro-max-1tb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40480,Nothing,Phone (4a) 12GB/256GB,21.62,,519.0,,https://www.tele2.lv/telefoni/nothing-phone-4a-12256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,39542,POCO,F8 Ultra 256GB,38.55,,925.29,,https://www.tele2.lv/telefoni/f8-ultra-256gb-black/
+2026-10-29T19:11:24+00:00,tele2,telefoni,42019,Apple,iPhone Duo 1TB,130.78,,3139.0,,https://www.tele2.lv/telefoni/iphone-duo-1tb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41951,Apple,iPhone 18 Pro 512GB,73.7,,1769.0,,https://www.tele2.lv/telefoni/iphone-18-pro-512gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,42245,Samsung,Galaxy A18 LTE 128GB,11.62,,279.0,,https://www.tele2.lv/telefoni/galaxy-a18-lte-128gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,42025,Apple,iPhone Duo 256GB,99.53,,2389.0,,https://www.tele2.lv/telefoni/iphone-duo-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41954,Apple,iPhone 18 Pro 1TB,94.12,,2259.0,,https://www.tele2.lv/telefoni/iphone-18-pro-1tb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,34311,Nokia,225 4G,2.7,,65.0,,https://www.tele2.lv/telefoni/225-4g/
+2026-10-29T19:11:24+00:00,tele2,telefoni,36900,MyPhone,Halo 3 LTE,2.08,,49.99,,https://www.tele2.lv/telefoni/halo-3-lte/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41812,Xiaomi,Redmi 17 5G 128GB,9.53,,229.0,,https://www.tele2.lv/telefoni/redmi-17-5g-128gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,38498,Samsung,Galaxy A17 LTE 128GB,10.37,,249.0,,https://www.tele2.lv/telefoni/galaxy-a17-lte-128gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,42022,Apple,iPhone Duo 512GB,109.95,,2639.0,,https://www.tele2.lv/telefoni/iphone-duo-512gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,38638,Apple,iPhone 17 256GB,47.87,,1149.0,,https://www.tele2.lv/telefoni/iphone-17-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,41949,Apple,iPhone 18 Pro Max 512GB,79.12,,1899.0,,https://www.tele2.lv/telefoni/iphone-18-pro-max-512gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,38802,Samsung,Galaxy S25 FE 5G 128GB,31.58,,759.0,,https://www.tele2.lv/telefoni/galaxy-s25-fe-5g-128gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40084,Doro,Leva 4G E10,2.91,,69.99,,https://www.tele2.lv/telefoni/leva-4g-e10-black/
+2026-10-29T19:11:24+00:00,tele2,telefoni,40665,Nothing,Phone (4a) Pro 12GB/256GB,27.03,,649.0,,https://www.tele2.lv/telefoni/nothing-phone-4a-pro-12256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,35251,Samsung,Galaxy S25 5G 256GB,32.45,,779.0,,https://www.tele2.lv/telefoni/galaxy-s25-5g-256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,39664,POCO,F8 Ultra 16GB/512GB,37.45,,899.0,,https://www.tele2.lv/telefoni/f8-ultra-16512/
+2026-10-29T19:11:24+00:00,tele2,telefoni,37729,Nothing,Phone (3) 12GB 256GB,29.53,,709.0,,https://www.tele2.lv/telefoni/phone3-12gb256gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,39830,Honor,Magic8 Lite 8GB/512GB,17.53,,420.82,,https://www.tele2.lv/telefoni/magic8-lite8512gb-black-5109byrb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,35250,Samsung,Galaxy S25 5G 128GB,28.29,,679.0,,https://www.tele2.lv/telefoni/galaxy-s25-5g-128gb/
+2026-10-29T19:11:24+00:00,tele2,telefoni,38485,Samsung,Galaxy S25 FE 5G 256GB,35.37,,849.0,,https://www.tele2.lv/telefoni/galaxy-s25-fe-5g-256gb/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,41231,Samsung,Galaxy Watch 9 44mm BT,18.28,,439.0,,https://www.tele2.lv/viedpaligi/galaxy-watch-9-44mm-bt/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,41233,Samsung,Galaxy Watch 9 40mm BT,17.04,,409.0,,https://www.tele2.lv/viedpaligi/galaxy-watch-9-40mm-bt/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,41230,Samsung,Galaxy Watch 9 44mm LTE,20.37,,489.0,,https://www.tele2.lv/viedpaligi/galaxy-watch-9-44mm-lte/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,41232,Samsung,Galaxy Watch 9 40mm LTE,19.12,,459.0,,https://www.tele2.lv/viedpaligi/galaxy-watch-9-40mm-lte/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,41234,Samsung,Galaxy Watch Ultra 2 LTE,31.2,,749.0,,https://www.tele2.lv/viedpaligi/samsung-galaxy-watch-ultra-2-lte/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,42085,Huawei,Watch D3,18.7,,449.0,,https://www.tele2.lv/viedpaligi/watch-d3/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,40927,Garmin,Venu 4 - 41 mm,19.95,22.91,479.0,549.99,https://www.tele2.lv/viedpaligi/venu-4-41-mm/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,42028,Huawei,Watch 6 46mm,18.29,20.37,439.0,489.0,https://www.tele2.lv/viedpaligi/watch-6-46mm/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,42029,Huawei,Watch 6 42mm,16.62,18.7,399.0,449.0,https://www.tele2.lv/viedpaligi/watch-6-42mm/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,40958,Huawei,Fit 5 Pro,10.37,12.45,249.0,299.0,https://www.tele2.lv/viedpaligi/watch-fit-5-pro/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,40922,Huawei,Watch Fit 5,6.62,8.29,159.0,199.0,https://www.tele2.lv/viedpaligi/watch-fit-5/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,40337,Huawei,Band 11,1.87,2.28,45.0,54.9,https://www.tele2.lv/viedpaligi/band-11/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,41761,Huawei,Watch 5 42 mm (Bojāts iepakojums),23.7,27.03,569.0,649.0,https://www.tele2.lv/viedpaligi/watch-5-42-mm-dawnlight-bojats-iepakojum/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,36826,Huawei,Watch 5 42 mm,16.61,27.03,399.0,649.0,https://www.tele2.lv/viedpaligi/watch-5-42-mm-dawnlight/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,37317,Samsung,Galaxy Watch8 Classic BT,12.03,22.03,289.0,529.0,https://www.tele2.lv/viedpaligi/galaxy-watch8-classic-bt/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,40699,Huawei,Watch GT Runner 2,12.45,16.62,299.0,399.0,https://www.tele2.lv/viedpaligi/watch-gt-runner-2/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,41852,Huawei,Watch GT 7 46mm,12.45,,299.0,,https://www.tele2.lv/viedpaligi/watch-gt-7-46mm/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,38774,Huawei,Watch GT6 41mm,10.37,,249.0,,https://www.tele2.lv/viedpaligi/watchgt641mm/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,41220,Xiaomi,Smart Band 10 Pro,3.42,,82.05,,https://www.tele2.lv/viedpaligi/xiaomi-smart-band-10-pro0/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,40949,Xiaomi,Watch S5 46mm,7.03,,169.0,,https://www.tele2.lv/viedpaligi/watch-s5-46mm/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,36249,Samsung,Galaxy Watch 7 40mm LTE,15.37,,369.0,,https://www.tele2.lv/viedpaligi/galaxy-watch7-40mm-lte0/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,28871,Apple,Magic Keyboard Folio for iPad (10th generation),14.32,,343.7,,https://www.tele2.lv/viedpaligi/apple-magic-keyboard-folio-for-ipad-10th/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,40926,Garmin,Vivoactive 6,12.49,,299.99,,https://www.tele2.lv/viedpaligi/vivoactive-6/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,40770,Huawei,Band 11 Pro,3.11,,74.9,,https://www.tele2.lv/viedpaligi/band-11-pro/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,41853,Huawei,Watch GT 7 41mm,12.45,,299.0,,https://www.tele2.lv/viedpaligi/watch-gt-7-41mm/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,37329,Samsung,Galaxy Watch8 40mm LTE,17.87,,429.0,,https://www.tele2.lv/viedpaligi/galaxy-watch8-40mm-lte/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,38772,Huawei,Watch GT6 41mm,12.45,,299.0,,https://www.tele2.lv/viedpaligi/watchgt641mm-gold/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,40919,Canyon,Kids Watch ZEFIR CNE-KW49,4.58,,109.99,,https://www.tele2.lv/viedpaligi/kids-watch-zefir/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,41803,Huawei,Watch GT6 46mm,10.37,,249.0,,https://www.tele2.lv/viedpaligi/watchgt646mm0/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,38401,Xiaomi,Watch 2,7.25,,173.94,,https://www.tele2.lv/viedpaligi/xiaomi-watch-20/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,36684,Huawei,Fit 4,5.78,,139.0,,https://www.tele2.lv/viedpaligi/fit-4/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,35283,Xiaomi,Redmi Watch 5 Active,2.08,,49.99,,https://www.tele2.lv/viedpaligi/redmi-watch-5-active/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,38865,Huami,Active 2,7.12,,170.91,,https://www.tele2.lv/viedpaligi/smartwatch-amazfit-active-2black-w2434gl/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,37221,Garett,Kids Vibe 4G,4.53,,109.0,,https://www.tele2.lv/viedpaligi/garett-kids-vibe-4g/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,38870,Huami,T-Rex 3,15.22,,365.37,,https://www.tele2.lv/viedpaligi/smartwatch-amazfit-t-rex-3lava-w2322gl1n/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,41824,Huawei,Watch GT 7 Pro 46mm,17.83,,429.0,,https://www.tele2.lv/viedpaligi/watch-gt-7-pro-46mm/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,37314,Samsung,Galaxy Watch8 Classic LTE,24.12,,579.0,,https://www.tele2.lv/viedpaligi/galaxy-watch8-classic-lte/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,38773,Huawei,Watch GT6 46mm,10.37,,249.0,,https://www.tele2.lv/viedpaligi/watchgt646mm/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,40928,Garmin,Fēnix 8 - 47 mm,41.66,,999.99,,https://www.tele2.lv/viedpaligi/fenix-847-mm/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,38771,Huawei,Watch GT6 Pro 46mm,15.78,,379.0,,https://www.tele2.lv/viedpaligi/watchgt6pro-46mm-back/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,41145,Xiaomi,REDMI Watch 6,4.58,,110.03,,https://www.tele2.lv/viedpaligi/xiaomi-redmi-watch-6-2070/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,39080,Garmin,Instinct E,10.15,,243.51,,https://www.tele2.lv/viedpaligi/garmin-instinct-e---45-mmblack-with-char/
+2026-10-29T19:11:24+00:00,tele2,pulksteni,37326,Samsung,Galaxy Watch8 44mm LTE,19.12,,459.0,,https://www.tele2.lv/viedpaligi/galaxy-watch8-44mm-lte/
+2026-10-29T19:11:24+00:00,tele2,austinas,42035,Samsung,Galaxy Buds4,7.45,,179.0,,https://www.tele2.lv/viedpaligi/galaxy-buds40/
+2026-10-29T19:11:24+00:00,tele2,austinas,40134,Samsung,Galaxy Buds4,7.45,,179.0,,https://www.tele2.lv/viedpaligi/galaxy-buds4/
+2026-10-29T19:11:24+00:00,tele2,austinas,40135,Samsung,Galaxy Buds4 Pro,10.37,,249.0,,https://www.tele2.lv/viedpaligi/galaxy-buds4-pro/
+2026-10-29T19:11:24+00:00,tele2,austinas,42034,Samsung,Galaxy Buds4 Pro,10.37,,249.0,,https://www.tele2.lv/viedpaligi/galaxy-buds4-pro1/
+2026-10-29T19:11:24+00:00,tele2,austinas,40226,Huawei,FreeBuds Pro 5,7.03,8.28,169.0,199.0,https://www.tele2.lv/viedpaligi/freebuds-pro-5/
+2026-10-29T19:11:24+00:00,tele2,austinas,41660,Harman Kardon,Luna 2,4.53,7.49,109.0,179.99,https://www.tele2.lv/viedpaligi/luna-2/
+2026-10-29T19:11:24+00:00,tele2,austinas,38759,Huawei,Freebuds SE 4,2.03,2.45,49.0,59.0,https://www.tele2.lv/viedpaligi/freebuds-se-4-anc/
+2026-10-29T19:11:24+00:00,tele2,austinas,41597,JBL,Tune 535 BT,1.62,2.49,39.0,59.99,https://www.tele2.lv/viedpaligi/tune-535-bt/
+2026-10-29T19:11:24+00:00,tele2,austinas,33537,Apple,AirPods Max (2024),22.87,24.12,549.0,579.0,https://www.tele2.lv/viedpaligi/airpods-max/
+2026-10-29T19:11:24+00:00,tele2,austinas,33534,Apple,AirPods 4th gen with Active Noise Cancellation,7.87,8.28,189.0,199.0,https://www.tele2.lv/viedpaligi/airpods-4th-gen-with-active-noise-cancel/
+2026-10-29T19:11:24+00:00,tele2,austinas,39734,Huawei,FreeBuds 7i,3.29,4.12,79.0,99.0,https://www.tele2.lv/viedpaligi/freebuds-7i/
+2026-10-29T19:11:24+00:00,tele2,austinas,41268,Logitech,H540,1.21,1.44,29.0,34.47,https://www.tele2.lv/viedpaligi/headset-usb-h540981-0004800/
+2026-10-29T19:11:24+00:00,tele2,austinas,38627,Apple,AirPods Pro 3,10.79,,259.0,,https://www.tele2.lv/viedpaligi/airpodspro3/
+2026-10-29T19:11:24+00:00,tele2,austinas,21086,Jabra,Evolve2 75 Link380a MS Stereo Blk,13.74,,329.79,,https://www.tele2.lv/viedpaligi/jabra-evolve2-75-link380a-ms-stereo-blk/
+2026-10-29T19:11:24+00:00,tele2,austinas,33959,Jabra,Evolve2 85 Link380a MS Stand,20.43,,490.41,,https://www.tele2.lv/viedpaligi/jabra-evolve2-85-link380a-ms-stand-black/
+2026-10-29T19:11:24+00:00,tele2,austinas,37096,Trust,Trust GTX 658 Tytan 5.1,7.67,,184.0,,https://www.tele2.lv/viedpaligi/speakertrustpmpo-180-watts3xstereo-jack-/
+2026-10-29T19:11:24+00:00,tele2,austinas,36759,Apple,EarPods (Lightning Connector),0.78,,18.63,,https://www.tele2.lv/viedpaligi/apple-earpods-lightning-connector/
+2026-10-29T19:11:24+00:00,tele2,austinas,38298,Edifier,S880DB,12.29,,294.94,,https://www.tele2.lv/viedpaligi/edifier-s880db-mkii/
+2026-10-29T19:11:24+00:00,tele2,austinas,39931,Jabra,Evolve2 65 Flex Link380a MS Stereo,10.81,,259.5,,https://www.tele2.lv/viedpaligi/evolve2-65-flex-link380a-ms-stereo/
+2026-10-29T19:11:24+00:00,tele2,austinas,41836,Xiaomi,Redmi Buds 8 Lite,1.11,,26.9,,https://www.tele2.lv/viedpaligi/redmi-buds-8-lite/
+2026-10-29T19:11:24+00:00,tele2,austinas,38315,Razer,Kraken Kitty V2,5.17,,124.01,,https://www.tele2.lv/viedpaligi/razer-kraken-kitty-v2/
+2026-10-29T19:11:24+00:00,tele2,austinas,41148,Xiaomi,REDMI Headphones Neo,2.49,,59.74,,https://www.tele2.lv/viedpaligi/xiaomi-redmi-headphones-neo--obsidian-bl/
+2026-10-29T19:11:24+00:00,tele2,austinas,39251,Jabra,Evolve2 65 MS Stereo Headset,9.15,,219.62,,https://www.tele2.lv/viedpaligi/evolve2-65-ms-stereo-headset/
+2026-10-29T19:11:24+00:00,tele2,austinas,39534,Samsung,Buds3 FE,6.2,,149.0,,https://www.tele2.lv/viedpaligi/buds3-fe0/
+2026-10-29T19:11:24+00:00,tele2,austinas,40375,JBL,Tune Beam 2,2.7,,65.0,,https://www.tele2.lv/viedpaligi/tune-beam-2/
+2026-10-29T19:11:24+00:00,tele2,austinas,21055,Razer,Barracuda X 2022 Headset,6.77,,162.44,,https://www.tele2.lv/viedpaligi/razer-barracuda-x-2022-headset/
+2026-10-29T19:11:24+00:00,tele2,austinas,37407,Xiaomi,Buds 6 Play,0.62,,14.99,,https://www.tele2.lv/viedpaligi/buds-6-play/
+2026-10-29T19:11:24+00:00,tele2,austinas,39933,Jabra,Evolve2 30 SE MS Stereo USB C/A,3.91,,93.79,,https://www.tele2.lv/viedpaligi/evolve2-30-se-ms-stereo-usb-ca/
+2026-10-29T19:11:24+00:00,tele2,austinas,36080,Gembird,Headset TWS-LCD-ANC-01-BK,0.57,,13.72,,https://www.tele2.lv/viedpaligi/headset-bluetoothtws-lcd-anc-01-bk-gembi/
+2026-10-29T19:11:24+00:00,tele2,austinas,27379,Razer,Barracuda X (2022) Wireless/Wired,4.5,,107.99,,https://www.tele2.lv/viedpaligi/razer-barracuda-x-2022-wirelesswired/
+2026-10-29T19:11:24+00:00,tele2,austinas,37673,Anker,Soundcore P40i,2.42,,58.13,,https://www.tele2.lv/viedpaligi/anker-soundcore-p40i/
+2026-10-29T19:11:24+00:00,tele2,austinas,39934,Jabra,Evolve 20 USB C/A UC Stereo,2.11,,50.64,,https://www.tele2.lv/viedpaligi/evolve-20-usb-ca-uc-stereo/
+2026-10-29T19:11:24+00:00,tele2,austinas,28894,Apple,Beats Flex - Wireless Earbuds,3.24,,77.85,,https://www.tele2.lv/viedpaligi/apple-beats-flex---wireless-earbuds/
+2026-10-29T19:11:24+00:00,tele2,austinas,36757,Apple,EarPods (3.5mm Headphone Plug),0.78,,18.63,,https://www.tele2.lv/viedpaligi/apple-earpods-35mm-headphone-plug/
+2026-10-29T19:11:24+00:00,tele2,austinas,39253,Jabra,Evolve 30 II USB C/A Stereo MS,3.22,,77.35,,https://www.tele2.lv/viedpaligi/evolve-30-ii-usb-ca-stereo-ms/
+2026-10-29T19:11:24+00:00,tele2,austinas,36214,Apple,Beats Powerbeats Pro 2,10.84,,260.18,,https://www.tele2.lv/viedpaligi/beats-beats-powerbeats-pro-2---high-perf2/
+2026-10-29T19:11:24+00:00,tele2,austinas,40067,JBL,Live 770NC,3.7,,89.0,,https://www.tele2.lv/viedpaligi/live-770nc/
+2026-10-29T19:11:24+00:00,tele2,austinas,37746,Anker,Life Q30,2.77,,66.43,,https://www.tele2.lv/viedpaligi/life-q30-over-ear-headphones/
+2026-10-29T19:11:24+00:00,tele2,austinas,40812,Apple,AirPods Max 2,24.13,,579.0,,https://www.tele2.lv/viedpaligi/airpods-max-2/
+2026-10-29T19:11:24+00:00,tele2,austinas,27410,Razer,BlackShark V2 X / Gaming / 3.5 mm,3.0,,72.0,,https://www.tele2.lv/viedpaligi/razer-blackshark-v2-x--gaming--35-mm/
+2026-10-29T19:11:24+00:00,tele2,austinas,32390,Sennheiser,HD 599,9.96,,238.96,,https://www.tele2.lv/viedpaligi/sennheiser-hd-599/
+2026-10-29T19:11:24+00:00,tele2,austinas,37094,Trust,Trust GXT 629 Tytan,6.71,,160.99,,https://www.tele2.lv/viedpaligi/speakertrust1xaudio-in22944/
+2026-10-29T19:11:24+00:00,tele2,austinas,33383,HYPERX,CloudX Stinger / HHSS1C-DG-GY/G,5.45,,130.68,,https://www.tele2.lv/viedpaligi/hyperx-cloudx-stinger--hhss1c-dg-gyg/
+2026-10-29T19:11:24+00:00,tele2,austinas,26025,Sony,WH-CH520L,1.49,,35.7,,https://www.tele2.lv/viedpaligi/sony-wh-ch520l/
+2026-10-29T19:11:24+00:00,tele2,austinas,41823,Huawei,Freebuds Neo,5.37,,129.0,,https://www.tele2.lv/viedpaligi/freebuds-neo/
+2026-10-29T19:11:24+00:00,tele2,austinas,37716,Anker,K20i,0.69,,16.61,,https://www.tele2.lv/viedpaligi/k20i/
+2026-10-29T19:11:24+00:00,tele2,austinas,38307,Anker,Rave 3S dB,12.08,,289.86,,https://www.tele2.lv/viedpaligi/anker-soundcore-speaker/
+2026-10-29T19:11:24+00:00,tele2,austinas,42001,Apple,AirPods 5 with Wireless Charging Case,7.45,,179.0,,https://www.tele2.lv/viedpaligi/airpods-5-with-wireless-charging-case/
+2026-10-29T19:11:24+00:00,tele2,austinas,40867,Xiaomi,Redmi Buds 8 Pro,3.28,,79.0,,https://www.tele2.lv/viedpaligi/redmi-buds-8-pro/
+2026-10-29T19:11:24+00:00,tele2,austinas,38439,Logitech,Zone Vibe Wl UC,4.78,,114.75,,https://www.tele2.lv/viedpaligi/logi-zone-vibe-wl-uc-headset---graphite/
+2026-10-29T19:11:24+00:00,tele2,austinas,31943,Sony,WH-ULT900N,6.61,,158.66,,https://www.tele2.lv/viedpaligi/sony-wh-ult900n/
+2026-10-29T19:11:24+00:00,tele2,austinas,39248,Jabra,Evolve2 75 Headset,15.41,,369.82,,https://www.tele2.lv/viedpaligi/evolve2-75-headset-on-ear-bt/
+2026-10-29T19:11:24+00:00,tele2,austinas,30737,Razer,BlackShark V2 Pro,8.62,,206.99,,https://www.tele2.lv/viedpaligi/razer-blackshark-v2-pro0/
+2026-10-29T19:11:24+00:00,tele2,austinas,20598,Logitech,Headset H540 USB,1.44,,34.61,,https://www.tele2.lv/viedpaligi/headset-usb-h540981-000480-logitech/
+2026-10-29T19:11:24+00:00,tele2,austinas,30849,Beyerdynamic,DT 770 PRO / 80 ohms,7.72,,185.18,,https://www.tele2.lv/viedpaligi/beyerdynamic-dt-770-pro--80-ohms/
+2026-10-29T19:11:24+00:00,tele2,austinas,20600,HYPERX,CLOUD STINGER,4.63,,111.08,,https://www.tele2.lv/viedpaligi/headset-hyperx-cloud-stingercore-hhss1c-/
+2026-10-29T19:11:24+00:00,tele2,austinas,41835,Xiaomi,Redmi Headphones Neo,2.49,,59.9,,https://www.tele2.lv/viedpaligi/redmi-headphones-neo/
+2026-10-29T19:11:24+00:00,tele2,austinas,27330,Sony,WH-CH720NB Wireless / 3.5 mm jack,3.69,,88.51,,https://www.tele2.lv/viedpaligi/sony-wh-ch720nb-wireless--35-mm-jack0/
+2026-10-29T19:11:24+00:00,tele2,austinas,28346,Apple,Beats Studio Buds,7.24,,173.82,,https://www.tele2.lv/viedpaligi/apple-beats-studio-buds/
+2026-10-29T19:11:24+00:00,tele2,austinas,36084,Gembird,GMB Audio TWS-LCD-ANC-01-W,0.57,,13.72,,https://www.tele2.lv/viedpaligi/headset-bluetoothwhite-tws-lcd-anc-01-w-/
+2026-10-29T19:11:24+00:00,tele2,austinas,27359,Razer,"Gaming Headset Kraken V3 X, Built-in microphone, USB",3.19,,76.5,,https://www.tele2.lv/viedpaligi/razer-gaming-headset-kraken-v3-x-built-i/
+2026-10-29T19:11:24+00:00,tele2,austinas,29695,Razer,BlackShark V2 X / 3.5 mm,2.84,,68.06,,https://www.tele2.lv/viedpaligi/razer-blackshark-v2-x--35-mm/
+2026-10-29T19:11:24+00:00,tele2,austinas,33533,Apple,AirPods 4th gen,6.2,,149.0,,https://www.tele2.lv/viedpaligi/airpods-4th-gen/
+2026-10-29T19:11:24+00:00,tele2,austinas,22467,Logitech,G435,3.77,,90.48,,https://www.tele2.lv/viedpaligi/logitech-g435/
+2026-10-29T19:11:24+00:00,tele2,austinas,21106,Jabra,Evolve2 65 Link380c MS Stereo,9.15,,219.62,,https://www.tele2.lv/viedpaligi/jabra-evolve2-65-link380c-ms-stereo/
+2026-10-29T19:11:24+00:00,tele2,austinas,37053,Anker,Soundcore Space One,3.46,,83.05,,https://www.tele2.lv/viedpaligi/anker-soundcore-space-one-over-ear-headp/
+2026-10-29T19:11:24+00:00,tele2,austinas,38311,Sharp,HT-SBW55121(BK) Q 5.1.2,21.97,,527.17,,https://www.tele2.lv/viedpaligi/sharp-ht-sbw55121bk-q-512-dolby-atmos-dt/
+2026-10-29T19:11:24+00:00,tele2,austinas,38444,Logitech,S150,0.85,,20.33,,https://www.tele2.lv/viedpaligi/logi-s150-spks-20-12w-black/
+2026-10-29T19:11:24+00:00,tele2,austinas,39932,Jabra,Evolve2 40 SE MS Stereo USB C/A,5.21,,125.05,,https://www.tele2.lv/viedpaligi/evolve2-40-se-ms-stereo-usb-ca/
+2026-10-29T19:11:24+00:00,tele2,austinas,27331,Sony,WH-CH520,1.54,,36.84,,https://www.tele2.lv/viedpaligi/sony-wh-ch520/
+2026-10-29T19:11:24+00:00,tele2,austinas,37676,Anker,Space One,3.46,,83.05,,https://www.tele2.lv/viedpaligi/space-one-over-ear-headphones/
+2026-10-29T19:11:24+00:00,tele2,austinas,38314,Razer,Kraken Kitty V2 BT,5.94,,142.48,,https://www.tele2.lv/viedpaligi/razer-kraken-kitty-v2-bt0/
+2026-10-29T19:11:24+00:00,tele2,austinas,40684,Huawei,Freeclip 2,8.28,,199.0,,https://www.tele2.lv/viedpaligi/freeclip/
+2026-10-29T19:11:24+00:00,tele2,austinas,32388,Sennheiser,HD 600,19.87,,476.76,,https://www.tele2.lv/viedpaligi/sennheiser-hd-600/
+2026-10-29T19:11:24+00:00,tele2,austinas,37618,Anker,Q20i,1.73,,41.53,,https://www.tele2.lv/viedpaligi/q20i-over-ear/
+2026-10-29T19:11:24+00:00,tele2,austinas,37670,Anker,Boom 3i,4.5,,107.96,,https://www.tele2.lv/viedpaligi/boom-3i1/
+2026-10-29T19:11:24+00:00,tele2,austinas,41953,Apple,AirPods 5,6.2,,149.0,,https://www.tele2.lv/viedpaligi/airpods-5/
+2026-10-29T19:11:24+00:00,tele2,austinas,36090,Apple,Beats Powerbeats Pro 2,10.84,,260.18,,https://www.tele2.lv/viedpaligi/beats-beats-powerbeats-pro-2---high-perf/
+2026-10-29T19:11:24+00:00,tele2,austinas,27782,Sony,WH-CH520C,1.49,,35.7,,https://www.tele2.lv/viedpaligi/sony-wh-ch520c/
