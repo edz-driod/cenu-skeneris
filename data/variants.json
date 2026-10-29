@@ -1,1148 +1,4 @@
 {
-"bite:24605": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14764BLACK",
-"label": "128 GB, Melns",
-"full": 249.0,
-"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-note-17?v=36337"
-}
-]
-},
-"bite:24611": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14767BLACK",
-"label": "256 GB, Melns",
-"full": 549.0,
-"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-note-17-pro-max?v=36355"
-}
-]
-},
-"bite:20611": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "19622BLUE",
-"label": "256 GB, Tumši zils (Deep Blue)",
-"full": 1399.0,
-"url": "https://www.bite.lv/lv/telefoni/apple-iphone-17-pro-max?v=29345"
-}
-]
-},
-"bite:20567": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "18833GRAY",
-"label": "128 GB, Pelēks",
-"full": 349.0,
-"url": "https://www.bite.lv/lv/telefoni/samsung-galaxy-a17-0?v=29245"
-}
-]
-},
-"bite:24571": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14762BLACK",
-"label": "256 GB, Melns",
-"full": 879.0,
-"url": "https://www.bite.lv/lv/telefoni/poco-f9-ultra?v=36253"
-}
-]
-},
-"bite:22817": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14756BLACK",
-"label": "512 GB, Melns",
-"full": 819.0,
-"url": "https://www.bite.lv/lv/telefoni/xiaomi-17t-pro?v=33227"
-}
-]
-},
-"bite:22121": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14746BLACK",
-"label": "256 GB, Melns",
-"full": 819.0,
-"url": "https://www.bite.lv/lv/telefoni/xiaomi-17?v=32111"
-}
-]
-},
-"bite:18067": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "18795NAVY",
-"label": "128 GB, Tumši zils (Navy)",
-"full": 689.0,
-"url": "https://www.bite.lv/lv/telefoni/samsung-galaxy-s25?v=25457"
-}
-]
-},
-"bite:22815": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14755BLACK",
-"label": "256 GB, Melns",
-"full": 619.0,
-"url": "https://www.bite.lv/lv/telefoni/xiaomi-17t?v=33221"
-}
-]
-},
-"bite:21647": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "17145GOLD",
-"label": "512 GB, Zelts",
-"full": 1199.0,
-"url": "https://www.bite.lv/lv/telefoni/honor-magic8-pro?v=31443"
-}
-]
-},
-"bite:18055": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14595BLACK",
-"label": "128 GB, Melns (Midnight Black)",
-"full": 199.0,
-"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-note-14-5g?v=25423"
-}
-]
-},
-"bite:16807": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "RET_18763GRAY",
-"label": "256 GB, Pelēks (Marble Gray)",
-"full": 1139.05,
-"url": "https://www.bite.lv/lv/telefoni/samsung-galaxy-s24plus-izpakota-ierice?v=23569"
-}
-]
-},
-"bite:22123": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14748BLACK",
-"label": "512 GB, Melns",
-"full": 1449.0,
-"url": "https://www.bite.lv/lv/telefoni/xiaomi-17-ultra?v=32121"
-}
-]
-},
-"bite:21645": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "17144GREEN",
-"label": "512 GB, Zaļš",
-"full": 399.0,
-"url": "https://www.bite.lv/lv/telefoni/honor-magic8-lite?v=31439"
-}
-]
-},
-"bite:24879": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "RET_18842NAVY",
-"label": "256 GB, Tumši zils (Navy)",
-"full": 778.05,
-"url": "https://www.bite.lv/lv/telefoni/samsung-galaxy-s25-fe-izpakota-ierice?v=37059"
-}
-]
-},
-"bite:20407": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14720BLACK",
-"label": "128 GB, Melns",
-"full": 138.57,
-"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-15c?v=29011"
-}
-]
-},
-"bite:15295": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "17514BLACK",
-"label": "256 GB, Melns",
-"full": 272.68,
-"url": "https://www.bite.lv/lv/telefoni/hammer-blade-v?v=20501"
-}
-]
-},
-"bite:20411": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14723BLACK",
-"label": "128 GB, Melns (Midnight Black)",
-"full": 199.0,
-"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-15?v=29025"
-}
-]
-},
-"bite:21589": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14735TITANIUM",
-"label": "256 GB, Bēšs (Titanium)",
-"full": 249.0,
-"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-note-15-pro-4g?v=31249"
-}
-]
-},
-"bite:21585": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14731BLACK",
-"label": "128 GB, Melns",
-"full": 219.0,
-"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-note-15-4g?v=31231"
-}
-]
-},
-"bite:20839": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14726BLACK",
-"label": "128 GB, Melns",
-"full": 109.0,
-"url": "https://www.bite.lv/lv/telefoni/poco-c85?v=29763"
-}
-]
-},
-"bite:24861": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "RET_12654BLACK",
-"label": "Melns",
-"full": 75.05,
-"url": "https://www.bite.lv/lv/telefoni/doro-1880-izpakota-ierice?v=36955"
-}
-]
-},
-"bite:25065": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14770BLACK",
-"label": "256 GB, Melns",
-"full": 399.0,
-"url": "https://www.bite.lv/lv/telefoni/poco-x8?v=37295"
-}
-]
-},
-"bite:24825": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "18898BLACK",
-"label": "128 GB, Melns",
-"full": 279.0,
-"url": "https://www.bite.lv/lv/telefoni/samsung-galaxy-a18?v=36859"
-}
-]
-},
-"bite:24607": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14765BLACK",
-"label": "128 GB, Melns",
-"full": 299.0,
-"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-note-17-0?v=36343"
-}
-]
-},
-"bite:24609": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14766BLACK",
-"label": "256 GB, Melns",
-"full": 399.0,
-"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-note-17-pro?v=36349"
-}
-]
-},
-"bite:24565": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14759BLACK",
-"label": "128 GB, Melns",
-"full": 199.0,
-"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-17?v=36237"
-}
-]
-},
-"bite:24567": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14760BLACK",
-"label": "128 GB, Melns",
-"full": 229.0,
-"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-17-0?v=36243"
-}
-]
-},
-"bite:24569": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14761BLACK",
-"label": "256 GB, Melns",
-"full": 799.0,
-"url": "https://www.bite.lv/lv/telefoni/poco-f9-pro?v=36247"
-}
-]
-},
-"bite:23601": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "17147BLACK",
-"label": "128 GB, Melns",
-"full": 299.0,
-"url": "https://www.bite.lv/lv/telefoni/honor-600-smart?v=34507"
-}
-]
-},
-"bite:23603": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "17148BLACK",
-"label": "128 GB, Melns",
-"full": 399.0,
-"url": "https://www.bite.lv/lv/telefoni/honor-600-lite?v=34511"
-}
-]
-},
-"bite:23605": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "17149BLACK",
-"label": "256 GB, Melns",
-"full": 699.0,
-"url": "https://www.bite.lv/lv/telefoni/honor-600?v=34515"
-}
-]
-},
-"bite:23607": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "17150WHITE",
-"label": "512 GB, Balts (Golden White)",
-"full": 1099.0,
-"url": "https://www.bite.lv/lv/telefoni/honor-600-pro?v=34521"
-}
-]
-},
-"bite:22295": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "17524ORANGE",
-"label": "128 GB, Oranžs",
-"full": 359.0,
-"url": "https://www.bite.lv/lv/telefoni/hammer-iron-6?v=32371"
-}
-]
-},
-"bite:22179": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "18859BLACK",
-"label": "512 GB, Melns",
-"full": 1459.0,
-"url": "https://www.bite.lv/lv/telefoni/samsung-galaxy-s26plus?v=32201"
-}
-]
-},
-"bite:21637": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14742SILVER",
-"label": "256 GB, Sudrabs",
-"full": 249.0,
-"url": "https://www.bite.lv/lv/telefoni/poco-m8?v=31405"
-}
-]
-},
-"bite:20553": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14800",
-"label": "4 GB, Melns",
-"full": 93.0,
-"url": "https://www.bite.lv/lv/telefoni/maxcom-mm41d?v=29223"
-}
-]
-},
-"bite:20555": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14801",
-"label": "Melns",
-"full": 47.0,
-"url": "https://www.bite.lv/lv/telefoni/maxcom-mm39d?v=29225"
-}
-]
-},
-"bite:19965": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "15832SILVER",
-"label": "256 GB, Sudrabs (Mecha Silver)",
-"full": 299.0,
-"url": "https://www.bite.lv/lv/telefoni/realme-14?v=28335"
-}
-]
-},
-"bite:19969": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "15834BLUE",
-"label": "512 GB, Zils (Icesense Blue)",
-"full": 579.0,
-"url": "https://www.bite.lv/lv/telefoni/realme-gt-7?v=28345"
-}
-]
-},
-"bite:19735": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14603BLACK",
-"label": "",
-"full": 41.99,
-"url": "https://www.bite.lv/lv/telefoni/hmd-105-4g?v=28013"
-}
-]
-},
-"bite:18541": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "19592BLACK",
-"label": "128 GB, Melns",
-"full": 679.0,
-"url": "https://www.bite.lv/lv/telefoni/apple-iphone-16e?v=26349"
-}
-]
-},
-"bite:17393": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "14602BLACK",
-"label": "256 GB, Melns",
-"full": 509.0,
-"url": "https://www.bite.lv/lv/telefoni/hmd-skyline?v=24563"
-}
-]
-},
-"bite:16975": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "19535BLACK",
-"label": "128 GB, Melns",
-"full": 999.0,
-"url": "https://www.bite.lv/lv/telefoni/apple-iphone-16?v=23889"
-}
-]
-},
-"bite:14297": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "18770BLACK",
-"label": "128 GB, Melns",
-"full": 429.0,
-"url": "https://www.bite.lv/lv/telefoni/samsung-galaxy-xcover-7-ee?v=19249"
-}
-]
-},
-"bite:13573": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "17502BLACK",
-"label": "Melns",
-"full": 46.8,
-"url": "https://www.bite.lv/lv/telefoni/myphone-halo-3-lte?v=17891"
-}
-]
-},
-"bite:13571": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "17501BLACK",
-"label": "128 MB, Melns",
-"full": 36.0,
-"url": "https://www.bite.lv/lv/telefoni/myphone-6410-lte?v=17889"
-}
-]
-},
-"bite:13419": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "19422BLACK",
-"label": "128 GB, Melns",
-"full": 819.0,
-"url": "https://www.bite.lv/lv/telefoni/apple-iphone-15?v=17383"
-}
-]
-},
-"bite:20161": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "18827GRAY",
-"label": "40, Pelēks",
-"full": 429.0,
-"url": "https://www.bite.lv/lv/esim-viedpulksteni/samsung-galaxy-watch8-lte?v=28699"
-}
-]
-},
-"bite:20169": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "18831BLACK",
-"label": "46, Melns",
-"full": 549.0,
-"url": "https://www.bite.lv/lv/esim-viedpulksteni/samsung-galaxy-watch8-classic-lte?v=28715"
-}
-]
-},
-"bite:23665": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "18887SILVER",
-"label": "Sudrabs",
-"full": 549.0,
-"url": "https://www.bite.lv/lv/esim-viedpulksteni/samsung-galaxy-watch-ultra2-lte?v=34657"
-}
-]
-},
-"bite:16769": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "RET_18742BLACK",
-"label": "Melns",
-"full": 312.55,
-"url": "https://www.bite.lv/lv/esim-viedpulksteni/samsung-galaxy-watch6-classic-43mm-izpakota-ierice?v=23531"
-}
-]
-},
-"bite:16103": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "RET_18737BLACK",
-"label": "Melns",
-"full": 341.05,
-"url": "https://www.bite.lv/lv/esim-viedpulksteni/samsung-galaxy-watch6-classic-47mm-izpakota-ierice?v=22011"
-}
-]
-},
-"bite:25069": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "69910WHITE",
-"label": "LTE + eSIM, 43, Balts",
-"full": 619.0,
-"url": "https://www.bite.lv/lv/esim-viedpulksteni/huawei-watch-6-pro-ceramics-case-43-mm?v=37303"
-}
-]
-},
-"bite:25071": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "69911BLACK",
-"label": "LTE + eSIM, 46, Melns, Fluoroelastomer",
-"full": 429.0,
-"url": "https://www.bite.lv/lv/esim-viedpulksteni/huawei-watch-6-stainless-steel-case-46-mm?v=37305"
-}
-]
-},
-"bite:25073": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "69912TITANIUM",
-"label": "LTE + eSIM, 46, Melns, Titanium Strap",
-"full": 619.0,
-"url": "https://www.bite.lv/lv/esim-viedpulksteni/huawei-watch-6-pro-titanium-case-46-mm?v=37307"
-}
-]
-},
-"bite:13917": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "68849BLUE",
-"label": "Zils",
-"full": 59.0,
-"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/canyon-4g-kids-smartwatch-jondy-kw-44?v=18539"
-}
-]
-},
-"bite:24911": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "RET_19644BLACK",
-"label": "LTE + eSIM, 49, Melns (Black Titanium), Ocean Band",
-"full": 882.55,
-"url": "https://www.bite.lv/lv/esim-viedpulksteni/apple-watch-ultra-3-titanium-case-izpakota-ierice?v=37145"
-}
-]
-},
-"bite:20983": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "RET_69404SILVER",
-"label": "46, Sudrabs (Space Silver), Titanium Strap",
-"full": 616.55,
-"url": "https://www.bite.lv/lv/esim-viedpulksteni/huawei-watch-5-lte-titanium-izpakota-ierice?v=30027"
-}
-]
-},
-"bite:24915": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "RET_69407BEIGE",
-"label": "42, Bēšs (Stellar Beige), Leather Strap",
-"full": 521.55,
-"url": "https://www.bite.lv/lv/esim-viedpulksteni/huawei-watch-5-lte-titanium-izpakota-ierice-0?v=37167"
-}
-]
-},
-"bite:24921": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "RET_13200PINK",
-"label": "Rozā",
-"full": 160.55,
-"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/xplora-xgo3-kids-smartwatch-2nd-izpakota-ierice?v=37189"
-}
-]
-},
-"bite:16767": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "RET_68443GRAY",
-"label": "Tumši pelēks",
-"full": 141.55,
-"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/super-g-active-pro-bernu-drosibas-pulkstenis-izpakota-ierice?v=23527"
-}
-]
-},
-"bite:24707": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "19720PEARL",
-"label": "LTE + eSIM, 42, Balts (Pearl White), Sport Band S/M",
-"full": 1059.0,
-"url": "https://www.bite.lv/lv/esim-viedpulksteni/apple-watch-series-12-ceramic-case?v=36551"
-}
-]
-},
-"bite:24709": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "19728NATURAL",
-"label": "LTE + eSIM, 49, Bēšs (Natural Titanium), Milanese Loop M",
-"full": 1039.0,
-"url": "https://www.bite.lv/lv/esim-viedpulksteni/apple-watch-ultra-4-titanium-case?v=36577"
-}
-]
-},
-"bite:24681": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00210GR",
-"label": "43, Pelēks (Fog Grey/Dark Sandstone)",
-"full": 1199.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-fenix-9-pro-inreach-43-mm?v=36393"
-}
-]
-},
-"bite:24687": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00213GR",
-"label": "43, Pelēks (Pebble Grey)",
-"full": 999.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-fenix-9-43-mm?v=36399"
-}
-]
-},
-"bite:24689": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00214GR",
-"label": "47, Pelēks (Pebble Grey)",
-"full": 999.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-fenix-9-47-mm?v=36401"
-}
-]
-},
-"bite:24691": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00215GR",
-"label": "Pelēks (Pebble Grey)",
-"full": 1099.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-fenix-9-51-mm?v=36403"
-}
-]
-},
-"bite:23765": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "13202BLACK",
-"label": "Melns, 8 GB",
-"full": 79.0,
-"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/garett-twin-2?v=34843"
-}
-]
-},
-"bite:23767": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "13203BLACK",
-"label": "Melns, 8 GB",
-"full": 89.0,
-"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/garett-essa?v=34849"
-}
-]
-},
-"bite:23769": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "13204BLUE",
-"label": "Zils, 16 GB",
-"full": 109.0,
-"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/garett-essa-2-ai?v=34857"
-}
-]
-},
-"bite:23771": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "13205BLACK",
-"label": "Melns",
-"full": 99.0,
-"url": "https://www.bite.lv/lv/esim-viedpulksteni/garett-vita-4g-senior-smartwatch?v=34861"
-}
-]
-},
-"bite:23773": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "15846PINK",
-"label": "Rozā, 4 GB",
-"full": 129.0,
-"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/tcl-movetime-4g-kids-smartwatch-mt48?v=34865"
-}
-]
-},
-"bite:23725": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00199BK",
-"label": "Melns",
-"full": 199.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-cirqa-smart-band-lxl?v=34755"
-}
-]
-},
-"bite:23727": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00200BK",
-"label": "Melns",
-"full": 199.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-cirqa-smart-band-sm?v=34757"
-}
-]
-},
-"bite:22989": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00193BK",
-"label": "Melns",
-"full": 259.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-forerunner-170?v=33431"
-}
-]
-},
-"bite:22991": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00196YE",
-"label": "Dzeltens",
-"full": 215.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-forerunner-70?v=33437"
-}
-]
-},
-"bite:22809": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "13200BLACK",
-"label": "Melns",
-"full": 169.0,
-"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/xplora-xgo3-kids-smartwatch-2nd?v=33197"
-}
-]
-},
-"bite:22811": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "13201BLACK",
-"label": "Melns",
-"full": 219.0,
-"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/xplora-x6play-kids-smartwatch-2nd?v=33203"
-}
-]
-},
-"bite:22805": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "69774BLACK",
-"label": "Melns",
-"full": 29.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/xiaomi-smart-band-9-active?v=33193"
-}
-]
-},
-"bite:22741": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00176BK",
-"label": "Melns (Black/Powder Gray)",
-"full": 329.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-forerunner-265?v=33049"
-}
-]
-},
-"bite:22725": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00179BK",
-"label": "Melns (Black/Amp Yellow)",
-"full": 339.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-forerunner-265s?v=33055"
-}
-]
-},
-"bite:22745": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00190BK",
-"label": "Melns (Black/Charcoal)",
-"full": 279.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-instinct-3-50-mm-solar?v=33075"
-}
-]
-},
-"bite:22729": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "69765BLACK",
-"label": "Melns (Midnight Black)",
-"full": 399.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/huawei-watch-gt-runner-2?v=33003"
-}
-]
-},
-"bite:22005": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "69637BLUE",
-"label": "Zils (Blue/Red)",
-"full": 159.0,
-"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/super-g-i5?v=31949"
-}
-]
-},
-"bite:21567": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "69628BLUE",
-"label": "Zils",
-"full": 129.0,
-"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/canyon-zefir-kw-49?v=31181"
-}
-]
-},
-"bite:21331": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "69602SILVER",
-"label": "43, Sudrabs",
-"full": 259.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/oneplus-watch-3-43mm?v=30579"
-}
-]
-},
-"bite:21153": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00165GE",
-"label": "Zaļš (Turquoise)",
-"full": 249.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-kids-bounce-2?v=30283"
-}
-]
-},
-"bite:21155": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00166WH",
-"label": "Balts (Lunar Gold/Bone Silicone)",
-"full": 419.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-venu-4-41-mm?v=30285"
-}
-]
-},
-"bite:21157": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00171BK",
-"label": "Melns (Slate/Black Silicone)",
-"full": 419.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-venu-4-45-mm?v=30295"
-}
-]
-},
-"bite:20825": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00161BK",
-"label": "Melns (Sapphire/Titanium)",
-"full": 879.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-fenix-8-pro-47mm?v=29741"
-}
-]
-},
-"bite:20621": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "19649BLACK",
-"label": "LTE + eSIM, 49, Melns (Black Titanium), Trail Loop M/L",
-"full": 929.0,
-"url": "https://www.bite.lv/lv/esim-viedpulksteni/apple-watch-ultra-3-titanium-case?v=29505"
-}
-]
-},
-"bite:20343": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00158BK",
-"label": "Melns",
-"full": 529.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-venu-x1?v=28925"
-}
-]
-},
-"bite:19685": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "69423VIOLET",
-"label": "Violets",
-"full": 149.0,
-"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/canyon-4g-kids-smartwatch-sunny-kw-48?v=27963"
-}
-]
-},
-"bite:19379": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00152PK",
-"label": "Rozā",
-"full": 235.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-vivoactive-6?v=27609"
-}
-]
-},
-"bite:18095": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00141BK",
-"label": "Melns",
-"full": 279.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-instinct-3-45-mm?v=25517"
-}
-]
-},
-"bite:18097": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00143BK",
-"label": "Melns",
-"full": 359.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-instinct-3-50-mm?v=25521"
-}
-]
-},
-"bite:18063": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "69278BLACK",
-"label": "Melns",
-"full": 39.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/xiaomi-redmi-watch-5-active?v=25449"
-}
-]
-},
-"bite:16679": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00137BK",
-"label": "Melns (Slate Gray Steel)",
-"full": 699.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-fenix-8-amoled-51mm?v=23413"
-}
-]
-},
-"bite:16543": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "17800YELLOW",
-"label": "Dzeltens",
-"full": 109.0,
-"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/kake-make-kids-4g-lt38kakemake?v=23223"
-}
-]
-},
-"bite:14801": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00131BK",
-"label": "Melns (Black Slate Grey)",
-"full": 185.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-forerunner-165?v=19899"
-}
-]
-},
-"bite:13667": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00118GR",
-"label": "Gaiši zaļš (Sage Gray Passivated), 8 GB",
-"full": 335.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-venu-3s?v=18133"
-}
-]
-},
-"bite:13645": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "ASWEGAR00111BK",
-"label": "Melns (Black/Slate), 4 GB",
-"full": 159.0,
-"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-vivoactive-5?v=18119"
-}
-]
-},
-"bite:10461": {
-"updated": "2026-10-29T20:09:51+00:00",
-"variants": [
-{
-"sku": "68443GRAY",
-"label": "Tumši pelēks",
-"full": 149.0,
-"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/super-g-active-pro-bernu-drosibas-pulkstenis?v=13341"
-}
-]
-},
 "lmt:5fd67342-13b2-46f1-9739-872724f5c468": {
 "updated": "2026-10-29T20:09:51+00:00",
 "variants": [
@@ -4741,6 +3597,1150 @@
 "full": 379.0,
 "full_old": null,
 "url": "https://www.lmt.lv/veikals/visi-viedpulksteni/garmin-venu-3/slate-with-black-band"
+}
+]
+},
+"bite:24605": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14764BLACK",
+"label": "128 GB, Melns",
+"full": 249.0,
+"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-note-17?v=36337"
+}
+]
+},
+"bite:24611": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14767BLACK",
+"label": "256 GB, Melns",
+"full": 549.0,
+"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-note-17-pro-max?v=36355"
+}
+]
+},
+"bite:20611": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "19622BLUE",
+"label": "256 GB, Tumši zils (Deep Blue)",
+"full": 1399.0,
+"url": "https://www.bite.lv/lv/telefoni/apple-iphone-17-pro-max?v=29345"
+}
+]
+},
+"bite:20567": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "18833GRAY",
+"label": "128 GB, Pelēks",
+"full": 349.0,
+"url": "https://www.bite.lv/lv/telefoni/samsung-galaxy-a17-0?v=29245"
+}
+]
+},
+"bite:24571": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14762BLACK",
+"label": "256 GB, Melns",
+"full": 879.0,
+"url": "https://www.bite.lv/lv/telefoni/poco-f9-ultra?v=36253"
+}
+]
+},
+"bite:22817": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14756BLACK",
+"label": "512 GB, Melns",
+"full": 819.0,
+"url": "https://www.bite.lv/lv/telefoni/xiaomi-17t-pro?v=33227"
+}
+]
+},
+"bite:22121": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14746BLACK",
+"label": "256 GB, Melns",
+"full": 819.0,
+"url": "https://www.bite.lv/lv/telefoni/xiaomi-17?v=32111"
+}
+]
+},
+"bite:18067": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "18795NAVY",
+"label": "128 GB, Tumši zils (Navy)",
+"full": 689.0,
+"url": "https://www.bite.lv/lv/telefoni/samsung-galaxy-s25?v=25457"
+}
+]
+},
+"bite:22815": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14755BLACK",
+"label": "256 GB, Melns",
+"full": 619.0,
+"url": "https://www.bite.lv/lv/telefoni/xiaomi-17t?v=33221"
+}
+]
+},
+"bite:21647": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "17145GOLD",
+"label": "512 GB, Zelts",
+"full": 1199.0,
+"url": "https://www.bite.lv/lv/telefoni/honor-magic8-pro?v=31443"
+}
+]
+},
+"bite:18055": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14595BLACK",
+"label": "128 GB, Melns (Midnight Black)",
+"full": 199.0,
+"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-note-14-5g?v=25423"
+}
+]
+},
+"bite:16807": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "RET_18763GRAY",
+"label": "256 GB, Pelēks (Marble Gray)",
+"full": 1139.05,
+"url": "https://www.bite.lv/lv/telefoni/samsung-galaxy-s24plus-izpakota-ierice?v=23569"
+}
+]
+},
+"bite:22123": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14748BLACK",
+"label": "512 GB, Melns",
+"full": 1449.0,
+"url": "https://www.bite.lv/lv/telefoni/xiaomi-17-ultra?v=32121"
+}
+]
+},
+"bite:21645": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "17144GREEN",
+"label": "512 GB, Zaļš",
+"full": 399.0,
+"url": "https://www.bite.lv/lv/telefoni/honor-magic8-lite?v=31439"
+}
+]
+},
+"bite:24879": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "RET_18842NAVY",
+"label": "256 GB, Tumši zils (Navy)",
+"full": 778.05,
+"url": "https://www.bite.lv/lv/telefoni/samsung-galaxy-s25-fe-izpakota-ierice?v=37059"
+}
+]
+},
+"bite:20407": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14720BLACK",
+"label": "128 GB, Melns",
+"full": 138.57,
+"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-15c?v=29011"
+}
+]
+},
+"bite:15295": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "17514BLACK",
+"label": "256 GB, Melns",
+"full": 272.68,
+"url": "https://www.bite.lv/lv/telefoni/hammer-blade-v?v=20501"
+}
+]
+},
+"bite:20411": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14723BLACK",
+"label": "128 GB, Melns (Midnight Black)",
+"full": 199.0,
+"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-15?v=29025"
+}
+]
+},
+"bite:21589": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14735TITANIUM",
+"label": "256 GB, Bēšs (Titanium)",
+"full": 249.0,
+"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-note-15-pro-4g?v=31249"
+}
+]
+},
+"bite:21585": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14731BLACK",
+"label": "128 GB, Melns",
+"full": 219.0,
+"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-note-15-4g?v=31231"
+}
+]
+},
+"bite:20839": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14726BLACK",
+"label": "128 GB, Melns",
+"full": 109.0,
+"url": "https://www.bite.lv/lv/telefoni/poco-c85?v=29763"
+}
+]
+},
+"bite:24861": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "RET_12654BLACK",
+"label": "Melns",
+"full": 75.05,
+"url": "https://www.bite.lv/lv/telefoni/doro-1880-izpakota-ierice?v=36955"
+}
+]
+},
+"bite:25065": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14770BLACK",
+"label": "256 GB, Melns",
+"full": 399.0,
+"url": "https://www.bite.lv/lv/telefoni/poco-x8?v=37295"
+}
+]
+},
+"bite:24825": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "18898BLACK",
+"label": "128 GB, Melns",
+"full": 279.0,
+"url": "https://www.bite.lv/lv/telefoni/samsung-galaxy-a18?v=36859"
+}
+]
+},
+"bite:24607": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14765BLACK",
+"label": "128 GB, Melns",
+"full": 299.0,
+"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-note-17-0?v=36343"
+}
+]
+},
+"bite:24609": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14766BLACK",
+"label": "256 GB, Melns",
+"full": 399.0,
+"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-note-17-pro?v=36349"
+}
+]
+},
+"bite:24565": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14759BLACK",
+"label": "128 GB, Melns",
+"full": 199.0,
+"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-17?v=36237"
+}
+]
+},
+"bite:24567": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14760BLACK",
+"label": "128 GB, Melns",
+"full": 229.0,
+"url": "https://www.bite.lv/lv/telefoni/xiaomi-redmi-17-0?v=36243"
+}
+]
+},
+"bite:24569": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14761BLACK",
+"label": "256 GB, Melns",
+"full": 799.0,
+"url": "https://www.bite.lv/lv/telefoni/poco-f9-pro?v=36247"
+}
+]
+},
+"bite:23601": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "17147BLACK",
+"label": "128 GB, Melns",
+"full": 299.0,
+"url": "https://www.bite.lv/lv/telefoni/honor-600-smart?v=34507"
+}
+]
+},
+"bite:23603": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "17148BLACK",
+"label": "128 GB, Melns",
+"full": 399.0,
+"url": "https://www.bite.lv/lv/telefoni/honor-600-lite?v=34511"
+}
+]
+},
+"bite:23605": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "17149BLACK",
+"label": "256 GB, Melns",
+"full": 699.0,
+"url": "https://www.bite.lv/lv/telefoni/honor-600?v=34515"
+}
+]
+},
+"bite:23607": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "17150WHITE",
+"label": "512 GB, Balts (Golden White)",
+"full": 1099.0,
+"url": "https://www.bite.lv/lv/telefoni/honor-600-pro?v=34521"
+}
+]
+},
+"bite:22295": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "17524ORANGE",
+"label": "128 GB, Oranžs",
+"full": 359.0,
+"url": "https://www.bite.lv/lv/telefoni/hammer-iron-6?v=32371"
+}
+]
+},
+"bite:22179": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "18859BLACK",
+"label": "512 GB, Melns",
+"full": 1459.0,
+"url": "https://www.bite.lv/lv/telefoni/samsung-galaxy-s26plus?v=32201"
+}
+]
+},
+"bite:21637": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14742SILVER",
+"label": "256 GB, Sudrabs",
+"full": 249.0,
+"url": "https://www.bite.lv/lv/telefoni/poco-m8?v=31405"
+}
+]
+},
+"bite:20553": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14800",
+"label": "4 GB, Melns",
+"full": 93.0,
+"url": "https://www.bite.lv/lv/telefoni/maxcom-mm41d?v=29223"
+}
+]
+},
+"bite:20555": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14801",
+"label": "Melns",
+"full": 47.0,
+"url": "https://www.bite.lv/lv/telefoni/maxcom-mm39d?v=29225"
+}
+]
+},
+"bite:19965": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "15832SILVER",
+"label": "256 GB, Sudrabs (Mecha Silver)",
+"full": 299.0,
+"url": "https://www.bite.lv/lv/telefoni/realme-14?v=28335"
+}
+]
+},
+"bite:19969": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "15834BLUE",
+"label": "512 GB, Zils (Icesense Blue)",
+"full": 579.0,
+"url": "https://www.bite.lv/lv/telefoni/realme-gt-7?v=28345"
+}
+]
+},
+"bite:19735": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14603BLACK",
+"label": "",
+"full": 41.99,
+"url": "https://www.bite.lv/lv/telefoni/hmd-105-4g?v=28013"
+}
+]
+},
+"bite:18541": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "19592BLACK",
+"label": "128 GB, Melns",
+"full": 679.0,
+"url": "https://www.bite.lv/lv/telefoni/apple-iphone-16e?v=26349"
+}
+]
+},
+"bite:17393": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "14602BLACK",
+"label": "256 GB, Melns",
+"full": 509.0,
+"url": "https://www.bite.lv/lv/telefoni/hmd-skyline?v=24563"
+}
+]
+},
+"bite:16975": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "19535BLACK",
+"label": "128 GB, Melns",
+"full": 999.0,
+"url": "https://www.bite.lv/lv/telefoni/apple-iphone-16?v=23889"
+}
+]
+},
+"bite:14297": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "18770BLACK",
+"label": "128 GB, Melns",
+"full": 429.0,
+"url": "https://www.bite.lv/lv/telefoni/samsung-galaxy-xcover-7-ee?v=19249"
+}
+]
+},
+"bite:13573": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "17502BLACK",
+"label": "Melns",
+"full": 46.8,
+"url": "https://www.bite.lv/lv/telefoni/myphone-halo-3-lte?v=17891"
+}
+]
+},
+"bite:13571": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "17501BLACK",
+"label": "128 MB, Melns",
+"full": 36.0,
+"url": "https://www.bite.lv/lv/telefoni/myphone-6410-lte?v=17889"
+}
+]
+},
+"bite:13419": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "19422BLACK",
+"label": "128 GB, Melns",
+"full": 819.0,
+"url": "https://www.bite.lv/lv/telefoni/apple-iphone-15?v=17383"
+}
+]
+},
+"bite:20161": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "18827GRAY",
+"label": "40, Pelēks",
+"full": 429.0,
+"url": "https://www.bite.lv/lv/esim-viedpulksteni/samsung-galaxy-watch8-lte?v=28699"
+}
+]
+},
+"bite:20169": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "18831BLACK",
+"label": "46, Melns",
+"full": 549.0,
+"url": "https://www.bite.lv/lv/esim-viedpulksteni/samsung-galaxy-watch8-classic-lte?v=28715"
+}
+]
+},
+"bite:23665": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "18887SILVER",
+"label": "Sudrabs",
+"full": 549.0,
+"url": "https://www.bite.lv/lv/esim-viedpulksteni/samsung-galaxy-watch-ultra2-lte?v=34657"
+}
+]
+},
+"bite:16769": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "RET_18742BLACK",
+"label": "Melns",
+"full": 312.55,
+"url": "https://www.bite.lv/lv/esim-viedpulksteni/samsung-galaxy-watch6-classic-43mm-izpakota-ierice?v=23531"
+}
+]
+},
+"bite:16103": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "RET_18737BLACK",
+"label": "Melns",
+"full": 341.05,
+"url": "https://www.bite.lv/lv/esim-viedpulksteni/samsung-galaxy-watch6-classic-47mm-izpakota-ierice?v=22011"
+}
+]
+},
+"bite:25069": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "69910WHITE",
+"label": "LTE + eSIM, 43, Balts",
+"full": 619.0,
+"url": "https://www.bite.lv/lv/esim-viedpulksteni/huawei-watch-6-pro-ceramics-case-43-mm?v=37303"
+}
+]
+},
+"bite:25071": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "69911BLACK",
+"label": "LTE + eSIM, 46, Melns, Fluoroelastomer",
+"full": 429.0,
+"url": "https://www.bite.lv/lv/esim-viedpulksteni/huawei-watch-6-stainless-steel-case-46-mm?v=37305"
+}
+]
+},
+"bite:25073": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "69912TITANIUM",
+"label": "LTE + eSIM, 46, Melns, Titanium Strap",
+"full": 619.0,
+"url": "https://www.bite.lv/lv/esim-viedpulksteni/huawei-watch-6-pro-titanium-case-46-mm?v=37307"
+}
+]
+},
+"bite:13917": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "68849BLUE",
+"label": "Zils",
+"full": 59.0,
+"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/canyon-4g-kids-smartwatch-jondy-kw-44?v=18539"
+}
+]
+},
+"bite:24911": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "RET_19644BLACK",
+"label": "LTE + eSIM, 49, Melns (Black Titanium), Ocean Band",
+"full": 882.55,
+"url": "https://www.bite.lv/lv/esim-viedpulksteni/apple-watch-ultra-3-titanium-case-izpakota-ierice?v=37145"
+}
+]
+},
+"bite:20983": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "RET_69404SILVER",
+"label": "46, Sudrabs (Space Silver), Titanium Strap",
+"full": 616.55,
+"url": "https://www.bite.lv/lv/esim-viedpulksteni/huawei-watch-5-lte-titanium-izpakota-ierice?v=30027"
+}
+]
+},
+"bite:24915": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "RET_69407BEIGE",
+"label": "42, Bēšs (Stellar Beige), Leather Strap",
+"full": 521.55,
+"url": "https://www.bite.lv/lv/esim-viedpulksteni/huawei-watch-5-lte-titanium-izpakota-ierice-0?v=37167"
+}
+]
+},
+"bite:24921": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "RET_13200PINK",
+"label": "Rozā",
+"full": 160.55,
+"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/xplora-xgo3-kids-smartwatch-2nd-izpakota-ierice?v=37189"
+}
+]
+},
+"bite:16767": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "RET_68443GRAY",
+"label": "Tumši pelēks",
+"full": 141.55,
+"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/super-g-active-pro-bernu-drosibas-pulkstenis-izpakota-ierice?v=23527"
+}
+]
+},
+"bite:24707": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "19720PEARL",
+"label": "LTE + eSIM, 42, Balts (Pearl White), Sport Band S/M",
+"full": 1059.0,
+"url": "https://www.bite.lv/lv/esim-viedpulksteni/apple-watch-series-12-ceramic-case?v=36551"
+}
+]
+},
+"bite:24709": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "19728NATURAL",
+"label": "LTE + eSIM, 49, Bēšs (Natural Titanium), Milanese Loop M",
+"full": 1039.0,
+"url": "https://www.bite.lv/lv/esim-viedpulksteni/apple-watch-ultra-4-titanium-case?v=36577"
+}
+]
+},
+"bite:24681": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00210GR",
+"label": "43, Pelēks (Fog Grey/Dark Sandstone)",
+"full": 1199.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-fenix-9-pro-inreach-43-mm?v=36393"
+}
+]
+},
+"bite:24687": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00213GR",
+"label": "43, Pelēks (Pebble Grey)",
+"full": 999.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-fenix-9-43-mm?v=36399"
+}
+]
+},
+"bite:24689": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00214GR",
+"label": "47, Pelēks (Pebble Grey)",
+"full": 999.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-fenix-9-47-mm?v=36401"
+}
+]
+},
+"bite:24691": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00215GR",
+"label": "Pelēks (Pebble Grey)",
+"full": 1099.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-fenix-9-51-mm?v=36403"
+}
+]
+},
+"bite:23765": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "13202BLACK",
+"label": "Melns, 8 GB",
+"full": 79.0,
+"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/garett-twin-2?v=34843"
+}
+]
+},
+"bite:23767": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "13203BLACK",
+"label": "Melns, 8 GB",
+"full": 89.0,
+"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/garett-essa?v=34849"
+}
+]
+},
+"bite:23769": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "13204BLUE",
+"label": "Zils, 16 GB",
+"full": 109.0,
+"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/garett-essa-2-ai?v=34857"
+}
+]
+},
+"bite:23771": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "13205BLACK",
+"label": "Melns",
+"full": 99.0,
+"url": "https://www.bite.lv/lv/esim-viedpulksteni/garett-vita-4g-senior-smartwatch?v=34861"
+}
+]
+},
+"bite:23773": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "15846PINK",
+"label": "Rozā, 4 GB",
+"full": 129.0,
+"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/tcl-movetime-4g-kids-smartwatch-mt48?v=34865"
+}
+]
+},
+"bite:23725": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00199BK",
+"label": "Melns",
+"full": 199.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-cirqa-smart-band-lxl?v=34755"
+}
+]
+},
+"bite:23727": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00200BK",
+"label": "Melns",
+"full": 199.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-cirqa-smart-band-sm?v=34757"
+}
+]
+},
+"bite:22989": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00193BK",
+"label": "Melns",
+"full": 259.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-forerunner-170?v=33431"
+}
+]
+},
+"bite:22991": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00196YE",
+"label": "Dzeltens",
+"full": 215.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-forerunner-70?v=33437"
+}
+]
+},
+"bite:22809": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "13200BLACK",
+"label": "Melns",
+"full": 169.0,
+"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/xplora-xgo3-kids-smartwatch-2nd?v=33197"
+}
+]
+},
+"bite:22811": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "13201BLACK",
+"label": "Melns",
+"full": 219.0,
+"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/xplora-x6play-kids-smartwatch-2nd?v=33203"
+}
+]
+},
+"bite:22805": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "69774BLACK",
+"label": "Melns",
+"full": 29.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/xiaomi-smart-band-9-active?v=33193"
+}
+]
+},
+"bite:22741": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00176BK",
+"label": "Melns (Black/Powder Gray)",
+"full": 329.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-forerunner-265?v=33049"
+}
+]
+},
+"bite:22725": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00179BK",
+"label": "Melns (Black/Amp Yellow)",
+"full": 339.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-forerunner-265s?v=33055"
+}
+]
+},
+"bite:22745": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00190BK",
+"label": "Melns (Black/Charcoal)",
+"full": 279.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-instinct-3-50-mm-solar?v=33075"
+}
+]
+},
+"bite:22729": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "69765BLACK",
+"label": "Melns (Midnight Black)",
+"full": 399.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/huawei-watch-gt-runner-2?v=33003"
+}
+]
+},
+"bite:22005": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "69637BLUE",
+"label": "Zils (Blue/Red)",
+"full": 159.0,
+"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/super-g-i5?v=31949"
+}
+]
+},
+"bite:21567": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "69628BLUE",
+"label": "Zils",
+"full": 129.0,
+"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/canyon-zefir-kw-49?v=31181"
+}
+]
+},
+"bite:21331": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "69602SILVER",
+"label": "43, Sudrabs",
+"full": 259.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/oneplus-watch-3-43mm?v=30579"
+}
+]
+},
+"bite:21153": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00165GE",
+"label": "Zaļš (Turquoise)",
+"full": 249.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-kids-bounce-2?v=30283"
+}
+]
+},
+"bite:21155": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00166WH",
+"label": "Balts (Lunar Gold/Bone Silicone)",
+"full": 419.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-venu-4-41-mm?v=30285"
+}
+]
+},
+"bite:21157": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00171BK",
+"label": "Melns (Slate/Black Silicone)",
+"full": 419.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-venu-4-45-mm?v=30295"
+}
+]
+},
+"bite:20825": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00161BK",
+"label": "Melns (Sapphire/Titanium)",
+"full": 879.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-fenix-8-pro-47mm?v=29741"
+}
+]
+},
+"bite:20621": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "19649BLACK",
+"label": "LTE + eSIM, 49, Melns (Black Titanium), Trail Loop M/L",
+"full": 929.0,
+"url": "https://www.bite.lv/lv/esim-viedpulksteni/apple-watch-ultra-3-titanium-case?v=29505"
+}
+]
+},
+"bite:20343": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00158BK",
+"label": "Melns",
+"full": 529.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-venu-x1?v=28925"
+}
+]
+},
+"bite:19685": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "69423VIOLET",
+"label": "Violets",
+"full": 149.0,
+"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/canyon-4g-kids-smartwatch-sunny-kw-48?v=27963"
+}
+]
+},
+"bite:19379": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00152PK",
+"label": "Rozā",
+"full": 235.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-vivoactive-6?v=27609"
+}
+]
+},
+"bite:18095": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00141BK",
+"label": "Melns",
+"full": 279.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-instinct-3-45-mm?v=25517"
+}
+]
+},
+"bite:18097": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00143BK",
+"label": "Melns",
+"full": 359.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-instinct-3-50-mm?v=25521"
+}
+]
+},
+"bite:18063": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "69278BLACK",
+"label": "Melns",
+"full": 39.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/xiaomi-redmi-watch-5-active?v=25449"
+}
+]
+},
+"bite:16679": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00137BK",
+"label": "Melns (Slate Gray Steel)",
+"full": 699.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-fenix-8-amoled-51mm?v=23413"
+}
+]
+},
+"bite:16543": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "17800YELLOW",
+"label": "Dzeltens",
+"full": 109.0,
+"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/kake-make-kids-4g-lt38kakemake?v=23223"
+}
+]
+},
+"bite:14801": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00131BK",
+"label": "Melns (Black Slate Grey)",
+"full": 185.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-forerunner-165?v=19899"
+}
+]
+},
+"bite:13667": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00118GR",
+"label": "Gaiši zaļš (Sage Gray Passivated), 8 GB",
+"full": 335.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-venu-3s?v=18133"
+}
+]
+},
+"bite:13645": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "ASWEGAR00111BK",
+"label": "Melns (Black/Slate), 4 GB",
+"full": 159.0,
+"url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-vivoactive-5?v=18119"
+}
+]
+},
+"bite:10461": {
+"updated": "2026-10-29T20:19:37+00:00",
+"variants": [
+{
+"sku": "68443GRAY",
+"label": "Tumši pelēks",
+"full": 149.0,
+"url": "https://www.bite.lv/lv/sim-bernu-viedpulksteni/super-g-active-pro-bernu-drosibas-pulkstenis?v=13341"
 }
 ]
 }

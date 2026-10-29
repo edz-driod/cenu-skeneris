@@ -1,12 +1,12 @@
 {
- "scanned_at": "2026-10-29T20:09:51+00:00",
+ "scanned_at": "2026-10-29T20:19:37+00:00",
  "updated": {
   "lmt/telefoni": "2026-10-29T20:09:51+00:00",
   "lmt/pulksteni": "2026-10-29T20:09:51+00:00",
   "lmt/austinas": "2026-10-29T20:09:51+00:00",
-  "bite/telefoni": "2026-10-29T20:09:51+00:00",
-  "bite/pulksteni": "2026-10-29T20:09:51+00:00",
-  "bite/austinas": "2026-10-29T20:09:51+00:00",
+  "bite/telefoni": "2026-10-29T20:19:37+00:00",
+  "bite/pulksteni": "2026-10-29T20:19:37+00:00",
+  "bite/austinas": "2026-10-29T20:19:37+00:00",
   "tele2/pulksteni": "2026-10-29T19:19:22+00:00",
   "tele2/austinas": "2026-10-29T19:19:22+00:00",
   "tele2/telefoni": "2026-10-29T19:19:22+00:00",
@@ -28,5 +28,12 @@
   "tet/pulksteni": 291,
   "tet/austinas": 435
  },
- "errors": []
+ "errors": [],
+ "variant_errors": [
+  "bite:23413: sequence item 1: expected str instance, list found",
+  "bite:22509: sequence item 1: expected str instance, list found",
+  "bite:24395: sequence item 1: expected str instance, list found",
+  "bite:20609: sequence item 1: expected str instance, list found",
+  "bite:23661: sequence item 1: expected str instance, list found"
+ ]
 }
