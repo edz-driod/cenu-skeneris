@@ -128,6 +128,7 @@ def scan_tele2(client, path, params=None):
     r.raise_for_status()
     items = {p["id"]: p for p in parse_tele2(r.text)}  # dublikātus izmet
     if not items:
+        (DATA / "tele2_atbilde.html").write_text(r.text, "utf-8")  # diagnostikai
         title = re.search(r"<title>(.*?)</title>", r.text, re.S | re.I)
         raise RuntimeError(
             f"0 produktu (HTTP {r.status_code}, {len(r.text)} B, "
