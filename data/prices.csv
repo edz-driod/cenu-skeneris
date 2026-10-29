@@ -668,3 +668,1037 @@ scanned_at,operator,category,id,brand,model,monthly,monthly_old,full,full_old,ur
 2026-10-29T19:11:24+00:00,tele2,austinas,41953,Apple,AirPods 5,6.2,,149.0,,https://www.tele2.lv/viedpaligi/airpods-5/
 2026-10-29T19:11:24+00:00,tele2,austinas,36090,Apple,Beats Powerbeats Pro 2,10.84,,260.18,,https://www.tele2.lv/viedpaligi/beats-beats-powerbeats-pro-2---high-perf/
 2026-10-29T19:11:24+00:00,tele2,austinas,27782,Sony,WH-CH520C,1.49,,35.7,,https://www.tele2.lv/viedpaligi/sony-wh-ch520c/
+2026-10-29T19:46:40+00:00,tet,telefoni,101182,Apple,iPhone 18 Pro 256GB Burgundy,37.48,,1499.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-256gb-burgundy.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101198,Apple,iPhone 18 Pro Max 256GB Burgundy,41.48,,1659.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-max-256gb-burgundy.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101213,Apple,iPhone Duo 256GB Night Sky,59.73,,2389.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-duo-256gb-night-sky.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87969,Apple,iPhone 17 Pro 256GB Silver,39.24,,1239.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17-pro-256gb-silver.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101180,Apple,iPhone 18 Pro 256GB Black,37.48,,1499.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-256gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101202,Apple,iPhone 18 Pro Max 512GB Burgundy,47.48,,1899.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-max-512gb-burgundy.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87978,Apple,iPhone 17 Pro Max 256GB Silver,43.99,,1389.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17-pro-max-256gb-silver.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101215,Apple,iPhone Duo 512GB Night Sky,65.98,,2639.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-duo-512gb-night-sky.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98068,Samsung,Galaxy S26 12+256GB Black,27.52,,869.0,1009.0,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-12-256gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98086,Samsung,Galaxy S26 Ultra 5G 12+512GB Black,43.98,,1759.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-ultra-5g-12-512gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87958,Apple,iPhone 17 256GB Black,36.39,,1149.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17-256gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99028,Samsung,Galaxy A57 5G 8+256GB Awesome Lilac,13.9,,439.0,589.0,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a57-5g-8-256gb-awesome-lilac.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101196,Apple,iPhone 18 Pro Max 256GB Black,41.48,,1659.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-max-256gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101212,Apple,iPhone Duo 256GB Star White,59.73,,2389.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-duo-256gb-star-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87971,Apple,iPhone 17 Pro 256GB Deep Blue,39.24,,1239.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17-pro-256gb-deep-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,64031,Apple,iPhone 15 128GB Black,25.94,,819.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-15-128gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101197,Apple,iPhone 18 Pro Max 256GB Silver,41.48,,1659.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-max-256gb-silver.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101186,Apple,iPhone 18 Pro 512GB Burgundy,43.98,,1759.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-512gb-burgundy.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101183,Apple,iPhone 18 Pro 256GB Glacier,37.48,,1499.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-256gb-glacier.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87970,Apple,iPhone 17 Pro 256GB Cosmic Orange,39.24,,1239.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17-pro-256gb-cosmic-orange.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87980,Apple,iPhone 17 Pro Max 256GB Deep Blue,43.99,,1389.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17-pro-max-256gb-deep-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87979,Apple,iPhone 17 Pro Max 256GB Cosmic Orange,43.99,,1389.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17-pro-max-256gb-cosmic-orange.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101181,Apple,iPhone 18 Pro 256GB Silver,37.48,,1499.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-256gb-silver.html
+2026-10-29T19:46:40+00:00,tet,telefoni,82072,Samsung,Galaxy A26 5G 8+256GB Mint,9.47,,299.0,339.0,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a26-5g-8-256gb-mint.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98084,Samsung,Galaxy S26 Ultra 5G 12+256GB Cobalt Violet,38.98,,1559.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-ultra-5g-12-256gb-cobalt-violet.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101129,Xiaomi,Redmi Note 17 Pro Max 5G 8+256GB Black,17.39,,549.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-note-17-pro-max-5g-8-256gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,76445,Apple,iPhone 16 128GB Pink,32.9,,1039.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-16-128gb-pink.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98082,Samsung,Galaxy S26 Ultra 5G 12+256GB Black,38.98,,1559.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-ultra-5g-12-256gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87963,Apple,iPhone 17 256GB Sage,36.39,,1149.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17-256gb-sage.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98070,Samsung,Galaxy S26 12+256GB Cobalt Violet,27.52,,869.0,1009.0,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-12-256gb-cobalt-violet.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101123,Xiaomi,Redmi Note 17 5G 6+128GB Black,9.47,,299.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-note-17-5g-6-128gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98403,Xiaomi,17 12+512GB Black,25.3,,799.0,899.0,https://www.tet.lv/veikals/viedtalruni/xiaomi-17-12-512gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,76442,Apple,iPhone 16 128GB Black,32.9,,1039.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-16-128gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99026,Samsung,Galaxy A57 5G 8+256GB Awesome Gray,13.9,,439.0,589.0,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a57-5g-8-256gb-awesome-gray.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101550,Apple,iPhone 17 Pro Max 256GB Cosmic Orange [Demo],39.24,,1239.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17-pro-max-256gb-cosmic-orange-demo.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99022,Samsung,Galaxy A57 5G 8+256GB Awesome Navy,13.9,,439.0,589.0,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a57-5g-8-256gb-awesome-navy.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98402,Xiaomi,17 12+256GB Black,23.72,,749.0,849.0,https://www.tet.lv/veikals/viedtalruni/xiaomi-17-12-256gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101200,Apple,iPhone 18 Pro Max 512GB Black,47.48,,1899.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-max-512gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101187,Apple,iPhone 18 Pro 512GB Glacier,43.98,,1759.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-512gb-glacier.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97556,Xiaomi,Redmi Note 15 8+256GB Black,6.94,,219.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-note-15-8-256gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101199,Apple,iPhone 18 Pro Max 256GB Glacier,41.48,,1659.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-max-256gb-glacier.html
+2026-10-29T19:46:40+00:00,tet,telefoni,80516,Samsung,Galaxy S25 12+128GB Navy,27.2,,859.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s25-12-128gb-navy.html
+2026-10-29T19:46:40+00:00,tet,telefoni,80514,Samsung,Galaxy S25 12+128GB Mint,27.2,,859.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s25-12-128gb-mint.html
+2026-10-29T19:46:40+00:00,tet,telefoni,86944,Samsung,Galaxy A17 LTE 4+128GB Gray,6.3,,199.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a17-lte-4-128gb-gray.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99403,Apple,iPhone 12 64GB Black Pre-owned C grade [Refurbished],6.27,,198.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-12-64gb-black-pre-owned-c-grade-refurbished.html
+2026-10-29T19:46:40+00:00,tet,telefoni,64033,Apple,iPhone 15 128GB Blue,25.94,,819.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-15-128gb-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99025,Samsung,Galaxy A57 5G 8+128GB Awesome Gray,16.75,,529.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a57-5g-8-128gb-awesome-gray.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98131,Samsung,Galaxy S26 Ultra 5G 16+1TB Cobalt Violet,53.98,,2159.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-ultra-5g-16-1tb-cobalt-violet.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98527,Apple,iPhone 17e 256GB Black,28.15,,889.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17e-256gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101218,Apple,iPhone Duo 2TB Star White,97.23,,3889.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-duo-2tb-star-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98407,Xiaomi,17 Ultra 16+512GB Black,39.55,,1249.0,1299.0,https://www.tet.lv/veikals/viedtalruni/xiaomi-17-ultra-16-512gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101214,Apple,iPhone Duo 512GB Star White,65.98,,2639.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-duo-512gb-star-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87961,Apple,iPhone 17 256GB Mist Blue,36.39,,1149.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17-256gb-mist-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99024,Samsung,Galaxy A57 5G 8+256GB Awesome Icyblue,13.9,,439.0,589.0,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a57-5g-8-256gb-awesome-icyblue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101127,Xiaomi,Redmi Note 17 Pro 5G 6+256GB Sky Blue,12.64,,399.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-note-17-pro-5g-6-256gb-sky-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98526,Apple,iPhone 17e 256GB Soft Pink,28.15,,889.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17e-256gb-soft-pink.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101203,Apple,iPhone 18 Pro Max 512GB Glacier,47.48,,1899.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-max-512gb-glacier.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101547,Samsung,Galaxy A18 LTE 4+128GB Light Blue,8.84,,279.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a18-lte-4-128gb-light-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98072,Samsung,Galaxy S26 12+512GB Black,33.85,,1069.0,1209.0,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-12-512gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101201,Apple,iPhone 18 Pro Max 512GB Silver,47.48,,1899.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-max-512gb-silver.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98957,POCO,X8 Pro Max 12+512 Black,18.65,,589.0,,https://www.tet.lv/veikals/viedtalruni/poco-x8-pro-max-12-512-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100939,Xiaomi,Redmi 17 5G 4+128GB Black,7.25,,229.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-17-5g-4-128gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99961,Xiaomi,17T Pro 12+512GB Black,25.3,,799.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-17t-pro-12-512gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101219,Apple,iPhone Duo 2TB Night Sky,97.23,,3889.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-duo-2tb-night-sky.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101546,Samsung,Galaxy A18 LTE 4+128GB Black,8.84,,279.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a18-lte-4-128gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101126,Xiaomi,Redmi Note 17 Pro 5G 6+256GB Black,12.64,,399.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-note-17-pro-5g-6-256gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101773,Xiaomi,Redmi Note 15 Pro+ 5G 8+256GB Black [Demo],9.47,,299.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-note-15-pro-5g-8-256gb-black-demo.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100943,Samsung,Galaxy S26 FE 8+128GB Graphite,25.3,,799.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-fe-8-128gb-graphite.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87973,Apple,iPhone 17 Pro 512GB Cosmic Orange,37.48,,1499.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17-pro-512gb-cosmic-orange.html
+2026-10-29T19:46:40+00:00,tet,telefoni,86817,Xiaomi,Redmi 15 5G 4+128GB Midnight Black,5.04,,159.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-15-5g-4-128gb-midnight-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,82073,Samsung,Galaxy A26 5G 8+256GB White,9.47,,299.0,339.0,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a26-5g-8-256gb-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101131,Xiaomi,Redmi Note 17 Pro Max 5G 8+256GB Cloud Blush,17.39,,549.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-note-17-pro-max-5g-8-256gb-cloud-blush.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100946,Samsung,Galaxy S26 FE 8+128GB Pistachio,25.3,,799.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-fe-8-128gb-pistachio.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99396,Apple,iPhone 16 Plus 128GB Pink Pre-owned A grade [Refurbished],21.47,,678.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-16-plus-128gb-pink-pre-owned-a-grade-refurbished-2-3.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101190,Apple,iPhone 18 Pro 1TB Burgundy,56.23,,2249.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-1tb-burgundy.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101217,Apple,iPhone Duo 1TB Night Sky,78.48,,3139.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-duo-1tb-night-sky.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100240,Samsung,Galaxy A27 5G 6+128GB Black,12.0,,379.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a27-5g-6-128gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99021,Samsung,Galaxy A57 5G 8+128GB Awesome Navy,16.75,,529.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a57-5g-8-128gb-awesome-navy.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97555,Xiaomi,Redmi Note 15 6+128GB Purple,5.99,,189.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-note-15-6-128gb-purple.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101206,Apple,iPhone 18 Pro Max 1TB Burgundy,59.98,,2399.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-max-1tb-burgundy.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99962,Xiaomi,17T Pro  12+512GB  Deep Blue,25.3,,799.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-17t-pro-12-512gb-deep-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87960,Apple,iPhone 17 256GB White,36.39,,1149.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17-256gb-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101210,Apple,iPhone 18 Pro Max 2TB Burgundy,78.98,,3159.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-max-2tb-burgundy.html
+2026-10-29T19:46:40+00:00,tet,telefoni,67903,Samsung,Galaxy Xcover 7 6+128GB Black,8.93,,282.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-xcover-7-6-128gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101130,Xiaomi,Redmi Note 17 Pro Max 5G 8+256GB Green,17.39,,549.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-note-17-pro-max-5g-8-256gb-green.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99963,Xiaomi,17T Pro 12+512GB  Deep Violet,25.3,,799.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-17t-pro-12-512gb-deep-violet.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101185,Apple,iPhone 18 Pro 512GB Silver,43.98,,1759.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-512gb-silver.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101122,Xiaomi,Redmi Note 17 4G 4+128GB Black,7.89,,249.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-note-17-4g-4-128gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87962,Apple,iPhone 17 256GB Lavender,36.39,,1149.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17-256gb-lavender.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97553,Xiaomi,Redmi Note 15 6+128GB Black,5.99,,189.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-note-15-6-128gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,86943,Samsung,Galaxy A17 LTE 4+128GB Light Blue,6.3,,199.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a17-lte-4-128gb-light-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100936,Xiaomi,Redmi 17 4G 4+128GB Black,6.3,,199.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-17-4g-4-128gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98129,Samsung,Galaxy S26 Ultra 5G 16+1TB Black,53.98,,2159.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-ultra-5g-16-1tb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101194,Apple,iPhone 18 Pro 2TB Burgundy,74.98,,2999.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-2tb-burgundy.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98069,Samsung,Galaxy S26 12+256GB Sky Blue,27.52,,869.0,1009.0,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-12-256gb-sky-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,86945,Samsung,Galaxy A17 LTE 4+128GB Black,6.3,,199.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a17-lte-4-128gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101216,Apple,iPhone Duo 1TB Star White,78.48,,3139.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-duo-1tb-star-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101184,Apple,iPhone 18 Pro 512GB Black,43.98,,1759.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-512gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87982,Apple,iPhone 17 Pro Max 512GB Cosmic Orange,41.23,,1649.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17-pro-max-512gb-cosmic-orange.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97622,Poco,M8 5G 8+512 Green,8.84,,279.0,319.0,https://www.tet.lv/veikals/viedtalruni/poco-m8-5g-8-512-green.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100287,Samsung,Galaxy Fold8 Ultra 16+1TB Graphite,70.23,,2809.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-ultra-16-1tb-graphite.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98948,POCO,X8 Pro 8+256 Black,13.9,,439.0,,https://www.tet.lv/veikals/viedtalruni/poco-x8-pro-8-256-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97875,Honor,Magic 8 Lite 8+512GB Midnight Black,13.49,,426.0,,https://www.tet.lv/veikals/viedtalruni/honor-magic-8-lite-8-512gb-midnight-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,90764,Poco,F8 Ultra 12+256 Black,22.77,,719.0,739.0,https://www.tet.lv/veikals/viedtalruni/poco-f8-ultra-12-256-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97616,Poco,M8 5G 8+512 Black,8.84,,279.0,319.0,https://www.tet.lv/veikals/viedtalruni/poco-m8-5g-8-512-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98087,Samsung,Galaxy S26 Ultra 5G 12+512GB Sky Blue,43.98,,1759.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-ultra-5g-12-512gb-sky-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,76447,Apple,iPhone 16 128GB Teal,32.9,,1039.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-16-128gb-teal.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100276,Samsung,Galaxy Flip8 12+256GB Cream,41.45,,1309.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-flip8-12-256gb-cream.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99027,Samsung,Galaxy A57 5G 8+128GB Awesome Lilac,16.75,,529.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a57-5g-8-128gb-awesome-lilac.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101770,Poco,F8 Pro 12+256 Blue [Demo],14.22,,449.0,,https://www.tet.lv/veikals/viedtalruni/poco-f8-pro-12-256-blue-demo.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100984,Poco,F9 Ultra 16+512GB Black,31.64,,999.0,,https://www.tet.lv/veikals/viedtalruni/poco-f9-ultra-16-512gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,86804,Xiaomi,Redmi 15C 4+128GB Midnight Black,4.09,,129.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-15c-4-128gb-midnight-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100983,Poco,F9 Ultra 16+512GB Red,31.64,,999.0,,https://www.tet.lv/veikals/viedtalruni/poco-f9-ultra-16-512gb-red.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98074,Samsung,Galaxy S26 12+512GB Cobalt Violet,33.85,,1069.0,1209.0,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-12-512gb-cobalt-violet.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98889,Xiaomi,15 Ultra 16+512GB Silver Chrome Pre-owned B grade [Refurbished],27.93,,882.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-15-ultra-16-512gb-silver-chrome-pre-owned-b-grade-refurbished.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98078,Samsung,Galaxy S26+ 12+256GB Cobalt Violet,43.04,,1359.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-12-256gb-cobalt-violet-2.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100275,Samsung,Galaxy Flip8 12+256GB Graphite,41.45,,1309.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-flip8-12-256gb-graphite.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101205,Apple,iPhone 18 Pro Max 1TB Silver,59.98,,2399.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-max-1tb-silver.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100278,Samsung,Galaxy Flip8 12+512GB Graphite,37.73,,1509.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-flip8-12-512gb-graphite.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98951,POCO,X8 Pro 12+512 Black,15.8,,499.0,,https://www.tet.lv/veikals/viedtalruni/poco-x8-pro-12-512-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99958,Xiaomi,17T 12+256GB Black,18.97,,599.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-17t-12-256gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87983,Apple,iPhone 17 Pro Max 512GB Deep Blue,41.23,,1649.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17-pro-max-512gb-deep-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101125,Xiaomi,Redmi Note 17 5G 6+128GB Celestial Purple,9.47,,299.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-note-17-5g-6-128gb-celestial-purple.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98079,Samsung,Galaxy S26+ 12+512GB Black,38.98,,1559.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-12-512gb-black-2.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101209,Apple,iPhone 18 Pro Max 2TB Silver,78.98,,3159.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-max-2tb-silver.html
+2026-10-29T19:46:40+00:00,tet,telefoni,90766,Poco,F8 Ultra 16+512 Black,25.3,,799.0,829.0,https://www.tet.lv/veikals/viedtalruni/poco-f8-ultra-16-512-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100940,Xiaomi,Redmi 17 5G 4+128GB Blue,7.25,,229.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-17-5g-4-128gb-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100379,Xiaomi,Redmi A7 Pro 4G 4+64GB Black,3.77,,119.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-a7-pro-4g-4-64gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100291,Samsung,Galaxy Fold8 12+256GB Cream,50.48,,2019.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-12-256gb-cream.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100241,Samsung,Galaxy A27 5G 6+128GB Blue,12.0,,379.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a27-5g-6-128gb-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87999,Apple,iPhone Air 1TB Cloud White,40.48,,1619.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-air-1tb-cloud-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,86811,Xiaomi,Redmi 15 6+128GB Midnight Black,4.4,,139.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-15-6-128gb-midnight-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,85410,Realme,14 5G 8+256GB Mecha Silver,8.36,,264.0,,https://www.tet.lv/veikals/viedtalruni/realme-14-5g-8-256gb-mecha-silver.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98085,Samsung,Galaxy S26 Ultra 5G 12+256GB White,38.98,,1559.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-ultra-5g-12-256gb-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101771,Poco,F8 Ultra 12+256 Denim Blue [Demo],18.97,,599.0,,https://www.tet.lv/veikals/viedtalruni/poco-f8-ultra-12-256-denim-blue-demo.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97750,Nokia,3210 4G Scuba Blue,2.57,,81.0,,https://www.tet.lv/veikals/viedtalruni/nokia-3210-4g-scuba-blue-2.html
+2026-10-29T19:46:40+00:00,tet,telefoni,89226,Ulefone,Armor 30 12+512GB Magic Black,10.64,,336.0,,https://www.tet.lv/veikals/viedtalruni/ulefone-armor-30-12-512gb-magic-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101486,Poco,X8 8+256GB Black,11.69,,369.0,399.0,https://www.tet.lv/veikals/viedtalruni/poco-x8-8-256gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,76444,Apple,iPhone 16 128GB White,32.9,,1039.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-16-128gb-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101548,Samsung,Galaxy A18 LTE 4+128GB Silver,8.84,,279.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a18-lte-4-128gb-silver.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99959,Xiaomi,17T 12+256GB Violet,18.97,,599.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-17t-12-256gb-violet.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100281,Samsung,Galaxy Fold8 Ultra 12+256GB Graphite,55.48,,2219.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-ultra-12-256gb-graphite.html
+2026-10-29T19:46:40+00:00,tet,telefoni,80701,Samsung,Galaxy S25 12+128GB Icyblue,27.2,,859.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s25-12-128gb-icyblue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99013,Samsung,Galaxy A37 5G 6+128GB Awesome Graygreen,14.85,,469.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a37-5g-6-128gb-awesome-graygreen.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98955,POCO,X8 Pro Max 12+256 Blue,17.39,,549.0,,https://www.tet.lv/veikals/viedtalruni/poco-x8-pro-max-12-256-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,80518,Samsung,Galaxy S25 12+128GB Silver Shadow,27.2,,859.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s25-12-128gb-silver-shadow.html
+2026-10-29T19:46:40+00:00,tet,telefoni,86805,Xiaomi,Redmi 15C 4+128GB Moonlight Blue,4.09,,129.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-15c-4-128gb-moonlight-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98089,Samsung,Galaxy S26 Ultra 5G 12+512GB White,43.98,,1759.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-ultra-5g-12-512gb-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97764,Hammer,Energy X2 5G 8+256GB Black/Orange,10.07,,318.0,,https://www.tet.lv/veikals/viedtalruni/hammer-energy-x2-5g-8-256gb-black-orange.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101508,OPPO,Reno15 FS 5G 8GB+512GB Twilight Black,12.64,,399.0,,https://www.tet.lv/veikals/viedtalruni/oppo-reno15-fs-5g-8gb-512gb-twilight-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101121,Xiaomi,Redmi Note 17 4G 4+128GB Sky Teal,7.89,,249.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-note-17-4g-4-128gb-sky-teal.html
+2026-10-29T19:46:40+00:00,tet,telefoni,85722,Samsung,Galaxy S25 12+256GB BlueBlack,28.79,,909.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s25-12-256gb-blueblack.html
+2026-10-29T19:46:40+00:00,tet,telefoni,90765,Poco,F8 Ultra 12+256 Denim Blue,22.77,,719.0,739.0,https://www.tet.lv/veikals/viedtalruni/poco-f8-ultra-12-256-denim-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98083,Samsung,Galaxy S26 Ultra 5G 12+256GB Sky Blue,38.98,,1559.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-ultra-5g-12-256gb-sky-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100242,Samsung,Galaxy A27 5G 6+128GB Light Pink,12.0,,379.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a27-5g-6-128gb-light-pink.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100948,Samsung,Galaxy S26 FE 8+256GB Pistachio,28.47,,899.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-fe-8-256gb-pistachio.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100947,Samsung,Galaxy S26 FE 8+128GB Blueberry,25.3,,799.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-fe-8-128gb-blueberry.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100937,Xiaomi,Redmi 17 4G 4+128GB Deep Blue,6.3,,199.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-17-4g-4-128gb-deep-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101192,Apple,iPhone 18 Pro 2TB Black,74.98,,2999.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-2tb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98524,Apple,iPhone 17e 256GB White,28.15,,889.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17e-256gb-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,80515,Samsung,Galaxy S25 12+256GB Mint,28.79,,909.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s25-12-256gb-mint.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99017,Samsung,Galaxy A37 5G 6+128GB Awesome Charcoal,14.85,,469.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a37-5g-6-128gb-awesome-charcoal.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98525,Apple,iPhone 17e 512GB Black,36.07,,1139.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17e-512gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97876,Honor,Magic8 Pro 12+512GB Sunrise Gold,32.11,,1014.0,,https://www.tet.lv/veikals/viedtalruni/honor-magic8-pro-12-512gb-sunrise-gold.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101488,Poco,X8 8+256GB White,11.69,,369.0,399.0,https://www.tet.lv/veikals/viedtalruni/poco-x8-8-256gb-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100938,Xiaomi,Redmi 17 4G 4+128GB Oak Green,6.3,,199.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-17-4g-4-128gb-oak-green.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101128,Xiaomi,Redmi Note 17 Pro 5G 6+256GB Nebula Purple,12.64,,399.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-note-17-pro-5g-6-256gb-nebula-purple.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99014,Samsung,Galaxy A37 5G 6+256GB Awesome Graygreen,18.65,,589.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a37-5g-6-256gb-awesome-graygreen.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98076,Samsung,Galaxy S26+ 12+256GB Black,43.04,,1359.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-12-256gb-black-2.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101207,Apple,iPhone 18 Pro Max 1TB Glacier,59.98,,2399.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-max-1tb-glacier.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101208,Apple,iPhone 18 Pro Max 2TB Black,78.98,,3159.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-max-2tb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98077,Samsung,Galaxy S26+ 12+256GB Sky Blue,43.04,,1359.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-12-256gb-sky-blue-2.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100378,Xiaomi,Redmi A7 Pro 4G 4+64GB Mist Blue,3.77,,119.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-a7-pro-4g-4-64gb-mist-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97723,Hammer,Construction 2 Thermal 5G 8+256GB Orange,19.76,,624.0,,https://www.tet.lv/veikals/viedtalruni/hammer-construction-2-thermal-5g-8-256gb-orange.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100979,Poco,F9 Pro 12+256GB Black,24.35,,769.0,,https://www.tet.lv/veikals/viedtalruni/poco-f9-pro-12-256gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101204,Apple,iPhone 18 Pro Max 1TB Black,59.98,,2399.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-max-1tb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98088,Samsung,Galaxy S26 Ultra 5G 12+512GB Cobalt Violet,43.98,,1759.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-ultra-5g-12-512gb-cobalt-violet.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101195,Apple,iPhone 18 Pro 2TB Glacier,74.98,,2999.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-2tb-glacier.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101120,Xiaomi,Redmi Note 17 4G 4+128GB Celestial Purple,7.89,,249.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-note-17-4g-4-128gb-celestial-purple.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101492,Poco,C95 Pro 8+256GB Black,7.89,,249.0,279.0,https://www.tet.lv/veikals/viedtalruni/poco-c95-pro-8-256gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101211,Apple,iPhone 18 Pro Max 2TB Glacier,78.98,,3159.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-max-2tb-glacier.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101124,Xiaomi,Redmi Note 17 5G 6+128GB Sky Teal,9.47,,299.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-note-17-5g-6-128gb-sky-teal.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100944,Samsung,Galaxy S26 FE 8+256GB Graphite,28.47,,899.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-fe-8-256gb-graphite.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101191,Apple,iPhone 18 Pro 1TB Glacier,56.23,,2249.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-1tb-glacier.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100344,Samsung,Galaxy Fold8 16+1TB Graphite,65.23,,2609.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-16-1tb-graphite.html
+2026-10-29T19:46:40+00:00,tet,telefoni,76446,Apple,iPhone 16 128GB Ultramarine,32.9,,1039.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-16-128gb-ultramarine.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101188,Apple,iPhone 18 Pro 1TB Black,56.23,,2249.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-1tb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98954,POCO,X8 Pro Max 12+256 Black,17.39,,549.0,,https://www.tet.lv/veikals/viedtalruni/poco-x8-pro-max-12-256-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99427,Apple,iPhone SE (2022) 64GB Midnight Pre-owned C grade [Refurbished],3.42,,108.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-se-2022-64gb-midnight-pre-owned-c-grade-refurbished.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99015,Samsung,Galaxy A37 5G 6+128GB Awesome Lavander,14.85,,469.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a37-5g-6-128gb-awesome-lavander.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101193,Apple,iPhone 18 Pro 2TB Silver,74.98,,2999.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-2tb-silver.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98081,Samsung,Galaxy S26+ 12+512GB Cobalt Violet,38.98,,1559.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-12-512gb-cobalt-violet-2.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98075,Samsung,Galaxy S26 12+512GB White,33.85,,1069.0,1209.0,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-12-512gb-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99425,Apple,iPhone SE (2022) 128GB Midnight Pre-owned C grade [Refurbished],5.7,,180.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-se-2022-128gb-midnight-pre-owned-c-grade-refurbished.html
+2026-10-29T19:46:40+00:00,tet,telefoni,86806,Xiaomi,Redmi 15C 4+128GB Mint Green,4.09,,129.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-15c-4-128gb-mint-green.html
+2026-10-29T19:46:40+00:00,tet,telefoni,86807,Xiaomi,Redmi 15C 4+256GB Midnight Black,5.04,,159.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-15c-4-256gb-midnight-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101792,Samsung,Galaxy S25 12+128 BlueBlack,27.2,,859.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s25-12-128-blueblack.html
+2026-10-29T19:46:40+00:00,tet,telefoni,86809,Xiaomi,Redmi 15C 4+256GB Mint Green,5.04,,159.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-15c-4-256gb-mint-green.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97554,Xiaomi,Redmi Note 15 6+128GB Glacier Blue,5.99,,189.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-note-15-6-128gb-glacier-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100978,Poco,F9 Ultra 12+256GB Red,28.47,,899.0,,https://www.tet.lv/veikals/viedtalruni/poco-f9-ultra-12-256gb-red.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97731,myPhone,Bueno LTE Praline Collection Brown,,,63.0,,https://www.tet.lv/veikals/viedtalruni/myphone-bueno-lte-praline-collection-brown.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101489,Poco,C95 Pro 6+128GB Black,6.62,,209.0,239.0,https://www.tet.lv/veikals/viedtalruni/poco-c95-pro-6-128gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99395,Apple,iPhone SE (2022) 64GB (PRODUCT) Red Pre-owned B grade [Refurbished],7.03,,222.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-se-2022-64gb-product-red-pre-owned-b-grade-refurbished.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97748,Hammer,Iron 6 5G 8+256GB Black,10.64,,336.0,,https://www.tet.lv/veikals/viedtalruni/hammer-iron-6-5g-8-256gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,86812,Xiaomi,Redmi 15 6+128GB Titan Gray,4.4,,139.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-15-6-128gb-titan-gray.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101189,Apple,iPhone 18 Pro 1TB Silver,56.23,,2249.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-1tb-silver.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100285,Samsung,Galaxy Fold8 Ultra 12+512GB Violet Shadow,60.48,,2419.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-ultra-12-512gb-violet-shadow.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99023,Samsung,Galaxy A57 5G 8+128GB Awesome Icyblue,16.75,,529.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a57-5g-8-128gb-awesome-icyblue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98073,Samsung,Galaxy S26 12+512GB Sky Blue,33.85,,1069.0,1209.0,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-12-512gb-sky-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100289,Samsung,Galaxy Fold8 12+256GB Graphite,50.48,,2019.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-12-256gb-graphite.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100338,Samsung,Galaxy Fold8 12+512GB Lavender,55.48,,2219.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-12-512gb-lavender.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100277,Samsung,Galaxy Flip8 12+256GB Pink,41.45,,1309.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-flip8-12-256gb-pink.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100282,Samsung,Galaxy Fold8 Ultra 12+256GB Violet Shadow,55.48,,2219.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-ultra-12-256gb-violet-shadow.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100949,Samsung,Galaxy S26 FE 8+256GB Blueberry,28.47,,899.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-fe-8-256gb-blueberry.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97735,Hammer,Rock LTE Black,,,63.0,,https://www.tet.lv/veikals/viedtalruni/hammer-rock-lte-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99020,Samsung,Galaxy A37 5G 6+256GB Awesome White,18.65,,589.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a37-5g-6-256gb-awesome-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101493,Poco,C95 Pro 8+256GB Blue,7.89,,249.0,279.0,https://www.tet.lv/veikals/viedtalruni/poco-c95-pro-8-256gb-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100982,Poco,F9 Pro 12+256GB White,24.35,,769.0,,https://www.tet.lv/veikals/viedtalruni/poco-f9-pro-12-256gb-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,90759,Poco,F8 Pro 12+256 Blue,17.7,,559.0,599.0,https://www.tet.lv/veikals/viedtalruni/poco-f8-pro-12-256-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,82145,Nokia,3210 4G Grunge Black,2.57,,81.0,,https://www.tet.lv/veikals/viedtalruni/nokia-3210-4g-grunge-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101491,Poco,C95 Pro 6+128GB Green,6.62,,209.0,239.0,https://www.tet.lv/veikals/viedtalruni/poco-c95-pro-6-128gb-green.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99960,Xiaomi,17T 12+256GB Blue,18.97,,599.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-17t-12-256gb-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,86460,Ulefone,Armor X16 Pro 8+256GB Sand Dune,9.12,,288.0,,https://www.tet.lv/veikals/viedtalruni/ulefone-armor-x16-pro-8-256gb-sand-dune.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100288,Samsung,Galaxy Fold8 Ultra 16+1TB Violet Shadow,70.23,,2809.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-ultra-16-1tb-violet-shadow.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97730,Hammer,Boost 2 LTE Black/Orange,2.28,,72.0,,https://www.tet.lv/veikals/viedtalruni/hammer-boost-2-lte-black-orange.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98956,POCO,X8 Pro Max 12+256 White,17.39,,549.0,,https://www.tet.lv/veikals/viedtalruni/poco-x8-pro-max-12-256-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87936,Poco,C85 6+128GB Black,4.4,,139.0,,https://www.tet.lv/veikals/viedtalruni/poco-c85-6-128gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97747,Hammer,Iron 6 5G 6+128GB Black,9.31,,294.0,,https://www.tet.lv/veikals/viedtalruni/hammer-iron-6-5g-6-128gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100243,Samsung,Galaxy A27 5G 8+256GB Black,15.8,,499.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a27-5g-8-256gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98949,POCO,X8 Pro 8+256 Mint Green,13.9,,439.0,,https://www.tet.lv/veikals/viedtalruni/poco-x8-pro-8-256-green.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87965,Apple,iPhone 17 512GB White,44.3,,1399.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17-512gb-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99019,Samsung,Galaxy A37 5G 6+128GB Awesome White,14.85,,469.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a37-5g-6-128gb-awesome-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99016,Samsung,Galaxy A37 5G 6+256GB Awesome Lavander,18.65,,589.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a37-5g-6-256gb-awesome-lavander.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99018,Samsung,Galaxy A37 5G 6+256GB Awesome Charcoal,18.65,,589.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a37-5g-6-256gb-awesome-charcoal.html
+2026-10-29T19:46:40+00:00,tet,telefoni,86808,Xiaomi,Redmi 15C 4+256GB Moonlight Blue,5.04,,159.0,,https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-15c-4-256gb-moonlight-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101490,Poco,C95 Pro 6+128GB Blue,6.62,,209.0,239.0,https://www.tet.lv/veikals/viedtalruni/poco-c95-pro-6-128gb-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,82158,MyPhone,Halo 4 LTE Black,,,54.0,,https://www.tet.lv/veikals/viedtalruni/myphone-halo-4-lte-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97767,myPhone,Tango 2 LTE Black/Silver,,,63.0,,https://www.tet.lv/veikals/viedtalruni/myphone-tango-2-lte-black-silver.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100345,Samsung,Galaxy Fold8 16+1TB Lavender,65.23,,2609.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-16-1tb-lavender.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98958,POCO,X8 Pro Max 12+512 Blue,18.65,,589.0,,https://www.tet.lv/veikals/viedtalruni/poco-x8-pro-max-12-512-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99426,Apple,iPhone SE (2022) 128GB Midnight Pre-owned B grade [Refurbished],6.08,,192.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-se-2022-128gb-midnight-pre-owned-b-grade-refurbished.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100244,Samsung,Galaxy A27 5G 8+256GB Blue,15.8,,499.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a27-5g-8-256gb-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87930,Poco,C85 8+256GB Green,5.35,,169.0,,https://www.tet.lv/veikals/viedtalruni/poco-c85-8-256gb-green.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98952,POCO,X8 Pro 12+512 Mint Green,15.8,,499.0,,https://www.tet.lv/veikals/viedtalruni/poco-x8-pro-12-512-green.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97615,Poco,M8 5G 8+512 Silver,8.84,,279.0,319.0,https://www.tet.lv/veikals/viedtalruni/poco-m8-5g-8-512-silver.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101487,Poco,X8 8+256GB Orange,11.69,,369.0,399.0,https://www.tet.lv/veikals/viedtalruni/poco-x8-8-256gb-orange.html
+2026-10-29T19:46:40+00:00,tet,telefoni,68362,MyPhone,Halo 3 LTE Black,,,41.5,,https://www.tet.lv/veikals/viedtalruni/myphone-halo-3-lte-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98953,POCO,X8 Pro 12+512 White,15.8,,499.0,,https://www.tet.lv/veikals/viedtalruni/poco-x8-pro-12-512-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97729,eSTAR,Digni Mini Black,,,14.5,,https://www.tet.lv/veikals/viedtalruni/estar-digni-mini-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,31957,MyPhone,Halo Easy Red,,,23.5,,https://www.tet.lv/veikals/viedtalruni/myphone-halo-easy-red.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100292,Samsung,Galaxy Fold8 12+512GB Graphite,55.48,,2219.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-12-512gb-graphite.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101500,OPPO,Reno16 5G 8+256GB Purple Black,22.14,,699.0,,https://www.tet.lv/veikals/viedtalruni/oppo-reno16-5g-8-256gb-purple-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,29064,MyPhone,HALO Easy Black,,,23.5,,https://www.tet.lv/veikals/viedtalruni/myphone-halo-easy-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101498,OPPO,Reno16 Pro 5G 12+512GB Pop White,28.15,,889.0,,https://www.tet.lv/veikals/viedtalruni/oppo-reno16-pro-5g-12-512gb-pop-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101511,OPPO,A6 4G 6+256GB Aurora Gold,6.3,,199.0,,https://www.tet.lv/veikals/viedtalruni/oppo-a6-4g-6-256gb-zelta.html
+2026-10-29T19:46:40+00:00,tet,telefoni,68373,Oukitel,C32 8+128GB Black,3.61,,114.0,,https://www.tet.lv/veikals/viedtalruni/oukitel-c32-8-128gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101503,OPPO,Reno16 5G 8+512GB Pop White,24.35,,769.0,,https://www.tet.lv/veikals/viedtalruni/oppo-reno16-5g-8-512gb-pop-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,86458,Ulefone,Armor X16 Pro 8+256GB Wasteland Shadow,9.12,,288.0,,https://www.tet.lv/veikals/viedtalruni/ulefone-armor-x16-pro-8-256gb-wasteland-shadow.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101510,Oppo,A6 4G 6+256GB Sapphire Blue,6.3,,199.0,,https://www.tet.lv/veikals/viedtalruni/oppo-a6-4g-6-256gb-sapphire-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97722,Hammer,Construction 2 5G 6+128GB Silver/Black,10.07,,318.0,,https://www.tet.lv/veikals/viedtalruni/hammer-construction-2-5g-6-128gb-silver-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97618,Poco,M8 Pro 5G 8+256GB Green,10.1,,319.0,,https://www.tet.lv/veikals/viedtalruni/poco-m8-pro-5g-8-256gb-green.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87931,Poco,C85 8+256GB Black,5.35,,169.0,,https://www.tet.lv/veikals/viedtalruni/poco-c85-8-256gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100951,Samsung,Galaxy S26 FE 8+512GB Blueberry,34.8,,1099.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-fe-8-512gb-blueberry.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87928,Poco,C85 6+128GB Green,4.4,,139.0,,https://www.tet.lv/veikals/viedtalruni/poco-c85-6-128gb-green.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97763,Hammer,Energy X2 5G 6+128GB Black/Orange,8.93,,282.0,,https://www.tet.lv/veikals/viedtalruni/hammer-energy-x2-5g-6-128gb-black-orange.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101506,OPPO,Reno16 FS 5G 8+512GB Purple Black,18.53,,585.0,,https://www.tet.lv/veikals/viedtalruni/oppo-reno16-fs-5g-8-512gb-purple-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97721,Hammer,Iron V 6+64GB Black,6.08,,192.0,,https://www.tet.lv/veikals/viedtalruni/hammer-iron-v-6-64gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98950,POCO,X8 Pro 8+256 White,13.9,,439.0,,https://www.tet.lv/veikals/viedtalruni/poco-x8-pro-8-256-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100980,Poco,F9 Ultra 12+256GB Black,28.47,,899.0,,https://www.tet.lv/veikals/viedtalruni/poco-f9-ultra-12-256gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87929,Poco,C85 8+256GB Purple,5.35,,169.0,,https://www.tet.lv/veikals/viedtalruni/poco-c85-8-256gb-purple.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101504,OPPO,Reno16 F 5G 8+256GB Purple Black,14.85,,469.0,,https://www.tet.lv/veikals/viedtalruni/oppo-reno16-f-5g-8-256gb-purple-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97749,Hammer,Ranger 6+128GB Green/Black,7.79,,246.0,,https://www.tet.lv/veikals/viedtalruni/hammer-ranger-6-128gb-green-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87968,Apple,iPhone 17 512GB Sage,44.3,,1399.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17-512gb-sage.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98080,Samsung,Galaxy S26+ 12+512GB Sky Blue,38.98,,1559.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-12-512gb-sky-blue-2.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101507,OPPO,Reno16 FS 5G 8+512GB Pop White,18.53,,585.0,,https://www.tet.lv/veikals/viedtalruni/oppo-reno16-fs-5g-8-512gb-pop-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100283,Samsung,Galaxy Fold8 Ultra 12+256GB Cream,55.48,,2219.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-ultra-12-256gb-cream.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100245,Samsung,Galaxy A27 5G 8+256GB Light Pink,15.8,,499.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a27-5g-8-256gb-light-pink.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101502,OPPO,Reno16 5G 8+512GB Purple Black,24.35,,769.0,,https://www.tet.lv/veikals/viedtalruni/oppo-reno16-5g-8-512gb-purple-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100981,Poco,F9 Pro 12+256GB Green,24.35,,769.0,,https://www.tet.lv/veikals/viedtalruni/poco-f9-pro-12-256gb-green.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97762,myPhone,3510 LTE Black,,,63.0,,https://www.tet.lv/veikals/viedtalruni/myphone-3510-lte-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101494,Poco,C95 Pro 8+256GB Green,7.89,,249.0,279.0,https://www.tet.lv/veikals/viedtalruni/poco-c95-pro-8-256gb-green.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100284,Samsung,Galaxy Fold8 Ultra 12+512GB Graphite,60.48,,2419.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-ultra-12-512gb-graphite.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100343,Samsung,Galaxy Fold8 12+512GB Cream,55.48,,2219.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-12-512gb-cream.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97732,myPhone,Harmony LTE Praline Collection Brown,2.57,,81.0,,https://www.tet.lv/veikals/viedtalruni/myphone-harmony-lte-praline-collection-brown.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98959,POCO,X8 Pro Max 12+512 White,18.65,,589.0,,https://www.tet.lv/veikals/viedtalruni/poco-x8-pro-max-12-512-white.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97768,myPhone,7340 LTE Black/Silver,,,54.0,,https://www.tet.lv/veikals/viedtalruni/myphone-7340-lte-black-silver.html
+2026-10-29T19:46:40+00:00,tet,telefoni,80519,Samsung,Galaxy S25 12+256GB Silver Shadow,28.79,,909.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s25-12-256gb-silver-shadow.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100286,Samsung,Galaxy Fold8 Ultra 12+512GB Cream,60.48,,2419.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-ultra-12-512gb-cream.html
+2026-10-29T19:46:40+00:00,tet,telefoni,50298,MyPhone,2220 Dual black,,,15.75,,https://www.tet.lv/veikals/viedtalruni/myphone-2220-dual-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100945,Samsung,Galaxy S26 FE 8+512GB Graphite,34.8,,1099.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-fe-8-512gb-graphite.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101499,OPPO,Reno16 Pro 5G 12+512GB Starlight Black,28.15,,889.0,,https://www.tet.lv/veikals/viedtalruni/oppo-reno16-pro-5g-12-512gb-starlight-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97756,Hammer,Ranger 8+256GB Green/Black,9.31,,294.0,,https://www.tet.lv/veikals/viedtalruni/hammer-ranger-8-256gb-green-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,82139,MyPhone,Flip LTE Black Blue,,,43.75,,https://www.tet.lv/veikals/viedtalruni/myphone-flip-lte-black-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,87932,Poco,C85 6+128GB Purple,4.4,,139.0,,https://www.tet.lv/veikals/viedtalruni/poco-c85-6-128gb-purple.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99392,Apple,iPhone SE (2020) 64GB Black Pre-owned B grade [Refurbished],3.04,,96.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-se-2020-64gb-black-pre-owned-b-grade-refurbished-2.html
+2026-10-29T19:46:40+00:00,tet,telefoni,99428,Apple,iPhone SE (2022) 64GB Midnight Pre-owned B grade [Refurbished],4.56,,144.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-se-2022-64gb-midnight-pre-owned-b-grade-refurbished.html
+2026-10-29T19:46:40+00:00,tet,telefoni,81533,Panasonic,KX-TU250 4G Black [Mazlietots],,,57.0,,https://www.tet.lv/veikals/viedtalruni/panasonic-kx-tu250-4g-black-mazlietots.html
+2026-10-29T19:46:40+00:00,tet,telefoni,68361,MyPhone,6410 LTE Black,,,31.75,,https://www.tet.lv/veikals/viedtalruni/myphone-6410-lte-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,50236,MyPhone,Rumba 2 Black,,,42.0,,https://www.tet.lv/veikals/viedtalruni/myphone-rumba-2-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,55810,MyPhone,6320 Dual Black,,,21.5,,https://www.tet.lv/veikals/viedtalruni/myphone-6320-dual-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,55812,MyPhone,Halo C Dual Black,,,31.25,,https://www.tet.lv/veikals/viedtalruni/myphone-halo-c-dual-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97726,Hammer,Blade V 5G 8+256GB Black,13.49,,426.0,,https://www.tet.lv/veikals/viedtalruni/hammer-blade-v-5g-8-256gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,98130,Samsung,Galaxy S26 Ultra 5G 16+1TB Sky Blue,53.98,,2159.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-ultra-5g-16-1tb-sky-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,100950,Samsung,Galaxy S26 FE 8+512GB Pistachio,34.8,,1099.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-fe-8-512gb-pistachio.html
+2026-10-29T19:46:40+00:00,tet,telefoni,101495,POCO,X8 Pro 8+256 Yellow,13.9,,439.0,,https://www.tet.lv/veikals/viedtalruni/poco-x8-pro-8-256-yellow.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97739,Hammer,Iron 6 6+128GB Black,9.31,,294.0,,https://www.tet.lv/veikals/viedtalruni/hammer-iron-6-6-128gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,42453,Panasonic,KX-TU155EXCN 64+32MB Blue,,,63.0,,https://www.tet.lv/veikals/viedtalruni/panasonic-kx-tu155excn-64-32mb-blue.html
+2026-10-29T19:46:40+00:00,tet,telefoni,97751,Blackview,Fort 1 6+256GB Black,6.46,,204.0,,https://www.tet.lv/veikals/viedtalruni/blackview-fort-1-6-256gb-black.html
+2026-10-29T19:46:40+00:00,tet,telefoni,102033,Apple,iPhone 17 Pro 512GB Cosmic Orange [Mazlietots],35.48,,1419.0,,https://www.tet.lv/veikals/viedtalruni/apple-iphone-17-pro-512gb-cosmic-orange-mazlietots.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,76269,Garmin,fenix 8 51mm AMOLED Slate grey with Black silicone band,21.5,,679.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-8-51mm-amoled-slate-grey-with-black-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101238,Apple,Watch Series 12 GPS 42mm Dark Bronze Aluminium Case with Dark Bronze Milanese Loop,16.12,,509.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-42mm-dark-bronze-aluminium-case-with-dark-bronze-milanese-loop.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88295,Garmin,Venu 4 - 45mm Slate with Black Silicone Band,14.54,,459.0,549.0,https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-4-45mm-slate-with-black-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88298,Garmin,Venu 4 - 41mm Lunar Gold with Bone Silicone Band,14.54,,459.0,549.0,https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-4-41mm-lunar-gold-with-bone-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100924,Huawei,Watch D3 Mocha Gold,14.22,,449.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-d3-gold.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100923,Huawei,Watch D3 White,14.22,,449.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-d3-white.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,85442,Samsung,Galaxy Watch8 44mm Silver BT,8.2,,259.0,299.0,https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-watch8-44mm-silver-bt.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101308,Apple,Watch SE 3 GPS 40mm Starlight Aluminium Case with Sand Sport Band - S/M,8.84,,279.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-40mm-starlight-aluminium-case-with-sand-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100922,Huawei,Watch D3 Black,14.22,,449.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-d3-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,62948,Garmin,Venu 3S French Gray/Soft Gold,12.0,,379.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-3s-french-gray-soft-gold.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101030,Garmin,fenix 9 PRO 51mm inReach Titanium with Graphite/Black Silicone Band,41.14,,1299.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-9-pro-51mm-inreach-titanium-with-graphite-black-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,86577,Huawei,Watch GT6 41mm Gold Stainless Steel Case with Gold Milanese Strap,9.47,,299.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt6-41mm-gold-stainless-steel-case-with-gold-milanese-strap.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101289,Apple,Watch Ultra 4 GPS + Cellular 49mm Black Titanium Case with Translucent Black Ocean Band,28.79,,909.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-ultra-4-gps-cellular-49mm-black-titanium-case-with-translucent-black-ocean-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100591,Garmin,CIRQA Smart Band L-XL Black,6.3,,199.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-cirqa-smart-band-l-xl-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100391,Samsung,Galaxy Watch9 40mm Cream LTE,14.54,,459.0,,https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-watch9-40mm-cream-lte.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101789,Samsung,Galaxy Watch8 44mm Graphite BT [Demo],4.75,,150.0,,https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-watch8-44mm-graphite-bt-demo.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,97969,Garmin,Venu X1 Soft Gold with Titanium Caseback and French Grey Nylon Band,18.97,,599.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-x1-soft-gold-with-titanium-caseback-and-french-grey-nylon-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100915,Huawei,Watch GT 7 Pro 46mm Black,13.59,,429.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt-7-pro-46mm-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,63970,Garmin,Vivoactive 5 Ivory/Cream Gold,7.89,,249.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-vivoactive-5-ivory-cream-gold.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100920,Huawei,Watch GT 7 41mm Grey,9.47,,299.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt-7-41mm-grey.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101274,Apple,Watch Series 12 GPS+Cellular 46mm Radiant Gold Titanium Case with Radiant Gold Milanese Loop M/L,28.79,,909.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-46mm-radiant-gold-titanium-case-with-radiant-gold-milanese-loopml.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88654,Apple,Watch Series 10 GPS 46mm Jet Black Aluminium Case with Black Sport Band - S/M - Komplektā nav lādētājs [Demo],7.89,,249.0,,https://www.tet.lv/veikals/viedie-pulksteni/copy-of-apple-watch-series-10-gps-46mm-jet-black-aluminium-case-with-black-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101031,Garmin,fenix 9 PRO 47mm inReach Titanium with Graphite/Black Silicone Band,37.97,,1199.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-9-pro-47mm-inreach-titanium-with-graphite-black-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101226,Apple,Watch Series 12 GPS 42mm Light Gold Aluminium Case with Sand Sport Band - S/M,14.54,,459.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-42mm-light-gold-aluminium-case-with-sand-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100389,Samsung,Galaxy Watch9 40mm Cream BT,12.95,,409.0,,https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-watch9-40mm-cream-bt.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,63971,Garmin,Vivoactive 5 Black/Slate,7.89,,249.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-vivoactive-5-black-slate.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88003,Apple,Watch SE 3 GPS 40mm Midnight Aluminium Case with Midnight Sport Band - S/M,7.57,,239.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-40mm-midnight-aluminium-case-with-midnight-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101299,Apple,Watch Ultra 4 GPS + Cellular 49mm Black Titanium Case with Black Titanium Milanese Loop - M,32.9,,1039.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-ultra-4-gps-cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,82322,Garmin,Vivoactive 6 Lunar Gold with Bone Band,10.42,,329.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-vivoactive-6-lunar-gold-with-bone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100393,Samsung,Galaxy Watch Ultra 2 Titanium Silver LTE,23.72,,749.0,,https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-watch-ultra-2-titanium-silver-lte.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,77020,Huawei,Watch GT 5 41mm Gold,7.98,,252.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt-5-41mm-gold.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100615,Garmin,CIRQA Smart Band S-M Franch Gray,6.3,,199.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-cirqa-smart-band-s-m-franch-gray.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101265,Apple,Watch Series 12 GPS + Cellular 42mm Radiant Gold Titanium Case with Radiant Gold Milanese Loop,27.2,,859.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-42mm-radiant-gold-titanium-case-with-radiant-gold-milanese-loop.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88008,Apple,Watch SE 3 GPS 44mm Midnight Aluminium Case with Midnight Sport Band - M/L,8.52,,269.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-44mm-midnight-aluminium-case-with-midnight-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,80990,Garmin,Instinct 3 – 50 mm AMOLED Black with Charcoal Band,12.0,,379.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-instinct-3-50-mm-amoled-black-with-charcoal-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101326,Apple,Watch SE 3 GPS + Cellular 40mm Starlight Aluminium Case with Sand Sport Band - M/L,10.42,,329.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-cellular-40mm-starlight-aluminium-case-with-sand-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,62950,Garmin,Venu 3S Ivory/Soft Gold,12.0,,379.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-3s-ivory-soft-gold.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,62946,Garmin,Venu 3S Black Sesame/Slate,12.0,,379.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-3s-black-sesame-slate.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100387,Samsung,Galaxy Watch9 44mm Silver LTE,15.49,,489.0,,https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-watch9-44mm-silver-lte.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100392,Samsung,Galaxy Watch Ultra 2 Titanium Gray LTE,23.72,,749.0,,https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-watch-ultra-2-titanium-gray-lte.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88297,Garmin,Venu 4 - 45mm Silver with Citron Silicone band,14.54,,459.0,549.0,https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-4-45mm-silver-with-citron-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101296,Apple,Watch Ultra 4 GPS + Cellular 49mm Natural Titanium Case with Natural Titanium Milanese Loop-M,32.9,,1039.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-ultra-4-gps-cellular-49mm-natural-titanium-case-with-natural-titanium-milanese-loop-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101228,Apple,Watch Series 12 GPS 42mm Dark Bronze Aluminium Case with Olive Sport Band - S/M,14.54,,459.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-42mm-dark-bronze-aluminium-case-with-olive-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,85215,Garmin,Venu X1 Black with Slate Titanium Caseback and Black ComfortFit Nylon Band,18.97,,599.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-x1-black-with-slate-titanium-caseback-and-black-comfortfit-nylon-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,99284,Huawei,Watch Fit 5 Purple,5.67,,179.0,199.0,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-fit-5-purple.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101224,Apple,Watch Series 12 GPS 42mm Black Aluminium Case with Black Sport Band - S/M,14.54,,459.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-42mm-black-aluminium-case-with-black-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,99283,Huawei,Watch Fit 5 White,5.67,,179.0,199.0,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-fit-5-white.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,86571,Huawei,Watch GT6 Pro 46mm Black Titanium Alloy Case with Black Fluoroelastomer Strap,11.05,,349.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt6-pro-46mm-black-titanium-alloy-case-with-black-fluoroelastomer-strap.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100921,Huawei,Watch GT 7 41mm Pink,9.47,,299.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt-7-41mm-pink.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,76415,Xiaomi,Redmi Watch 5 Active Midnight Black,,,59.0,,https://www.tet.lv/veikals/viedie-pulksteni/xiaomi-redmi-watch-5-active-midnight-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101272,Apple,Watch Series 12 GPS + Cellular 46mm Natural Titanium Case with Natural Milanese Loop - M/L,28.79,,909.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-46mm-natural-titanium-case-with-natural-milanese-loop-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,31745,Withings,Move Blue,,,39.0,81.0,https://www.tet.lv/veikals/viedie-pulksteni/withings-move-blue.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,97967,Garmin,Instinct 3 – 45 mm AMOLED Black with Black Band,10.42,,329.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-instinct-3-45-mm-amoled-black-with-black-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100388,Samsung,Galaxy Watch9 40mm Graphite BT,12.95,,409.0,,https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-watch9-40mm-graphite-bt.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101322,Apple,Watch SE 3 GPS 44mm Midnight Aluminium Case with Navy Blue Sport Band - M/L,9.79,,309.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-44mm-midnight-aluminium-case-with-navy-blue-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101257,Apple,Watch Series 12 GPS + Cellular 42mm Dark Bronze Aluminium Case with Dark Bronze Milanese Loop,19.92,,629.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-42mm-dark-bronze-aluminium-case-with-dark-bronze-milanese-loop.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,82355,Huawei,Watch Fit 4 Black,5.35,,169.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-fit-4-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,86530,Canyon,kids watch Sunny KW-48 Video 4G GPS Games&Music Violet,2.82,,89.0,,https://www.tet.lv/veikals/viedie-pulksteni/canyon-kids-watch-sunny-kw-48-video-4g-gps-games-music-violet.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100026,Xiaomi,Watch S5 46mm Black,5.35,,169.0,,https://www.tet.lv/veikals/viedie-pulksteni/xiaomi-watch-s5-46mm-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,82358,Huawei,Watch Fit 4 Pro Black,6.3,,199.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-fit-4-pro-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88296,Garmin,Venu 4 - 45mm Silver with Silver Grey Silicone Band,14.54,,459.0,549.0,https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-4-45mm-silver-with-silver-grey-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88300,Garmin,Venu 4 - 41mm Slate with Black Silicone Band,14.54,,459.0,549.0,https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-4-41mm-slate-with-black-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101021,Garmin,fenix 9 51mm Carbon Gray DLC Titanium with Black Silicone Band,34.49,,1089.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-9-51mm-carbon-gray-dlc-titanium-with-black-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101237,Apple,Watch Series 12 GPS 46mm Dark Bronze Aluminium Case with Olive Sport Band - M/L,16.12,,509.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-46mm-dark-bronze-aluminium-case-with-olive-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101232,Apple,Watch Series 12 GPS 46mm Black Aluminium Case with Black Sport Band - S/M,16.12,,509.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-46mm-black-aluminium-case-with-black-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,85445,Samsung,Galaxy Watch8 Classic Black BT,14.85,,469.0,,https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-watch8-classic-black-bt.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88299,Garmin,Venu 4 - 41mm Silver with Periwinkle Silicone Band,14.54,,459.0,549.0,https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-4-41mm-silver-with-periwinkle-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101020,Garmin,fenix 9 51mm Titanium with Pebble Gray Silicone Band,34.8,,1099.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-9-51mm-titanium-with-pebble-gray-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100667,Garmin,CIRQA Smart Band S-M Mauve,6.3,,199.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-cirqa-smart-band-s-m-mauve.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,62944,Garmin,Venu 3 Whitestone/Passivated,12.0,,379.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-3-whitestone-passivated.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100384,Samsung,Galaxy Watch9 44mm Graphite BT,13.9,,439.0,,https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-watch9-44mm-graphite-bt.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,87897,Garmin,fenix 8 Pro 47mm AMOLED Sapphire Titan Gray with Black silicone band,28.47,,899.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-8-pro-47mm-amoled-sapphire-titan-gray-with-black-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100613,Garmin,CIRQA Smart Band S-M Black,6.3,,199.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-cirqa-smart-band-s-m-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,99286,Huawei,Watch Fit 5 Pro White,8.84,,279.0,299.0,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-fit-5-pro-white.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100108,Huami,Amazfit T-REX Ultra 2 Black,16.53,,522.0,,https://www.tet.lv/veikals/viedie-pulksteni/huami-amazfit-t-rex-ultra-2-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100917,Huawei,Watch GT 7 46mm Black,9.47,,299.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt-7-46mm-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88983,Garmin,Forerunner 165 Music Berry/Lilac,8.84,,279.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-forerunner-165-music-berry-lilac.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,85447,Samsung,Galaxy Watch8 Classic Black LTE,16.44,,519.0,,https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-watch8-classic-black-lte.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,58062,Garmin,Epix Pro (Gen2) Silver Stainless Steel with Whitestone Band,18.97,,599.0,849.0,https://www.tet.lv/veikals/viedie-pulksteni/garmin-epix-pro-gen2-silver-stainless-steel-with-whitestone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,89286,Canyon,Kids Watch Zefir KW49 Blue,3.45,,109.0,,https://www.tet.lv/veikals/viedie-pulksteni/canyon-kids-watch-zefir-kw49-blue.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,89285,Canyon,Kids Watch Zefir KW49 Pink/Blue,3.45,,109.0,,https://www.tet.lv/veikals/viedie-pulksteni/canyon-kids-watch-zefir-kw49-pink-blue.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101259,Apple,Watch Series 12 GPS+Cellular 46mm Dark Bronze Aluminium Case with Dark Bronze Milanese Loop M/L,21.5,,679.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-46mm-dark-bronze-aluminium-case-with-dark-bronze-milanese-loop-ml.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101032,Garmin,fenix 9 PRO 43mm inReach Titanium with Fog Gray/Dark Sandstone Silicone Band,37.97,,1199.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-9-pro-43mm-inreach-titanium-with-fog-gray-dark-sandstone-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101283,Apple,Watch Ultra 4 GPS + Cellular 49mm Natural Titanium Case with Translucent Grey Ocean Band,28.79,,909.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-ultra-4-gps-cellular-49mm-natural-titanium-case-with-translucent-grey-ocean-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101019,Garmin,fenix 9 47mm Carbon Gray DLC Titanium with Black Silicone Band,31.64,,999.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-9-47mm-carbon-gray-dlc-titanium-with-black-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,85136,Huawei,Band 10 Pink,,,54.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-band-10-pink.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101264,Apple,Watch Series 12 GPS + Cellular 42mm Natural Titanium Case with Natural Milanese Loop,27.2,,859.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-42mm-natural-titanium-case-with-natural-milanese-loop.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,86529,Canyon,kids watch Sunny KW-48 Video 4G GPS Games&Music Blue,2.82,,89.0,,https://www.tet.lv/veikals/viedie-pulksteni/canyon-kids-watch-sunny-kw-48-video-4g-gps-games-music-blue.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101329,Apple,Watch SE 3 GPS + Cellular 40mm Midnight Aluminium Case with Navy Blue Sport Band - M/L,10.42,,329.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-cellular-40mm-midnight-aluminium-case-with-navy-blue-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88043,Apple,Watch Series 11 GPS + Cellular 46mm Jet Black Aluminium Case with Black Sport Band - M/L,17.39,,549.0,609.0,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-46mm-jet-black-aluminium-case-with-black-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101275,Apple,Watch Series 12 GPS + Cellular 42mm Pearl White Ceramic Case with Sand Sport Band - S/M,33.54,,1059.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-42mm-pearl-white-ceramic-case-with-sand-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,85216,Garmin,Venu X1 Moss with Titanium Caseback and Moss ComfortFit Nylon Band,18.97,,599.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-x1-moss-with-titanium-caseback-and-moss-comfortfit-nylon-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,76834,Garmin,fenix 8 47mm AMOLED Sapphire Titanium with Spark Orange/Graphite silicone band,25.37,,801.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-8-47mm-amoled-sapphire-titanium-with-spark-orange-graphite-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,62945,Garmin,Venu 3 Black/Slate,12.0,,379.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-3-black-slate.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100386,Samsung,Galaxy Watch9 44mm Graphite LTE,15.49,,489.0,,https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-watch9-44mm-graphite-lte.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,76838,Garmin,fenix 8 47mm AMOLED Sapphire Carbon Gray DLC Titanium with Black/Pebble Gray silicone,25.37,,801.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-8-47mm-amoled-sapphire-carbon-gray-dlc-titanium-with-black-pebble-gray-silicone.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101310,Apple,Watch SE 3 GPS 40mm Starlight Aluminium Case with Sand Sport Band - M/L,8.84,,279.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-40mm-starlight-aluminium-case-with-sand-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,86569,Huawei,Watch GT6 46mm Black Stainless Steel Case with Black Fluoroelastomer Strap,7.89,,249.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt6-46mm-black-stainless-steel-case-with-black-fluoroelastomer-strap.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,86532,Canyon,kids watch Sunny KW-48 Video 4G GPS Games&Music Green,2.57,,81.0,,https://www.tet.lv/veikals/viedie-pulksteni/canyon-kids-watch-sunny-kw-48-video-4g-gps-games-music-green.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,99285,Huawei,Watch Fit 5 Pro Black,8.84,,279.0,299.0,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-fit-5-pro-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,82323,Garmin,Vivoactive 6 Slate with Black Band,10.42,,329.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-vivoactive-6-slate-with-black-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,82324,Garmin,Vivoactive 6 Metallic Pink Dawn with Pink Dawn Band,10.42,,329.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-vivoactive-6-metallic-pink-dawn-with-pink-dawn-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101235,Apple,Watch Series 12 GPS 46mm Light Gold Aluminium Case with Sand Sport Band - M/L,16.12,,509.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-46mm-light-gold-aluminium-case-with-sand-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101300,Apple,Watch Ultra 4 GPS + Cellular 49mm Black Titanium Case with Black Titanium Milanese Loop - L,32.9,,1039.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-ultra-4-gps-cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,76837,Garmin,fenix 8 51mm AMOLED Sapphire Titanium with a Spark Orange/Graphite silicone band,28.22,,891.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-8-51mm-amoled-sapphire-titanium-with-a-spark-orange-graphite-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101241,Apple,Watch Series 12 GPS + Cellular 42mm Space Grey Aluminium Case with Navy Blue Sport Band - S/M,18.34,,579.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-42mm-space-grey-aluminium-case-with-navy-blue-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,76830,Garmin,fenix 8 51 mm AMOLED Sapphire Carbon Grey with Black/Pebble Grey silicone band,28.22,,891.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-8-51-mm-amoled-sapphire-carbon-grey-with-black-pebble-grey-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,63973,Garmin,Vivoactive 5 Blue/Blue Metallic,7.89,,249.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-vivoactive-5-blue-blue-metallic.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101236,Apple,Watch Series 12 GPS 46mm Dark Bronze Aluminium Case with Olive Sport Band - S/M,16.12,,509.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-46mm-dark-bronze-aluminium-case-with-olive-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100385,Samsung,Galaxy Watch9 44mm Silver BT,13.9,,439.0,,https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-watch9-44mm-silver-bt.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101313,Apple,Watch SE 3 GPS 44mm Starlight Aluminium Case with Sand Sport Band - S/M,9.79,,309.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-44mm-starlight-aluminium-case-with-sand-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101225,Apple,Watch Series 12 GPS 42mm Black Aluminium Case with Black Sport Band - M/L,14.54,,459.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-42mm-black-aluminium-case-with-black-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,86572,Huawei,Watch GT6 Pro 46mm Titanium Alloy Case with Brown Woven Strap,11.05,,349.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt6-pro-46mm-titanium-alloy-case-with-brown-woven-strap.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101018,Garmin,fenix 9 47mm Titanium with Pebble Gray Silicone Band,31.64,,999.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-9-47mm-titanium-with-pebble-gray-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,63972,Garmin,Vivoactive 5 Orchid/Orchid Metallic,7.89,,249.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-vivoactive-5-orchid-orchid-metallic.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101017,Garmin,fenix 9 43mm Titanium with Fog Gray Silicone Band,31.64,,999.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-9-43mm-titanium-with-fog-gray-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101230,Apple,Watch Series 12 GPS 46mm Space Grey Aluminium Case with Navy Blue Sport Band - S/M,16.12,,509.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-46mm-space-grey-aluminium-case-with-navy-blue-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100918,Huawei,Watch GT 7 46mm Yellow,9.47,,299.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt-7-46mm-yellow.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,76742,Garmin,Lily 2 Active Lunar Gold with Bone Silicone Band,11.05,,349.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-lily-2-active-lunar-gold-with-bone-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,75717,Suunto,Race S Powder Gray,9.47,,299.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-s-powder-gray.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88042,Apple,Watch Series 11 GPS + Cellular 46mm Jet Black Aluminium Case with Black Sport Band - S/M,19.29,,609.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-46mm-jet-black-aluminium-case-with-black-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101245,Apple,Watch Series 12 GPS + Cellular 42mm Light Gold Aluminium Case with Sand Sport Band - S/M,18.34,,579.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-42mm-light-gold-aluminium-case-with-sand-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100614,Garmin,CIRQA Smart Band L-XL Franch Gray,6.3,,199.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-cirqa-smart-band-l-xl-franch-gray.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,72658,Canyon,Maverick SW-83 Black,2.85,,90.0,,https://www.tet.lv/veikals/viedie-pulksteni/canyon-maverick-sw-83-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,85135,Huawei,Band 10 Black,,,54.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-band-10-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101324,Apple,Watch SE 3 GPS + Cellular 40mm Starlight Aluminium Case with Sand Sport Band - S/M,10.42,,329.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-cellular-40mm-starlight-aluminium-case-with-sand-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101234,Apple,Watch Series 12 GPS 46mm Light Gold Aluminium Case with Sand Sport Band - S/M,16.12,,509.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-46mm-light-gold-aluminium-case-with-sand-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100866,Garmin,CIRQA Smart Band S-M Captain Blue,6.3,,199.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-cirqa-smart-band-s-m-captain-blue.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,86574,Huawei,Watch GT6 Pro 46mm Titanium Alloy Case with Titanium Strap,14.85,,469.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt6-pro-46mm-titanium-alloy-case-with-titanium-strap.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,86537,Canyon,Kids Watch Alfie KW-37 MP3 Study&Game Green,,,34.0,,https://www.tet.lv/veikals/viedie-pulksteni/canyon-kids-watch-alfie-kw-37-mp3-study-game-green.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,76268,Garmin,fenix 8 47mm AMOLED Slate grey with Black silicone band,22.23,,702.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-8-47mm-amoled-slate-grey-with-black-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,99282,Huawei,Watch Fit 5 Black,5.67,,179.0,199.0,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-fit-5-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101231,Apple,Watch Series 12 GPS 46mm Space Grey Aluminium Case with Navy Blue Sport Band - M/L,16.12,,509.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-46mm-space-grey-aluminium-case-with-navy-blue-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100916,Huawei,Watch GT 7 Pro 46mm Yellow,13.59,,429.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt-7-pro-46mm-yellow.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101311,Apple,Watch SE 3 GPS 40mm Midnight Aluminium Case with Navy Blue Sport Band - S/M,8.84,,279.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-40mm-midnight-aluminium-case-with-navy-blue-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101294,Apple,Watch Ultra 4 GPS + Cellular 49mm Black Titanium Case with Burgundy Trail Loop - M/L,28.79,,909.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-ultra-4-gps-cellular-49mm-black-titanium-case-with-burgundy-trail-loop-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,73521,Xiaomi,Watch 2 Silver,5.13,,162.0,,https://www.tet.lv/veikals/viedie-pulksteni/xiaomi-watch-2-silver.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101320,Apple,Watch SE 3 GPS 44mm Midnight Aluminium Case with Navy Blue Sport Band - S/M,9.79,,309.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-44mm-midnight-aluminium-case-with-navy-blue-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101291,Apple,Watch Ultra 4 GPS + Cellular 49mm Black Titanium Case with Burgundy Alpine Loop - M,28.79,,909.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-ultra-4-gps-cellular-49mm-black-titanium-case-with-burgundy-alpine-loop-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101315,Apple,Watch SE 3 GPS 44mm Starlight Aluminium Case with Sand Sport Band - M/L,9.79,,309.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-44mm-starlight-aluminium-case-with-sand-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101247,Apple,Watch Series 12 GPS + Cellular 42mm Dark Bronze Aluminium Case with Olive Sport Band - S/M,18.34,,579.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-42mm-dark-bronze-aluminium-case-with-olive-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,62947,Garmin,Venu 3S Sage Gray/Passivated,12.0,,379.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-3s-sage-gray-passivated.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,86526,Canyon,Chatter SW-58 Black Green,,,34.5,,https://www.tet.lv/veikals/viedie-pulksteni/canyon-chatter-sw-58-black-green.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,86527,Canyon,Chatter SW-58 Silver Gray,,,34.5,,https://www.tet.lv/veikals/viedie-pulksteni/canyon-chatter-sw-58-silver-gray.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88016,Apple,Watch SE 3 GPS + Cellular 44mm Midnight Aluminium Case with Midnight Sport Band - M/L,10.1,,319.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-cellular-44mm-midnight-aluminium-case-with-midnight-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100390,Samsung,Galaxy Watch9 40mm Graphite LTE,14.54,,459.0,,https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-watch9-40mm-graphite-lte.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101223,Apple,Watch Series 12 GPS 42mm Space Grey Aluminium Case with Navy Blue Sport Band - M/L,14.54,,459.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-42mm-space-grey-aluminium-case-with-navy-blue-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,58061,Garmin,Epix Pro (Gen 2) 51mm Slate Gray with Black band,26.25,,829.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-epix-pro-gen-2-51mm-slate-gray-with-black-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101252,Apple,Watch Series 12 GPS + Cellular 46mm Black Aluminium Case with Black Sport Band - M/L,19.92,,629.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-46mm-black-aluminium-case-with-black-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,82352,Huawei,Watch Fit 4 White,5.35,,169.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-fit-4-white.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,66369,Garmin,Forerunner 265 Music Whitestone,11.69,,369.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-forerunner-265-music-whitestone.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88301,Garmin,Bounce 2 Slate Grey,9.47,,299.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-bounce-2-slate-grey.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,86525,Canyon,Chatter SW-58 Silver Red,,,34.5,,https://www.tet.lv/veikals/viedie-pulksteni/canyon-chatter-sw-58-silver-red.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,75715,Suunto,Race S All Black,9.47,,299.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-s-all-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,72653,Canyon,Jondy KW-44 Blue,2.28,,72.0,,https://www.tet.lv/veikals/viedie-pulksteni/canyon-jondy-kw-44-blue.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88982,Garmin,Forerunner 165 Music Turquoise/Aqua,8.84,,279.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-forerunner-165-music-turquoise-aqua.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,76744,Garmin,Lily 2 Active Jasper Green with Jasper Green Silicone Band,11.05,,349.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-lily-2-active-jasper-green-with-jasper-green-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,86576,Huawei,Watch GT6 41mm Gold Stainless Steel Case with White Composite Leather Strap,7.89,,249.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt6-41mm-gold-stainless-steel-case-with-white-composite-leather-strap.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,62949,Garmin,Venu 3S Pink Dawn/Soft Gold,12.0,,379.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-3s-pink-dawn-soft-gold.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,66368,Garmin,Forerunner 265 Music Black,11.69,,369.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-forerunner-265-music-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,99287,Huawei,Watch Fit 5 Pro Orange,8.84,,279.0,299.0,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-fit-5-pro-orange.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101318,Apple,Watch SE 3 GPS 40mm Midnight Aluminium Case with Navy Blue Sport Band - M/L,8.84,,279.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-40mm-midnight-aluminium-case-with-navy-blue-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101227,Apple,Watch Series 12 GPS 42mm Light Gold Aluminium Case with Sand Sport Band - M/L,14.54,,459.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-42mm-light-gold-aluminium-case-with-sand-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,76832,Garmin,fenix 8 47mm Solar Sapphire Titanium with Amp Yellow/Graphite silicone band,25.37,,801.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-8-47mm-solar-sapphire-titanium-with-amp-yellow-graphite-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101786,Apple,Watch Series 11 GPS 46mm Space Grey Aluminium Case M/L BEZ LĀDĒTĀJA [Demo],11.05,,349.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-46mm-space-grey-aluminium-case-m-l-bez-ladetaja-demo.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101285,Apple,Watch Ultra 4 GPS + Cellular 49mm Natural Titanium Case with Desert Alpine Loop - M,28.79,,909.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-ultra-4-gps-cellular-49mm-natural-titanium-case-with-desert-alpine-loop-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,82363,Huawei,Watch 5 46mm Space Silver,20.55,,649.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-5-46mm-space-silver.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,86575,Huawei,Watch GT6 41mm Steel Stainless Steel Case with Purple Fluoroelastomer Strap,7.89,,249.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt6-41mm-steel-stainless-steel-case-with-purple-fluoroelastomer-strap.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88041,Apple,Watch Series 11 GPS + Cellular 42mm Silver Aluminium Case with Purple Fog Sport Band - M/L,18.34,,579.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-42mm-silver-aluminium-case-with-purple-fog-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101328,Apple,Watch SE 3 GPS + Cellular 40mm Midnight Aluminium Case with Navy Blue Sport Band - S/M,10.42,,329.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-cellular-40mm-midnight-aluminium-case-with-navy-blue-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101287,Apple,Watch Ultra 4 GPS + Cellular 49mm Natural Titanium Case with Sand Trail Loop - S/M,28.79,,909.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-ultra-4-gps-cellular-49mm-natural-titanium-case-with-sand-trail-loop-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101250,Apple,Watch Series 12 GPS + Cellular 46mm Space Grey Aluminium Case with Navy Blue Sport Band - M/L,19.92,,629.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-46mm-space-grey-aluminium-case-with-navy-blue-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,56435,Garmin,Forerunner 965 Black,16.53,,522.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-forerunner-965-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,82321,Garmin,Vivoactive 6 Metallic Jasper Green with Jasper Green Band,10.42,,329.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-vivoactive-6-metallic-jasper-green-with-jasper-green-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,99108,Huawei,Watch GT Runner 2 Midnight Black,9.47,,299.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt-runner-2-midnight-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,56171,Garmin,Instinct 2X Solar Flame Red,14.22,,449.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-instinct-2x-solar-flame-red.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101288,Apple,Watch Ultra 4 GPS + Cellular 49mm Natural Titanium Case with Sand Trail Loop - M/L,28.79,,909.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-ultra-4-gps-cellular-49mm-natural-titanium-case-with-sand-trail-loop-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101333,Apple,Watch SE 3 GPS + Cellular 44mm Starlight Aluminium Case with Sand Sport Band - M/L,11.37,,359.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-cellular-44mm-starlight-aluminium-case-with-sand-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,82366,Huawei,Watch 5 46mm Midnight Black,8.84,,279.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-5-46mm-midnight-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101233,Apple,Watch Series 12 GPS 46mm Black Aluminium Case with Black Sport Band - M/L,16.12,,509.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-46mm-black-aluminium-case-with-black-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,57468,Suunto,Vertical Titanium Solar Black,22.14,,699.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-titanium-solar-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100300,Xiaomi,Watch 5 Juniper Green,9.12,,288.0,,https://www.tet.lv/veikals/viedie-pulksteni/xiaomi-watch-5-juniper-green.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88037,Apple,Watch Series 11 GPS + Cellular 42mm Space Grey Aluminium Case with Black Sport Band - M/L,18.34,,579.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-42mm-space-grey-aluminium-case-with-black-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,99469,Garett,Kids Twin 2 4G Blue,2.57,,81.0,,https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-twin-2-4g-blue.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88302,Garmin,Bounce 2 Light Purple,9.47,,299.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-bounce-2-light-purple.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,77014,Huawei,Watch GT 5 46mm Black,6.56,,207.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt-5-46mm-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,99109,Huawei,Watch GT Runner 2 Dusk Blue,12.54,,396.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt-runner-2-dusk-blue.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101292,Apple,Watch Ultra 4 GPS + Cellular 49mm Black Titanium Case with Burgundy Alpine Loop - L,28.79,,909.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-ultra-4-gps-cellular-49mm-black-titanium-case-with-burgundy-alpine-loop-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101251,Apple,Watch Series 12 GPS + Cellular 46mm Black Aluminium Case with Black Sport Band - S/M,19.92,,629.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-46mm-black-aluminium-case-with-black-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88036,Apple,Watch Series 11 GPS + Cellular 42mm Space Grey Aluminium Case with Black Sport Band - S/M,18.34,,579.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-42mm-space-grey-aluminium-case-with-black-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88057,Apple,Watch Series 11 GPS + Cellular 42mm Slate Titanium Case with Slate Milanese Loop,27.2,,859.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-42mm-slate-titanium-case-with-slate-milanese-loop.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,97966,Garmin,Instinct 3 – 50 mm AMOLED Black with Black/Bolt Blue Band,12.0,,379.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-instinct-3-50-mm-amoled-black-with-black-bolt-blue-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,102031,Garett,Kids Essa 2 4G Black [Mazlietots],3.33,,105.0,,https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-essa-2-4g-black-mazlietots.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101293,Apple,Watch Ultra 4 GPS + Cellular 49mm Black Titanium Case with Burgundy Trail Loop - S/M,28.79,,909.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-ultra-4-gps-cellular-49mm-black-titanium-case-with-burgundy-trail-loop-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,99477,Garett,Kids Vibe AI 4G Black,3.99,,126.0,,https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-vibe-ai-4g-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,82356,Huawei,Watch Fit 4 Pro Green,6.3,,199.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-fit-4-pro-green.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88035,Apple,Watch Series 11 GPS + Cellular 42mm Jet Black Aluminium Case with Black Sport Band - M/L,18.34,,579.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-42mm-jet-black-aluminium-case-with-black-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,87862,Huami,Amazfit Balance 2 Black,9.69,,306.0,,https://www.tet.lv/veikals/viedie-pulksteni/huami-amazfit-balance-2-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,99471,Garett,Kids Twin 2 4G Pink,2.57,,81.0,,https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-twin-2-4g-pink.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,85448,Samsung,Galaxy Watch8 Classic White LTE,16.44,,519.0,,https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-watch8-classic-white-lte.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,66371,Garmin,Forerunner 265S Music White,11.69,,369.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-forerunner-265s-music-white.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100119,Xiaomi,Watch S5 46mm Jungle Green,6.84,,216.0,,https://www.tet.lv/veikals/viedie-pulksteni/xiaomi-watch-s5-46mm-jungle-green.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101243,Apple,Watch Series 12 GPS + Cellular 42mm Black Aluminium Case with Black Sport Band - S/M,18.34,,579.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-42mm-black-aluminium-case-with-black-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101335,Apple,Watch SE 3 GPS + Cellular 44mm Midnight Aluminium Case with Navy Blue Sport Band - S/M,11.37,,359.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-cellular-44mm-midnight-aluminium-case-with-navy-blue-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101222,Apple,Watch Series 12 GPS 42mm Space Grey Aluminium Case with Navy Blue Sport Band - S/M,14.54,,459.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-42mm-space-grey-aluminium-case-with-navy-blue-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88048,Apple,Watch Series 11 GPS + Cellular 46mm Silver Aluminium Case with Purple Fog Sport Band - S/M,19.29,,609.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-46mm-silver-aluminium-case-with-purple-fog-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100117,Xiaomi,Smart Band 10 Pro Lavender Pink,3.14,,99.0,,https://www.tet.lv/veikals/viedie-pulksteni/xiaomi-smart-band-10-pro-lavender-pink.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88062,Apple,Watch Series 11 GPS + Cellular 46mm Slate Titanium Case with Black Sport Band - M/L,23.72,,749.0,859.0,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-46mm-slate-titanium-case-with-black-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,57470,Suunto,Vertical All Black,12.64,,399.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-all-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,99465,Garett,Kids Twin 2 4G Black,2.57,,81.0,,https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-twin-2-4g-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,87855,Suunto,Run All Black with Silicone Strap,6.3,,199.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-all-black-with-silicone-strap.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101256,Apple,Watch Series 12 GPS + Cellular 46mm Dark Bronze Aluminium Case with Olive Sport Band - M/L,19.92,,629.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-46mm-dark-bronze-aluminium-case-with-olive-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100301,Xiaomi,Watch 5 Black,9.12,,288.0,,https://www.tet.lv/veikals/viedie-pulksteni/xiaomi-watch-5-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100865,Garmin,CIRQA Smart Band L-XL Mauve,6.3,,199.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-cirqa-smart-band-l-xl-mauve.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,86570,Huawei,Watch GT6 46mm Steel Stainless Steel Case with Green Woven Strap,7.98,,252.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt6-46mm-steel-stainless-steel-case-with-green-woven-strap.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,99474,Garett,Kids Vibe AI 4G Blue,3.99,,126.0,,https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-vibe-ai-4g-blue.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,97968,Garmin,Instinct 3 – 45 mm AMOLED Black with Bolt Blue/Black Band,13.59,,429.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-instinct-3-45-mm-amoled-black-with-bolt-blue-black-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88600,Samsung,Galaxy Watch Ultra LTE Titanium Grey [Mazlietots],18.97,,599.0,,https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-watch-ultra-lte-titanium-grey-mazlietots.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100107,Huami,Amazfit Active Max W2556GL1N,5.42,,171.0,,https://www.tet.lv/veikals/viedie-pulksteni/huami-amazfit-active-max-w2556gl1n.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,54127,Polar,Ignite 3 Brown Cropper,10.42,,329.0,,https://www.tet.lv/veikals/viedie-pulksteni/polar-ignite-3-brown-cropper.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,75716,Suunto,Race S Powder Pink,9.47,,299.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-s-powder-pink.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,56433,Garmin,Forerunner 965 Yellow,16.53,,522.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-forerunner-965-yellow.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,76743,Garmin,Lily 2 Active Silver/ with Purple Jasmine Silicone Band,11.05,,349.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-lily-2-active-silver-with-purple-jasmine-silicone-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,73354,Suunto,Vertical Solar All Black,15.17,,479.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-solar-all-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,77331,Suunto,Race S Titanium Graphite,11.05,,349.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-s-titanium-graphite.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88303,Garmin,Bounce 2 Turquoise,9.47,,299.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-bounce-2-turquoise.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,100867,Garmin,CIRQA Smart Band L-XL Captain Blue,6.3,,199.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-cirqa-smart-band-l-xl-captain-blue.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,86522,Canyon,Easy SW-54 Beige,,,38.75,,https://www.tet.lv/veikals/viedie-pulksteni/canyon-easy-sw-54-beige.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,99107,Huawei,Watch GT Runner 2 Dawn Orange,9.47,,299.0,,https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt-runner-2-dawn-orange.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,82014,Xiaomi,Redmi Watch 5 Obsidian Black,3.42,,108.0,,https://www.tet.lv/veikals/viedie-pulksteni/xiaomi-redmi-watch-5-obsidian-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101337,Apple,Watch SE 3 GPS + Cellular 44mm Midnight Aluminium Case with Navy Blue Sport Band - M/L,11.37,,359.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-cellular-44mm-midnight-aluminium-case-with-navy-blue-sport-band-m-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,99151,Garmin,Approach J1 Silver Aluminum Bezel with Lilac ComfortFit Fabric Band,10.93,,345.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-approach-j1-silver-aluminum-bezel-with-lilac-comfortfit-fabric-band.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101331,Apple,Watch SE 3 GPS + Cellular 44mm Starlight Aluminium Case with Sand Sport Band - S/M,11.37,,359.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-cellular-44mm-starlight-aluminium-case-with-sand-sport-band-s-m.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101978,Suunto,Race 3S Titanium Feather,15.8,,499.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-3s-titanium-feather.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,85446,Samsung,Galaxy Watch8 Classic White BT,14.85,,469.0,,https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-watch8-classic-white-bt.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,99470,Garett,Kids Essa 2 4G Pink,3.99,,126.0,,https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-essa-2-4g-pink.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,99468,Garett,Kids Essa 2 4G Black,3.99,,126.0,,https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-essa-2-4g-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,51895,Polar,Ignite 2 Gold & Champagne S/L,6.56,,207.0,,https://www.tet.lv/veikals/viedie-pulksteni/polar-ignite-2-gold-champagne-s-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,98992,Polar,Ignite 3 Night Black S/L,8.84,,279.0,,https://www.tet.lv/veikals/viedie-pulksteni/polar-ignite-3-night-black-s-l-2.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,99475,Garett,Kids Essa 2 4G Blue,3.99,,126.0,,https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-essa-2-4g-blue.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88632,Suunto,Vertical 2 Titanium Black,22.14,,699.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-2-titanium-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,84984,Suunto,Run Lime,6.3,,199.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-lime.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,86523,Canyon,Easy SW-54 Green,,,38.75,,https://www.tet.lv/veikals/viedie-pulksteni/canyon-easy-sw-54-green.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,57466,Suunto,Vertical Titanium Solar Sand,22.14,,699.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-titanium-solar-sand.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,76833,Garmin,fenix 8 47mm Solar Sapphire Carbon Grey DLC Titanium with Black/Pebble Grey,25.37,,801.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-8-47mm-solar-sapphire-carbon-grey-dlc-titanium-with-black-pebble-grey.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101977,Suunto,Race 3S Titanium Black,15.8,,499.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-3s-titanium-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,51899,Polar,Ignite 2 Black Pearl S/L,6.56,,207.0,,https://www.tet.lv/veikals/viedie-pulksteni/polar-ignite-2-black-pearl-s-l.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,84982,Suunto,Run All Black,6.3,,199.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-all-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,87851,Suunto,Race 2 All Black,15.8,,499.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-2-all-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101405,Suunto,Run 2 Feather Gold 4GB,9.47,,299.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-2-feather-gold-4gb.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,75719,Suunto,Race S Power Orange,9.47,,299.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-s-power-orange.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,84985,Suunto,Run Coral Orange,6.3,,199.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-coral-orange.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101979,Suunto,Race 3S Titanium Orchid,15.8,,499.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-3s-titanium-orchid.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88633,Suunto,Vertical 2 Titanium Sage,22.14,,699.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-2-titanium-sage.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,57467,Suunto,Vertical Titanium Solar Forest,22.14,,699.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-titanium-solar-forest.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,87856,Suunto,Run Frost Gray with Silicone Strap,6.3,,199.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-frost-gray-with-silicone-strap.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101401,Suunto,Run 2 All Black 64GB,11.05,,349.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-2-all-black-64gb.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101402,Suunto,Run 2 Feather Gold 64GB,11.05,,349.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-2-feather-gold-64gb.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,73356,Suunto,Vertical Solar Canyon,15.17,,479.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-solar-canyon.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,87857,Suunto,Run Lime with Silicone Strap,6.3,,199.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-lime-with-silicone-strap.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,75720,Suunto,Race S Power Blue,9.47,,299.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-s-power-blue.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,84983,Suunto,Run Frost Gray,6.3,,199.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-frost-gray.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101406,Suunto,Run 2 Aloe Green 4GB,9.47,,299.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-2-aloe-green-4gb.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101403,Suunto,Run 2 Aloe Green 64GB,11.05,,349.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-2-aloe-green-64gb.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,75718,Suunto,Race S Gravel Gray,9.47,,299.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-s-gravel-gray.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,87858,Suunto,Run Coral Orange with Silicone Strap,6.3,,199.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-coral-orange-with-silicone-strap.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,101404,Suunto,Run 2 All Black 4GB,9.47,,299.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-2-all-black-4gb.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,57465,Suunto,Vertical Titanium Solar Canyon,22.14,,699.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-titanium-solar-canyon.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88634,Suunto,Vertical 2 All Black,18.97,,599.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-2-all-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88636,Suunto,Vertical 2 Canyon,18.97,,599.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-2-canyon.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88637,Suunto,Vertical 2 Pine Green,18.97,,599.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-2-pine-green.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,87852,Suunto,Race 2 Feather Gray,15.8,,499.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-2-feather-gray.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,76831,Garmin,fenix 8 51mm Solar Sapphire Carbon Grey DLC Titanium with Black/Pebble Grey,28.22,,891.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-8-51mm-solar-sapphire-carbon-grey-dlc-titanium-with-black-pebble-grey.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,56434,Garmin,Forerunner 965 White,16.53,,522.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-forerunner-965-white.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,88635,Suunto,Vertical 2 Arctic Gray,18.97,,599.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-2-arctic-gray.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,73355,Suunto,Vertical Solar Sand,15.17,,479.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-solar-sand.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,77332,Suunto,Race S Titanium Canary,11.05,,349.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-s-titanium-canary.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,87849,Suunto,Race 2 Titanium Black,18.97,,599.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-2-titanium-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,87854,Suunto,Race 2 Wave Blue,15.8,,499.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-2-wave-blue.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,87850,Suunto,Race 2 Titanium Trail,18.97,,599.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-2-titanium-trail.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,87853,Suunto,Race 2 Coral Orange,15.8,,499.0,,https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-2-coral-orange.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,102038,Garmin,Instinct E – 40 mm Black with Charcoal Band [Mazlietots],5.54,,175.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-instinct-e-40-mm-black-with-charcoal-band-mazlietots.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,80551,Samsung,Galaxy Fit3 Gray [Mazlietots],,,30.0,,https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-fit3-gray-mazlietots.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,102160,COROS,PACE 4 GPS Sport Watch - Nylon White,8.52,,269.0,,https://www.tet.lv/veikals/viedie-pulksteni/coros-pace-4-gps-sport-watch-nylon-white.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,102161,COROS,PACE 4 GPS Sport Watch - Nylon Black,8.52,,269.0,,https://www.tet.lv/veikals/viedie-pulksteni/coros-pace-4-gps-sport-watch-nylon-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,102164,COROS,PACE 4 GPS Sport Watch - Gold Jakob Ingebrigtsen,9.47,,299.0,,https://www.tet.lv/veikals/viedie-pulksteni/coros-pace-4-gps-sport-watch-gold-jakob-ingebrigtsen.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,102166,COROS,PACE 4 GPS Sport Watch - Yellow Crystal,9.15,,289.0,,https://www.tet.lv/veikals/viedie-pulksteni/coros-pace-4-gps-sport-watch-yellow-crystal.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,102162,COROS,PACE 4 GPS Sport Watch - Silicone Black,8.52,,269.0,,https://www.tet.lv/veikals/viedie-pulksteni/coros-pace-4-gps-sport-watch-silicone-black.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,102163,COROS,PACE 4 GPS Sport Watch - Silicone White,8.52,,269.0,,https://www.tet.lv/veikals/viedie-pulksteni/coros-pace-4-gps-sport-watch-silicone-white.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,102165,COROS,PACE 4 GPS Sport Watch - Black Crystal Nylon,9.15,,289.0,,https://www.tet.lv/veikals/viedie-pulksteni/coros-pace-4-gps-sport-watch-black-crystal-nylon.html
+2026-10-29T19:46:40+00:00,tet,pulksteni,102167,COROS,PACE 4 GPS Sport Watch - Ultraviolet,9.15,,289.0,,https://www.tet.lv/veikals/viedie-pulksteni/coros-pace-4-gps-sport-watch-ultraviolet.html
+2026-10-29T19:46:40+00:00,tet,austinas,88021,Apple,AirPods Pro 3,7.89,,249.0,,https://www.tet.lv/veikals/austinas/apple-airpods-pro-3.html
+2026-10-29T19:46:40+00:00,tet,austinas,101220,Apple,AirPods 5,4.72,,149.0,,https://www.tet.lv/veikals/austinas/austinas-apple-airpods-5.html
+2026-10-29T19:46:40+00:00,tet,austinas,76583,Apple,AirPods 4 with Active Noise Cancellation,5.04,,159.0,199.0,https://www.tet.lv/veikals/austinas/apple-airpods-4-with-active-noise-cancellation.html
+2026-10-29T19:46:40+00:00,tet,austinas,101221,Apple,AirPods 5 with Wireless Charging Case,5.35,,169.0,,https://www.tet.lv/veikals/austinas/apple-airpods-5-with-wireless-charging-case.html
+2026-10-29T19:46:40+00:00,tet,austinas,99033,Apple,AirPods Max 2 - Midnight,18.34,,579.0,,https://www.tet.lv/veikals/austinas/apple-airpods-max-2-midnight.html
+2026-10-29T19:46:40+00:00,tet,austinas,76582,Apple,AirPods 4,4.09,,129.0,149.0,https://www.tet.lv/veikals/austinas/apple-airpods-4.html
+2026-10-29T19:46:40+00:00,tet,austinas,76156,Apple,EarPods (Lightning Connector),,,19.0,,https://www.tet.lv/veikals/austinas/apple-earpods-lightning-connector.html
+2026-10-29T19:46:40+00:00,tet,austinas,98134,Samsung,Galaxy Buds4 Pro Black,6.94,,219.0,249.0,https://www.tet.lv/veikals/austinas/samsung-galaxy-buds4-pro-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,98132,Samsung,Galaxy Buds4 Black,4.09,,129.0,179.0,https://www.tet.lv/veikals/austinas/samsung-galaxy-buds4-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,73463,JBL,Live Flex 3 Silver,2.82,,89.0,139.0,https://www.tet.lv/veikals/austinas/jbl-live-flex-3-silver.html
+2026-10-29T19:46:40+00:00,tet,austinas,73470,JBL,Live Buds 3 Black,2.82,,89.0,139.0,https://www.tet.lv/veikals/austinas/jbl-live-buds-3-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,66764,JBL,Live 770NC Black,2.82,,89.0,99.0,https://www.tet.lv/veikals/austinas/jbl-live-770nc-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,101971,JBL,Tune 520BT Black [Bojāts iepakojums],,,23.0,,https://www.tet.lv/veikals/austinas/jbl-tune-520bt-black-bojats-iepakojums.html
+2026-10-29T19:46:40+00:00,tet,austinas,56936,JBL,Tune 520BT Purple,,,29.0,,https://www.tet.lv/veikals/austinas/jbl-tune-520bt-purple.html
+2026-10-29T19:46:40+00:00,tet,austinas,84869,JBL,Junior 470NC White,,,49.0,69.0,https://www.tet.lv/veikals/austinas/jbl-junior-470nc-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,84931,JBL,Tune Beam 2 Ghost Black,,,59.0,69.0,https://www.tet.lv/veikals/austinas/jbl-tune-beam-2-ghost-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,84930,JBL,Tune Beam 2 Teal,,,59.0,69.0,https://www.tet.lv/veikals/austinas/jbl-tune-beam-2-teal.html
+2026-10-29T19:46:40+00:00,tet,austinas,68474,JBL,Live 770NC Sandstone,2.82,,89.0,99.0,https://www.tet.lv/veikals/austinas/jbl-live-770nc-sandstone.html
+2026-10-29T19:46:40+00:00,tet,austinas,73471,JBL,Live Buds 3 Silver,2.82,,89.0,139.0,https://www.tet.lv/veikals/austinas/jbl-live-buds-3-silver.html
+2026-10-29T19:46:40+00:00,tet,austinas,81123,SteelSeries,Arctis Nova 5X Wireless Black,4.28,,135.0,,https://www.tet.lv/veikals/austinas/steelseries-arctis-nova-5x-wireless-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,74058,Sony,ULT Wear WHULT900NH.CE7 Forest Green,4.72,,149.0,159.0,https://www.tet.lv/veikals/austinas/sony-ult-wear-whult900nh-ce7-forest-green.html
+2026-10-29T19:46:40+00:00,tet,austinas,98135,Samsung,Galaxy Buds4 Pro White,6.94,,219.0,249.0,https://www.tet.lv/veikals/austinas/samsung-galaxy-buds4-pro-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,58514,Sony,WH-CH720N Black,2.5,,79.0,,https://www.tet.lv/veikals/austinas/sony-wh-ch720n-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,100961,Xiaomi,REDMI Buds 8 Lite White,,,26.9,,https://www.tet.lv/veikals/austinas/xiaomi-redmi-buds-8-lite-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,99035,Apple,AirPods Max 2 - Blue,18.34,,579.0,,https://www.tet.lv/veikals/austinas/apple-airpods-max-2-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,99037,Apple,AirPods Max 2 - Purple,18.34,,579.0,,https://www.tet.lv/veikals/austinas/apple-airpods-max-2-purple.html
+2026-10-29T19:46:40+00:00,tet,austinas,76191,Sony,WH-1000XM5 Black,9.47,,299.0,,https://www.tet.lv/veikals/austinas/sony-wh-1000xm5-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,76198,JBL,Tour Pro 3 Latte,6.3,,199.0,,https://www.tet.lv/veikals/austinas/jbl-tour-pro-3-latte.html
+2026-10-29T19:46:40+00:00,tet,austinas,84870,JBL,Junior 470NC Blue,,,49.0,69.0,https://www.tet.lv/veikals/austinas/jbl-junior-470nc-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,74416,Beats,Solo 4 Wireless Matt Black,7.25,,229.0,,https://www.tet.lv/veikals/austinas/beats-solo-4-wireless-matt-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,99034,Apple,AirPods Max 2 - Starlight,18.34,,579.0,,https://www.tet.lv/veikals/austinas/apple-airpods-max-2-starlight.html
+2026-10-29T19:46:40+00:00,tet,austinas,84937,JBL,Tune Flex 2 Black,,,69.0,,https://www.tet.lv/veikals/austinas/jbl-tune-flex-2-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,76578,Apple,AirPods Max - Starlight,17.7,,559.0,579.0,https://www.tet.lv/veikals/austinas/apple-airpods-max-starlight.html
+2026-10-29T19:46:40+00:00,tet,austinas,100959,Xiaomi,REDMI Buds 8 Lite Black,,,25.0,,https://www.tet.lv/veikals/austinas/xiaomi-redmi-buds-8-lite-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,48651,HyperX,Cloud Alpha Wireless Black/Red,4.56,,144.0,,https://www.tet.lv/veikals/austinas/hyperx-cloud-alpha-wireless-black-red.html
+2026-10-29T19:46:40+00:00,tet,austinas,76157,Apple,EarPods (3.5mm Headphone Plug),,,19.0,,https://www.tet.lv/veikals/austinas/apple-earpods-3-5mm-headphone-plug.html
+2026-10-29T19:46:40+00:00,tet,austinas,68470,JBL,Live 670NC Blue,3.14,,99.0,,https://www.tet.lv/veikals/austinas/jbl-live-670nc-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,68472,JBL,Live 770NC Blue,2.82,,89.0,99.0,https://www.tet.lv/veikals/austinas/jbl-live-770nc-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,74057,Sony,ULT Wear WHULT900NB.CE7 Black,4.72,,149.0,159.0,https://www.tet.lv/veikals/austinas/sony-ult-wear-whult900nb-ce7-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,56937,JBL,Tune 520BT White,,,29.0,,https://www.tet.lv/veikals/austinas/jbl-tune-520bt-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,86934,Samsung,Galaxy Buds3 FE Gray,4.72,,149.0,,https://www.tet.lv/veikals/austinas/samsung-galaxy-buds3-fe-gray.html
+2026-10-29T19:46:40+00:00,tet,austinas,84938,JBL,Tune Flex 2 White,,,69.0,,https://www.tet.lv/veikals/austinas/jbl-tune-flex-2-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,52687,SteelSeries,Arctis Nova 1 Black,,,63.0,,https://www.tet.lv/veikals/austinas/steelseries-arctis-nova-1-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,100162,Shokz,OpenSwim Pro Red,7.41,,234.0,,https://www.tet.lv/veikals/austinas/shokz-openswim-pro-red.html
+2026-10-29T19:46:40+00:00,tet,austinas,76346,Sony,WF-C510 Truly Wireless Earbuds Blue,,,59.0,,https://www.tet.lv/veikals/austinas/sony-wf-c510-truly-wireless-earbuds-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,76579,Apple,AirPods Max - Blue,17.7,,559.0,579.0,https://www.tet.lv/veikals/austinas/apple-airpods-max-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,48405,Logitech,G Pro X Lightspeed Black,4.56,,144.0,,https://www.tet.lv/veikals/austinas/logitech-g-pro-x-lightspeed-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,53933,Sennheiser,HD 650,15.39,,486.0,,https://www.tet.lv/veikals/austinas/sennheiser-hd-650.html
+2026-10-29T19:46:40+00:00,tet,austinas,99038,Shokz,OpenRun Pro 2 Standard Black,5.99,,189.0,,https://www.tet.lv/veikals/austinas/shokz-openrun-pro-2-standard-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,73464,JBL,Live Flex 3 Blue,2.82,,89.0,139.0,https://www.tet.lv/veikals/austinas/jbl-live-flex-3-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,100639,Philips,TAT1300BK/00 Black,,,21.0,,https://www.tet.lv/veikals/austinas/philips-tat1300bk-00-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,101967,JBL,Tune 720BT Black [Bojāts iepakojums],,,34.0,,https://www.tet.lv/veikals/austinas/jbl-tune-720bt-black-bojats-iepakojums.html
+2026-10-29T19:46:40+00:00,tet,austinas,98133,Samsung,Galaxy Buds4 White,5.67,,179.0,,https://www.tet.lv/veikals/austinas/samsung-galaxy-buds4-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,58124,JBL,Tour Pro 2 Champagne,5.04,,159.0,179.0,https://www.tet.lv/veikals/austinas/jbl-tour-pro-2-champagne.html
+2026-10-29T19:46:40+00:00,tet,austinas,68473,JBL,Live 770NC White,2.82,,89.0,99.0,https://www.tet.lv/veikals/austinas/jbl-live-770nc-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,84934,JBL,Tune Buds 2 Black,,,69.0,,https://www.tet.lv/veikals/austinas/jbl-tune-buds-2-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,76345,Sony,WF-C510 Truly Wireless Earbuds Black,,,59.0,,https://www.tet.lv/veikals/austinas/sony-wf-c510-truly-wireless-earbuds-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,84935,JBL,Tune Buds 2 White,,,69.0,,https://www.tet.lv/veikals/austinas/jbl-tune-buds-2-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,62595,Beats,Studio Pro Wireless Deep Brown,12.64,,399.0,,https://www.tet.lv/veikals/austinas/beats-studio-pro-wireless-deep-brown.html
+2026-10-29T19:46:40+00:00,tet,austinas,58520,Sony,WH-CH720N Blue,2.5,,79.0,,https://www.tet.lv/veikals/austinas/sony-wh-ch720n-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,42505,Razer,BlackShark V2 X Green,2.28,,72.0,,https://www.tet.lv/veikals/austinas/razer-blackshark-v2-x-green.html
+2026-10-29T19:46:40+00:00,tet,austinas,81147,Beats,Powerbeats Pro 2 - High-Performance Earbuds - Jet Black,9.47,,299.0,,https://www.tet.lv/veikals/austinas/beats-powerbeats-pro-2-high-performance-earbuds-jet-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,73465,JBL,Live Flex 3 Purple,2.82,,89.0,139.0,https://www.tet.lv/veikals/austinas/jbl-live-flex-3-purple.html
+2026-10-29T19:46:40+00:00,tet,austinas,87561,Lorgar,Noah 702 Black,,,66.0,,https://www.tet.lv/veikals/austinas/lorgar-noah-702-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,101167,Sony,WH-CH530 Black,,,59.0,,https://www.tet.lv/veikals/austinas/sony-wh-ch530-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,14520,Koss,BT221i Black,,,29.75,,https://www.tet.lv/veikals/austinas/koss-headphones-bt221i.html
+2026-10-29T19:46:40+00:00,tet,austinas,52692,SteelSeries,Arctis Nova 1 White,,,63.0,,https://www.tet.lv/veikals/austinas/steelseries-arctis-nova-1-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,14516,Koss,Pro4S Black,3.42,,108.0,,https://www.tet.lv/veikals/austinas/koss-headphones-pro4s.html
+2026-10-29T19:46:40+00:00,tet,austinas,61522,Bang&Olufsen,Beoplay H95 Black,31.64,,999.0,,https://www.tet.lv/veikals/austinas/bang-olufsen-beoplay-h95-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,73472,JBL,Live Buds 3 Blue,2.82,,89.0,139.0,https://www.tet.lv/veikals/austinas/jbl-live-buds-3-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,100380,Sennheiser,Momentum 5 Black,12.64,,399.0,,https://www.tet.lv/veikals/austinas/sennheiser-momentum-5-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,100646,Philips,TAH6000BK/00 Black,,,54.0,,https://www.tet.lv/veikals/austinas/philips-tah6000bk-00-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,81109,Skullcandy,Crusher Evo True Black,5.13,,162.0,,https://www.tet.lv/veikals/austinas/skullcandy-crusher-evo-true-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,48914,Sennheiser,RS 175-U Black,7.98,,252.0,,https://www.tet.lv/veikals/austinas/sennheiser-rs-175-u-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,62597,Beats,Studio Pro Wireless Black,,,399.0,,https://www.tet.lv/veikals/austinas/beats-studio-pro-wireless-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,52688,SteelSeries,Arctis Nova 3 Black,3.14,,99.0,,https://www.tet.lv/veikals/austinas/steelseries-arctis-nova-3-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,81130,Razer,BlackShark V2 X (Xbox Licensed) Black,,,54.0,,https://www.tet.lv/veikals/austinas/razer-blackshark-v2-x-xbox-licensed-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,48429,Logitech,H650E Black,,,63.0,,https://www.tet.lv/veikals/austinas/logitech-h650e-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,48431,Logitech,G733 White,4.56,,144.0,,https://www.tet.lv/veikals/austinas/logitech-g733-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,82489,Sony,WF-C710NB Truly Wireless Noise Cancelling Earbuds – Black,3.77,,119.0,,https://www.tet.lv/veikals/austinas/sony-wf-c710nb-truly-wireless-noise-cancelling-earbuds-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,84939,JBL,Tune Flex 2 Teal,,,69.0,,https://www.tet.lv/veikals/austinas/jbl-tune-flex-2-teal.html
+2026-10-29T19:46:40+00:00,tet,austinas,80410,JBL,Wave Flex Blue,,,49.0,,https://www.tet.lv/veikals/austinas/jbl-wave-flex-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,74059,Sony,ULT Wear WHULT900NW.CE7 Off-White,4.72,,149.0,159.0,https://www.tet.lv/veikals/austinas/sony-ult-wear-whult900nw-ce7-off-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,7020,Logitech,H390 Black,,,42.25,,https://www.tet.lv/veikals/austinas/logitech-lgt-h390.html
+2026-10-29T19:46:40+00:00,tet,austinas,72578,Canyon,Shadder GH-6 Black,,,22.25,,https://www.tet.lv/veikals/austinas/canyon-shadder-gh-6-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,100637,Philips,bērniem TAK5500AL/00,,,44.5,,https://www.tet.lv/veikals/austinas/philips-tak5500al-00.html
+2026-10-29T19:46:40+00:00,tet,austinas,70187,Logitech,Zone Vibe 100 Off White,2.85,,90.0,,https://www.tet.lv/veikals/austinas/logitech-zone-vibe-100-off-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,100149,Shokz,Open Run Pro 2 Mini Orange,5.99,,189.0,,https://www.tet.lv/veikals/austinas/shokz-open-run-pro-2-mini-orange.html
+2026-10-29T19:46:40+00:00,tet,austinas,58094,JBL,Tune 670NC Blue,,,59.0,,https://www.tet.lv/veikals/austinas/jbl-tune-670nc-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,84871,JBL,Junior 470NC Pink,,,49.0,69.0,https://www.tet.lv/veikals/austinas/jbl-junior-470nc-pink.html
+2026-10-29T19:46:40+00:00,tet,austinas,81124,SteelSeries,Arctis Nova 5 Wireless Black,4.28,,135.0,,https://www.tet.lv/veikals/austinas/steelseries-arctis-nova-5-wireless-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,80395,SteelSeries,Arctis Nova 7: World of Warcraft Edition,6.94,,219.0,,https://www.tet.lv/veikals/austinas/steelseries-arctis-nova-7-world-of-warcraft-edition.html
+2026-10-29T19:46:40+00:00,tet,austinas,84942,JBL,Tune Flex 2 Ghost Purple,,,69.0,,https://www.tet.lv/veikals/austinas/jbl-tune-flex-2-ghost-purple.html
+2026-10-29T19:46:40+00:00,tet,austinas,57198,Razer,Kraken X Lite Black,,,32.25,,https://www.tet.lv/veikals/austinas/razer-kraken-x-lite-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,100152,Shokz,OpenFit 2+ Black,6.56,,207.0,,https://www.tet.lv/veikals/austinas/shokz-openfit-2-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,100114,Xiaomi,Buds 6 Ceramic White,3.71,,117.0,,https://www.tet.lv/veikals/austinas/xiaomi-buds-6-ceramic-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,48703,Logitech,Pro X Black,3.14,,99.0,,https://www.tet.lv/veikals/austinas/logitech-pro-x-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,61527,Bang&Olufsen,Beoplay H95 Gold Tone,31.64,,999.0,,https://www.tet.lv/veikals/austinas/bang-olufsen-beoplay-h95-gold-tone.html
+2026-10-29T19:46:40+00:00,tet,austinas,87509,Lorgar,Noah 500 Black,,,42.0,,https://www.tet.lv/veikals/austinas/lorgar-noah-500-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,81135,Razer,Kraken V4 Pro Black,11.69,,369.0,,https://www.tet.lv/veikals/austinas/razer-kraken-v4-pro-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,49010,Koss,CS200i Black,,,19.0,27.0,https://www.tet.lv/veikals/austinas/koss-cs200i-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,48778,Sony,MDR-EX15LP Pink,,,6.75,,https://www.tet.lv/veikals/austinas/sony-mdr-ex15lp-pink.html
+2026-10-29T19:46:40+00:00,tet,austinas,97949,Huawei,FreeClip 2 Black,6.27,,198.0,,https://www.tet.lv/veikals/austinas/huawei-freeclip-2-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,67704,Bowers,& Wilkins Px7S2e Anthracite Black,13.59,,429.0,,https://www.tet.lv/veikals/austinas/bowers-wilkins-px7s2e-anthracite-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,73473,JBL,Live Buds 3 Purple,2.82,,89.0,139.0,https://www.tet.lv/veikals/austinas/jbl-live-buds-3-purple.html
+2026-10-29T19:46:40+00:00,tet,austinas,48417,Logitech,G432 Black/Blue,,,54.0,,https://www.tet.lv/veikals/austinas/logitech-g432-black-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,87901,Suunto,Wing 2 Black,4.81,,152.0,,https://www.tet.lv/veikals/austinas/suunto-wing-2-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,97956,Huawei,FreeClip 2 White,6.27,,198.0,,https://www.tet.lv/veikals/austinas/huawei-freeclip-2-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,88566,Beats,Powerbeats Fit — Wireless Fitness Earbuds with Secure Fit — Power Pink,7.25,,229.0,,https://www.tet.lv/veikals/austinas/beats-powerbeats-fit-wireless-fitness-earbuds-with-secure-fit-power-pink.html
+2026-10-29T19:46:40+00:00,tet,austinas,81125,SteelSeries,Arctis Nova Pro P White,9.98,,315.0,,https://www.tet.lv/veikals/austinas/steelseries-arctis-nova-pro-p-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,100640,Philips,TAT2520WT/00 White,,,33.25,,https://www.tet.lv/veikals/austinas/philips-tat2520wt-00-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,100966,Beoplay,Eleven Copper Tone,15.8,,499.0,,https://www.tet.lv/veikals/austinas/beoplay-eleven-copper-tone.html
+2026-10-29T19:46:40+00:00,tet,austinas,81110,Skullcandy,Crusher Evo Chill Grey,5.13,,162.0,,https://www.tet.lv/veikals/austinas/skullcandy-crusher-evo-chill-grey.html
+2026-10-29T19:46:40+00:00,tet,austinas,33557,Razer,BlackShark V2 X Black,,,42.75,,https://www.tet.lv/veikals/austinas/razer-rz04-03240100-r3m1.html
+2026-10-29T19:46:40+00:00,tet,austinas,63231,Beats,Studio Buds True Wireless Noise Black/Gold,6.3,,199.0,,https://www.tet.lv/veikals/austinas/beats-studio-buds-true-wireless-noise-black-gold.html
+2026-10-29T19:46:40+00:00,tet,austinas,48397,Logitech,H570E Black,,,54.0,,https://www.tet.lv/veikals/austinas/logitech-h570e-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,99039,Shokz,OpenRun Pro 2 Standard Orange,5.99,,189.0,,https://www.tet.lv/veikals/austinas/shokz-openrun-pro-2-standard-orange.html
+2026-10-29T19:46:40+00:00,tet,austinas,101135,Xiaomi,Redmi Neo Sand White,,,59.9,,https://www.tet.lv/veikals/austinas/xiaomi-redmi-neo-sand-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,99036,Apple,AirPods Max 2 - Orange,18.34,,579.0,,https://www.tet.lv/veikals/austinas/apple-airpods-max-2-orange.html
+2026-10-29T19:46:40+00:00,tet,austinas,84940,JBL,Tune Flex 2 Ghost Black,,,69.0,,https://www.tet.lv/veikals/austinas/jbl-tune-flex-2-ghost-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,49006,Razer,Barracuda X Mercury White,2.85,,90.0,,https://www.tet.lv/veikals/austinas/razer-barracuda-x-mercury-white-2.html
+2026-10-29T19:46:40+00:00,tet,austinas,48394,Logitech,G435 Lightspeed Black,2.85,,90.0,,https://www.tet.lv/veikals/austinas/logitech-g435-lightspeed-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,67701,Bowers,& Wilkins PX8 Black,22.14,,699.0,,https://www.tet.lv/veikals/austinas/bowers-wilkins-px8-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,100682,JBL,Tune 680NC Black,,,69.0,,https://www.tet.lv/veikals/austinas/jbl-tune-680nc-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,58357,Sony,WHCH520B.CE7,,,39.0,,https://www.tet.lv/veikals/austinas/sony-whch520b-ce7.html
+2026-10-29T19:46:40+00:00,tet,austinas,10660,Logitech,Stereo H111,,,11.25,,https://www.tet.lv/veikals/austinas/logitech-stereo-headset-h111-single-3-5-mm-jack-g.html
+2026-10-29T19:46:40+00:00,tet,austinas,48427,Logitech,G733 Blue,3.71,,117.0,,https://www.tet.lv/veikals/austinas/logitech-g733-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,100153,Shokz,OpenFit 2+ Grey,6.56,,207.0,,https://www.tet.lv/veikals/austinas/shokz-openfit-2-grey.html
+2026-10-29T19:46:40+00:00,tet,austinas,76180,Sony,WF1000XM5 Black,7.57,,239.0,,https://www.tet.lv/veikals/austinas/sony-wf1000xm5-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,70819,Sennheiser,Momentum True Wireless 4 Black Copper,7.41,,234.0,,https://www.tet.lv/veikals/austinas/sennheiser-momentum-true-wireless-4-black-copper.html
+2026-10-29T19:46:40+00:00,tet,austinas,40979,JBL,Junior JR 460NC Blue,,,49.0,,https://www.tet.lv/veikals/austinas/jbl-junior-jr-460nc-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,88567,Beats,Powerbeats Fit — Wireless Fitness Earbuds with Secure Fit — Gravel Grey,7.25,,229.0,,https://www.tet.lv/veikals/austinas/beats-powerbeats-fit-wireless-fitness-earbuds-with-secure-fit-gravel-grey.html
+2026-10-29T19:46:40+00:00,tet,austinas,86565,Huawei,FreeArc Grey,3.71,,117.0,,https://www.tet.lv/veikals/austinas/huawei-freearc-grey.html
+2026-10-29T19:46:40+00:00,tet,austinas,72586,Canyon,OnGo 10 CNS-TWS10PL Purple,,,21.0,,https://www.tet.lv/veikals/austinas/canyon-ongo-10-cns-tws10pl-purple.html
+2026-10-29T19:46:40+00:00,tet,austinas,65884,Razer,Kraken Kitty V2 - Quartz,3.42,,108.0,,https://www.tet.lv/veikals/austinas/razer-kraken-kitty-v2-quartz.html
+2026-10-29T19:46:40+00:00,tet,austinas,81140,SteelSeries,Arctis Nova 5P Wireless White,4.28,,135.0,,https://www.tet.lv/veikals/austinas/steelseries-arctis-nova-5p-wireless-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,33234,Philips,TAUH201 Black,,,19.0,,https://www.tet.lv/veikals/austinas/philips-tauh201-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,65889,Razer,Moray Black,4.28,,135.0,,https://www.tet.lv/veikals/austinas/razer-moray-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,97957,Huawei,FreeClip 2 Rose Gold,6.27,,198.0,,https://www.tet.lv/veikals/austinas/huawei-freeclip-2-rose-gold.html
+2026-10-29T19:46:40+00:00,tet,austinas,82495,Sony,WH-CH720NP Wireless Noise Cancelling Headphones - Pink,2.5,,79.0,,https://www.tet.lv/veikals/austinas/sony-wh-ch720np-wireless-noise-cancelling-headphones-pink.html
+2026-10-29T19:46:40+00:00,tet,austinas,57512,Razer,BlackShark V2 Pro Black,5.13,,162.0,,https://www.tet.lv/veikals/austinas/razer-blackshark-v2-pro-black-2.html
+2026-10-29T19:46:40+00:00,tet,austinas,51954,Shokz,OpenMove Grey,2.85,,90.0,,https://www.tet.lv/veikals/austinas/shokz-openmove-grey.html
+2026-10-29T19:46:40+00:00,tet,austinas,55731,Razer,Kraken V3 X Black,,,48.0,,https://www.tet.lv/veikals/austinas/razer-kraken-v3-x-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,60375,JBL,Vibe Buds White,,,59.0,,https://www.tet.lv/veikals/austinas/jbl-vibe-buds-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,65886,Razer,BlackShark V2 HyperSpeed,3.42,,108.0,,https://www.tet.lv/veikals/austinas/razer-blackshark-v2-hyperspeed.html
+2026-10-29T19:46:40+00:00,tet,austinas,82192,Sony,WH-1000XM5 Smoky Pink,9.47,,299.0,,https://www.tet.lv/veikals/austinas/sony-wh-1000xm5-smoky-pink.html
+2026-10-29T19:46:40+00:00,tet,austinas,76194,Sony,WH-1000XM5 Platinum Silver,9.47,,299.0,,https://www.tet.lv/veikals/austinas/sony-wh-1000xm5-platinum-silver.html
+2026-10-29T19:46:40+00:00,tet,austinas,70221,Pioneer,DJ HDJ-X5BT-N Gold,5.04,,159.0,,https://www.tet.lv/veikals/austinas/pioneer-dj-hdj-x5bt-n-gold.html
+2026-10-29T19:46:40+00:00,tet,austinas,75468,Beats,Solo Buds Transparent Red,2.82,,89.0,,https://www.tet.lv/veikals/austinas/beats-solo-buds-transparent-red.html
+2026-10-29T19:46:40+00:00,tet,austinas,63232,Beats,Studio Buds True Wireless Noise Ivory,6.3,,199.0,,https://www.tet.lv/veikals/austinas/beats-studio-buds-true-wireless-noise-ivory.html
+2026-10-29T19:46:40+00:00,tet,austinas,100650,Philips,TAH4000LB/00 Blue,,,27.0,,https://www.tet.lv/veikals/austinas/philips-tah4000lb-00-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,100634,Philips,bērniem TAK2000MP/00,,,17.0,,https://www.tet.lv/veikals/austinas/philips-tak2000mp-00.html
+2026-10-29T19:46:40+00:00,tet,austinas,82491,Sony,WF-C710NL Truly Wireless Noise Cancelling Earbuds – Glass Blue,3.77,,119.0,,https://www.tet.lv/veikals/austinas/sony-wf-c710nl-truly-wireless-noise-cancelling-earbuds-glass-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,81148,Beats,Powerbeats Pro 2 - High-Performance Earbuds - Electric Orange,9.47,,299.0,,https://www.tet.lv/veikals/austinas/beats-powerbeats-pro-2-high-performance-earbuds-electric-orange.html
+2026-10-29T19:46:40+00:00,tet,austinas,67681,Bowers,& Wilkins Px7S2e Forest Green,13.59,,429.0,,https://www.tet.lv/veikals/new-from-master-base/bowers-wilkins-px7s2e-forest-green.html
+2026-10-29T19:46:40+00:00,tet,austinas,100644,Philips,bērniem TAK4200PK/00,,,33.25,,https://www.tet.lv/veikals/austinas/philips-berniem-tak4200pk-00.html
+2026-10-29T19:46:40+00:00,tet,austinas,100638,Philips,bērniem TAK5500RT/00,,,54.0,,https://www.tet.lv/veikals/austinas/philips-tak5500rt-00.html
+2026-10-29T19:46:40+00:00,tet,austinas,100653,Philips,TAT1300PK/00 Pink,,,21.0,,https://www.tet.lv/veikals/austinas/philips-tat1300pk-00-pink.html
+2026-10-29T19:46:40+00:00,tet,austinas,76193,Sony,WF1000XM5 Platinum Silver,7.57,,239.0,,https://www.tet.lv/veikals/austinas/sony-wf1000xm5-platinum-silver.html
+2026-10-29T19:46:40+00:00,tet,austinas,74415,Beats,Solo 4 Wireless Cloud Pink,7.25,,229.0,,https://www.tet.lv/veikals/austinas/beats-solo-4-wireless-cloud-pink.html
+2026-10-29T19:46:40+00:00,tet,austinas,75467,Beats,Solo Buds Storm Gray,2.82,,89.0,,https://www.tet.lv/veikals/austinas/beats-solo-buds-storm-gray.html
+2026-10-29T19:46:40+00:00,tet,austinas,81127,Razer,BlackShark V2 Pro for PlayStation White,4.85,,153.0,,https://www.tet.lv/veikals/austinas/razer-blackshark-v2-pro-for-playstation-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,31820,Sennheiser,HD 599,6.27,,198.0,,https://www.tet.lv/veikals/austinas/sennheiser-hd-599.html
+2026-10-29T19:46:40+00:00,tet,austinas,48603,Logitech,G733 Lilac,4.56,,144.0,,https://www.tet.lv/veikals/austinas/logitech-g733-lightspeed-wireless-rgb-gaming-headset-lilac.html
+2026-10-29T19:46:40+00:00,tet,austinas,100641,Philips,TAT2520BK/00 Black,,,33.25,,https://www.tet.lv/veikals/austinas/philips-tat2520bk-00-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,58522,Sony,WH-CH520 Blue,,,39.0,,https://www.tet.lv/veikals/austinas/sony-wh-ch520-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,101518,OPPO,Enco Buds3 Pro Glaze White,,,46.9,,https://www.tet.lv/veikals/austinas/oppo-enco-buds3-pro-glaze-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,7022,Logitech,H340 Black,,,22.0,,https://www.tet.lv/veikals/austinas/logitech-h340.html
+2026-10-29T19:46:40+00:00,tet,austinas,81116,Soundcore,P40i Oat White,,,63.0,,https://www.tet.lv/veikals/austinas/soundcore-p40i-oat-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,80965,Huawei,FreeBuds 6i White,3.14,,99.0,,https://www.tet.lv/veikals/austinas/huawei-freebuds-6i-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,61528,Bang&Olufsen,Beoplay H95 Chestnut,31.64,,999.0,,https://www.tet.lv/veikals/austinas/bang-olufsen-beoplay-h95-chestnut.html
+2026-10-29T19:46:40+00:00,tet,austinas,44359,Philips,TAT2236BK/00 Black,,,36.5,,https://www.tet.lv/veikals/austinas/philips-tat2236bk-00-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,7040,Gembird,GHS-402 Black,,,8.25,,https://www.tet.lv/veikals/austinas/gembird-ghs-402-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,72574,Canyon,TWS-6 Black,,,16.25,,https://www.tet.lv/veikals/austinas/canyon-tws-6-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,76974,Soundcore,Space One Latte Cream,2.85,,90.0,,https://www.tet.lv/veikals/austinas/soundcore-space-one-latte-cream.html
+2026-10-29T19:46:40+00:00,tet,austinas,65599,Sennheiser,HD 600 Black,12.54,,396.0,,https://www.tet.lv/veikals/austinas/sennheiser-hd-600-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,88565,Beats,Powerbeats Fit — Wireless Fitness Earbuds with Secure Fit — Spark Orange,7.25,,229.0,,https://www.tet.lv/veikals/austinas/beats-powerbeats-fit-wireless-fitness-earbuds-with-secure-fit-spark-orange.html
+2026-10-29T19:46:40+00:00,tet,austinas,72573,Canyon,TWS-6 White,,,16.25,,https://www.tet.lv/veikals/austinas/canyon-tws-6-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,52691,SteelSeries,Arctis Nova 1X Black,,,63.0,,https://www.tet.lv/veikals/austinas/steelseries-arctis-nova-1x-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,57201,Razer,Barracuda Quartz,3.14,,99.0,,https://www.tet.lv/veikals/austinas/razer-barracuda-quartz.html
+2026-10-29T19:46:40+00:00,tet,austinas,10844,Gembird,GHS-03 Raiden,,,11.25,,https://www.tet.lv/veikals/austinas/gembird-gaming-headset-with-volume-control-matte.html
+2026-10-29T19:46:40+00:00,tet,austinas,10982,Beyerdynamic,DT 880 Pro Grey,5.7,,180.0,,https://www.tet.lv/veikals/austinas/beyerdynamic-dt-880-pro-studio-headphones.html
+2026-10-29T19:46:40+00:00,tet,austinas,76978,Soundcore,Space One Pro Cream White,5.42,,171.0,,https://www.tet.lv/veikals/austinas/soundcore-space-one-pro-cream-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,21639,Koss, KPH7b Blue,,,7.75,,https://www.tet.lv/veikals/austinas/koss-kph7b-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,55620,SteelSeries,Arctis Nova Pro X Wired Black,7.98,,252.0,,https://www.tet.lv/veikals/austinas/steelseries-arctis-nova-pro-x-wired-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,97953,Huawei,FreeBuds SE 4 ANC White,,,63.0,,https://www.tet.lv/veikals/austinas/huawei-freebuds-se-4-anc-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,63229,Beats,Studio Buds True Wireless Noise Transparent,6.3,,199.0,,https://www.tet.lv/veikals/austinas/beats-studio-buds-true-wireless-noise-transparent.html
+2026-10-29T19:46:40+00:00,tet,austinas,81146,Beats,Powerbeats Pro 2 - High-Performance Earbuds - Quick Sand,9.47,,299.0,,https://www.tet.lv/veikals/austinas/beats-powerbeats-pro-2-high-performance-earbuds-quick-sand.html
+2026-10-29T19:46:40+00:00,tet,austinas,10813,Gembird,MHS-U-001,,,13.25,,https://www.tet.lv/veikals/austinas/gembird-mhs-u-001-usb-stereo-headset-glossy-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,100381,Sennheiser,Momentum 5 White,12.64,,399.0,,https://www.tet.lv/veikals/austinas/sennheiser-momentum-5-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,100645,Philips,TAT1300WT/00 White,,,21.0,,https://www.tet.lv/veikals/austinas/philips-tat1300wt-00-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,48420,Sony,MDR-ZX310 Black,,,21.0,,https://www.tet.lv/veikals/austinas/sony-mdr-zx310-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,58516,Sony,WH-CH520 White,,,39.0,,https://www.tet.lv/veikals/austinas/sony-wh-ch520-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,81129,Razer,BlackShark V2 Pro for PlayStation Black,5.42,,171.0,,https://www.tet.lv/veikals/austinas/razer-blackshark-v2-pro-for-playstation-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,72585,Canyon,OnGo 10 CNS-TWS10BK Dark Gray,,,21.0,,https://www.tet.lv/veikals/austinas/canyon-ongo-10-cns-tws10bk-dark-gray.html
+2026-10-29T19:46:40+00:00,tet,austinas,48767,Sony,MDR-ZX310 Black,,,26.0,,https://www.tet.lv/veikals/austinas/sony-mdr-zx310-black-2.html
+2026-10-29T19:46:40+00:00,tet,austinas,100148,Shokz,Open Run Pro 2 Mini Black,5.99,,189.0,,https://www.tet.lv/veikals/austinas/shokz-open-run-pro-2-mini-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,76933,Sony,LinkBuds Open – Truly Wireless Bluetooth Open Ear Buds Transparent Sound White,5.99,,189.0,,https://www.tet.lv/veikals/austinas/sony-linkbuds-open-truly-wireless-bluetooth-open-ear-buds-transparent-sound-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,46591,A4Tech,Bloody G580 Black,,,54.0,,https://www.tet.lv/veikals/austinas/a4tech-bloody-g580-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,19132,Fury,Hellcat Gaming Headset,,,30.0,,https://www.tet.lv/veikals/austinas/fury-hellcat-gaming-headset.html
+2026-10-29T19:46:40+00:00,tet,austinas,48611,Gembird,GHS-05-O Black/Orange,,,7.75,,https://www.tet.lv/veikals/austinas/gembird-ghs-05-o-black-orange.html
+2026-10-29T19:46:40+00:00,tet,austinas,48793,Koss,KE5 White,,,4.5,,https://www.tet.lv/veikals/austinas/koss-ke5-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,72587,Canyon,OnGo 10 CNS-TWS10BG Beige,,,21.0,,https://www.tet.lv/veikals/austinas/canyon-ongo-10-cns-tws10bg-beige.html
+2026-10-29T19:46:40+00:00,tet,austinas,73486,Bang,& Olufsen BeoPlay HX Timber,18.97,,599.0,,https://www.tet.lv/veikals/austinas/bang-olufsen-beoplay-hx-timber.html
+2026-10-29T19:46:40+00:00,tet,austinas,97978,Samsung,Type-C Earphones EO-IC100 White,,,17.0,,https://www.tet.lv/veikals/austinas/samsung-type-c-earphones-eo-ic100-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,89225,Kingston,HyperX Cloud Alpha Black-Red,2.28,,72.0,,https://www.tet.lv/veikals/austinas/kingston-hyperx-cloud-alpha-black-red.html
+2026-10-29T19:46:40+00:00,tet,austinas,62596,Beats,Studio Pro Wireless Sandstone,12.64,,399.0,,https://www.tet.lv/veikals/austinas/beats-studio-pro-wireless-sandstone.html
+2026-10-29T19:46:40+00:00,tet,austinas,81115,Razer,Blackshark V2 HyperSpeed White,4.28,,135.0,,https://www.tet.lv/veikals/austinas/razer-blackshark-v2-hyperspeed-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,76195,Sony,WH-1000XM5 Midnight Blue,9.47,,299.0,,https://www.tet.lv/veikals/austinas/sony-wh-1000xm5-midnight-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,55745,Sony,MDRE9LPH.AE,,,8.25,,https://www.tet.lv/veikals/austinas/sony-mdre9lph-ae.html
+2026-10-29T19:46:40+00:00,tet,austinas,52686,SteelSeries,Arctis Nova 1P Black,,,63.0,,https://www.tet.lv/veikals/austinas/steelseries-arctis-nova-1p-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,64220,Razer,Kraken Kitty V2 Pro Pink,3.99,,126.0,,https://www.tet.lv/veikals/austinas/razer-kraken-kitty-v2-pro-pink.html
+2026-10-29T19:46:40+00:00,tet,austinas,99807,JBL,Tune 680NC Beige,,,69.0,,https://www.tet.lv/veikals/austinas/jbl-tune-680nc-beige.html
+2026-10-29T19:46:40+00:00,tet,austinas,84941,JBL,Tune Flex 2 Ghost White,,,69.0,,https://www.tet.lv/veikals/austinas/jbl-tune-flex-2-ghost-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,48384,Aiwa,ESTM-50SL Silver,,,9.75,,https://www.tet.lv/veikals/austinas/aiwa-estm-50sl-silver.html
+2026-10-29T19:46:40+00:00,tet,austinas,97909,Lenovo,Wireless VoIP Headset (Teams) Black,3.14,,99.0,,https://www.tet.lv/veikals/austinas/lenovo-wireless-voip-headset-teams-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,58519,Sony,WH-CH720N White,2.5,,79.0,,https://www.tet.lv/veikals/austinas/sony-wh-ch720n-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,40975,JBL,Junior JR 460NC Pink,,,49.0,,https://www.tet.lv/veikals/austinas/jbl-junior-jr-460nc-pink.html
+2026-10-29T19:46:40+00:00,tet,austinas,89370,Sony,WF1000XM5 Smoky Pink,7.57,,239.0,,https://www.tet.lv/veikals/austinas/sony-wf1000xm5-smoky-pink.html
+2026-10-29T19:46:40+00:00,tet,austinas,49002,Steelseries,Arctis Nova Pro Black,7.7,,243.0,,https://www.tet.lv/veikals/austinas/steelseries-arctis-nova-pro-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,10865,Skullcandy,Jib White/Black,,,10.75,,https://www.tet.lv/veikals/austinas/skullcandy-jib-with-mic-white-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,81134,Razer,Kraken V4 X Black,2.57,,81.0,,https://www.tet.lv/veikals/austinas/razer-kraken-v4-x-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,65887,Razer,Kraken Kitty V2 - Black,3.42,,108.0,,https://www.tet.lv/veikals/austinas/razer-kraken-kitty-v2-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,70817,Sennheiser,ACCENTUM Plus Wireless Black,5.13,,162.0,,https://www.tet.lv/veikals/austinas/sennheiser-accentum-plus-wireless-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,76188,Beats,Flex - All-Day Wireless Earphones - Flame Blue,2.5,,79.0,,https://www.tet.lv/veikals/austinas/beats-flex-all-day-wireless-earphones-flame-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,48784,Koss,BT115i Black,,,24.5,,https://www.tet.lv/veikals/austinas/koss-bt115i-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,100647,Philips,bērniem TAK4200BL/00,,,33.25,,https://www.tet.lv/veikals/austinas/philips-berniem-tak4200bl-00.html
+2026-10-29T19:46:40+00:00,tet,austinas,3154,Panasonic,Earphones RP-HJE125E-R In-Ear,,,10.75,,https://www.tet.lv/veikals/austinas/panasonic-earphones-rp-hje125e-r-in-ear.html
+2026-10-29T19:46:40+00:00,tet,austinas,81145,Beats,Powerbeats Pro 2 - High-Performance Earbuds -Hyper Purple,9.47,,299.0,,https://www.tet.lv/veikals/austinas/beats-powerbeats-pro-2-high-performance-earbuds-hyper-purple.html
+2026-10-29T19:46:40+00:00,tet,austinas,76973,Soundcore,Q20i Black,,,44.25,,https://www.tet.lv/veikals/austinas/soundcore-q20i-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,14488,Beyerdynamic,DT 770 Pro 32 Ohm Black,4.56,,144.0,,https://www.tet.lv/veikals/austinas/beyerdynamic-dt-770-pro-32.html
+2026-10-29T19:46:40+00:00,tet,austinas,49000,Razer,Barracuda X Quartz Pink,3.42,,108.0,,https://www.tet.lv/veikals/austinas/razer-barracuda-x-quartz-pink.html
+2026-10-29T19:46:40+00:00,tet,austinas,55730,Razer,BlackShark V2 X White,,,54.0,,https://www.tet.lv/veikals/austinas/razer-blackshark-v2-x-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,81119,Soundcore,K20i Blue,,,18.5,,https://www.tet.lv/veikals/austinas/soundcore-k20i-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,76347,Sony,WF-C510 Truly Wireless Earbuds White,,,59.0,,https://www.tet.lv/veikals/austinas/sony-wf-c510-truly-wireless-earbuds-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,57515,Razer,BlackShark V2 Pro White,4.85,,153.0,,https://www.tet.lv/veikals/austinas/razer-blackshark-v2-pro-white-2.html
+2026-10-29T19:46:40+00:00,tet,austinas,101175,Sony,WH-CH730N Wireless Noise Cancelling - Pink,4.09,,129.0,,https://www.tet.lv/veikals/austinas/sony-wh-ch730n-wireless-noise-cancelling-pink.html
+2026-10-29T19:46:40+00:00,tet,austinas,102043,Beats,Powerbeats Fit — Wireless Fitness Earbuds with Secure Fit — Jet Black [Mazlietots],4.72,,149.0,,https://www.tet.lv/veikals/austinas/beats-powerbeats-fit-wireless-fitness-earbuds-with-secure-fit-jet-black-mazlietots.html
+2026-10-29T19:46:40+00:00,tet,austinas,55736,Shure,SE112 Grey,,,54.0,,https://www.tet.lv/veikals/austinas/shure-se112-grey.html
+2026-10-29T19:46:40+00:00,tet,austinas,70820,Sennheiser,Momentum True Wireless 4 Black Graphite,7.41,,234.0,,https://www.tet.lv/veikals/austinas/sennheiser-momentum-true-wireless-4-black-graphite.html
+2026-10-29T19:46:40+00:00,tet,austinas,85299,Razer,Kraken Kitty V2 White,3.42,,108.0,,https://www.tet.lv/veikals/austinas/razer-kraken-kitty-v2-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,58521,Sony,WH-CH520 Beige,,,39.0,,https://www.tet.lv/veikals/austinas/sony-wh-ch520-beige.html
+2026-10-29T19:46:40+00:00,tet,austinas,55738,Shure,SE215 Black,3.42,,108.0,,https://www.tet.lv/veikals/austinas/shure-se215-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,77002,Soundcore,Q30 Black,2.28,,72.0,,https://www.tet.lv/veikals/austinas/soundcore-q30-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,101522,OPPO,Enco Air5s Midnight Black,2.25,,70.9,,https://www.tet.lv/veikals/austinas/oppo-enco-air5s-midnight-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,100660,Philips,TAH6000WT/00 White,,,54.0,,https://www.tet.lv/veikals/austinas/philips-tah6000wt-00-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,97952,Huawei,Freebuds Pro 5 Sand,6.27,,198.0,,https://www.tet.lv/veikals/austinas/huawei-freebuds-pro-5-sand.html
+2026-10-29T19:46:40+00:00,tet,austinas,48407,Logilink,BT0027 Black,,,15.0,30.0,https://www.tet.lv/veikals/austinas/logilink-bt0027-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,70815,Sennheiser,HD 660S2 Black,18.24,,576.0,,https://www.tet.lv/veikals/austinas/sennheiser-hd-660s2-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,57199,Razer,BlackShark V2 X Quartz,,,45.25,,https://www.tet.lv/veikals/austinas/razer-blackshark-v2-x-quartz.html
+2026-10-29T19:46:40+00:00,tet,austinas,87900,Suunto,Wing 2 Coral Orange,4.81,,152.0,,https://www.tet.lv/veikals/austinas/suunto-wing-2-coral-orange.html
+2026-10-29T19:46:40+00:00,tet,austinas,1756,Sony,in-ear MDREX15APW.CE7 White,,,9.25,,https://www.tet.lv/veikals/austinas-2/sony-in-ear-mdrex15apw-ce7-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,101174,Sony,WH-CH730N Wireless Noise Cancelling - Blue,4.09,,129.0,,https://www.tet.lv/veikals/austinas/sony-wh-ch730n-wireless-noise-cancelling-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,55737,Shure,SE535 Clear,11.69,,369.0,,https://www.tet.lv/veikals/austinas/shure-se535-clear.html
+2026-10-29T19:46:40+00:00,tet,austinas,100160,Shokz,OpenSwim Pro Grey,7.41,,234.0,,https://www.tet.lv/veikals/austinas/shokz-openswim-pro-grey.html
+2026-10-29T19:46:40+00:00,tet,austinas,48723,Philips,TAE1105WT/00 White,,,9.75,,https://www.tet.lv/veikals/austinas/philips-tae1105wt-00-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,55764,Koss,KPH30iW White,,,29.75,,https://www.tet.lv/veikals/austinas/koss-kph30iw-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,55724,Sony,MDRE9LPL.AE Blue,,,8.25,,https://www.tet.lv/veikals/austinas/sony-mdre9lpl-ae-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,75469,Beats,Solo Buds Arctic Purple,2.82,,89.0,,https://www.tet.lv/veikals/austinas/beats-solo-buds-arctic-purple.html
+2026-10-29T19:46:40+00:00,tet,austinas,97951,Huawei,Freebuds Pro 5 Grey,6.27,,198.0,,https://www.tet.lv/veikals/austinas/huawei-freebuds-pro-5-grey.html
+2026-10-29T19:46:40+00:00,tet,austinas,100649,Philips,TAH2100BK/00,,,16.75,,https://www.tet.lv/veikals/austinas/philips-tah2100bk-00.html
+2026-10-29T19:46:40+00:00,tet,austinas,48380,Koss,KEB9iW SBS White,,,10.75,,https://www.tet.lv/veikals/austinas/koss-keb9iw-sbs-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,48737,Gembird,FitEar-X300B Black,,,14.5,,https://www.tet.lv/veikals/austinas/gembird-fitear-x300b-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,101517,OPPO,Enco Buds3 Pro Graphite Grey,,,46.9,,https://www.tet.lv/veikals/austinas/oppo-enco-buds3-pro-graphite-grey.html
+2026-10-29T19:46:40+00:00,tet,austinas,88564,Beats,Powerbeats Fit — Wireless Fitness Earbuds with Secure Fit — Jet Black,7.25,,229.0,,https://www.tet.lv/veikals/austinas/beats-powerbeats-fit-wireless-fitness-earbuds-with-secure-fit-jet-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,33130,Trust,21665,,,5.25,,https://www.tet.lv/veikals/austinas/trust-21665.html
+2026-10-29T19:46:40+00:00,tet,austinas,49011,Koss,KEB9iGRY SBS Gray,,,10.75,,https://www.tet.lv/veikals/austinas/koss-keb9igry-sbs-gray.html
+2026-10-29T19:46:40+00:00,tet,austinas,4182,Panasonic,"RP-HJE125E-A, Blue",,,10.75,,https://www.tet.lv/veikals/austinas/panasonic-rp-hje125e-a-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,62594,Beats,Studio Pro Wireless Navy,,,399.0,,https://www.tet.lv/veikals/austinas/beats-studio-pro-wireless-navy.html
+2026-10-29T19:46:40+00:00,tet,austinas,10920,Gembird,MHS-001-GW,,,8.25,,https://www.tet.lv/veikals/austinas/gembird-mhs-001-gw-stereo-headset-3-5-mm-glossy-w.html
+2026-10-29T19:46:40+00:00,tet,austinas,33243,Philips,TAUH202BK/00 Black,,,36.0,,https://www.tet.lv/veikals/austinas/philips-upbeat-tauh202bk-00-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,82492,Sony,WF-C710NW Truly Wireless Noise Cancelling Earbuds – White,3.77,,119.0,,https://www.tet.lv/veikals/austinas/sony-wf-c710nw-truly-wireless-noise-cancelling-earbuds-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,48727,Philips,TAE1105BL/00 Blue,,,9.75,,https://www.tet.lv/veikals/austinas/philips-tae1105bl-00-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,97950,Huawei,Freebuds Pro 5 White,6.27,,198.0,,https://www.tet.lv/veikals/austinas/huawei-freebuds-pro-5-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,82494,Sony,WH-CH520Y Wireless Headphones - Yellow,,,39.0,,https://www.tet.lv/veikals/austinas/sony-wh-ch520y-wireless-headphones-yellow.html
+2026-10-29T19:46:40+00:00,tet,austinas,21644,Koss,the Plug Black,,,16.25,,https://www.tet.lv/veikals/austinas/koss-the-plug-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,48390,Aiwa,ESTM-50RD Red,,,9.25,,https://www.tet.lv/veikals/austinas/aiwa-estm-50rd-red.html
+2026-10-29T19:46:40+00:00,tet,austinas,52693,SteelSeries,Arctis Nova 1P White,,,63.0,,https://www.tet.lv/veikals/austinas/steelseries-arctis-nova-1p-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,36967,Logitech,G335 Black,,,54.0,,https://www.tet.lv/veikals/austinas/logitech-g335-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,71327,Sennheiser,Momentum True Wireless 4 White Silver,7.41,,234.0,,https://www.tet.lv/veikals/austinas/sennheiser-momentum-true-wireless-4-white-silver.html
+2026-10-29T19:46:40+00:00,tet,austinas,100643,Philips,TAT2100PK/00 Pink,,,25.0,,https://www.tet.lv/veikals/austinas/philips-tat2100pk-00-pink.html
+2026-10-29T19:46:40+00:00,tet,austinas,81141,SteelSeries,Arctis Nova 5X White,4.28,,135.0,,https://www.tet.lv/veikals/austinas/steelseries-arctis-nova-5x-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,99295,Suunto,Spark Coral Orange SS051357000,4.72,,149.0,,https://www.tet.lv/veikals/austinas/suunto-spark-coral-orange-ss051357000.html
+2026-10-29T19:46:40+00:00,tet,austinas,99098,Sony,LinkBuds WF-LC900 Clip Open-Ear Greige,5.42,,171.0,,https://www.tet.lv/veikals/austinas/sony-linkbuds-wf-lc900-clip-open-ear-greige.html
+2026-10-29T19:46:40+00:00,tet,austinas,99099,Sony,LinkBuds WF-LC900 Clip Open-Ear Black,5.42,,171.0,,https://www.tet.lv/veikals/austinas/sony-linkbuds-wf-lc900-clip-open-ear-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,97954,Huawei,FreeBuds SE 4 ANC Black,,,63.0,,https://www.tet.lv/veikals/austinas/huawei-freebuds-se-4-anc-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,99815,JBL,Tune 680NC White,,,69.0,,https://www.tet.lv/veikals/austinas/jbl-tune-680nc-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,54802,Lindy,42870,,,25.0,,https://www.tet.lv/veikals/austinas/lindy-42870.html
+2026-10-29T19:46:40+00:00,tet,austinas,54845,Gembird,TWS-SEA-GW Misty grey,,,7.0,,https://www.tet.lv/veikals/austinas/gembird-tws-sea-gw-misty-grey.html
+2026-10-29T19:46:40+00:00,tet,austinas,81112,Skullcandy,Hesh ANC True Black,3.71,,117.0,,https://www.tet.lv/veikals/austinas/skullcandy-hesh-anc-true-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,61529,Bang&Olufsen,Beoplay H95 Navy,31.64,,999.0,,https://www.tet.lv/veikals/austinas/bang-olufsen-beoplay-h95-navy.html
+2026-10-29T19:46:40+00:00,tet,austinas,4593,Panasonic,RP-HJE125E-P,,,10.75,,https://www.tet.lv/veikals/austinas/panasonic-rp-hje125e-p.html
+2026-10-29T19:46:40+00:00,tet,austinas,48719,Philips,TAE1105PK/00 Pink,,,9.75,,https://www.tet.lv/veikals/austinas/philips-tae1105pk-00-pink.html
+2026-10-29T19:46:40+00:00,tet,austinas,65593,Sennheiser,Accentum Wireless White,5.7,,180.0,,https://www.tet.lv/veikals/austinas/sennheiser-accentum-wireless-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,14518,Koss,Headphones BT232i,,,27.75,,https://www.tet.lv/veikals/austinas/koss-headphones-bt232i.html
+2026-10-29T19:46:40+00:00,tet,austinas,99294,Suunto,Spark Black SS051356000,4.72,,149.0,,https://www.tet.lv/veikals/austinas/suunto-spark-black-ss051356000.html
+2026-10-29T19:46:40+00:00,tet,austinas,60869,Shure,SRH840A-EFS  Black,4.59,,145.0,,https://www.tet.lv/veikals/austinas/shure-srh840a-efs-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,85295,SteelSeries,Nova 5 P Black,4.28,,135.0,,https://www.tet.lv/veikals/austinas/steelseries-nova-5-p-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,14542,Koss,Headphones SB45,,,43.25,,https://www.tet.lv/veikals/austinas/koss-headphones-sb45.html
+2026-10-29T19:46:40+00:00,tet,austinas,48432,Xiaomi,Mi In-Ear Basic Silver,,,8.25,,https://www.tet.lv/veikals/austinas/xiaomi-mi-in-ear-basic-silver.html
+2026-10-29T19:46:40+00:00,tet,austinas,57166,Sony,WI-C100 Black,,,43.75,,https://www.tet.lv/veikals/austinas/sony-wi-c100-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,54808,Logitech,G935 Black,3.71,,117.0,,https://www.tet.lv/veikals/austinas/logitech-g935-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,33292,Philips,TAH4205RD/00 Red,,,38.5,,https://www.tet.lv/veikals/austinas/philips-tah-4205-red.html
+2026-10-29T19:46:40+00:00,tet,austinas,33148,Philips,TAUH202WT/00 White,,,29.5,,https://www.tet.lv/veikals/austinas/philips-tauh202wt-00-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,81111,Skullcandy,Hesh Evo True Black,3.14,,99.0,,https://www.tet.lv/veikals/austinas/skullcandy-hesh-evo-true-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,10919,Xiaomi,ZBW4354TY Mi In Universal Headset w/​Mic Black,,,8.25,,https://www.tet.lv/veikals/austinas/headset-mi-piston-basic-black-zbw4354ty-xiaomi.html
+2026-10-29T19:46:40+00:00,tet,austinas,4184,Panasonic,RP-HJE125E-K Black,,,10.75,,https://www.tet.lv/veikals/austinas/panasonic-rp-hje125e-k-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,21641,Koss, KPH7v Violet,,,7.75,,https://www.tet.lv/veikals/austinas/koss-kph7v-violet.html
+2026-10-29T19:46:40+00:00,tet,austinas,60867,Shure,SRH440A-EFS Black,3.01,,95.0,,https://www.tet.lv/veikals/austinas/shure-srh440a-efs-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,7023,Logitech,H540 Black,,,34.75,,https://www.tet.lv/veikals/austinas/logitech-h540-usb.html
+2026-10-29T19:46:40+00:00,tet,austinas,82490,Sony,WF-C710NP Truly Wireless Noise Cancelling Earbuds – Pink,3.77,,119.0,,https://www.tet.lv/veikals/austinas/sony-wf-c710np-truly-wireless-noise-cancelling-earbuds-pink.html
+2026-10-29T19:46:40+00:00,tet,austinas,101170,Sony,WH-CH530 Pink,,,59.0,,https://www.tet.lv/veikals/austinas/sony-wh-ch530-pink.html
+2026-10-29T19:46:40+00:00,tet,austinas,14529,Koss,KPH7 Red,,,7.75,,https://www.tet.lv/veikals/austinas/koss-headphones-kph7r.html
+2026-10-29T19:46:40+00:00,tet,austinas,25809,Koss,UR23iK,,,13.35,,https://www.tet.lv/veikals/austinas/koss-ur23ik.html
+2026-10-29T19:46:40+00:00,tet,austinas,48789,Koss,UR18 Silver,,,21.75,,https://www.tet.lv/veikals/austinas/koss-ur18-silver.html
+2026-10-29T19:46:40+00:00,tet,austinas,7159,Logitech,H151 Black,,,17.75,,https://www.tet.lv/veikals/austinas/logitech-h151-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,48923,Koss,KPH7 Black,,,24.5,,https://www.tet.lv/veikals/austinas/koss-kph7-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,55744,Sony,MDREX15LPW.AE,,,7.25,,https://www.tet.lv/veikals/austinas/sony-mdrex15lpw-ae.html
+2026-10-29T19:46:40+00:00,tet,austinas,57172,Koss,KSC35 Black,,,54.0,,https://www.tet.lv/veikals/austinas/koss-ksc35-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,73194,Sven,AP-B630MV,,,16.25,,https://www.tet.lv/veikals/austinas/sven-ap-b630mv.html
+2026-10-29T19:46:40+00:00,tet,austinas,100651,Philips,TAT2100WT/00 White,,,25.0,,https://www.tet.lv/veikals/austinas/philips-tat2100wt-00-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,14539,Koss,FitClips KSC32i Grey,,,18.0,,https://www.tet.lv/veikals/austinas/koss-headphones-ksc32igry.html
+2026-10-29T19:46:40+00:00,tet,austinas,77289,Bang,& Olufsen Beoplay HX Gold Tone,18.97,,599.0,,https://www.tet.lv/veikals/austinas/bang-olufsen-beoplay-hx-gold-tone.html
+2026-10-29T19:46:40+00:00,tet,austinas,87494,Lorgar,Noah 101 Black,,,26.0,,https://www.tet.lv/veikals/austinas/lorgar-noah-101-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,75524,Shure,Aonic 50 Gen 2 SBH50G2-BK Black,10.42,,329.0,,https://www.tet.lv/veikals/austinas/shure-aonic-50-gen-2-sbh50g2-bk-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,14523,Koss,KEB9iK Black,,,11.0,,https://www.tet.lv/veikals/austinas/koss-headphones-keb9ik.html
+2026-10-29T19:46:40+00:00,tet,austinas,48614,Gembird,GHS-05-B Black/Blue,,,7.75,,https://www.tet.lv/veikals/austinas/gembird-ghs-05-b-black-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,41304,Beyerdynamic,DT 770 Pro Black/Silver,4.56,,144.0,,https://www.tet.lv/veikals/austinas/beyerdynamic-dt-770-pro.html
+2026-10-29T19:46:40+00:00,tet,austinas,48780,Gembird,MHS-001 Black,,,8.25,,https://www.tet.lv/veikals/austinas/gembird-mhs-001-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,60865,Shure,SRH240A-BK Black,,,60.0,,https://www.tet.lv/veikals/austinas/shure-srh240a-bk-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,33290,Philips,TAH4205WT/00 White,,,38.5,,https://www.tet.lv/veikals/austinas/philips-tah4205wt-00-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,101526,OPPO,Enco Air5 Pro Black,2.47,,77.9,,https://www.tet.lv/veikals/austinas/oppo-enco-air5-pro-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,48389,Aiwa,ESTM-50WT White,,,9.25,,https://www.tet.lv/veikals/austinas/aiwa-estm-50wt-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,55747,Philips,TAE1105BK/00,,,9.75,,https://www.tet.lv/veikals/austinas/philips-tae1105bk-00.html
+2026-10-29T19:46:40+00:00,tet,austinas,48892,Skullcandy,Cassette S5CSW-M448,,,42.0,,https://www.tet.lv/veikals/austinas/skullcandy-cassette-s5csw-m448.html
+2026-10-29T19:46:40+00:00,tet,austinas,18438,Audio-Technica,ATH S200BTBK Black,2.57,,81.0,,https://www.tet.lv/veikals/austinas/audio-technica-headphones-ath-s200btbk-bluetooth.html
+2026-10-29T19:46:40+00:00,tet,austinas,98494,Cambridge,Melomania P100 SE White,8.84,,279.0,,https://www.tet.lv/veikals/austinas/cambridge-melomania-p100-se-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,101173,Sony,WH-CH730N Wireless Noise Cancelling - Beige,4.09,,129.0,,https://www.tet.lv/veikals/austinas/sony-wh-ch730n-wireless-noise-cancelling-beige.html
+2026-10-29T19:46:40+00:00,tet,austinas,54809,Logitech,H570e,,,42.0,,https://www.tet.lv/veikals/austinas/logitech-h570e.html
+2026-10-29T19:46:40+00:00,tet,austinas,51955,Shokz,OpenMove Blue,2.85,,90.0,,https://www.tet.lv/veikals/austinas/shokz-openmove-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,64219,Razer,Kraken Kitty V2 Pro Black,6.56,,207.0,,https://www.tet.lv/veikals/austinas/razer-kraken-kitty-v2-pro-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,70278,Yamaha,YH-L700A Black,14.22,,449.0,,https://www.tet.lv/veikals/austinas/yamaha-yh-l700a-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,100382,Sennheiser,Momentum 5 Denim,12.64,,399.0,,https://www.tet.lv/veikals/austinas/sennheiser-momentum-5-denim.html
+2026-10-29T19:46:40+00:00,tet,austinas,70211,Pioneer,HDJ-CUE1 DJ Headphones,,,69.0,,https://www.tet.lv/veikals/austinas/pioneer-hdj-cue1-dj-headphones.html
+2026-10-29T19:46:40+00:00,tet,austinas,70203,Energy,Sistem Senshi Eco,,,44.5,,https://www.tet.lv/veikals/austinas/energy-sistem-senshi-eco.html
+2026-10-29T19:46:40+00:00,tet,austinas,87495,Lorgar,Noah 101 White,,,26.0,,https://www.tet.lv/veikals/austinas/lorgar-noah-101-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,100655,Philips,TAH4000BK/00 Black,,,29.25,,https://www.tet.lv/veikals/austinas/philips-tah4000bk-00-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,70225,Pioneer,DJ HDJ-X5-S Silver,3.14,,99.0,,https://www.tet.lv/veikals/austinas/pioneer-dj-hdj-x5-s-silver.html
+2026-10-29T19:46:40+00:00,tet,austinas,70268,Yamaha,TW-ES5A Blue,5.67,,179.0,,https://www.tet.lv/veikals/austinas/yamaha-tw-es5a-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,99808,JBL,Tune 680NC Blue,,,69.0,,https://www.tet.lv/veikals/austinas/jbl-tune-680nc-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,101809,JBL,Tune 785NC Blue,3.14,,99.0,,https://www.tet.lv/veikals/austinas/jbl-tune-785nc-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,70215,Pioneer,DJ HDJ-CX Black,4.72,,149.0,,https://www.tet.lv/veikals/austinas/pioneer-dj-hdj-cx-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,101975,JBL,Junior JR 460NC White [Bojāts iepakojums],,,36.0,,https://www.tet.lv/veikals/austinas/jbl-junior-jr-460nc-white-bojats-iepakojums.html
+2026-10-29T19:46:40+00:00,tet,austinas,65595,Sennheiser,HD 800 S Black,39.15,,1566.0,,https://www.tet.lv/veikals/austinas/sennheiser-hd-800-s-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,84936,JBL,Tune Buds 2 Teal,,,69.0,,https://www.tet.lv/veikals/austinas/jbl-tune-buds-2-teal.html
+2026-10-29T19:46:40+00:00,tet,austinas,70276,Yamaha,YH-E700B Beige,7.89,,249.0,,https://www.tet.lv/veikals/austinas/yamaha-yh-e700b-beige.html
+2026-10-29T19:46:40+00:00,tet,austinas,100642,Philips,TAH4000PK/00 Pink,,,29.25,,https://www.tet.lv/veikals/austinas/philips-tah4000pk-00-pink.html
+2026-10-29T19:46:40+00:00,tet,austinas,60172,Sudio,N2 Pro Black,,,59.0,72.0,https://www.tet.lv/veikals/austinas/sudio-n2-pro-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,101521,OPPO,Enco Air5s Lunar White,2.25,,70.9,,https://www.tet.lv/veikals/austinas/oppo-enco-air5s-lunar-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,101808,JBL,Tune 785NC White,3.14,,99.0,,https://www.tet.lv/veikals/austinas/jbl-tune-785nc-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,73485,Bang,& Olufsen BeoPlay HX Black Anthracite,18.97,,599.0,,https://www.tet.lv/veikals/austinas/bang-olufsen-beoplay-hx-black-anthracite.html
+2026-10-29T19:46:40+00:00,tet,austinas,101169,Sony,WH-CH530 Mint,,,59.0,,https://www.tet.lv/veikals/austinas/sony-wh-ch530-mint.html
+2026-10-29T19:46:40+00:00,tet,austinas,48718,Philips,TAT2206GR/00 Green,,,38.25,,https://www.tet.lv/veikals/austinas/philips-tat2206gr-00-green.html
+2026-10-29T19:46:40+00:00,tet,austinas,100683,JBL,Tune 535BT Black,,,59.0,,https://www.tet.lv/veikals/austinas/jbl-tune-535bt-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,26592,Beats,Flex – All-Day Wireless Earphones – Yuzu Yellow,2.57,,81.0,,https://www.tet.lv/veikals/austinas/beats-flex-all-day-wireless-earphones-yuzu-yellow.html
+2026-10-29T19:46:40+00:00,tet,austinas,7101,Gembird,MHS-002 Black,,,6.75,,https://www.tet.lv/veikals/austinas/gembird-mhs-002-stereo-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,70213,Pioneer,DJ HDJ-CUE1BT-R Red,3.14,,99.0,,https://www.tet.lv/veikals/austinas/pioneer-dj-hdj-cue1bt-r-red.html
+2026-10-29T19:46:40+00:00,tet,austinas,44358,Philips,TAT2206BK/00 Black,,,40.0,,https://www.tet.lv/veikals/austinas/philips-tat2206bk-00-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,101171,Sony,WH-CH530 White,,,59.0,,https://www.tet.lv/veikals/austinas/sony-wh-ch530-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,48637,Kingstone,HyperX Cloud Stinger Core White-Blue,3.42,,108.0,,https://www.tet.lv/veikals/austinas/kingstone-hyperx-cloud-stinger-core-white-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,99296,Suunto,Spark White SS051493000,4.72,,149.0,,https://www.tet.lv/veikals/austinas/suunto-spark-white-ss051493000.html
+2026-10-29T19:46:40+00:00,tet,austinas,70274,Yamaha,TW-E7B Dark blue,8.52,,269.0,,https://www.tet.lv/veikals/austinas/yamaha-tw-e7b-dark-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,100652,Philips,TAH4000WT/00 White,,,29.25,,https://www.tet.lv/veikals/austinas/philips-tah4000wt-00-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,98493,Cambridge,Melomania P100 SE Black,8.84,,279.0,,https://www.tet.lv/veikals/austinas/cambridge-melomania-p100-se-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,70212,Pioneer,DJ HDJ-CUE1BT-K Black,3.14,,99.0,,https://www.tet.lv/veikals/austinas/pioneer-dj-hdj-cue1bt-k-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,65877,Corsair,HS80 Max Steel Gray (EU),5.99,,189.0,,https://www.tet.lv/veikals/austinas/corsair-hs80-max-steel-gray-eu.html
+2026-10-29T19:46:40+00:00,tet,austinas,21638,Koss, KPH7k Black,,,5.5,,https://www.tet.lv/veikals/austinas/koss-kph7k-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,101168,Sony,WH-CH530 Cobalt,,,59.0,,https://www.tet.lv/veikals/austinas/sony-wh-ch530-cobalt.html
+2026-10-29T19:46:40+00:00,tet,austinas,70267,Yamaha,TW-ES5A Black,5.67,,179.0,,https://www.tet.lv/veikals/austinas/yamaha-tw-es5a-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,100659,Philips,TAT2100BK/00 Black,,,25.0,,https://www.tet.lv/veikals/austinas/philips-tat2100bk-00-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,76970,Soundcore,Space One Jet Black,2.85,,90.0,,https://www.tet.lv/veikals/austinas/soundcore-space-one-jet-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,100658,Philips,TAT2100LB/00 Light blue,,,25.0,,https://www.tet.lv/veikals/austinas/philips-tat2100lb-00-light-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,76977,Soundcore,Space One Pro Jet Black,5.42,,171.0,,https://www.tet.lv/veikals/austinas/soundcore-space-one-pro-jet-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,48605,Gembird,MHS-03-WTRDBK White/Black/Red,,,7.25,,https://www.tet.lv/veikals/austinas/gembird-mhs-03-wtrdbk-white-black-red.html
+2026-10-29T19:46:40+00:00,tet,austinas,29108,Sennheiser, CX 400BT White,4.09,,129.0,,https://www.tet.lv/veikals/austinas/sennheiser-cx400tw1-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,70227,Pioneer,DJ HDJ-X7-S Silver,6.3,,199.0,,https://www.tet.lv/veikals/austinas/pioneer-dj-hdj-x7-s-silver.html
+2026-10-29T19:46:40+00:00,tet,austinas,70228,Pioneer,DJ High-End Professional Studio Monitor Headphones HRM-7 Black,6.94,,219.0,,https://www.tet.lv/veikals/austinas/pioneer-dj-high-end-professional-studio-monitor-headphones-hrm-7-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,33125,Trust,23532 Gaming,,,28.0,,https://www.tet.lv/veikals/austinas/trust-23532-gaming.html
+2026-10-29T19:46:40+00:00,tet,austinas,48736,Gembird,MHS-123 Black,,,4.5,,https://www.tet.lv/veikals/austinas/gembird-mhs-123-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,89361,Lorgar,Kaya 460 Black LRG-GHS460,,,45.0,,https://www.tet.lv/veikals/austinas/lorgar-kaya-460-black-lrg-ghs460.html
+2026-10-29T19:46:40+00:00,tet,austinas,70219,Pioneer,DJ HDJ-X10-S Silver,11.69,,369.0,,https://www.tet.lv/veikals/austinas/pioneer-dj-hdj-x10-s-silver.html
+2026-10-29T19:46:40+00:00,tet,austinas,70275,Yamaha,TW-E7B White,8.52,,269.0,,https://www.tet.lv/veikals/austinas/yamaha-tw-e7b-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,70260,Yamaha,TW-E3CGN Green,3.14,,99.0,,https://www.tet.lv/veikals/austinas/yamaha-tw-e3cgn-green.html
+2026-10-29T19:46:40+00:00,tet,austinas,97944,AlphaTheta,Professional Wireless DJ Headphones HDJ-F10,14.22,,449.0,,https://www.tet.lv/veikals/austinas/alphatheta-professional-wireless-dj-headphones-hdj-f10.html
+2026-10-29T19:46:40+00:00,tet,austinas,70248,Yamaha,TW-E3CBE Beige,3.14,,99.0,,https://www.tet.lv/veikals/austinas/yamaha-tw-e3cbe-beige.html
+2026-10-29T19:46:40+00:00,tet,austinas,4663,Razer,Hammerhead for iOS Green,3.71,,117.0,,https://www.tet.lv/veikals/austinas/razer-hammerhead-for-ios.html
+2026-10-29T19:46:40+00:00,tet,austinas,101525,OPPO,Enco Air5 Pro White,2.47,,77.9,,https://www.tet.lv/veikals/austinas/oppo-enco-air5-pro-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,70263,Yamaha,TW-E5B Black,5.04,,159.0,,https://www.tet.lv/veikals/austinas/yamaha-tw-e5b-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,70272,Yamaha,TW-E7B Beige,8.52,,269.0,,https://www.tet.lv/veikals/austinas/yamaha-tw-e7b-beige.html
+2026-10-29T19:46:40+00:00,tet,austinas,70226,Pioneer,DJ HDJ-X7-K Black,6.3,,199.0,,https://www.tet.lv/veikals/austinas/pioneer-dj-hdj-x7-k-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,80409,JBL,Wave Beams Blue,,,49.0,,https://www.tet.lv/veikals/austinas/jbl-wave-beams-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,99100,Sony,LinkBuds WF-LC900 Clip Open-Ear Green,5.42,,171.0,,https://www.tet.lv/veikals/austinas/sony-linkbuds-wf-lc900-clip-open-ear-green.html
+2026-10-29T19:46:40+00:00,tet,austinas,70259,Yamaha,TW-E3CBU Blue,3.14,,99.0,,https://www.tet.lv/veikals/austinas/yamaha-tw-e3cbu-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,60176,Sudio,N2 Pro White,,,59.0,72.0,https://www.tet.lv/veikals/austinas/sudio-n2-pro-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,100970,Beoplay,Eleven Eucalyptus Green,15.8,,499.0,,https://www.tet.lv/veikals/austinas/beoplay-eleven-eucalyptus-green.html
+2026-10-29T19:46:40+00:00,tet,austinas,70249,Yamaha,TW-E3CBL Black,3.14,,99.0,,https://www.tet.lv/veikals/austinas/yamaha-tw-e3cbl-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,70218,Pioneer,DJ HDJ-X10-K Black,11.69,,369.0,,https://www.tet.lv/veikals/austinas/pioneer-dj-hdj-x10-k-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,70262,Yamaha,TW-E3CRE Red,3.14,,99.0,,https://www.tet.lv/veikals/austinas/yamaha-tw-e3cre-red.html
+2026-10-29T19:46:40+00:00,tet,austinas,70261,Yamaha,TW-E3CGY Gray,3.14,,99.0,,https://www.tet.lv/veikals/austinas/yamaha-tw-e3cgy-gray.html
+2026-10-29T19:46:40+00:00,tet,austinas,70273,Yamaha,TW-E7B Black,8.52,,269.0,,https://www.tet.lv/veikals/austinas/yamaha-tw-e7b-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,50266,Sennheiser,Momentum 4 Wireless White,11.05,,349.0,,https://www.tet.lv/veikals/austinas/sennheiser-momentum-4-wireless-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,55750,Sony,MDRZX110B-AE,,,17.75,,https://www.tet.lv/veikals/austinas/sony-mdrzx110b-ae.html
+2026-10-29T19:46:40+00:00,tet,austinas,101523,OPPO,Enco Air5 Midnight Black,,,58.9,,https://www.tet.lv/veikals/austinas/oppo-enco-air5-midnight-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,70269,Yamaha,TW-ES5A Green,5.67,,179.0,,https://www.tet.lv/veikals/austinas/yamaha-tw-es5a-green.html
+2026-10-29T19:46:40+00:00,tet,austinas,70271,Yamaha,TW-ES5A White,5.67,,179.0,,https://www.tet.lv/veikals/austinas/yamaha-tw-es5a-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,97945,AlphaTheta,Professional Wireless DJ Headphones with Transmitter HDJ-F10-TX,17.39,,549.0,,https://www.tet.lv/veikals/austinas/alphatheta-professional-wireless-dj-headphones-with-transmitter-hdj-f10-tx.html
+2026-10-29T19:46:40+00:00,tet,austinas,70265,Yamaha,TW-E5B Blue,5.04,,159.0,,https://www.tet.lv/veikals/austinas/yamaha-tw-e5b-blue.html
+2026-10-29T19:46:40+00:00,tet,austinas,70264,Yamaha,TW-E5B Brown,5.04,,159.0,,https://www.tet.lv/veikals/austinas/yamaha-tw-e5b-brown.html
+2026-10-29T19:46:40+00:00,tet,austinas,70270,Yamaha,TW-ES5A Pink,5.67,,179.0,,https://www.tet.lv/veikals/austinas/yamaha-tw-es5a-pink.html
+2026-10-29T19:46:40+00:00,tet,austinas,60862,Shure,AONIC 40 White,7.28,,230.0,,https://www.tet.lv/veikals/austinas/shure-aonic-40-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,70224,Pioneer,DJ HDJ-X5-K Black,3.14,,99.0,,https://www.tet.lv/veikals/austinas/pioneer-dj-hdj-x5-k-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,21661,Trust,GXT 488 Forze PS4 Black,,,28.0,,https://www.tet.lv/veikals/austinas/trust-gxt-488-forze-ps4-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,76931,Sony,LinkBuds Open – Truly Wireless Bluetooth Open Ear Buds Transparent Sound Black,5.99,,189.0,,https://www.tet.lv/veikals/austinas/sony-linkbuds-open-truly-wireless-bluetooth-open-ear-buds-transparent-sound-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,70266,Yamaha,TW-E5B Gray,5.04,,159.0,,https://www.tet.lv/veikals/austinas/yamaha-tw-e5b-gray.html
+2026-10-29T19:46:40+00:00,tet,austinas,70217,Pioneer,DJ HDJ-S7-W White,6.3,,199.0,,https://www.tet.lv/veikals/austinas/pioneer-dj-hdj-s7-w-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,48928,SteelSeries,TUSQ 61650 Black,,,54.0,,https://www.tet.lv/veikals/austinas/steelseries-tusq-61650-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,14574,Koss,Sparkplug Black,,,20.0,,https://www.tet.lv/veikals/austinas/koss-sparkplug-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,70200,Energy,Sistem Hoshi ECO Red,,,29.0,,https://www.tet.lv/veikals/austinas/energy-sistem-hoshi-eco-red.html
+2026-10-29T19:46:40+00:00,tet,austinas,48770,Natec,Canary Go Black,,,9.5,,https://www.tet.lv/veikals/austinas/natec-canary-go-black.html
+2026-10-29T19:46:40+00:00,tet,austinas,101524,OPPO,Enco Air5 Glossy White,,,58.9,,https://www.tet.lv/veikals/austinas/oppo-enco-air5-glossy-white.html
+2026-10-29T19:46:40+00:00,tet,austinas,76932,Sony,LinkBuds Open – Truly Wireless Bluetooth Open Ear Buds Transparent Sound Violet,5.99,,189.0,,https://www.tet.lv/veikals/austinas/sony-linkbuds-open-truly-wireless-bluetooth-open-ear-buds-transparent-sound-violet.html
+2026-10-29T19:46:40+00:00,tet,austinas,48794,Koss,SB45 Black/Silver,,,54.0,,https://www.tet.lv/veikals/austinas/koss-sb45-black-silver.html
+2026-10-29T19:46:40+00:00,tet,austinas,100648,Philips,bērniem TAK2000BL/00,,,17.0,,https://www.tet.lv/veikals/austinas/philips-berniem-tak2000bl-00.html
+2026-10-29T19:46:40+00:00,tet,austinas,100654,Philips,bērniem TAK2000PK/00,,,16.75,,https://www.tet.lv/veikals/austinas/philips-berniem-tak2000pk-00.html
