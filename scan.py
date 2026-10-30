@@ -119,12 +119,15 @@ def scan_tele2(client, path, params=None):
     Tele2 lapa ar ?p=N parāda visus produktus no 1. līdz N. lapai, tāpēc pietiek ar
     vienu pieprasījumu ar lielu N.
     """
-    r = client.get(
-        "https://www.tele2.lv" + path,
+    url = requests.Request(
+        "GET", "https://www.tele2.lv" + path,
         params={"filter": 1, **(params or {}), "p": 30},
-        headers={"Accept": "text/html,application/xhtml+xml"},
-        timeout=30,
-    )
+    ).prepare().url
+    if os.getenv("BRIGHTDATA_API_KEY"):
+        # Tele2 rāda GitHub serveriem anti-bot lapu – caur Bright Data Web Unlocker tā netiek
+        r = brightdata_get(url)
+    else:
+        r = client.get(url, headers={"Accept": "text/html,application/xhtml+xml"}, timeout=30)
     r.raise_for_status()
     items = {p["id"]: p for p in parse_tele2(r.text)}  # dublikātus izmet
     if not items:
@@ -137,6 +140,29 @@ def scan_tele2(client, path, params=None):
                if "anubis" in r.text.lower() or "Pārbaudei vajadzīgs JavaScript" in r.text else "")
         )
     return list(items.values())
+
+
+def brightdata_get(url):
+    """Lejupielādē lapu caur Bright Data Web Unlocker (atslēga: BRIGHTDATA_API_KEY).
+
+    Zona pēc noklusējuma ir "cli_unlocker" – to izveido `bdata login`. Katrs pieprasījums
+    = 1 kredīts no bezmaksas 5000 mēnesī.
+    """
+    r = requests.post(
+        "https://api.brightdata.com/request",
+        headers={"Authorization": f"Bearer {os.environ['BRIGHTDATA_API_KEY']}"},
+        json={
+            "zone": os.getenv("BRIGHTDATA_ZONE", "cli_unlocker"),
+            "url": url,
+            "format": "raw",
+            "country": "lv",
+        },
+        timeout=120,
+    )
+    if r.status_code != 200:
+        raise RuntimeError(f"Bright Data HTTP {r.status_code}: {r.text[:200]!r}")
+    r.encoding = "utf-8"
+    return r
 
 
 def parse_tele2(html):

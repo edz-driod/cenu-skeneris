@@ -13,7 +13,7 @@ Ko skenēt, nosaka saraksts `SOURCES` faila `scan.py` beigās. Katrs ieraksts ir
 | Avots | Statuss | Kā |
 |---|---|---|
 | Bite telefoni | ✅ | `bite.lv/lv/telefoni` satur produktu ID sarakstu (`data-listInfo`). Cenas nāk no `/lv/product-list/ajax/commerce_product/small__fti/<id-id-id>` pa 15 ID reizē. |
-| Tele2 telefoni | ✅ | `tele2.lv/telefoni/?filter=1&p=N&xhr=1` atgriež JSON ar produktu HTML. |
+| Tele2 telefoni | ✅ | `tele2.lv/telefoni/?filter=1&p=30` – visi produkti vienā lapā (GitHub Actions caur Bright Data, sk. zemāk). |
 | Tele2 viedpulksteņi | ✅ | `tele2.lv/viedpaligi/` ar filtru `C[ADTYPE][]=smartwatch`. |
 | Tele2 austiņas | ✅ | `tele2.lv/viedpaligi/` ar filtru `speakers`. Šī sadaļa jauc austiņas un skaļruņus, tāpēc skaļruņus izmet pēc nosaukuma (`SPEAKER_WORDS`). |
 | Bite viedpulksteņi | ✅ | `bite.lv/lv/viedpulksteni`, tāpat kā telefoni. |
@@ -23,9 +23,18 @@ Ko skenēt, nosaka saraksts `SOURCES` faila `scan.py` beigās. Katrs ieraksts ir
 
 Starp pieprasījumiem ir 1,5 s pauze.
 
-**Tele2 un GitHub:** Tele2 GitHub serveriem rāda anti-bot pārbaudes lapu, tāpēc GitHub Actions
-skenē Bite, LMT un Tet (`OPERATORI: bite,lmt,tet` failā `.github/workflows/scan.yml`).
-Tele2 skenē tavs dators ar `skenet_tele2.bat` (Windows) vai `skenet_tele2.sh` (macOS/Linux).
+**Tele2 un GitHub:** Tele2 GitHub serveriem rāda anti-bot pārbaudes lapu, tāpēc GitHub Actions Tele2
+lapas lejupielādē caur [Bright Data](https://brightdata.com) Web Unlocker (bezmaksas plāns: 5000 pieprasījumu mēnesī,
+Tele2 patērē ~3 pieprasījumus skenēšanā, t.i. ~180 mēnesī). Ja mainīgais `BRIGHTDATA_API_KEY` nav iestatīts,
+Tele2 tiek lasīts tieši, kā agrāk.
+
+Uzstādīšana:
+1. Bright Data kontā jābūt Web Unlocker zonai `cli_unlocker` (to izveido `bdata login`; citu zonu var norādīt ar `BRIGHTDATA_ZONE`).
+2. API atslēgu ņem no [brightdata.com/cp](https://brightdata.com/cp) → *Account settings → API keys*.
+3. GitHub repozitorijā: *Settings → Secrets and variables → Actions → New repository secret*,
+   nosaukums `BRIGHTDATA_API_KEY`, vērtība – atslēga.
+
+Rezerves variants bez Bright Data: Tele2 var skenēt no sava datora ar `skenet_tele2.bat` (Windows) vai `skenet_tele2.sh` (macOS/Linux).
 Abi raksta tajos pašos `data/` failos, un katrs atjaunina tikai savu operatoru.
 
 Uzstādīšana datorā:

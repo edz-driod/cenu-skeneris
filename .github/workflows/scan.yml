@@ -6,9 +6,9 @@ on:
   workflow_dispatch:          # ļauj palaist arī ar roku no Actions cilnes
     inputs:
       operatori:
-        description: "Kurus operatorus skenēt (piem. bite,lmt,tet)"
+        description: "Kurus operatorus skenēt (piem. bite,tele2,lmt,tet)"
         required: false
-        default: "bite,lmt,tet"
+        default: "bite,tele2,lmt,tet"
 
 permissions:
   contents: write
@@ -34,7 +34,8 @@ jobs:
       - name: Skenē cenas
         run: python scan.py
         env:
-          OPERATORI: ${{ inputs.operatori || 'bite,lmt,tet' }} # Tele2 bloķē GitHub serverus – to skenē lokāli (sk. README)
+          OPERATORI: ${{ inputs.operatori || 'bite,tele2,lmt,tet' }}
+          BRIGHTDATA_API_KEY: ${{ secrets.BRIGHTDATA_API_KEY }} # Tele2 iet caur Bright Data (sk. README)
           TG_TOKEN: ${{ secrets.TG_TOKEN }}
           TG_CHAT: ${{ secrets.TG_CHAT }}
 
