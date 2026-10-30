@@ -827,6 +827,7 @@ function skuRows(g) {
 
 function skuTable(g, ops, focus) {
   if (!VARIANT_CATS.has(g.category)) return "";
+  const tv = g.category === "televizori";
   const rows = skuRows(g);
   const keys = [...new Set(rows.map(r => r.vk))].sort((a, b) => (a === "") - (b === "") || vkOrder(a) - vkOrder(b));
   if (keys.length < 2 && !(keys.length === 1 && keys[0])) return "";
@@ -839,9 +840,8 @@ function skuTable(g, ops, focus) {
     return `<tr${focus && k === focus ? ' class="cur"' : ""}><td class="vk">${esc(k || "Nav norādīts")}</td>${cells.map(c => !c ? '<td class="na">–</td>'
       : `<td class="${prices.length > 1 && !tie && c.full === min ? "win" : ""}"><a href="${esc(c.url)}" target="_blank" rel="noopener" title="${esc(c.label)}">${eur(c.full)}</a></td>`).join("")}</tr>`;
   }).join("");
-  const tv = g.category === "televizori";
   return `<p class="chart-title">Precīzs salīdzinājums pa ${tv ? "izmēriem" : "variantiem"}</p>
-    <div class="skus-wrap"><table class="skus"><thead><tr><th>Variants</th>${ops.map(op => `<th><span class="dot ${op}"></span>${OPS[op]}</th>`).join("")}</tr></thead>
+    <div class="skus-wrap"><table class="skus"><thead><tr><th>${tv ? "Izmērs" : "Variants"}</th>${ops.map(op => `<th><span class="dot ${op}"></span>${OPS[op]}</th>`).join("")}</tr></thead>
     <tbody>${body}</tbody></table></div>
     <p class="note">${tv ? "Katrā rindā – viens konkrēts modelis (ražotāja kods) šajā izmērā." : "Lētākā krāsa katram variantam."} Zaļā cena – lētākais operators. Uzspied cenu, lai atvērtu veikalā.</p>`;
 }
