@@ -131,6 +131,12 @@
     color: var(--muted); font-size: 18px; }
   tbody tr[data-key]:hover td:last-child::after { color: var(--ink); }
   .more-row td { text-align: center; cursor: default; padding: 14px; }
+  tr.sec td { cursor: default; font-weight: 700; font-size: 15px; padding: 18px 14px 8px; background: var(--page); border-bottom: 1px solid var(--grid); }
+  tr.sec .cm { font-weight: 400; color: var(--muted); font-size: 13px; margin-left: 4px; }
+  tr.sec .n { font-weight: 400; color: var(--muted); font-size: 13px; margin-left: 10px; }
+  .code { font-variant-numeric: tabular-nums; letter-spacing: .01em; }
+  .skus tr.cur td { background: var(--hover); }
+  .skus tr.cur td.vk::before { content: "▸ "; color: var(--accent); }
   .more-row button { font: inherit; font-weight: 600; color: var(--ink); background: var(--surface); border: 1px solid var(--ring);
     border-radius: 10px; padding: 9px 16px; min-height: 40px; cursor: pointer; }
   .more-row button:hover { background: var(--hover); }
@@ -206,6 +212,8 @@
     .compare tbody tr[data-key] td:last-child::after { content: none; }
     .compare .save { display: inline-block; margin-left: 8px; }
     .compare td.empty { grid-column: 1 / -1; }
+    .compare tbody tr.sec { display: block; padding: 16px 12px 6px; background: var(--page); }
+    .compare tbody tr.sec td { display: block; padding: 0 !important; background: none; border: 0; }
   }
   .empty { padding: 40px 16px; text-align: center; color: var(--ink-2); }
   @media (max-width: 640px) {
@@ -281,6 +289,7 @@
     </span>
   </div>
   <div class="brands" id="brands" role="group" aria-label="Ražotājs"></div>
+  <div class="brands sizes" id="sizes" role="group" aria-label="Diagonāle" hidden></div>
 
   <div class="card">
     <table id="tbl">
@@ -378,7 +387,7 @@ function parseCSV(text) {
 }
 
 let ITEMS = [], HIST = {}, NOW = new Date(), META = null, VARIANTS = {},
-  state = { limit: PAGE, view: "compare", cat: "telefoni", q: "", op: "", brand: "", sale: false, multi: true, sort: "diff", dir: -1 };
+  state = { limit: PAGE, view: "compare", cat: "telefoni", q: "", op: "", brand: "", diag: "", sale: false, multi: true, sort: "diff", dir: -1 };
 const onSale = p => p.disc > 0 || (p.monthly_old && p.monthly_old > p.monthly);
 
 async function load() {
@@ -415,6 +424,7 @@ async function load() {
     p.brandN = BRAND_ALIAS[k] || Object.entries(spell[k] || {}).sort((a, b) => b[1] - a[1] || (/[a-z]/.test(b[0]) - /[a-z]/.test(a[0])))[0]?.[0] || p.brand || "Cits";
     p.search = searchNorm(`${p.brand} ${p.brandN} ${p.model}`);
   });
+  prepareTV();
 
   render();
 }
@@ -436,10 +446,18 @@ function renderHeader() {
   const ops = Object.keys(OPS).filter(op => ITEMS.some(p => p.operator === op));
   document.querySelectorAll("#ops button[data-op]").forEach(b => { b.hidden = b.dataset.op && !ops.includes(b.dataset.op); });
   document.getElementById("legendOps").innerHTML = ops.map(op => `<span><span class="dot ${op}"></span>${OPS[op]}</span>`).join("");
-  const groups = buildGroups(inCat), multi = groups.filter(g => g.nOps > 1);
-  const save = multi.reduce((m, g) => g.diff > (m?.diff || 0) ? g : m, null);
+  let multi, save;
+  if (state.cat === "televizori") {
+    multi = tvRows(inCat).filter(r => r.nOps > 1);
+    const best = multi.reduce((m, r) => r.diff > (m?.diff || 0) ? r : m, null);
+    save = best && { key: best.key, diff: best.diff, brand: best.brand, model: best.title || best.code, diffVk: best.diag ? best.diag + "″" : "" };
+  } else {
+    multi = buildGroups(inCat).filter(g => g.nOps > 1);
+    const best = multi.reduce((m, g) => g.diff > (m?.diff || 0) ? g : m, null);
+    save = best && { key: best.items[0].key, diff: best.diff, brand: best.brand, model: best.model, diffVk: best.diffVk || "" };
+  }
   document.getElementById("stats").innerHTML =
-    (save ? `<button class="hero" data-key="${esc(save.items[0].key)}">Lielākā starpība: <b>${eur0(save.diff)}</b> · ${esc(save.brand)} ${esc(save.model)}${save.diffVk ? " " + esc(save.diffVk) : ""} ›</button>` : "") +
+    (save ? `<button class="hero" data-key="${esc(save.key)}" data-vk="${esc(save.diffVk)}">Lielākā starpība: <b>${eur0(save.diff)}</b> · ${esc(save.brand)} ${esc(save.model)}${save.diffVk ? " " + esc(save.diffVk) : ""} ›</button>` : "") +
     `<span><b>${inCat.length}</b> preces · <b>${multi.length}</b> salīdzināmi modeļi · <b>${inCat.filter(onSale).length}</b> akcijās</span>`;
 }
 
@@ -477,7 +495,7 @@ function renderBrands() {
 
 let lastSig = "";
 function render() {
-  const sig = JSON.stringify([state.view, state.cat, state.q, state.op, state.brand, state.sale, state.multi, state.sort, state.dir]);
+  const sig = JSON.stringify([state.view, state.cat, state.q, state.op, state.brand, state.diag, state.sale, state.multi, state.sort, state.dir]);
   if (sig !== lastSig) { state.limit = PAGE; lastSig = sig; }
   renderHeader();
   renderBrands();
@@ -485,7 +503,8 @@ function render() {
   document.getElementById("ops").hidden = state.view === "compare";
   document.getElementById("multiWrap").hidden = state.view !== "compare";
   document.getElementById("tbl").classList.toggle("compare", state.view === "compare");
-  state.view === "compare" ? renderCompare() : renderList();
+  document.getElementById("sizes").hidden = !(state.view === "compare" && state.cat === "televizori");
+  state.view !== "compare" ? renderList() : state.cat === "televizori" ? renderTvCompare() : renderCompare();
 }
 
 function moreRow(total, cols) {
@@ -541,6 +560,13 @@ function buildGroups(items) {
           .replace(/\s+/g, " ").trim()
       : m;
     grp.brand = rep.brand; grp.model = clean(rep.model || ""); grp.name = `${rep.brand || ""} ${grp.model}`.trim(); grp.category = rep.category;
+    if (grp.category === "televizori") {
+      const set = new Set(grp.items), us = TV_UNITS.filter(u => set.has(u.item));
+      const code = us.find(u => u.info?.series)?.info.series.replace(/^(QE|UE|MRE|TQ|GQ)/, "");
+      grp.model = tvTitle(us) || grp.model; grp.brand = rep.brandN || rep.brand;
+      if (code && !grp.model.toUpperCase().includes(code)) grp.model += ` · ${code}`;
+      grp.name = `${grp.brand} ${grp.model}`;
+    }
     for (const op of Object.keys(OPS)) grp[op] = grp.best[op]?.full ?? null;
     // starpība tikai starp vienādiem variantiem (piem. 256 GB pret 256 GB), nevis "no" cenām
     if (grp.nOps > 1) {
@@ -586,6 +612,180 @@ function renderCompare() {
     </tr>`).join("") + moreRow(total, cols.length) : `<tr><td colspan="${cols.length}" class="empty">Nekas netika atrasts.</td></tr>`;
 }
 
+/* ---------- Televizori: sasaiste pēc ražotāja koda un diagonāles ---------- */
+// Bite/Tele2/Tet raksta ražotāja kodu nosaukumā ("QE65QN80HAUXXH", "55PUS8001/12", "OLED65C61LA"),
+// LMT – produkta lapā katram izmēram (variants.json). Kodā parasti ir diagonāle (65) un sērija (QN80H).
+// Viens SKU = sērija + diagonāle. Ja koda nav (Tele2 Xiaomi) vai tajā nav izmēra (Xiaomi ELA…), sēriju nosaka pēc nosaukuma.
+const TV_GENERIC = new Set(("4k 8k uhd hd fhd smart tv televizors televizori google android vision ai hdr hdr10 dolby atmos " +
+  "ambilight evo the ar un inch collas cm qled qd led").split(" "));
+const TV_SIZE_RE = /(\d{2,3})\s*(?:"|''|”|″|’’|-?\s?collas|\s?inch|\s?colla)/i;
+
+function tvCode(model) {
+  const toks = (model || "").replace(/[()]/g, " ").split(/\s+/).filter(Boolean);
+  for (let i = toks.length - 1; i >= 0; i--) {
+    const t = toks[i];
+    if (!/^[A-Z0-9][A-Z0-9\-\/\.]{3,}$/.test(t) || t !== t.toUpperCase()) continue;
+    if ((t.match(/\d/g) || []).length < 2 || !/[A-Z]/.test(t) || /^\d{4}$/.test(t) || /^\d+K$/.test(t)) continue;
+    return t;
+  }
+  return null;
+}
+
+// -> { core: "QE65QN80H", size: 65, series: "QEQN80H" } vai null
+function tvCodeInfo(brand, code) {
+  if (!code) return null;
+  let c = code.toUpperCase().split(/[\/.]/)[0].replace(/[^A-Z0-9]/g, "");
+  const b = (brand || "").toLowerCase();
+  if (b === "samsung") {
+    // QE65QN80HAUXXH -> QE65QN80H; QE65LS03HWUXXH -> QE65LS03HW (cita versija); QE55S90HAEXXH -> QE55S90H
+    const m = c.replace(/A?[A-Z]XXH$|XXH$/, "").match(/^([A-Z]{2,3})(\d{2,3})([A-Z]+\d+[A-Z0-9]*)$/);
+    if (m) return { core: m[1] + m[2] + m[3], size: +m[2], series: m[1] + m[3] };
+  }
+  if (b === "lg") c = c.replace(/(\d)[A-Z]+$/, "$1");          // OLED65G61LW -> OLED65G61, 65QNED70B3A -> 65QNED70B3
+  const m = c.match(/^([A-Z]{0,6})(\d{2,3})(?=[A-Z])/);         // pirmais skaitlis kodā = diagonāle
+  if (m && +m[2] >= 19 && +m[2] <= 120) return { core: c, size: +m[2], series: c.slice(0, m[1].length) + c.slice(m[1].length + m[2].length) };
+  return { core: c, size: null, series: null };
+}
+
+function tvNameSeries(brand, model) {
+  const t = (model || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  const year = (t.match(/\b(20\d\d)\b/) || [])[1] || "";
+  const code = tvCode(model);
+  const toks = t.replace(code ? code.toLowerCase() : "\u0000", " ").replace(/(\d{2,3})\s*("|''|”|″|’’|-?\s?collas|\s?inch)/g, " ")
+    .replace(/[^a-z0-9]+/g, " ").split(" ").filter(w => w && !TV_GENERIC.has(w) && !/^20\d\d$/.test(w) && !/^\d{2,3}$/.test(w));
+  return { tokens: [...new Set(toks)].sort().join(" "), year };
+}
+
+const tvDiagFrom = (...texts) => { for (const t of texts) { const m = (t || "").match(TV_SIZE_RE) || (t || "").match(/[-\/](\d{2,3})-collas/); if (m && +m[1] >= 19 && +m[1] <= 120) return +m[1]; } return null; };
+
+// Visas konkrētās televizoru vienības (SKU līmenī) no precēm; LMT – no variants.json
+function tvUnitsOf(p) {
+  const vs = VARIANTS[p.key]?.variants;
+  const mk = (code, diag, full, url, label, old) => {
+    const info = tvCodeInfo(p.brandN || p.brand, code);
+    return { item: p, op: p.operator, code, info, diag: info?.size || diag, full, full_old: old ?? null, url, label,
+      monthly: vs ? null : p.monthly };
+  };
+  if (vs?.length) return vs.filter(v => v.full != null).map(v => mk(v.sku, tvDiagFrom(v.label, v.url), v.full, v.url, `${p.model} · ${v.sku || v.label}`, v.full_old));
+  return [mk(tvCode(p.model), tvDiagFrom(p.model, p.url), p.full, p.url, p.model, p.full_old)];
+}
+
+// Piešķir sērijas atslēgu visām TV vienībām un precēm (p.mk), lai detaļu logs rādītu visus izmērus.
+let TV_UNITS = [];
+function prepareTV() {
+  const tvItems = ITEMS.filter(p => p.category === "televizori" && !OPENED.test(p.model || ""));
+  TV_UNITS = tvItems.flatMap(tvUnitsOf).filter(u => u.full != null);
+  // 1) pēc koda
+  for (const u of TV_UNITS) if (u.info?.series) u.series = `${brandKey(u.item.brandN)}|c|${u.info.series}`;
+  const codeSeries = {};
+  for (const u of TV_UNITS) if (u.series) (codeSeries[brandKey(u.item.brandN)] ||= new Set()).add(u.info.series);
+  // 2) bez koda: vai nosaukumā ir vārds, kas viennozīmīgi atbilst kādai koda sērijai (piem. "M80H", "C61")?
+  const byName = {};
+  for (const u of TV_UNITS) {
+    if (u.series) continue;
+    const b = brandKey(u.item.brandN), ns = tvNameSeries(u.item.brandN, u.item.model);
+    const hints = ns.tokens.split(" ").filter(w => w.length >= 3 && /\d/.test(w) && /[a-z]/.test(w)).map(w => w.toUpperCase());
+    const cands = [...(codeSeries[b] || [])].filter(s => hints.some(h => s.endsWith(h) || s.replace(/^[A-Z]{2,4}(?=[A-Z])/, "") === h));
+    if (cands.length === 1) { u.series = `${b}|c|${cands[0]}`; continue; }
+    u.nameKey = `${b}|n|${ns.tokens}`; u.year = ns.year;
+    (byName[u.nameKey] ||= []).push(u);
+  }
+  // 3) nosaukuma sērijas: gads tikai atdala, ja abiem ir gads (A Pro 2025 ≠ A Pro 2026)
+  for (const [k, us] of Object.entries(byName)) {
+    const years = {}; for (const u of us) if (u.year) years[u.year] = (years[u.year] || 0) + 1;
+    const main = Object.entries(years).sort((a, b) => b[1] - a[1])[0]?.[0] || "";
+    for (const u of us) u.series = `${k}|${u.year || main}`;
+  }
+  for (const u of TV_UNITS) u.sku = `${u.series}|${u.diag || "?"}`;
+  // preces sērija = tās (pirmās) vienības sērija
+  for (const p of tvItems) { const u = TV_UNITS.find(x => x.item === p); if (u) p.mk = "televizori|" + u.series; }
+}
+
+const TV_TITLE_CLEAN = s => (s || "").replace(/^\s*\d{2,3}\s*("|''|”|″|’’)\s*\/?\s*/, "").replace(/\bSmart TV\b/gi, "")
+  .replace(/\s+/g, " ").trim();
+function tvTitle(units) {
+  const named = units.map(u => {
+    let t = TV_TITLE_CLEAN(u.item.model); if (u.code) t = t.replace(u.code, "");
+    return { op: u.op, t: t.replace(/\s+/g, " ").trim() };
+  }).filter(x => x.t && x.t.length > 2);
+  const pick = named.find(x => x.op === "lmt") || named.filter(x => x.op !== "tele2").sort((a, b) => a.t.length - b.t.length)[0] || named[0];
+  return pick?.t || "";
+}
+
+function tvRows(items) {
+  const set = new Set(items);
+  const g = new Map();
+  for (const u of TV_UNITS) {
+    if (!set.has(u.item)) continue;
+    if (!g.has(u.sku)) g.set(u.sku, { sku: u.sku, units: [], byOp: {} });
+    const r = g.get(u.sku); r.units.push(u);
+    if (!r.byOp[u.op] || u.full < r.byOp[u.op].full) r.byOp[u.op] = u;
+  }
+  return [...g.values()].map(r => {
+    const prices = Object.values(r.byOp).map(u => u.full);
+    const u0 = r.units.find(u => u.info?.core) || r.units[0];
+    r.diag = u0.diag; r.nOps = prices.length; r.min = Math.min(...prices);
+    r.diff = prices.length > 1 ? Math.max(...prices) - r.min : null;
+    r.brand = u0.item.brandN; r.code = u0.info?.core || ""; r.title = tvTitle(r.units);
+    r.name = `${r.brand} ${r.title}`; r.key = u0.item.key;
+    for (const op of Object.keys(OPS)) r[op] = r.byOp[op]?.full ?? null;
+    return r;
+  });
+}
+
+function renderSizes(rows) {
+  const el = document.getElementById("sizes");
+  if (state.cat !== "televizori" || state.view !== "compare") { el.hidden = true; return; }
+  el.hidden = false;
+  const n = {}; for (const r of rows) if (r.diag) n[r.diag] = (n[r.diag] || 0) + 1;
+  const sizes = Object.keys(n).map(Number).sort((a, b) => a - b);
+  el.innerHTML = `<button data-diag="" aria-pressed="${!state.diag}">Visi izmēri</button>` +
+    sizes.map(s => `<button data-diag="${s}" aria-pressed="${state.diag == s}">${s}″<span class="n">${n[s]}</span></button>`).join("");
+}
+
+function renderTvCompare() {
+  const ops = Object.keys(OPS).filter(op => ITEMS.some(p => p.operator === op));
+  const cols = [["name", "Televizors", ""], ...ops.map(op => [op, `<span class="dot ${op}"></span>${OPS[op]}`, "num"]),
+    ["diff", "Starpība", "num hide-sm"]];
+  if (!cols.some(c => c[0] === state.sort)) { state.sort = "diff"; state.dir = -1; }
+  let rows = tvRows(ITEMS.filter(p => baseFilter(p)))
+    .filter(r => (!state.multi || r.nOps > 1) && (!state.sale || r.units.some(u => onSale(u.item))));
+  renderSizes(rows);
+  if (state.diag) rows = rows.filter(r => r.diag == state.diag);
+  const k = state.sort, d = state.dir;
+  const val = r => r[k] ?? (d > 0 ? Infinity : -Infinity);
+  rows.sort((a, b) => (a.diag || 999) - (b.diag || 999)
+    || (k === "name" ? a.name.localeCompare(b.name, "lv") * d : (val(a) - val(b)) * d)
+    || a.name.localeCompare(b.name, "lv"));
+  setHead(cols);
+  const total = rows.length, perDiag = {};
+  for (const r of rows) perDiag[r.diag] = (perDiag[r.diag] || 0) + 1;
+  rows = rows.slice(0, state.limit);
+
+  const cell = (r, op) => {
+    const u = r.byOp[op];
+    if (!u) return `<td class="num cmp" data-op="${OPS[op]}"><span class="none">–</span></td>`;
+    const win = r.nOps > 1 && u.full === r.min && r.diff > 0;
+    const m = u.monthly ?? u.item.monthly;
+    return `<td class="num cmp${win ? " win" : ""}" data-op="${OPS[op]}" title="${esc(u.label)}"><span class="pp">${eur(u.full)}</span>
+      <span class="mm">${m != null && u.op !== "lmt" ? eur(m) + "/mēn." : ""}${onSale(u.item) || (u.full_old && u.full_old > u.full) ? '<span class="tag">akcija</span>' : ""}</span></td>`;
+  };
+  let lastDiag = null, html = "";
+  for (const r of rows) {
+    if (r.diag !== lastDiag) {
+      lastDiag = r.diag;
+      html += `<tr class="sec"><td colspan="${cols.length}">${r.diag ? r.diag + "″" : "Izmērs nav norādīts"}${r.diag ? ` <span class="cm">${Math.round(r.diag * 2.54)} cm</span>` : ""}<span class="n">${perDiag[r.diag]} modeļi</span></td></tr>`;
+    }
+    html += `<tr data-key="${esc(r.key)}" data-vk="${r.diag ? r.diag + "″" : ""}" tabindex="0">
+      <td><div class="name"><div><div class="b">${esc(r.brand)}${r.code ? ` · <span class="code">${esc(r.code)}</span>` : ""}</div>${esc(r.title || r.code)}${r.diff ? `<span class="save gap">līdz ${eur0(r.diff)} starpība</span>` : ""}</div></div></td>
+      ${ops.map(op => cell(r, op)).join("")}
+      <td class="num hide-sm">${r.diff ? `<span class="gap">${eur0(r.diff)}</span>` : ""}</td>
+    </tr>`;
+  }
+  document.getElementById("rows").innerHTML = rows.length ? html + moreRow(total, cols.length)
+    : `<tr><td colspan="${cols.length}" class="empty">Nekas netika atrasts.</td></tr>`;
+}
+
 /* ---------- Detaļas ---------- */
 /* ---------- Precīzie varianti (SKU) ---------- */
 // No nosaukuma/varianta apraksta izvelk to, kas ietekmē cenu: telefoniem atmiņu, pulksteņiem izmēru un LTE.
@@ -609,6 +809,10 @@ const vkOrder = k => { const n = parseFloat(k) || 0; return (/tb/i.test(k) ? n *
 
 // Visi zināmie konkrētie varianti grupai: Bite/LMT no variants.json, Tele2/Tet – katra prece pati par sevi.
 function skuRows(g) {
+  if (g.category === "televizori") {
+    const set = new Set(g.items);
+    return TV_UNITS.filter(u => set.has(u.item)).map(u => ({ op: u.op, vk: u.diag ? u.diag + "″" : "", full: u.full, url: u.url, label: u.label }));
+  }
   const rows = [];
   for (const p of g.items) {
     const vs = VARIANTS[p.key]?.variants;
@@ -621,7 +825,7 @@ function skuRows(g) {
   return rows.filter(r => r.full != null);
 }
 
-function skuTable(g, ops) {
+function skuTable(g, ops, focus) {
   if (!VARIANT_CATS.has(g.category)) return "";
   const rows = skuRows(g);
   const keys = [...new Set(rows.map(r => r.vk))].sort((a, b) => (a === "") - (b === "") || vkOrder(a) - vkOrder(b));
@@ -632,17 +836,18 @@ function skuTable(g, ops) {
       return rs[0] || null;
     });
     const prices = cells.filter(Boolean).map(c => c.full), min = Math.min(...prices), tie = min === Math.max(...prices);
-    return `<tr><td class="vk">${esc(k || "Nav norādīts")}</td>${cells.map(c => !c ? '<td class="na">–</td>'
+    return `<tr${focus && k === focus ? ' class="cur"' : ""}><td class="vk">${esc(k || "Nav norādīts")}</td>${cells.map(c => !c ? '<td class="na">–</td>'
       : `<td class="${prices.length > 1 && !tie && c.full === min ? "win" : ""}"><a href="${esc(c.url)}" target="_blank" rel="noopener" title="${esc(c.label)}">${eur(c.full)}</a></td>`).join("")}</tr>`;
   }).join("");
-  return `<p class="chart-title">Precīzs salīdzinājums pa variantiem</p>
+  const tv = g.category === "televizori";
+  return `<p class="chart-title">Precīzs salīdzinājums pa ${tv ? "izmēriem" : "variantiem"}</p>
     <div class="skus-wrap"><table class="skus"><thead><tr><th>Variants</th>${ops.map(op => `<th><span class="dot ${op}"></span>${OPS[op]}</th>`).join("")}</tr></thead>
     <tbody>${body}</tbody></table></div>
-    <p class="note">Lētākā krāsa katram variantam. Zaļā cena – lētākais operators šim variantam. Uzspied cenu, lai atvērtu veikalā.</p>`;
+    <p class="note">${tv ? "Katrā rindā – viens konkrēts modelis (ražotāja kods) šajā izmērā." : "Lētākā krāsa katram variantam."} Zaļā cena – lētākais operators. Uzspied cenu, lai atvērtu veikalā.</p>`;
 }
-const VARIANT_CATS = new Set(["telefoni", "pulksteni"]);
+const VARIANT_CATS = new Set(["telefoni", "pulksteni", "televizori"]);
 
-function openDetail(key) {
+function openDetail(key, focusVk) {
   const p = ITEMS.find(x => x.key === key);
   if (!p) return;
   const [g] = buildGroups(ITEMS.filter(x => x.mk === p.mk));
@@ -663,7 +868,7 @@ function openDetail(key) {
     return { op, label: OPS[op], pts };
   });
 
-  const sku = skuTable(g, ops);
+  const sku = skuTable(g, ops, focusVk);
   const allPts = series.flatMap(s => s.pts), histStart = Math.min(...allPts.map(p => +p.t));
   const showChart = series.some(s => s.pts.length > 1);
   document.getElementById("dlgBody").innerHTML = `
@@ -784,7 +989,7 @@ const dlg = document.getElementById("dlg");
 dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
 document.getElementById("cats").addEventListener("click", e => {
   const b = e.target.closest("button"); if (!b) return;
-  state.cat = b.dataset.cat; state.brand = ""; render();
+  state.cat = b.dataset.cat; state.brand = ""; state.diag = ""; render();
 });
 document.getElementById("q").addEventListener("input", e => { state.q = e.target.value; render(); });
 document.getElementById("sale").addEventListener("change", e => { state.sale = e.target.checked; render(); });
@@ -808,13 +1013,17 @@ document.getElementById("brands").addEventListener("click", e => {
   const b = e.target.closest("button"); if (!b) return;
   state.brand = state.brand === b.dataset.brand ? "" : b.dataset.brand; render();
 });
+document.getElementById("sizes").addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  state.diag = state.diag === b.dataset.diag ? "" : b.dataset.diag; render();
+});
 document.getElementById("multi").addEventListener("change", e => { state.multi = e.target.checked; render(); });
 const rows = document.getElementById("rows");
 rows.addEventListener("click", e => {
   if (e.target.closest("[data-more]")) { state.limit += PAGE; render(); return; }
-  const tr = e.target.closest("tr[data-key]"); if (tr) openDetail(tr.dataset.key);
+  const tr = e.target.closest("tr[data-key]"); if (tr) openDetail(tr.dataset.key, tr.dataset.vk);
 });
-document.getElementById("stats").addEventListener("click", e => { const b = e.target.closest(".hero"); if (b) openDetail(b.dataset.key); });
+document.getElementById("stats").addEventListener("click", e => { const b = e.target.closest(".hero"); if (b) openDetail(b.dataset.key, b.dataset.vk); });
 rows.addEventListener("keydown", e => { if (e.key === "Enter") { const tr = e.target.closest("tr[data-key]"); if (tr) openDetail(tr.dataset.key); } });
 
 load().catch(err => { document.getElementById("sub").textContent = "Neizdevās ielādēt datus: " + err.message; });
