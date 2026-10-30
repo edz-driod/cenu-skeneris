@@ -272,6 +272,69 @@
     .vrow { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "k t" "l l"; gap: 8px 12px; padding: 14px 6px; }
     .vrow .vk { grid-area: k; font-size: 28px; } .vrow .lad { grid-area: l; } .vrow .lt2 { grid-area: t; }
   }
+
+  /* analīze */
+  .cats .an-tab { margin-left: 8px; border: 1.5px solid var(--ink); color: var(--ink); font-weight: 600; }
+  .cats .an-tab[aria-selected=true] { background: var(--tag); color: var(--tag-ink); border-color: var(--tag); }
+  #an { display: flex; flex-direction: column; gap: 20px; }
+  #an .hero { padding-bottom: 4px; }
+  .lead { margin: 0; font-size: 19px; line-height: 1.5; color: var(--ink-2); max-width: 760px; }
+  .lead b { color: var(--ink); }
+  .panel .card-head { flex-direction: column; align-items: flex-start; gap: 6px; }
+  .panel .ttl h2 { font-size: 36px; }
+  .psub { margin: 0; font-size: 14px; color: var(--ink-2); max-width: 720px; }
+  .tblwrap { overflow-x: auto; }
+  .tbl tbody th { text-align: left; padding: 14px 12px 14px 28px; font-weight: 600; border-bottom: 1px solid var(--line-2); white-space: nowrap; }
+  .tbl.mx td.op .p { font-size: 18px; font-weight: 600; }
+  .tbl.mx td.op.wincell { background: color-mix(in srgb, var(--tag) 22%, transparent); }
+  .score td { vertical-align: top; }
+  .score td .p { font-size: 18px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .score td.barc { text-align: left; min-width: 260px; }
+  .score thead th:nth-child(2) { text-align: left; }
+  .score .big { font-size: 34px; font-weight: 800; font-stretch: 70%; line-height: 1; }
+  .score .bar { display: block; height: 8px; background: var(--sunk); border-radius: 4px; margin: 8px 0 4px; overflow: hidden; }
+  .score .bar i { display: block; height: 100%; border-radius: 4px; }
+  .score .barc .m { display: block; }
+  .opn { display: inline-flex; align-items: center; gap: 8px; font-size: 18px; }
+  .duels { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; }
+  .duel { padding: 18px 28px; border-bottom: 1px solid var(--line-2); display: flex; flex-direction: column; gap: 8px; }
+  .duel:nth-child(odd) { border-right: 1px solid var(--line-2); }
+  .duel .dh { display: flex; flex-direction: column; gap: 2px; }
+  .duel .dh b { font-size: 18px; }
+  .duel .dh span { font-size: 13px; color: var(--ink-2); }
+  .split { display: flex; height: 14px; border-radius: 7px; overflow: hidden; gap: 2px; }
+  .split i { display: block; min-width: 0; }
+  .sl { display: flex; justify-content: space-between; gap: 8px; font-size: 13px; color: var(--ink-2); }
+  .sl > span { display: inline-flex; align-items: center; gap: 6px; }
+  .sl b { color: var(--ink); }
+  .saves { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .save { padding: 18px 20px 20px; border-right: 1px solid var(--line-2); min-width: 0; }
+  .save:last-child { border-right: 0; }
+  .save h3 { margin: 0 0 8px; font-size: 20px; display: flex; align-items: center; gap: 8px; }
+  .save ol { list-style: none; margin: 0; padding: 0; }
+  .save .lnk { width: 100%; display: flex; flex-direction: column; gap: 2px; text-align: left; background: none; border: 0; border-top: 1px solid var(--line-2);
+    padding: 10px 0; cursor: pointer; font-size: 14px; }
+  .save .lnk:hover > span:first-child { text-decoration: underline; }
+  .save .lnk .m { color: var(--ink-2); font-size: 12px; }
+  .save .lnk .num b { font-size: 16px; }
+  @media (max-width: 760px) {
+    .duels { grid-template-columns: 1fr; } .duel { padding: 16px; border-right: 0 !important; }
+    .saves { grid-template-columns: 1fr 1fr; } .save { padding: 14px 16px; border-bottom: 1px solid var(--line-2); }
+    .save:nth-child(2n) { border-right: 0; }
+    .panel .ttl h2 { font-size: 30px; }
+    .lead { font-size: 17px; }
+    .tblwrap { overflow: visible; }
+    .tbl.mx thead, .tbl.score thead { display: none; }
+    .tbl.mx tr, .tbl.score tr { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; padding: 14px 16px; border-bottom: 1px solid var(--line-2); }
+    .tbl.mx tbody th, .tbl.score tbody th { grid-column: 1 / -1; padding: 0; border: 0; }
+    .tbl.mx td, .tbl.score td { border: 0; padding: 0 !important; text-align: left; }
+    .tbl.mx td.op { display: flex; flex-direction: column; background: var(--sunk); border-radius: 8px; padding: 8px 10px !important; }
+    .tbl.mx td.op::before { content: attr(data-op); font-size: 12px; color: var(--ink-2); }
+    .tbl.mx td.op .m { display: block; }
+    .tbl.mx td.gapc { display: none; }
+    .score td.barc { grid-column: 1 / -1; min-width: 0; }
+    .score .m { display: block; }
+  }
   .mnote { display: none; font-size: 13px; color: var(--ink-2); }
   @media (prefers-reduced-motion: no-preference) { .lrow, .chip, .seg button { transition: background-color .12s; } }
 </style>
@@ -287,6 +350,7 @@
     <p class="updated" id="sub">Ielādē datus…</p>
   </header>
 
+  <main id="shop">
   <section class="hero">
     <h1>Kur lētāk?</h1>
     <label class="search">
@@ -328,6 +392,8 @@
     <div id="body"></div>
   </section>
   <p class="foot">Cenas no bite.lv, tele2.lv, lmt.lv un tet.lv, atjaunotas divreiz dienā. Kāpnēs katram veikalam ir punkts uz līnijas: kreisajā galā lētākā cena, labajā dārgākā. Tukšais aplis ir cena pirms 7 dienām. Dzeltenā zīme ir lētākais veikals.</p>
+  </main>
+  <main id="an" hidden></main>
 </div>
 
 <dialog id="dlg" aria-labelledby="dlgTitle"><div class="dlg" id="dlgBody"></div></dialog>
@@ -1002,6 +1068,180 @@ function renderList() {
     `</tbody></table>` + moreBtn(total);
 }
 
+/* ---------- Analīze: kurš operators kur lētāks ---------- */
+// Salīdzināšanas vienība = viens modelis, kas ir vismaz 2 veikalos, vienā un tajā pašā variantā
+// (telefoniem/planšetēm atmiņa, pulksteņiem izmērs, televizoriem konkrēts SKU).
+function compUnits(cat) {
+  const out = [];
+  for (const c of cat ? [cat] : Object.keys(CATS)) {
+    const items = ITEMS.filter(p => p.category === c && !isUsed(p) && p.full != null);
+    if (!items.length) continue;
+    if (c === "televizori") {
+      for (const r of tvRows(items)) if (r.nOps > 1)
+        out.push({ cat: c, brand: r.brand, name: `${r.brand} ${r.title || r.code}`, key: r.key, vk: r.diag ? r.diag + "″" : "",
+          prices: Object.fromEntries(Object.entries(r.byOp).map(([op, u]) => [op, u.full])) });
+      continue;
+    }
+    for (const g of buildGroups(items)) {
+      if (g.nOps < 2) continue;
+      const byVk = {};
+      for (const r of skuRows(g)) { const m = (byVk[r.vk] ||= {}); m[r.op] = Math.min(m[r.op] ?? Infinity, r.full); }
+      const best = Object.entries(byVk).sort((a, b) => Object.keys(b[1]).length - Object.keys(a[1]).length || vkOrder(a[0]) - vkOrder(b[0]))[0];
+      if (!best || Object.keys(best[1]).length < 2) continue;
+      out.push({ cat: c, brand: g.items[0].brandN, name: `${g.items[0].brandN} ${g.model}`, key: g.items[0].key, vk: best[0], prices: best[1] });
+    }
+  }
+  for (const u of out) {
+    const v = Object.values(u.prices);
+    u.min = Math.min(...v); u.max = Math.max(...v); u.tie = u.min === u.max;
+  }
+  return out;
+}
+
+// operatora rādītāji vienību kopā
+function opStats(units, op) {
+  const mine = units.filter(u => u.prices[op] != null);
+  const win = mine.filter(u => !u.tie && u.prices[op] === u.min).length;
+  const solo = mine.filter(u => !u.tie && u.prices[op] === u.min && Object.values(u.prices).filter(v => v === u.min).length === 1).length;
+  const prem = mine.length ? mine.reduce((s, u) => s + (u.prices[op] - u.min) / u.min, 0) / mine.length * 100 : null;
+  return { n: mine.length, win, solo, share: mine.length ? win / mine.length * 100 : null, prem };
+}
+
+const pct = v => v == null ? "–" : fmtNum(Math.round(v), 0) + " %";
+const pct1 = v => v == null ? "–" : (v < 0.05 ? "0" : fmtNum(Math.round(v * 10) / 10, v < 10 ? 1 : 0)) + " %";
+
+function matrix(rows, ops, label) {
+  // rows: [{label, units}] – šūnā: cik bieži lētākais + vidējā piemaksa
+  return `<div class="tblwrap"><table class="tbl mx"><thead><tr><th scope="col">${label}</th>${ops.map(op =>
+    `<th scope="col"><span class="dot ${op}"></span>${OPS[op]}</th>`).join("")}<th scope="col">Modeļi</th></tr></thead><tbody>` +
+    rows.map(r => {
+      const st = Object.fromEntries(ops.map(op => [op, opStats(r.units, op)]));
+      const cands = ops.filter(op => st[op].n >= 2);
+      const top = cands.length > 1 ? cands.reduce((a, b) => (st[b].share - st[a].share || st[a].prem - st[b].prem) > 0 ? b : a) : null;
+      return `<tr><th scope="row">${esc(r.label)}</th>${ops.map(op => {
+        const s = st[op];
+        if (!s.n) return `<td class="op" data-op="${OPS[op]}"><span class="na">–</span></td>`;
+        return `<td class="op${op === top ? " wincell" : ""}" data-op="${OPS[op]}"><span class="p${op === top ? " win" : ""}">${pct(s.share)}</span>
+          <span class="m">${s.prem < 0.05 ? "vienmēr lētākais" : "+" + pct1(s.prem) + " pret lētāko"} · ${s.n}</span></td>`;
+      }).join("")}<td class="gapc"><span class="m" style="display:inline">${r.units.length}</span></td></tr>`;
+    }).join("") + `</tbody></table></div>`;
+}
+
+function renderAnalysis() {
+  const el = document.getElementById("an");
+  const cats = Object.keys(CATS).filter(c => ITEMS.some(p => p.category === c));
+  if (state.acat && !cats.includes(state.acat)) state.acat = "";
+  const scope = state.acat;
+  const units = compUnits(scope);
+  const ops = opsAll();
+  const inScope = ITEMS.filter(p => (!scope || p.category === scope) && !isUsed(p));
+  const scopeName = scope ? CATS[scope].toLowerCase() : "visas kategorijas";
+
+  // 1. kopvērtējums
+  const st = Object.fromEntries(ops.map(op => [op, opStats(units, op)]));
+  const extra = Object.fromEntries(ops.map(op => {
+    const its = inScope.filter(p => p.operator === op);
+    let dn = 0, up = 0;
+    for (const p of its) { const v = prevPrice(p); if (v != null && p.full != null && v !== p.full) v > p.full ? dn++ : up++; }
+    const sale = its.filter(onSale);
+    const disc = sale.map(p => p.full_old && p.full ? (p.full_old - p.full) / p.full_old * 100 : null).filter(v => v > 0);
+    return [op, { total: its.length, sale: its.length ? sale.length / its.length * 100 : 0,
+      disc: disc.length ? disc.reduce((a, b) => a + b, 0) / disc.length : null, dn, up }];
+  }));
+  const ranked = [...ops].sort((a, b) => (st[b].share ?? -1) - (st[a].share ?? -1));
+  const lead = ranked[0], cheapPrem = [...ops].filter(op => st[op].n).sort((a, b) => st[a].prem - st[b].prem)[0];
+  const maxShare = Math.max(...ops.map(op => st[op].share || 0), 1);
+
+  const score = `<table class="tbl score"><thead><tr><th scope="col">Operators</th><th scope="col">Lētākais</th><th scope="col">Vidēji dārgāks par lētāko</th>
+    <th scope="col">Salīdzināmi</th><th scope="col">Akcijās</th><th scope="col">7 dienās</th></tr></thead><tbody>` +
+    ranked.map(op => { const s = st[op], x = extra[op];
+      return `<tr><th scope="row"><span class="opn"><span class="dot ${op}"></span>${OPS[op]}</span></th>
+        <td class="barc"><span class="big num">${pct(s.share)}</span><span class="bar"><i style="width:${(s.share || 0) / maxShare * 100}%;background:var(--${op})"></i></span>
+          <span class="m">${s.win} no ${s.n} modeļiem${s.solo < s.win ? `, ${s.solo} vienīgais lētākais` : ""}</span></td>
+        <td><span class="p">${s.n ? "+" + pct1(s.prem) : "–"}</span><span class="m">vidēji pret lētāko</span></td>
+        <td><span class="p">${s.n}</span><span class="m">no ${x.total} precēm</span></td>
+        <td><span class="p">${pct(x.sale)}</span><span class="m">${x.disc ? "vid. atlaide " + pct(x.disc) : ""}</span></td>
+        <td><span class="p"><span class="dn">▼ ${x.dn}</span> <span class="upc">▲ ${x.up}</span></span><span class="m">cenas mainījās</span></td></tr>`;
+    }).join("") + `</tbody></table>`;
+
+  // 2. pa kategorijām (tikai, ja skatās visu)
+  const byCat = scope ? "" : panel("Pa kategorijām", "Cik bieži operators ir lētākais katrā kategorijā. Dzeltenā šūna – labākais kategorijā.",
+    matrix(cats.map(c => ({ label: CATS[c], units: units.filter(u => u.cat === c) })).filter(r => r.units.length), ops, "Kategorija"));
+
+  // 3. pa ražotājiem
+  const brandN = {};
+  for (const u of units) brandN[u.brand] = (brandN[u.brand] || 0) + 1;
+  const brands = Object.entries(brandN).filter(([, n]) => n >= 3).sort((a, b) => b[1] - a[1]).slice(0, 16).map(([b]) => b);
+  const byBrand = brands.length ? panel("Pa ražotājiem", `Ražotāji ar vismaz 3 salīdzināmiem modeļiem (${scopeName}). Dzeltenā šūna – kur šī ražotāja preces visbiežāk lētākas.`,
+    matrix(brands.map(b => ({ label: b, units: units.filter(u => u.brand === b) })), ops, "Ražotājs")) : "";
+
+  // 4. divi pret divi
+  const pairs = [];
+  for (let i = 0; i < ops.length; i++) for (let j = i + 1; j < ops.length; j++) pairs.push([ops[i], ops[j]]);
+  pairs.sort((x, y) => (x.join() === "bite,tele2" ? -1 : 0) - (y.join() === "bite,tele2" ? -1 : 0));
+  const duel = pairs.map(([a, b]) => {
+    const com = units.filter(u => u.prices[a] != null && u.prices[b] != null);
+    if (!com.length) return "";
+    const aw = com.filter(u => u.prices[a] < u.prices[b]).length, bw = com.filter(u => u.prices[b] < u.prices[a]).length, eq = com.length - aw - bw;
+    const avg = com.reduce((s, u) => s + (u.prices[a] - u.prices[b]), 0) / com.length;
+    const cheaper = avg < 0 ? a : b;
+    return `<div class="duel"><div class="dh"><b>${OPS[a]} pret ${OPS[b]}</b><span>${com.length} kopīgi modeļi · ${Math.abs(avg) < 1 ? "vidēji gandrīz vienādi" : `vidēji lētāks ${OPS[cheaper]} par ${eur0(Math.abs(avg))}`}</span></div>
+      <div class="split" role="img" aria-label="${OPS[a]} lētāks ${aw}, vienādi ${eq}, ${OPS[b]} lētāks ${bw}">
+        <i style="flex:${aw};background:var(--${a})"></i><i style="flex:${eq};background:var(--line)"></i><i style="flex:${bw};background:var(--${b})"></i></div>
+      <div class="sl"><span><span class="dot ${a}"></span>${OPS[a]} lētāks <b>${aw}</b></span><span>vienādi <b>${eq}</b></span><span>${OPS[b]} lētāks <b>${bw}</b><span class="dot ${b}"></span></span></div></div>`;
+  }).join("");
+
+  // 5. lielākie ietaupījumi katram operatoram
+  const saves = ops.map(op => {
+    const list = units.filter(u => u.prices[op] === u.min && Object.values(u.prices).filter(v => v === u.min).length === 1)
+      .map(u => ({ u, gap: Math.min(...Object.entries(u.prices).filter(([o]) => o !== op).map(([, v]) => v)) - u.min }))
+      .sort((a, b) => b.gap - a.gap).slice(0, 4);
+    return `<div class="save"><h3><span class="dot ${op}"></span>${OPS[op]}</h3>${list.length ? `<ol>${list.map(({ u, gap }) =>
+      `<li><button type="button" class="lnk" data-key="${esc(u.key)}" data-vk="${esc(u.vk)}"><span>${esc(u.name)}${u.vk ? ` <span class="m">${esc(u.vk)}</span>` : ""}</span>
+        <span class="num"><b>${eur(u.prices[op])}</b> <span class="dn">−${eur0(gap)}</span></span></button></li>`).join("")}</ol>`
+      : `<p class="quiet">Nevienā modelī nav vienīgais lētākais.</p>`}</div>`;
+  }).join("");
+
+  // 6. sortiments
+  const sortRowsA = (scope ? [scope] : cats).map(c => {
+    const its = ITEMS.filter(p => p.category === c && !isUsed(p));
+    const groups = c === "televizori" ? tvRows(its).map(r => Object.keys(r.byOp)) : buildGroups(its).map(g => Object.keys(g.byOp));
+    return `<tr><th scope="row">${CATS[c]}</th>${ops.map(op => {
+      const n = groups.filter(g => g.includes(op)).length, ex = groups.filter(g => g.length === 1 && g[0] === op).length;
+      return `<td class="op" data-op="${OPS[op]}"><span class="p">${n || "–"}</span><span class="m">${ex ? ex + " tikai šeit" : ""}</span></td>`;
+    }).join("")}<td class="gapc"><span class="m" style="display:inline">${groups.length}</span></td></tr>`;
+  }).join("");
+  const assort = `<div class="tblwrap"><table class="tbl mx"><thead><tr><th scope="col">Kategorija</th>${ops.map(op =>
+    `<th scope="col"><span class="dot ${op}"></span>${OPS[op]}</th>`).join("")}<th scope="col">Kopā</th></tr></thead><tbody>${sortRowsA}</tbody></table></div>`;
+
+  el.innerHTML = `
+    <section class="hero">
+      <h1>Kurš lētāks?</h1>
+      <p class="lead">${units.length
+        ? `Salīdzināti <b>${units.length}</b> modeļi, kas ir pieejami vismaz divos veikalos, vienā un tajā pašā variantā (${scopeName}). Visbiežāk lētākais ir <b>${OPS[lead]}</b>: ${pct(st[lead].share)} no modeļiem, ko tas piedāvā.${cheapPrem && cheapPrem !== lead ? ` Vismazāk pārmaksāsi pie <b>${OPS[cheapPrem]}</b> – vidēji +${pct1(st[cheapPrem].prem)} pret lētāko.` : ""}`
+        : "Šajā kategorijā vēl nav modeļu, kas būtu vairākos veikalos."}</p>
+      <div class="frow"><span class="flabel">Kategorija</span><div class="chips scroll" id="acats" role="group" aria-label="Kategorija">
+        <button type="button" class="chip" data-acat="" aria-pressed="${!scope}">Visas</button>${cats.map(c =>
+          `<button type="button" class="chip" data-acat="${c}" aria-pressed="${scope === c}">${CATS[c]}</button>`).join("")}</div></div>
+    </section>
+    ${units.length ? panel("Kopvērtējums", "“Lētākais” – cik daļā no salīdzināmajiem modeļiem operatora cena ir zemākā (arī dalīta). “Vidēji dārgāks” – cik procentos vidēji jāpiemaksā salīdzinājumā ar lētāko veikalu.", score, "score-wrap") : ""}
+    ${units.length ? byCat : ""}
+    ${units.length ? byBrand : ""}
+    ${duel ? panel("Divi pret divi", "Tikai modeļi, kas ir abos veikalos. Joslas krāsa – kurš lētāks.", `<div class="duels">${duel}</div>`) : ""}
+    ${units.length ? panel("Kur lielākais ietaupījums", "Modeļi, kur operators ir vienīgais lētākais, un par cik lētāks nekā nākamais veikals. Uzspied, lai salīdzinātu.", `<div class="saves">${saves}</div>`) : ""}
+    ${panel("Sortiments", "Cik dažādus modeļus piedāvā katrs operators un cik no tiem nav nevienā citā veikalā.", assort)}
+    <p class="foot">Analīze balstās uz pēdējās skenēšanas cenām (${esc(fmtDT(NOW))}). Pilnā cena bez līguma; mēneša maksājumi nav ņemti vērā. Lietotas un izpakotas preces nav iekļautas.</p>`;
+}
+
+const panel = (title, sub, body, cls = "") => `<section class="card panel ${cls}"><div class="card-head"><div class="ttl"><h2>${title}</h2></div><p class="psub">${sub}</p></div>${body}</section>`;
+
+document.getElementById("an").addEventListener("click", e => {
+  const c = e.target.closest("[data-acat]");
+  if (c) { state.acat = c.dataset.acat; renderAnalysis(); return; }
+  const l = e.target.closest("[data-key]");
+  if (l) openDetail(l.dataset.key, l.dataset.vk);
+});
+
 /* ---------- Galvene, filtri ---------- */
 function renderHeader() {
   document.getElementById("sub").innerHTML = ITEMS.length
@@ -1009,8 +1249,11 @@ function renderHeader() {
     : "Datu vēl nav. Palaid skenēšanu GitHub Actions cilnē.";
   const cats = Object.keys(CATS).filter(c => ITEMS.some(p => p.category === c));
   if (!cats.includes(state.cat) && state.cat !== "") state.cat = cats[0] || "";
+  const shop = state.page !== "an";
   document.getElementById("cats").innerHTML = [...cats, ""].map(c =>
-    `<button type="button" role="tab" data-cat="${c}" aria-selected="${state.cat === c}">${c ? CATS[c] : "Visi"}</button>`).join("");
+    `<button type="button" role="tab" data-cat="${c}" aria-selected="${shop && state.cat === c}">${c ? CATS[c] : "Visi"}</button>`).join("") +
+    `<button type="button" role="tab" class="an-tab" data-page="an" aria-selected="${!shop}">Analīze</button>`;
+  if (!shop) return;
 
   const inCat = ITEMS.filter(p => !state.cat || p.category === state.cat);
   const rows = state.cat === "televizori" ? tvRows(inCat).map(rowFromTv) : buildGroups(inCat).map(rowFromGroup);
@@ -1043,6 +1286,9 @@ function render() {
   const sig = JSON.stringify([state.view, state.cat, state.q, state.only, state.brand, state.diag, state.sale, state.multi, state.sort]);
   if (sig !== lastSig) { state.limit = PAGE; lastSig = sig; }
   renderHeader();
+  document.getElementById("shop").hidden = state.page === "an";
+  document.getElementById("an").hidden = state.page !== "an";
+  if (state.page === "an") { renderAnalysis(); return; }
   renderBrands();
   document.querySelectorAll("#views button").forEach(b => b.setAttribute("aria-pressed", b.dataset.view === state.view));
   document.getElementById("multiWrap").hidden = state.view === "list";
@@ -1146,6 +1392,8 @@ dlg.addEventListener("click", e => {
 });
 document.getElementById("cats").addEventListener("click", e => {
   const b = e.target.closest("button"); if (!b) return;
+  if (b.dataset.page) { state.page = "an"; history.replaceState(null, "", "#analize"); render(); window.scrollTo(0, 0); return; }
+  if (state.page === "an") { state.page = ""; history.replaceState(null, "", location.pathname + location.search); }
   state.cat = b.dataset.cat; state.brand = ""; state.diag = ""; render();
 });
 document.getElementById("q").addEventListener("input", e => { state.q = e.target.value; render(); });
@@ -1185,6 +1433,7 @@ window.addEventListener("resize", () => {
   if (dlg.open && document.getElementById("chart")) drawHistory();
 });
 
+if (location.hash === "#analize") state.page = "an";
 load().catch(err => { document.getElementById("sub").textContent = "Neizdevās ielādēt datus: " + err.message; });
 </script>
 </body>
