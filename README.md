@@ -1,6 +1,6 @@
 # Cenu skeneris – Bite, Tele2, LMT, Tet
 
-Divreiz dienā nolasa telefonu, viedpulksteņu un austiņu cenas no operatoriem, saglabā vēsturi `data/prices.csv`
+Darbdienu rītos nolasa telefonu, viedpulksteņu, austiņu, televizoru, putekļsūcēju un novērošanas kameru cenas no operatoriem, saglabā vēsturi `data/prices.csv`
 un nosūta Telegram ziņu, ja kāda cena mainās, parādās jauns telefons vai kāds pazūd.
 `index.html` ir lapa ar kategoriju cilnēm, meklēšanu un cenu vēstures grafikiem.
 Lapa operatorus salīdzina pēc modeļa nosaukuma.
@@ -25,7 +25,7 @@ Starp pieprasījumiem ir 1,5 s pauze.
 
 **Tele2 un GitHub:** Tele2 GitHub serveriem rāda anti-bot pārbaudes lapu, tāpēc GitHub Actions Tele2
 lapas lejupielādē caur [Bright Data](https://brightdata.com) Web Unlocker (bezmaksas plāns: 5000 pieprasījumu mēnesī,
-Tele2 patērē ~3 pieprasījumus skenēšanā, t.i. ~180 mēnesī). Ja mainīgais `BRIGHTDATA_API_KEY` nav iestatīts,
+Tele2 patērē ~6 pieprasījumus skenēšanā, t.i. ~130 mēnesī). Ja mainīgais `BRIGHTDATA_API_KEY` nav iestatīts,
 Tele2 tiek lasīts tieši, kā agrāk.
 
 Uzstādīšana:

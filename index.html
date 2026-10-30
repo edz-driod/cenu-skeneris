@@ -256,7 +256,7 @@
 
 <script>
 const OPS = { bite: "Bite", tele2: "Tele2", lmt: "LMT", tet: "Tet" };
-const CATS = { telefoni: "Telefoni", pulksteni: "Viedpulksteņi", austinas: "Austiņas" };
+const CATS = { telefoni: "Telefoni", pulksteni: "Viedpulksteņi", austinas: "Austiņas", televizori: "Televizori", puteklsuceji: "Putekļsūcēji", kameras: "Kameras" };
 const eur = v => v == null ? "–" : v.toLocaleString("lv-LV", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " €";
 const eur0 = v => v.toLocaleString("lv-LV", { maximumFractionDigits: 0 }) + " €";
 const fmtDate = d => d.toLocaleDateString("lv-LV", { day: "2-digit", month: "2-digit", year: "numeric" });
@@ -382,7 +382,7 @@ function renderHeader() {
     ? `Atjaunots ${esc(fmtDT(NOW))}` + (META?.errors?.length ? ` · <span class="warn">⚠ ${esc(META.errors.join("; "))}</span>` : "")
     : "Datu vēl nav. Palaid skenēšanu GitHub Actions cilnē.";
 
-  const cats = ["telefoni", "pulksteni", "austinas"].filter(c => ITEMS.some(p => p.category === c));
+  const cats = Object.keys(CATS).filter(c => ITEMS.some(p => p.category === c));
   if (!cats.includes(state.cat) && state.cat !== "") state.cat = cats[0] || "";
   document.getElementById("cats").innerHTML = [...cats, ""].map(c => {
     const n = ITEMS.filter(p => !c || p.category === c).length;

@@ -2,7 +2,7 @@ name: Cenu skenēšana
 
 on:
   schedule:
-    - cron: "17 5,15 * * *"   # UTC -> ~8:17 un 18:17 pēc Rīgas laika (ziemā 7:17/17:17)
+    - cron: "37 6 * * 1-5"    # darbdienās; UTC -> 8:37 ziemā, 9:37 vasarā pēc Rīgas laika (GitHub mēdz kavēties 10–30 min)
   workflow_dispatch:          # ļauj palaist arī ar roku no Actions cilnes
     inputs:
       operatori:

@@ -37,7 +37,10 @@ HEADERS = {
 }
 DELAY = 1.5  # sekundes starp pieprasījumiem, lai nenoslogotu lapas
 
-CATEGORIES = {"telefoni": "Telefoni", "pulksteni": "Viedpulksteņi", "austinas": "Austiņas"}
+CATEGORIES = {
+    "telefoni": "Telefoni", "pulksteni": "Viedpulksteņi", "austinas": "Austiņas",
+    "televizori": "Televizori", "puteklsuceji": "Putekļsūcēji", "kameras": "Novērošanas kameras",
+}
 
 FIELDS = [
     "scanned_at", "operator", "category", "id", "brand", "model",
@@ -497,6 +500,21 @@ def only_headphones(items):
     return [p for p in items if not SPEAKER_WORDS.search(f"{p['brand'] or ''} {p['model'] or ''}")]
 
 
+# Tele2 putekļsūcējus rāda jauktā sadaļā "household" kopā ar klaviatūrām, aerogriliem u.c.
+VACUUM_WORDS = re.compile(
+    r"vacuum|putek|robot|roborock|dreame|\bmova\b|dyson|k[aä]rcher|ezviz r[es]\d|xiaomi s\d|"
+    r"deebot|ecovacs|roomba|irobot|eufy|aqua ?10|\bf25\b",
+    re.I,
+)
+VACUUM_PARTS = re.compile(r"brush|birst|accessor|aksesuār|piederum|filtr|\bkit\b|maisi|\bbags?\b", re.I)
+
+
+def only_vacuums(items):
+    return [p for p in items
+            if VACUUM_WORDS.search(f"{p['brand'] or ''} {p['model'] or ''}")
+            and not VACUUM_PARTS.search(p["model"] or "")]
+
+
 # ---------------------------------------------------------------- Izmaiņas un paziņojumi
 
 def eur(v):
@@ -506,9 +524,15 @@ def eur(v):
 def diff(old, new, scanned):
     """scanned – (operators, kategorija) pāri, kas šoreiz noskenēti veiksmīgi."""
     msgs = []
+    # pirmo reizi skenēta kategorija – nevis simtiem "🆕" rindu, bet viena kopsavilkuma rinda
+    known = {(o["operator"], o.get("category", "telefoni")) for o in old.values()}
+    first = {}
     for key, p in new.items():
         name = label(p)
         o = old.get(key)
+        if o is None and (p["operator"], p["category"]) not in known:
+            first[(p["operator"], p["category"])] = first.get((p["operator"], p["category"]), 0) + 1
+            continue
         if o is None:
             msgs.append(f"🆕 {name}: {eur(p['full'])} ({eur(p['monthly'])}/mēn.)")
             continue
@@ -521,6 +545,8 @@ def diff(old, new, scanned):
     for key, o in old.items():
         if key not in new and (o["operator"], o.get("category", "telefoni")) in scanned:
             msgs.append(f"❌ Vairs nav: {label(o)}")
+    for (op, cat), n in first.items():
+        msgs.insert(0, f"🆕 Jauna kategorija {op.upper()} {CATEGORIES.get(cat, cat)}: {n} produkti")
     return msgs
 
 
@@ -654,6 +680,21 @@ SOURCES = [
     ("tet",   "telefoni",  lambda c: scan_tet(c, "/veikals/telefoni/telefoni-un-aksesuari/viedtalruni.html")),
     ("tet",   "pulksteni", lambda c: scan_tet(c, "/veikals/viedierices/viedpulksteni-un-aproces/viedie-pulksteni.html")),
     ("tet",   "austinas",  lambda c: only_headphones(scan_tet(c, "/veikals/datortehnika/audio-d/austinas.html"))),
+
+    ("bite",  "televizori",   lambda c: scan_bite(c, "/lv/televizori")),
+    ("tele2", "televizori",   lambda c: scan_tele2(c, "/televizori/")),
+    ("lmt",   "televizori",   lambda c: scan_lmt(c, "visi-televizori")),
+    ("tet",   "televizori",   lambda c: scan_tet(c, "/veikals/televizori-un-audio/televizori-un-piederumi/televizori.html")),
+    # rokas un roboti vienā kategorijā (LMT pārdod tikai robotus)
+    ("bite",  "puteklsuceji", lambda c: scan_bite(c, "/lv/puteklsuceji")),
+    ("tele2", "puteklsuceji", lambda c: only_vacuums(scan_tele2(c, "/viedpaligi/", {"C[ADTYPE][]": "household"}))),
+    ("lmt",   "puteklsuceji", lambda c: scan_lmt(c, "puteklu-suceji-roboti")),
+    ("tet",   "puteklsuceji", lambda c: scan_tet(c, "/veikals/sadzives-tehnika/maza-sadzives-tehnika/puteklu-suceji.html")
+                                        + scan_tet(c, "/veikals/sadzives-tehnika/maza-sadzives-tehnika/roboti-puteklu-suceji.html")),
+    ("bite",  "kameras",      lambda c: scan_bite(c, "/lv/noverosanas-kameras")),
+    ("tele2", "kameras",      lambda c: scan_tele2(c, "/viedpaligi/", {"C[ADTAGS][]": "Novērošanas kameras"})),
+    ("lmt",   "kameras",      lambda c: scan_lmt(c, "noverosanas-kameras")),
+    ("tet",   "kameras",      lambda c: scan_tet(c, "/veikals/viedierices/video/video-noverosanas-kameras.html")),
 ]
 
 
