@@ -367,7 +367,7 @@ SPEAKER_WORDS = re.compile(
 #   {"bite:24395": {"updated": "...", "variants": [{"sku", "label", "full", "url"}, ...]}, ...}
 # Tele2 un Tet katrs variants jau ir atsevišķa prece sarakstā, tāpēc tiem tas nav vajadzīgs.
 VARIANTS = DATA / "variants.json"
-VARIANT_CATEGORIES = {"telefoni", "pulksteni"}
+VARIANT_CATEGORIES = {"telefoni", "pulksteni", "plansetes"}
 # LMT televizoriem katra sērija ir viena lapa ar visiem izmēriem (katram savs ražotāja kods un cena)
 VARIANT_CATEGORIES_BY_OP = {"bite": VARIANT_CATEGORIES, "lmt": VARIANT_CATEGORIES | {"televizori"}}
 VARIANT_DELAY = 0.8
@@ -687,6 +687,10 @@ SOURCES = [
     ("tele2", "televizori",   lambda c: scan_tele2(c, "/televizori/")),
     ("lmt",   "televizori",   lambda c: scan_lmt(c, "visi-televizori")),
     ("tet",   "televizori",   lambda c: scan_tet(c, "/veikals/televizori-un-audio/televizori-un-piederumi/televizori.html")),
+    ("bite",  "plansetes",    lambda c: scan_bite(c, "/lv/plansetes")),
+    ("tele2", "plansetes",    lambda c: scan_tele2(c, "/plansetes/")),
+    ("lmt",   "plansetes",    lambda c: scan_lmt(c, "visas-plansetes")),
+    ("tet",   "plansetes",    lambda c: scan_tet(c, "/veikals/datortehnika/plansetdatori-un-aksesuari/plansetdatori.html")),
     # rokas un roboti vienā kategorijā (LMT pārdod tikai robotus)
     ("bite",  "puteklsuceji", lambda c: scan_bite(c, "/lv/puteklsuceji")),
     ("tele2", "puteklsuceji", lambda c: only_vacuums(scan_tele2(c, "/viedpaligi/", {"C[ADTYPE][]": "household"}))),

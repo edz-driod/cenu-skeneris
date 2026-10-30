@@ -333,7 +333,7 @@
 <dialog id="dlg" aria-labelledby="dlgTitle"><div class="dlg" id="dlgBody"></div></dialog>
 <script>
 const OPS = { bite: "Bite", tele2: "Tele2", lmt: "LMT", tet: "Tet" };
-const CATS = { telefoni: "Telefoni", pulksteni: "Viedpulksteņi", austinas: "Austiņas", televizori: "Televizori", puteklsuceji: "Putekļsūcēji", kameras: "Kameras" };
+const CATS = { telefoni: "Telefoni", pulksteni: "Viedpulksteņi", plansetes: "Planšetes", austinas: "Austiņas", televizori: "Televizori", puteklsuceji: "Putekļsūcēji", kameras: "Kameras" };
 // 1 459 € (bez ,00), 899,01 € – centi tikai, ja tie nav nulle; tūkstoši atdalīti ar šauru atstarpi
 const fmtNum = (v, dec) => { const [i, f] = Math.abs(v).toFixed(dec).split(".");
   return (v < 0 ? "−" : "") + i.replace(/\B(?=(\d{3})+(?!\d))/g, "\u202f") + (f ? "," + f : ""); };
@@ -642,13 +642,15 @@ function tvRows(items) {
 // No nosaukuma/varianta apraksta izvelk to, kas ietekmē cenu: telefoniem atmiņu, pulksteņiem izmēru un LTE.
 function variantKey(text, category) {
   const t = (" " + (text || "") + " ").toLowerCase().replace(/[-_]/g, " ");
-  if (category === "telefoni") {
+  if (category === "telefoni" || category === "plansetes") {
     const all = [...t.matchAll(/(\d+)\s?(gb|tb)\b/g)];
     // "8 256 gb" (LMT slug) / "12+256gb" -> 256; ja vienīgais skaitlis ir RAM (≤16 GB) un ir vēl viens – ņem lielāko
     let best = null;
     for (const m of all) { const gb = m[2] === "tb" ? +m[1] * 1024 : +m[1]; if (gb >= 32 && (!best || gb > best)) best = gb; }
     if (!best) { const pair = t.match(/\b(\d{1,2})\s(\d{2,4})\s?gb\b/); if (pair) best = +pair[2]; }
-    return best ? (best >= 1024 ? best / 1024 + " TB" : best + " GB") : "";
+    const mem = best ? (best >= 1024 ? best / 1024 + " TB" : best + " GB") : "";
+    if (category === "plansetes") return [mem, /\b(lte|5g|4g|cellular|sim)\b/.test(t) ? "LTE" : ""].filter(Boolean).join(" · ");
+    return mem;
   }
   if (category === "pulksteni") {
     const size = t.match(/\b(\d{2})\s?mm\b/), lte = /\b(lte|esim|cellular)\b/.test(t);
@@ -676,7 +678,7 @@ function skuRows(g) {
   return rows.filter(r => r.full != null);
 }
 
-const VARIANT_CATS = new Set(["telefoni", "pulksteni", "televizori"]);
+const VARIANT_CATS = new Set(["telefoni", "pulksteni", "plansetes", "televizori"]);
 /* ---------- Grafiks: pakāpju līnija (cena ir spēkā līdz nākamajai izmaiņai) ---------- */
 function niceTicks(min, max, n = 4) {
   if (min === max) { min -= 50; max += 50; }
