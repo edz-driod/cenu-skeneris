@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cenu skeneris</title>
-<meta name="description" content="Kur lētāk? Bite, Tele2, LMT un Tet cenas vienam un tam pašam modelim, ar cenu vēsturi">
+<meta name="description" content="Bite, Tele2, LMT un Tet ierīču cenas: izmaiņas, salīdzinājums pēc modeļa un cenu vēsture">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap">
@@ -43,6 +43,7 @@
     font: 16px/1.45 Archivo, system-ui, -apple-system, "Segoe UI", sans-serif; }
   a { color: var(--accent); }
   :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+  ::selection { background: var(--tag); color: var(--tag-ink); }
   button { font: inherit; color: inherit; }
   .wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px 64px; }
   .num { font-variant-numeric: tabular-nums; }
@@ -65,6 +66,43 @@
 
   /* virsraksts un meklēšana */
   .hero { padding: 36px 0 24px; display: grid; gap: 16px; }
+  .finder { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; padding: 4px 0 24px; }
+  .notice { margin: 20px 0 0; font-size: 15px; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; }
+
+  /* izmaiņas */
+  .chgcard { margin: 28px 0 24px; }
+  .chgcard h1 { margin: 0; font-size: clamp(40px, 6vw, 60px); line-height: .95; font-weight: 800; font-stretch: 68%; letter-spacing: -0.02em; }
+  .ops4 { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .opcol { padding: 18px 20px 20px; border-right: 1px solid var(--line-2); min-width: 0; display: flex; flex-direction: column; gap: 8px; }
+  .opcol:last-child { border-right: 0; }
+  .opcol.me { background: var(--sunk); }
+  .oph { display: flex; align-items: center; gap: 8px; margin: 0; font-size: 24px; line-height: 1; font-weight: 800; font-stretch: 70%; }
+  .oph .mine { font-size: 12px; font-weight: 600; font-stretch: 100%; color: var(--ink-2); border: 1px solid var(--line); border-radius: 5px; padding: 2px 6px; }
+  .opsum { margin: 0 0 4px; font-size: 13px; color: var(--ink-2); display: flex; flex-wrap: wrap; gap: 2px 12px; }
+  .opsum b { color: var(--ink); font-variant-numeric: tabular-nums; }
+  .evs { list-style: none; margin: 0; padding: 0; }
+  .ev { width: 100%; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 12px; align-items: baseline; text-align: left;
+    background: none; border: 0; border-top: 1px solid var(--line-2); padding: 10px 0; cursor: pointer; font-size: 14px; color: var(--ink); }
+  .ev:hover .en { text-decoration: underline; text-underline-offset: 3px; }
+  .ev .en { font-weight: 600; line-height: 1.25; min-width: 0; overflow-wrap: anywhere; }
+  .ev .evk { font-weight: 400; color: var(--ink-2); }
+  .ev .ep { font-variant-numeric: tabular-nums; white-space: nowrap; text-align: right; font-weight: 700; }
+  .ev .es { font-size: 12px; color: var(--ink-2); }
+  .ev .ed { font-size: 12px; white-space: nowrap; text-align: right; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .ev .was { color: var(--ink-2); font-weight: 400; }
+  .ev.gone { cursor: default; }
+  .ev.gone .ep { color: var(--ink-2); font-weight: 400; text-decoration: line-through; }
+  .kind { display: inline-block; font-size: 11px; font-weight: 600; line-height: 1; border: 1px solid currentColor; border-radius: 5px; padding: 2px 5px; }
+  .kind.new { color: var(--accent); } .kind.gone { color: var(--ink-2); }
+  .evmore { align-self: flex-start; background: none; border: 0; padding: 0; min-height: 36px; color: var(--accent); font-weight: 600; font-size: 14px; cursor: pointer; }
+  .opcol .quiet { padding-top: 4px; }
+  .meband { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 18px; padding: 12px 28px; background: var(--sunk); border-bottom: 1px solid var(--line-2); font-size: 14px; color: var(--ink-2); }
+  .meband b { color: var(--ink); font-variant-numeric: tabular-nums; }
+  .meband .who { display: inline-flex; align-items: center; gap: 6px; color: var(--ink); font-weight: 700; }
+  @media (max-width: 980px) {
+    .ops4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .opcol { border-bottom: 1px solid var(--line-2); } .opcol:nth-child(2n) { border-right: 0; }
+  }
   .hero h1 { margin: 0; font-size: clamp(44px, 7vw, 64px); line-height: 1; font-weight: 800; font-stretch: 70%; letter-spacing: -0.02em; }
   .search { display: flex; align-items: center; gap: 12px; background: var(--surface); border: 2px solid var(--ink);
     border-radius: 10px; padding: 0 18px; height: 60px; max-width: 720px; }
@@ -72,16 +110,11 @@
   .search:focus-within { box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 35%, transparent); }
   .summary { margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; font-size: 15px; color: var(--ink-2); max-width: 900px; }
   .summary b { color: var(--ink); }
-  .best-btn { display: inline-flex; align-items: center; gap: 8px; border: 0; cursor: pointer; text-align: left;
-    background: var(--tag); color: var(--tag-ink); border-radius: 6px 14px 14px 6px; padding: 7px 14px 7px 24px; position: relative; font-size: 15px; }
-  .summary .best-btn b { color: var(--tag-ink); }
-  .best-btn::before { content: ""; position: absolute; left: 9px; top: 50%; width: 7px; height: 7px; margin-top: -3.5px; border-radius: 50%;
-    background: var(--surface); box-shadow: inset 0 0 0 1.5px rgba(23,32,43,.35); }
 
   /* filtri */
-  .filters { display: flex; flex-direction: column; gap: 10px; padding-bottom: 24px; }
+  .filters { display: flex; flex-direction: column; gap: 10px; }
   .frow { display: flex; align-items: center; gap: 6px 10px; min-width: 0; }
-  .flabel { flex: none; width: 84px; font-size: 14px; color: var(--ink-2); }
+  .flabel { flex: none; width: 120px; font-size: 14px; color: var(--ink-2); }
   .chips { display: flex; gap: 6px; min-width: 0; flex-wrap: wrap; }
   .chips.scroll { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding-right: 32px;
     -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent); }
@@ -91,9 +124,6 @@
   .chip:hover { border-color: var(--ink-2); }
   .chip[aria-pressed=true] { background: var(--ink); color: var(--page); border-color: var(--ink); font-weight: 700; }
   .chip .n { font-weight: 400; opacity: .72; font-size: 13px; }
-  .opchk { position: relative; padding-left: 10px; }
-  .opchk input { width: 18px; height: 18px; margin: 0; accent-color: var(--ink); }
-  .opchk:has(input:checked) { border-color: var(--ink); font-weight: 700; }
   .hint { font-size: 13px; color: var(--ink-2); }
 
   /* kartīte ar rezultātiem */
@@ -148,7 +178,7 @@
   .cl .lb b { color: var(--ink); font-weight: 500; }
   .cl .lb.win b { font-weight: 800; }
   .cl .lb .d { font-weight: 600; }
-  .fade { opacity: .32; }
+  .fade { opacity: .7; }
 
   .ptag { position: relative; display: inline-flex; flex-direction: column; line-height: 1.05; background: var(--tag); color: var(--tag-ink);
     border-radius: 6px 14px 14px 6px; padding: 8px 18px 8px 26px; }
@@ -187,7 +217,7 @@
   .more button { font-weight: 600; background: var(--surface); border: 1.5px solid var(--ink); border-radius: 8px; padding: 10px 20px; min-height: 44px; cursor: pointer; }
   .more button span { font-weight: 400; color: var(--ink-2); margin-left: 6px; }
   .empty { padding: 40px 28px; color: var(--ink-2); margin: 0; }
-  .foot { margin: 24px 0 0; font-size: 14px; color: var(--ink-2); max-width: 680px; line-height: 1.5; }
+  .foot { margin: 24px 0 0; font-size: 14px; color: var(--ink-2); max-width: 62ch; line-height: 1.5; }
 
   /* detaļu logs */
   dialog { border: 0; border-radius: 16px; padding: 0; background: var(--surface); color: var(--ink);
@@ -233,15 +263,20 @@
     .cats::-webkit-scrollbar { display: none; }
     .cats button { flex: none; }
     .updated { order: 3; width: 100%; font-size: 13px; }
-    .best-btn { display: inline-block; }
     .lrow .lad { margin: 0 8px; }
     .tbl tr[data-key] td.op .tag { display: none; }
     .hero { padding: 20px 0 18px; gap: 12px; }
     .search { height: 52px; padding: 0 14px; }
     .frow { flex-wrap: wrap; }
     .flabel { width: 100%; }
-    #ops { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); width: 100%; }
-    #ops .chip { justify-content: center; padding: 0 6px; font-size: 14px; }
+    #ops { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); width: 100%; }
+    #ops .chip { justify-content: center; padding: 0 4px; font-size: 14px; gap: 5px; }
+    .chgcard { margin: 18px -8px 18px; }
+    .chgcard h1 { font-size: 40px; }
+    .ops4 { grid-template-columns: 1fr; }
+    .opcol { border-right: 0; padding: 14px 16px; }
+    .meband { padding: 10px 16px; }
+    .finder { padding-bottom: 18px; }
     .card { border-radius: 12px; margin: 0 -8px; }
     .card-head { padding: 14px 16px 12px; }
     .ttl h2 { font-size: 38px; }
@@ -288,6 +323,7 @@
   .tbl.mx td.op .p { font-size: 18px; font-weight: 600; }
   .tbl.mx td.op.wincell { background: color-mix(in srgb, var(--tag) 22%, transparent); }
   .score td { vertical-align: top; }
+  .score tr.me th, .score tr.me td { background: var(--sunk); }
   .score td .p { font-size: 18px; font-weight: 600; font-variant-numeric: tabular-nums; }
   .score td.barc { text-align: left; min-width: 260px; }
   .score thead th:nth-child(2) { text-align: left; }
@@ -351,21 +387,21 @@
   </header>
 
   <main id="shop">
-  <section class="hero">
-    <h1>Kur lētāk?</h1>
+  <p class="notice" id="notice" role="status" hidden></p>
+  <section class="card chgcard" id="chgcard" aria-labelledby="chgTitle" hidden></section>
+
+  <section class="finder" aria-label="Meklēšana un filtri">
     <label class="search">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" style="color:var(--ink-2)"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
       <span class="sr">Meklēt modeli</span>
       <input type="search" id="q" placeholder="Modelis vai kods, piemēram iPhone 17 vai OLED65C61" autocomplete="off">
     </label>
-    <div class="summary" id="stats"></div>
-  </section>
-
   <div class="filters">
     <div class="frow" id="sizesRow" hidden><span class="flabel">Diagonāle</span><div class="chips scroll" id="sizes" role="group" aria-label="Diagonāle"></div></div>
     <div class="frow"><span class="flabel">Ražotājs</span><div class="chips scroll" id="brands" role="group" aria-label="Ražotājs"></div></div>
-    <div class="frow"><span class="flabel">Tikai</span><div class="chips" id="ops" role="group" aria-label="Tikai viena operatora preces"></div><span class="hint" id="opHint"></span></div>
+    <div class="frow"><span class="flabel">Mans operators</span><div class="chips" id="ops" role="group" aria-label="Mans operators"></div><span class="hint" id="opHint"></span></div>
   </div>
+  </section>
 
   <section class="card" aria-labelledby="secTitle">
     <div class="card-head">
@@ -376,7 +412,8 @@
           <button type="button" data-view="table" aria-pressed="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="M3 10h18M9 5v14M15 5v14"/></svg>Tabula</button>
           <button type="button" data-view="list" aria-pressed="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13"/><circle cx="4" cy="6" r="1" fill="currentColor"/><circle cx="4" cy="12" r="1" fill="currentColor"/><circle cx="4" cy="18" r="1" fill="currentColor"/></svg>Saraksts</button>
         </div>
-        <label class="chk" id="chgWrap"><input type="checkbox" id="chg" checked> Izmaiņas 7 dienās</label>
+        <label class="chk" id="chgWrap"><input type="checkbox" id="chg" checked> Rādīt 7 dienu izmaiņas</label>
+        <label class="chk" id="onlyWrap" hidden><input type="checkbox" id="onlyMine"> <span id="onlyLbl">Tikai mana operatora</span></label>
         <label class="chk" id="multiWrap"><input type="checkbox" id="multi" checked> 2+ operatoros</label>
         <label class="chk"><input type="checkbox" id="sale"> Akcijas</label>
         <label class="sel">Kārtot
@@ -385,13 +422,15 @@
             <option value="price">pēc zemākās cenas</option>
             <option value="change">pēc lielākā krituma</option>
             <option value="name">pēc nosaukuma</option>
+            <option value="me" id="sortMe" hidden>kur mans operators dārgāks</option>
           </select>
         </label>
       </div>
     </div>
+    <div id="meband"></div>
     <div id="body"></div>
   </section>
-  <p class="foot">Cenas no bite.lv, tele2.lv, lmt.lv un tet.lv, atjaunotas divreiz dienā. Kāpnēs katram veikalam ir punkts uz līnijas: kreisajā galā lētākā cena, labajā dārgākā. Tukšais aplis ir cena pirms 7 dienām. Dzeltenā zīme ir lētākais veikals.</p>
+  <p class="foot">Cenas no bite.lv, tele2.lv, lmt.lv un tet.lv, atjaunotas darbdienu rītos. Kāpnēs katram veikalam ir punkts uz līnijas: kreisajā galā lētākā cena, labajā dārgākā. Tukšais aplis ir cena pirms 7 dienām. Dzeltenā zīme ir lētākais veikals.</p>
   </main>
   <main id="an" hidden></main>
 </div>
@@ -488,8 +527,13 @@ function parseCSV(text) {
   return body.filter(r => r.length === head.length).map(r => Object.fromEntries(head.map((h, i) => [h, r[i]])));
 }
 
-let ITEMS = [], HIST = {}, NOW = new Date(), META = null, VARIANTS = {},
-  state = { limit: PAGE, view: "ladder", cat: "telefoni", q: "", only: "", brand: "", diag: "", sale: false, multi: true, changes: true, sort: "diff" };
+let ITEMS = [], HIST = {}, NOW = new Date(), META = null, VARIANTS = {}, CATFIRST = {},
+  state = { limit: PAGE, view: "ladder", cat: "telefoni", q: "", me: "", onlyMine: false, brand: "", diag: "", sale: false, multi: true,
+    changes: true, sort: "diff", period: 7, open: {}, dlg: "", dlgVk: "", page: "", acat: "" };
+// "Mans operators" – katram skatītājam savs, glabājas pārlūkā
+const ME_KEY = "cenu-skeneris.me";
+try { const m = localStorage.getItem(ME_KEY); if (m && OPS[m]) state.me = m; } catch (e) {}
+const saveMe = () => { try { state.me ? localStorage.setItem(ME_KEY, state.me) : localStorage.removeItem(ME_KEY); } catch (e) {} };
 const onSale = p => p.disc > 0 || (p.monthly_old && p.monthly_old > p.monthly);
 
 async function load() {
@@ -504,7 +548,9 @@ async function load() {
 
   for (const r of csv ? parseCSV(csv) : []) {
     const key = `${r.operator}:${r.id}`;
-    (HIST[key] ||= []).push({ t: new Date(r.scanned_at), full: num(r.full), monthly: num(r.monthly) });
+    const t = new Date(r.scanned_at), ck = `${r.operator}/${r.category || "telefoni"}`;
+    (HIST[key] ||= []).push({ t, full: num(r.full), monthly: num(r.monthly) });
+    if (!CATFIRST[ck] || t < CATFIRST[ck]) CATFIRST[ck] = t;
   }
   for (const h of Object.values(HIST)) h.sort((a, b) => a.t - b.t);
 
@@ -529,6 +575,7 @@ async function load() {
   prepareTV();
 
   render();
+  if (state.dlg) openDetail(state.dlg, state.dlgVk, { fromUrl: true });
 }
 
 const BRAND_ALIAS = { redmi: "Xiaomi", poco: "Xiaomi", xiaomi: "Xiaomi", huami: "Amazfit", amazfit: "Amazfit", beats: "Beats" };
@@ -898,7 +945,7 @@ function allRows() {
 
 function filterRows(rows) {
   return rows.filter(r => (!state.multi || r.nOps > 1)
-    && (!state.only || r.prices[state.only])
+    && (!state.onlyMine || !state.me || r.prices[state.me])
     && (!state.sale || r.ops.some(op => r.prices[op].sale)));
 }
 
@@ -909,10 +956,31 @@ function sortRows(rows) {
     price: (a, b) => a.min - b.min || nm(a, b),
     change: (a, b) => a.drop - b.drop || (b.diff ?? -1) - (a.diff ?? -1) || nm(a, b),
     name: nm,
-  }[s] || nm;
+    me: (a, b) => (b.meg?.gap ?? -Infinity) - (a.meg?.gap ?? -Infinity) || nm(a, b),
+  }[s === "me" && !state.me ? "diff" : s] || nm;
   rows.sort((a, b) => (a.used - b.used) || (state.cat === "televizori" ? (a.diag || 999) - (b.diag || 999) : 0) || cmp(a, b));
   return rows;
 }
+
+/* ---------- Mans operators: salīdzinājums ar lētāko konkurentu tajā pašā variantā ---------- */
+function vkPrices(r) {
+  if (r._vk) return r._vk;
+  let byVk = {};
+  if (r.cat === "televizori") byVk = { [r.vk]: Object.fromEntries(Object.entries(r.prices).map(([o, x]) => [o, x.v])) };
+  else for (const s of skuRows({ category: r.cat, items: r.items })) { const m = (byVk[s.vk] ||= {}); m[s.op] = Math.min(m[s.op] ?? Infinity, s.full); }
+  return (r._vk = byVk);
+}
+// -> { vk, mine, best, gap, pct }: gap > 0 – mans operators dārgāks par lētāko konkurentu, gap < 0 – lētāks par nākamo
+function meGap(r, me = state.me) {
+  if (!me || !r.prices[me] || r.nOps < 2) return null;
+  const cands = Object.entries(vkPrices(r)).filter(([, m]) => m[me] != null && Object.keys(m).length > 1);
+  if (!cands.length) return null;
+  const [vk, m] = cands.find(([k]) => k === r.diffVk)
+    || cands.sort((a, b) => Object.keys(b[1]).length - Object.keys(a[1]).length || vkOrder(a[0]) - vkOrder(b[0]))[0];
+  const best = Math.min(...Object.entries(m).filter(([o]) => o !== me).map(([, v]) => v)), mine = m[me];
+  return { vk, mine, best, gap: mine - best, pct: (mine - best) / best * 100 };
+}
+const money = v => Math.abs(v) >= 10 ? eur0(Math.abs(v)) : eur(Math.abs(v));
 
 /* ---------- Kāpnes: viena līnija, punkts katram veikalam ---------- */
 const deltaTxt = d => (d < 0 ? "▼ " : "▲ ") + eur0(Math.abs(d)).replace(/^−/, "");
@@ -950,17 +1018,25 @@ function ladder(prices, { changes = false, me = "", winners = [] } = {}) {
   return `<div class="lad" style="height:${44 + tall * 19}px">${html}</div>`;
 }
 
+function meNote(r) {
+  const me = state.me;
+  if (!me) return null;
+  if (!r.prices[me]) return `${OPS[me]} šī modeļa nav`;
+  const g = r.meg ?? meGap(r);
+  if (!g) return null;
+  const vk = g.vk ? ` · ${esc(g.vk)}` : "";
+  if (Math.abs(g.gap) < 0.005) return `${OPS[me]} vienāds ar lētāko${vk}`;
+  return g.gap > 0 ? `${OPS[me]} dārgāks par ${money(g.gap)} (+${pct1(g.pct)})${vk}`
+    : `${OPS[me]} lētākais, par ${money(g.gap)} zem nākamā${vk}`;
+}
+
 function tagFor(r) {
-  const only = state.only;
+  const mn = meNote(r);
   if (r.nOps === 1) { const op = r.ops[0];
-    return { tag: `<span class="ptag solo"><span class="at">Tikai ${OPS[op]}</span><span class="v">${eur(r.min)}</span></span>`, note: "Citos veikalos nav" }; }
-  if (r.tie) return { tag: `<span class="ptag solo"><span class="at">Visur vienādi</span><span class="v">${eur(r.min)}</span></span>`, note: `${r.nOps} veikalos` };
+    return { tag: `<span class="ptag solo"><span class="at">Tikai ${OPS[op]}</span><span class="v">${eur(r.min)}</span></span>`, note: mn ?? "Citos veikalos nav" }; }
+  if (r.tie) return { tag: `<span class="ptag solo"><span class="at">Visur vienādi</span><span class="v">${eur(r.min)}</span></span>`, note: mn ?? `${r.nOps} veikalos` };
   const w = r.winners.map(op => OPS[op]).join(", ");
-  let note = r.diff ? `Ietaupi līdz ${r.diff >= 10 ? eur0(r.diff) : eur(r.diff)}${r.diffVk ? " (" + esc(r.diffVk) + ")" : ""}` : "";
-  if (only && r.prices[only]) {
-    const v = r.prices[only].v;
-    note = r.winners.includes(only) ? `${OPS[only]} ir lētākais` : `${OPS[only]} prasa ${eur(v)}, par ${eur0(v - r.min)} vairāk`;
-  }
+  const note = mn ?? (r.diff ? `Starpība ${money(r.diff)}${r.diffVk ? " (" + esc(r.diffVk) + ")" : ""}` : "");
   return { tag: `<span class="ptag"><span class="at">Lētāk ${esc(w)}</span><span class="v">${eur(r.min)}</span></span>`, note };
 }
 
@@ -976,7 +1052,7 @@ function ladderRow(r) {
   const t = tagFor(r);
   return `<div class="lrow" role="button" tabindex="0" data-key="${esc(r.key)}" data-vk="${esc(r.vk)}" aria-label="${esc(r.name)}: lētākā cena ${eur(r.min)}">
     ${rowMeta(r)}
-    ${ladder(r.prices, { changes: state.changes, me: state.only, winners: r.winners })}
+    ${ladder(r.prices, { changes: state.changes, me: state.me, winners: r.winners })}
     <div class="lt2">${t.tag}${t.note ? `<span class="note">${t.note}</span>` : ""}</div>
     ${t.note ? `<span class="mnote">${t.note}</span>` : ""}
     <span class="chev" aria-hidden="true">›</span>
@@ -989,7 +1065,7 @@ const secHead = (diag, n) => diag
 
 function tableRow(r, ops) {
   const cells = ops.map(op => {
-    const p = r.prices[op], me = op === state.only ? " me" : "";
+    const p = r.prices[op], me = op === state.me ? " me" : "";
     if (!p) return `<td class="op${me}" data-op="${OPS[op]}"><span class="na">–</span></td>`;
     const win = r.winners.includes(op);
     return `<td class="op${me}${win ? " wincell" : ""}" data-op="${OPS[op]}">${p.from ? '<span class="from">no</span>' : ""}<span class="p${win ? " win" : ""}">${eur(p.v)}</span>${p.sale ? '<span class="tag">akcija</span>' : ""}
@@ -1017,15 +1093,16 @@ function renderRows() {
     if (state.diag) rows = rows.filter(r => r.diag == state.diag);
   } else sizesRow.hidden = true;
 
+  rows.forEach(r => { r.meg = meGap(r); });
   sortRows(rows);
+  renderMeBand(rows);
   const total = rows.length, tv = state.cat === "televizori";
   const perDiag = {}; for (const r of rows) perDiag[r.diag] = (perDiag[r.diag] || 0) + 1;
   const shown = rows.slice(0, state.limit);
   const ttl = tv && state.diag ? `${state.diag}″ televizori` : state.cat ? CATS[state.cat] : "Visas preces";
-  const cheaperOnly = state.only ? rows.filter(r => r.winners.includes(state.only)).length : 0;
   document.getElementById("secTitle").textContent = ttl;
   document.getElementById("secSub").textContent = `${total} ${total === 1 ? "modelis" : "modeļi"}` +
-    (state.only ? ` ${OPS[state.only]} piedāvājumā · ${cheaperOnly} lētākie` : state.multi ? " vismaz 2 veikalos" : "");
+    (state.onlyMine && state.me ? ` ${OPS[state.me]} piedāvājumā` : "") + (state.multi ? " vismaz 2 veikalos" : "");
   const body = document.getElementById("body");
   if (!shown.length) { body.innerHTML = `<p class="empty">Nekas neatbilst. Notīri meklēšanu vai noņem kādu filtru.</p>`; return; }
 
@@ -1044,20 +1121,34 @@ function renderRows() {
       html += tableRow(r, ops);
     }
     body.innerHTML = `<table class="tbl"><thead><tr><th scope="col">Modelis</th>${ops.map(op =>
-      `<th scope="col" class="${op === state.only ? "me" : ""}"><span class="dot ${op}"></span>${OPS[op]}</th>`).join("")}<th scope="col">Starpība</th></tr></thead>
+      `<th scope="col" class="${op === state.me ? "me" : ""}"><span class="dot ${op}"></span>${OPS[op]}</th>`).join("")}<th scope="col">Starpība</th></tr></thead>
       <tbody>${html}</tbody></table>` + moreBtn(total);
   }
 }
 
+function renderMeBand(rows) {
+  const el = document.getElementById("meband"), me = state.me;
+  if (!me || state.view === "list") { el.innerHTML = ""; return; }
+  const gs = rows.map(r => r.meg).filter(Boolean);
+  const cheap = gs.filter(g => g.gap < -0.005).length, same = gs.filter(g => Math.abs(g.gap) < 0.005).length;
+  const dear = gs.filter(g => g.gap > 0.005), avg = dear.length ? dear.reduce((s, g) => s + g.pct, 0) / dear.length : null;
+  const missing = rows.filter(r => !r.prices[me]).length;
+  el.innerHTML = `<div class="meband"><span class="who"><span class="dot ${me}"></span>${OPS[me]}</span>
+    <span>lētākais <b>${cheap}</b></span><span>vienāds <b>${same}</b></span>
+    <span>dārgāks <b>${dear.length}</b>${avg != null ? `, vidēji +${pct1(avg)}` : ""}</span>
+    ${missing ? `<span>nav <b>${missing}</b> modeļos, kas ir citiem</span>` : ""}</div>`;
+}
+
 function renderList() {
   document.getElementById("sizesRow").hidden = true;
-  let list = ITEMS.filter(p => baseFilter(p) && (!state.only || p.operator === state.only) && (!state.sale || onSale(p)));
+  renderMeBand([]);
+  let list = ITEMS.filter(p => baseFilter(p) && (!state.onlyMine || !state.me || p.operator === state.me) && (!state.sale || onSale(p)));
   const nm = (a, b) => a.name.localeCompare(b.name, "lv") || a.operator.localeCompare(b.operator);
   list.sort((a, b) => (isUsed(a) - isUsed(b)) || (state.sort === "price" ? (a.full ?? Infinity) - (b.full ?? Infinity)
     : state.sort === "diff" ? (b.disc ?? -1) - (a.disc ?? -1) || nm(a, b) : nm(a, b)));
   const total = list.length;
   document.getElementById("secTitle").textContent = state.cat ? CATS[state.cat] : "Visas preces";
-  document.getElementById("secSub").textContent = `${total} preces${state.only ? " " + OPS[state.only] : " visos veikalos"}, katra atsevišķi`;
+  document.getElementById("secSub").textContent = `${total} preces${state.onlyMine && state.me ? " " + OPS[state.me] : " visos veikalos"}, katra atsevišķi`;
   list = list.slice(0, state.limit);
   const body = document.getElementById("body");
   if (!list.length) { body.innerHTML = `<p class="empty">Nekas neatbilst. Notīri meklēšanu vai noņem kādu filtru.</p>`; return; }
@@ -1158,7 +1249,7 @@ function renderAnalysis() {
   const score = `<table class="tbl score"><thead><tr><th scope="col">Operators</th><th scope="col">Lētākais</th><th scope="col">Vidēji dārgāks par lētāko</th>
     <th scope="col">Salīdzināmi</th><th scope="col">Akcijās</th><th scope="col">7 dienās</th></tr></thead><tbody>` +
     ranked.map(op => { const s = st[op], x = extra[op];
-      return `<tr><th scope="row"><span class="opn"><span class="dot ${op}"></span>${OPS[op]}</span></th>
+      return `<tr${op === state.me ? ' class="me"' : ""}><th scope="row"><span class="opn"><span class="dot ${op}"></span>${OPS[op]}</span></th>
         <td class="barc"><span class="big num">${pct(s.share)}</span><span class="bar"><i style="width:${(s.share || 0) / maxShare * 100}%;background:var(--${op})"></i></span>
           <span class="m">${s.win} no ${s.n} modeļiem${s.solo < s.win ? `, ${s.solo} vienīgais lētākais` : ""}</span></td>
         <td><span class="p">${s.n ? "+" + pct1(s.prem) : "–"}</span><span class="m">vidēji pret lētāko</span></td>
@@ -1181,7 +1272,8 @@ function renderAnalysis() {
   // 4. divi pret divi
   const pairs = [];
   for (let i = 0; i < ops.length; i++) for (let j = i + 1; j < ops.length; j++) pairs.push([ops[i], ops[j]]);
-  pairs.sort((x, y) => (x.join() === "bite,tele2" ? -1 : 0) - (y.join() === "bite,tele2" ? -1 : 0));
+  const pairRank = x => state.me ? (x.includes(state.me) ? 0 : 1) : (x.join() === "bite,tele2" ? 0 : 1);
+  pairs.sort((x, y) => pairRank(x) - pairRank(y));
   const duel = pairs.map(([a, b]) => {
     const com = units.filter(u => u.prices[a] != null && u.prices[b] != null);
     if (!com.length) return "";
@@ -1221,7 +1313,7 @@ function renderAnalysis() {
     <section class="hero">
       <h1>Kurš lētāks?</h1>
       <p class="lead">${units.length
-        ? `Salīdzināti <b>${units.length}</b> modeļi, kas ir pieejami vismaz divos veikalos, vienā un tajā pašā variantā (${scopeName}). Visbiežāk lētākais ir <b>${OPS[lead]}</b>: ${pct(st[lead].share)} no modeļiem, ko tas piedāvā.${cheapPrem && cheapPrem !== lead ? ` Vismazāk pārmaksāsi pie <b>${OPS[cheapPrem]}</b> – vidēji +${pct1(st[cheapPrem].prem)} pret lētāko.` : ""}`
+        ? `Salīdzināti <b>${units.length}</b> modeļi, kas ir pieejami vismaz divos veikalos, vienā un tajā pašā variantā (${scopeName}). Visbiežāk lētākais ir <b>${OPS[lead]}</b>: ${pct(st[lead].share)} no modeļiem, ko tas piedāvā.${cheapPrem && cheapPrem !== lead ? ` Mazākā vidējā piemaksa pret lētāko ir <b>${OPS[cheapPrem]}</b>: +${pct1(st[cheapPrem].prem)}.` : ""}${state.me && st[state.me]?.n && state.me !== lead ? ` <b>${OPS[state.me]}</b>: lētākais ${pct(st[state.me].share)} modeļu, vidēji +${pct1(st[state.me].prem)} pret lētāko.` : ""}`
         : "Šajā kategorijā vēl nav modeļu, kas būtu vairākos veikalos."}</p>
       <div class="frow"><span class="flabel">Kategorija</span><div class="chips scroll" id="acats" role="group" aria-label="Kategorija">
         <button type="button" class="chip" data-acat="" aria-pressed="${!scope}">Visas</button>${cats.map(c =>
@@ -1231,7 +1323,7 @@ function renderAnalysis() {
     ${units.length ? byCat : ""}
     ${units.length ? byBrand : ""}
     ${duel ? panel("Divi pret divi", "Tikai modeļi, kas ir abos veikalos. Joslas krāsa – kurš lētāks.", `<div class="duels">${duel}</div>`) : ""}
-    ${units.length ? panel("Kur lielākais ietaupījums", "Modeļi, kur operators ir vienīgais lētākais, un par cik lētāks nekā nākamais veikals. Uzspied, lai salīdzinātu.", `<div class="saves">${saves}</div>`) : ""}
+    ${units.length ? panel("Kur operators ir vienīgais lētākais", "Modeļi, kur operators ir vienīgais lētākais, un par cik lētāks nekā nākamais veikals. Uzspied, lai salīdzinātu.", `<div class="saves">${saves}</div>`) : ""}
     ${panel("Sortiments", "Cik dažādus modeļus piedāvā katrs operators un cik no tiem nav nevienā citā veikalā.", assort)}
     <p class="foot">Analīze balstās uz pēdējās skenēšanas cenām (${esc(fmtDT(NOW))}). Pilnā cena bez līguma; mēneša maksājumi nav ņemti vērā. Lietotas un izpakotas preces nav iekļautas.</p>`;
 }
@@ -1240,7 +1332,7 @@ const panel = (title, sub, body, cls = "") => `<section class="card panel ${cls}
 
 document.getElementById("an").addEventListener("click", e => {
   const c = e.target.closest("[data-acat]");
-  if (c) { state.acat = c.dataset.acat; renderAnalysis(); return; }
+  if (c) { state.acat = c.dataset.acat; renderAnalysis(); writeHash(); return; }
   const l = e.target.closest("[data-key]");
   if (l) openDetail(l.dataset.key, l.dataset.vk);
 });
@@ -1258,23 +1350,101 @@ function renderHeader() {
     `<button type="button" role="tab" class="an-tab" data-page="an" aria-selected="${!shop}">Analīze</button>`;
   if (!shop) return;
 
-  const inCat = ITEMS.filter(p => !state.cat || p.category === state.cat);
-  const rows = state.cat === "televizori" ? tvRows(inCat).map(rowFromTv) : buildGroups(inCat).map(rowFromGroup);
-  const multi = rows.filter(r => r.nOps > 1);
-  const best = multi.reduce((m, r) => (r.diff || 0) > (m?.diff || 0) ? r : m, null);
-  const moved = multi.filter(r => r.changed).length;
-  document.getElementById("stats").innerHTML =
-    (best?.diff ? `<button type="button" class="best-btn" data-key="${esc(best.key)}" data-vk="${esc(best.diffVk)}">Lielākā starpība <b>${eur0(best.diff)}</b> ${esc(best.brand)} ${esc(best.title)}${best.diffVk ? " " + esc(best.diffVk) : ""}</button>` : "") +
-    `<span><b>${multi.length}</b> modeļi salīdzināmi vairākos veikalos · <b>${moved}</b> cenas mainījušās 7 dienās · <b>${inCat.filter(onSale).length}</b> akcijās</span>`;
-
   const ops = opsAll();
-  document.getElementById("ops").innerHTML = ops.map(op =>
-    `<label class="chip opchk"><input type="checkbox" value="${op}" ${state.only === op ? "checked" : ""}><span class="dot ${op}"></span>${OPS[op]}</label>`).join("");
-  document.getElementById("opHint").textContent = state.only ? "" : narrow() ? "" : "Atzīmē, lai redzētu tikai viena veikala preces";
+  document.getElementById("ops").innerHTML = `<button type="button" class="chip" data-me="" aria-pressed="${!state.me}">Neviens</button>` +
+    ops.map(op => `<button type="button" class="chip" data-me="${op}" aria-pressed="${state.me === op}"><span class="dot ${op}"></span>${OPS[op]}</button>`).join("");
+  document.getElementById("opHint").textContent = narrow() ? "" : state.me ? `${OPS[state.me]} izcelts izmaiņās un salīdzinājumos` : "Izvēlies, lai salīdzinātu ar konkurentiem";
+  renderChanges();
+}
+
+/* ---------- Izmaiņas: kas mainījās pa operatoriem ---------- */
+const PERIODS = [[1, "Pēdējā diena"], [7, "7 dienas"], [30, "30 dienas"]];
+const dayStart = d => { const x = new Date(d); x.setHours(0, 0, 0, 0); return +x; };
+const fmtDay = d => new Date(d).toLocaleDateString("lv-LV", { day: "2-digit", month: "2-digit" }).replace(/\.?$/, ".");
+const periodFrom = () => state.period === 1 ? dayStart(NOW) : +NOW - state.period * 864e5;
+
+function changeLog() {
+  const from = periodFrom(), inCat = c => !state.cat || c === state.cat, seen = new Set(), ev = [];
+  const add = (sig, e) => { if (!seen.has(sig)) { seen.add(sig); ev.push(e); } };
+  for (const p of ITEMS) {
+    if (!inCat(p.category) || isUsed(p)) continue;
+    const vk = variantKey(p.model, p.category), first = CATFIRST[`${p.operator}/${p.category}`];
+    // jauns: parādījās pēc tam, kad šī operatora kategorija jau tika skenēta
+    if (p.since && +p.since >= from && first && +p.since - first > 36e5) {
+      add(`n|${p.operator}|${p.mk}|${vk}`, { op: p.operator, kind: "new", key: p.key, vk, name: p.name, cat: p.category, b: p.full, t: p.since });
+      continue;
+    }
+    if (p.full == null) continue;
+    // bāze: cena perioda sākumā; ja vēsture sākas vēlāk – pirmā zināmā cena
+    const h = (HIST[p.key] || []).filter(e => e.full != null);
+    if (!h.length) continue;
+    let before = h[0].full, t = null;
+    for (const e of h) { if (+e.t < from) before = e.full; else if (e.full !== before) t = e.t; }
+    if (before === p.full) continue;
+    add(`c|${p.operator}|${p.mk}|${vk}|${before}|${p.full}`,
+      { op: p.operator, kind: p.full < before ? "down" : "up", key: p.key, vk, name: p.name, cat: p.category, a: before, b: p.full, t: t || NOW });
+  }
+  const live = new Set(ITEMS.map(p => p.key));
+  for (const [key, g] of Object.entries(META?.gone || {})) {
+    const t = new Date(g.removed_at);
+    if (live.has(key) || !inCat(g.category) || +t < from || !OPS[g.operator]) continue;
+    const name = `${g.brand || ""} ${g.model || ""}`.trim();
+    add(`g|${g.operator}|${name}`, { op: g.operator, kind: "gone", name, cat: g.category, a: g.full, t });
+  }
+  return ev;
+}
+
+const KIND_ORDER = { down: 0, new: 1, up: 2, gone: 3 };
+// nosaukums bez atmiņas un krāsas, ja variants jau parādīts atsevišķi
+const COLOR_I = new RegExp(COLOR_RE.source, "gi");
+const evName = e => !e.vk ? e.name : e.name.replace(/\(.*?\)/g, " ").replace(/\b\d+\s?[\/+]\s?\d+\s?(GB|TB)\b/gi, " ")
+  .replace(/\b\d+\s?(GB|TB)\b/gi, " ").replace(/\b\d{2}\s?mm\b/gi, " ").replace(COLOR_I, " ").replace(/\s+/g, " ").trim() || e.name;
+function evRow(e) {
+  const nm = `${esc(evName(e))}${e.vk ? ` <span class="evk">${esc(e.vk)}</span>` : ""}`;
+  const sub = `<span class="es">${state.cat ? "" : esc(CATS[e.cat] || "") + " · "}${fmtDay(e.t)}</span>`;
+  if (e.kind === "gone")
+    return `<li><div class="ev gone"><span class="en">${nm}</span><span class="ep">${e.a != null ? eur(e.a) : ""}</span>${sub}<span class="ed"><span class="kind gone">pazudis</span></span></div></li>`;
+  const ed = e.kind === "new" ? `<span class="kind new">jauns</span>`
+    : `<span class="${e.kind === "down" ? "dn" : "upc"}">${deltaTxt(e.b - e.a)}</span> <span class="was">no ${eur(e.a)}</span>`;
+  const label = e.kind === "new" ? "jauns modelis" : e.kind === "down" ? `lētāk, bija ${eur(e.a)}` : `dārgāk, bija ${eur(e.a)}`;
+  return `<li><button type="button" class="ev" data-key="${esc(e.key)}" data-vk="${esc(e.vk)}" aria-label="${esc(OPS[e.op])}: ${esc(e.name)} ${esc(e.vk)}, ${eur(e.b)}, ${label}">
+    <span class="en">${nm}</span><span class="ep">${eur(e.b)}</span>${sub}<span class="ed">${ed}</span></button></li>`;
+}
+
+function renderChanges() {
+  const el = document.getElementById("chgcard");
+  if (!ITEMS.length) { el.hidden = true; return; }
+  el.hidden = false;
+  const ev = changeLog(), from = periodFrom();
+  const ops = opsAll().sort((a, b) => (b === state.me) - (a === state.me));
+  const histStart = Math.min(...Object.values(CATFIRST).map(Number));
+  const span = state.period === 1 ? `pēdējās skenēšanas dienā, ${fmtDay(NOW)}` : `pēdējās ${state.period} dienās`;
+  const short = isFinite(histStart) && histStart > from ? ` (vēsture sākas ${fmtDay(histStart)})` : "";
+  const lim = narrow() ? 3 : 5;
+  const cols = ops.map(op => {
+    const list = ev.filter(e => e.op === op).sort((a, b) => KIND_ORDER[a.kind] - KIND_ORDER[b.kind]
+      || Math.abs((b.b ?? 0) - (b.a ?? 0)) - Math.abs((a.b ?? 0) - (a.a ?? 0)) || a.name.localeCompare(b.name, "lv"));
+    const n = k => list.filter(e => e.kind === k).length;
+    const sum = [[n("down"), "lētāk"], [n("up"), "dārgāk"], [n("new"), n("new") === 1 ? "jauns" : "jauni"], [n("gone"), n("gone") === 1 ? "pazudis" : "pazuduši"]]
+      .filter(([c]) => c).map(([c, w]) => `<span><b>${c}</b> ${w}</span>`).join("");
+    const shown = state.open[op] ? list : list.slice(0, lim);
+    return `<div class="opcol${op === state.me ? " me" : ""}">
+      <h3 class="oph"><span class="dot ${op}"></span>${OPS[op]}${op === state.me ? '<span class="mine">mans</span>' : ""}</h3>
+      ${list.length ? `<p class="opsum">${sum}</p><ul class="evs">${shown.map(evRow).join("")}</ul>
+        ${list.length > lim ? `<button type="button" class="evmore" data-op="${op}" aria-expanded="${!!state.open[op]}">${state.open[op] ? "Rādīt mazāk" : `Rādīt visas ${list.length}`}</button>` : ""}`
+        : `<p class="quiet">Bez izmaiņām</p>`}
+    </div>`;
+  }).join("");
+  el.innerHTML = `<div class="card-head">
+      <div class="ttl"><h1 id="chgTitle">Cenu izmaiņas</h1><p>${state.cat ? CATS[state.cat] : "Visas kategorijas"} · ${span}${short} · ${ev.length} ${ev.length === 1 ? "izmaiņa" : "izmaiņas"}</p></div>
+      <div class="seg" id="periods" role="group" aria-label="Periods">${PERIODS.map(([d, l]) =>
+        `<button type="button" data-period="${d}" aria-pressed="${state.period === d}">${l}</button>`).join("")}</div>
+    </div>
+    <div class="ops4">${cols}</div>`;
 }
 
 function renderBrands() {
-  const pool = ITEMS.filter(p => baseFilter(p, true) && (!state.only || p.operator === state.only));
+  const pool = ITEMS.filter(p => baseFilter(p, true) && (!(state.onlyMine && state.me) || p.operator === state.me));
   const n = {};
   for (const p of pool) n[p.brandN] = (n[p.brandN] || 0) + 1;
   const list = Object.entries(n).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
@@ -1286,25 +1456,45 @@ function renderBrands() {
 
 let lastSig = "";
 function render() {
-  const sig = JSON.stringify([state.view, state.cat, state.q, state.only, state.brand, state.diag, state.sale, state.multi, state.sort]);
+  const sig = JSON.stringify([state.view, state.cat, state.q, state.me, state.onlyMine, state.brand, state.diag, state.sale, state.multi, state.sort]);
   if (sig !== lastSig) { state.limit = PAGE; lastSig = sig; }
   renderHeader();
   document.getElementById("shop").hidden = state.page === "an";
   document.getElementById("an").hidden = state.page !== "an";
+  writeHash();
   if (state.page === "an") { renderAnalysis(); return; }
   renderBrands();
   document.querySelectorAll("#views button").forEach(b => b.setAttribute("aria-pressed", b.dataset.view === state.view));
   document.getElementById("multiWrap").hidden = state.view === "list";
   document.getElementById("chgWrap").hidden = state.view === "list";
-  document.getElementById("sort").value = state.sort;
+  const sm = document.getElementById("sortMe");
+  sm.hidden = sm.disabled = !state.me; sm.textContent = state.me ? `kur ${OPS[state.me]} dārgāks` : "";
+  document.getElementById("sort").value = state.sort === "me" && !state.me ? "diff" : state.sort;
+  document.getElementById("onlyWrap").hidden = !state.me;
+  document.getElementById("onlyLbl").textContent = state.me ? `Tikai ${OPS[state.me]} modeļi` : "";
+  document.getElementById("onlyMine").checked = state.onlyMine;
+  document.getElementById("chg").checked = state.changes;
+  document.getElementById("multi").checked = state.multi;
+  document.getElementById("sale").checked = state.sale;
+  const qi = document.getElementById("q"); if (qi.value !== state.q) qi.value = state.q;
   state.view === "list" ? renderList() : renderRows();
 }
 
 /* ---------- Detaļu logs ---------- */
 let DLG = null;
-function openDetail(key, focusVk) {
+function openDetail(key, focusVk, { fromUrl = false } = {}) {
   const p = ITEMS.find(x => x.key === key);
-  if (!p) return;
+  if (!p) {
+    if (fromUrl) {
+      state.dlg = state.dlgVk = ""; writeHash();
+      const n = document.getElementById("notice");
+      n.textContent = "Saitē norādītais modelis šobrīd nav pieejams nevienā veikalā. Zemāk – visas pašreizējās cenas.";
+      n.hidden = false;
+    }
+    return;
+  }
+  state.dlg = key; state.dlgVk = focusVk || "";
+  if (!fromUrl) { writeHash(true); dlgPushed = true; }
   const [g] = buildGroups(ITEMS.filter(x => x.mk === p.mk));
   const ops = Object.keys(OPS).filter(op => g.byOp[op]);
   const tv = g.category === "televizori";
@@ -1345,7 +1535,7 @@ function openDetail(key, focusVk) {
           `<button type="button" data-p="${d}" aria-pressed="${d === 30}">${l}</button>`).join("")}</div></div>
       <div id="histBox" style="margin-top:12px"></div>
     </section>`;
-  dlg.showModal();
+  if (!dlg.open) dlg.showModal();
   drawHistory();
 }
 
@@ -1386,8 +1576,66 @@ function drawHistory() {
   if (moved) drawChart(document.getElementById("chart"), series);
 }
 
+/* ---------- Stāvoklis adresē: kategorija, filtri, atvērtais modelis (saites no Telegram) ---------- */
+const DEF = { cat: "telefoni", view: "ladder", sort: "diff", period: 7 };
+let dlgPushed = false;
+function writeHash(push = false) {
+  const p = new URLSearchParams();
+  if (state.page === "an") { p.set("analize", ""); if (state.acat) p.set("ak", state.acat); }
+  else {
+    if (state.cat !== DEF.cat) p.set("k", state.cat || "visi");
+    if (state.q) p.set("q", state.q);
+    if (state.brand) p.set("r", state.brand);
+    if (state.diag) p.set("d", state.diag);
+    if (state.view !== DEF.view) p.set("v", state.view);
+    if (state.sort !== DEF.sort) p.set("s", state.sort);
+    if (!state.multi) p.set("m", "0");
+    if (!state.changes) p.set("c", "0");
+    if (state.sale) p.set("a", "1");
+    if (state.onlyMine) p.set("t", "1");
+    if (state.period !== DEF.period) p.set("p", state.period);
+  }
+  if (state.dlg) { p.set("dlg", state.dlg); if (state.dlgVk) p.set("vk", state.dlgVk); }
+  const h = p.toString().replace(/=(?=&|$)/g, "");
+  const url = location.pathname + location.search + (h ? "#" + h : "");
+  if (url !== location.pathname + location.search + location.hash) history[push ? "pushState" : "replaceState"](null, "", url);
+}
+function readHash() {
+  const p = new URLSearchParams(location.hash.slice(1)), k = p.get("k");
+  state.page = p.has("analize") ? "an" : "";
+  state.acat = p.get("ak") || "";
+  state.cat = k == null ? DEF.cat : k === "visi" ? "" : k;
+  state.q = p.get("q") || ""; state.brand = p.get("r") || ""; state.diag = p.get("d") || "";
+  state.view = ["ladder", "table", "list"].includes(p.get("v")) ? p.get("v") : DEF.view;
+  state.sort = p.get("s") || DEF.sort;
+  state.multi = p.get("m") !== "0"; state.changes = p.get("c") !== "0";
+  state.sale = p.get("a") === "1"; state.onlyMine = p.get("t") === "1";
+  state.period = [1, 7, 30].includes(+p.get("p")) ? +p.get("p") : DEF.period;
+  state.dlg = p.get("dlg") || ""; state.dlgVk = p.get("vk") || "";
+}
+window.addEventListener("popstate", () => {
+  readHash(); dlgPushed = false;
+  if (!ITEMS.length) return;
+  render();
+  if (state.dlg) openDetail(state.dlg, state.dlgVk, { fromUrl: true });
+  else if (dlg.open) dlg.close();
+});
+
 /* ---------- Notikumi ---------- */
 const dlg = document.getElementById("dlg");
+dlg.addEventListener("close", () => {
+  if (!state.dlg) return;
+  state.dlg = state.dlgVk = "";
+  if (dlgPushed) { dlgPushed = false; history.back(); } else writeHash();
+});
+document.getElementById("chgcard").addEventListener("click", e => {
+  const per = e.target.closest("[data-period]");
+  if (per) { state.period = +per.dataset.period; renderChanges(); writeHash(); return; }
+  const more = e.target.closest(".evmore");
+  if (more) { state.open[more.dataset.op] = !state.open[more.dataset.op]; renderChanges(); return; }
+  const ev = e.target.closest("[data-key]");
+  if (ev) openDetail(ev.dataset.key, ev.dataset.vk);
+});
 dlg.addEventListener("click", e => {
   if (e.target === dlg || e.target.closest("[data-close]")) { dlg.close(); return; }
   const b = e.target.closest("#period button");
@@ -1395,8 +1643,8 @@ dlg.addEventListener("click", e => {
 });
 document.getElementById("cats").addEventListener("click", e => {
   const b = e.target.closest("button"); if (!b) return;
-  if (b.dataset.page) { state.page = "an"; history.replaceState(null, "", "#analize"); render(); window.scrollTo(0, 0); return; }
-  if (state.page === "an") { state.page = ""; history.replaceState(null, "", location.pathname + location.search); }
+  if (b.dataset.page) { state.page = "an"; render(); window.scrollTo(0, 0); return; }
+  state.page = "";
   state.cat = b.dataset.cat; state.brand = ""; state.diag = ""; render();
 });
 document.getElementById("q").addEventListener("input", e => { state.q = e.target.value; render(); });
@@ -1404,10 +1652,15 @@ document.getElementById("sale").addEventListener("change", e => { state.sale = e
 document.getElementById("multi").addEventListener("change", e => { state.multi = e.target.checked; render(); });
 document.getElementById("chg").addEventListener("change", e => { state.changes = e.target.checked; render(); });
 document.getElementById("sort").addEventListener("change", e => { state.sort = e.target.value; render(); });
-document.getElementById("ops").addEventListener("change", e => {
-  const c = e.target.closest("input"); if (!c) return;
-  state.only = c.checked ? c.value : ""; render();
+document.getElementById("ops").addEventListener("click", e => {
+  const b = e.target.closest("[data-me]"); if (!b) return;
+  const was = state.me;
+  state.me = b.dataset.me;
+  if (state.me && !was && state.sort === "diff") state.sort = "me";
+  if (!state.me) { state.onlyMine = false; if (state.sort === "me") state.sort = "diff"; }
+  saveMe(); render();
 });
+document.getElementById("onlyMine").addEventListener("change", e => { state.onlyMine = e.target.checked; render(); });
 document.getElementById("views").addEventListener("click", e => {
   const b = e.target.closest("button"); if (!b) return;
   state.view = b.dataset.view; render();
@@ -1429,14 +1682,13 @@ bodyEl.addEventListener("keydown", e => {
   if (e.key !== "Enter" && e.key !== " ") return;
   const r = e.target.closest("[data-key]"); if (r) { e.preventDefault(); openDetail(r.dataset.key, r.dataset.vk); }
 });
-document.getElementById("stats").addEventListener("click", e => { const b = e.target.closest(".best-btn"); if (b) openDetail(b.dataset.key, b.dataset.vk); });
 let wasNarrow = narrow();
 window.addEventListener("resize", () => {
   if (narrow() !== wasNarrow) { wasNarrow = narrow(); if (ITEMS.length) render(); }
   if (dlg.open && document.getElementById("chart")) drawHistory();
 });
 
-if (location.hash === "#analize") state.page = "an";
+readHash();
 load().catch(err => { document.getElementById("sub").textContent = "Neizdevās ielādēt datus: " + err.message; });
 </script>
 </body>

@@ -16,7 +16,9 @@ import os
 import re
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+from html import escape
+from urllib.parse import quote
 from pathlib import Path
 
 import requests
@@ -523,6 +525,24 @@ def eur(v):
     return "–" if v is None else f"{v:.2f} €".replace(".", ",")
 
 
+# Lapas adrese saitēm Telegram ziņās: PAGES_URL vai GitHub Pages adrese no GITHUB_REPOSITORY (GitHub Actions to iestata pats)
+def page_url():
+    url = os.getenv("PAGES_URL", "").strip()
+    if not url and "/" in os.getenv("GITHUB_REPOSITORY", ""):
+        owner, repo = os.getenv("GITHUB_REPOSITORY").split("/", 1)
+        url = f"https://{owner.lower()}.github.io/{repo}/"
+    return url
+
+
+def link(text, key=None):
+    """Ziņas teksts HTML formā: modeļa nosaukums kā saite uz tā logu lapā."""
+    url = page_url()
+    if not url:
+        return escape(text)
+    href = url + ("#dlg=" + quote(key, safe="") if key else "")
+    return f'<a href="{escape(href)}">{escape(text)}</a>'
+
+
 def diff(old, new, scanned):
     """scanned – (operators, kategorija) pāri, kas šoreiz noskenēti veiksmīgi."""
     msgs = []
@@ -530,7 +550,7 @@ def diff(old, new, scanned):
     known = {(o["operator"], o.get("category", "telefoni")) for o in old.values()}
     first = {}
     for key, p in new.items():
-        name = label(p)
+        name = link(label(p), key)
         o = old.get(key)
         if o is None and (p["operator"], p["category"]) not in known:
             first[(p["operator"], p["category"])] = first.get((p["operator"], p["category"]), 0) + 1
@@ -546,9 +566,9 @@ def diff(old, new, scanned):
             msgs.append(f"{arrow} {name}: {eur(o['monthly'])}/mēn. → {eur(p['monthly'])}/mēn.")
     for key, o in old.items():
         if key not in new and (o["operator"], o.get("category", "telefoni")) in scanned:
-            msgs.append(f"❌ Vairs nav: {label(o)}")
+            msgs.append(f"❌ Vairs nav: {escape(label(o))}")
     for (op, cat), n in first.items():
-        msgs.insert(0, f"🆕 Jauna kategorija {op.upper()} {CATEGORIES.get(cat, cat)}: {n} produkti")
+        msgs.insert(0, escape(f"🆕 Jauna kategorija {op.upper()} {CATEGORIES.get(cat, cat)}: {n} produkti"))
     return msgs
 
 
@@ -561,10 +581,19 @@ def telegram(text):
     if not (token and chat):
         print(text)
         return
-    for i in range(0, len(text), 4000):  # Telegram limits 4096 zīmes vienā ziņā
+    # Telegram limits 4096 zīmes vienā ziņā; dala pa rindām, lai nesadalītu HTML saiti
+    parts, cur = [], ""
+    for line in text.split("\n"):
+        if cur and len(cur) + len(line) + 1 > 4000:
+            parts.append(cur)
+            cur = ""
+        cur += ("\n" if cur else "") + line[:4000]
+    if cur:
+        parts.append(cur)
+    for part in parts:
         requests.post(
             f"https://api.telegram.org/bot{token}/sendMessage",
-            data={"chat_id": chat, "text": text[i:i + 4000], "disable_web_page_preview": True},
+            data={"chat_id": chat, "text": part, "parse_mode": "HTML", "disable_web_page_preview": True},
             timeout=20,
         )
 
@@ -647,6 +676,13 @@ def main():
     updated = old_meta.get("updated", {})
     updated.update({f"{op}/{cat}": now for op, cat in scanned})
     old_errors = [e for e in old_meta.get("errors", []) if only and e.split("/")[0] not in only]
+    # pazudušās preces (lapas sadaļai "Izmaiņas"): glabā 60 dienas; ja prece atgriežas, izņem
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=60)).isoformat(timespec="seconds")
+    gone = {k: v for k, v in old_meta.get("gone", {}).items() if k not in new and v.get("removed_at", "") >= cutoff}
+    for key, o in old.items():
+        if key not in new and (o["operator"], o.get("category", "telefoni")) in scanned:
+            gone[key] = {"removed_at": now, "operator": o["operator"], "category": o.get("category", "telefoni"),
+                         "brand": o.get("brand"), "model": o.get("model"), "full": o.get("full")}
     META.write_text(json.dumps({
         "scanned_at": now,
         "updated": updated,
@@ -654,13 +690,15 @@ def main():
                    for op, cat, _ in SOURCES},
         "errors": old_errors + errors,
         "variant_errors": VARIANT_ERRORS[:5],
+        "gone": gone,
     }, ensure_ascii=False, indent=1), "utf-8")
 
     msgs = diff(old, new, scanned) if old else []
     if errors:
-        msgs.insert(0, "⚠️ Kļūdas: " + "; ".join(errors))
+        msgs.insert(0, escape("⚠️ Kļūdas: " + "; ".join(errors)))
     if msgs:
-        telegram("📱 Cenu izmaiņas\n\n" + "\n".join(msgs))
+        head = "📱 " + (link("Cenu izmaiņas", "") if page_url() else "Cenu izmaiņas")
+        telegram(head + "\n\n" + "\n".join(msgs))
     else:
         print("Izmaiņu nav.")
 

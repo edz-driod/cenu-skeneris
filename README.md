@@ -69,6 +69,15 @@ pilno cenu, veco pilno cenu, saiti.
 5. **Pirmā palaišana:** *Actions → Cenu skenēšana → Run workflow*.
    Pirmajā reizē tiek tikai saglabātas cenas. Paziņojumi nāks no nākamās reizes.
 
+## Lapa: izmaiņas, mans operators, saites
+
+- **Cenu izmaiņas** lapas augšā: katram operatoram cenu kritumi un kāpumi, jauni un pazuduši modeļi par pēdējo dienu, 7 vai 30 dienām.
+  Pazudušos skeneris pieraksta `data/meta.json` laukā `gone` (glabā 60 dienas).
+- **Mans operators**: izvēlētais operators tiek izcelts un salīdzināts ar lētāko konkurentu tajā pašā variantā.
+  Izvēle glabājas pārlūkā, tāpēc katrs skatītājs var izvēlēties savu.
+- **Saites**: kategorija, filtri un atvērtais modelis ir adresē (piem. `#dlg=bite%3A23413`), tāpēc saiti var nosūtīt, un poga "Atpakaļ" aizver logu.
+  Telegram ziņās modeļu nosaukumi ved tieši uz to logu. GitHub Actions adresi nosaka pats; palaižot datorā, to var iestatīt ar `PAGES_URL`.
+
 ## Precīzie varianti (SKU)
 
 Bite un LMT saraksta lapās katram modelim ir tikai cena “no”. Tāpēc skeneris papildus atver
