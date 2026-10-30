@@ -368,6 +368,8 @@ SPEAKER_WORDS = re.compile(
 # Tele2 un Tet katrs variants jau ir atsevišķa prece sarakstā, tāpēc tiem tas nav vajadzīgs.
 VARIANTS = DATA / "variants.json"
 VARIANT_CATEGORIES = {"telefoni", "pulksteni"}
+# LMT televizoriem katra sērija ir viena lapa ar visiem izmēriem (katram savs ražotāja kods un cena)
+VARIANT_CATEGORIES_BY_OP = {"bite": VARIANT_CATEGORIES, "lmt": VARIANT_CATEGORIES | {"televizori"}}
 VARIANT_DELAY = 0.8
 VARIANT_ERRORS = []
 BITE_VARIANT_ATTRS = ("capacity", "size_mm", "connectivity")  # krāsas neskenē – cena parasti tā pati
@@ -476,7 +478,7 @@ def scan_variants(client, products, old_variants, now, budget_s=600):
     result = {k: v for k, v in old_variants.items() if k in products}  # izmet vairs neesošos
     start, done, failed = time.monotonic(), 0, 0
     todo = [(k, p) for k, p in products.items()
-            if p["operator"] in fns and p.get("category") in VARIANT_CATEGORIES and p.get("url")]
+            if p["operator"] in fns and p.get("category") in VARIANT_CATEGORIES_BY_OP.get(p["operator"], ()) and p.get("url")]
     # vispirms tie, kas nav atjaunoti visilgāk – ja laiks beidzas, nākamreiz turpina ar pārējiem
     todo.sort(key=lambda kp: (old_variants.get(kp[0]) or {}).get("updated", ""))
     for key, p in todo:
