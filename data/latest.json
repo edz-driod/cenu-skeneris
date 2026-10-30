@@ -719,6 +719,18 @@
   "url": "https://www.bite.lv/lv/telefoni/maxcom-mm39d",
   "category": "telefoni"
  },
+ "bite:20511": {
+  "operator": "bite",
+  "id": "20511",
+  "brand": "Hammer",
+  "model": "Construction 2 Thermal",
+  "monthly": 27.45,
+  "monthly_old": null,
+  "full": 659.0,
+  "full_old": null,
+  "url": "https://www.bite.lv/lv/telefoni/hammer-construction-2-thermal-0",
+  "category": "telefoni"
+ },
  "bite:20405": {
   "operator": "bite",
   "id": "20405",
@@ -3335,6 +3347,18 @@
   "url": "https://www.bite.lv/lv/esim-viedpulksteni/samsung-galaxy-watch6-classic-47mm-izpakota-ierice",
   "category": "pulksteni"
  },
+ "bite:25067": {
+  "operator": "bite",
+  "id": "25067",
+  "brand": "Huawei",
+  "model": "Watch 6 Aluminum Alloy Case | 42 mm",
+  "monthly": 16.2,
+  "monthly_old": 18.7,
+  "full": 389.0,
+  "full_old": 449.0,
+  "url": "https://www.bite.lv/lv/esim-viedpulksteni/huawei-watch-6-aluminum-alloy-case-42-mm",
+  "category": "pulksteni"
+ },
  "bite:25069": {
   "operator": "bite",
   "id": "25069",
@@ -3640,7 +3664,7 @@
   "id": "22991",
   "brand": "Garmin",
   "model": "Forerunner 70",
-  "monthly": 9.12,
+  "monthly": null,
   "monthly_old": null,
   "full": 215.0,
   "full_old": null,
@@ -3705,6 +3729,18 @@
   "full": 339.0,
   "full_old": null,
   "url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-forerunner-265s",
+  "category": "pulksteni"
+ },
+ "bite:22743": {
+  "operator": "bite",
+  "id": "22743",
+  "brand": "Garmin",
+  "model": "Instinct 3 45 mm | Solar",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 249.0,
+  "full_old": null,
+  "url": "https://www.bite.lv/lv/bluetooth-viedpulksteni/garmin-instinct-3-45-mm-solar",
   "category": "pulksteni"
  },
  "bite:22745": {
@@ -4077,6 +4113,18 @@
   "full": 39.0,
   "full_old": 90.0,
   "url": "https://www.bite.lv/lv/ear-austinas/monster-clarity-108",
+  "category": "austinas"
+ },
+ "bite:16987": {
+  "operator": "bite",
+  "id": "16987",
+  "brand": "Apple",
+  "model": "AirPods 4 with Active Noise Cancellation",
+  "monthly": 12.41,
+  "monthly_old": 16.58,
+  "full": 149.0,
+  "full_old": 199.0,
+  "url": "https://www.bite.lv/lv/austinas/apple-airpods-4-active-noise-cancellation",
   "category": "austinas"
  },
  "bite:21169": {
@@ -4617,18 +4665,6 @@
   "full": 149.0,
   "full_old": null,
   "url": "https://www.bite.lv/lv/austinas/samsung-galaxy-buds3-fe",
-  "category": "austinas"
- },
- "bite:20483": {
-  "operator": "bite",
-  "id": "20483",
-  "brand": "Anker",
-  "model": "Soundcore Liberty 4 NC",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 89.0,
-  "full_old": null,
-  "url": "https://www.bite.lv/lv/austinas/anker-soundcore-liberty-4-nc",
   "category": "austinas"
  },
  "bite:20485": {
@@ -5315,18 +5351,6 @@
   "url": "https://www.bite.lv/lv/austinas/jbl-wave-flex",
   "category": "austinas"
  },
- "bite:13113": {
-  "operator": "bite",
-  "id": "13113",
-  "brand": "JBL",
-  "model": "Tune Flex",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 49.0,
-  "full_old": null,
-  "url": "https://www.bite.lv/lv/austinas/jbl-tune-flex",
-  "category": "austinas"
- },
  "bite:12847": {
   "operator": "bite",
   "id": "12847",
@@ -5458,6 +5482,18 @@
   "full_old": null,
   "url": "https://www.bite.lv/lv/austinas/samsung-akg-type-c-earphones",
   "category": "austinas"
+ },
+ "lmt:456d47e4-73e6-4bb8-99df-4651275164cc": {
+  "operator": "lmt",
+  "id": "456d47e4-73e6-4bb8-99df-4651275164cc",
+  "brand": "Hammer",
+  "model": "Construction 2 Thermal 5G",
+  "monthly": 24.96,
+  "monthly_old": null,
+  "full": 599.0,
+  "full_old": null,
+  "url": "https://www.lmt.lv/veikals/visi-telefoni/hammer-construction-2-thermal-5g/melna-zala",
+  "category": "telefoni"
  },
  "lmt:5fd67342-13b2-46f1-9739-872724f5c468": {
   "operator": "lmt",
@@ -6052,11 +6088,11 @@
   "id": "e917316f-3cd6-4c6c-92cb-68c35806c17b",
   "brand": "Apple",
   "model": "iPhone 16e",
-  "monthly": 30.38,
-  "monthly_old": 32.05,
-  "full": 729.0,
-  "full_old": 769.0,
-  "url": "https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-16e/256-gb-melna",
+  "monthly": 29.13,
+  "monthly_old": null,
+  "full": 699.0,
+  "full_old": null,
+  "url": "https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-16e/128-gb-balta",
   "category": "telefoni"
  },
  "lmt:0631d43c-5118-4125-b9e3-788812dfa9ce": {
@@ -6095,28 +6131,16 @@
   "url": "https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-15/melns-128-gb",
   "category": "telefoni"
  },
- "lmt:db245eb6-f1f0-49f6-9dcc-e5587ca2e25d": {
-  "operator": "lmt",
-  "id": "db245eb6-f1f0-49f6-9dcc-e5587ca2e25d",
-  "brand": "Google",
-  "model": "Pixel 10 Pro XL",
-  "monthly": 34.87,
-  "monthly_old": null,
-  "full": 836.83,
-  "full_old": null,
-  "url": "https://www.lmt.lv/veikals/visi-telefoni/google-pixel-10-pro-xl/16-512-gb-obsidians-mazlietots",
-  "category": "telefoni"
- },
  "lmt:db681f98-145b-484b-99d1-09ae1f844b9b": {
   "operator": "lmt",
   "id": "db681f98-145b-484b-99d1-09ae1f844b9b",
   "brand": "Xiaomi",
   "model": "15T",
-  "monthly": 18.12,
+  "monthly": 12.26,
   "monthly_old": null,
-  "full": 434.83,
+  "full": 294.13,
   "full_old": null,
-  "url": "https://www.lmt.lv/veikals/visi-telefoni/xiaomi-15t/melna-mazlietots",
+  "url": "https://www.lmt.lv/veikals/visi-telefoni/xiaomi-15t/peleka-mazlietots",
   "category": "telefoni"
  },
  "lmt:4755a84f-d34d-4220-8eb3-881691cd2f98": {
@@ -6155,6 +6179,18 @@
   "url": "https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-16-plus/melns-256-gb-mazlietots",
   "category": "telefoni"
  },
+ "lmt:3c78e605-16c3-4301-afbb-81e7d7f73586": {
+  "operator": "lmt",
+  "id": "3c78e605-16c3-4301-afbb-81e7d7f73586",
+  "brand": "Samsung",
+  "model": "Galaxy A56",
+  "monthly": 10.62,
+  "monthly_old": null,
+  "full": 254.77,
+  "full_old": null,
+  "url": "https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-a56/128-gb-roza-mazlietots",
+  "category": "telefoni"
+ },
  "lmt:b9f2d25d-a490-4608-9a83-b274971f856c": {
   "operator": "lmt",
   "id": "b9f2d25d-a490-4608-9a83-b274971f856c",
@@ -6191,28 +6227,16 @@
   "url": "https://www.lmt.lv/veikals/visi-telefoni/xiaomi-14t/citronu-zals-mazlietots",
   "category": "telefoni"
  },
- "lmt:3c78e605-16c3-4301-afbb-81e7d7f73586": {
-  "operator": "lmt",
-  "id": "3c78e605-16c3-4301-afbb-81e7d7f73586",
-  "brand": "Samsung",
-  "model": "Galaxy A56",
-  "monthly": 9.75,
-  "monthly_old": null,
-  "full": 233.83,
-  "full_old": null,
-  "url": "https://www.lmt.lv/veikals/visi-telefoni/samsung-galaxy-a56/128-gb-peleka-mazlietots",
-  "category": "telefoni"
- },
  "lmt:4be166d1-ba1e-4fb8-b1f9-1e36c9ca6c4f": {
   "operator": "lmt",
   "id": "4be166d1-ba1e-4fb8-b1f9-1e36c9ca6c4f",
   "brand": "Apple",
   "model": "iPhone 16 Pro Max",
-  "monthly": 45.53,
+  "monthly": 39.62,
   "monthly_old": null,
-  "full": 1092.63,
+  "full": 950.73,
   "full_old": null,
-  "url": "https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-16-pro-max/zeltaini-bruns-titana-256-gb-mazlietots",
+  "url": "https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-16-pro-max/titana-melns-256-gb-mazlietots",
   "category": "telefoni"
  },
  "lmt:08cd211b-afab-4f39-a2aa-53af7886d7e6": {
@@ -6260,7 +6284,7 @@
   "monthly_old": null,
   "full": 642.53,
   "full_old": null,
-  "url": "https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-15-pro/balts-128-gb-mazlietots-4",
+  "url": "https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-15-pro/melns-128-gb-mazlietots-4",
   "category": "telefoni"
  },
  "lmt:1fe0f6a7-9329-4c7b-9db2-2ff7e5845195": {
@@ -6272,7 +6296,7 @@
   "monthly_old": null,
   "full": 770.5,
   "full_old": null,
-  "url": "https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-15-pro-max/dabigs-titans-256-gb-mazlietots",
+  "url": "https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-15-pro-max/melns-256-gb-mazlietots",
   "category": "telefoni"
  },
  "lmt:8a9fd253-f3ff-46ec-be1f-4541c1b2f6aa": {
@@ -6280,23 +6304,11 @@
   "id": "8a9fd253-f3ff-46ec-be1f-4541c1b2f6aa",
   "brand": "Apple",
   "model": "iPhone 14 Pro",
-  "monthly": 23.99,
+  "monthly": 22.31,
   "monthly_old": null,
-  "full": 575.53,
+  "full": 535.33,
   "full_old": null,
-  "url": "https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-14-pro/iphone-14-pro-silver-256-mazlietots",
-  "category": "telefoni"
- },
- "lmt:af057caa-b50d-475d-8d9e-2be489aa1bef": {
-  "operator": "lmt",
-  "id": "af057caa-b50d-475d-8d9e-2be489aa1bef",
-  "brand": "Apple",
-  "model": "iPhone 14",
-  "monthly": 21.47,
-  "monthly_old": null,
-  "full": 515.13,
-  "full_old": null,
-  "url": "https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-14/iphone-14-starlight-128-mazlietots",
+  "url": "https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-14-pro/gold-128-mazlietots",
   "category": "telefoni"
  },
  "lmt:53158733-4f64-4c15-b05d-fc3b842ef263": {
@@ -8980,9 +8992,9 @@
   "id": "67903",
   "brand": "Samsung",
   "model": "Galaxy Xcover 7 6+128GB Black",
-  "monthly": 8.93,
+  "monthly": 7.98,
   "monthly_old": null,
-  "full": 282.0,
+  "full": 252.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-xcover-7-6-128gb-black.html",
   "category": "telefoni"
@@ -9251,18 +9263,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-ultra-5g-12-512gb-sky-blue.html",
   "category": "telefoni"
  },
- "tet:100276": {
-  "operator": "tet",
-  "id": "100276",
-  "brand": "Samsung",
-  "model": "Galaxy Flip8 12+256GB Cream",
-  "monthly": 41.45,
-  "monthly_old": null,
-  "full": 1309.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-flip8-12-256gb-cream.html",
-  "category": "telefoni"
- },
  "tet:76447": {
   "operator": "tet",
   "id": "76447",
@@ -9273,6 +9273,18 @@
   "full": 1039.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/apple-iphone-16-128gb-teal.html",
+  "category": "telefoni"
+ },
+ "tet:100276": {
+  "operator": "tet",
+  "id": "100276",
+  "brand": "Samsung",
+  "model": "Galaxy Flip8 12+256GB Cream",
+  "monthly": 41.45,
+  "monthly_old": null,
+  "full": 1309.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-flip8-12-256gb-cream.html",
   "category": "telefoni"
  },
  "tet:99027": {
@@ -9287,18 +9299,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a57-5g-8-128gb-awesome-lilac.html",
   "category": "telefoni"
  },
- "tet:100984": {
-  "operator": "tet",
-  "id": "100984",
-  "brand": "Poco",
-  "model": "F9 Ultra 16+512GB Black",
-  "monthly": 31.64,
-  "monthly_old": null,
-  "full": 999.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/poco-f9-ultra-16-512gb-black.html",
-  "category": "telefoni"
- },
  "tet:101770": {
   "operator": "tet",
   "id": "101770",
@@ -9309,6 +9309,18 @@
   "full": 449.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/poco-f8-pro-12-256-blue-demo.html",
+  "category": "telefoni"
+ },
+ "tet:100984": {
+  "operator": "tet",
+  "id": "100984",
+  "brand": "Poco",
+  "model": "F9 Ultra 16+512GB Black",
+  "monthly": 31.64,
+  "monthly_old": null,
+  "full": 999.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/poco-f9-ultra-16-512gb-black.html",
   "category": "telefoni"
  },
  "tet:86804": {
@@ -9467,18 +9479,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-note-17-5g-6-128gb-celestial-purple.html",
   "category": "telefoni"
  },
- "tet:98079": {
-  "operator": "tet",
-  "id": "98079",
-  "brand": "Samsung",
-  "model": "Galaxy S26+ 12+512GB Black",
-  "monthly": 38.98,
-  "monthly_old": null,
-  "full": 1559.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-12-512gb-black-2.html",
-  "category": "telefoni"
- },
  "tet:101209": {
   "operator": "tet",
   "id": "101209",
@@ -9489,6 +9489,18 @@
   "full": 3159.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-max-2tb-silver.html",
+  "category": "telefoni"
+ },
+ "tet:98079": {
+  "operator": "tet",
+  "id": "98079",
+  "brand": "Samsung",
+  "model": "Galaxy S26+ 12+512GB Black",
+  "monthly": 38.98,
+  "monthly_old": null,
+  "full": 1559.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-12-512gb-black-2.html",
   "category": "telefoni"
  },
  "tet:90766": {
@@ -9659,18 +9671,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a18-lte-4-128gb-silver.html",
   "category": "telefoni"
  },
- "tet:76444": {
-  "operator": "tet",
-  "id": "76444",
-  "brand": "Apple",
-  "model": "iPhone 16 128GB White",
-  "monthly": 32.9,
-  "monthly_old": null,
-  "full": 1039.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/apple-iphone-16-128gb-white.html",
-  "category": "telefoni"
- },
  "tet:99959": {
   "operator": "tet",
   "id": "99959",
@@ -9681,6 +9681,18 @@
   "full": 599.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/xiaomi-17t-12-256gb-violet.html",
+  "category": "telefoni"
+ },
+ "tet:76444": {
+  "operator": "tet",
+  "id": "76444",
+  "brand": "Apple",
+  "model": "iPhone 16 128GB White",
+  "monthly": 32.9,
+  "monthly_old": null,
+  "full": 1039.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/apple-iphone-16-128gb-white.html",
   "category": "telefoni"
  },
  "tet:100281": {
@@ -9731,18 +9743,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a37-5g-6-128gb-awesome-graygreen.html",
   "category": "telefoni"
  },
- "tet:80518": {
-  "operator": "tet",
-  "id": "80518",
-  "brand": "Samsung",
-  "model": "Galaxy S25 12+128GB Silver Shadow",
-  "monthly": 27.2,
-  "monthly_old": null,
-  "full": 859.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s25-12-128gb-silver-shadow.html",
-  "category": "telefoni"
- },
  "tet:86805": {
   "operator": "tet",
   "id": "86805",
@@ -9753,6 +9753,18 @@
   "full": 129.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-15c-4-128gb-moonlight-blue.html",
+  "category": "telefoni"
+ },
+ "tet:80518": {
+  "operator": "tet",
+  "id": "80518",
+  "brand": "Samsung",
+  "model": "Galaxy S25 12+128GB Silver Shadow",
+  "monthly": 27.2,
+  "monthly_old": null,
+  "full": 859.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s25-12-128gb-silver-shadow.html",
   "category": "telefoni"
  },
  "tet:98089": {
@@ -9851,18 +9863,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a27-5g-6-128gb-light-pink.html",
   "category": "telefoni"
  },
- "tet:97620": {
-  "operator": "tet",
-  "id": "97620",
-  "brand": "Poco",
-  "model": "M8 Pro 5G 8+256GB Black",
-  "monthly": 10.1,
-  "monthly_old": null,
-  "full": 319.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/poco-m8-pro-5g-8-256gb-black.html",
-  "category": "telefoni"
- },
  "tet:100948": {
   "operator": "tet",
   "id": "100948",
@@ -9873,6 +9873,18 @@
   "full": 899.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-fe-8-256gb-pistachio.html",
+  "category": "telefoni"
+ },
+ "tet:97620": {
+  "operator": "tet",
+  "id": "97620",
+  "brand": "Poco",
+  "model": "M8 Pro 5G 8+256GB Black",
+  "monthly": 10.1,
+  "monthly_old": null,
+  "full": 319.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/poco-m8-pro-5g-8-256gb-black.html",
   "category": "telefoni"
  },
  "tet:100947": {
@@ -10199,18 +10211,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-fe-8-256gb-graphite.html",
   "category": "telefoni"
  },
- "tet:100344": {
-  "operator": "tet",
-  "id": "100344",
-  "brand": "Samsung",
-  "model": "Galaxy Fold8 16+1TB Graphite",
-  "monthly": 65.23,
-  "monthly_old": null,
-  "full": 2609.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-16-1tb-graphite.html",
-  "category": "telefoni"
- },
  "tet:101191": {
   "operator": "tet",
   "id": "101191",
@@ -10221,6 +10221,18 @@
   "full": 2249.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-1tb-glacier.html",
+  "category": "telefoni"
+ },
+ "tet:100344": {
+  "operator": "tet",
+  "id": "100344",
+  "brand": "Samsung",
+  "model": "Galaxy Fold8 16+1TB Graphite",
+  "monthly": 65.23,
+  "monthly_old": null,
+  "full": 2609.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-16-1tb-graphite.html",
   "category": "telefoni"
  },
  "tet:76446": {
@@ -10235,18 +10247,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/apple-iphone-16-128gb-ultramarine.html",
   "category": "telefoni"
  },
- "tet:98954": {
-  "operator": "tet",
-  "id": "98954",
-  "brand": "POCO",
-  "model": "X8 Pro Max 12+256 Black",
-  "monthly": 17.39,
-  "monthly_old": null,
-  "full": 549.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/poco-x8-pro-max-12-256-black.html",
-  "category": "telefoni"
- },
  "tet:101188": {
   "operator": "tet",
   "id": "101188",
@@ -10257,6 +10257,18 @@
   "full": 2249.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/apple-iphone-18-pro-1tb-black.html",
+  "category": "telefoni"
+ },
+ "tet:98954": {
+  "operator": "tet",
+  "id": "98954",
+  "brand": "POCO",
+  "model": "X8 Pro Max 12+256 Black",
+  "monthly": 17.39,
+  "monthly_old": null,
+  "full": 549.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/poco-x8-pro-max-12-256-black.html",
   "category": "telefoni"
  },
  "tet:99427": {
@@ -10415,18 +10427,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/myphone-bueno-lte-praline-collection-brown.html",
   "category": "telefoni"
  },
- "tet:99395": {
-  "operator": "tet",
-  "id": "99395",
-  "brand": "Apple",
-  "model": "iPhone SE (2022) 64GB (PRODUCT) Red Pre-owned B grade [Refurbished]",
-  "monthly": 7.03,
-  "monthly_old": null,
-  "full": 222.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/apple-iphone-se-2022-64gb-product-red-pre-owned-b-grade-refurbished.html",
-  "category": "telefoni"
- },
  "tet:101489": {
   "operator": "tet",
   "id": "101489",
@@ -10439,16 +10439,16 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/poco-c95-pro-6-128gb-black.html",
   "category": "telefoni"
  },
- "tet:86812": {
+ "tet:99395": {
   "operator": "tet",
-  "id": "86812",
-  "brand": "Xiaomi",
-  "model": "Redmi 15 6+128GB Titan Gray",
-  "monthly": 4.4,
+  "id": "99395",
+  "brand": "Apple",
+  "model": "iPhone SE (2022) 64GB (PRODUCT) Red Pre-owned B grade [Refurbished]",
+  "monthly": 7.03,
   "monthly_old": null,
-  "full": 139.0,
+  "full": 222.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-15-6-128gb-titan-gray.html",
+  "url": "https://www.tet.lv/veikals/viedtalruni/apple-iphone-se-2022-64gb-product-red-pre-owned-b-grade-refurbished.html",
   "category": "telefoni"
  },
  "tet:97748": {
@@ -10461,6 +10461,18 @@
   "full": 336.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/hammer-iron-6-5g-8-256gb-black.html",
+  "category": "telefoni"
+ },
+ "tet:86812": {
+  "operator": "tet",
+  "id": "86812",
+  "brand": "Xiaomi",
+  "model": "Redmi 15 6+128GB Titan Gray",
+  "monthly": 4.4,
+  "monthly_old": null,
+  "full": 139.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-15-6-128gb-titan-gray.html",
   "category": "telefoni"
  },
  "tet:100285": {
@@ -10511,18 +10523,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-12-512gb-sky-blue.html",
   "category": "telefoni"
  },
- "tet:100289": {
-  "operator": "tet",
-  "id": "100289",
-  "brand": "Samsung",
-  "model": "Galaxy Fold8 12+256GB Graphite",
-  "monthly": 50.48,
-  "monthly_old": null,
-  "full": 2019.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-12-256gb-graphite.html",
-  "category": "telefoni"
- },
  "tet:100338": {
   "operator": "tet",
   "id": "100338",
@@ -10533,6 +10533,18 @@
   "full": 2219.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-12-512gb-lavender.html",
+  "category": "telefoni"
+ },
+ "tet:100289": {
+  "operator": "tet",
+  "id": "100289",
+  "brand": "Samsung",
+  "model": "Galaxy Fold8 12+256GB Graphite",
+  "monthly": 50.48,
+  "monthly_old": null,
+  "full": 2019.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-12-256gb-graphite.html",
   "category": "telefoni"
  },
  "tet:100277": {
@@ -10619,18 +10631,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/poco-f8-pro-12-256-blue.html",
   "category": "telefoni"
  },
- "tet:82145": {
-  "operator": "tet",
-  "id": "82145",
-  "brand": "Nokia",
-  "model": "3210 4G Grunge Black",
-  "monthly": 2.57,
-  "monthly_old": null,
-  "full": 81.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/nokia-3210-4g-grunge-black.html",
-  "category": "telefoni"
- },
  "tet:101493": {
   "operator": "tet",
   "id": "101493",
@@ -10641,6 +10641,18 @@
   "full": 249.0,
   "full_old": 279.0,
   "url": "https://www.tet.lv/veikals/viedtalruni/poco-c95-pro-8-256gb-blue.html",
+  "category": "telefoni"
+ },
+ "tet:82145": {
+  "operator": "tet",
+  "id": "82145",
+  "brand": "Nokia",
+  "model": "3210 4G Grunge Black",
+  "monthly": 2.57,
+  "monthly_old": null,
+  "full": 81.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/nokia-3210-4g-grunge-black.html",
   "category": "telefoni"
  },
  "tet:100982": {
@@ -10667,18 +10679,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/poco-c95-pro-6-128gb-green.html",
   "category": "telefoni"
  },
- "tet:99960": {
-  "operator": "tet",
-  "id": "99960",
-  "brand": "Xiaomi",
-  "model": "17T 12+256GB Blue",
-  "monthly": 18.97,
-  "monthly_old": null,
-  "full": 599.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/xiaomi-17t-12-256gb-blue.html",
-  "category": "telefoni"
- },
  "tet:86460": {
   "operator": "tet",
   "id": "86460",
@@ -10689,6 +10689,18 @@
   "full": 288.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/ulefone-armor-x16-pro-8-256gb-sand-dune.html",
+  "category": "telefoni"
+ },
+ "tet:99960": {
+  "operator": "tet",
+  "id": "99960",
+  "brand": "Xiaomi",
+  "model": "17T 12+256GB Blue",
+  "monthly": 18.97,
+  "monthly_old": null,
+  "full": 599.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/xiaomi-17t-12-256gb-blue.html",
   "category": "telefoni"
  },
  "tet:100288": {
@@ -10823,18 +10835,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a37-5g-6-256gb-awesome-charcoal.html",
   "category": "telefoni"
  },
- "tet:86808": {
-  "operator": "tet",
-  "id": "86808",
-  "brand": "Xiaomi",
-  "model": "Redmi 15C 4+256GB Moonlight Blue",
-  "monthly": 5.04,
-  "monthly_old": null,
-  "full": 159.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-15c-4-256gb-moonlight-blue.html",
-  "category": "telefoni"
- },
  "tet:101490": {
   "operator": "tet",
   "id": "101490",
@@ -10845,6 +10845,18 @@
   "full": 209.0,
   "full_old": 239.0,
   "url": "https://www.tet.lv/veikals/viedtalruni/poco-c95-pro-6-128gb-blue.html",
+  "category": "telefoni"
+ },
+ "tet:86808": {
+  "operator": "tet",
+  "id": "86808",
+  "brand": "Xiaomi",
+  "model": "Redmi 15C 4+256GB Moonlight Blue",
+  "monthly": 5.04,
+  "monthly_old": null,
+  "full": 159.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/xiaomi-redmi-15c-4-256gb-moonlight-blue.html",
   "category": "telefoni"
  },
  "tet:82158": {
@@ -10871,6 +10883,18 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/myphone-tango-2-lte-black-silver.html",
   "category": "telefoni"
  },
+ "tet:100345": {
+  "operator": "tet",
+  "id": "100345",
+  "brand": "Samsung",
+  "model": "Galaxy Fold8 16+1TB Lavender",
+  "monthly": 65.23,
+  "monthly_old": null,
+  "full": 2609.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-16-1tb-lavender.html",
+  "category": "telefoni"
+ },
  "tet:98958": {
   "operator": "tet",
   "id": "98958",
@@ -10883,16 +10907,16 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/poco-x8-pro-max-12-512-blue.html",
   "category": "telefoni"
  },
- "tet:100345": {
+ "tet:100244": {
   "operator": "tet",
-  "id": "100345",
+  "id": "100244",
   "brand": "Samsung",
-  "model": "Galaxy Fold8 16+1TB Lavender",
-  "monthly": 65.23,
+  "model": "Galaxy A27 5G 8+256GB Blue",
+  "monthly": 15.8,
   "monthly_old": null,
-  "full": 2609.0,
+  "full": 499.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-16-1tb-lavender.html",
+  "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a27-5g-8-256gb-blue.html",
   "category": "telefoni"
  },
  "tet:87930": {
@@ -10919,18 +10943,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/apple-iphone-se-2022-128gb-midnight-pre-owned-b-grade-refurbished.html",
   "category": "telefoni"
  },
- "tet:100244": {
-  "operator": "tet",
-  "id": "100244",
-  "brand": "Samsung",
-  "model": "Galaxy A27 5G 8+256GB Blue",
-  "monthly": 15.8,
-  "monthly_old": null,
-  "full": 499.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a27-5g-8-256gb-blue.html",
-  "category": "telefoni"
- },
  "tet:98952": {
   "operator": "tet",
   "id": "98952",
@@ -10941,6 +10953,18 @@
   "full": 499.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/poco-x8-pro-12-512-green.html",
+  "category": "telefoni"
+ },
+ "tet:101487": {
+  "operator": "tet",
+  "id": "101487",
+  "brand": "Poco",
+  "model": "X8 8+256GB Orange",
+  "monthly": 11.69,
+  "monthly_old": null,
+  "full": 369.0,
+  "full_old": 399.0,
+  "url": "https://www.tet.lv/veikals/viedtalruni/poco-x8-8-256gb-orange.html",
   "category": "telefoni"
  },
  "tet:68362": {
@@ -10965,18 +10989,6 @@
   "full": 279.0,
   "full_old": 319.0,
   "url": "https://www.tet.lv/veikals/viedtalruni/poco-m8-5g-8-512-silver.html",
-  "category": "telefoni"
- },
- "tet:101487": {
-  "operator": "tet",
-  "id": "101487",
-  "brand": "Poco",
-  "model": "X8 8+256GB Orange",
-  "monthly": 11.69,
-  "monthly_old": null,
-  "full": 369.0,
-  "full_old": 399.0,
-  "url": "https://www.tet.lv/veikals/viedtalruni/poco-x8-8-256gb-orange.html",
   "category": "telefoni"
  },
  "tet:31957": {
@@ -11051,16 +11063,16 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/myphone-halo-easy-black.html",
   "category": "telefoni"
  },
- "tet:101498": {
+ "tet:82150": {
   "operator": "tet",
-  "id": "101498",
-  "brand": "OPPO",
-  "model": "Reno16 Pro 5G 12+512GB Pop White",
-  "monthly": 28.15,
+  "id": "82150",
+  "brand": "Nokia",
+  "model": "225 4G (2024) Pink",
+  "monthly": null,
   "monthly_old": null,
-  "full": 889.0,
+  "full": 63.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/oppo-reno16-pro-5g-12-512gb-pop-white.html",
+  "url": "https://www.tet.lv/veikals/viedtalruni/nokia-225-4g-2024-pink.html",
   "category": "telefoni"
  },
  "tet:68373": {
@@ -11075,18 +11087,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/oukitel-c32-8-128gb-black.html",
   "category": "telefoni"
  },
- "tet:82150": {
-  "operator": "tet",
-  "id": "82150",
-  "brand": "Nokia",
-  "model": "225 4G (2024) Pink",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 63.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/nokia-225-4g-2024-pink.html",
-  "category": "telefoni"
- },
  "tet:101511": {
   "operator": "tet",
   "id": "101511",
@@ -11097,6 +11097,18 @@
   "full": 199.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/oppo-a6-4g-6-256gb-zelta.html",
+  "category": "telefoni"
+ },
+ "tet:101498": {
+  "operator": "tet",
+  "id": "101498",
+  "brand": "OPPO",
+  "model": "Reno16 Pro 5G 12+512GB Pop White",
+  "monthly": 28.15,
+  "monthly_old": null,
+  "full": 889.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/oppo-reno16-pro-5g-12-512gb-pop-white.html",
   "category": "telefoni"
  },
  "tet:101503": {
@@ -11135,18 +11147,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/nokia-105-4g-2nd-edition-ocean-blue.html",
   "category": "telefoni"
  },
- "tet:97722": {
-  "operator": "tet",
-  "id": "97722",
-  "brand": "Hammer",
-  "model": "Construction 2 5G 6+128GB Silver/Black",
-  "monthly": 10.07,
-  "monthly_old": null,
-  "full": 318.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/hammer-construction-2-5g-6-128gb-silver-black.html",
-  "category": "telefoni"
- },
  "tet:101510": {
   "operator": "tet",
   "id": "101510",
@@ -11159,16 +11159,16 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/oppo-a6-4g-6-256gb-sapphire-blue.html",
   "category": "telefoni"
  },
- "tet:97618": {
+ "tet:97722": {
   "operator": "tet",
-  "id": "97618",
-  "brand": "Poco",
-  "model": "M8 Pro 5G 8+256GB Green",
-  "monthly": 10.1,
+  "id": "97722",
+  "brand": "Hammer",
+  "model": "Construction 2 5G 6+128GB Silver/Black",
+  "monthly": 10.07,
   "monthly_old": null,
-  "full": 319.0,
+  "full": 318.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/poco-m8-pro-5g-8-256gb-green.html",
+  "url": "https://www.tet.lv/veikals/viedtalruni/hammer-construction-2-5g-6-128gb-silver-black.html",
   "category": "telefoni"
  },
  "tet:87931": {
@@ -11181,6 +11181,18 @@
   "full": 169.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/poco-c85-8-256gb-black.html",
+  "category": "telefoni"
+ },
+ "tet:97618": {
+  "operator": "tet",
+  "id": "97618",
+  "brand": "Poco",
+  "model": "M8 Pro 5G 8+256GB Green",
+  "monthly": 10.1,
+  "monthly_old": null,
+  "full": 319.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/poco-m8-pro-5g-8-256gb-green.html",
   "category": "telefoni"
  },
  "tet:82138": {
@@ -11207,18 +11219,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-fe-8-512gb-blueberry.html",
   "category": "telefoni"
  },
- "tet:97763": {
-  "operator": "tet",
-  "id": "97763",
-  "brand": "Hammer",
-  "model": "Energy X2 5G 6+128GB Black/Orange",
-  "monthly": 8.93,
-  "monthly_old": null,
-  "full": 282.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/hammer-energy-x2-5g-6-128gb-black-orange.html",
-  "category": "telefoni"
- },
  "tet:82164": {
   "operator": "tet",
   "id": "82164",
@@ -11241,6 +11241,30 @@
   "full": 139.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/poco-c85-6-128gb-green.html",
+  "category": "telefoni"
+ },
+ "tet:97763": {
+  "operator": "tet",
+  "id": "97763",
+  "brand": "Hammer",
+  "model": "Energy X2 5G 6+128GB Black/Orange",
+  "monthly": 8.93,
+  "monthly_old": null,
+  "full": 282.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/hammer-energy-x2-5g-6-128gb-black-orange.html",
+  "category": "telefoni"
+ },
+ "tet:98950": {
+  "operator": "tet",
+  "id": "98950",
+  "brand": "POCO",
+  "model": "X8 Pro 8+256 White",
+  "monthly": 13.9,
+  "monthly_old": null,
+  "full": 439.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/poco-x8-pro-8-256-white.html",
   "category": "telefoni"
  },
  "tet:101506": {
@@ -11267,18 +11291,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/hammer-iron-v-6-64gb-black.html",
   "category": "telefoni"
  },
- "tet:98950": {
-  "operator": "tet",
-  "id": "98950",
-  "brand": "POCO",
-  "model": "X8 Pro 8+256 White",
-  "monthly": 13.9,
-  "monthly_old": null,
-  "full": 439.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/poco-x8-pro-8-256-white.html",
-  "category": "telefoni"
- },
  "tet:100980": {
   "operator": "tet",
   "id": "100980",
@@ -11289,6 +11301,18 @@
   "full": 899.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/poco-f9-ultra-12-256gb-black.html",
+  "category": "telefoni"
+ },
+ "tet:87929": {
+  "operator": "tet",
+  "id": "87929",
+  "brand": "Poco",
+  "model": "C85 8+256GB Purple",
+  "monthly": 5.35,
+  "monthly_old": null,
+  "full": 169.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/poco-c85-8-256gb-purple.html",
   "category": "telefoni"
  },
  "tet:101504": {
@@ -11313,18 +11337,6 @@
   "full": 246.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/hammer-ranger-6-128gb-green-black.html",
-  "category": "telefoni"
- },
- "tet:87929": {
-  "operator": "tet",
-  "id": "87929",
-  "brand": "Poco",
-  "model": "C85 8+256GB Purple",
-  "monthly": 5.35,
-  "monthly_old": null,
-  "full": 169.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/poco-c85-8-256gb-purple.html",
   "category": "telefoni"
  },
  "tet:87968": {
@@ -11411,18 +11423,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/estar-rock-rugged-black.html",
   "category": "telefoni"
  },
- "tet:97762": {
-  "operator": "tet",
-  "id": "97762",
-  "brand": "myPhone",
-  "model": "3510 LTE Black",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 63.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/myphone-3510-lte-black.html",
-  "category": "telefoni"
- },
  "tet:100981": {
   "operator": "tet",
   "id": "100981",
@@ -11433,6 +11433,18 @@
   "full": 769.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/poco-f9-pro-12-256gb-green.html",
+  "category": "telefoni"
+ },
+ "tet:97762": {
+  "operator": "tet",
+  "id": "97762",
+  "brand": "myPhone",
+  "model": "3510 LTE Black",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 63.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/myphone-3510-lte-black.html",
   "category": "telefoni"
  },
  "tet:101494": {
@@ -11459,18 +11471,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-ultra-12-512gb-graphite.html",
   "category": "telefoni"
  },
- "tet:97736": {
-  "operator": "tet",
-  "id": "97736",
-  "brand": "eSTAR",
-  "model": "Stone 4G Black",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 63.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/estar-stone-4g-black.html",
-  "category": "telefoni"
- },
  "tet:100343": {
   "operator": "tet",
   "id": "100343",
@@ -11483,16 +11483,16 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-12-512gb-cream.html",
   "category": "telefoni"
  },
- "tet:97742": {
+ "tet:97736": {
   "operator": "tet",
-  "id": "97742",
-  "brand": "Nokia",
-  "model": "105 4G 2nd Edition Charcoal (Black)",
+  "id": "97736",
+  "brand": "eSTAR",
+  "model": "Stone 4G Black",
   "monthly": null,
   "monthly_old": null,
-  "full": 43.75,
+  "full": 63.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/nokia-105-4g-2nd-edition-charcoal-black.html",
+  "url": "https://www.tet.lv/veikals/viedtalruni/estar-stone-4g-black.html",
   "category": "telefoni"
  },
  "tet:82159": {
@@ -11505,6 +11505,18 @@
   "full": 63.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/myphone-hammer-6-lte-black.html",
+  "category": "telefoni"
+ },
+ "tet:97742": {
+  "operator": "tet",
+  "id": "97742",
+  "brand": "Nokia",
+  "model": "105 4G 2nd Edition Charcoal (Black)",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 43.75,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/nokia-105-4g-2nd-edition-charcoal-black.html",
   "category": "telefoni"
  },
  "tet:97732": {
@@ -11579,18 +11591,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/ulefone-armor-x12-3-32gb-all-black.html",
   "category": "telefoni"
  },
- "tet:50298": {
-  "operator": "tet",
-  "id": "50298",
-  "brand": "MyPhone",
-  "model": "2220 Dual black",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 15.75,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/myphone-2220-dual-black.html",
-  "category": "telefoni"
- },
  "tet:100286": {
   "operator": "tet",
   "id": "100286",
@@ -11603,16 +11603,16 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-ultra-12-512gb-cream.html",
   "category": "telefoni"
  },
- "tet:100290": {
+ "tet:50298": {
   "operator": "tet",
-  "id": "100290",
-  "brand": "Samsung",
-  "model": "Galaxy Fold8 12+256GB Lavender",
-  "monthly": 50.48,
+  "id": "50298",
+  "brand": "MyPhone",
+  "model": "2220 Dual black",
+  "monthly": null,
   "monthly_old": null,
-  "full": 2019.0,
+  "full": 15.75,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-12-256gb-lavender.html",
+  "url": "https://www.tet.lv/veikals/viedtalruni/myphone-2220-dual-black.html",
   "category": "telefoni"
  },
  "tet:100945": {
@@ -11625,6 +11625,18 @@
   "full": 1099.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-s26-fe-8-512gb-graphite.html",
+  "category": "telefoni"
+ },
+ "tet:100290": {
+  "operator": "tet",
+  "id": "100290",
+  "brand": "Samsung",
+  "model": "Galaxy Fold8 12+256GB Lavender",
+  "monthly": 50.48,
+  "monthly_old": null,
+  "full": 2019.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-fold8-12-256gb-lavender.html",
   "category": "telefoni"
  },
  "tet:63978": {
@@ -11747,18 +11759,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/myphone-6410-lte-black.html",
   "category": "telefoni"
  },
- "tet:50236": {
-  "operator": "tet",
-  "id": "50236",
-  "brand": "MyPhone",
-  "model": "Rumba 2 Black",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 42.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/myphone-rumba-2-black.html",
-  "category": "telefoni"
- },
  "tet:97601": {
   "operator": "tet",
   "id": "97601",
@@ -11771,16 +11771,16 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/ulefone-rugking-8-256gb-black.html",
   "category": "telefoni"
  },
- "tet:55810": {
+ "tet:50236": {
   "operator": "tet",
-  "id": "55810",
+  "id": "50236",
   "brand": "MyPhone",
-  "model": "6320 Dual Black",
+  "model": "Rumba 2 Black",
   "monthly": null,
   "monthly_old": null,
-  "full": 21.5,
+  "full": 42.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/myphone-6320-dual-black.html",
+  "url": "https://www.tet.lv/veikals/viedtalruni/myphone-rumba-2-black.html",
   "category": "telefoni"
  },
  "tet:55812": {
@@ -11795,6 +11795,18 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/myphone-halo-c-dual-black.html",
   "category": "telefoni"
  },
+ "tet:55810": {
+  "operator": "tet",
+  "id": "55810",
+  "brand": "MyPhone",
+  "model": "6320 Dual Black",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 21.5,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/myphone-6320-dual-black.html",
+  "category": "telefoni"
+ },
  "tet:63979": {
   "operator": "tet",
   "id": "63979",
@@ -11807,18 +11819,6 @@
   "url": "https://www.tet.lv/veikals/viedtalruni/estar-digni-flip-metallic-red.html",
   "category": "telefoni"
  },
- "tet:97726": {
-  "operator": "tet",
-  "id": "97726",
-  "brand": "Hammer",
-  "model": "Blade V 5G 8+256GB Black",
-  "monthly": 13.49,
-  "monthly_old": null,
-  "full": 426.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedtalruni/hammer-blade-v-5g-8-256gb-black.html",
-  "category": "telefoni"
- },
  "tet:86459": {
   "operator": "tet",
   "id": "86459",
@@ -11829,6 +11829,18 @@
   "full": 168.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedtalruni/ulefone-armor-x13-6-64gb-all-black.html",
+  "category": "telefoni"
+ },
+ "tet:97726": {
+  "operator": "tet",
+  "id": "97726",
+  "brand": "Hammer",
+  "model": "Blade V 5G 8+256GB Black",
+  "monthly": 13.49,
+  "monthly_old": null,
+  "full": 426.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedtalruni/hammer-blade-v-5g-8-256gb-black.html",
   "category": "telefoni"
  },
  "tet:98130": {
@@ -12311,18 +12323,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-cirqa-smart-band-s-m-franch-gray.html",
   "category": "pulksteni"
  },
- "tet:88008": {
-  "operator": "tet",
-  "id": "88008",
-  "brand": "Apple",
-  "model": "Watch SE 3 GPS 44mm Midnight Aluminium Case with Midnight Sport Band - M/L",
-  "monthly": 8.52,
-  "monthly_old": null,
-  "full": 269.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-44mm-midnight-aluminium-case-with-midnight-sport-band-m-l.html",
-  "category": "pulksteni"
- },
  "tet:101265": {
   "operator": "tet",
   "id": "101265",
@@ -12333,6 +12333,18 @@
   "full": 859.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-42mm-radiant-gold-titanium-case-with-radiant-gold-milanese-loop.html",
+  "category": "pulksteni"
+ },
+ "tet:88008": {
+  "operator": "tet",
+  "id": "88008",
+  "brand": "Apple",
+  "model": "Watch SE 3 GPS 44mm Midnight Aluminium Case with Midnight Sport Band - M/L",
+  "monthly": 8.52,
+  "monthly_old": null,
+  "full": 269.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-44mm-midnight-aluminium-case-with-midnight-sport-band-m-l.html",
   "category": "pulksteni"
  },
  "tet:80990": {
@@ -12347,18 +12359,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-instinct-3-50-mm-amoled-black-with-charcoal-band.html",
   "category": "pulksteni"
  },
- "tet:101326": {
-  "operator": "tet",
-  "id": "101326",
-  "brand": "Apple",
-  "model": "Watch SE 3 GPS + Cellular 40mm Starlight Aluminium Case with Sand Sport Band - M/L",
-  "monthly": 10.42,
-  "monthly_old": null,
-  "full": 329.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-cellular-40mm-starlight-aluminium-case-with-sand-sport-band-m-l.html",
-  "category": "pulksteni"
- },
  "tet:62950": {
   "operator": "tet",
   "id": "62950",
@@ -12369,6 +12369,18 @@
   "full": 379.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-3s-ivory-soft-gold.html",
+  "category": "pulksteni"
+ },
+ "tet:101326": {
+  "operator": "tet",
+  "id": "101326",
+  "brand": "Apple",
+  "model": "Watch SE 3 GPS + Cellular 40mm Starlight Aluminium Case with Sand Sport Band - M/L",
+  "monthly": 10.42,
+  "monthly_old": null,
+  "full": 329.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-cellular-40mm-starlight-aluminium-case-with-sand-sport-band-m-l.html",
   "category": "pulksteni"
  },
  "tet:62946": {
@@ -12611,18 +12623,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-fit-4-black.html",
   "category": "pulksteni"
  },
- "tet:86530": {
-  "operator": "tet",
-  "id": "86530",
-  "brand": "Canyon",
-  "model": "kids watch Sunny KW-48 Video 4G GPS Games&Music Violet",
-  "monthly": 2.82,
-  "monthly_old": null,
-  "full": 89.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/canyon-kids-watch-sunny-kw-48-video-4g-gps-games-music-violet.html",
-  "category": "pulksteni"
- },
  "tet:100026": {
   "operator": "tet",
   "id": "100026",
@@ -12633,6 +12633,18 @@
   "full": 169.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/xiaomi-watch-s5-46mm-black.html",
+  "category": "pulksteni"
+ },
+ "tet:86530": {
+  "operator": "tet",
+  "id": "86530",
+  "brand": "Canyon",
+  "model": "kids watch Sunny KW-48 Video 4G GPS Games&Music Violet",
+  "monthly": 2.82,
+  "monthly_old": null,
+  "full": 89.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/canyon-kids-watch-sunny-kw-48-video-4g-gps-games-music-violet.html",
   "category": "pulksteni"
  },
  "tet:82358": {
@@ -12659,18 +12671,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-4-45mm-silver-with-silver-grey-silicone-band.html",
   "category": "pulksteni"
  },
- "tet:101021": {
-  "operator": "tet",
-  "id": "101021",
-  "brand": "Garmin",
-  "model": "fenix 9 51mm Carbon Gray DLC Titanium with Black Silicone Band",
-  "monthly": 34.49,
-  "monthly_old": null,
-  "full": 1089.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-9-51mm-carbon-gray-dlc-titanium-with-black-silicone-band.html",
-  "category": "pulksteni"
- },
  "tet:88300": {
   "operator": "tet",
   "id": "88300",
@@ -12681,6 +12681,18 @@
   "full": 459.0,
   "full_old": 549.0,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-4-41mm-slate-with-black-silicone-band.html",
+  "category": "pulksteni"
+ },
+ "tet:101021": {
+  "operator": "tet",
+  "id": "101021",
+  "brand": "Garmin",
+  "model": "fenix 9 51mm Carbon Gray DLC Titanium with Black Silicone Band",
+  "monthly": 34.49,
+  "monthly_old": null,
+  "full": 1089.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-9-51mm-carbon-gray-dlc-titanium-with-black-silicone-band.html",
   "category": "pulksteni"
  },
  "tet:101237": {
@@ -12695,18 +12707,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-46mm-dark-bronze-aluminium-case-with-olive-sport-band-m-l.html",
   "category": "pulksteni"
  },
- "tet:85445": {
-  "operator": "tet",
-  "id": "85445",
-  "brand": "Samsung",
-  "model": "Galaxy Watch8 Classic Black BT",
-  "monthly": 14.85,
-  "monthly_old": null,
-  "full": 469.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-watch8-classic-black-bt.html",
-  "category": "pulksteni"
- },
  "tet:101232": {
   "operator": "tet",
   "id": "101232",
@@ -12717,6 +12717,18 @@
   "full": 509.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-46mm-black-aluminium-case-with-black-sport-band-s-m.html",
+  "category": "pulksteni"
+ },
+ "tet:85445": {
+  "operator": "tet",
+  "id": "85445",
+  "brand": "Samsung",
+  "model": "Galaxy Watch8 Classic Black BT",
+  "monthly": 14.85,
+  "monthly_old": null,
+  "full": 469.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-watch8-classic-black-bt.html",
   "category": "pulksteni"
  },
  "tet:88299": {
@@ -12947,18 +12959,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-9-47mm-carbon-gray-dlc-titanium-with-black-silicone-band.html",
   "category": "pulksteni"
  },
- "tet:85136": {
-  "operator": "tet",
-  "id": "85136",
-  "brand": "Huawei",
-  "model": "Band 10 Pink",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 54.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-band-10-pink.html",
-  "category": "pulksteni"
- },
  "tet:101264": {
   "operator": "tet",
   "id": "101264",
@@ -12969,6 +12969,18 @@
   "full": 859.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-42mm-natural-titanium-case-with-natural-milanese-loop.html",
+  "category": "pulksteni"
+ },
+ "tet:85136": {
+  "operator": "tet",
+  "id": "85136",
+  "brand": "Huawei",
+  "model": "Band 10 Pink",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 54.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-band-10-pink.html",
   "category": "pulksteni"
  },
  "tet:101329": {
@@ -13031,18 +13043,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-x1-moss-with-titanium-caseback-and-moss-comfortfit-nylon-band.html",
   "category": "pulksteni"
  },
- "tet:76834": {
-  "operator": "tet",
-  "id": "76834",
-  "brand": "Garmin",
-  "model": "fenix 8 47mm AMOLED Sapphire Titanium with Spark Orange/Graphite silicone band",
-  "monthly": 25.37,
-  "monthly_old": null,
-  "full": 801.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-8-47mm-amoled-sapphire-titanium-with-spark-orange-graphite-silicone-band.html",
-  "category": "pulksteni"
- },
  "tet:62945": {
   "operator": "tet",
   "id": "62945",
@@ -13065,6 +13065,18 @@
   "full": 489.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-watch9-44mm-graphite-lte.html",
+  "category": "pulksteni"
+ },
+ "tet:76834": {
+  "operator": "tet",
+  "id": "76834",
+  "brand": "Garmin",
+  "model": "fenix 8 47mm AMOLED Sapphire Titanium with Spark Orange/Graphite silicone band",
+  "monthly": 25.37,
+  "monthly_old": null,
+  "full": 801.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-8-47mm-amoled-sapphire-titanium-with-spark-orange-graphite-silicone-band.html",
   "category": "pulksteni"
  },
  "tet:76838": {
@@ -13103,18 +13115,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt6-46mm-black-stainless-steel-case-with-black-fluoroelastomer-strap.html",
   "category": "pulksteni"
  },
- "tet:86532": {
-  "operator": "tet",
-  "id": "86532",
-  "brand": "Canyon",
-  "model": "kids watch Sunny KW-48 Video 4G GPS Games&Music Green",
-  "monthly": 2.57,
-  "monthly_old": null,
-  "full": 81.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/canyon-kids-watch-sunny-kw-48-video-4g-gps-games-music-green.html",
-  "category": "pulksteni"
- },
  "tet:99285": {
   "operator": "tet",
   "id": "99285",
@@ -13125,6 +13125,18 @@
   "full": 279.0,
   "full_old": 299.0,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-fit-5-pro-black.html",
+  "category": "pulksteni"
+ },
+ "tet:86532": {
+  "operator": "tet",
+  "id": "86532",
+  "brand": "Canyon",
+  "model": "kids watch Sunny KW-48 Video 4G GPS Games&Music Green",
+  "monthly": 2.57,
+  "monthly_old": null,
+  "full": 81.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/canyon-kids-watch-sunny-kw-48-video-4g-gps-games-music-green.html",
   "category": "pulksteni"
  },
  "tet:82323": {
@@ -13175,18 +13187,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-ultra-4-gps-cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop-l.html",
   "category": "pulksteni"
  },
- "tet:76837": {
-  "operator": "tet",
-  "id": "76837",
-  "brand": "Garmin",
-  "model": "fenix 8 51mm AMOLED Sapphire Titanium with a Spark Orange/Graphite silicone band",
-  "monthly": 28.22,
-  "monthly_old": null,
-  "full": 891.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-8-51mm-amoled-sapphire-titanium-with-a-spark-orange-graphite-silicone-band.html",
-  "category": "pulksteni"
- },
  "tet:101241": {
   "operator": "tet",
   "id": "101241",
@@ -13197,18 +13197,6 @@
   "full": 579.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-42mm-space-grey-aluminium-case-with-navy-blue-sport-band-s-m.html",
-  "category": "pulksteni"
- },
- "tet:76830": {
-  "operator": "tet",
-  "id": "76830",
-  "brand": "Garmin",
-  "model": "fenix 8 51 mm AMOLED Sapphire Carbon Grey with Black/Pebble Grey silicone band",
-  "monthly": 28.22,
-  "monthly_old": null,
-  "full": 891.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-8-51-mm-amoled-sapphire-carbon-grey-with-black-pebble-grey-silicone-band.html",
   "category": "pulksteni"
  },
  "tet:63973": {
@@ -13223,18 +13211,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-vivoactive-5-blue-blue-metallic.html",
   "category": "pulksteni"
  },
- "tet:101236": {
-  "operator": "tet",
-  "id": "101236",
-  "brand": "Apple",
-  "model": "Watch Series 12 GPS 46mm Dark Bronze Aluminium Case with Olive Sport Band - S/M",
-  "monthly": 16.12,
-  "monthly_old": null,
-  "full": 509.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-46mm-dark-bronze-aluminium-case-with-olive-sport-band-s-m.html",
-  "category": "pulksteni"
- },
  "tet:100385": {
   "operator": "tet",
   "id": "100385",
@@ -13245,6 +13221,18 @@
   "full": 439.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/samsung-galaxy-watch9-44mm-silver-bt.html",
+  "category": "pulksteni"
+ },
+ "tet:101236": {
+  "operator": "tet",
+  "id": "101236",
+  "brand": "Apple",
+  "model": "Watch Series 12 GPS 46mm Dark Bronze Aluminium Case with Olive Sport Band - S/M",
+  "monthly": 16.12,
+  "monthly_old": null,
+  "full": 509.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-46mm-dark-bronze-aluminium-case-with-olive-sport-band-s-m.html",
   "category": "pulksteni"
  },
  "tet:101313": {
@@ -13271,18 +13259,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-42mm-black-aluminium-case-with-black-sport-band-m-l.html",
   "category": "pulksteni"
  },
- "tet:86572": {
-  "operator": "tet",
-  "id": "86572",
-  "brand": "Huawei",
-  "model": "Watch GT6 Pro 46mm Titanium Alloy Case with Brown Woven Strap",
-  "monthly": 11.05,
-  "monthly_old": null,
-  "full": 349.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt6-pro-46mm-titanium-alloy-case-with-brown-woven-strap.html",
-  "category": "pulksteni"
- },
  "tet:101018": {
   "operator": "tet",
   "id": "101018",
@@ -13295,16 +13271,16 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-9-47mm-titanium-with-pebble-gray-silicone-band.html",
   "category": "pulksteni"
  },
- "tet:63972": {
+ "tet:86572": {
   "operator": "tet",
-  "id": "63972",
-  "brand": "Garmin",
-  "model": "Vivoactive 5 Orchid/Orchid Metallic",
-  "monthly": 7.89,
+  "id": "86572",
+  "brand": "Huawei",
+  "model": "Watch GT6 Pro 46mm Titanium Alloy Case with Brown Woven Strap",
+  "monthly": 11.05,
   "monthly_old": null,
-  "full": 249.0,
+  "full": 349.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-vivoactive-5-orchid-orchid-metallic.html",
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt6-pro-46mm-titanium-alloy-case-with-brown-woven-strap.html",
   "category": "pulksteni"
  },
  "tet:101017": {
@@ -13317,6 +13293,18 @@
   "full": 999.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-9-43mm-titanium-with-fog-gray-silicone-band.html",
+  "category": "pulksteni"
+ },
+ "tet:63972": {
+  "operator": "tet",
+  "id": "63972",
+  "brand": "Garmin",
+  "model": "Vivoactive 5 Orchid/Orchid Metallic",
+  "monthly": 7.89,
+  "monthly_old": null,
+  "full": 249.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-vivoactive-5-orchid-orchid-metallic.html",
   "category": "pulksteni"
  },
  "tet:101230": {
@@ -13367,18 +13355,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-s-powder-gray.html",
   "category": "pulksteni"
  },
- "tet:100614": {
-  "operator": "tet",
-  "id": "100614",
-  "brand": "Garmin",
-  "model": "CIRQA Smart Band L-XL Franch Gray",
-  "monthly": 6.3,
-  "monthly_old": null,
-  "full": 199.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-cirqa-smart-band-l-xl-franch-gray.html",
-  "category": "pulksteni"
- },
  "tet:88042": {
   "operator": "tet",
   "id": "88042",
@@ -13401,6 +13377,18 @@
   "full": 579.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-42mm-light-gold-aluminium-case-with-sand-sport-band-s-m.html",
+  "category": "pulksteni"
+ },
+ "tet:100614": {
+  "operator": "tet",
+  "id": "100614",
+  "brand": "Garmin",
+  "model": "CIRQA Smart Band L-XL Franch Gray",
+  "monthly": 6.3,
+  "monthly_old": null,
+  "full": 199.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-cirqa-smart-band-l-xl-franch-gray.html",
   "category": "pulksteni"
  },
  "tet:72658": {
@@ -13427,30 +13415,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-band-10-black.html",
   "category": "pulksteni"
  },
- "tet:86574": {
-  "operator": "tet",
-  "id": "86574",
-  "brand": "Huawei",
-  "model": "Watch GT6 Pro 46mm Titanium Alloy Case with Titanium Strap",
-  "monthly": 14.85,
-  "monthly_old": null,
-  "full": 469.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt6-pro-46mm-titanium-alloy-case-with-titanium-strap.html",
-  "category": "pulksteni"
- },
- "tet:100866": {
-  "operator": "tet",
-  "id": "100866",
-  "brand": "Garmin",
-  "model": "CIRQA Smart Band S-M Captain Blue",
-  "monthly": 6.3,
-  "monthly_old": null,
-  "full": 199.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-cirqa-smart-band-s-m-captain-blue.html",
-  "category": "pulksteni"
- },
  "tet:101324": {
   "operator": "tet",
   "id": "101324",
@@ -13473,6 +13437,30 @@
   "full": 509.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-46mm-light-gold-aluminium-case-with-sand-sport-band-s-m.html",
+  "category": "pulksteni"
+ },
+ "tet:100866": {
+  "operator": "tet",
+  "id": "100866",
+  "brand": "Garmin",
+  "model": "CIRQA Smart Band S-M Captain Blue",
+  "monthly": 6.3,
+  "monthly_old": null,
+  "full": 199.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-cirqa-smart-band-s-m-captain-blue.html",
+  "category": "pulksteni"
+ },
+ "tet:86574": {
+  "operator": "tet",
+  "id": "86574",
+  "brand": "Huawei",
+  "model": "Watch GT6 Pro 46mm Titanium Alloy Case with Titanium Strap",
+  "monthly": 14.85,
+  "monthly_old": null,
+  "full": 469.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt6-pro-46mm-titanium-alloy-case-with-titanium-strap.html",
   "category": "pulksteni"
  },
  "tet:86537": {
@@ -13619,16 +13607,16 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-42mm-dark-bronze-aluminium-case-with-olive-sport-band-s-m.html",
   "category": "pulksteni"
  },
- "tet:86526": {
+ "tet:62947": {
   "operator": "tet",
-  "id": "86526",
-  "brand": "Canyon",
-  "model": "Chatter SW-58 Black Green",
-  "monthly": null,
+  "id": "62947",
+  "brand": "Garmin",
+  "model": "Venu 3S Sage Gray/Passivated",
+  "monthly": 12.0,
   "monthly_old": null,
-  "full": 34.5,
+  "full": 379.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/canyon-chatter-sw-58-black-green.html",
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-3s-sage-gray-passivated.html",
   "category": "pulksteni"
  },
  "tet:86527": {
@@ -13643,16 +13631,16 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/canyon-chatter-sw-58-silver-gray.html",
   "category": "pulksteni"
  },
- "tet:62947": {
+ "tet:86526": {
   "operator": "tet",
-  "id": "62947",
-  "brand": "Garmin",
-  "model": "Venu 3S Sage Gray/Passivated",
-  "monthly": 12.0,
+  "id": "86526",
+  "brand": "Canyon",
+  "model": "Chatter SW-58 Black Green",
+  "monthly": null,
   "monthly_old": null,
-  "full": 379.0,
+  "full": 34.5,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-3s-sage-gray-passivated.html",
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/canyon-chatter-sw-58-black-green.html",
   "category": "pulksteni"
  },
  "tet:88016": {
@@ -13703,16 +13691,16 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-42mm-space-grey-aluminium-case-with-navy-blue-sport-band-m-l.html",
   "category": "pulksteni"
  },
- "tet:82352": {
+ "tet:101252": {
   "operator": "tet",
-  "id": "82352",
-  "brand": "Huawei",
-  "model": "Watch Fit 4 White",
-  "monthly": 5.35,
+  "id": "101252",
+  "brand": "Apple",
+  "model": "Watch Series 12 GPS + Cellular 46mm Black Aluminium Case with Black Sport Band - M/L",
+  "monthly": 19.92,
   "monthly_old": null,
-  "full": 169.0,
+  "full": 629.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-fit-4-white.html",
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-46mm-black-aluminium-case-with-black-sport-band-m-l.html",
   "category": "pulksteni"
  },
  "tet:88301": {
@@ -13727,40 +13715,16 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-bounce-2-slate-grey.html",
   "category": "pulksteni"
  },
- "tet:66369": {
+ "tet:82352": {
   "operator": "tet",
-  "id": "66369",
-  "brand": "Garmin",
-  "model": "Forerunner 265 Music Whitestone",
-  "monthly": 11.69,
+  "id": "82352",
+  "brand": "Huawei",
+  "model": "Watch Fit 4 White",
+  "monthly": 5.35,
   "monthly_old": null,
-  "full": 369.0,
+  "full": 169.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-forerunner-265-music-whitestone.html",
-  "category": "pulksteni"
- },
- "tet:101252": {
-  "operator": "tet",
-  "id": "101252",
-  "brand": "Apple",
-  "model": "Watch Series 12 GPS + Cellular 46mm Black Aluminium Case with Black Sport Band - M/L",
-  "monthly": 19.92,
-  "monthly_old": null,
-  "full": 629.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-46mm-black-aluminium-case-with-black-sport-band-m-l.html",
-  "category": "pulksteni"
- },
- "tet:86525": {
-  "operator": "tet",
-  "id": "86525",
-  "brand": "Canyon",
-  "model": "Chatter SW-58 Silver Red",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 34.5,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/canyon-chatter-sw-58-silver-red.html",
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-fit-4-white.html",
   "category": "pulksteni"
  },
  "tet:75715": {
@@ -13773,6 +13737,18 @@
   "full": 299.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-s-all-black.html",
+  "category": "pulksteni"
+ },
+ "tet:86525": {
+  "operator": "tet",
+  "id": "86525",
+  "brand": "Canyon",
+  "model": "Chatter SW-58 Silver Red",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 34.5,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/canyon-chatter-sw-58-silver-red.html",
   "category": "pulksteni"
  },
  "tet:72653": {
@@ -13799,6 +13775,18 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-forerunner-165-music-turquoise-aqua.html",
   "category": "pulksteni"
  },
+ "tet:86576": {
+  "operator": "tet",
+  "id": "86576",
+  "brand": "Huawei",
+  "model": "Watch GT6 41mm Gold Stainless Steel Case with White Composite Leather Strap",
+  "monthly": 7.89,
+  "monthly_old": null,
+  "full": 249.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt6-41mm-gold-stainless-steel-case-with-white-composite-leather-strap.html",
+  "category": "pulksteni"
+ },
  "tet:76744": {
   "operator": "tet",
   "id": "76744",
@@ -13821,30 +13809,6 @@
   "full": 379.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-venu-3s-pink-dawn-soft-gold.html",
-  "category": "pulksteni"
- },
- "tet:86576": {
-  "operator": "tet",
-  "id": "86576",
-  "brand": "Huawei",
-  "model": "Watch GT6 41mm Gold Stainless Steel Case with White Composite Leather Strap",
-  "monthly": 7.89,
-  "monthly_old": null,
-  "full": 249.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt6-41mm-gold-stainless-steel-case-with-white-composite-leather-strap.html",
-  "category": "pulksteni"
- },
- "tet:66368": {
-  "operator": "tet",
-  "id": "66368",
-  "brand": "Garmin",
-  "model": "Forerunner 265 Music Black",
-  "monthly": 11.69,
-  "monthly_old": null,
-  "full": 369.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-forerunner-265-music-black.html",
   "category": "pulksteni"
  },
  "tet:99287": {
@@ -13881,18 +13845,6 @@
   "full": 459.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-42mm-light-gold-aluminium-case-with-sand-sport-band-m-l.html",
-  "category": "pulksteni"
- },
- "tet:76832": {
-  "operator": "tet",
-  "id": "76832",
-  "brand": "Garmin",
-  "model": "fenix 8 47mm Solar Sapphire Titanium with Amp Yellow/Graphite silicone band",
-  "monthly": 25.37,
-  "monthly_old": null,
-  "full": 801.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-8-47mm-solar-sapphire-titanium-with-amp-yellow-graphite-silicone-band.html",
   "category": "pulksteni"
  },
  "tet:101786": {
@@ -13967,18 +13919,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-42mm-silver-aluminium-case-with-purple-fog-sport-band-m-l.html",
   "category": "pulksteni"
  },
- "tet:101287": {
-  "operator": "tet",
-  "id": "101287",
-  "brand": "Apple",
-  "model": "Watch Ultra 4 GPS + Cellular 49mm Natural Titanium Case with Sand Trail Loop - S/M",
-  "monthly": 28.79,
-  "monthly_old": null,
-  "full": 909.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-ultra-4-gps-cellular-49mm-natural-titanium-case-with-sand-trail-loop-s-m.html",
-  "category": "pulksteni"
- },
  "tet:101328": {
   "operator": "tet",
   "id": "101328",
@@ -13989,6 +13929,18 @@
   "full": 329.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-cellular-40mm-midnight-aluminium-case-with-navy-blue-sport-band-s-m.html",
+  "category": "pulksteni"
+ },
+ "tet:101287": {
+  "operator": "tet",
+  "id": "101287",
+  "brand": "Apple",
+  "model": "Watch Ultra 4 GPS + Cellular 49mm Natural Titanium Case with Sand Trail Loop - S/M",
+  "monthly": 28.79,
+  "monthly_old": null,
+  "full": 909.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-ultra-4-gps-cellular-49mm-natural-titanium-case-with-sand-trail-loop-s-m.html",
   "category": "pulksteni"
  },
  "tet:101250": {
@@ -14087,18 +14039,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-5-46mm-midnight-black.html",
   "category": "pulksteni"
  },
- "tet:100300": {
-  "operator": "tet",
-  "id": "100300",
-  "brand": "Xiaomi",
-  "model": "Watch 5 Juniper Green",
-  "monthly": 9.12,
-  "monthly_old": null,
-  "full": 288.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/xiaomi-watch-5-juniper-green.html",
-  "category": "pulksteni"
- },
  "tet:57468": {
   "operator": "tet",
   "id": "57468",
@@ -14109,6 +14049,18 @@
   "full": 699.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-titanium-solar-black.html",
+  "category": "pulksteni"
+ },
+ "tet:100300": {
+  "operator": "tet",
+  "id": "100300",
+  "brand": "Xiaomi",
+  "model": "Watch 5 Juniper Green",
+  "monthly": 9.12,
+  "monthly_old": null,
+  "full": 288.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/xiaomi-watch-5-juniper-green.html",
   "category": "pulksteni"
  },
  "tet:101233": {
@@ -14123,16 +14075,16 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-46mm-black-aluminium-case-with-black-sport-band-m-l.html",
   "category": "pulksteni"
  },
- "tet:77014": {
+ "tet:88037": {
   "operator": "tet",
-  "id": "77014",
-  "brand": "Huawei",
-  "model": "Watch GT 5 46mm Black",
-  "monthly": 6.56,
+  "id": "88037",
+  "brand": "Apple",
+  "model": "Watch Series 11 GPS + Cellular 42mm Space Grey Aluminium Case with Black Sport Band - M/L",
+  "monthly": 18.34,
   "monthly_old": null,
-  "full": 207.0,
+  "full": 579.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt-5-46mm-black.html",
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-42mm-space-grey-aluminium-case-with-black-sport-band-m-l.html",
   "category": "pulksteni"
  },
  "tet:88302": {
@@ -14147,28 +14099,16 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-bounce-2-light-purple.html",
   "category": "pulksteni"
  },
- "tet:99473": {
+ "tet:77014": {
   "operator": "tet",
-  "id": "99473",
-  "brand": "Garett",
-  "model": "Kids Essa 4G Grey",
-  "monthly": 3.42,
+  "id": "77014",
+  "brand": "Huawei",
+  "model": "Watch GT 5 46mm Black",
+  "monthly": 6.56,
   "monthly_old": null,
-  "full": 108.0,
+  "full": 207.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-essa-4g-grey.html",
-  "category": "pulksteni"
- },
- "tet:88037": {
-  "operator": "tet",
-  "id": "88037",
-  "brand": "Apple",
-  "model": "Watch Series 11 GPS + Cellular 42mm Space Grey Aluminium Case with Black Sport Band - M/L",
-  "monthly": 18.34,
-  "monthly_old": null,
-  "full": 579.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-42mm-space-grey-aluminium-case-with-black-sport-band-m-l.html",
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt-5-46mm-black.html",
   "category": "pulksteni"
  },
  "tet:99469": {
@@ -14183,16 +14123,16 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-twin-2-4g-blue.html",
   "category": "pulksteni"
  },
- "tet:99109": {
+ "tet:99473": {
   "operator": "tet",
-  "id": "99109",
-  "brand": "Huawei",
-  "model": "Watch GT Runner 2 Dusk Blue",
-  "monthly": 12.54,
+  "id": "99473",
+  "brand": "Garett",
+  "model": "Kids Essa 4G Grey",
+  "monthly": 3.42,
   "monthly_old": null,
-  "full": 396.0,
+  "full": 108.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt-runner-2-dusk-blue.html",
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-essa-4g-grey.html",
   "category": "pulksteni"
  },
  "tet:101292": {
@@ -14207,6 +14147,18 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-ultra-4-gps-cellular-49mm-black-titanium-case-with-burgundy-alpine-loop-l.html",
   "category": "pulksteni"
  },
+ "tet:99109": {
+  "operator": "tet",
+  "id": "99109",
+  "brand": "Huawei",
+  "model": "Watch GT Runner 2 Dusk Blue",
+  "monthly": 12.54,
+  "monthly_old": null,
+  "full": 396.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt-runner-2-dusk-blue.html",
+  "category": "pulksteni"
+ },
  "tet:101251": {
   "operator": "tet",
   "id": "101251",
@@ -14219,18 +14171,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-46mm-black-aluminium-case-with-black-sport-band-s-m.html",
   "category": "pulksteni"
  },
- "tet:88057": {
-  "operator": "tet",
-  "id": "88057",
-  "brand": "Apple",
-  "model": "Watch Series 11 GPS + Cellular 42mm Slate Titanium Case with Slate Milanese Loop",
-  "monthly": 27.2,
-  "monthly_old": null,
-  "full": 859.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-42mm-slate-titanium-case-with-slate-milanese-loop.html",
-  "category": "pulksteni"
- },
  "tet:88036": {
   "operator": "tet",
   "id": "88036",
@@ -14241,6 +14181,18 @@
   "full": 579.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-42mm-space-grey-aluminium-case-with-black-sport-band-s-m.html",
+  "category": "pulksteni"
+ },
+ "tet:88057": {
+  "operator": "tet",
+  "id": "88057",
+  "brand": "Apple",
+  "model": "Watch Series 11 GPS + Cellular 42mm Slate Titanium Case with Slate Milanese Loop",
+  "monthly": 27.2,
+  "monthly_old": null,
+  "full": 859.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-42mm-slate-titanium-case-with-slate-milanese-loop.html",
   "category": "pulksteni"
  },
  "tet:97966": {
@@ -14291,18 +14243,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-vibe-ai-4g-black.html",
   "category": "pulksteni"
  },
- "tet:82356": {
-  "operator": "tet",
-  "id": "82356",
-  "brand": "Huawei",
-  "model": "Watch Fit 4 Pro Green",
-  "monthly": 6.3,
-  "monthly_old": null,
-  "full": 199.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-fit-4-pro-green.html",
-  "category": "pulksteni"
- },
  "tet:88035": {
   "operator": "tet",
   "id": "88035",
@@ -14315,6 +14255,18 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-42mm-jet-black-aluminium-case-with-black-sport-band-m-l.html",
   "category": "pulksteni"
  },
+ "tet:82356": {
+  "operator": "tet",
+  "id": "82356",
+  "brand": "Huawei",
+  "model": "Watch Fit 4 Pro Green",
+  "monthly": 6.3,
+  "monthly_old": null,
+  "full": 199.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-fit-4-pro-green.html",
+  "category": "pulksteni"
+ },
  "tet:87862": {
   "operator": "tet",
   "id": "87862",
@@ -14325,6 +14277,18 @@
   "full": 306.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/huami-amazfit-balance-2-black.html",
+  "category": "pulksteni"
+ },
+ "tet:102205": {
+  "operator": "tet",
+  "id": "102205",
+  "brand": "COROS",
+  "model": "APEX 4 GPS 46mm White",
+  "monthly": 15.8,
+  "monthly_old": null,
+  "full": 499.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/coros-apex-4-gps-46mm-white-2.html",
   "category": "pulksteni"
  },
  "tet:99471": {
@@ -14375,42 +14339,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/xiaomi-watch-s5-46mm-jungle-green.html",
   "category": "pulksteni"
  },
- "tet:101335": {
-  "operator": "tet",
-  "id": "101335",
-  "brand": "Apple",
-  "model": "Watch SE 3 GPS + Cellular 44mm Midnight Aluminium Case with Navy Blue Sport Band - S/M",
-  "monthly": 11.37,
-  "monthly_old": null,
-  "full": 359.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-cellular-44mm-midnight-aluminium-case-with-navy-blue-sport-band-s-m.html",
-  "category": "pulksteni"
- },
- "tet:99464": {
-  "operator": "tet",
-  "id": "99464",
-  "brand": "Garett",
-  "model": "Kids Vibe 4G Pink",
-  "monthly": 3.71,
-  "monthly_old": null,
-  "full": 117.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-vibe-4g-pink.html",
-  "category": "pulksteni"
- },
- "tet:88048": {
-  "operator": "tet",
-  "id": "88048",
-  "brand": "Apple",
-  "model": "Watch Series 11 GPS + Cellular 46mm Silver Aluminium Case with Purple Fog Sport Band - S/M",
-  "monthly": 19.29,
-  "monthly_old": null,
-  "full": 609.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-46mm-silver-aluminium-case-with-purple-fog-sport-band-s-m.html",
-  "category": "pulksteni"
- },
  "tet:101243": {
   "operator": "tet",
   "id": "101243",
@@ -14433,6 +14361,42 @@
   "full": 459.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-42mm-space-grey-aluminium-case-with-navy-blue-sport-band-s-m.html",
+  "category": "pulksteni"
+ },
+ "tet:88048": {
+  "operator": "tet",
+  "id": "88048",
+  "brand": "Apple",
+  "model": "Watch Series 11 GPS + Cellular 46mm Silver Aluminium Case with Purple Fog Sport Band - S/M",
+  "monthly": 19.29,
+  "monthly_old": null,
+  "full": 609.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-46mm-silver-aluminium-case-with-purple-fog-sport-band-s-m.html",
+  "category": "pulksteni"
+ },
+ "tet:101335": {
+  "operator": "tet",
+  "id": "101335",
+  "brand": "Apple",
+  "model": "Watch SE 3 GPS + Cellular 44mm Midnight Aluminium Case with Navy Blue Sport Band - S/M",
+  "monthly": 11.37,
+  "monthly_old": null,
+  "full": 359.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-cellular-44mm-midnight-aluminium-case-with-navy-blue-sport-band-s-m.html",
+  "category": "pulksteni"
+ },
+ "tet:99464": {
+  "operator": "tet",
+  "id": "99464",
+  "brand": "Garett",
+  "model": "Kids Vibe 4G Pink",
+  "monthly": 3.71,
+  "monthly_old": null,
+  "full": 117.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-vibe-4g-pink.html",
   "category": "pulksteni"
  },
  "tet:100117": {
@@ -14495,18 +14459,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-all-black-with-silicone-strap.html",
   "category": "pulksteni"
  },
- "tet:100301": {
-  "operator": "tet",
-  "id": "100301",
-  "brand": "Xiaomi",
-  "model": "Watch 5 Black",
-  "monthly": 9.12,
-  "monthly_old": null,
-  "full": 288.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/xiaomi-watch-5-black.html",
-  "category": "pulksteni"
- },
  "tet:101256": {
   "operator": "tet",
   "id": "101256",
@@ -14517,6 +14469,18 @@
   "full": 629.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-12-gps-cellular-46mm-dark-bronze-aluminium-case-with-olive-sport-band-m-l.html",
+  "category": "pulksteni"
+ },
+ "tet:100301": {
+  "operator": "tet",
+  "id": "100301",
+  "brand": "Xiaomi",
+  "model": "Watch 5 Black",
+  "monthly": 9.12,
+  "monthly_old": null,
+  "full": 288.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/xiaomi-watch-5-black.html",
   "category": "pulksteni"
  },
  "tet:99465": {
@@ -14639,16 +14603,16 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-s-powder-pink.html",
   "category": "pulksteni"
  },
- "tet:56433": {
+ "tet:76743": {
   "operator": "tet",
-  "id": "56433",
+  "id": "76743",
   "brand": "Garmin",
-  "model": "Forerunner 965 Yellow",
-  "monthly": 16.53,
+  "model": "Lily 2 Active Silver/ with Purple Jasmine Silicone Band",
+  "monthly": 11.05,
   "monthly_old": null,
-  "full": 522.0,
+  "full": 349.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-forerunner-965-yellow.html",
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-lily-2-active-silver-with-purple-jasmine-silicone-band.html",
   "category": "pulksteni"
  },
  "tet:73354": {
@@ -14661,18 +14625,6 @@
   "full": 479.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-solar-all-black.html",
-  "category": "pulksteni"
- },
- "tet:76743": {
-  "operator": "tet",
-  "id": "76743",
-  "brand": "Garmin",
-  "model": "Lily 2 Active Silver/ with Purple Jasmine Silicone Band",
-  "monthly": 11.05,
-  "monthly_old": null,
-  "full": 349.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-lily-2-active-silver-with-purple-jasmine-silicone-band.html",
   "category": "pulksteni"
  },
  "tet:77331": {
@@ -14711,18 +14663,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-bounce-2-turquoise.html",
   "category": "pulksteni"
  },
- "tet:86522": {
-  "operator": "tet",
-  "id": "86522",
-  "brand": "Canyon",
-  "model": "Easy SW-54 Beige",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 38.75,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/canyon-easy-sw-54-beige.html",
-  "category": "pulksteni"
- },
  "tet:100867": {
   "operator": "tet",
   "id": "100867",
@@ -14733,6 +14673,18 @@
   "full": 199.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-cirqa-smart-band-l-xl-captain-blue.html",
+  "category": "pulksteni"
+ },
+ "tet:86522": {
+  "operator": "tet",
+  "id": "86522",
+  "brand": "Canyon",
+  "model": "Easy SW-54 Beige",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 38.75,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/canyon-easy-sw-54-beige.html",
   "category": "pulksteni"
  },
  "tet:82014": {
@@ -14759,18 +14711,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/huawei-watch-gt-runner-2-dawn-orange.html",
   "category": "pulksteni"
  },
- "tet:99151": {
-  "operator": "tet",
-  "id": "99151",
-  "brand": "Garmin",
-  "model": "Approach J1 Silver Aluminum Bezel with Lilac ComfortFit Fabric Band",
-  "monthly": 10.93,
-  "monthly_old": null,
-  "full": 345.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-approach-j1-silver-aluminum-bezel-with-lilac-comfortfit-fabric-band.html",
-  "category": "pulksteni"
- },
  "tet:101337": {
   "operator": "tet",
   "id": "101337",
@@ -14783,18 +14723,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-cellular-44mm-midnight-aluminium-case-with-navy-blue-sport-band-m-l.html",
   "category": "pulksteni"
  },
- "tet:101331": {
-  "operator": "tet",
-  "id": "101331",
-  "brand": "Apple",
-  "model": "Watch SE 3 GPS + Cellular 44mm Starlight Aluminium Case with Sand Sport Band - S/M",
-  "monthly": 11.37,
-  "monthly_old": null,
-  "full": 359.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-cellular-44mm-starlight-aluminium-case-with-sand-sport-band-s-m.html",
-  "category": "pulksteni"
- },
  "tet:101978": {
   "operator": "tet",
   "id": "101978",
@@ -14805,6 +14733,18 @@
   "full": 499.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-3s-titanium-feather.html",
+  "category": "pulksteni"
+ },
+ "tet:101331": {
+  "operator": "tet",
+  "id": "101331",
+  "brand": "Apple",
+  "model": "Watch SE 3 GPS + Cellular 44mm Starlight Aluminium Case with Sand Sport Band - S/M",
+  "monthly": 11.37,
+  "monthly_old": null,
+  "full": 359.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-se-3-gps-cellular-44mm-starlight-aluminium-case-with-sand-sport-band-s-m.html",
   "category": "pulksteni"
  },
  "tet:85446": {
@@ -14939,18 +14879,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-titanium-solar-sand.html",
   "category": "pulksteni"
  },
- "tet:76833": {
-  "operator": "tet",
-  "id": "76833",
-  "brand": "Garmin",
-  "model": "fenix 8 47mm Solar Sapphire Carbon Grey DLC Titanium with Black/Pebble Grey",
-  "monthly": 25.37,
-  "monthly_old": null,
-  "full": 801.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-8-47mm-solar-sapphire-carbon-grey-dlc-titanium-with-black-pebble-grey.html",
-  "category": "pulksteni"
- },
  "tet:86523": {
   "operator": "tet",
   "id": "86523",
@@ -15047,18 +14975,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-coral-orange.html",
   "category": "pulksteni"
  },
- "tet:101979": {
-  "operator": "tet",
-  "id": "101979",
-  "brand": "Suunto",
-  "model": "Race 3S Titanium Orchid",
-  "monthly": 15.8,
-  "monthly_old": null,
-  "full": 499.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-3s-titanium-orchid.html",
-  "category": "pulksteni"
- },
  "tet:88633": {
   "operator": "tet",
   "id": "88633",
@@ -15069,6 +14985,18 @@
   "full": 699.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-2-titanium-sage.html",
+  "category": "pulksteni"
+ },
+ "tet:101979": {
+  "operator": "tet",
+  "id": "101979",
+  "brand": "Suunto",
+  "model": "Race 3S Titanium Orchid",
+  "monthly": 15.8,
+  "monthly_old": null,
+  "full": 499.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-3s-titanium-orchid.html",
   "category": "pulksteni"
  },
  "tet:57467": {
@@ -15095,6 +15023,30 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-frost-gray-with-silicone-strap.html",
   "category": "pulksteni"
  },
+ "tet:87857": {
+  "operator": "tet",
+  "id": "87857",
+  "brand": "Suunto",
+  "model": "Run Lime with Silicone Strap",
+  "monthly": 6.3,
+  "monthly_old": null,
+  "full": 199.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-lime-with-silicone-strap.html",
+  "category": "pulksteni"
+ },
+ "tet:73356": {
+  "operator": "tet",
+  "id": "73356",
+  "brand": "Suunto",
+  "model": "Vertical Solar Canyon",
+  "monthly": 15.17,
+  "monthly_old": null,
+  "full": 479.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-solar-canyon.html",
+  "category": "pulksteni"
+ },
  "tet:101401": {
   "operator": "tet",
   "id": "101401",
@@ -15117,30 +15069,6 @@
   "full": 349.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-2-feather-gold-64gb.html",
-  "category": "pulksteni"
- },
- "tet:73356": {
-  "operator": "tet",
-  "id": "73356",
-  "brand": "Suunto",
-  "model": "Vertical Solar Canyon",
-  "monthly": 15.17,
-  "monthly_old": null,
-  "full": 479.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-solar-canyon.html",
-  "category": "pulksteni"
- },
- "tet:87857": {
-  "operator": "tet",
-  "id": "87857",
-  "brand": "Suunto",
-  "model": "Run Lime with Silicone Strap",
-  "monthly": 6.3,
-  "monthly_old": null,
-  "full": 199.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-lime-with-silicone-strap.html",
   "category": "pulksteni"
  },
  "tet:75720": {
@@ -15191,18 +15119,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-2-aloe-green-64gb.html",
   "category": "pulksteni"
  },
- "tet:75718": {
-  "operator": "tet",
-  "id": "75718",
-  "brand": "Suunto",
-  "model": "Race S Gravel Gray",
-  "monthly": 9.47,
-  "monthly_old": null,
-  "full": 299.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-s-gravel-gray.html",
-  "category": "pulksteni"
- },
  "tet:87858": {
   "operator": "tet",
   "id": "87858",
@@ -15213,6 +15129,18 @@
   "full": 199.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-run-coral-orange-with-silicone-strap.html",
+  "category": "pulksteni"
+ },
+ "tet:75718": {
+  "operator": "tet",
+  "id": "75718",
+  "brand": "Suunto",
+  "model": "Race S Gravel Gray",
+  "monthly": 9.47,
+  "monthly_old": null,
+  "full": 299.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-s-gravel-gray.html",
   "category": "pulksteni"
  },
  "tet:101404": {
@@ -15251,18 +15179,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-2-all-black.html",
   "category": "pulksteni"
  },
- "tet:76835": {
-  "operator": "tet",
-  "id": "76835",
-  "brand": "Garmin",
-  "model": "fenix 8 51mm Solar Sapphire Titanium with Amp Yellow/Graphite silicone band",
-  "monthly": 28.22,
-  "monthly_old": null,
-  "full": 891.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-8-51mm-solar-sapphire-titanium-with-amp-yellow-graphite-silicone-band.html",
-  "category": "pulksteni"
- },
  "tet:88636": {
   "operator": "tet",
   "id": "88636",
@@ -15299,30 +15215,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-2-feather-gray.html",
   "category": "pulksteni"
  },
- "tet:76831": {
-  "operator": "tet",
-  "id": "76831",
-  "brand": "Garmin",
-  "model": "fenix 8 51mm Solar Sapphire Carbon Grey DLC Titanium with Black/Pebble Grey",
-  "monthly": 28.22,
-  "monthly_old": null,
-  "full": 891.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-8-51mm-solar-sapphire-carbon-grey-dlc-titanium-with-black-pebble-grey.html",
-  "category": "pulksteni"
- },
- "tet:88635": {
-  "operator": "tet",
-  "id": "88635",
-  "brand": "Suunto",
-  "model": "Vertical 2 Arctic Gray",
-  "monthly": 18.97,
-  "monthly_old": null,
-  "full": 599.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-2-arctic-gray.html",
-  "category": "pulksteni"
- },
  "tet:73355": {
   "operator": "tet",
   "id": "73355",
@@ -15335,16 +15227,16 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-solar-sand.html",
   "category": "pulksteni"
  },
- "tet:56434": {
+ "tet:88635": {
   "operator": "tet",
-  "id": "56434",
-  "brand": "Garmin",
-  "model": "Forerunner 965 White",
-  "monthly": 16.53,
+  "id": "88635",
+  "brand": "Suunto",
+  "model": "Vertical 2 Arctic Gray",
+  "monthly": 18.97,
   "monthly_old": null,
-  "full": 522.0,
+  "full": 599.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/garmin-forerunner-965-white.html",
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-vertical-2-arctic-gray.html",
   "category": "pulksteni"
  },
  "tet:77332": {
@@ -15383,6 +15275,18 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-2-wave-blue.html",
   "category": "pulksteni"
  },
+ "tet:102203": {
+  "operator": "tet",
+  "id": "102203",
+  "brand": "COROS",
+  "model": "APEX 4 GPS 42mm White",
+  "monthly": 14.22,
+  "monthly_old": null,
+  "full": 448.99,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/coros-apex-4-gps-42mm-white-2.html",
+  "category": "pulksteni"
+ },
  "tet:87850": {
   "operator": "tet",
   "id": "87850",
@@ -15393,6 +15297,18 @@
   "full": 599.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/suunto-race-2-titanium-trail.html",
+  "category": "pulksteni"
+ },
+ "tet:102202": {
+  "operator": "tet",
+  "id": "102202",
+  "brand": "COROS",
+  "model": "APEX 4 GPS 42mm Black",
+  "monthly": 14.22,
+  "monthly_old": null,
+  "full": 448.99,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/coros-apex-4-gps-42mm-black-2.html",
   "category": "pulksteni"
  },
  "tet:87853": {
@@ -15412,11 +15328,23 @@
   "id": "88049",
   "brand": "Apple",
   "model": "Watch Series 11 GPS + Cellular 46mm Silver Aluminium Case with Purple Fog Sport Band - M/L",
-  "monthly": 17.39,
+  "monthly": 19.29,
   "monthly_old": null,
-  "full": 549.0,
-  "full_old": 609.0,
+  "full": 609.0,
+  "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-46mm-silver-aluminium-case-with-purple-fog-sport-band-m-l.html",
+  "category": "pulksteni"
+ },
+ "tet:102204": {
+  "operator": "tet",
+  "id": "102204",
+  "brand": "COROS",
+  "model": "APEX 4 GPS 46mm Black",
+  "monthly": 15.8,
+  "monthly_old": null,
+  "full": 499.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/coros-apex-4-gps-46mm-black-2.html",
   "category": "pulksteni"
  },
  "tet:51900": {
@@ -15436,10 +15364,10 @@
   "id": "88034",
   "brand": "Apple",
   "model": "Watch Series 11 GPS + Cellular 42mm Jet Black Aluminium Case with Black Sport Band - S/M",
-  "monthly": 16.44,
+  "monthly": 18.34,
   "monthly_old": null,
-  "full": 519.0,
-  "full_old": 579.0,
+  "full": 579.0,
+  "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-42mm-jet-black-aluminium-case-with-black-sport-band-s-m.html",
   "category": "pulksteni"
  },
@@ -15460,10 +15388,10 @@
   "id": "88045",
   "brand": "Apple",
   "model": "Watch Series 11 GPS + Cellular 46mm Space Grey Aluminium Case with Black Sport Band - M/L",
-  "monthly": 17.39,
+  "monthly": 19.29,
   "monthly_old": null,
-  "full": 549.0,
-  "full_old": 609.0,
+  "full": 609.0,
+  "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-46mm-space-grey-aluminium-case-with-black-sport-band-m-l.html",
   "category": "pulksteni"
  },
@@ -15484,10 +15412,10 @@
   "id": "88068",
   "brand": "Apple",
   "model": "Watch Series 11 GPS + Cellular 46mm Slate Titanium Case with Slate Milanese Loop - M/L",
-  "monthly": 25.3,
+  "monthly": 28.79,
   "monthly_old": null,
-  "full": 799.0,
-  "full_old": 909.0,
+  "full": 909.0,
+  "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-46mm-slate-titanium-case-with-slate-milanese-loop-m-l.html",
   "category": "pulksteni"
  },
@@ -15508,10 +15436,10 @@
   "id": "88040",
   "brand": "Apple",
   "model": "Watch Series 11 GPS + Cellular 42mm Silver Aluminium Case with Purple Fog Sport Band - S/M",
-  "monthly": 16.44,
+  "monthly": 18.34,
   "monthly_old": null,
-  "full": 519.0,
-  "full_old": 579.0,
+  "full": 579.0,
+  "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-42mm-silver-aluminium-case-with-purple-fog-sport-band-s-m.html",
   "category": "pulksteni"
  },
@@ -15539,18 +15467,6 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/coros-pace-4-gps-sport-watch-nylon-black.html",
   "category": "pulksteni"
  },
- "tet:102164": {
-  "operator": "tet",
-  "id": "102164",
-  "brand": "COROS",
-  "model": "PACE 4 GPS Sport Watch - Gold Jakob Ingebrigtsen",
-  "monthly": 9.47,
-  "monthly_old": null,
-  "full": 299.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/coros-pace-4-gps-sport-watch-gold-jakob-ingebrigtsen.html",
-  "category": "pulksteni"
- },
  "tet:102166": {
   "operator": "tet",
   "id": "102166",
@@ -15561,6 +15477,18 @@
   "full": 289.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/coros-pace-4-gps-sport-watch-yellow-crystal.html",
+  "category": "pulksteni"
+ },
+ "tet:102164": {
+  "operator": "tet",
+  "id": "102164",
+  "brand": "COROS",
+  "model": "PACE 4 GPS Sport Watch - Gold Jakob Ingebrigtsen",
+  "monthly": 9.47,
+  "monthly_old": null,
+  "full": 299.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/coros-pace-4-gps-sport-watch-gold-jakob-ingebrigtsen.html",
   "category": "pulksteni"
  },
  "tet:102162": {
@@ -15575,16 +15503,40 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/coros-pace-4-gps-sport-watch-silicone-black.html",
   "category": "pulksteni"
  },
- "tet:102163": {
+ "tet:102167": {
   "operator": "tet",
-  "id": "102163",
+  "id": "102167",
   "brand": "COROS",
-  "model": "PACE 4 GPS Sport Watch - Silicone White",
-  "monthly": 8.52,
+  "model": "PACE 4 GPS Sport Watch - Ultraviolet",
+  "monthly": 9.15,
   "monthly_old": null,
-  "full": 269.0,
+  "full": 289.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/coros-pace-4-gps-sport-watch-silicone-white.html",
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/coros-pace-4-gps-sport-watch-ultraviolet.html",
+  "category": "pulksteni"
+ },
+ "tet:102176": {
+  "operator": "tet",
+  "id": "102176",
+  "brand": "COROS",
+  "model": "PACE 4 Pro GPS Sport Watch Black",
+  "monthly": 14.22,
+  "monthly_old": null,
+  "full": 448.99,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/coros-pace-4-pro-gps-sport-watch-black.html",
+  "category": "pulksteni"
+ },
+ "tet:102177": {
+  "operator": "tet",
+  "id": "102177",
+  "brand": "COROS",
+  "model": "PACE 4 Pro GPS Sport Watch White",
+  "monthly": 14.22,
+  "monthly_old": null,
+  "full": 448.99,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/coros-pace-4-pro-gps-sport-watch-white.html",
   "category": "pulksteni"
  },
  "tet:102165": {
@@ -15599,16 +15551,16 @@
   "url": "https://www.tet.lv/veikals/viedie-pulksteni/coros-pace-4-gps-sport-watch-black-crystal-nylon.html",
   "category": "pulksteni"
  },
- "tet:102167": {
+ "tet:102163": {
   "operator": "tet",
-  "id": "102167",
+  "id": "102163",
   "brand": "COROS",
-  "model": "PACE 4 GPS Sport Watch - Ultraviolet",
-  "monthly": 9.15,
+  "model": "PACE 4 GPS Sport Watch - Silicone White",
+  "monthly": 8.52,
   "monthly_old": null,
-  "full": 289.0,
+  "full": 269.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/viedie-pulksteni/coros-pace-4-gps-sport-watch-ultraviolet.html",
+  "url": "https://www.tet.lv/veikals/viedie-pulksteni/coros-pace-4-gps-sport-watch-silicone-white.html",
   "category": "pulksteni"
  },
  "tet:88021": {
@@ -15791,18 +15743,6 @@
   "url": "https://www.tet.lv/veikals/austinas/jbl-junior-470nc-white.html",
   "category": "austinas"
  },
- "tet:84931": {
-  "operator": "tet",
-  "id": "84931",
-  "brand": "JBL",
-  "model": "Tune Beam 2 Ghost Black",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 59.0,
-  "full_old": 69.0,
-  "url": "https://www.tet.lv/veikals/austinas/jbl-tune-beam-2-ghost-black.html",
-  "category": "austinas"
- },
  "tet:84930": {
   "operator": "tet",
   "id": "84930",
@@ -15813,6 +15753,18 @@
   "full": 59.0,
   "full_old": 69.0,
   "url": "https://www.tet.lv/veikals/austinas/jbl-tune-beam-2-teal.html",
+  "category": "austinas"
+ },
+ "tet:84931": {
+  "operator": "tet",
+  "id": "84931",
+  "brand": "JBL",
+  "model": "Tune Beam 2 Ghost Black",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 59.0,
+  "full_old": 69.0,
+  "url": "https://www.tet.lv/veikals/austinas/jbl-tune-beam-2-ghost-black.html",
   "category": "austinas"
  },
  "tet:68474": {
@@ -16139,18 +16091,6 @@
   "url": "https://www.tet.lv/veikals/austinas/shokz-openswim-pro-red.html",
   "category": "austinas"
  },
- "tet:76579": {
-  "operator": "tet",
-  "id": "76579",
-  "brand": "Apple",
-  "model": "AirPods Max - Blue",
-  "monthly": 17.7,
-  "monthly_old": null,
-  "full": 559.0,
-  "full_old": 579.0,
-  "url": "https://www.tet.lv/veikals/austinas/apple-airpods-max-blue.html",
-  "category": "austinas"
- },
  "tet:76346": {
   "operator": "tet",
   "id": "76346",
@@ -16161,6 +16101,18 @@
   "full": 59.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/sony-wf-c510-truly-wireless-earbuds-blue.html",
+  "category": "austinas"
+ },
+ "tet:76579": {
+  "operator": "tet",
+  "id": "76579",
+  "brand": "Apple",
+  "model": "AirPods Max - Blue",
+  "monthly": 17.7,
+  "monthly_old": null,
+  "full": 559.0,
+  "full_old": 579.0,
+  "url": "https://www.tet.lv/veikals/austinas/apple-airpods-max-blue.html",
   "category": "austinas"
  },
  "tet:48405": {
@@ -16247,18 +16199,6 @@
   "url": "https://www.tet.lv/veikals/austinas/samsung-galaxy-buds4-white.html",
   "category": "austinas"
  },
- "tet:68473": {
-  "operator": "tet",
-  "id": "68473",
-  "brand": "JBL",
-  "model": "Live 770NC White",
-  "monthly": 2.82,
-  "monthly_old": null,
-  "full": 89.0,
-  "full_old": 99.0,
-  "url": "https://www.tet.lv/veikals/austinas/jbl-live-770nc-white.html",
-  "category": "austinas"
- },
  "tet:58124": {
   "operator": "tet",
   "id": "58124",
@@ -16271,16 +16211,16 @@
   "url": "https://www.tet.lv/veikals/austinas/jbl-tour-pro-2-champagne.html",
   "category": "austinas"
  },
- "tet:84934": {
+ "tet:68473": {
   "operator": "tet",
-  "id": "84934",
+  "id": "68473",
   "brand": "JBL",
-  "model": "Tune Buds 2 Black",
-  "monthly": null,
+  "model": "Live 770NC White",
+  "monthly": 2.82,
   "monthly_old": null,
-  "full": 69.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/jbl-tune-buds-2-black.html",
+  "full": 89.0,
+  "full_old": 99.0,
+  "url": "https://www.tet.lv/veikals/austinas/jbl-live-770nc-white.html",
   "category": "austinas"
  },
  "tet:76345": {
@@ -16293,6 +16233,18 @@
   "full": 59.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/sony-wf-c510-truly-wireless-earbuds-black.html",
+  "category": "austinas"
+ },
+ "tet:84934": {
+  "operator": "tet",
+  "id": "84934",
+  "brand": "JBL",
+  "model": "Tune Buds 2 Black",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 69.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/jbl-tune-buds-2-black.html",
   "category": "austinas"
  },
  "tet:84935": {
@@ -16523,18 +16475,6 @@
   "url": "https://www.tet.lv/veikals/austinas/steelseries-arctis-nova-3-black.html",
   "category": "austinas"
  },
- "tet:48429": {
-  "operator": "tet",
-  "id": "48429",
-  "brand": "Logitech",
-  "model": "H650E Black",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 63.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/logitech-h650e-black.html",
-  "category": "austinas"
- },
  "tet:81130": {
   "operator": "tet",
   "id": "81130",
@@ -16545,6 +16485,18 @@
   "full": 54.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/razer-blackshark-v2-x-xbox-licensed-black.html",
+  "category": "austinas"
+ },
+ "tet:48429": {
+  "operator": "tet",
+  "id": "48429",
+  "brand": "Logitech",
+  "model": "H650E Black",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 63.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/logitech-h650e-black.html",
   "category": "austinas"
  },
  "tet:48431": {
@@ -16595,16 +16547,16 @@
   "url": "https://www.tet.lv/veikals/austinas/jbl-wave-flex-blue.html",
   "category": "austinas"
  },
- "tet:7020": {
+ "tet:74059": {
   "operator": "tet",
-  "id": "7020",
-  "brand": "Logitech",
-  "model": "H390 Black",
-  "monthly": null,
+  "id": "74059",
+  "brand": "Sony",
+  "model": "ULT Wear WHULT900NW.CE7 Off-White",
+  "monthly": 4.72,
   "monthly_old": null,
-  "full": 42.25,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/logitech-lgt-h390.html",
+  "full": 149.0,
+  "full_old": 159.0,
+  "url": "https://www.tet.lv/veikals/austinas/sony-ult-wear-whult900nw-ce7-off-white.html",
   "category": "austinas"
  },
  "tet:72578": {
@@ -16619,40 +16571,16 @@
   "url": "https://www.tet.lv/veikals/austinas/canyon-shadder-gh-6-black.html",
   "category": "austinas"
  },
- "tet:74059": {
+ "tet:7020": {
   "operator": "tet",
-  "id": "74059",
-  "brand": "Sony",
-  "model": "ULT Wear WHULT900NW.CE7 Off-White",
-  "monthly": 4.72,
-  "monthly_old": null,
-  "full": 149.0,
-  "full_old": 159.0,
-  "url": "https://www.tet.lv/veikals/austinas/sony-ult-wear-whult900nw-ce7-off-white.html",
-  "category": "austinas"
- },
- "tet:100149": {
-  "operator": "tet",
-  "id": "100149",
-  "brand": "Shokz",
-  "model": "Open Run Pro 2 Mini Orange",
-  "monthly": 5.99,
-  "monthly_old": null,
-  "full": 189.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/shokz-open-run-pro-2-mini-orange.html",
-  "category": "austinas"
- },
- "tet:100637": {
-  "operator": "tet",
-  "id": "100637",
-  "brand": "Philips",
-  "model": "bērniem TAK5500AL/00",
+  "id": "7020",
+  "brand": "Logitech",
+  "model": "H390 Black",
   "monthly": null,
   "monthly_old": null,
-  "full": 44.5,
+  "full": 42.25,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/philips-tak5500al-00.html",
+  "url": "https://www.tet.lv/veikals/austinas/logitech-lgt-h390.html",
   "category": "austinas"
  },
  "tet:70187": {
@@ -16667,6 +16595,30 @@
   "url": "https://www.tet.lv/veikals/austinas/logitech-zone-vibe-100-off-white.html",
   "category": "austinas"
  },
+ "tet:100637": {
+  "operator": "tet",
+  "id": "100637",
+  "brand": "Philips",
+  "model": "bērniem TAK5500AL/00",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 44.5,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/philips-tak5500al-00.html",
+  "category": "austinas"
+ },
+ "tet:100149": {
+  "operator": "tet",
+  "id": "100149",
+  "brand": "Shokz",
+  "model": "Open Run Pro 2 Mini Orange",
+  "monthly": 5.99,
+  "monthly_old": null,
+  "full": 189.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/shokz-open-run-pro-2-mini-orange.html",
+  "category": "austinas"
+ },
  "tet:58094": {
   "operator": "tet",
   "id": "58094",
@@ -16679,18 +16631,6 @@
   "url": "https://www.tet.lv/veikals/austinas/jbl-tune-670nc-blue.html",
   "category": "austinas"
  },
- "tet:84871": {
-  "operator": "tet",
-  "id": "84871",
-  "brand": "JBL",
-  "model": "Junior 470NC Pink",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 49.0,
-  "full_old": 69.0,
-  "url": "https://www.tet.lv/veikals/austinas/jbl-junior-470nc-pink.html",
-  "category": "austinas"
- },
  "tet:81124": {
   "operator": "tet",
   "id": "81124",
@@ -16701,6 +16641,18 @@
   "full": 135.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/steelseries-arctis-nova-5-wireless-black.html",
+  "category": "austinas"
+ },
+ "tet:84871": {
+  "operator": "tet",
+  "id": "84871",
+  "brand": "JBL",
+  "model": "Junior 470NC Pink",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 49.0,
+  "full_old": 69.0,
+  "url": "https://www.tet.lv/veikals/austinas/jbl-junior-470nc-pink.html",
   "category": "austinas"
  },
  "tet:80395": {
@@ -16739,18 +16691,6 @@
   "url": "https://www.tet.lv/veikals/austinas/jbl-tune-flex-2-ghost-purple.html",
   "category": "austinas"
  },
- "tet:100152": {
-  "operator": "tet",
-  "id": "100152",
-  "brand": "Shokz",
-  "model": "OpenFit 2+ Black",
-  "monthly": 6.56,
-  "monthly_old": null,
-  "full": 207.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/shokz-openfit-2-black.html",
-  "category": "austinas"
- },
  "tet:48703": {
   "operator": "tet",
   "id": "48703",
@@ -16773,6 +16713,18 @@
   "full": 117.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/xiaomi-buds-6-ceramic-white.html",
+  "category": "austinas"
+ },
+ "tet:100152": {
+  "operator": "tet",
+  "id": "100152",
+  "brand": "Shokz",
+  "model": "OpenFit 2+ Black",
+  "monthly": 6.56,
+  "monthly_old": null,
+  "full": 207.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/shokz-openfit-2-black.html",
   "category": "austinas"
  },
  "tet:61527": {
@@ -16835,18 +16787,6 @@
   "url": "https://www.tet.lv/veikals/austinas/sony-mdr-ex15lp-pink.html",
   "category": "austinas"
  },
- "tet:97949": {
-  "operator": "tet",
-  "id": "97949",
-  "brand": "Huawei",
-  "model": "FreeClip 2 Black",
-  "monthly": 6.27,
-  "monthly_old": null,
-  "full": 198.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/huawei-freeclip-2-black.html",
-  "category": "austinas"
- },
  "tet:67704": {
   "operator": "tet",
   "id": "67704",
@@ -16883,6 +16823,18 @@
   "url": "https://www.tet.lv/veikals/austinas/logitech-g432-black-blue.html",
   "category": "austinas"
  },
+ "tet:97949": {
+  "operator": "tet",
+  "id": "97949",
+  "brand": "Huawei",
+  "model": "FreeClip 2 Black",
+  "monthly": 6.27,
+  "monthly_old": null,
+  "full": 198.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/huawei-freeclip-2-black.html",
+  "category": "austinas"
+ },
  "tet:87901": {
   "operator": "tet",
   "id": "87901",
@@ -16893,18 +16845,6 @@
   "full": 152.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/suunto-wing-2-black.html",
-  "category": "austinas"
- },
- "tet:97956": {
-  "operator": "tet",
-  "id": "97956",
-  "brand": "Huawei",
-  "model": "FreeClip 2 White",
-  "monthly": 6.27,
-  "monthly_old": null,
-  "full": 198.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/huawei-freeclip-2-white.html",
   "category": "austinas"
  },
  "tet:81125": {
@@ -16929,6 +16869,18 @@
   "full": 229.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/beats-powerbeats-fit-wireless-fitness-earbuds-with-secure-fit-power-pink.html",
+  "category": "austinas"
+ },
+ "tet:97956": {
+  "operator": "tet",
+  "id": "97956",
+  "brand": "Huawei",
+  "model": "FreeClip 2 White",
+  "monthly": 6.27,
+  "monthly_old": null,
+  "full": 198.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/huawei-freeclip-2-white.html",
   "category": "austinas"
  },
  "tet:100640": {
@@ -17027,18 +16979,6 @@
   "url": "https://www.tet.lv/veikals/austinas/xiaomi-redmi-neo-sand-white.html",
   "category": "austinas"
  },
- "tet:48394": {
-  "operator": "tet",
-  "id": "48394",
-  "brand": "Logitech",
-  "model": "G435 Lightspeed Black",
-  "monthly": 2.85,
-  "monthly_old": null,
-  "full": 90.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/logitech-g435-lightspeed-black.html",
-  "category": "austinas"
- },
  "tet:99036": {
   "operator": "tet",
   "id": "99036",
@@ -17051,16 +16991,16 @@
   "url": "https://www.tet.lv/veikals/austinas/apple-airpods-max-2-orange.html",
   "category": "austinas"
  },
- "tet:84940": {
+ "tet:48394": {
   "operator": "tet",
-  "id": "84940",
-  "brand": "JBL",
-  "model": "Tune Flex 2 Ghost Black",
-  "monthly": null,
+  "id": "48394",
+  "brand": "Logitech",
+  "model": "G435 Lightspeed Black",
+  "monthly": 2.85,
   "monthly_old": null,
-  "full": 69.0,
+  "full": 90.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/jbl-tune-flex-2-ghost-black.html",
+  "url": "https://www.tet.lv/veikals/austinas/logitech-g435-lightspeed-black.html",
   "category": "austinas"
  },
  "tet:49006": {
@@ -17073,6 +17013,18 @@
   "full": 90.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/razer-barracuda-x-mercury-white-2.html",
+  "category": "austinas"
+ },
+ "tet:84940": {
+  "operator": "tet",
+  "id": "84940",
+  "brand": "JBL",
+  "model": "Tune Flex 2 Ghost Black",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 69.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/jbl-tune-flex-2-ghost-black.html",
   "category": "austinas"
  },
  "tet:67701": {
@@ -17099,18 +17051,6 @@
   "url": "https://www.tet.lv/veikals/austinas/jbl-tune-680nc-black.html",
   "category": "austinas"
  },
- "tet:10660": {
-  "operator": "tet",
-  "id": "10660",
-  "brand": "Logitech",
-  "model": "Stereo H111",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 11.25,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/logitech-stereo-headset-h111-single-3-5-mm-jack-g.html",
-  "category": "austinas"
- },
  "tet:58357": {
   "operator": "tet",
   "id": "58357",
@@ -17123,28 +17063,16 @@
   "url": "https://www.tet.lv/veikals/austinas/sony-whch520b-ce7.html",
   "category": "austinas"
  },
- "tet:48427": {
+ "tet:10660": {
   "operator": "tet",
-  "id": "48427",
+  "id": "10660",
   "brand": "Logitech",
-  "model": "G733 Blue",
-  "monthly": 3.71,
+  "model": "Stereo H111",
+  "monthly": null,
   "monthly_old": null,
-  "full": 117.0,
+  "full": 11.25,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/logitech-g733-blue.html",
-  "category": "austinas"
- },
- "tet:100153": {
-  "operator": "tet",
-  "id": "100153",
-  "brand": "Shokz",
-  "model": "OpenFit 2+ Grey",
-  "monthly": 6.56,
-  "monthly_old": null,
-  "full": 207.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/shokz-openfit-2-grey.html",
+  "url": "https://www.tet.lv/veikals/austinas/logitech-stereo-headset-h111-single-3-5-mm-jack-g.html",
   "category": "austinas"
  },
  "tet:70819": {
@@ -17171,6 +17099,30 @@
   "url": "https://www.tet.lv/veikals/austinas/sony-wf1000xm5-black.html",
   "category": "austinas"
  },
+ "tet:48427": {
+  "operator": "tet",
+  "id": "48427",
+  "brand": "Logitech",
+  "model": "G733 Blue",
+  "monthly": 3.71,
+  "monthly_old": null,
+  "full": 117.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/logitech-g733-blue.html",
+  "category": "austinas"
+ },
+ "tet:100153": {
+  "operator": "tet",
+  "id": "100153",
+  "brand": "Shokz",
+  "model": "OpenFit 2+ Grey",
+  "monthly": 6.56,
+  "monthly_old": null,
+  "full": 207.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/shokz-openfit-2-grey.html",
+  "category": "austinas"
+ },
  "tet:40979": {
   "operator": "tet",
   "id": "40979",
@@ -17181,30 +17133,6 @@
   "full": 49.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/jbl-junior-jr-460nc-blue.html",
-  "category": "austinas"
- },
- "tet:72586": {
-  "operator": "tet",
-  "id": "72586",
-  "brand": "Canyon",
-  "model": "OnGo 10 CNS-TWS10PL Purple",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 21.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/canyon-ongo-10-cns-tws10pl-purple.html",
-  "category": "austinas"
- },
- "tet:88567": {
-  "operator": "tet",
-  "id": "88567",
-  "brand": "Beats",
-  "model": "Powerbeats Fit — Wireless Fitness Earbuds with Secure Fit — Gravel Grey",
-  "monthly": 7.25,
-  "monthly_old": null,
-  "full": 229.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/beats-powerbeats-fit-wireless-fitness-earbuds-with-secure-fit-gravel-grey.html",
   "category": "austinas"
  },
  "tet:65884": {
@@ -17219,6 +17147,18 @@
   "url": "https://www.tet.lv/veikals/austinas/razer-kraken-kitty-v2-quartz.html",
   "category": "austinas"
  },
+ "tet:72586": {
+  "operator": "tet",
+  "id": "72586",
+  "brand": "Canyon",
+  "model": "OnGo 10 CNS-TWS10PL Purple",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 21.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/canyon-ongo-10-cns-tws10pl-purple.html",
+  "category": "austinas"
+ },
  "tet:86565": {
   "operator": "tet",
   "id": "86565",
@@ -17229,6 +17169,18 @@
   "full": 117.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/huawei-freearc-grey.html",
+  "category": "austinas"
+ },
+ "tet:88567": {
+  "operator": "tet",
+  "id": "88567",
+  "brand": "Beats",
+  "model": "Powerbeats Fit — Wireless Fitness Earbuds with Secure Fit — Gravel Grey",
+  "monthly": 7.25,
+  "monthly_old": null,
+  "full": 229.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/beats-powerbeats-fit-wireless-fitness-earbuds-with-secure-fit-gravel-grey.html",
   "category": "austinas"
  },
  "tet:81140": {
@@ -17303,18 +17255,6 @@
   "url": "https://www.tet.lv/veikals/austinas/shokz-openmove-grey.html",
   "category": "austinas"
  },
- "tet:57512": {
-  "operator": "tet",
-  "id": "57512",
-  "brand": "Razer",
-  "model": "BlackShark V2 Pro Black",
-  "monthly": 5.13,
-  "monthly_old": null,
-  "full": 162.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/razer-blackshark-v2-pro-black-2.html",
-  "category": "austinas"
- },
  "tet:55731": {
   "operator": "tet",
   "id": "55731",
@@ -17325,6 +17265,18 @@
   "full": 48.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/razer-kraken-v3-x-black.html",
+  "category": "austinas"
+ },
+ "tet:57512": {
+  "operator": "tet",
+  "id": "57512",
+  "brand": "Razer",
+  "model": "BlackShark V2 Pro Black",
+  "monthly": 5.13,
+  "monthly_old": null,
+  "full": 162.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/razer-blackshark-v2-pro-black-2.html",
   "category": "austinas"
  },
  "tet:65886": {
@@ -17375,16 +17327,16 @@
   "url": "https://www.tet.lv/veikals/austinas/pioneer-dj-hdj-x5bt-n-gold.html",
   "category": "austinas"
  },
- "tet:75468": {
+ "tet:76194": {
   "operator": "tet",
-  "id": "75468",
-  "brand": "Beats",
-  "model": "Solo Buds Transparent Red",
-  "monthly": 2.82,
+  "id": "76194",
+  "brand": "Sony",
+  "model": "WH-1000XM5 Platinum Silver",
+  "monthly": 9.47,
   "monthly_old": null,
-  "full": 89.0,
+  "full": 299.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/beats-solo-buds-transparent-red.html",
+  "url": "https://www.tet.lv/veikals/austinas/sony-wh-1000xm5-platinum-silver.html",
   "category": "austinas"
  },
  "tet:63232": {
@@ -17411,16 +17363,16 @@
   "url": "https://www.tet.lv/veikals/austinas/philips-tah4000lb-00-blue.html",
   "category": "austinas"
  },
- "tet:76194": {
+ "tet:75468": {
   "operator": "tet",
-  "id": "76194",
-  "brand": "Sony",
-  "model": "WH-1000XM5 Platinum Silver",
-  "monthly": 9.47,
+  "id": "75468",
+  "brand": "Beats",
+  "model": "Solo Buds Transparent Red",
+  "monthly": 2.82,
   "monthly_old": null,
-  "full": 299.0,
+  "full": 89.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/sony-wh-1000xm5-platinum-silver.html",
+  "url": "https://www.tet.lv/veikals/austinas/beats-solo-buds-transparent-red.html",
   "category": "austinas"
  },
  "tet:100634": {
@@ -17433,6 +17385,18 @@
   "full": 17.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/philips-tak2000mp-00.html",
+  "category": "austinas"
+ },
+ "tet:82491": {
+  "operator": "tet",
+  "id": "82491",
+  "brand": "Sony",
+  "model": "WF-C710NL Truly Wireless Noise Cancelling Earbuds – Glass Blue",
+  "monthly": 3.77,
+  "monthly_old": null,
+  "full": 119.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/sony-wf-c710nl-truly-wireless-noise-cancelling-earbuds-glass-blue.html",
   "category": "austinas"
  },
  "tet:81148": {
@@ -17471,18 +17435,6 @@
   "url": "https://www.tet.lv/veikals/austinas/philips-berniem-tak4200pk-00.html",
   "category": "austinas"
  },
- "tet:82491": {
-  "operator": "tet",
-  "id": "82491",
-  "brand": "Sony",
-  "model": "WF-C710NL Truly Wireless Noise Cancelling Earbuds – Glass Blue",
-  "monthly": 3.77,
-  "monthly_old": null,
-  "full": 119.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/sony-wf-c710nl-truly-wireless-noise-cancelling-earbuds-glass-blue.html",
-  "category": "austinas"
- },
  "tet:100638": {
   "operator": "tet",
   "id": "100638",
@@ -17495,16 +17447,16 @@
   "url": "https://www.tet.lv/veikals/austinas/philips-tak5500rt-00.html",
   "category": "austinas"
  },
- "tet:75467": {
+ "tet:76193": {
   "operator": "tet",
-  "id": "75467",
-  "brand": "Beats",
-  "model": "Solo Buds Storm Gray",
-  "monthly": 2.82,
+  "id": "76193",
+  "brand": "Sony",
+  "model": "WF1000XM5 Platinum Silver",
+  "monthly": 7.57,
   "monthly_old": null,
-  "full": 89.0,
+  "full": 239.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/beats-solo-buds-storm-gray.html",
+  "url": "https://www.tet.lv/veikals/austinas/sony-wf1000xm5-platinum-silver.html",
   "category": "austinas"
  },
  "tet:74415": {
@@ -17543,16 +17495,16 @@
   "url": "https://www.tet.lv/veikals/austinas/razer-blackshark-v2-pro-for-playstation-white.html",
   "category": "austinas"
  },
- "tet:76193": {
+ "tet:75467": {
   "operator": "tet",
-  "id": "76193",
-  "brand": "Sony",
-  "model": "WF1000XM5 Platinum Silver",
-  "monthly": 7.57,
+  "id": "75467",
+  "brand": "Beats",
+  "model": "Solo Buds Storm Gray",
+  "monthly": 2.82,
   "monthly_old": null,
-  "full": 239.0,
+  "full": 89.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/sony-wf1000xm5-platinum-silver.html",
+  "url": "https://www.tet.lv/veikals/austinas/beats-solo-buds-storm-gray.html",
   "category": "austinas"
  },
  "tet:31820": {
@@ -17591,18 +17543,6 @@
   "url": "https://www.tet.lv/veikals/austinas/philips-tat2520bk-00-black.html",
   "category": "austinas"
  },
- "tet:101518": {
-  "operator": "tet",
-  "id": "101518",
-  "brand": "OPPO",
-  "model": "Enco Buds3 Pro Glaze White",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 46.9,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/oppo-enco-buds3-pro-glaze-white.html",
-  "category": "austinas"
- },
  "tet:7022": {
   "operator": "tet",
   "id": "7022",
@@ -17627,16 +17567,16 @@
   "url": "https://www.tet.lv/veikals/austinas/sony-wh-ch520-blue.html",
   "category": "austinas"
  },
- "tet:81116": {
+ "tet:101518": {
   "operator": "tet",
-  "id": "81116",
-  "brand": "Soundcore",
-  "model": "P40i Oat White",
+  "id": "101518",
+  "brand": "OPPO",
+  "model": "Enco Buds3 Pro Glaze White",
   "monthly": null,
   "monthly_old": null,
-  "full": 63.0,
+  "full": 46.9,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/soundcore-p40i-oat-white.html",
+  "url": "https://www.tet.lv/veikals/austinas/oppo-enco-buds3-pro-glaze-white.html",
   "category": "austinas"
  },
  "tet:80965": {
@@ -17651,6 +17591,18 @@
   "url": "https://www.tet.lv/veikals/austinas/huawei-freebuds-6i-white.html",
   "category": "austinas"
  },
+ "tet:81116": {
+  "operator": "tet",
+  "id": "81116",
+  "brand": "Soundcore",
+  "model": "P40i Oat White",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 63.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/soundcore-p40i-oat-white.html",
+  "category": "austinas"
+ },
  "tet:55748": {
   "operator": "tet",
   "id": "55748",
@@ -17661,6 +17613,18 @@
   "full": 8.25,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/sony-mdre9lpb-ae.html",
+  "category": "austinas"
+ },
+ "tet:7040": {
+  "operator": "tet",
+  "id": "7040",
+  "brand": "Gembird",
+  "model": "GHS-402 Black",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 8.25,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/gembird-ghs-402-black.html",
   "category": "austinas"
  },
  "tet:61528": {
@@ -17687,16 +17651,16 @@
   "url": "https://www.tet.lv/veikals/austinas/philips-tat2236bk-00-black.html",
   "category": "austinas"
  },
- "tet:7040": {
+ "tet:76974": {
   "operator": "tet",
-  "id": "7040",
-  "brand": "Gembird",
-  "model": "GHS-402 Black",
-  "monthly": null,
+  "id": "76974",
+  "brand": "Soundcore",
+  "model": "Space One Latte Cream",
+  "monthly": 2.85,
   "monthly_old": null,
-  "full": 8.25,
+  "full": 90.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/gembird-ghs-402-black.html",
+  "url": "https://www.tet.lv/veikals/austinas/soundcore-space-one-latte-cream.html",
   "category": "austinas"
  },
  "tet:72574": {
@@ -17709,18 +17673,6 @@
   "full": 16.25,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/canyon-tws-6-black.html",
-  "category": "austinas"
- },
- "tet:76974": {
-  "operator": "tet",
-  "id": "76974",
-  "brand": "Soundcore",
-  "model": "Space One Latte Cream",
-  "monthly": 2.85,
-  "monthly_old": null,
-  "full": 90.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/soundcore-space-one-latte-cream.html",
   "category": "austinas"
  },
  "tet:65599": {
@@ -17747,18 +17699,6 @@
   "url": "https://www.tet.lv/veikals/austinas/tozo-h100-black.html",
   "category": "austinas"
  },
- "tet:88565": {
-  "operator": "tet",
-  "id": "88565",
-  "brand": "Beats",
-  "model": "Powerbeats Fit — Wireless Fitness Earbuds with Secure Fit — Spark Orange",
-  "monthly": 7.25,
-  "monthly_old": null,
-  "full": 229.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/beats-powerbeats-fit-wireless-fitness-earbuds-with-secure-fit-spark-orange.html",
-  "category": "austinas"
- },
  "tet:72573": {
   "operator": "tet",
   "id": "72573",
@@ -17771,6 +17711,18 @@
   "url": "https://www.tet.lv/veikals/austinas/canyon-tws-6-white.html",
   "category": "austinas"
  },
+ "tet:88565": {
+  "operator": "tet",
+  "id": "88565",
+  "brand": "Beats",
+  "model": "Powerbeats Fit — Wireless Fitness Earbuds with Secure Fit — Spark Orange",
+  "monthly": 7.25,
+  "monthly_old": null,
+  "full": 229.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/beats-powerbeats-fit-wireless-fitness-earbuds-with-secure-fit-spark-orange.html",
+  "category": "austinas"
+ },
  "tet:99253": {
   "operator": "tet",
   "id": "99253",
@@ -17781,30 +17733,6 @@
   "full": 59.99,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/tozo-h20-t12052-black.html",
-  "category": "austinas"
- },
- "tet:52691": {
-  "operator": "tet",
-  "id": "52691",
-  "brand": "SteelSeries",
-  "model": "Arctis Nova 1X Black",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 63.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/steelseries-arctis-nova-1x-black.html",
-  "category": "austinas"
- },
- "tet:57201": {
-  "operator": "tet",
-  "id": "57201",
-  "brand": "Razer",
-  "model": "Barracuda Quartz",
-  "monthly": 3.14,
-  "monthly_old": null,
-  "full": 99.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/razer-barracuda-quartz.html",
   "category": "austinas"
  },
  "tet:10844": {
@@ -17831,6 +17759,30 @@
   "url": "https://www.tet.lv/veikals/austinas/beyerdynamic-dt-880-pro-studio-headphones.html",
   "category": "austinas"
  },
+ "tet:52691": {
+  "operator": "tet",
+  "id": "52691",
+  "brand": "SteelSeries",
+  "model": "Arctis Nova 1X Black",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 63.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/steelseries-arctis-nova-1x-black.html",
+  "category": "austinas"
+ },
+ "tet:57201": {
+  "operator": "tet",
+  "id": "57201",
+  "brand": "Razer",
+  "model": "Barracuda Quartz",
+  "monthly": 3.14,
+  "monthly_old": null,
+  "full": 99.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/razer-barracuda-quartz.html",
+  "category": "austinas"
+ },
  "tet:76978": {
   "operator": "tet",
   "id": "76978",
@@ -17841,18 +17793,6 @@
   "full": 171.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/soundcore-space-one-pro-cream-white.html",
-  "category": "austinas"
- },
- "tet:21639": {
-  "operator": "tet",
-  "id": "21639",
-  "brand": "Koss",
-  "model": " KPH7b Blue",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 7.75,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/koss-kph7b-blue.html",
   "category": "austinas"
  },
  "tet:55620": {
@@ -17879,6 +17819,18 @@
   "url": "https://www.tet.lv/veikals/austinas/huawei-freebuds-se-4-anc-white.html",
   "category": "austinas"
  },
+ "tet:21639": {
+  "operator": "tet",
+  "id": "21639",
+  "brand": "Koss",
+  "model": " KPH7b Blue",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 7.75,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/koss-kph7b-blue.html",
+  "category": "austinas"
+ },
  "tet:10813": {
   "operator": "tet",
   "id": "10813",
@@ -17889,6 +17841,30 @@
   "full": 13.25,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/gembird-mhs-u-001-usb-stereo-headset-glossy-black.html",
+  "category": "austinas"
+ },
+ "tet:48420": {
+  "operator": "tet",
+  "id": "48420",
+  "brand": "Sony",
+  "model": "MDR-ZX310 Black",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 21.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/sony-mdr-zx310-black.html",
+  "category": "austinas"
+ },
+ "tet:81146": {
+  "operator": "tet",
+  "id": "81146",
+  "brand": "Beats",
+  "model": "Powerbeats Pro 2 - High-Performance Earbuds - Quick Sand",
+  "monthly": 9.47,
+  "monthly_old": null,
+  "full": 299.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/beats-powerbeats-pro-2-high-performance-earbuds-quick-sand.html",
   "category": "austinas"
  },
  "tet:63229": {
@@ -17927,40 +17903,16 @@
   "url": "https://www.tet.lv/veikals/austinas/sennheiser-momentum-5-white.html",
   "category": "austinas"
  },
- "tet:48420": {
+ "tet:58516": {
   "operator": "tet",
-  "id": "48420",
+  "id": "58516",
   "brand": "Sony",
-  "model": "MDR-ZX310 Black",
+  "model": "WH-CH520 White",
   "monthly": null,
   "monthly_old": null,
-  "full": 21.0,
+  "full": 39.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/sony-mdr-zx310-black.html",
-  "category": "austinas"
- },
- "tet:81146": {
-  "operator": "tet",
-  "id": "81146",
-  "brand": "Beats",
-  "model": "Powerbeats Pro 2 - High-Performance Earbuds - Quick Sand",
-  "monthly": 9.47,
-  "monthly_old": null,
-  "full": 299.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/beats-powerbeats-pro-2-high-performance-earbuds-quick-sand.html",
-  "category": "austinas"
- },
- "tet:81129": {
-  "operator": "tet",
-  "id": "81129",
-  "brand": "Razer",
-  "model": "BlackShark V2 Pro for PlayStation Black",
-  "monthly": 5.42,
-  "monthly_old": null,
-  "full": 171.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/razer-blackshark-v2-pro-for-playstation-black.html",
+  "url": "https://www.tet.lv/veikals/austinas/sony-wh-ch520-white.html",
   "category": "austinas"
  },
  "tet:72585": {
@@ -17975,6 +17927,18 @@
   "url": "https://www.tet.lv/veikals/austinas/canyon-ongo-10-cns-tws10bk-dark-gray.html",
   "category": "austinas"
  },
+ "tet:81129": {
+  "operator": "tet",
+  "id": "81129",
+  "brand": "Razer",
+  "model": "BlackShark V2 Pro for PlayStation Black",
+  "monthly": 5.42,
+  "monthly_old": null,
+  "full": 171.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/razer-blackshark-v2-pro-for-playstation-black.html",
+  "category": "austinas"
+ },
  "tet:48767": {
   "operator": "tet",
   "id": "48767",
@@ -17985,18 +17949,6 @@
   "full": 26.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/sony-mdr-zx310-black-2.html",
-  "category": "austinas"
- },
- "tet:58516": {
-  "operator": "tet",
-  "id": "58516",
-  "brand": "Sony",
-  "model": "WH-CH520 White",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 39.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/sony-wh-ch520-white.html",
   "category": "austinas"
  },
  "tet:100148": {
@@ -18011,18 +17963,6 @@
   "url": "https://www.tet.lv/veikals/austinas/shokz-open-run-pro-2-mini-black.html",
   "category": "austinas"
  },
- "tet:76933": {
-  "operator": "tet",
-  "id": "76933",
-  "brand": "Sony",
-  "model": "LinkBuds Open – Truly Wireless Bluetooth Open Ear Buds Transparent Sound White",
-  "monthly": 5.99,
-  "monthly_old": null,
-  "full": 189.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/sony-linkbuds-open-truly-wireless-bluetooth-open-ear-buds-transparent-sound-white.html",
-  "category": "austinas"
- },
  "tet:19132": {
   "operator": "tet",
   "id": "19132",
@@ -18035,16 +17975,16 @@
   "url": "https://www.tet.lv/veikals/austinas/fury-hellcat-gaming-headset.html",
   "category": "austinas"
  },
- "tet:46591": {
+ "tet:76933": {
   "operator": "tet",
-  "id": "46591",
-  "brand": "A4Tech",
-  "model": "Bloody G580 Black",
-  "monthly": null,
+  "id": "76933",
+  "brand": "Sony",
+  "model": "LinkBuds Open – Truly Wireless Bluetooth Open Ear Buds Transparent Sound White",
+  "monthly": 5.99,
   "monthly_old": null,
-  "full": 54.0,
+  "full": 189.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/a4tech-bloody-g580-black.html",
+  "url": "https://www.tet.lv/veikals/austinas/sony-linkbuds-open-truly-wireless-bluetooth-open-ear-buds-transparent-sound-white.html",
   "category": "austinas"
  },
  "tet:48793": {
@@ -18057,6 +17997,30 @@
   "full": 4.5,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/koss-ke5-white.html",
+  "category": "austinas"
+ },
+ "tet:73486": {
+  "operator": "tet",
+  "id": "73486",
+  "brand": "Bang",
+  "model": "& Olufsen BeoPlay HX Timber",
+  "monthly": 18.97,
+  "monthly_old": null,
+  "full": 599.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/bang-olufsen-beoplay-hx-timber.html",
+  "category": "austinas"
+ },
+ "tet:46591": {
+  "operator": "tet",
+  "id": "46591",
+  "brand": "A4Tech",
+  "model": "Bloody G580 Black",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 54.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/a4tech-bloody-g580-black.html",
   "category": "austinas"
  },
  "tet:48611": {
@@ -18081,18 +18045,6 @@
   "full": 21.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/canyon-ongo-10-cns-tws10bg-beige.html",
-  "category": "austinas"
- },
- "tet:73486": {
-  "operator": "tet",
-  "id": "73486",
-  "brand": "Bang",
-  "model": "& Olufsen BeoPlay HX Timber",
-  "monthly": 18.97,
-  "monthly_old": null,
-  "full": 599.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/bang-olufsen-beoplay-hx-timber.html",
   "category": "austinas"
  },
  "tet:89225": {
@@ -18131,6 +18083,18 @@
   "url": "https://www.tet.lv/veikals/austinas/beats-studio-pro-wireless-sandstone.html",
   "category": "austinas"
  },
+ "tet:76195": {
+  "operator": "tet",
+  "id": "76195",
+  "brand": "Sony",
+  "model": "WH-1000XM5 Midnight Blue",
+  "monthly": 9.47,
+  "monthly_old": null,
+  "full": 299.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/sony-wh-1000xm5-midnight-blue.html",
+  "category": "austinas"
+ },
  "tet:55745": {
   "operator": "tet",
   "id": "55745",
@@ -18155,18 +18119,6 @@
   "url": "https://www.tet.lv/veikals/austinas/steelseries-arctis-nova-1p-black.html",
   "category": "austinas"
  },
- "tet:81115": {
-  "operator": "tet",
-  "id": "81115",
-  "brand": "Razer",
-  "model": "Blackshark V2 HyperSpeed White",
-  "monthly": 4.28,
-  "monthly_old": null,
-  "full": 135.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/razer-blackshark-v2-hyperspeed-white.html",
-  "category": "austinas"
- },
  "tet:64220": {
   "operator": "tet",
   "id": "64220",
@@ -18179,16 +18131,16 @@
   "url": "https://www.tet.lv/veikals/austinas/razer-kraken-kitty-v2-pro-pink.html",
   "category": "austinas"
  },
- "tet:76195": {
+ "tet:81115": {
   "operator": "tet",
-  "id": "76195",
-  "brand": "Sony",
-  "model": "WH-1000XM5 Midnight Blue",
-  "monthly": 9.47,
+  "id": "81115",
+  "brand": "Razer",
+  "model": "Blackshark V2 HyperSpeed White",
+  "monthly": 4.28,
   "monthly_old": null,
-  "full": 299.0,
+  "full": 135.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/sony-wh-1000xm5-midnight-blue.html",
+  "url": "https://www.tet.lv/veikals/austinas/razer-blackshark-v2-hyperspeed-white.html",
   "category": "austinas"
  },
  "tet:84941": {
@@ -18227,18 +18179,6 @@
   "url": "https://www.tet.lv/veikals/austinas/aiwa-estm-50sl-silver.html",
   "category": "austinas"
  },
- "tet:97909": {
-  "operator": "tet",
-  "id": "97909",
-  "brand": "Lenovo",
-  "model": "Wireless VoIP Headset (Teams) Black",
-  "monthly": 3.14,
-  "monthly_old": null,
-  "full": 99.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/lenovo-wireless-voip-headset-teams-black.html",
-  "category": "austinas"
- },
  "tet:99255": {
   "operator": "tet",
   "id": "99255",
@@ -18251,28 +18191,16 @@
   "url": "https://www.tet.lv/veikals/austinas/tozo-h20-t12052-blue.html",
   "category": "austinas"
  },
- "tet:58519": {
+ "tet:97909": {
   "operator": "tet",
-  "id": "58519",
-  "brand": "Sony",
-  "model": "WH-CH720N White",
-  "monthly": 2.5,
+  "id": "97909",
+  "brand": "Lenovo",
+  "model": "Wireless VoIP Headset (Teams) Black",
+  "monthly": 3.14,
   "monthly_old": null,
-  "full": 79.0,
+  "full": 99.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/sony-wh-ch720n-white.html",
-  "category": "austinas"
- },
- "tet:40975": {
-  "operator": "tet",
-  "id": "40975",
-  "brand": "JBL",
-  "model": "Junior JR 460NC Pink",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 49.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/jbl-junior-jr-460nc-pink.html",
+  "url": "https://www.tet.lv/veikals/austinas/lenovo-wireless-voip-headset-teams-black.html",
   "category": "austinas"
  },
  "tet:89370": {
@@ -18285,6 +18213,18 @@
   "full": 239.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/sony-wf1000xm5-smoky-pink.html",
+  "category": "austinas"
+ },
+ "tet:58519": {
+  "operator": "tet",
+  "id": "58519",
+  "brand": "Sony",
+  "model": "WH-CH720N White",
+  "monthly": 2.5,
+  "monthly_old": null,
+  "full": 79.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/sony-wh-ch720n-white.html",
   "category": "austinas"
  },
  "tet:49002": {
@@ -18311,18 +18251,6 @@
   "url": "https://www.tet.lv/veikals/austinas/skullcandy-jib-with-mic-white-black.html",
   "category": "austinas"
  },
- "tet:70817": {
-  "operator": "tet",
-  "id": "70817",
-  "brand": "Sennheiser",
-  "model": "ACCENTUM Plus Wireless Black",
-  "monthly": 5.13,
-  "monthly_old": null,
-  "full": 162.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/sennheiser-accentum-plus-wireless-black.html",
-  "category": "austinas"
- },
  "tet:65887": {
   "operator": "tet",
   "id": "65887",
@@ -18333,6 +18261,18 @@
   "full": 108.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/razer-kraken-kitty-v2-black.html",
+  "category": "austinas"
+ },
+ "tet:70817": {
+  "operator": "tet",
+  "id": "70817",
+  "brand": "Sennheiser",
+  "model": "ACCENTUM Plus Wireless Black",
+  "monthly": 5.13,
+  "monthly_old": null,
+  "full": 162.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/sennheiser-accentum-plus-wireless-black.html",
   "category": "austinas"
  },
  "tet:81134": {
@@ -18371,30 +18311,6 @@
   "url": "https://www.tet.lv/veikals/austinas/beats-flex-all-day-wireless-earphones-flame-blue.html",
   "category": "austinas"
  },
- "tet:100647": {
-  "operator": "tet",
-  "id": "100647",
-  "brand": "Philips",
-  "model": "bērniem TAK4200BL/00",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 33.25,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/philips-berniem-tak4200bl-00.html",
-  "category": "austinas"
- },
- "tet:3154": {
-  "operator": "tet",
-  "id": "3154",
-  "brand": "Panasonic",
-  "model": "Earphones RP-HJE125E-R In-Ear",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 10.75,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/panasonic-earphones-rp-hje125e-r-in-ear.html",
-  "category": "austinas"
- },
  "tet:81145": {
   "operator": "tet",
   "id": "81145",
@@ -18419,16 +18335,40 @@
   "url": "https://www.tet.lv/veikals/austinas/soundcore-q20i-black.html",
   "category": "austinas"
  },
- "tet:14488": {
+ "tet:3154": {
   "operator": "tet",
-  "id": "14488",
-  "brand": "Beyerdynamic",
-  "model": "DT 770 Pro 32 Ohm Black",
-  "monthly": 4.56,
+  "id": "3154",
+  "brand": "Panasonic",
+  "model": "Earphones RP-HJE125E-R In-Ear",
+  "monthly": null,
   "monthly_old": null,
-  "full": 144.0,
+  "full": 10.75,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/beyerdynamic-dt-770-pro-32.html",
+  "url": "https://www.tet.lv/veikals/austinas/panasonic-earphones-rp-hje125e-r-in-ear.html",
+  "category": "austinas"
+ },
+ "tet:100647": {
+  "operator": "tet",
+  "id": "100647",
+  "brand": "Philips",
+  "model": "bērniem TAK4200BL/00",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 33.25,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/philips-berniem-tak4200bl-00.html",
+  "category": "austinas"
+ },
+ "tet:101172": {
+  "operator": "tet",
+  "id": "101172",
+  "brand": "Sony",
+  "model": "WH-CH730N Wireless Noise Cancelling - Black",
+  "monthly": 4.09,
+  "monthly_old": null,
+  "full": 129.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/sony-wh-ch730n-wireless-noise-cancelling-black.html",
   "category": "austinas"
  },
  "tet:49000": {
@@ -18467,54 +18407,6 @@
   "url": "https://www.tet.lv/veikals/austinas/soundcore-k20i-blue.html",
   "category": "austinas"
  },
- "tet:101172": {
-  "operator": "tet",
-  "id": "101172",
-  "brand": "Sony",
-  "model": "WH-CH730N Wireless Noise Cancelling - Black",
-  "monthly": 4.09,
-  "monthly_old": null,
-  "full": 129.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/sony-wh-ch730n-wireless-noise-cancelling-black.html",
-  "category": "austinas"
- },
- "tet:57515": {
-  "operator": "tet",
-  "id": "57515",
-  "brand": "Razer",
-  "model": "BlackShark V2 Pro White",
-  "monthly": 4.85,
-  "monthly_old": null,
-  "full": 153.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/razer-blackshark-v2-pro-white-2.html",
-  "category": "austinas"
- },
- "tet:55736": {
-  "operator": "tet",
-  "id": "55736",
-  "brand": "Shure",
-  "model": "SE112 Grey",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 54.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/shure-se112-grey.html",
-  "category": "austinas"
- },
- "tet:85299": {
-  "operator": "tet",
-  "id": "85299",
-  "brand": "Razer",
-  "model": "Kraken Kitty V2 White",
-  "monthly": 3.42,
-  "monthly_old": null,
-  "full": 108.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/razer-kraken-kitty-v2-white.html",
-  "category": "austinas"
- },
  "tet:102043": {
   "operator": "tet",
   "id": "102043",
@@ -18539,6 +18431,18 @@
   "url": "https://www.tet.lv/veikals/austinas/sony-wh-ch730n-wireless-noise-cancelling-pink.html",
   "category": "austinas"
  },
+ "tet:57515": {
+  "operator": "tet",
+  "id": "57515",
+  "brand": "Razer",
+  "model": "BlackShark V2 Pro White",
+  "monthly": 4.85,
+  "monthly_old": null,
+  "full": 153.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/razer-blackshark-v2-pro-white-2.html",
+  "category": "austinas"
+ },
  "tet:76347": {
   "operator": "tet",
   "id": "76347",
@@ -18549,6 +18453,18 @@
   "full": 59.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/sony-wf-c510-truly-wireless-earbuds-white.html",
+  "category": "austinas"
+ },
+ "tet:55736": {
+  "operator": "tet",
+  "id": "55736",
+  "brand": "Shure",
+  "model": "SE112 Grey",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 54.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/shure-se112-grey.html",
   "category": "austinas"
  },
  "tet:70820": {
@@ -18563,6 +18479,30 @@
   "url": "https://www.tet.lv/veikals/austinas/sennheiser-momentum-true-wireless-4-black-graphite.html",
   "category": "austinas"
  },
+ "tet:85299": {
+  "operator": "tet",
+  "id": "85299",
+  "brand": "Razer",
+  "model": "Kraken Kitty V2 White",
+  "monthly": 3.42,
+  "monthly_old": null,
+  "full": 108.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/razer-kraken-kitty-v2-white.html",
+  "category": "austinas"
+ },
+ "tet:58521": {
+  "operator": "tet",
+  "id": "58521",
+  "brand": "Sony",
+  "model": "WH-CH520 Beige",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 39.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/sony-wh-ch520-beige.html",
+  "category": "austinas"
+ },
  "tet:77002": {
   "operator": "tet",
   "id": "77002",
@@ -18573,6 +18513,18 @@
   "full": 72.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/soundcore-q30-black.html",
+  "category": "austinas"
+ },
+ "tet:55738": {
+  "operator": "tet",
+  "id": "55738",
+  "brand": "Shure",
+  "model": "SE215 Black",
+  "monthly": 3.42,
+  "monthly_old": null,
+  "full": 108.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/shure-se215-black.html",
   "category": "austinas"
  },
  "tet:100660": {
@@ -18599,28 +18551,16 @@
   "url": "https://www.tet.lv/veikals/austinas/oppo-enco-air5s-midnight-black.html",
   "category": "austinas"
  },
- "tet:58521": {
+ "tet:1756": {
   "operator": "tet",
-  "id": "58521",
+  "id": "1756",
   "brand": "Sony",
-  "model": "WH-CH520 Beige",
+  "model": "in-ear MDREX15APW.CE7 White",
   "monthly": null,
   "monthly_old": null,
-  "full": 39.0,
+  "full": 9.25,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/sony-wh-ch520-beige.html",
-  "category": "austinas"
- },
- "tet:55738": {
-  "operator": "tet",
-  "id": "55738",
-  "brand": "Shure",
-  "model": "SE215 Black",
-  "monthly": 3.42,
-  "monthly_old": null,
-  "full": 108.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/shure-se215-black.html",
+  "url": "https://www.tet.lv/veikals/austinas-2/sony-in-ear-mdrex15apw-ce7-white.html",
   "category": "austinas"
  },
  "tet:97952": {
@@ -18635,18 +18575,6 @@
   "url": "https://www.tet.lv/veikals/austinas/huawei-freebuds-pro-5-sand.html",
   "category": "austinas"
  },
- "tet:70815": {
-  "operator": "tet",
-  "id": "70815",
-  "brand": "Sennheiser",
-  "model": "HD 660S2 Black",
-  "monthly": 18.24,
-  "monthly_old": null,
-  "full": 576.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/sennheiser-hd-660s2-black.html",
-  "category": "austinas"
- },
  "tet:57199": {
   "operator": "tet",
   "id": "57199",
@@ -18659,28 +18587,16 @@
   "url": "https://www.tet.lv/veikals/austinas/razer-blackshark-v2-x-quartz.html",
   "category": "austinas"
  },
- "tet:1756": {
+ "tet:70815": {
   "operator": "tet",
-  "id": "1756",
-  "brand": "Sony",
-  "model": "in-ear MDREX15APW.CE7 White",
-  "monthly": null,
+  "id": "70815",
+  "brand": "Sennheiser",
+  "model": "HD 660S2 Black",
+  "monthly": 18.24,
   "monthly_old": null,
-  "full": 9.25,
+  "full": 576.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas-2/sony-in-ear-mdrex15apw-ce7-white.html",
-  "category": "austinas"
- },
- "tet:87900": {
-  "operator": "tet",
-  "id": "87900",
-  "brand": "Suunto",
-  "model": "Wing 2 Coral Orange",
-  "monthly": 4.81,
-  "monthly_old": null,
-  "full": 152.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/suunto-wing-2-coral-orange.html",
+  "url": "https://www.tet.lv/veikals/austinas/sennheiser-hd-660s2-black.html",
   "category": "austinas"
  },
  "tet:48407": {
@@ -18707,6 +18623,18 @@
   "url": "https://www.tet.lv/veikals/austinas/sony-wh-ch730n-wireless-noise-cancelling-blue.html",
   "category": "austinas"
  },
+ "tet:87900": {
+  "operator": "tet",
+  "id": "87900",
+  "brand": "Suunto",
+  "model": "Wing 2 Coral Orange",
+  "monthly": 4.81,
+  "monthly_old": null,
+  "full": 152.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/suunto-wing-2-coral-orange.html",
+  "category": "austinas"
+ },
  "tet:55737": {
   "operator": "tet",
   "id": "55737",
@@ -18731,30 +18659,6 @@
   "url": "https://www.tet.lv/veikals/austinas/shokz-openswim-pro-grey.html",
   "category": "austinas"
  },
- "tet:55764": {
-  "operator": "tet",
-  "id": "55764",
-  "brand": "Koss",
-  "model": "KPH30iW White",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 29.75,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/koss-kph30iw-white.html",
-  "category": "austinas"
- },
- "tet:55724": {
-  "operator": "tet",
-  "id": "55724",
-  "brand": "Sony",
-  "model": "MDRE9LPL.AE Blue",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 8.25,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/sony-mdre9lpl-ae-blue.html",
-  "category": "austinas"
- },
  "tet:48723": {
   "operator": "tet",
   "id": "48723",
@@ -18765,30 +18669,6 @@
   "full": 9.75,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/philips-tae1105wt-00-white.html",
-  "category": "austinas"
- },
- "tet:97951": {
-  "operator": "tet",
-  "id": "97951",
-  "brand": "Huawei",
-  "model": "Freebuds Pro 5 Grey",
-  "monthly": 6.27,
-  "monthly_old": null,
-  "full": 198.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/huawei-freebuds-pro-5-grey.html",
-  "category": "austinas"
- },
- "tet:100649": {
-  "operator": "tet",
-  "id": "100649",
-  "brand": "Philips",
-  "model": "TAH2100BK/00",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 16.75,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/philips-tah2100bk-00.html",
   "category": "austinas"
  },
  "tet:75469": {
@@ -18803,16 +18683,52 @@
   "url": "https://www.tet.lv/veikals/austinas/beats-solo-buds-arctic-purple.html",
   "category": "austinas"
  },
- "tet:48380": {
+ "tet:55724": {
   "operator": "tet",
-  "id": "48380",
-  "brand": "Koss",
-  "model": "KEB9iW SBS White",
+  "id": "55724",
+  "brand": "Sony",
+  "model": "MDRE9LPL.AE Blue",
   "monthly": null,
   "monthly_old": null,
-  "full": 10.75,
+  "full": 8.25,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/koss-keb9iw-sbs-white.html",
+  "url": "https://www.tet.lv/veikals/austinas/sony-mdre9lpl-ae-blue.html",
+  "category": "austinas"
+ },
+ "tet:100649": {
+  "operator": "tet",
+  "id": "100649",
+  "brand": "Philips",
+  "model": "TAH2100BK/00",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 16.75,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/philips-tah2100bk-00.html",
+  "category": "austinas"
+ },
+ "tet:97951": {
+  "operator": "tet",
+  "id": "97951",
+  "brand": "Huawei",
+  "model": "Freebuds Pro 5 Grey",
+  "monthly": 6.27,
+  "monthly_old": null,
+  "full": 198.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/huawei-freebuds-pro-5-grey.html",
+  "category": "austinas"
+ },
+ "tet:55764": {
+  "operator": "tet",
+  "id": "55764",
+  "brand": "Koss",
+  "model": "KPH30iW White",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 29.75,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/koss-kph30iw-white.html",
   "category": "austinas"
  },
  "tet:48737": {
@@ -18827,16 +18743,16 @@
   "url": "https://www.tet.lv/veikals/austinas/gembird-fitear-x300b-black.html",
   "category": "austinas"
  },
- "tet:101517": {
+ "tet:48380": {
   "operator": "tet",
-  "id": "101517",
-  "brand": "OPPO",
-  "model": "Enco Buds3 Pro Graphite Grey",
+  "id": "48380",
+  "brand": "Koss",
+  "model": "KEB9iW SBS White",
   "monthly": null,
   "monthly_old": null,
-  "full": 46.9,
+  "full": 10.75,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/oppo-enco-buds3-pro-graphite-grey.html",
+  "url": "https://www.tet.lv/veikals/austinas/koss-keb9iw-sbs-white.html",
   "category": "austinas"
  },
  "tet:88564": {
@@ -18863,18 +18779,6 @@
   "url": "https://www.tet.lv/veikals/austinas/panasonic-rp-hje125e-a-blue.html",
   "category": "austinas"
  },
- "tet:33130": {
-  "operator": "tet",
-  "id": "33130",
-  "brand": "Trust",
-  "model": "21665",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 5.25,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/trust-21665.html",
-  "category": "austinas"
- },
  "tet:49011": {
   "operator": "tet",
   "id": "49011",
@@ -18885,18 +18789,6 @@
   "full": 10.75,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/koss-keb9igry-sbs-gray.html",
-  "category": "austinas"
- },
- "tet:99250": {
-  "operator": "tet",
-  "id": "99250",
-  "brand": "Tozo",
-  "model": "A3 Pro White",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 24.99,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/tozo-a3-pro-white.html",
   "category": "austinas"
  },
  "tet:97977": {
@@ -18911,6 +18803,18 @@
   "url": "https://www.tet.lv/veikals/austinas/samsung-type-c-earphones-eo-ic100-black.html",
   "category": "austinas"
  },
+ "tet:33130": {
+  "operator": "tet",
+  "id": "33130",
+  "brand": "Trust",
+  "model": "21665",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 5.25,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/trust-21665.html",
+  "category": "austinas"
+ },
  "tet:62594": {
   "operator": "tet",
   "id": "62594",
@@ -18923,28 +18827,16 @@
   "url": "https://www.tet.lv/veikals/austinas/beats-studio-pro-wireless-navy.html",
   "category": "austinas"
  },
- "tet:48727": {
+ "tet:82492": {
   "operator": "tet",
-  "id": "48727",
-  "brand": "Philips",
-  "model": "TAE1105BL/00 Blue",
-  "monthly": null,
+  "id": "82492",
+  "brand": "Sony",
+  "model": "WF-C710NW Truly Wireless Noise Cancelling Earbuds – White",
+  "monthly": 3.77,
   "monthly_old": null,
-  "full": 9.75,
+  "full": 119.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/philips-tae1105bl-00-blue.html",
-  "category": "austinas"
- },
- "tet:97950": {
-  "operator": "tet",
-  "id": "97950",
-  "brand": "Huawei",
-  "model": "Freebuds Pro 5 White",
-  "monthly": 6.27,
-  "monthly_old": null,
-  "full": 198.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/huawei-freebuds-pro-5-white.html",
+  "url": "https://www.tet.lv/veikals/austinas/sony-wf-c710nw-truly-wireless-noise-cancelling-earbuds-white.html",
   "category": "austinas"
  },
  "tet:10920": {
@@ -18971,40 +18863,28 @@
   "url": "https://www.tet.lv/veikals/austinas/philips-upbeat-tauh202bk-00-black.html",
   "category": "austinas"
  },
- "tet:82492": {
+ "tet:48727": {
   "operator": "tet",
-  "id": "82492",
-  "brand": "Sony",
-  "model": "WF-C710NW Truly Wireless Noise Cancelling Earbuds – White",
-  "monthly": 3.77,
-  "monthly_old": null,
-  "full": 119.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/sony-wf-c710nw-truly-wireless-noise-cancelling-earbuds-white.html",
-  "category": "austinas"
- },
- "tet:36967": {
-  "operator": "tet",
-  "id": "36967",
-  "brand": "Logitech",
-  "model": "G335 Black",
+  "id": "48727",
+  "brand": "Philips",
+  "model": "TAE1105BL/00 Blue",
   "monthly": null,
   "monthly_old": null,
-  "full": 54.0,
+  "full": 9.75,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/logitech-g335-black.html",
+  "url": "https://www.tet.lv/veikals/austinas/philips-tae1105bl-00-blue.html",
   "category": "austinas"
  },
- "tet:48390": {
+ "tet:97950": {
   "operator": "tet",
-  "id": "48390",
-  "brand": "Aiwa",
-  "model": "ESTM-50RD Red",
-  "monthly": null,
+  "id": "97950",
+  "brand": "Huawei",
+  "model": "Freebuds Pro 5 White",
+  "monthly": 6.27,
   "monthly_old": null,
-  "full": 9.25,
+  "full": 198.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/aiwa-estm-50rd-red.html",
+  "url": "https://www.tet.lv/veikals/austinas/huawei-freebuds-pro-5-white.html",
   "category": "austinas"
  },
  "tet:21644": {
@@ -19019,16 +18899,16 @@
   "url": "https://www.tet.lv/veikals/austinas/koss-the-plug-black.html",
   "category": "austinas"
  },
- "tet:52693": {
+ "tet:82494": {
   "operator": "tet",
-  "id": "52693",
-  "brand": "SteelSeries",
-  "model": "Arctis Nova 1P White",
+  "id": "82494",
+  "brand": "Sony",
+  "model": "WH-CH520Y Wireless Headphones - Yellow",
   "monthly": null,
   "monthly_old": null,
-  "full": 63.0,
+  "full": 39.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/steelseries-arctis-nova-1p-white.html",
+  "url": "https://www.tet.lv/veikals/austinas/sony-wh-ch520y-wireless-headphones-yellow.html",
   "category": "austinas"
  },
  "tet:71327": {
@@ -19041,6 +18921,30 @@
   "full": 234.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/sennheiser-momentum-true-wireless-4-white-silver.html",
+  "category": "austinas"
+ },
+ "tet:52693": {
+  "operator": "tet",
+  "id": "52693",
+  "brand": "SteelSeries",
+  "model": "Arctis Nova 1P White",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 63.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/steelseries-arctis-nova-1p-white.html",
+  "category": "austinas"
+ },
+ "tet:48390": {
+  "operator": "tet",
+  "id": "48390",
+  "brand": "Aiwa",
+  "model": "ESTM-50RD Red",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 9.25,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/aiwa-estm-50rd-red.html",
   "category": "austinas"
  },
  "tet:81141": {
@@ -19067,16 +18971,16 @@
   "url": "https://www.tet.lv/veikals/austinas/philips-tat2100pk-00-pink.html",
   "category": "austinas"
  },
- "tet:82494": {
+ "tet:36967": {
   "operator": "tet",
-  "id": "82494",
-  "brand": "Sony",
-  "model": "WH-CH520Y Wireless Headphones - Yellow",
+  "id": "36967",
+  "brand": "Logitech",
+  "model": "G335 Black",
   "monthly": null,
   "monthly_old": null,
-  "full": 39.0,
+  "full": 54.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/sony-wh-ch520y-wireless-headphones-yellow.html",
+  "url": "https://www.tet.lv/veikals/austinas/logitech-g335-black.html",
   "category": "austinas"
  },
  "tet:99295": {
@@ -19089,18 +18993,6 @@
   "full": 149.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/suunto-spark-coral-orange-ss051357000.html",
-  "category": "austinas"
- },
- "tet:97954": {
-  "operator": "tet",
-  "id": "97954",
-  "brand": "Huawei",
-  "model": "FreeBuds SE 4 ANC Black",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 63.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/huawei-freebuds-se-4-anc-black.html",
   "category": "austinas"
  },
  "tet:99098": {
@@ -19127,6 +19019,18 @@
   "url": "https://www.tet.lv/veikals/austinas/sony-linkbuds-wf-lc900-clip-open-ear-black.html",
   "category": "austinas"
  },
+ "tet:97954": {
+  "operator": "tet",
+  "id": "97954",
+  "brand": "Huawei",
+  "model": "FreeBuds SE 4 ANC Black",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 63.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/huawei-freebuds-se-4-anc-black.html",
+  "category": "austinas"
+ },
  "tet:99815": {
   "operator": "tet",
   "id": "99815",
@@ -19137,6 +19041,18 @@
   "full": 69.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/jbl-tune-680nc-white.html",
+  "category": "austinas"
+ },
+ "tet:82493": {
+  "operator": "tet",
+  "id": "82493",
+  "brand": "Sony",
+  "model": "WH-CH520P Wireless Headphones - Pink",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 39.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/sony-wh-ch520p-wireless-headphones-pink.html",
   "category": "austinas"
  },
  "tet:70214": {
@@ -19187,16 +19103,40 @@
   "url": "https://www.tet.lv/veikals/austinas/lindy-42870.html",
   "category": "austinas"
  },
- "tet:82493": {
+ "tet:60869": {
   "operator": "tet",
-  "id": "82493",
-  "brand": "Sony",
-  "model": "WH-CH520P Wireless Headphones - Pink",
-  "monthly": null,
+  "id": "60869",
+  "brand": "Shure",
+  "model": "SRH840A-EFS  Black",
+  "monthly": 4.59,
   "monthly_old": null,
-  "full": 39.0,
+  "full": 145.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/sony-wh-ch520p-wireless-headphones-pink.html",
+  "url": "https://www.tet.lv/veikals/austinas/shure-srh840a-efs-black.html",
+  "category": "austinas"
+ },
+ "tet:65593": {
+  "operator": "tet",
+  "id": "65593",
+  "brand": "Sennheiser",
+  "model": "Accentum Wireless White",
+  "monthly": 5.7,
+  "monthly_old": null,
+  "full": 180.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/sennheiser-accentum-wireless-white.html",
+  "category": "austinas"
+ },
+ "tet:99294": {
+  "operator": "tet",
+  "id": "99294",
+  "brand": "Suunto",
+  "model": "Spark Black SS051356000",
+  "monthly": 4.72,
+  "monthly_old": null,
+  "full": 149.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/suunto-spark-black-ss051356000.html",
   "category": "austinas"
  },
  "tet:61529": {
@@ -19209,6 +19149,30 @@
   "full": 999.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/bang-olufsen-beoplay-h95-navy.html",
+  "category": "austinas"
+ },
+ "tet:14518": {
+  "operator": "tet",
+  "id": "14518",
+  "brand": "Koss",
+  "model": "Headphones BT232i",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 27.75,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/koss-headphones-bt232i.html",
+  "category": "austinas"
+ },
+ "tet:14542": {
+  "operator": "tet",
+  "id": "14542",
+  "brand": "Koss",
+  "model": "Headphones SB45",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 43.25,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/koss-headphones-sb45.html",
   "category": "austinas"
  },
  "tet:4593": {
@@ -19235,54 +19199,6 @@
   "url": "https://www.tet.lv/veikals/austinas/philips-tae1105pk-00-pink.html",
   "category": "austinas"
  },
- "tet:65593": {
-  "operator": "tet",
-  "id": "65593",
-  "brand": "Sennheiser",
-  "model": "Accentum Wireless White",
-  "monthly": 5.7,
-  "monthly_old": null,
-  "full": 180.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/sennheiser-accentum-wireless-white.html",
-  "category": "austinas"
- },
- "tet:14518": {
-  "operator": "tet",
-  "id": "14518",
-  "brand": "Koss",
-  "model": "Headphones BT232i",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 27.75,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/koss-headphones-bt232i.html",
-  "category": "austinas"
- },
- "tet:99294": {
-  "operator": "tet",
-  "id": "99294",
-  "brand": "Suunto",
-  "model": "Spark Black SS051356000",
-  "monthly": 4.72,
-  "monthly_old": null,
-  "full": 149.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/suunto-spark-black-ss051356000.html",
-  "category": "austinas"
- },
- "tet:60869": {
-  "operator": "tet",
-  "id": "60869",
-  "brand": "Shure",
-  "model": "SRH840A-EFS  Black",
-  "monthly": 4.59,
-  "monthly_old": null,
-  "full": 145.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/shure-srh840a-efs-black.html",
-  "category": "austinas"
- },
  "tet:85295": {
   "operator": "tet",
   "id": "85295",
@@ -19293,30 +19209,6 @@
   "full": 135.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/steelseries-nova-5-p-black.html",
-  "category": "austinas"
- },
- "tet:14542": {
-  "operator": "tet",
-  "id": "14542",
-  "brand": "Koss",
-  "model": "Headphones SB45",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 43.25,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/koss-headphones-sb45.html",
-  "category": "austinas"
- },
- "tet:33292": {
-  "operator": "tet",
-  "id": "33292",
-  "brand": "Philips",
-  "model": "TAH4205RD/00 Red",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 38.5,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/philips-tah-4205-red.html",
   "category": "austinas"
  },
  "tet:33148": {
@@ -19331,16 +19223,16 @@
   "url": "https://www.tet.lv/veikals/austinas/philips-tauh202wt-00-white.html",
   "category": "austinas"
  },
- "tet:54808": {
+ "tet:33292": {
   "operator": "tet",
-  "id": "54808",
-  "brand": "Logitech",
-  "model": "G935 Black",
-  "monthly": 3.71,
+  "id": "33292",
+  "brand": "Philips",
+  "model": "TAH4205RD/00 Red",
+  "monthly": null,
   "monthly_old": null,
-  "full": 117.0,
+  "full": 38.5,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/logitech-g935-black.html",
+  "url": "https://www.tet.lv/veikals/austinas/philips-tah-4205-red.html",
   "category": "austinas"
  },
  "tet:57166": {
@@ -19355,6 +19247,18 @@
   "url": "https://www.tet.lv/veikals/austinas/sony-wi-c100-black.html",
   "category": "austinas"
  },
+ "tet:48432": {
+  "operator": "tet",
+  "id": "48432",
+  "brand": "Xiaomi",
+  "model": "Mi In-Ear Basic Silver",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 8.25,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/xiaomi-mi-in-ear-basic-silver.html",
+  "category": "austinas"
+ },
  "tet:81111": {
   "operator": "tet",
   "id": "81111",
@@ -19367,16 +19271,16 @@
   "url": "https://www.tet.lv/veikals/austinas/skullcandy-hesh-evo-true-black.html",
   "category": "austinas"
  },
- "tet:48432": {
+ "tet:54808": {
   "operator": "tet",
-  "id": "48432",
-  "brand": "Xiaomi",
-  "model": "Mi In-Ear Basic Silver",
-  "monthly": null,
+  "id": "54808",
+  "brand": "Logitech",
+  "model": "G935 Black",
+  "monthly": 3.71,
   "monthly_old": null,
-  "full": 8.25,
+  "full": 117.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/xiaomi-mi-in-ear-basic-silver.html",
+  "url": "https://www.tet.lv/veikals/austinas/logitech-g935-black.html",
   "category": "austinas"
  },
  "tet:4184": {
@@ -19391,18 +19295,6 @@
   "url": "https://www.tet.lv/veikals/austinas/panasonic-rp-hje125e-k-black.html",
   "category": "austinas"
  },
- "tet:21641": {
-  "operator": "tet",
-  "id": "21641",
-  "brand": "Koss",
-  "model": " KPH7v Violet",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 7.75,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/koss-kph7v-violet.html",
-  "category": "austinas"
- },
  "tet:10919": {
   "operator": "tet",
   "id": "10919",
@@ -19415,28 +19307,16 @@
   "url": "https://www.tet.lv/veikals/austinas/headset-mi-piston-basic-black-zbw4354ty-xiaomi.html",
   "category": "austinas"
  },
- "tet:7023": {
+ "tet:21641": {
   "operator": "tet",
-  "id": "7023",
-  "brand": "Logitech",
-  "model": "H540 Black",
+  "id": "21641",
+  "brand": "Koss",
+  "model": " KPH7v Violet",
   "monthly": null,
   "monthly_old": null,
-  "full": 34.75,
+  "full": 7.75,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/logitech-h540-usb.html",
-  "category": "austinas"
- },
- "tet:99249": {
-  "operator": "tet",
-  "id": "99249",
-  "brand": "Tozo",
-  "model": "Aerosound3 Black",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 39.99,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/tozo-aerosound3-black.html",
+  "url": "https://www.tet.lv/veikals/austinas/koss-kph7v-violet.html",
   "category": "austinas"
  },
  "tet:60867": {
@@ -19451,16 +19331,28 @@
   "url": "https://www.tet.lv/veikals/austinas/shure-srh440a-efs-black.html",
   "category": "austinas"
  },
- "tet:14529": {
+ "tet:99249": {
   "operator": "tet",
-  "id": "14529",
-  "brand": "Koss",
-  "model": "KPH7 Red",
+  "id": "99249",
+  "brand": "Tozo",
+  "model": "Aerosound3 Black",
   "monthly": null,
   "monthly_old": null,
-  "full": 7.75,
+  "full": 39.99,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/koss-headphones-kph7r.html",
+  "url": "https://www.tet.lv/veikals/austinas/tozo-aerosound3-black.html",
+  "category": "austinas"
+ },
+ "tet:7023": {
+  "operator": "tet",
+  "id": "7023",
+  "brand": "Logitech",
+  "model": "H540 Black",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 34.75,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/logitech-h540-usb.html",
   "category": "austinas"
  },
  "tet:82490": {
@@ -19475,16 +19367,16 @@
   "url": "https://www.tet.lv/veikals/austinas/sony-wf-c710np-truly-wireless-noise-cancelling-earbuds-pink.html",
   "category": "austinas"
  },
- "tet:25809": {
+ "tet:14529": {
   "operator": "tet",
-  "id": "25809",
+  "id": "14529",
   "brand": "Koss",
-  "model": "UR23iK",
+  "model": "KPH7 Red",
   "monthly": null,
   "monthly_old": null,
-  "full": 13.35,
+  "full": 7.75,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/koss-ur23ik.html",
+  "url": "https://www.tet.lv/veikals/austinas/koss-headphones-kph7r.html",
   "category": "austinas"
  },
  "tet:101170": {
@@ -19499,16 +19391,16 @@
   "url": "https://www.tet.lv/veikals/austinas/sony-wh-ch530-pink.html",
   "category": "austinas"
  },
- "tet:48789": {
+ "tet:25809": {
   "operator": "tet",
-  "id": "48789",
+  "id": "25809",
   "brand": "Koss",
-  "model": "UR18 Silver",
+  "model": "UR23iK",
   "monthly": null,
   "monthly_old": null,
-  "full": 21.75,
+  "full": 13.35,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/koss-ur18-silver.html",
+  "url": "https://www.tet.lv/veikals/austinas/koss-ur23ik.html",
   "category": "austinas"
  },
  "tet:7159": {
@@ -19523,6 +19415,18 @@
   "url": "https://www.tet.lv/veikals/austinas/logitech-h151-black.html",
   "category": "austinas"
  },
+ "tet:48789": {
+  "operator": "tet",
+  "id": "48789",
+  "brand": "Koss",
+  "model": "UR18 Silver",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 21.75,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/koss-ur18-silver.html",
+  "category": "austinas"
+ },
  "tet:55744": {
   "operator": "tet",
   "id": "55744",
@@ -19533,30 +19437,6 @@
   "full": 7.25,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/sony-mdrex15lpw-ae.html",
-  "category": "austinas"
- },
- "tet:57172": {
-  "operator": "tet",
-  "id": "57172",
-  "brand": "Koss",
-  "model": "KSC35 Black",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 54.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/koss-ksc35-black.html",
-  "category": "austinas"
- },
- "tet:48923": {
-  "operator": "tet",
-  "id": "48923",
-  "brand": "Koss",
-  "model": "KPH7 Black",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 24.5,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/koss-kph7-black.html",
   "category": "austinas"
  },
  "tet:73194": {
@@ -19571,6 +19451,30 @@
   "url": "https://www.tet.lv/veikals/austinas/sven-ap-b630mv.html",
   "category": "austinas"
  },
+ "tet:48923": {
+  "operator": "tet",
+  "id": "48923",
+  "brand": "Koss",
+  "model": "KPH7 Black",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 24.5,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/koss-kph7-black.html",
+  "category": "austinas"
+ },
+ "tet:57172": {
+  "operator": "tet",
+  "id": "57172",
+  "brand": "Koss",
+  "model": "KSC35 Black",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 54.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/koss-ksc35-black.html",
+  "category": "austinas"
+ },
  "tet:100651": {
   "operator": "tet",
   "id": "100651",
@@ -19581,6 +19485,18 @@
   "full": 25.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/philips-tat2100wt-00-white.html",
+  "category": "austinas"
+ },
+ "tet:14539": {
+  "operator": "tet",
+  "id": "14539",
+  "brand": "Koss",
+  "model": "FitClips KSC32i Grey",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 18.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/koss-headphones-ksc32igry.html",
   "category": "austinas"
  },
  "tet:77289": {
@@ -19595,16 +19511,16 @@
   "url": "https://www.tet.lv/veikals/austinas/bang-olufsen-beoplay-hx-gold-tone.html",
   "category": "austinas"
  },
- "tet:14539": {
+ "tet:75524": {
   "operator": "tet",
-  "id": "14539",
-  "brand": "Koss",
-  "model": "FitClips KSC32i Grey",
-  "monthly": null,
+  "id": "75524",
+  "brand": "Shure",
+  "model": "Aonic 50 Gen 2 SBH50G2-BK Black",
+  "monthly": 10.42,
   "monthly_old": null,
-  "full": 18.0,
+  "full": 329.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/koss-headphones-ksc32igry.html",
+  "url": "https://www.tet.lv/veikals/austinas/shure-aonic-50-gen-2-sbh50g2-bk-black.html",
   "category": "austinas"
  },
  "tet:87494": {
@@ -19631,16 +19547,16 @@
   "url": "https://www.tet.lv/veikals/austinas/koss-headphones-keb9ik.html",
   "category": "austinas"
  },
- "tet:75524": {
+ "tet:41304": {
   "operator": "tet",
-  "id": "75524",
-  "brand": "Shure",
-  "model": "Aonic 50 Gen 2 SBH50G2-BK Black",
-  "monthly": 10.42,
+  "id": "41304",
+  "brand": "Beyerdynamic",
+  "model": "DT 770 Pro Black/Silver",
+  "monthly": 4.56,
   "monthly_old": null,
-  "full": 329.0,
+  "full": 144.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/shure-aonic-50-gen-2-sbh50g2-bk-black.html",
+  "url": "https://www.tet.lv/veikals/austinas/beyerdynamic-dt-770-pro.html",
   "category": "austinas"
  },
  "tet:48614": {
@@ -19667,18 +19583,6 @@
   "url": "https://www.tet.lv/veikals/austinas/tozo-openrhyme-t13064-black.html",
   "category": "austinas"
  },
- "tet:41304": {
-  "operator": "tet",
-  "id": "41304",
-  "brand": "Beyerdynamic",
-  "model": "DT 770 Pro Black/Silver",
-  "monthly": 4.56,
-  "monthly_old": null,
-  "full": 144.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/beyerdynamic-dt-770-pro.html",
-  "category": "austinas"
- },
  "tet:33290": {
   "operator": "tet",
   "id": "33290",
@@ -19689,18 +19593,6 @@
   "full": 38.5,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/philips-tah4205wt-00-white.html",
-  "category": "austinas"
- },
- "tet:60865": {
-  "operator": "tet",
-  "id": "60865",
-  "brand": "Shure",
-  "model": "SRH240A-BK Black",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 60.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/shure-srh240a-bk-black.html",
   "category": "austinas"
  },
  "tet:48780": {
@@ -19715,6 +19607,18 @@
   "url": "https://www.tet.lv/veikals/austinas/gembird-mhs-001-black.html",
   "category": "austinas"
  },
+ "tet:60865": {
+  "operator": "tet",
+  "id": "60865",
+  "brand": "Shure",
+  "model": "SRH240A-BK Black",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 60.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/shure-srh240a-bk-black.html",
+  "category": "austinas"
+ },
  "tet:101526": {
   "operator": "tet",
   "id": "101526",
@@ -19725,18 +19629,6 @@
   "full": 77.9,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/oppo-enco-air5-pro-black.html",
-  "category": "austinas"
- },
- "tet:48389": {
-  "operator": "tet",
-  "id": "48389",
-  "brand": "Aiwa",
-  "model": "ESTM-50WT White",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 9.25,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/aiwa-estm-50wt-white.html",
   "category": "austinas"
  },
  "tet:55747": {
@@ -19751,6 +19643,18 @@
   "url": "https://www.tet.lv/veikals/austinas/philips-tae1105bk-00.html",
   "category": "austinas"
  },
+ "tet:48389": {
+  "operator": "tet",
+  "id": "48389",
+  "brand": "Aiwa",
+  "model": "ESTM-50WT White",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 9.25,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/aiwa-estm-50wt-white.html",
+  "category": "austinas"
+ },
  "tet:48892": {
   "operator": "tet",
   "id": "48892",
@@ -19761,30 +19665,6 @@
   "full": 42.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/skullcandy-cassette-s5csw-m448.html",
-  "category": "austinas"
- },
- "tet:18438": {
-  "operator": "tet",
-  "id": "18438",
-  "brand": "Audio-Technica",
-  "model": "ATH S200BTBK Black",
-  "monthly": 2.57,
-  "monthly_old": null,
-  "full": 81.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/audio-technica-headphones-ath-s200btbk-bluetooth.html",
-  "category": "austinas"
- },
- "tet:98494": {
-  "operator": "tet",
-  "id": "98494",
-  "brand": "Cambridge",
-  "model": "Melomania P100 SE White",
-  "monthly": 8.84,
-  "monthly_old": null,
-  "full": 279.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/cambridge-melomania-p100-se-white.html",
   "category": "austinas"
  },
  "tet:54809": {
@@ -19799,6 +19679,30 @@
   "url": "https://www.tet.lv/veikals/austinas/logitech-h570e.html",
   "category": "austinas"
  },
+ "tet:98494": {
+  "operator": "tet",
+  "id": "98494",
+  "brand": "Cambridge",
+  "model": "Melomania P100 SE White",
+  "monthly": 8.84,
+  "monthly_old": null,
+  "full": 279.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/cambridge-melomania-p100-se-white.html",
+  "category": "austinas"
+ },
+ "tet:18438": {
+  "operator": "tet",
+  "id": "18438",
+  "brand": "Audio-Technica",
+  "model": "ATH S200BTBK Black",
+  "monthly": 2.57,
+  "monthly_old": null,
+  "full": 81.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/audio-technica-headphones-ath-s200btbk-bluetooth.html",
+  "category": "austinas"
+ },
  "tet:101173": {
   "operator": "tet",
   "id": "101173",
@@ -19811,18 +19715,6 @@
   "url": "https://www.tet.lv/veikals/austinas/sony-wh-ch730n-wireless-noise-cancelling-beige.html",
   "category": "austinas"
  },
- "tet:51955": {
-  "operator": "tet",
-  "id": "51955",
-  "brand": "Shokz",
-  "model": "OpenMove Blue",
-  "monthly": 2.85,
-  "monthly_old": null,
-  "full": 90.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/shokz-openmove-blue.html",
-  "category": "austinas"
- },
  "tet:64219": {
   "operator": "tet",
   "id": "64219",
@@ -19833,6 +19725,18 @@
   "full": 207.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/razer-kraken-kitty-v2-pro-black.html",
+  "category": "austinas"
+ },
+ "tet:51955": {
+  "operator": "tet",
+  "id": "51955",
+  "brand": "Shokz",
+  "model": "OpenMove Blue",
+  "monthly": 2.85,
+  "monthly_old": null,
+  "full": 90.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/shokz-openmove-blue.html",
   "category": "austinas"
  },
  "tet:99248": {
@@ -19907,18 +19811,6 @@
   "url": "https://www.tet.lv/veikals/austinas/lorgar-noah-101-white.html",
   "category": "austinas"
  },
- "tet:100655": {
-  "operator": "tet",
-  "id": "100655",
-  "brand": "Philips",
-  "model": "TAH4000BK/00 Black",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 29.25,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/philips-tah4000bk-00-black.html",
-  "category": "austinas"
- },
  "tet:70225": {
   "operator": "tet",
   "id": "70225",
@@ -19929,6 +19821,18 @@
   "full": 99.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/pioneer-dj-hdj-x5-s-silver.html",
+  "category": "austinas"
+ },
+ "tet:100655": {
+  "operator": "tet",
+  "id": "100655",
+  "brand": "Philips",
+  "model": "TAH4000BK/00 Black",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 29.25,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/philips-tah4000bk-00-black.html",
   "category": "austinas"
  },
  "tet:70268": {
@@ -19991,18 +19895,6 @@
   "url": "https://www.tet.lv/veikals/austinas/sennheiser-hd-800-s-black.html",
   "category": "austinas"
  },
- "tet:84936": {
-  "operator": "tet",
-  "id": "84936",
-  "brand": "JBL",
-  "model": "Tune Buds 2 Teal",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 69.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/jbl-tune-buds-2-teal.html",
-  "category": "austinas"
- },
  "tet:55754": {
   "operator": "tet",
   "id": "55754",
@@ -20027,6 +19919,18 @@
   "url": "https://www.tet.lv/veikals/austinas/jbl-junior-jr-460nc-white-bojats-iepakojums.html",
   "category": "austinas"
  },
+ "tet:84936": {
+  "operator": "tet",
+  "id": "84936",
+  "brand": "JBL",
+  "model": "Tune Buds 2 Teal",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 69.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/jbl-tune-buds-2-teal.html",
+  "category": "austinas"
+ },
  "tet:70276": {
   "operator": "tet",
   "id": "70276",
@@ -20037,18 +19941,6 @@
   "full": 249.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/yamaha-yh-e700b-beige.html",
-  "category": "austinas"
- },
- "tet:100642": {
-  "operator": "tet",
-  "id": "100642",
-  "brand": "Philips",
-  "model": "TAH4000PK/00 Pink",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 29.25,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/philips-tah4000pk-00-pink.html",
   "category": "austinas"
  },
  "tet:60172": {
@@ -20063,16 +19955,16 @@
   "url": "https://www.tet.lv/veikals/austinas/sudio-n2-pro-black.html",
   "category": "austinas"
  },
- "tet:101521": {
+ "tet:100642": {
   "operator": "tet",
-  "id": "101521",
-  "brand": "OPPO",
-  "model": "Enco Air5s Lunar White",
-  "monthly": 2.25,
+  "id": "100642",
+  "brand": "Philips",
+  "model": "TAH4000PK/00 Pink",
+  "monthly": null,
   "monthly_old": null,
-  "full": 70.9,
+  "full": 29.25,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/oppo-enco-air5s-lunar-white.html",
+  "url": "https://www.tet.lv/veikals/austinas/philips-tah4000pk-00-pink.html",
   "category": "austinas"
  },
  "tet:73485": {
@@ -20097,6 +19989,18 @@
   "full": 99.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/jbl-tune-785nc-white.html",
+  "category": "austinas"
+ },
+ "tet:101521": {
+  "operator": "tet",
+  "id": "101521",
+  "brand": "OPPO",
+  "model": "Enco Air5s Lunar White",
+  "monthly": 2.25,
+  "monthly_old": null,
+  "full": 70.9,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/oppo-enco-air5s-lunar-white.html",
   "category": "austinas"
  },
  "tet:101169": {
@@ -20135,18 +20039,6 @@
   "url": "https://www.tet.lv/veikals/austinas/jbl-tune-535bt-black.html",
   "category": "austinas"
  },
- "tet:7101": {
-  "operator": "tet",
-  "id": "7101",
-  "brand": "Gembird",
-  "model": "MHS-002 Black",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 6.75,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/gembird-mhs-002-stereo-black.html",
-  "category": "austinas"
- },
  "tet:26592": {
   "operator": "tet",
   "id": "26592",
@@ -20157,6 +20049,18 @@
   "full": 81.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/beats-flex-all-day-wireless-earphones-yuzu-yellow.html",
+  "category": "austinas"
+ },
+ "tet:7101": {
+  "operator": "tet",
+  "id": "7101",
+  "brand": "Gembird",
+  "model": "MHS-002 Black",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 6.75,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/gembird-mhs-002-stereo-black.html",
   "category": "austinas"
  },
  "tet:70213": {
@@ -20255,6 +20159,30 @@
   "url": "https://www.tet.lv/veikals/austinas/cambridge-melomania-p100-se-black.html",
   "category": "austinas"
  },
+ "tet:101168": {
+  "operator": "tet",
+  "id": "101168",
+  "brand": "Sony",
+  "model": "WH-CH530 Cobalt",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 59.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/sony-wh-ch530-cobalt.html",
+  "category": "austinas"
+ },
+ "tet:21638": {
+  "operator": "tet",
+  "id": "21638",
+  "brand": "Koss",
+  "model": " KPH7k Black",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 5.5,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/koss-kph7k-black.html",
+  "category": "austinas"
+ },
  "tet:70212": {
   "operator": "tet",
   "id": "70212",
@@ -20277,30 +20205,6 @@
   "full": 189.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/corsair-hs80-max-steel-gray-eu.html",
-  "category": "austinas"
- },
- "tet:21638": {
-  "operator": "tet",
-  "id": "21638",
-  "brand": "Koss",
-  "model": " KPH7k Black",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 5.5,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/koss-kph7k-black.html",
-  "category": "austinas"
- },
- "tet:101168": {
-  "operator": "tet",
-  "id": "101168",
-  "brand": "Sony",
-  "model": "WH-CH530 Cobalt",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 59.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/sony-wh-ch530-cobalt.html",
   "category": "austinas"
  },
  "tet:70267": {
@@ -20327,6 +20231,18 @@
   "url": "https://www.tet.lv/veikals/austinas/philips-tat2100bk-00-black.html",
   "category": "austinas"
  },
+ "tet:76970": {
+  "operator": "tet",
+  "id": "76970",
+  "brand": "Soundcore",
+  "model": "Space One Jet Black",
+  "monthly": 2.85,
+  "monthly_old": null,
+  "full": 90.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/soundcore-space-one-jet-black.html",
+  "category": "austinas"
+ },
  "tet:100658": {
   "operator": "tet",
   "id": "100658",
@@ -20349,18 +20265,6 @@
   "full": 171.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/soundcore-space-one-pro-jet-black.html",
-  "category": "austinas"
- },
- "tet:76970": {
-  "operator": "tet",
-  "id": "76970",
-  "brand": "Soundcore",
-  "model": "Space One Jet Black",
-  "monthly": 2.85,
-  "monthly_old": null,
-  "full": 90.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/soundcore-space-one-jet-black.html",
   "category": "austinas"
  },
  "tet:48605": {
@@ -20423,18 +20327,6 @@
   "url": "https://www.tet.lv/veikals/austinas/trust-23532-gaming.html",
   "category": "austinas"
  },
- "tet:48736": {
-  "operator": "tet",
-  "id": "48736",
-  "brand": "Gembird",
-  "model": "MHS-123 Black",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 4.5,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/gembird-mhs-123-black.html",
-  "category": "austinas"
- },
  "tet:89361": {
   "operator": "tet",
   "id": "89361",
@@ -20447,6 +20339,18 @@
   "url": "https://www.tet.lv/veikals/austinas/lorgar-kaya-460-black-lrg-ghs460.html",
   "category": "austinas"
  },
+ "tet:48736": {
+  "operator": "tet",
+  "id": "48736",
+  "brand": "Gembird",
+  "model": "MHS-123 Black",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 4.5,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/gembird-mhs-123-black.html",
+  "category": "austinas"
+ },
  "tet:70219": {
   "operator": "tet",
   "id": "70219",
@@ -20457,6 +20361,18 @@
   "full": 369.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/pioneer-dj-hdj-x10-s-silver.html",
+  "category": "austinas"
+ },
+ "tet:97944": {
+  "operator": "tet",
+  "id": "97944",
+  "brand": "AlphaTheta",
+  "model": "Professional Wireless DJ Headphones HDJ-F10",
+  "monthly": 14.22,
+  "monthly_old": null,
+  "full": 449.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/alphatheta-professional-wireless-dj-headphones-hdj-f10.html",
   "category": "austinas"
  },
  "tet:70275": {
@@ -20483,18 +20399,6 @@
   "url": "https://www.tet.lv/veikals/austinas/yamaha-tw-e3cgn-green.html",
   "category": "austinas"
  },
- "tet:97944": {
-  "operator": "tet",
-  "id": "97944",
-  "brand": "AlphaTheta",
-  "model": "Professional Wireless DJ Headphones HDJ-F10",
-  "monthly": 14.22,
-  "monthly_old": null,
-  "full": 449.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/alphatheta-professional-wireless-dj-headphones-hdj-f10.html",
-  "category": "austinas"
- },
  "tet:70248": {
   "operator": "tet",
   "id": "70248",
@@ -20505,18 +20409,6 @@
   "full": 99.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/yamaha-tw-e3cbe-beige.html",
-  "category": "austinas"
- },
- "tet:101525": {
-  "operator": "tet",
-  "id": "101525",
-  "brand": "OPPO",
-  "model": "Enco Air5 Pro White",
-  "monthly": 2.47,
-  "monthly_old": null,
-  "full": 77.9,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/oppo-enco-air5-pro-white.html",
   "category": "austinas"
  },
  "tet:4663": {
@@ -20531,18 +20423,6 @@
   "url": "https://www.tet.lv/veikals/austinas/razer-hammerhead-for-ios.html",
   "category": "austinas"
  },
- "tet:31812": {
-  "operator": "tet",
-  "id": "31812",
-  "brand": "Sennheiser",
-  "model": "Wired Headphones HD 400S",
-  "monthly": 2.28,
-  "monthly_old": null,
-  "full": 72.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/sennheiser-wired-headphones-hd-400s.html",
-  "category": "austinas"
- },
  "tet:70263": {
   "operator": "tet",
   "id": "70263",
@@ -20553,18 +20433,6 @@
   "full": 159.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/yamaha-tw-e5b-black.html",
-  "category": "austinas"
- },
- "tet:70272": {
-  "operator": "tet",
-  "id": "70272",
-  "brand": "Yamaha",
-  "model": "TW-E7B Beige",
-  "monthly": 8.52,
-  "monthly_old": null,
-  "full": 269.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/yamaha-tw-e7b-beige.html",
   "category": "austinas"
  },
  "tet:70226": {
@@ -20579,16 +20447,16 @@
   "url": "https://www.tet.lv/veikals/austinas/pioneer-dj-hdj-x7-k-black.html",
   "category": "austinas"
  },
- "tet:99100": {
+ "tet:70272": {
   "operator": "tet",
-  "id": "99100",
-  "brand": "Sony",
-  "model": "LinkBuds WF-LC900 Clip Open-Ear Green",
-  "monthly": 5.42,
+  "id": "70272",
+  "brand": "Yamaha",
+  "model": "TW-E7B Beige",
+  "monthly": 8.52,
   "monthly_old": null,
-  "full": 171.0,
+  "full": 269.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/sony-linkbuds-wf-lc900-clip-open-ear-green.html",
+  "url": "https://www.tet.lv/veikals/austinas/yamaha-tw-e7b-beige.html",
   "category": "austinas"
  },
  "tet:80409": {
@@ -20603,6 +20471,18 @@
   "url": "https://www.tet.lv/veikals/austinas/jbl-wave-beams-blue.html",
   "category": "austinas"
  },
+ "tet:99100": {
+  "operator": "tet",
+  "id": "99100",
+  "brand": "Sony",
+  "model": "LinkBuds WF-LC900 Clip Open-Ear Green",
+  "monthly": 5.42,
+  "monthly_old": null,
+  "full": 171.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/sony-linkbuds-wf-lc900-clip-open-ear-green.html",
+  "category": "austinas"
+ },
  "tet:70259": {
   "operator": "tet",
   "id": "70259",
@@ -20613,18 +20493,6 @@
   "full": 99.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/yamaha-tw-e3cbu-blue.html",
-  "category": "austinas"
- },
- "tet:100970": {
-  "operator": "tet",
-  "id": "100970",
-  "brand": "Beoplay",
-  "model": "Eleven Eucalyptus Green",
-  "monthly": 15.8,
-  "monthly_old": null,
-  "full": 499.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/beoplay-eleven-eucalyptus-green.html",
   "category": "austinas"
  },
  "tet:60176": {
@@ -20639,6 +20507,18 @@
   "url": "https://www.tet.lv/veikals/austinas/sudio-n2-pro-white.html",
   "category": "austinas"
  },
+ "tet:100970": {
+  "operator": "tet",
+  "id": "100970",
+  "brand": "Beoplay",
+  "model": "Eleven Eucalyptus Green",
+  "monthly": 15.8,
+  "monthly_old": null,
+  "full": 499.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/beoplay-eleven-eucalyptus-green.html",
+  "category": "austinas"
+ },
  "tet:70249": {
   "operator": "tet",
   "id": "70249",
@@ -20649,6 +20529,18 @@
   "full": 99.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/yamaha-tw-e3cbl-black.html",
+  "category": "austinas"
+ },
+ "tet:70273": {
+  "operator": "tet",
+  "id": "70273",
+  "brand": "Yamaha",
+  "model": "TW-E7B Black",
+  "monthly": 8.52,
+  "monthly_old": null,
+  "full": 269.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/yamaha-tw-e7b-black.html",
   "category": "austinas"
  },
  "tet:70218": {
@@ -20687,18 +20579,6 @@
   "url": "https://www.tet.lv/veikals/austinas/yamaha-tw-e3cgy-gray.html",
   "category": "austinas"
  },
- "tet:70273": {
-  "operator": "tet",
-  "id": "70273",
-  "brand": "Yamaha",
-  "model": "TW-E7B Black",
-  "monthly": 8.52,
-  "monthly_old": null,
-  "full": 269.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/yamaha-tw-e7b-black.html",
-  "category": "austinas"
- },
  "tet:50266": {
   "operator": "tet",
   "id": "50266",
@@ -20711,18 +20591,6 @@
   "url": "https://www.tet.lv/veikals/austinas/sennheiser-momentum-4-wireless-white.html",
   "category": "austinas"
  },
- "tet:55750": {
-  "operator": "tet",
-  "id": "55750",
-  "brand": "Sony",
-  "model": "MDRZX110B-AE",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 17.75,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/sony-mdrzx110b-ae.html",
-  "category": "austinas"
- },
  "tet:101523": {
   "operator": "tet",
   "id": "101523",
@@ -20733,6 +20601,18 @@
   "full": 58.9,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/oppo-enco-air5-midnight-black.html",
+  "category": "austinas"
+ },
+ "tet:55750": {
+  "operator": "tet",
+  "id": "55750",
+  "brand": "Sony",
+  "model": "MDRZX110B-AE",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 17.75,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/sony-mdrzx110b-ae.html",
   "category": "austinas"
  },
  "tet:70269": {
@@ -20819,18 +20699,6 @@
   "url": "https://www.tet.lv/veikals/austinas/shure-aonic-40-white.html",
   "category": "austinas"
  },
- "tet:70224": {
-  "operator": "tet",
-  "id": "70224",
-  "brand": "Pioneer",
-  "model": "DJ HDJ-X5-K Black",
-  "monthly": 3.14,
-  "monthly_old": null,
-  "full": 99.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/pioneer-dj-hdj-x5-k-black.html",
-  "category": "austinas"
- },
  "tet:21661": {
   "operator": "tet",
   "id": "21661",
@@ -20841,6 +20709,18 @@
   "full": 28.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/trust-gxt-488-forze-ps4-black.html",
+  "category": "austinas"
+ },
+ "tet:70224": {
+  "operator": "tet",
+  "id": "70224",
+  "brand": "Pioneer",
+  "model": "DJ HDJ-X5-K Black",
+  "monthly": 3.14,
+  "monthly_old": null,
+  "full": 99.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/pioneer-dj-hdj-x5-k-black.html",
   "category": "austinas"
  },
  "tet:76931": {
@@ -20867,18 +20747,6 @@
   "url": "https://www.tet.lv/veikals/austinas/yamaha-tw-e5b-gray.html",
   "category": "austinas"
  },
- "tet:70217": {
-  "operator": "tet",
-  "id": "70217",
-  "brand": "Pioneer",
-  "model": "DJ HDJ-S7-W White",
-  "monthly": 6.3,
-  "monthly_old": null,
-  "full": 199.0,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/pioneer-dj-hdj-s7-w-white.html",
-  "category": "austinas"
- },
  "tet:48928": {
   "operator": "tet",
   "id": "48928",
@@ -20891,16 +20759,16 @@
   "url": "https://www.tet.lv/veikals/austinas/steelseries-tusq-61650-black.html",
   "category": "austinas"
  },
- "tet:70200": {
+ "tet:70217": {
   "operator": "tet",
-  "id": "70200",
-  "brand": "Energy",
-  "model": "Sistem Hoshi ECO Red",
-  "monthly": null,
+  "id": "70217",
+  "brand": "Pioneer",
+  "model": "DJ HDJ-S7-W White",
+  "monthly": 6.3,
   "monthly_old": null,
-  "full": 29.0,
+  "full": 199.0,
   "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/energy-sistem-hoshi-eco-red.html",
+  "url": "https://www.tet.lv/veikals/austinas/pioneer-dj-hdj-s7-w-white.html",
   "category": "austinas"
  },
  "tet:14574": {
@@ -20913,6 +20781,18 @@
   "full": 20.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/koss-sparkplug-black.html",
+  "category": "austinas"
+ },
+ "tet:70200": {
+  "operator": "tet",
+  "id": "70200",
+  "brand": "Energy",
+  "model": "Sistem Hoshi ECO Red",
+  "monthly": null,
+  "monthly_old": null,
+  "full": 29.0,
+  "full_old": null,
+  "url": "https://www.tet.lv/veikals/austinas/energy-sistem-hoshi-eco-red.html",
   "category": "austinas"
  },
  "tet:48770": {
@@ -20973,18 +20853,6 @@
   "full": 17.0,
   "full_old": null,
   "url": "https://www.tet.lv/veikals/austinas/philips-berniem-tak2000bl-00.html",
-  "category": "austinas"
- },
- "tet:99256": {
-  "operator": "tet",
-  "id": "99256",
-  "brand": "Tozo",
-  "model": "Agile Nova Black",
-  "monthly": null,
-  "monthly_old": null,
-  "full": 19.99,
-  "full_old": null,
-  "url": "https://www.tet.lv/veikals/austinas/tozo-agile-nova-black.html",
   "category": "austinas"
  },
  "tet:100654": {
