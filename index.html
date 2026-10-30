@@ -4,304 +4,333 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cenu skeneris</title>
-<meta name="description" content="Bite, Tele2 un LMT telefonu, viedpulksteņu un austiņu cenas un to vēsture">
+<meta name="description" content="Kur lētāk? Bite, Tele2, LMT un Tet cenas vienam un tam pašam modelim, ar cenu vēsturi">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap">
 <style>
   :root {
     color-scheme: light;
-    --page: #f9f9f7;
-    --surface: #fcfcfb;
-    --ink: #0b0b0b;
-    --ink-2: #52514e;
-    --muted: #6f6e69;
-    --win-bg: #e3f3e3;
-    --sale: #b4235a;
-    --grid: #e1e0d9;
-    --axis: #c3c2b7;
-    --ring: rgba(11,11,11,0.10);
-    --hover: rgba(11,11,11,0.04);
-    /* operatoru zīmolu krāsas (Bite zaļa, Tele2 zila, LMT oranža, Tet violeta),
-       pārbaudītas ar krāsu redzes traucējumu simulāciju; nosaukums vienmēr blakus krāsai */
-    --bite: #2fb36b;
-    --tele2: #1d5bc4;
-    --lmt: #f08a24;
-    --tet: #8a3ffc;
-    --down: #006300;      /* cena kritusies = labi */
-    --up: #d03b3b;
-    --accent: #1f63b8;
+    --page: #EDF0F3; --surface: #FFFFFF; --hover: #F4F6F8; --sunk: #EDF0F3;
+    --ink: #17202B; --ink-2: #4A5563; --muted: #5B6673; --faint: #8A94A1;
+    --line: #CDD4DC; --line-2: #E1E6EB;
+    --tag: #FFD43B; --tag-ink: #17202B;
+    --down: #1F6B3A; --up: #A3322A; --accent: #1D4E9E; --sale: #B4235A;
+    --bite: #2FB36B; --tele2: #1D5BC4; --lmt: #F08A24; --tet: #8A3FFC;
   }
   @media (prefers-color-scheme: dark) {
     :root:where(:not([data-theme="light"])) {
       color-scheme: dark;
-      --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7;
-      --muted: #9a9891; --grid: #2c2c2a; --axis: #383835; --win-bg: #17321a; --sale: #f0709a;
-      --ring: rgba(255,255,255,0.10); --hover: rgba(255,255,255,0.05);
-      --bite: #239c5a; --tele2: #2e66d6; --lmt: #d97316; --tet: #b066ff; --down: #3ccf3c; --up: #e66767; --accent: #3987e5;
+      --page: #0E141B; --surface: #16202A; --hover: #1C2833; --sunk: #111922;
+      --ink: #EDF0F3; --ink-2: #B3BDC8; --muted: #9AA5B1; --faint: #6E7A87;
+      --line: #2B3846; --line-2: #223040;
+      --down: #5BD08A; --up: #FF8A80; --accent: #8AB4FF; --sale: #F57CA8;
+      --bite: #34C47A; --tele2: #4C86F0; --lmt: #F08A24; --tet: #A673FF;
     }
   }
   :root[data-theme="dark"] {
     color-scheme: dark;
-    --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7;
-    --muted: #9a9891; --grid: #2c2c2a; --axis: #383835; --win-bg: #17321a; --sale: #f0709a;
-    --ring: rgba(255,255,255,0.10); --hover: rgba(255,255,255,0.05);
-    --bite: #239c5a; --tele2: #2e66d6; --lmt: #d97316; --tet: #b066ff; --down: #3ccf3c; --up: #e66767; --accent: #3987e5;
+    --page: #0E141B; --surface: #16202A; --hover: #1C2833; --sunk: #111922;
+    --ink: #EDF0F3; --ink-2: #B3BDC8; --muted: #9AA5B1; --faint: #6E7A87;
+    --line: #2B3846; --line-2: #223040;
+    --down: #5BD08A; --up: #FF8A80; --accent: #8AB4FF; --sale: #F57CA8;
+    --bite: #34C47A; --tele2: #4C86F0; --lmt: #F08A24; --tet: #A673FF;
   }
 
   * { box-sizing: border-box; }
   [hidden] { display: none !important; }
-  body {
-    margin: 0; background: var(--page); color: var(--ink);
-    font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
-  }
-  .wrap { max-width: 980px; margin: 0 auto; padding: 24px 16px 64px; }
-  h1 { font-size: 24px; margin: 0 0 2px; letter-spacing: -0.01em; }
-  .sub { color: var(--ink-2); margin: 0 0 20px; font-size: 14px; }
-  .sub .warn { color: var(--up); }
-
-  .top { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; margin-bottom: 14px; }
-  .top .sub { margin: 0; }
-  .legend-ops { display: flex; gap: 12px; flex-wrap: wrap; font-size: 13px; color: var(--ink-2); }
-  .legend-ops span { display: inline-flex; align-items: center; gap: 6px; }
-  .stats { color: var(--ink-2); font-size: 13px; margin: -4px 0 14px; display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; }
-  .stats .hero { font: inherit; font-size: 14px; color: var(--ink); background: var(--win-bg); border: 0; border-radius: 8px;
-    padding: 6px 10px; cursor: pointer; text-align: left; }
-  .stats .hero b { color: var(--down); }
-  .stats b { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
-  .brands { display: flex; gap: 6px; overflow-x: auto; padding: 2px 0 10px; margin-bottom: 4px; scrollbar-width: thin; }
-  .brands button {
-    font: inherit; font-size: 13px; white-space: nowrap; cursor: pointer; color: var(--ink-2);
-    background: var(--surface); border: 1px solid var(--ring); border-radius: 999px; padding: 5px 12px; min-height: 36px;
-  }
-  .brands { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent);
-            mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent); padding-right: 40px; }
-  @media (max-width: 640px) {
-    .cats { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent);
-            mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent); padding-right: 32px; }
-    .filters #q { order: -1; flex-basis: 100%; }
-    .filters #views { flex: 1 1 100%; } .filters #views button { flex: 1; justify-content: center; }
-  }
-  .brands button .n { color: var(--muted); margin-left: 4px; font-variant-numeric: tabular-nums; }
-  .brands button[aria-pressed=true] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
-  .brands button[aria-pressed=true] .n { color: inherit; opacity: .7; }
-  .save { display: none; }
-  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-bottom: 20px; }
-  .tile { background: var(--surface); border: 1px solid var(--ring); border-radius: 12px; padding: 12px 14px; }
-  .tile .k { color: var(--ink-2); font-size: 13px; display: flex; align-items: center; gap: 6px; }
-  .tile .v { font-size: 26px; font-weight: 600; margin-top: 2px; }
-  @media (max-width: 640px) { .tiles { grid-template-columns: repeat(2, 1fr); } }
-
-  .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; flex: none; }
-  .dot.bite { background: var(--bite); } .dot.tele2 { background: var(--tele2); } .dot.lmt { background: var(--lmt); } .dot.tet { background: var(--tet); }
-
-  .cats { display: flex; gap: 4px; margin-bottom: 14px; border-bottom: 1px solid var(--grid); overflow-x: auto; }
-  .cats button {
-    font: inherit; font-weight: 600; border: 0; background: none; color: var(--ink-2); cursor: pointer;
-    padding: 8px 12px 10px; border-bottom: 2px solid transparent; margin-bottom: -1px; white-space: nowrap;
-  }
-  .cats button[aria-selected=true] { color: var(--ink); border-bottom-color: var(--ink); }
-  .cats .n { color: var(--muted); font-weight: 400; margin-left: 4px; font-size: 13px; }
-  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; align-items: center; }
-  .filters input[type=search], .filters select {
-    font: inherit; color: var(--ink); background: var(--surface);
-    border: 1px solid var(--ring); border-radius: 10px; padding: 8px 12px; min-height: 40px;
-  }
-  .filters input[type=search] { flex: 1 1 220px; }
-  .seg { display: inline-flex; border: 1px solid var(--ring); border-radius: 10px; overflow: hidden; background: var(--surface); }
-  .seg button {
-    font: inherit; border: 0; background: none; color: var(--ink-2); padding: 8px 12px; min-height: 40px; cursor: pointer;
-    display: inline-flex; align-items: center; gap: 6px;
-  }
-  .seg button[aria-pressed=true] { background: var(--hover); color: var(--ink); font-weight: 600; }
-  .chips { display: inline-flex; gap: 8px; flex-wrap: wrap; }
-  .chk { display: inline-flex; align-items: center; gap: 6px; color: var(--ink-2); cursor: pointer; position: relative;
-    background: var(--surface); border: 1px solid var(--ring); border-radius: 999px; padding: 0 14px; min-height: 40px; white-space: nowrap; }
-  .chk input { position: absolute; opacity: 0; width: 1px; height: 1px; }
-  .chk:has(input:checked) { background: var(--ink); color: var(--surface); border-color: var(--ink); }
-  .chk:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
-
-  .card { background: var(--surface); border: 1px solid var(--ring); border-radius: 14px; overflow: clip; }
-  thead th { position: sticky; top: 0; z-index: 2; background: var(--surface); box-shadow: inset 0 -1px 0 var(--grid); }
-  table { width: 100%; border-collapse: collapse; }
-  th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid var(--grid); vertical-align: middle; }
-  th { font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; cursor: pointer; user-select: none; white-space: nowrap; }
-  th.num, td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
-  th[aria-sort=ascending]::after { content: " ↑"; } th[aria-sort=descending]::after { content: " ↓"; }
-  tbody tr { cursor: pointer; }
-  tbody tr[data-key] td:last-child { position: relative; padding-right: 30px; }
-  tbody tr[data-key] td:last-child::after { content: "›"; position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
-    color: var(--muted); font-size: 18px; }
-  tbody tr[data-key]:hover td:last-child::after { color: var(--ink); }
-  .more-row td { text-align: center; cursor: default; padding: 14px; }
-  tr.sec td { cursor: default; font-weight: 700; font-size: 15px; padding: 18px 14px 8px; background: var(--page); border-bottom: 1px solid var(--grid); }
-  tr.sec .cm { font-weight: 400; color: var(--muted); font-size: 13px; margin-left: 4px; }
-  tr.sec .n { font-weight: 400; color: var(--muted); font-size: 13px; margin-left: 10px; }
-  .code { font-variant-numeric: tabular-nums; letter-spacing: .01em; }
-  .skus tr.cur td { background: var(--hover); }
-  .skus tr.cur td.vk::before { content: "▸ "; color: var(--accent); }
-  .more-row button { font: inherit; font-weight: 600; color: var(--ink); background: var(--surface); border: 1px solid var(--ring);
-    border-radius: 10px; padding: 9px 16px; min-height: 40px; cursor: pointer; }
-  .more-row button:hover { background: var(--hover); }
-  .more-row .n { color: var(--muted); font-weight: 400; margin-left: 6px; }
+  body { margin: 0; background: var(--page); color: var(--ink);
+    font: 16px/1.45 Archivo, system-ui, -apple-system, "Segoe UI", sans-serif; }
+  a { color: var(--accent); }
   :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
-  tbody tr:focus-visible { outline-offset: -2px; }
-  .tag { display: inline-block; font-size: 11px; font-weight: 600; line-height: 1; color: var(--sale);
-    border: 1px solid currentColor; border-radius: 5px; padding: 2px 4px; margin-left: 4px; vertical-align: 1px; }
-  .tag.used { color: var(--muted); }
-  tbody tr:hover { background: var(--hover); }
-  tbody tr:last-child td { border-bottom: 0; }
-  .name { display: flex; align-items: center; gap: 10px; }
-  .name .b { color: var(--muted); font-size: 12px; }
-  .old { color: var(--muted); text-decoration: line-through; font-size: 12px; display: block; }
-  .disc { color: var(--sale); font-weight: 600; white-space: nowrap; }   /* atlaide */
-  .gap { color: var(--ink); font-weight: 700; white-space: nowrap; }     /* starpība starp operatoriem */
-  .low { color: var(--ink-2); }
-  .same { color: var(--muted); }
-  td.cmp { white-space: nowrap; }
-  td.cmp .pp { font-weight: 500; }
-  td.cmp .from { color: var(--ink-2); font-size: 12px; margin-right: 3px; }
-  td.cmp .mm { display: block; color: var(--muted); font-size: 12px; }
-  td.cmp.win .pp { color: var(--down); font-weight: 700; background: var(--win-bg); border-radius: 6px; padding: 2px 6px; margin-right: -6px; }
-  td.cmp .none { color: var(--muted); }
-  th .dot { margin-right: 5px; vertical-align: 1px; }
-  .variants { margin: 6px 0 0; padding: 0; list-style: none; font-size: 12px; color: var(--ink-2); }
-  .variants li { display: flex; justify-content: space-between; gap: 8px; }
-  .variants b { font-weight: 500; font-variant-numeric: tabular-nums; white-space: nowrap; }
-  .variants .more { color: var(--muted); }
-  .skus { width: 100%; border-collapse: collapse; margin: 4px 0 18px; font-size: 14px; }
-  .skus th, .skus td { padding: 7px 8px; border-bottom: 1px solid var(--grid); text-align: right; white-space: nowrap; }
-  .skus th:first-child, .skus td:first-child { text-align: left; }
-  .skus th { font-size: 12px; color: var(--muted); font-weight: 600; cursor: default; text-transform: none; letter-spacing: 0; }
-  .skus td a { color: inherit; text-decoration: none; font-variant-numeric: tabular-nums; }
-  .skus td a:hover { text-decoration: underline; }
-  .skus td.win a { color: var(--down); font-weight: 700; background: var(--win-bg); border-radius: 6px; padding: 2px 6px; margin-right: -6px; }
-  .skus td.na { color: var(--muted); }
-  .skus .vk { font-weight: 600; }
-  .skus-wrap { overflow-x: auto; }
-  @media (max-width: 640px) {
-    .skus { font-size: 12px; }
-    .skus th, .skus td { padding: 7px 3px; }
-    .skus th { font-size: 11px; }
-    .skus th .dot { display: none; }
-    .skus td.win a { margin-right: 0; padding: 2px 4px; }
-  }
-  .dlg-head + .chart-title { margin-top: 14px; }
-  .note { color: var(--muted); font-size: 12px; margin: -12px 0 16px; }
-  @media (max-width: 640px) {
-    td.cmp { padding: 9px 5px; font-size: 13px; }
-    td.cmp .mm { display: none; }
-    td.cmp .from { display: block; margin: 0; }
-    .compare th.num { padding: 9px 5px; font-size: 11px; }
-    .compare td:first-child { padding-right: 4px; }
-  }
+  button { font: inherit; color: inherit; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px 64px; }
+  .num { font-variant-numeric: tabular-nums; }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; flex: none; }
+  .dot.bite { background: var(--bite); } .dot.tele2 { background: var(--tele2); }
+  .dot.lmt { background: var(--lmt); } .dot.tet { background: var(--tet); }
 
-  @media (max-width: 640px) {
-    .compare thead { display: none; }
-    .compare tbody tr { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px 10px; padding: 12px; border-bottom: 1px solid var(--grid); }
-    .compare tbody tr:last-child { border-bottom: 0; }
-    .compare td { border: 0; padding: 0 !important; }
-    .compare td:first-child { grid-column: 1 / -1; padding-bottom: 4px !important; }
-    .compare td.cmp { display: flex; align-items: baseline; justify-content: space-between; gap: 6px; font-size: 14px;
-      background: var(--hover); border-radius: 8px; padding: 6px 8px !important; }
-    .compare td.cmp::before { content: attr(data-op); font-size: 12px; color: var(--ink-2); display: inline-flex; align-items: center;
-      padding-left: 13px; background: radial-gradient(circle 4.5px at 4.5px 50%, var(--opc) 98%, transparent) no-repeat; }
-    .compare td.cmp[data-op="Bite"] { --opc: var(--bite); } .compare td.cmp[data-op="Tele2"] { --opc: var(--tele2); }
-    .compare td.cmp[data-op="LMT"] { --opc: var(--lmt); } .compare td.cmp[data-op="Tet"] { --opc: var(--tet); }
-    .compare td.cmp .from { display: inline; margin-left: auto; }
-    .compare td.cmp .pp { margin-left: 2px; }
-    .compare td.cmp.win { background: var(--win-bg); }
-    .compare td.cmp.win .pp { background: none; padding: 0; margin: 0; }
-    .compare tbody tr[data-key] td:last-child::after { content: none; }
-    .compare .save { display: inline-block; margin-left: 8px; }
-    .compare td.empty { grid-column: 1 / -1; }
-    .compare tbody tr.sec { display: block; padding: 16px 12px 6px; background: var(--page); }
-    .compare tbody tr.sec td { display: block; padding: 0 !important; background: none; border: 0; }
-  }
-  .empty { padding: 40px 16px; text-align: center; color: var(--ink-2); }
-  @media (max-width: 640px) {
-    th, td { padding: 9px 10px; }
-    .hide-sm { display: none; }
-  }
+  /* galvene */
+  .top { display: flex; align-items: center; justify-content: space-between; gap: 12px 24px; flex-wrap: wrap;
+    padding: 20px 0 16px; border-bottom: 1px solid var(--line); }
+  .brand { display: flex; align-items: center; gap: 10px; color: var(--ink); text-decoration: none; }
+  .brand b { font-size: 22px; font-weight: 800; font-stretch: 75%; letter-spacing: -0.01em; }
+  .cats { display: flex; gap: 4px; flex-wrap: wrap; }
+  .cats button { border: 0; background: none; color: var(--ink-2); padding: 8px 12px; border-radius: 6px; cursor: pointer; font-size: 15px; min-height: 40px; }
+  .cats button:hover { background: var(--surface); color: var(--ink); }
+  .cats button[aria-selected=true] { background: var(--ink); color: var(--page); font-weight: 600; }
+  .updated { margin: 0; font-size: 14px; color: var(--ink-2); }
+  .updated .warn { color: var(--up); }
 
-  dialog {
-    border: 1px solid var(--ring); border-radius: 16px; padding: 0; background: var(--surface); color: var(--ink);
-    width: min(760px, calc(100vw - 24px)); max-height: calc(100vh - 24px);
-  }
-  dialog::backdrop { background: rgba(0,0,0,.4); }
-  .dlg { padding: 18px 18px 20px; }
-  .dlg-head { display: flex; justify-content: space-between; gap: 12px; align-items: start; }
-  .dlg h2 { margin: 0; font-size: 20px; }
-  .dlg .x { font: inherit; font-size: 22px; line-height: 1; border: 0; background: none; color: var(--ink-2); cursor: pointer; padding: 4px 8px; }
-  .offers { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin: 14px 0 18px; }
-  .offer { border: 1px solid var(--ring); border-radius: 12px; padding: 10px 12px; }
-  .offer .op { display: flex; align-items: center; gap: 6px; color: var(--ink-2); font-size: 13px; }
-  .offer .p { font-size: 22px; font-weight: 600; }
-  .offer .m { color: var(--ink-2); font-size: 13px; }
-  .offer a { color: var(--accent); font-size: 13px; }
-  .best { font-size: 11px; font-weight: 600; color: var(--down); border: 1px solid currentColor; border-radius: 6px; padding: 0 5px; margin-left: auto; }
-  .chart-title { font-size: 14px; font-weight: 600; margin: 0 0 4px; }
-  .legend { display: flex; gap: 14px; font-size: 13px; color: var(--ink-2); margin-bottom: 4px; }
-  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  /* virsraksts un meklēšana */
+  .hero { padding: 36px 0 24px; display: grid; gap: 16px; }
+  .hero h1 { margin: 0; font-size: clamp(44px, 7vw, 64px); line-height: 1; font-weight: 800; font-stretch: 70%; letter-spacing: -0.02em; }
+  .search { display: flex; align-items: center; gap: 12px; background: var(--surface); border: 2px solid var(--ink);
+    border-radius: 10px; padding: 0 18px; height: 60px; max-width: 720px; }
+  .search input { flex: 1; min-width: 0; border: 0; outline: none; background: transparent; color: var(--ink); font: inherit; font-size: 18px; }
+  .search:focus-within { box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 35%, transparent); }
+  .summary { margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; font-size: 15px; color: var(--ink-2); max-width: 900px; }
+  .summary b { color: var(--ink); }
+  .best-btn { display: inline-flex; align-items: center; gap: 8px; border: 0; cursor: pointer; text-align: left;
+    background: var(--tag); color: var(--tag-ink); border-radius: 6px 14px 14px 6px; padding: 7px 14px 7px 24px; position: relative; font-size: 15px; }
+  .summary .best-btn b { color: var(--tag-ink); }
+  .best-btn::before { content: ""; position: absolute; left: 9px; top: 50%; width: 7px; height: 7px; margin-top: -3.5px; border-radius: 50%;
+    background: var(--surface); box-shadow: inset 0 0 0 1.5px rgba(23,32,43,.35); }
+
+  /* filtri */
+  .filters { display: flex; flex-direction: column; gap: 10px; padding-bottom: 24px; }
+  .frow { display: flex; align-items: center; gap: 6px 10px; min-width: 0; }
+  .flabel { flex: none; width: 84px; font-size: 14px; color: var(--ink-2); }
+  .chips { display: flex; gap: 6px; min-width: 0; flex-wrap: wrap; }
+  .chips.scroll { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding-right: 32px;
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent); }
+  .chips.scroll::-webkit-scrollbar { display: none; }
+  .chip { flex: none; display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 0 14px; border-radius: 8px; cursor: pointer;
+    background: var(--surface); color: var(--ink); border: 1.5px solid var(--line); font-size: 15px; font-weight: 500; white-space: nowrap; }
+  .chip:hover { border-color: var(--ink-2); }
+  .chip[aria-pressed=true] { background: var(--ink); color: var(--page); border-color: var(--ink); font-weight: 700; }
+  .chip .n { font-weight: 400; opacity: .72; font-size: 13px; }
+  .opchk { position: relative; padding-left: 10px; }
+  .opchk input { width: 18px; height: 18px; margin: 0; accent-color: var(--ink); }
+  .opchk:has(input:checked) { border-color: var(--ink); font-weight: 700; }
+  .hint { font-size: 13px; color: var(--ink-2); }
+
+  /* kartīte ar rezultātiem */
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; overflow: clip; }
+  .card-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 14px 20px; flex-wrap: wrap;
+    padding: 20px 28px 16px; border-bottom: 1px solid var(--line); }
+  .ttl { display: flex; align-items: baseline; gap: 6px 14px; flex-wrap: wrap; min-width: 0; }
+  .ttl h2 { margin: 0; font-size: 48px; line-height: .9; font-weight: 800; font-stretch: 65%; }
+  .ttl p { margin: 0; font-size: 15px; color: var(--ink-2); }
+  .tools { display: flex; align-items: center; gap: 10px 16px; flex-wrap: wrap; }
+  .seg { display: inline-flex; border: 1.5px solid var(--ink); border-radius: 9px; overflow: hidden; }
+  .seg button { display: inline-flex; align-items: center; gap: 7px; border: 0; background: var(--surface); color: var(--ink);
+    min-height: 40px; padding: 0 13px; cursor: pointer; font-size: 15px; }
+  .seg button[aria-pressed=true] { background: var(--ink); color: var(--surface); font-weight: 700; }
+  .chk { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; min-height: 40px; cursor: pointer; white-space: nowrap; }
+  .chk input { width: 18px; height: 18px; margin: 0; accent-color: var(--ink); }
+  .sel { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; color: var(--ink-2); }
+  .sel select { font: inherit; font-size: 14px; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; min-height: 40px; }
+
+  .sec { display: flex; align-items: baseline; gap: 12px; padding: 22px 28px 10px; background: var(--sunk); border-bottom: 1px solid var(--line-2); }
+  .sec b { font-size: 40px; line-height: .9; font-weight: 800; font-stretch: 65%; }
+  .sec span { font-size: 14px; color: var(--ink-2); }
+
+  /* kāpņu rinda */
+  .lrow { display: grid; grid-template-columns: minmax(200px, 300px) minmax(240px, 1fr) 200px 16px; gap: 28px; align-items: center;
+    padding: 20px 28px; border-bottom: 1px solid var(--line-2); cursor: pointer; }
+  .lrow:hover { background: var(--hover); }
+  .lrow:hover .chev { color: var(--ink); }
+  .lm { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+  .lm .b { font-size: 13px; color: var(--ink-2); }
+  .lm .t { font-size: 17px; font-weight: 600; line-height: 1.25; }
+  .lm .c { font-size: 13px; color: var(--ink-2); font-stretch: 80%; letter-spacing: .02em; }
+  .chg { display: flex; flex-wrap: wrap; gap: 4px 10px; margin-top: 4px; font-size: 13px; font-weight: 600; }
+  .dn { color: var(--down); } .upc { color: var(--up); }
+  .used { display: inline-block; font-size: 11px; font-weight: 600; color: var(--ink-2); border: 1px solid var(--line); border-radius: 5px; padding: 1px 5px; margin-left: 6px; vertical-align: 2px; }
+  .chev { color: var(--faint); font-size: 22px; line-height: 1; }
+
+  .lad { position: relative; height: 76px; }
+  .lad .track { position: absolute; left: 0; right: 0; top: 17px; height: 2px; background: var(--line); }
+  .lad .tick { position: absolute; top: 13px; width: 2px; height: 10px; background: var(--line); }
+  .lad .mv { position: absolute; top: 16px; height: 4px; border-radius: 2px; opacity: .35; }
+  .lad .ghost { position: absolute; top: 11px; width: 14px; height: 14px; margin-left: -7px; border-radius: 50%; border: 2px solid; background: var(--surface); }
+  .cl { position: absolute; top: 11px; display: flex; flex-direction: column; }
+  .cl.c { transform: translateX(-50%); align-items: center; text-align: center; }
+  .cl.l { align-items: flex-start; text-align: left; }
+  .cl.r { transform: translateX(-100%); align-items: flex-end; text-align: right; }
+  .cl .dots { display: flex; gap: 3px; align-items: center; }
+  .cl .pd { width: 14px; height: 14px; border-radius: 50%; box-shadow: 0 0 0 3px var(--surface); }
+  .cl .pd.me { width: 18px; height: 18px; box-shadow: 0 0 0 3px var(--surface), 0 0 0 5px var(--ink); }
+  .cl .lbls { display: flex; flex-direction: column; gap: 1px; margin-top: 8px; }
+  .cl .lb { font-size: 13px; white-space: nowrap; color: var(--ink-2); }
+  .cl .lb b { color: var(--ink); font-weight: 500; }
+  .cl .lb.win b { font-weight: 800; }
+  .cl .lb .d { font-weight: 600; }
+  .fade { opacity: .32; }
+
+  .ptag { position: relative; display: inline-flex; flex-direction: column; line-height: 1.05; background: var(--tag); color: var(--tag-ink);
+    border-radius: 6px 14px 14px 6px; padding: 8px 18px 8px 26px; }
+  .ptag::before { content: ""; position: absolute; left: 9px; top: 50%; width: 8px; height: 8px; margin-top: -4px; border-radius: 50%;
+    background: var(--surface); box-shadow: inset 0 0 0 1.5px rgba(23,32,43,.35); }
+  .ptag .at { font-size: 13px; font-weight: 600; }
+  .ptag .v { font-size: 28px; font-weight: 800; font-stretch: 70%; font-variant-numeric: tabular-nums; }
+  .ptag.solo { background: var(--sunk); color: var(--ink); }
+  .lt2 { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
+  .note { font-size: 13px; color: var(--ink-2); }
+
+  /* tabula */
+  .tbl { width: 100%; border-collapse: collapse; }
+  .tbl th, .tbl td { padding: 14px 12px; border-bottom: 1px solid var(--line-2); text-align: right; vertical-align: middle; }
+  .tbl th:first-child, .tbl td:first-child { text-align: left; padding-left: 28px; }
+  .tbl th:last-child, .tbl td:last-child { padding-right: 28px; }
+  .tbl thead th { position: sticky; top: 0; z-index: 2; background: var(--surface); box-shadow: inset 0 -1px 0 var(--line);
+    font-size: 14px; font-weight: 500; color: var(--ink-2); white-space: nowrap; }
+  .tbl thead th .dot { margin-right: 6px; vertical-align: 0; width: 9px; height: 9px; }
+  .tbl thead th.me { color: var(--ink); font-weight: 700; }
+  .tbl tbody tr[data-key] { cursor: pointer; }
+  .tbl tbody tr[data-key]:hover { background: var(--hover); }
+  .tbl td.me { background: var(--sunk); }
+  .tbl .p { font-size: 16px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .tbl .p.win { display: inline-block; background: var(--tag); color: var(--tag-ink); font-weight: 800; border-radius: 4px 10px 10px 4px; padding: 3px 10px 3px 12px; }
+  .tbl .m { display: block; font-size: 12px; color: var(--muted); margin-top: 2px; white-space: nowrap; }
+  .tbl .from { font-size: 12px; color: var(--ink-2); margin-right: 3px; }
+  .tbl .na { color: var(--faint); }
+  .tbl .gap { font-weight: 700; white-space: nowrap; }
+  .tbl tr.secrow td { background: var(--sunk); text-align: left; padding: 18px 28px 8px; cursor: default; }
+  .tbl tr.secrow b { font-size: 32px; font-weight: 800; font-stretch: 65%; margin-right: 10px; }
+  .tbl tr.secrow span { font-size: 14px; color: var(--ink-2); }
+  .tag { display: inline-block; font-size: 11px; font-weight: 600; line-height: 1; color: var(--sale); border: 1px solid currentColor; border-radius: 5px; padding: 2px 4px; margin-left: 4px; vertical-align: 1px; }
+
+  .more { display: flex; justify-content: center; padding: 18px; }
+  .more button { font-weight: 600; background: var(--surface); border: 1.5px solid var(--ink); border-radius: 8px; padding: 10px 20px; min-height: 44px; cursor: pointer; }
+  .more button span { font-weight: 400; color: var(--ink-2); margin-left: 6px; }
+  .empty { padding: 40px 28px; color: var(--ink-2); margin: 0; }
+  .foot { margin: 24px 0 0; font-size: 14px; color: var(--ink-2); max-width: 680px; line-height: 1.5; }
+
+  /* detaļu logs */
+  dialog { border: 0; border-radius: 16px; padding: 0; background: var(--surface); color: var(--ink);
+    width: min(1000px, calc(100vw - 24px)); max-height: calc(100vh - 24px); box-shadow: 0 24px 60px rgba(0,0,0,.25); }
+  dialog::backdrop { background: rgba(10,16,22,.5); }
+  .dlg { padding: 28px 32px 32px; display: flex; flex-direction: column; gap: 22px; }
+  .dlg-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; }
+  .dlg-head .b { font-size: 14px; color: var(--ink-2); }
+  .dlg-head h2 { margin: 4px 0 0; font-size: clamp(30px, 5vw, 44px); line-height: 1; font-weight: 800; font-stretch: 72%; }
+  .x { width: 44px; height: 44px; flex: none; border-radius: 8px; border: 1.5px solid var(--line); background: var(--surface); cursor: pointer;
+    display: flex; align-items: center; justify-content: center; }
+  .dlg h3 { margin: 0; font-size: 20px; font-weight: 800; font-stretch: 75%; }
+  .vrows { border-top: 1px solid var(--line); }
+  .vrow { display: grid; grid-template-columns: 110px minmax(0, 1fr) 190px; gap: 28px; align-items: center; padding: 16px 12px; border-bottom: 1px solid var(--line-2); }
+  .vrow.cur { background: var(--sunk); }
+  .vrow .vk { font-size: 34px; line-height: .95; font-weight: 800; font-stretch: 65%; }
+  .vrow .vk.small { font-size: 20px; }
+  .vrow .ptag { text-decoration: none; }
+  .shops { display: flex; flex-wrap: wrap; gap: 8px; }
+  .shop { display: inline-flex; align-items: center; gap: 8px; text-decoration: none; color: var(--ink); border: 1.5px solid var(--line);
+    border-radius: 8px; padding: 0 14px; min-height: 44px; font-size: 15px; }
+  .shop:hover { border-color: var(--ink); }
+  .shop b { font-variant-numeric: tabular-nums; }
+  .hist-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
   .chart { position: relative; }
   .chart svg { display: block; width: 100%; overflow: visible; }
-  .chart text { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
-  .tip {
-    position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--ring);
-    border-radius: 8px; padding: 6px 9px; font-size: 12px; box-shadow: 0 4px 14px rgba(0,0,0,.12);
-    white-space: nowrap; display: none; z-index: 2;
-  }
-  .tip .t { color: var(--muted); margin-bottom: 2px; }
+  .chart text { fill: var(--ink-2); font: 12px Archivo, system-ui, sans-serif; font-variant-numeric: tabular-nums; }
+  .tip { position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--line); border-radius: 8px;
+    padding: 6px 9px; font-size: 13px; box-shadow: 0 6px 18px rgba(0,0,0,.14); white-space: nowrap; display: none; z-index: 3; }
+  .tip .t { color: var(--ink-2); margin-bottom: 2px; }
   .tip .r { display: flex; align-items: center; gap: 6px; }
-  .tip b { font-variant-numeric: tabular-nums; margin-left: auto; padding-left: 10px; }
-  details { margin-top: 14px; font-size: 13px; }
-  details summary { cursor: pointer; color: var(--ink-2); }
-  details table td, details table th { padding: 6px 8px; font-size: 12px; }
-  .foot { color: var(--muted); font-size: 12px; margin-top: 16px; }
+  .tip b { margin-left: auto; padding-left: 12px; font-variant-numeric: tabular-nums; }
+  .events { display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 14px; margin: 0; padding: 0; list-style: none; }
+  .events li { display: flex; align-items: center; gap: 8px; }
+  .events .dt { color: var(--ink-2); }
+  .quiet { margin: 0; font-size: 14px; color: var(--ink-2); }
+
+  @media (max-width: 760px) {
+    .wrap { padding: 0 16px 48px; }
+    .top { padding-top: 14px; }
+    .cats { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; width: 100%; padding-right: 28px;
+      -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent); }
+    .cats::-webkit-scrollbar { display: none; }
+    .cats button { flex: none; }
+    .updated { order: 3; width: 100%; font-size: 13px; }
+    .best-btn { display: inline-block; }
+    .lrow .lad { margin: 0 8px; }
+    .tbl tr[data-key] td.op .tag { display: none; }
+    .hero { padding: 20px 0 18px; gap: 12px; }
+    .search { height: 52px; padding: 0 14px; }
+    .frow { flex-wrap: wrap; }
+    .flabel { width: 100%; }
+    #ops { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); width: 100%; }
+    #ops .chip { justify-content: center; padding: 0 6px; font-size: 14px; }
+    .card { border-radius: 12px; margin: 0 -8px; }
+    .card-head { padding: 14px 16px 12px; }
+    .ttl h2 { font-size: 38px; }
+    .tools { width: 100%; }
+    .sec { padding: 16px 16px 8px; }
+    .lrow { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "m t" "l l" "n n"; gap: 10px 12px; padding: 16px; }
+    .lrow .lm { grid-area: m; } .lrow .lad { grid-area: l; } .lrow .lt2 { grid-area: t; align-items: flex-end; }
+    .lrow .lt2 .note { display: none; } .lrow .mnote { grid-area: n; display: block; }
+    .lrow .chev { display: none; }
+    .ptag .v { font-size: 22px; } .ptag { padding: 6px 12px 6px 20px; } .ptag::before { left: 7px; width: 7px; height: 7px; margin-top: -3.5px; }
+    .cl .lb { font-size: 12px; }
+    .tbl thead { display: none; }
+    .tbl, .tbl tbody { display: block; }
+    .tbl tr[data-key] { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; padding: 14px 16px; border-bottom: 1px solid var(--line-2); }
+    .tbl tr[data-key] td { border: 0; padding: 0 !important; text-align: left; }
+    .tbl tr[data-key] td:first-child { grid-column: 1 / -1; padding-bottom: 4px !important; }
+    .tbl tr[data-key] td.op { display: flex; justify-content: space-between; align-items: baseline; gap: 6px; background: var(--sunk); border-radius: 8px; padding: 8px 10px !important; }
+    .tbl tr[data-key] td.op::before { content: attr(data-op); font-size: 12px; color: var(--ink-2); }
+    .tbl tr[data-key] td.op.wincell { background: var(--tag); color: var(--tag-ink); }
+    .tbl tr[data-key] td.op.wincell::before { color: var(--tag-ink); }
+    .tbl tr[data-key] td.op .p.win { background: none; padding: 0; }
+    .tbl tr[data-key] td.op.me { box-shadow: inset 0 0 0 2px var(--ink); }
+    .tbl .m { display: none; }
+    .tbl td.gapc { display: none; }
+    .tbl tr.secrow { display: block; } .tbl tr.secrow td { display: block; padding: 14px 16px 6px; }
+    .tbl.list tr[data-key] td.lp { display: flex; gap: 8px; align-items: baseline; }
+    .dlg { padding: 20px 16px 24px; gap: 18px; }
+    .vrow { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "k t" "l l"; gap: 8px 12px; padding: 14px 6px; }
+    .vrow .vk { grid-area: k; font-size: 28px; } .vrow .lad { grid-area: l; } .vrow .lt2 { grid-area: t; }
+  }
+  .mnote { display: none; font-size: 13px; color: var(--ink-2); }
+  @media (prefers-reduced-motion: no-preference) { .lrow, .chip, .seg button { transition: background-color .12s; } }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header class="top">
-    <div>
-      <h1>Cenu skeneris</h1>
-      <p class="sub" id="sub">Ielādē datus…</p>
-    </div>
-    <div class="legend-ops" id="legendOps"></div>
+    <a class="brand" href="./">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M3 12.5V4a1 1 0 0 1 1-1h8.5L21 11.5 12.5 20z"/><circle cx="8" cy="8" r="1.6"/></svg>
+      <b>Cenu skeneris</b>
+    </a>
+    <nav class="cats" id="cats" role="tablist" aria-label="Kategorijas"></nav>
+    <p class="updated" id="sub">Ielādē datus…</p>
   </header>
 
-  <div class="cats" role="tablist" aria-label="Kategorija" id="cats"></div>
-  <p class="stats" id="stats"></p>
+  <section class="hero">
+    <h1>Kur lētāk?</h1>
+    <label class="search">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" style="color:var(--ink-2)"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <span class="sr">Meklēt modeli</span>
+      <input type="search" id="q" placeholder="Modelis vai kods, piemēram iPhone 17 vai OLED65C61" autocomplete="off">
+    </label>
+    <div class="summary" id="stats"></div>
+  </section>
 
   <div class="filters">
-    <div class="seg" role="group" aria-label="Skats" id="views">
-      <button data-view="compare" aria-pressed="true">Salīdzinājums</button>
-      <button data-view="list" aria-pressed="false">Saraksts</button>
-    </div>
-    <input type="search" id="q" placeholder="Meklēt, piem. iPhone 17, Galaxy Watch, AirPods…" aria-label="Meklēt">
-    <div class="seg" role="group" aria-label="Operators" id="ops">
-      <button data-op="" aria-pressed="true">Visi</button>
-      <button data-op="bite" aria-pressed="false"><span class="dot bite"></span>Bite</button>
-      <button data-op="tele2" aria-pressed="false"><span class="dot tele2"></span>Tele2</button>
-      <button data-op="lmt" aria-pressed="false"><span class="dot lmt"></span>LMT</button>
-      <button data-op="tet" aria-pressed="false"><span class="dot tet"></span>Tet</button>
-    </div>
-    <span class="chips">
-      <label class="chk"><input type="checkbox" id="sale"> Akcijas</label>
-      <label class="chk" id="multiWrap" hidden><input type="checkbox" id="multi" checked> 2+ operatoros</label>
-    </span>
+    <div class="frow" id="sizesRow" hidden><span class="flabel">Diagonāle</span><div class="chips scroll" id="sizes" role="group" aria-label="Diagonāle"></div></div>
+    <div class="frow"><span class="flabel">Ražotājs</span><div class="chips scroll" id="brands" role="group" aria-label="Ražotājs"></div></div>
+    <div class="frow"><span class="flabel">Tikai</span><div class="chips" id="ops" role="group" aria-label="Tikai viena operatora preces"></div><span class="hint" id="opHint"></span></div>
   </div>
-  <div class="brands" id="brands" role="group" aria-label="Ražotājs"></div>
-  <div class="brands sizes" id="sizes" role="group" aria-label="Diagonāle" hidden></div>
 
-  <div class="card">
-    <table id="tbl">
-      <thead id="head"></thead>
-      <tbody id="rows"></tbody>
-    </table>
-  </div>
-  <p class="foot">Dati: bite.lv, tele2.lv, lmt.lv un tet.lv, atjaunojas divreiz dienā. Zaļā cena ir lētākā; “no” – operatoram ir vairāki varianti; <span class="tag" style="margin:0">akcija</span> – cena ar atlaidi. Uzspied uz ierīces, lai redzētu precīzas variantu cenas un vēsturi.</p>
+  <section class="card" aria-labelledby="secTitle">
+    <div class="card-head">
+      <div class="ttl"><h2 id="secTitle"></h2><p id="secSub"></p></div>
+      <div class="tools">
+        <div class="seg" id="views" role="group" aria-label="Skats">
+          <button type="button" data-view="ladder" aria-pressed="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 12h18"/><circle cx="6" cy="12" r="2.2" fill="currentColor"/><circle cx="14" cy="12" r="2.2" fill="currentColor"/><circle cx="19" cy="12" r="2.2" fill="currentColor"/></svg>Kāpnes</button>
+          <button type="button" data-view="table" aria-pressed="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="M3 10h18M9 5v14M15 5v14"/></svg>Tabula</button>
+          <button type="button" data-view="list" aria-pressed="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13"/><circle cx="4" cy="6" r="1" fill="currentColor"/><circle cx="4" cy="12" r="1" fill="currentColor"/><circle cx="4" cy="18" r="1" fill="currentColor"/></svg>Saraksts</button>
+        </div>
+        <label class="chk" id="chgWrap"><input type="checkbox" id="chg" checked> Izmaiņas 7 dienās</label>
+        <label class="chk" id="multiWrap"><input type="checkbox" id="multi" checked> 2+ operatoros</label>
+        <label class="chk"><input type="checkbox" id="sale"> Akcijas</label>
+        <label class="sel">Kārtot
+          <select id="sort">
+            <option value="diff">pēc lielākās starpības</option>
+            <option value="price">pēc zemākās cenas</option>
+            <option value="change">pēc lielākā krituma</option>
+            <option value="name">pēc nosaukuma</option>
+          </select>
+        </label>
+      </div>
+    </div>
+    <div id="body"></div>
+  </section>
+  <p class="foot">Cenas no bite.lv, tele2.lv, lmt.lv un tet.lv, atjaunotas divreiz dienā. Kāpnēs katram veikalam ir punkts uz līnijas: kreisajā galā lētākā cena, labajā dārgākā. Tukšais aplis ir cena pirms 7 dienām. Dzeltenā zīme ir lētākais veikals.</p>
 </div>
 
-<dialog id="dlg"><div class="dlg" id="dlgBody"></div></dialog>
-
+<dialog id="dlg" aria-labelledby="dlgTitle"><div class="dlg" id="dlgBody"></div></dialog>
 <script>
 const OPS = { bite: "Bite", tele2: "Tele2", lmt: "LMT", tet: "Tet" };
 const CATS = { telefoni: "Telefoni", pulksteni: "Viedpulksteņi", austinas: "Austiņas", televizori: "Televizori", puteklsuceji: "Putekļsūcēji", kameras: "Kameras" };
@@ -387,7 +416,7 @@ function parseCSV(text) {
 }
 
 let ITEMS = [], HIST = {}, NOW = new Date(), META = null, VARIANTS = {},
-  state = { limit: PAGE, view: "compare", cat: "telefoni", q: "", op: "", brand: "", diag: "", sale: false, multi: true, sort: "diff", dir: -1 };
+  state = { limit: PAGE, view: "ladder", cat: "telefoni", q: "", only: "", brand: "", diag: "", sale: false, multi: true, changes: true, sort: "diff" };
 const onSale = p => p.disc > 0 || (p.monthly_old && p.monthly_old > p.monthly);
 
 async function load() {
@@ -429,46 +458,6 @@ async function load() {
   render();
 }
 
-function renderHeader() {
-  const sub = document.getElementById("sub");
-  sub.innerHTML = ITEMS.length
-    ? `Atjaunots ${esc(fmtDT(NOW))}` + (META?.errors?.length ? ` · <span class="warn">⚠ ${esc(META.errors.join("; "))}</span>` : "")
-    : "Datu vēl nav. Palaid skenēšanu GitHub Actions cilnē.";
-
-  const cats = Object.keys(CATS).filter(c => ITEMS.some(p => p.category === c));
-  if (!cats.includes(state.cat) && state.cat !== "") state.cat = cats[0] || "";
-  document.getElementById("cats").innerHTML = [...cats, ""].map(c => {
-    const n = ITEMS.filter(p => !c || p.category === c).length;
-    return `<button role="tab" data-cat="${c}" aria-selected="${state.cat === c}">${c ? CATS[c] : "Visi"}<span class="n">${n}</span></button>`;
-  }).join("");
-
-  const inCat = ITEMS.filter(p => !state.cat || p.category === state.cat);
-  const ops = Object.keys(OPS).filter(op => ITEMS.some(p => p.operator === op));
-  document.querySelectorAll("#ops button[data-op]").forEach(b => { b.hidden = b.dataset.op && !ops.includes(b.dataset.op); });
-  document.getElementById("legendOps").innerHTML = ops.map(op => `<span><span class="dot ${op}"></span>${OPS[op]}</span>`).join("");
-  let multi, save;
-  if (state.cat === "televizori") {
-    multi = tvRows(inCat).filter(r => r.nOps > 1);
-    const best = multi.reduce((m, r) => r.diff > (m?.diff || 0) ? r : m, null);
-    save = best && { key: best.key, diff: best.diff, brand: best.brand, model: best.title || best.code, diffVk: best.diag ? best.diag + "″" : "" };
-  } else {
-    multi = buildGroups(inCat).filter(g => g.nOps > 1);
-    const best = multi.reduce((m, g) => g.diff > (m?.diff || 0) ? g : m, null);
-    save = best && { key: best.items[0].key, diff: best.diff, brand: best.brand, model: best.model, diffVk: best.diffVk || "" };
-  }
-  document.getElementById("stats").innerHTML =
-    (save ? `<button class="hero" data-key="${esc(save.key)}" data-vk="${esc(save.diffVk)}">Lielākā starpība: <b>${eur0(save.diff)}</b> · ${esc(save.brand)} ${esc(save.model)}${save.diffVk ? " " + esc(save.diffVk) : ""} ›</button>` : "") +
-    `<span><b>${inCat.length}</b> preces · <b>${multi.length}</b> salīdzināmi modeļi · <b>${inCat.filter(onSale).length}</b> akcijās</span>`;
-}
-
-const LIST_COLS = [["name", "Ierīce", ""], ["full", "Cena", "num"], ["monthly", "Mēnesī", "num"],
-  ["disc", "Atlaide", "num hide-sm"], ["min", "Bija lētāk", "num hide-sm"]];
-
-function setHead(cols) {
-  document.getElementById("head").innerHTML = "<tr>" + cols.map(([k, label, cls]) =>
-    `<th data-k="${k}" class="${cls}" aria-sort="${state.sort === k ? (state.dir > 0 ? "ascending" : "descending") : "none"}">${label}</th>`).join("") + "</tr>";
-}
-
 const BRAND_ALIAS = { redmi: "Xiaomi", poco: "Xiaomi", xiaomi: "Xiaomi", huami: "Amazfit", amazfit: "Amazfit", beats: "Beats" };
 const brandKey = b => (b || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
 // meklēšana: "watch 9" atrod "Watch9", "fenix" atrod "fēnix"
@@ -480,59 +469,6 @@ function baseFilter(p, ignoreBrand) {
   return (!state.cat || p.category === state.cat)
     && (ignoreBrand || !state.brand || p.brandN === state.brand)
     && (!q || q.split(" ").every(w => (" " + p.search + " ").includes(" " + w) ));
-}
-
-function renderBrands() {
-  const pool = ITEMS.filter(p => baseFilter(p, true) && (state.view === "compare" || !state.op || p.operator === state.op));
-  const n = {};
-  for (const p of pool) n[p.brandN] = (n[p.brandN] || 0) + 1;
-  const list = Object.entries(n).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
-  if (state.brand && !n[state.brand]) list.unshift([state.brand, 0]);
-  document.getElementById("brands").innerHTML =
-    `<button data-brand="" aria-pressed="${!state.brand}">Visi ražotāji</button>` +
-    list.map(([b, c]) => `<button data-brand="${esc(b)}" aria-pressed="${state.brand === b}">${esc(b)}<span class="n">${c}</span></button>`).join("");
-}
-
-let lastSig = "";
-function render() {
-  const sig = JSON.stringify([state.view, state.cat, state.q, state.op, state.brand, state.diag, state.sale, state.multi, state.sort, state.dir]);
-  if (sig !== lastSig) { state.limit = PAGE; lastSig = sig; }
-  renderHeader();
-  renderBrands();
-  document.querySelectorAll("#views button").forEach(b => b.setAttribute("aria-pressed", b.dataset.view === state.view));
-  document.getElementById("ops").hidden = state.view === "compare";
-  document.getElementById("multiWrap").hidden = state.view !== "compare";
-  document.getElementById("tbl").classList.toggle("compare", state.view === "compare");
-  document.getElementById("sizes").hidden = !(state.view === "compare" && state.cat === "televizori");
-  state.view !== "compare" ? renderList() : state.cat === "televizori" ? renderTvCompare() : renderCompare();
-}
-
-function moreRow(total, cols) {
-  const left = total - state.limit;
-  return left > 0 ? `<tr class="more-row"><td colspan="${cols}"><button data-more>Rādīt vēl ${Math.min(PAGE, left)}<span class="n">(kopā ${total})</span></button></td></tr>` : "";
-}
-const isUsed = p => OPENED.test(p.model || "");
-
-function renderList() {
-  if (!LIST_COLS.some(c => c[0] === state.sort)) { state.sort = "name"; state.dir = 1; }
-  let list = ITEMS.filter(p => baseFilter(p) && (!state.op || p.operator === state.op) && (!state.sale || onSale(p)));
-  const k = state.sort, d = state.dir;
-  list.sort((a, b) => (isUsed(a) - isUsed(b)) || (k === "name"
-    ? a.name.localeCompare(b.name, "lv") * d || a.operator.localeCompare(b.operator)
-    : ((a[k] ?? -Infinity) - (b[k] ?? -Infinity)) * d));
-  setHead(LIST_COLS);
-  const total = list.length;
-  list = list.slice(0, state.limit);
-
-  document.getElementById("rows").innerHTML = list.length ? list.map(p => `
-    <tr data-key="${esc(p.key)}" tabindex="0">
-      <td><div class="name"><span class="dot ${p.operator}" title="${OPS[p.operator]}"></span>
-        <div><div class="b">${esc(p.brand)} · ${OPS[p.operator]}${state.cat ? "" : " · " + CATS[p.category]}</div>${esc(p.model)}${isUsed(p) ? '<span class="tag used">lietots</span>' : ""}</div></div></td>
-      <td class="num">${eur(p.full)}${p.full_old ? `<span class="old">${eur(p.full_old)}</span>` : ""}</td>
-      <td class="num">${eur(p.monthly)}${p.monthly_old ? `<span class="old">${eur(p.monthly_old)}</span>` : ""}</td>
-      <td class="num hide-sm">${p.disc > 0 ? `<span class="disc">−${eur0(p.disc)}</span>` : ""}</td>
-      <td class="num hide-sm">${p.min != null && p.min < p.full ? `<span class="low" title="Agrāk bija lētāk">${eur(p.min)}</span>` : ""}</td>
-    </tr>`).join("") + moreRow(total, 5) : `<tr><td colspan="5" class="empty">Nekas netika atrasts.</td></tr>`;
 }
 
 /* ---------- Salīdzinājums: viena rinda katram modelim, kolonna katram operatoram ---------- */
@@ -579,37 +515,6 @@ function buildGroups(items) {
     }
   }
   return [...g.values()];
-}
-
-function renderCompare() {
-  const ops = Object.keys(OPS).filter(op => ITEMS.some(p => p.operator === op));
-  const cols = [["name", "Ierīce", ""], ...ops.map(op => [op, `<span class="dot ${op}"></span>${OPS[op]}`, "num"]),
-    ["diff", "Starpība", "num hide-sm"]];
-  if (!cols.some(c => c[0] === state.sort)) { state.sort = "diff"; state.dir = -1; }
-  let groups = buildGroups(ITEMS.filter(p => baseFilter(p)))
-    .filter(g => (!state.multi || g.nOps > 1) && (!state.sale || g.items.some(onSale)));
-  const k = state.sort, d = state.dir;
-  groups.sort((a, b) => k === "name" ? a.name.localeCompare(b.name, "lv") * d
-    : ((a[k] ?? (d > 0 ? Infinity : -Infinity)) - (b[k] ?? (d > 0 ? Infinity : -Infinity))) * d || a.name.localeCompare(b.name, "lv"));
-  setHead(cols);
-  const total = groups.length;
-  groups = groups.slice(0, state.limit);
-
-  const cell = (g, op) => {
-    const list = g.byOp[op];
-    if (!list) return `<td class="num cmp" data-op="${OPS[op]}"><span class="none">–</span></td>`;
-    const p = list[0], win = g.nOps > 1 && p.full === g.min && Object.values(g.best).some(x => x.full > g.min);
-    return `<td class="num cmp${win ? " win" : ""}" data-op="${OPS[op]}" title="${esc(list.map(x => `${x.model}: ${eur(x.full)}`).join("\n"))}">
-      ${list.length > 1 ? '<span class="from">no</span>' : ""}<span class="pp">${eur(p.full)}</span>
-      <span class="mm">${p.monthly != null ? eur(p.monthly) + "/mēn." : ""}${onSale(p) ? '<span class="tag">akcija</span>' : ""}</span></td>`;
-  };
-
-  document.getElementById("rows").innerHTML = groups.length ? groups.map(g => `
-    <tr data-key="${esc(g.items[0].key)}" tabindex="0">
-      <td><div class="name"><div><div class="b">${esc(g.brand)}${state.cat ? "" : " · " + CATS[g.category]}</div>${esc(g.model)}${g.diff ? `<span class="save gap">līdz ${eur0(g.diff)} starpība</span>` : ""}</div></div></td>
-      ${ops.map(op => cell(g, op)).join("")}
-      <td class="num hide-sm">${g.diff ? `<span class="gap">${eur0(g.diff)}</span>${g.diffVk ? `<span class="mm" style="display:block;color:var(--muted);font-size:12px">${esc(g.diffVk)}</span>` : ""}` : ""}</td>
-    </tr>`).join("") + moreRow(total, cols.length) : `<tr><td colspan="${cols.length}" class="empty">Nekas netika atrasts.</td></tr>`;
 }
 
 /* ---------- Televizori: sasaiste pēc ražotāja koda un diagonāles ---------- */
@@ -733,60 +638,6 @@ function tvRows(items) {
   });
 }
 
-function renderSizes(rows) {
-  const el = document.getElementById("sizes");
-  if (state.cat !== "televizori" || state.view !== "compare") { el.hidden = true; return; }
-  el.hidden = false;
-  const n = {}; for (const r of rows) if (r.diag) n[r.diag] = (n[r.diag] || 0) + 1;
-  const sizes = Object.keys(n).map(Number).sort((a, b) => a - b);
-  el.innerHTML = `<button data-diag="" aria-pressed="${!state.diag}">Visi izmēri</button>` +
-    sizes.map(s => `<button data-diag="${s}" aria-pressed="${state.diag == s}">${s}″<span class="n">${n[s]}</span></button>`).join("");
-}
-
-function renderTvCompare() {
-  const ops = Object.keys(OPS).filter(op => ITEMS.some(p => p.operator === op));
-  const cols = [["name", "Televizors", ""], ...ops.map(op => [op, `<span class="dot ${op}"></span>${OPS[op]}`, "num"]),
-    ["diff", "Starpība", "num hide-sm"]];
-  if (!cols.some(c => c[0] === state.sort)) { state.sort = "diff"; state.dir = -1; }
-  let rows = tvRows(ITEMS.filter(p => baseFilter(p)))
-    .filter(r => (!state.multi || r.nOps > 1) && (!state.sale || r.units.some(u => onSale(u.item))));
-  renderSizes(rows);
-  if (state.diag) rows = rows.filter(r => r.diag == state.diag);
-  const k = state.sort, d = state.dir;
-  const val = r => r[k] ?? (d > 0 ? Infinity : -Infinity);
-  rows.sort((a, b) => (a.diag || 999) - (b.diag || 999)
-    || (k === "name" ? a.name.localeCompare(b.name, "lv") * d : (val(a) - val(b)) * d)
-    || a.name.localeCompare(b.name, "lv"));
-  setHead(cols);
-  const total = rows.length, perDiag = {};
-  for (const r of rows) perDiag[r.diag] = (perDiag[r.diag] || 0) + 1;
-  rows = rows.slice(0, state.limit);
-
-  const cell = (r, op) => {
-    const u = r.byOp[op];
-    if (!u) return `<td class="num cmp" data-op="${OPS[op]}"><span class="none">–</span></td>`;
-    const win = r.nOps > 1 && u.full === r.min && r.diff > 0;
-    const m = u.monthly ?? u.item.monthly;
-    return `<td class="num cmp${win ? " win" : ""}" data-op="${OPS[op]}" title="${esc(u.label)}"><span class="pp">${eur(u.full)}</span>
-      <span class="mm">${m != null && u.op !== "lmt" ? eur(m) + "/mēn." : ""}${onSale(u.item) || (u.full_old && u.full_old > u.full) ? '<span class="tag">akcija</span>' : ""}</span></td>`;
-  };
-  let lastDiag = null, html = "";
-  for (const r of rows) {
-    if (r.diag !== lastDiag) {
-      lastDiag = r.diag;
-      html += `<tr class="sec"><td colspan="${cols.length}">${r.diag ? r.diag + "″" : "Izmērs nav norādīts"}${r.diag ? ` <span class="cm">${Math.round(r.diag * 2.54)} cm</span>` : ""}<span class="n">${perDiag[r.diag]} modeļi</span></td></tr>`;
-    }
-    html += `<tr data-key="${esc(r.key)}" data-vk="${r.diag ? r.diag + "″" : ""}" tabindex="0">
-      <td><div class="name"><div><div class="b">${esc(r.brand)}${r.code ? ` · <span class="code">${esc(r.code)}</span>` : ""}</div>${esc(r.title || r.code)}${r.diff ? `<span class="save gap">līdz ${eur0(r.diff)} starpība</span>` : ""}</div></div></td>
-      ${ops.map(op => cell(r, op)).join("")}
-      <td class="num hide-sm">${r.diff ? `<span class="gap">${eur0(r.diff)}</span>` : ""}</td>
-    </tr>`;
-  }
-  document.getElementById("rows").innerHTML = rows.length ? html + moreRow(total, cols.length)
-    : `<tr><td colspan="${cols.length}" class="empty">Nekas netika atrasts.</td></tr>`;
-}
-
-/* ---------- Detaļas ---------- */
 /* ---------- Precīzie varianti (SKU) ---------- */
 // No nosaukuma/varianta apraksta izvelk to, kas ietekmē cenu: telefoniem atmiņu, pulksteņiem izmēru un LTE.
 function variantKey(text, category) {
@@ -825,85 +676,7 @@ function skuRows(g) {
   return rows.filter(r => r.full != null);
 }
 
-function skuTable(g, ops, focus) {
-  if (!VARIANT_CATS.has(g.category)) return "";
-  const tv = g.category === "televizori";
-  const rows = skuRows(g);
-  const keys = [...new Set(rows.map(r => r.vk))].sort((a, b) => (a === "") - (b === "") || vkOrder(a) - vkOrder(b));
-  if (keys.length < 2 && !(keys.length === 1 && keys[0])) return "";
-  const body = keys.map(k => {
-    const cells = ops.map(op => {
-      const rs = rows.filter(r => r.op === op && r.vk === k).sort((a, b) => a.full - b.full);
-      return rs[0] || null;
-    });
-    const prices = cells.filter(Boolean).map(c => c.full), min = Math.min(...prices), tie = min === Math.max(...prices);
-    return `<tr${focus && k === focus ? ' class="cur"' : ""}><td class="vk">${esc(k || "Nav norādīts")}</td>${cells.map(c => !c ? '<td class="na">–</td>'
-      : `<td class="${prices.length > 1 && !tie && c.full === min ? "win" : ""}"><a href="${esc(c.url)}" target="_blank" rel="noopener" title="${esc(c.label)}">${eur(c.full)}</a></td>`).join("")}</tr>`;
-  }).join("");
-  return `<p class="chart-title">Precīzs salīdzinājums pa ${tv ? "izmēriem" : "variantiem"}</p>
-    <div class="skus-wrap"><table class="skus"><thead><tr><th>${tv ? "Izmērs" : "Variants"}</th>${ops.map(op => `<th><span class="dot ${op}"></span>${OPS[op]}</th>`).join("")}</tr></thead>
-    <tbody>${body}</tbody></table></div>
-    <p class="note">${tv ? "Katrā rindā – viens konkrēts modelis (ražotāja kods) šajā izmērā." : "Lētākā krāsa katram variantam."} Zaļā cena – lētākais operators. Uzspied cenu, lai atvērtu veikalā.</p>`;
-}
 const VARIANT_CATS = new Set(["telefoni", "pulksteni", "televizori"]);
-
-function openDetail(key, focusVk) {
-  const p = ITEMS.find(x => x.key === key);
-  if (!p) return;
-  const [g] = buildGroups(ITEMS.filter(x => x.mk === p.mk));
-  const ops = Object.keys(OPS).filter(op => g.byOp[op]);
-
-  // grafikam: katram operatoram – lētākā varianta cena katrā brīdī
-  const series = ops.map(op => {
-    const hs = g.byOp[op].map(x => ((HIST[x.key] || []).filter(e => e.full != null).length
-      ? HIST[x.key].filter(e => e.full != null) : [{ t: NOW, full: x.full }]));
-    const times = [...new Set(hs.flatMap(h => h.map(e => +e.t)))].sort((a, b) => a - b);
-    const at = (h, t) => { let v = null; for (const e of h) { if (+e.t <= t) v = e.full; else break; } return v; };
-    const pts = [];
-    for (const t of times) {
-      const vals = hs.map(h => at(h, t)).filter(v => v != null);
-      const v = Math.min(...vals);
-      if (!pts.length || pts[pts.length - 1].v !== v) pts.push({ t: new Date(t), v });
-    }
-    return { op, label: OPS[op], pts };
-  });
-
-  const sku = skuTable(g, ops, focusVk);
-  const allPts = series.flatMap(s => s.pts), histStart = Math.min(...allPts.map(p => +p.t));
-  const showChart = series.some(s => s.pts.length > 1);
-  document.getElementById("dlgBody").innerHTML = `
-    <div class="dlg-head">
-      <div><div style="color:var(--muted);font-size:13px">${esc(g.brand)}</div><h2>${esc(g.model)}</h2></div>
-      <button class="x" aria-label="Aizvērt" onclick="dlg.close()">×</button>
-    </div>
-    ${sku}
-    <div class="offers">${ops.map(op => {
-      const list = g.byOp[op], x = list[0];
-      return `
-      <div class="offer">
-        <div class="op"><span class="dot ${op}"></span>${OPS[op]}${g.nOps > 1 && x.full === g.min && Object.values(g.best).some(y => y.full > g.min) ? '<span class="best">LĒTĀKAIS</span>' : ""}</div>
-        <div class="p">${list.length > 1 ? '<span style="font-size:13px;font-weight:400;color:var(--muted)">no </span>' : ""}${eur(x.full)}</div>
-        <div class="m">${eur(x.monthly)} / mēn.${x.full_old ? ` · bija ${eur(x.full_old)}` : ""}</div>
-        ${(() => { const lo = Math.min(...list.map(v => v.min ?? Infinity)); return lo < x.full ? `<div class="m">Bija lētāk: ${eur(lo)}</div>` : ""; })()}
-        ${list.length > 1 && !sku ? `<ul class="variants">${list.slice(0, 6).map(v => `<li><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.model)}</a><b>${eur(v.full)}</b></li>`).join("")}${list.length > 6 ? `<li class="more">… un vēl ${list.length - 6} varianti (krāsas, atmiņa)</li>` : ""}</ul>`
-          : (x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">Atvērt veikalā ↗</a>` : "")}
-      </div>`; }).join("")}
-    </div>
-    <p class="chart-title">Pilnā cena laika gaitā${g.items.length > ops.length ? " (lētākais variants)" : ""}</p>
-    ${showChart ? `${series.length > 1 ? `<div class="legend">${series.map(s => `<span><span class="dot ${s.op}"></span>${esc(s.label)}</span>`).join("")}</div>` : ""}
-    <div class="chart" id="chart"></div>` : `<p class="note" style="margin:0 0 14px">Cena nav mainījusies kopš ${esc(fmtDate(new Date(histStart)))}. Grafiks parādīsies, kad būs izmaiņas.</p>`}
-    <details><summary>Cenu izmaiņas tabulā</summary>
-      <table><thead><tr><th>Datums</th><th>Operators</th><th>Variants</th><th class="num">Cena</th></tr></thead><tbody>
-      ${g.items.flatMap(x => (HIST[x.key] || []).map(e => ({ ...e, op: x.operator, model: x.model })))
-        .sort((a, b) => b.t - a.t)
-        .map(e => `<tr><td>${fmtDT(e.t)}</td><td>${OPS[e.op]}</td><td>${esc(e.model)}</td><td class="num">${eur(e.full)}</td></tr>`).join("")
-        || `<tr><td colspan="4">Vēstures vēl nav.</td></tr>`}
-      </tbody></table>
-    </details>`;
-  dlg.showModal();
-  if (showChart) drawChart(document.getElementById("chart"), series);
-}
-
 /* ---------- Grafiks: pakāpju līnija (cena ir spēkā līdz nākamajai izmaiņai) ---------- */
 function niceTicks(min, max, n = 4) {
   if (min === max) { min -= 50; max += 50; }
@@ -951,14 +724,14 @@ function drawChart(el, series) {
 
   el.innerHTML = `
   <svg viewBox="0 0 ${W} ${H}" height="${H}" role="img" aria-label="Cenu vēstures grafiks">
-    ${yt.map(v => `<line x1="${M.l}" x2="${W - M.r}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--grid)"/>
+    ${yt.map(v => `<line x1="${M.l}" x2="${W - M.r}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--line-2)"/>
       <text x="${M.l - 8}" y="${Y(v) + 4}" text-anchor="end">${eur0(v)}</text>`).join("")}
-    <line x1="${M.l}" x2="${W - M.r}" y1="${M.t + ih}" y2="${M.t + ih}" stroke="var(--axis)"/>
+    <line x1="${M.l}" x2="${W - M.r}" y1="${M.t + ih}" y2="${M.t + ih}" stroke="var(--line)"/>
     ${xt.map((t, i) => `<text x="${X(t)}" y="${H - 6}" text-anchor="${i === 0 ? "start" : i === nx ? "end" : "middle"}">${xLabel(t)}</text>`).join("")}
-    ${paths.map((d, i) => `<path d="${d}" fill="none" stroke="${color(series[i].op)}" stroke-width="2" stroke-linejoin="round"/>`).join("")}
+    ${paths.map((d, i) => `<path d="${d}" fill="none" stroke="${color(series[i].op)}" stroke-width="2.5" stroke-linejoin="round"/>`).join("")}
     ${series.map(s => s.pts.map(p => `<circle cx="${X(+p.t)}" cy="${Y(p.v)}" r="4" fill="${color(s.op)}" stroke="var(--surface)" stroke-width="2"/>`).join("")).join("")}
     ${ends.map(e => `<text x="${W - M.r + 6}" y="${e.y + 4}" style="fill:var(--ink-2)">${esc(series[e.i].label)} ${eur0(e.v)}</text>`).join("")}
-    <line id="xh" y1="${M.t}" y2="${M.t + ih}" stroke="var(--axis)" style="display:none"/>
+    <line id="xh" y1="${M.t}" y2="${M.t + ih}" stroke="var(--line)" style="display:none"/>
     <g id="hdots"></g>
     <rect x="${M.l}" y="${M.t}" width="${iw}" height="${ih}" fill="transparent" id="hit"/>
   </svg><div class="tip" id="tip"></div>`;
@@ -984,26 +757,399 @@ function drawChart(el, series) {
   hit.addEventListener("pointerleave", leave);
 }
 
+
+/* ================= Jaunais attēlojums: kāpnes, tabula, saraksts ================= */
+const isUsed = p => OPENED.test(p.model || "");
+const narrow = () => window.matchMedia("(max-width: 760px)").matches;
+const opsAll = () => Object.keys(OPS).filter(op => ITEMS.some(p => p.operator === op));
+const WEEK = 7 * 864e5;
+
+// cena pirms 7 dienām (pēdējā zināmā līdz tam brīdim; ja vēsture īsāka – pirmā zināmā)
+function prevPrice(item) {
+  const h = (HIST[item.key] || []).filter(e => e.full != null);
+  if (!h.length) return null;
+  const cut = +NOW - WEEK;
+  let v = null;
+  for (const e of h) { if (+e.t <= cut) v = e.full; else break; }
+  return v ?? h[0].full;
+}
+// LMT televizoru varianti: vēsture ir tikai "no" cenai, tāpēc der tikai, ja vienība ir tā pati cena
+const unitPrev = u => VARIANTS[u.item.key]?.variants?.length ? (u.full === u.item.full ? prevPrice(u.item) : null) : prevPrice(u.item);
+
+function finishRow(r) {
+  const vals = Object.values(r.prices).map(x => x.v);
+  r.ops = Object.keys(r.prices);
+  r.nOps = r.ops.length;
+  r.min = Math.min(...vals); r.max = Math.max(...vals);
+  r.tie = r.min === r.max;
+  r.winners = r.nOps > 1 && !r.tie ? r.ops.filter(op => r.prices[op].v === r.min) : [];
+  r.drop = 0;
+  for (const op of r.ops) {
+    const x = r.prices[op];
+    x.delta = x.prev != null && x.prev !== x.v ? x.v - x.prev : 0;
+    r.drop = Math.min(r.drop, x.delta);
+  }
+  r.changed = r.ops.some(op => r.prices[op].delta);
+  return r;
+}
+
+function rowFromGroup(g) {
+  const prices = {};
+  for (const [op, list] of Object.entries(g.byOp)) {
+    const b = list[0];
+    const prevs = list.map(x => prevPrice(x) ?? x.full).filter(v => v != null);
+    prices[op] = { v: b.full, from: list.length > 1, m: b.monthly, sale: list.some(onSale), url: b.url,
+      prev: prevs.length ? Math.min(...prevs) : null };
+  }
+  return finishRow({ key: g.items[0].key, vk: g.diffVk || "", brand: g.brand, title: g.model, code: "", cat: g.category,
+    used: isUsed(g.items[0]), diff: g.diff, diffVk: g.diffVk || "", prices, items: g.items, name: g.name });
+}
+
+function rowFromTv(t) {
+  const prices = {};
+  for (const [op, u] of Object.entries(t.byOp))
+    prices[op] = { v: u.full, from: false, m: op === "lmt" ? null : (u.monthly ?? u.item.monthly), url: u.url,
+      sale: onSale(u.item) || (u.full_old && u.full_old > u.full), prev: unitPrev(u) };
+  return finishRow({ key: t.key, vk: t.diag ? t.diag + "″" : "", brand: t.brand, title: t.title || t.code, code: t.code,
+    cat: "televizori", diag: t.diag, diff: t.diff, diffVk: t.diag ? t.diag + "″" : "", prices,
+    items: t.units.map(u => u.item), name: t.name });
+}
+
+function allRows() {
+  const items = ITEMS.filter(p => baseFilter(p));
+  if (state.cat === "televizori") return tvRows(items).map(rowFromTv);
+  return buildGroups(items).map(rowFromGroup);
+}
+
+function filterRows(rows) {
+  return rows.filter(r => (!state.multi || r.nOps > 1)
+    && (!state.only || r.prices[state.only])
+    && (!state.sale || r.ops.some(op => r.prices[op].sale)));
+}
+
+function sortRows(rows) {
+  const s = state.sort, nm = (a, b) => a.name.localeCompare(b.name, "lv");
+  const cmp = {
+    diff: (a, b) => (b.diff ?? -1) - (a.diff ?? -1) || nm(a, b),
+    price: (a, b) => a.min - b.min || nm(a, b),
+    change: (a, b) => a.drop - b.drop || (b.diff ?? -1) - (a.diff ?? -1) || nm(a, b),
+    name: nm,
+  }[s] || nm;
+  rows.sort((a, b) => (a.used - b.used) || (state.cat === "televizori" ? (a.diag || 999) - (b.diag || 999) : 0) || cmp(a, b));
+  return rows;
+}
+
+/* ---------- Kāpnes: viena līnija, punkts katram veikalam ---------- */
+const deltaTxt = d => (d < 0 ? "▼ " : "▲ ") + eur0(Math.abs(d)).replace(/^−/, "");
+function ladder(prices, { changes = false, me = "", winners = [] } = {}) {
+  const ops = Object.keys(prices).sort((a, b) => prices[a].v - prices[b].v || a.localeCompare(b));
+  if (!ops.length) return `<div class="lad"></div>`;
+  const vals = ops.map(op => prices[op].v);
+  if (changes) for (const op of ops) if (prices[op].delta) vals.push(prices[op].prev);
+  const lo = Math.min(...vals), hi = Math.max(...vals), span = hi - lo;
+  const X = v => span ? (v - lo) / span : (ops.length > 1 ? 0.5 : 0);
+  // tuvus punktus apvieno vienā grupā, lai uzraksti nepārklājas
+  const thr = narrow() ? 0.34 : 0.22, clusters = [];
+  for (const op of ops) {
+    const x = X(prices[op].v), last = clusters[clusters.length - 1];
+    if (last && x - last.x0 < thr) last.ops.push(op); else clusters.push({ x0: x, ops: [op] });
+  }
+  let html = `<div class="track"></div><div class="tick" style="left:0"></div><div class="tick" style="left:calc(100% - 2px)"></div>`;
+  if (changes) for (const op of ops) {
+    const p = prices[op]; if (!p.delta) continue;
+    const a = X(p.prev) * 100, b = X(p.v) * 100;
+    html += `<div class="mv" style="left:${Math.min(a, b)}%;width:${Math.abs(a - b)}%;background:var(--${op})"></div>
+      <div class="ghost" style="left:${a}%;border-color:var(--${op})" title="${OPS[op]} pirms 7 dienām: ${eur(p.prev)}"></div>`;
+  }
+  let tall = 1;
+  for (const c of clusters) {
+    const x = c.ops.reduce((s, op) => s + X(prices[op].v), 0) / c.ops.length;
+    const al = x < 0.12 ? "l" : x > 0.88 ? "r" : "c";
+    const pos = al === "l" ? `calc(${x * 100}% - 7px)` : al === "r" ? `calc(${x * 100}% + 7px)` : `${x * 100}%`;
+    tall = Math.max(tall, c.ops.length);
+    html += `<div class="cl ${al}" style="left:${pos}"><div class="dots">${c.ops.map(op =>
+      `<span class="pd${op === me ? " me" : ""}" style="background:var(--${op})" title="${OPS[op]}: ${eur(prices[op].v)}"></span>`).join("")}</div>
+      <div class="lbls">${c.ops.map(op => { const p = prices[op];
+        return `<span class="lb${winners.includes(op) ? " win" : ""}${me && op !== me && !winners.includes(op) ? " fade" : ""}">${p.from ? "no " : ""}<b>${eur(p.v)}</b> ${OPS[op]}${changes && p.delta ? ` <span class="d ${p.delta < 0 ? "dn" : "upc"}">${deltaTxt(p.delta)}</span>` : ""}</span>`; }).join("")}</div></div>`;
+  }
+  return `<div class="lad" style="height:${44 + tall * 19}px">${html}</div>`;
+}
+
+function tagFor(r) {
+  const only = state.only;
+  if (r.nOps === 1) { const op = r.ops[0];
+    return { tag: `<span class="ptag solo"><span class="at">Tikai ${OPS[op]}</span><span class="v">${eur(r.min)}</span></span>`, note: "Citos veikalos nav" }; }
+  if (r.tie) return { tag: `<span class="ptag solo"><span class="at">Visur vienādi</span><span class="v">${eur(r.min)}</span></span>`, note: `${r.nOps} veikalos` };
+  const w = r.winners.map(op => OPS[op]).join(", ");
+  let note = r.diff ? `Ietaupi līdz ${r.diff >= 10 ? eur0(r.diff) : eur(r.diff)}${r.diffVk ? " (" + esc(r.diffVk) + ")" : ""}` : "";
+  if (only && r.prices[only]) {
+    const v = r.prices[only].v;
+    note = r.winners.includes(only) ? `${OPS[only]} ir lētākais` : `${OPS[only]} prasa ${eur(v)}, par ${eur0(v - r.min)} vairāk`;
+  }
+  return { tag: `<span class="ptag"><span class="at">Lētāk ${esc(w)}</span><span class="v">${eur(r.min)}</span></span>`, note };
+}
+
+function rowMeta(r) {
+  const chg = state.changes && r.changed ? `<div class="chg">${r.ops.filter(op => r.prices[op].delta).map(op => {
+    const d = r.prices[op].delta; return `<span class="${d < 0 ? "dn" : "upc"}">${deltaTxt(d)} ${OPS[op]}</span>`; }).join("")}</div>` : "";
+  return `<div class="lm"><span class="b">${esc(r.brand)}${state.cat ? "" : " · " + CATS[r.cat]}</span>
+    <span class="t">${esc(r.title)}${r.used ? '<span class="used">lietots</span>' : ""}</span>
+    ${r.code ? `<span class="c">${esc(r.code)}</span>` : ""}${chg}</div>`;
+}
+
+function ladderRow(r) {
+  const t = tagFor(r);
+  return `<div class="lrow" role="button" tabindex="0" data-key="${esc(r.key)}" data-vk="${esc(r.vk)}" aria-label="${esc(r.name)}: lētākā cena ${eur(r.min)}">
+    ${rowMeta(r)}
+    ${ladder(r.prices, { changes: state.changes, me: state.only, winners: r.winners })}
+    <div class="lt2">${t.tag}${t.note ? `<span class="note">${t.note}</span>` : ""}</div>
+    ${t.note ? `<span class="mnote">${t.note}</span>` : ""}
+    <span class="chev" aria-hidden="true">›</span>
+  </div>`;
+}
+
+const secHead = (diag, n) => diag
+  ? `<b>${diag}″</b><span>${Math.round(diag * 2.54)} cm · ${n} ${n === 1 ? "modelis" : "modeļi"}</span>`
+  : `<b>Cits</b><span>izmērs nav norādīts · ${n}</span>`;
+
+function tableRow(r, ops) {
+  const cells = ops.map(op => {
+    const p = r.prices[op], me = op === state.only ? " me" : "";
+    if (!p) return `<td class="op${me}" data-op="${OPS[op]}"><span class="na">–</span></td>`;
+    const win = r.winners.includes(op);
+    return `<td class="op${me}${win ? " wincell" : ""}" data-op="${OPS[op]}">${p.from ? '<span class="from">no</span>' : ""}<span class="p${win ? " win" : ""}">${eur(p.v)}</span>${p.sale ? '<span class="tag">akcija</span>' : ""}
+      <span class="m">${p.m != null ? eur(p.m) + " mēnesī" : ""}${state.changes && p.delta ? ` <span class="${p.delta < 0 ? "dn" : "upc"}">${deltaTxt(p.delta)}</span>` : ""}</span></td>`;
+  }).join("");
+  return `<tr data-key="${esc(r.key)}" data-vk="${esc(r.vk)}" tabindex="0"><td>${rowMeta(r)}</td>${cells}
+    <td class="gapc">${r.diff ? `<span class="gap">${eur0(r.diff)}</span>${r.diffVk && state.cat !== "televizori" ? `<span class="m">${esc(r.diffVk)}</span>` : ""}` : ""}</td></tr>`;
+}
+
+function moreBtn(total) {
+  const left = total - state.limit;
+  return left > 0 ? `<div class="more"><button type="button" data-more>Rādīt vēl ${Math.min(PAGE, left)}<span>no ${total}</span></button></div>` : "";
+}
+
+function renderRows() {
+  let rows = filterRows(allRows());
+  // diagonāles filtrs + skaits
+  const sizesRow = document.getElementById("sizesRow");
+  if (state.cat === "televizori" && state.view !== "list") {
+    sizesRow.hidden = false;
+    const n = {}; for (const r of rows) if (r.diag) n[r.diag] = (n[r.diag] || 0) + 1;
+    document.getElementById("sizes").innerHTML = `<button type="button" class="chip" data-diag="" aria-pressed="${!state.diag}">Visi</button>` +
+      Object.keys(n).map(Number).sort((a, b) => a - b).map(s =>
+        `<button type="button" class="chip" data-diag="${s}" aria-pressed="${state.diag == s}">${s}″ <span class="n">${n[s]}</span></button>`).join("");
+    if (state.diag) rows = rows.filter(r => r.diag == state.diag);
+  } else sizesRow.hidden = true;
+
+  sortRows(rows);
+  const total = rows.length, tv = state.cat === "televizori";
+  const perDiag = {}; for (const r of rows) perDiag[r.diag] = (perDiag[r.diag] || 0) + 1;
+  const shown = rows.slice(0, state.limit);
+  const ttl = tv && state.diag ? `${state.diag}″ televizori` : state.cat ? CATS[state.cat] : "Visas preces";
+  const cheaperOnly = state.only ? rows.filter(r => r.winners.includes(state.only)).length : 0;
+  document.getElementById("secTitle").textContent = ttl;
+  document.getElementById("secSub").textContent = `${total} ${total === 1 ? "modelis" : "modeļi"}` +
+    (state.only ? ` ${OPS[state.only]} piedāvājumā · ${cheaperOnly} lētākie` : state.multi ? " vismaz 2 veikalos" : "");
+  const body = document.getElementById("body");
+  if (!shown.length) { body.innerHTML = `<p class="empty">Nekas neatbilst. Notīri meklēšanu vai noņem kādu filtru.</p>`; return; }
+
+  if (state.view === "ladder") {
+    let html = "", last;
+    for (const r of shown) {
+      if (tv && r.diag !== last) { last = r.diag; html += `<div class="sec">${secHead(r.diag, perDiag[r.diag])}</div>`; }
+      html += ladderRow(r);
+    }
+    body.innerHTML = html + moreBtn(total);
+  } else {
+    const ops = opsAll();
+    let html = "", last;
+    for (const r of shown) {
+      if (tv && r.diag !== last) { last = r.diag; html += `<tr class="secrow"><td colspan="${ops.length + 2}">${secHead(r.diag, perDiag[r.diag])}</td></tr>`; }
+      html += tableRow(r, ops);
+    }
+    body.innerHTML = `<table class="tbl"><thead><tr><th scope="col">Modelis</th>${ops.map(op =>
+      `<th scope="col" class="${op === state.only ? "me" : ""}"><span class="dot ${op}"></span>${OPS[op]}</th>`).join("")}<th scope="col">Starpība</th></tr></thead>
+      <tbody>${html}</tbody></table>` + moreBtn(total);
+  }
+}
+
+function renderList() {
+  document.getElementById("sizesRow").hidden = true;
+  let list = ITEMS.filter(p => baseFilter(p) && (!state.only || p.operator === state.only) && (!state.sale || onSale(p)));
+  const nm = (a, b) => a.name.localeCompare(b.name, "lv") || a.operator.localeCompare(b.operator);
+  list.sort((a, b) => (isUsed(a) - isUsed(b)) || (state.sort === "price" ? (a.full ?? Infinity) - (b.full ?? Infinity)
+    : state.sort === "diff" ? (b.disc ?? -1) - (a.disc ?? -1) || nm(a, b) : nm(a, b)));
+  const total = list.length;
+  document.getElementById("secTitle").textContent = state.cat ? CATS[state.cat] : "Visas preces";
+  document.getElementById("secSub").textContent = `${total} preces${state.only ? " " + OPS[state.only] : " visos veikalos"}, katra atsevišķi`;
+  list = list.slice(0, state.limit);
+  const body = document.getElementById("body");
+  if (!list.length) { body.innerHTML = `<p class="empty">Nekas neatbilst. Notīri meklēšanu vai noņem kādu filtru.</p>`; return; }
+  body.innerHTML = `<table class="tbl list"><thead><tr><th scope="col">Prece</th><th scope="col">Cena</th><th scope="col">Mēnesī</th><th scope="col">Zemākā vēsturē</th></tr></thead><tbody>` +
+    list.map(p => `<tr data-key="${esc(p.key)}" tabindex="0">
+      <td><div class="lm"><span class="b"><span class="dot ${p.operator}"></span> ${OPS[p.operator]} · ${esc(p.brand)}${state.cat ? "" : " · " + CATS[p.category]}</span>
+        <span class="t">${esc(p.model)}${isUsed(p) ? '<span class="used">lietots</span>' : ""}</span></div></td>
+      <td class="lp"><span class="p">${eur(p.full)}</span>${p.full_old ? ` <s class="m" style="display:inline">${eur(p.full_old)}</s>` : ""}${onSale(p) ? '<span class="tag">akcija</span>' : ""}</td>
+      <td class="lp">${p.monthly != null ? eur(p.monthly) : ""}</td>
+      <td class="lp">${p.min != null && p.min < p.full ? `<span class="dn">${eur(p.min)}</span>` : ""}</td></tr>`).join("") +
+    `</tbody></table>` + moreBtn(total);
+}
+
+/* ---------- Galvene, filtri ---------- */
+function renderHeader() {
+  document.getElementById("sub").innerHTML = ITEMS.length
+    ? `Atjaunots ${esc(fmtDT(NOW))}` + (META?.errors?.length ? ` · <span class="warn" title="${esc(META.errors.join("; "))}">daļa datu nav ielādēta</span>` : "")
+    : "Datu vēl nav. Palaid skenēšanu GitHub Actions cilnē.";
+  const cats = Object.keys(CATS).filter(c => ITEMS.some(p => p.category === c));
+  if (!cats.includes(state.cat) && state.cat !== "") state.cat = cats[0] || "";
+  document.getElementById("cats").innerHTML = [...cats, ""].map(c =>
+    `<button type="button" role="tab" data-cat="${c}" aria-selected="${state.cat === c}">${c ? CATS[c] : "Visi"}</button>`).join("");
+
+  const inCat = ITEMS.filter(p => !state.cat || p.category === state.cat);
+  const rows = state.cat === "televizori" ? tvRows(inCat).map(rowFromTv) : buildGroups(inCat).map(rowFromGroup);
+  const multi = rows.filter(r => r.nOps > 1);
+  const best = multi.reduce((m, r) => (r.diff || 0) > (m?.diff || 0) ? r : m, null);
+  const moved = multi.filter(r => r.changed).length;
+  document.getElementById("stats").innerHTML =
+    (best?.diff ? `<button type="button" class="best-btn" data-key="${esc(best.key)}" data-vk="${esc(best.diffVk)}">Lielākā starpība <b>${eur0(best.diff)}</b> ${esc(best.brand)} ${esc(best.title)}${best.diffVk ? " " + esc(best.diffVk) : ""}</button>` : "") +
+    `<span><b>${multi.length}</b> modeļi salīdzināmi vairākos veikalos · <b>${moved}</b> cenas mainījušās 7 dienās · <b>${inCat.filter(onSale).length}</b> akcijās</span>`;
+
+  const ops = opsAll();
+  document.getElementById("ops").innerHTML = ops.map(op =>
+    `<label class="chip opchk"><input type="checkbox" value="${op}" ${state.only === op ? "checked" : ""}><span class="dot ${op}"></span>${OPS[op]}</label>`).join("");
+  document.getElementById("opHint").textContent = state.only ? "" : narrow() ? "" : "Atzīmē, lai redzētu tikai viena veikala preces";
+}
+
+function renderBrands() {
+  const pool = ITEMS.filter(p => baseFilter(p, true) && (!state.only || p.operator === state.only));
+  const n = {};
+  for (const p of pool) n[p.brandN] = (n[p.brandN] || 0) + 1;
+  const list = Object.entries(n).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  if (state.brand && !n[state.brand]) list.unshift([state.brand, 0]);
+  document.getElementById("brands").innerHTML =
+    `<button type="button" class="chip" data-brand="" aria-pressed="${!state.brand}">Visi</button>` +
+    list.map(([b, c]) => `<button type="button" class="chip" data-brand="${esc(b)}" aria-pressed="${state.brand === b}">${esc(b)} <span class="n">${c}</span></button>`).join("");
+}
+
+let lastSig = "";
+function render() {
+  const sig = JSON.stringify([state.view, state.cat, state.q, state.only, state.brand, state.diag, state.sale, state.multi, state.sort]);
+  if (sig !== lastSig) { state.limit = PAGE; lastSig = sig; }
+  renderHeader();
+  renderBrands();
+  document.querySelectorAll("#views button").forEach(b => b.setAttribute("aria-pressed", b.dataset.view === state.view));
+  document.getElementById("multiWrap").hidden = state.view === "list";
+  document.getElementById("chgWrap").hidden = state.view === "list";
+  document.getElementById("sort").value = state.sort;
+  state.view === "list" ? renderList() : renderRows();
+}
+
+/* ---------- Detaļu logs ---------- */
+let DLG = null;
+function openDetail(key, focusVk) {
+  const p = ITEMS.find(x => x.key === key);
+  if (!p) return;
+  const [g] = buildGroups(ITEMS.filter(x => x.mk === p.mk));
+  const ops = Object.keys(OPS).filter(op => g.byOp[op]);
+  const tv = g.category === "televizori";
+
+  // kāpnes katram variantam / izmēram
+  const rows = VARIANT_CATS.has(g.category) ? skuRows(g) : [];
+  const byVk = {};
+  for (const r of rows) { const m = (byVk[r.vk] ||= {}); if (!m[r.op] || r.full < m[r.op].v) m[r.op] = { v: r.full, url: r.url }; }
+  let keys = Object.keys(byVk).sort((a, b) => (a === "") - (b === "") || vkOrder(a) - vkOrder(b));
+  if (keys.length === 1 && !keys[0]) keys = [];
+  const groups = keys.length ? keys.map(k => [k, byVk[k]])
+    : [["", Object.fromEntries(ops.map(op => { const b = g.best[op]; return [op, { v: b.full, url: b.url, from: g.byOp[op].length > 1 }]; }))]];
+  const vrows = groups.map(([k, prices]) => {
+    const vals = Object.values(prices).map(x => x.v), min = Math.min(...vals), tie = min === Math.max(...vals);
+    const win = Object.keys(prices).filter(op => prices[op].v === min);
+    const n = Object.keys(prices).length;
+    const tag = n > 1 && !tie
+      ? `<a class="ptag" href="${esc(prices[win[0]].url)}" target="_blank" rel="noopener"><span class="at">Lētāk ${win.map(op => OPS[op]).join(", ")} ↗</span><span class="v">${eur(min)}</span></a>`
+      : `<a class="ptag solo" href="${esc(prices[win[0]].url)}" target="_blank" rel="noopener"><span class="at">${n > 1 ? "Visur vienādi" : "Tikai " + OPS[win[0]]} ↗</span><span class="v">${eur(min)}</span></a>`;
+    return `<div class="vrow${focusVk && k === focusVk ? " cur" : ""}"><div class="vk${k.length > 4 ? " small" : ""}">${esc(k || (keys.length ? "Cits" : "Cena"))}</div>
+      ${ladder(prices, { winners: n > 1 && !tie ? win : [] })}<div class="lt2">${tag}</div></div>`;
+  }).join("");
+
+  DLG = { g, ops, period: 30 };
+  document.getElementById("dlgBody").innerHTML = `
+    <div class="dlg-head">
+      <div><div class="b">${esc(g.brand)} · ${CATS[g.category] || ""}</div><h2 id="dlgTitle">${esc(g.model)}</h2></div>
+      <button type="button" class="x" aria-label="Aizvērt" data-close><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    </div>
+    <section><h3>${keys.length ? (tv ? "Cenas pa izmēriem" : "Cenas pa variantiem") : "Cenas veikalos"}</h3>
+      <p class="quiet" style="margin:4px 0 10px">${keys.length ? (tv ? "Katrā rindā viens konkrēts modelis (ražotāja kods) šajā izmērā." : "Lētākā krāsa katram variantam.") + " " : ""}Dzeltenā zīme ved uz lētāko veikalu.</p>
+      <div class="vrows">${vrows}</div></section>
+    <div class="shops">${ops.map(op => { const b = g.best[op];
+      return `<a class="shop" href="${esc(b.url)}" target="_blank" rel="noopener"><span class="dot ${op}"></span>${OPS[op]} <b>${g.byOp[op].length > 1 ? "no " : ""}${eur(b.full)}</b> ↗</a>`; }).join("")}</div>
+    <section>
+      <div class="hist-head"><h3>Cena laika gaitā${g.items.length > ops.length ? " (lētākais variants)" : ""}</h3>
+        <div class="seg" id="period" role="group" aria-label="Periods">${[[7, "7 d."], [30, "30 d."], [90, "90 d."], [0, "Visi"]].map(([d, l]) =>
+          `<button type="button" data-p="${d}" aria-pressed="${d === 30}">${l}</button>`).join("")}</div></div>
+      <div id="histBox" style="margin-top:12px"></div>
+    </section>`;
+  dlg.showModal();
+  drawHistory();
+}
+
+function drawHistory() {
+  const { g, ops, period } = DLG;
+  const from = period ? +NOW - period * 864e5 : -Infinity;
+  const at = (h, t) => { let v = null; for (const e of h) { if (+e.t <= t) v = e.full; else break; } return v; };
+  const series = ops.map(op => {
+    const hs = g.byOp[op].map(x => ((HIST[x.key] || []).filter(e => e.full != null).length
+      ? HIST[x.key].filter(e => e.full != null) : [{ t: NOW, full: x.full }]));
+    const times = [...new Set(hs.flatMap(h => h.map(e => +e.t)))].sort((a, b) => a - b);
+    let pts = [];
+    for (const t of times) {
+      const vals = hs.map(h => at(h, t)).filter(v => v != null);
+      const v = Math.min(...vals);
+      if (!pts.length || pts[pts.length - 1].v !== v) pts.push({ t: new Date(t), v });
+    }
+    if (period) {   // apgriež: cena perioda sākumā + izmaiņas pēc tam
+      const before = pts.filter(p => +p.t <= from).pop();
+      pts = (before ? [{ t: new Date(from), v: before.v }] : []).concat(pts.filter(p => +p.t > from));
+      if (!pts.length) pts = [{ t: new Date(from), v: g.best[op].full }];
+    }
+    return { op, label: OPS[op], pts };
+  });
+  // izmaiņu saraksts
+  const ev = [];
+  for (const x of g.items) {
+    const h = (HIST[x.key] || []).filter(e => e.full != null);
+    for (let i = 1; i < h.length; i++) if (h[i].full !== h[i - 1].full && +h[i].t > from)
+      ev.push({ t: h[i].t, op: x.operator, a: h[i - 1].full, b: h[i].full, vk: variantKey(x.model, g.category) });
+  }
+  ev.sort((a, b) => b.t - a.t);
+  const moved = series.some(s => s.pts.length > 1 && new Set(s.pts.map(p => p.v)).size > 1);
+  const box = document.getElementById("histBox");
+  box.innerHTML = `${moved ? `<div class="chart" id="chart"></div>` : `<p class="quiet">Šajā periodā cenas nav mainījušās.</p>`}
+    ${ev.length ? `<ul class="events" style="margin-top:14px">${ev.slice(0, 10).map(e => `<li><span class="dt">${fmtDate(e.t)}</span><span class="dot ${e.op}"></span>${OPS[e.op]}${e.vk ? " " + esc(e.vk) : ""}
+      <span class="num">${eur(e.a)} → <b class="${e.b < e.a ? "dn" : "upc"}">${eur(e.b)}</b></span></li>`).join("")}</ul>` : ""}`;
+  if (moved) drawChart(document.getElementById("chart"), series);
+}
+
 /* ---------- Notikumi ---------- */
 const dlg = document.getElementById("dlg");
-dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
+dlg.addEventListener("click", e => {
+  if (e.target === dlg || e.target.closest("[data-close]")) { dlg.close(); return; }
+  const b = e.target.closest("#period button");
+  if (b) { DLG.period = +b.dataset.p; document.querySelectorAll("#period button").forEach(x => x.setAttribute("aria-pressed", x === b)); drawHistory(); }
+});
 document.getElementById("cats").addEventListener("click", e => {
   const b = e.target.closest("button"); if (!b) return;
   state.cat = b.dataset.cat; state.brand = ""; state.diag = ""; render();
 });
 document.getElementById("q").addEventListener("input", e => { state.q = e.target.value; render(); });
 document.getElementById("sale").addEventListener("change", e => { state.sale = e.target.checked; render(); });
-document.getElementById("ops").addEventListener("click", e => {
-  const b = e.target.closest("button"); if (!b) return;
-  state.op = b.dataset.op;
-  document.querySelectorAll("#ops button").forEach(x => x.setAttribute("aria-pressed", x === b));
-  render();
-});
-document.getElementById("head").addEventListener("click", e => {
-  const th = e.target.closest("th[data-k]"); if (!th) return;
-  const k = th.dataset.k;
-  state.dir = state.sort === k ? -state.dir : (k === "disc" || k === "diff" ? -1 : 1);
-  state.sort = k; render();
+document.getElementById("multi").addEventListener("change", e => { state.multi = e.target.checked; render(); });
+document.getElementById("chg").addEventListener("change", e => { state.changes = e.target.checked; render(); });
+document.getElementById("sort").addEventListener("change", e => { state.sort = e.target.value; render(); });
+document.getElementById("ops").addEventListener("change", e => {
+  const c = e.target.closest("input"); if (!c) return;
+  state.only = c.checked ? c.value : ""; render();
 });
 document.getElementById("views").addEventListener("click", e => {
   const b = e.target.closest("button"); if (!b) return;
@@ -1017,14 +1163,21 @@ document.getElementById("sizes").addEventListener("click", e => {
   const b = e.target.closest("button"); if (!b) return;
   state.diag = state.diag === b.dataset.diag ? "" : b.dataset.diag; render();
 });
-document.getElementById("multi").addEventListener("change", e => { state.multi = e.target.checked; render(); });
-const rows = document.getElementById("rows");
-rows.addEventListener("click", e => {
+const bodyEl = document.getElementById("body");
+bodyEl.addEventListener("click", e => {
   if (e.target.closest("[data-more]")) { state.limit += PAGE; render(); return; }
-  const tr = e.target.closest("tr[data-key]"); if (tr) openDetail(tr.dataset.key, tr.dataset.vk);
+  const r = e.target.closest("[data-key]"); if (r) openDetail(r.dataset.key, r.dataset.vk);
 });
-document.getElementById("stats").addEventListener("click", e => { const b = e.target.closest(".hero"); if (b) openDetail(b.dataset.key, b.dataset.vk); });
-rows.addEventListener("keydown", e => { if (e.key === "Enter") { const tr = e.target.closest("tr[data-key]"); if (tr) openDetail(tr.dataset.key); } });
+bodyEl.addEventListener("keydown", e => {
+  if (e.key !== "Enter" && e.key !== " ") return;
+  const r = e.target.closest("[data-key]"); if (r) { e.preventDefault(); openDetail(r.dataset.key, r.dataset.vk); }
+});
+document.getElementById("stats").addEventListener("click", e => { const b = e.target.closest(".best-btn"); if (b) openDetail(b.dataset.key, b.dataset.vk); });
+let wasNarrow = narrow();
+window.addEventListener("resize", () => {
+  if (narrow() !== wasNarrow) { wasNarrow = narrow(); if (ITEMS.length) render(); }
+  if (dlg.open && document.getElementById("chart")) drawHistory();
+});
 
 load().catch(err => { document.getElementById("sub").textContent = "Neizdevās ielādēt datus: " + err.message; });
 </script>
