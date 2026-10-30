@@ -1706,3 +1706,57 @@ scanned_at,operator,category,id,brand,model,monthly,monthly_old,full,full_old,ur
 2026-10-29T20:09:51+00:00,tet,austinas,101172,Sony,WH-CH730N Wireless Noise Cancelling - Black,4.09,,129.0,,https://www.tet.lv/veikals/austinas/sony-wh-ch730n-wireless-noise-cancelling-black.html
 2026-10-29T20:09:51+00:00,tet,austinas,82493,Sony,WH-CH520P Wireless Headphones - Pink,,,39.0,,https://www.tet.lv/veikals/austinas/sony-wh-ch520p-wireless-headphones-pink.html
 2026-10-29T20:09:51+00:00,tet,austinas,70214,Pioneer,DJ HDJ-CUE1BT-W White,3.14,,99.0,,https://www.tet.lv/veikals/austinas/pioneer-dj-hdj-cue1bt-w-white.html
+2026-10-30T05:58:36+00:00,bite,austinas,13317,Razer,BlackShark V2 Pro | 2023,9.58,,229.99,,https://www.bite.lv/lv/over-ear-austinas/razer-blackshark-v2-pro-2023
+2026-10-30T05:58:36+00:00,lmt,telefoni,1fe0f6a7-9329-4c7b-9db2-2ff7e5845195,Apple,iPhone 15 Pro Max,32.11,,770.5,,https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-15-pro-max/dabigs-titans-256-gb-mazlietots
+2026-10-30T05:58:36+00:00,lmt,telefoni,af057caa-b50d-475d-8d9e-2be489aa1bef,Apple,iPhone 14,21.47,,515.13,,https://www.lmt.lv/veikals/visi-telefoni/apple-iphone-14/iphone-14-starlight-128-mazlietots
+2026-10-30T05:58:36+00:00,tet,telefoni,101805,Samsung,Galaxy A17 LTE 4+128GB Black [Demo],5.04,,159.0,,https://www.tet.lv/veikals/viedtalruni/samsung-galaxy-a17-lte-4-128gb-black-demo.html
+2026-10-30T05:58:36+00:00,tet,telefoni,97602,Ulefone,Armor X32 6+128GB Future Black,5.51,,174.0,,https://www.tet.lv/veikals/viedtalruni/ulefone-armor-x32-6-128gb-future-black.html
+2026-10-30T05:58:36+00:00,tet,telefoni,97620,Poco,M8 Pro 5G 8+256GB Black,10.1,,319.0,,https://www.tet.lv/veikals/viedtalruni/poco-m8-pro-5g-8-256gb-black.html
+2026-10-30T05:58:36+00:00,tet,telefoni,97608,Ulefone,RugKing 3 Pro 8+128GB Black,5.32,,168.0,,https://www.tet.lv/veikals/viedtalruni/ulefone-rugking-3-pro-8-128gb-black.html
+2026-10-30T05:58:36+00:00,tet,telefoni,82150,Nokia,225 4G (2024) Pink,,,63.0,,https://www.tet.lv/veikals/viedtalruni/nokia-225-4g-2024-pink.html
+2026-10-30T05:58:36+00:00,tet,telefoni,97741,Nokia,105 4G 2nd Edition Ocean Blue,,,43.75,,https://www.tet.lv/veikals/viedtalruni/nokia-105-4g-2nd-edition-ocean-blue.html
+2026-10-30T05:58:36+00:00,tet,telefoni,82138,MyPhone,Hammer Blade V 5G 8+256GB Black,10.64,,336.0,,https://www.tet.lv/veikals/viedtalruni/myphone-hammer-blade-v-5g-8-256gb-black.html
+2026-10-30T05:58:36+00:00,tet,telefoni,82164,eSTAR,Digni Call 4G Silver,,,38.5,,https://www.tet.lv/veikals/viedtalruni/estar-digni-call-4g-silver.html
+2026-10-30T05:58:36+00:00,tet,telefoni,54222,eSTAR,Rock Rugged Black,,,45.25,,https://www.tet.lv/veikals/viedtalruni/estar-rock-rugged-black.html
+2026-10-30T05:58:36+00:00,tet,telefoni,97736,eSTAR,Stone 4G Black,,,63.0,,https://www.tet.lv/veikals/viedtalruni/estar-stone-4g-black.html
+2026-10-30T05:58:36+00:00,tet,telefoni,97742,Nokia,105 4G 2nd Edition Charcoal (Black),,,43.75,,https://www.tet.lv/veikals/viedtalruni/nokia-105-4g-2nd-edition-charcoal-black.html
+2026-10-30T05:58:36+00:00,tet,telefoni,82159,MyPhone,Hammer 6 LTE Black,,,63.0,,https://www.tet.lv/veikals/viedtalruni/myphone-hammer-6-lte-black.html
+2026-10-30T05:58:36+00:00,tet,telefoni,67456,eSTAR,Digni talk Black,,,36.5,,https://www.tet.lv/veikals/viedtalruni/estar-digni-talk-black.html
+2026-10-30T05:58:36+00:00,tet,telefoni,97598,Ulefone,Armor X12 3+32GB All Black,3.61,,114.0,,https://www.tet.lv/veikals/viedtalruni/ulefone-armor-x12-3-32gb-all-black.html
+2026-10-30T05:58:36+00:00,tet,telefoni,63978,eSTAR,Digni Flip Matt Black,,,43.75,,https://www.tet.lv/veikals/viedtalruni/estar-digni-flip-matt-black.html
+2026-10-30T05:58:36+00:00,tet,telefoni,97769,eSTAR,Digni 244 Black,,,27.75,,https://www.tet.lv/veikals/viedtalruni/estar-digni-244-black.html
+2026-10-30T05:58:36+00:00,tet,telefoni,97601,Ulefone,RugKing 8+256GB Black,6.08,,192.0,,https://www.tet.lv/veikals/viedtalruni/ulefone-rugking-8-256gb-black.html
+2026-10-30T05:58:36+00:00,tet,telefoni,63979,eSTAR,Digni Flip Metallic Red,,,43.75,,https://www.tet.lv/veikals/viedtalruni/estar-digni-flip-metallic-red.html
+2026-10-30T05:58:36+00:00,tet,telefoni,86459,Ulefone,Armor X13 6+64GB All Black,5.32,,168.0,,https://www.tet.lv/veikals/viedtalruni/ulefone-armor-x13-6-64gb-all-black.html
+2026-10-30T05:58:36+00:00,tet,telefoni,97877,Honor,Magic8 Pro 12+512GB Black,38.57,,1218.0,,https://www.tet.lv/veikals/viedtalruni/honor-magic8-pro-12-512gb-black.html
+2026-10-30T05:58:36+00:00,tet,pulksteni,99478,Garett,Kids Vibe AI 4G Pink,3.99,,126.0,,https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-vibe-ai-4g-pink.html
+2026-10-30T05:58:36+00:00,tet,pulksteni,99473,Garett,Kids Essa 4G Grey,3.42,,108.0,,https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-essa-4g-grey.html
+2026-10-30T05:58:36+00:00,tet,pulksteni,99464,Garett,Kids Vibe 4G Pink,3.71,,117.0,,https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-vibe-4g-pink.html
+2026-10-30T05:58:36+00:00,tet,pulksteni,99466,Garett,Kids Vibe 4G Black,3.71,,117.0,,https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-vibe-4g-black.html
+2026-10-30T05:58:36+00:00,tet,pulksteni,99463,Garett,Kids Vibe 4G Blue,3.71,,117.0,,https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-vibe-4g-blue.html
+2026-10-30T05:58:36+00:00,tet,pulksteni,99476,Garett,Kids Essa 4G Pink,3.42,,108.0,,https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-essa-4g-pink.html
+2026-10-30T05:58:36+00:00,tet,pulksteni,99472,Garett,Kids Essa 4G Blue,3.42,,108.0,,https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-essa-4g-blue.html
+2026-10-30T05:58:36+00:00,tet,pulksteni,99467,Garett,Kids Essa 4G Black,3.42,,108.0,,https://www.tet.lv/veikals/viedie-pulksteni/garett-kids-essa-4g-black.html
+2026-10-30T05:58:36+00:00,tet,pulksteni,76835,Garmin,fenix 8 51mm Solar Sapphire Titanium with Amp Yellow/Graphite silicone band,28.22,,891.0,,https://www.tet.lv/veikals/viedie-pulksteni/garmin-fenix-8-51mm-solar-sapphire-titanium-with-amp-yellow-graphite-silicone-band.html
+2026-10-30T05:58:36+00:00,tet,pulksteni,88049,Apple,Watch Series 11 GPS + Cellular 46mm Silver Aluminium Case with Purple Fog Sport Band - M/L,17.39,,549.0,609.0,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-46mm-silver-aluminium-case-with-purple-fog-sport-band-m-l.html
+2026-10-30T05:58:36+00:00,tet,pulksteni,51900,Polar,Pacer Cloud White S/L,7.13,,225.0,,https://www.tet.lv/veikals/viedie-pulksteni/polar-pacer-cloud-white-s-l.html
+2026-10-30T05:58:36+00:00,tet,pulksteni,88034,Apple,Watch Series 11 GPS + Cellular 42mm Jet Black Aluminium Case with Black Sport Band - S/M,16.44,,519.0,579.0,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-42mm-jet-black-aluminium-case-with-black-sport-band-s-m.html
+2026-10-30T05:58:36+00:00,tet,pulksteni,88045,Apple,Watch Series 11 GPS + Cellular 46mm Space Grey Aluminium Case with Black Sport Band - M/L,17.39,,549.0,609.0,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-46mm-space-grey-aluminium-case-with-black-sport-band-m-l.html
+2026-10-30T05:58:36+00:00,tet,pulksteni,88047,Apple,Watch Series 11 GPS + Cellular 46mm Rose Gold Aluminium Case with Light Blush Sport Band - M/L,19.29,,609.0,,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-46mm-rose-gold-aluminium-case-with-light-blush-sport-band-m-l.html
+2026-10-30T05:58:36+00:00,tet,pulksteni,88068,Apple,Watch Series 11 GPS + Cellular 46mm Slate Titanium Case with Slate Milanese Loop - M/L,25.3,,799.0,909.0,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-46mm-slate-titanium-case-with-slate-milanese-loop-m-l.html
+2026-10-30T05:58:36+00:00,tet,pulksteni,88040,Apple,Watch Series 11 GPS + Cellular 42mm Silver Aluminium Case with Purple Fog Sport Band - S/M,16.44,,519.0,579.0,https://www.tet.lv/veikals/viedie-pulksteni/apple-watch-series-11-gps-cellular-42mm-silver-aluminium-case-with-purple-fog-sport-band-s-m.html
+2026-10-30T05:58:36+00:00,tet,austinas,63231,Beats,Studio Buds True Wireless Noise Black/Gold,6.3,,199.0,,https://www.tet.lv/veikals/austinas/beats-studio-buds-true-wireless-noise-black-gold.html
+2026-10-30T05:58:36+00:00,tet,austinas,55748,Sony,MDRE9LPB.AE,,,8.25,,https://www.tet.lv/veikals/austinas/sony-mdre9lpb-ae.html
+2026-10-30T05:58:36+00:00,tet,austinas,76974,Soundcore,Space One Latte Cream,2.85,,90.0,,https://www.tet.lv/veikals/austinas/soundcore-space-one-latte-cream.html
+2026-10-30T05:58:36+00:00,tet,austinas,99252,Tozo,H100 Black,,,29.99,,https://www.tet.lv/veikals/austinas/tozo-h100-black.html
+2026-10-30T05:58:36+00:00,tet,austinas,99253,Tozo,H20 T12052 Black,,,59.99,,https://www.tet.lv/veikals/austinas/tozo-h20-t12052-black.html
+2026-10-30T05:58:36+00:00,tet,austinas,99255,Tozo,H20 T12052 Blue,,,59.99,,https://www.tet.lv/veikals/austinas/tozo-h20-t12052-blue.html
+2026-10-30T05:58:36+00:00,tet,austinas,99250,Tozo,A3 Pro White,,,24.99,,https://www.tet.lv/veikals/austinas/tozo-a3-pro-white.html
+2026-10-30T05:58:36+00:00,tet,austinas,97977,Samsung,Type-C Earphones EO-IC100 Black,,,17.0,,https://www.tet.lv/veikals/austinas/samsung-type-c-earphones-eo-ic100-black.html
+2026-10-30T05:58:36+00:00,tet,austinas,99249,Tozo,Aerosound3 Black,,,39.99,,https://www.tet.lv/veikals/austinas/tozo-aerosound3-black.html
+2026-10-30T05:58:36+00:00,tet,austinas,99246,Tozo,OpenRhyme T13064 Black,,,39.99,,https://www.tet.lv/veikals/austinas/tozo-openrhyme-t13064-black.html
+2026-10-30T05:58:36+00:00,tet,austinas,99248,Tozo,H20 T12052 Pink,,,59.99,,https://www.tet.lv/veikals/austinas/tozo-h20-t12052-pink.html
+2026-10-30T05:58:36+00:00,tet,austinas,55754,Sony,MDREX110APB.CE7 Black,,,16.25,,https://www.tet.lv/veikals/austinas/sony-mdrex110apb-ce7-black.html
+2026-10-30T05:58:36+00:00,tet,austinas,31812,Sennheiser,Wired Headphones HD 400S,2.28,,72.0,,https://www.tet.lv/veikals/austinas/sennheiser-wired-headphones-hd-400s.html
+2026-10-30T05:58:36+00:00,tet,austinas,99256,Tozo,Agile Nova Black,,,19.99,,https://www.tet.lv/veikals/austinas/tozo-agile-nova-black.html
+2026-10-30T05:58:36+00:00,tet,austinas,55760,Sony,MDREX110APR.CE7 Red,,,16.25,,https://www.tet.lv/veikals/austinas/sony-mdrex110apr-ce7-red.html
