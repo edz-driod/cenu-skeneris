@@ -12,7 +12,9 @@
     --surface: #fcfcfb;
     --ink: #0b0b0b;
     --ink-2: #52514e;
-    --muted: #898781;
+    --muted: #6f6e69;
+    --win-bg: #e3f3e3;
+    --sale: #b4235a;
     --grid: #e1e0d9;
     --axis: #c3c2b7;
     --ring: rgba(11,11,11,0.10);
@@ -25,23 +27,23 @@
     --tet: #8a3ffc;
     --down: #006300;      /* cena kritusies = labi */
     --up: #d03b3b;
-    --accent: #2a78d6;
+    --accent: #1f63b8;
   }
   @media (prefers-color-scheme: dark) {
     :root:where(:not([data-theme="light"])) {
       color-scheme: dark;
       --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7;
-      --muted: #898781; --grid: #2c2c2a; --axis: #383835;
+      --muted: #9a9891; --grid: #2c2c2a; --axis: #383835; --win-bg: #17321a; --sale: #f0709a;
       --ring: rgba(255,255,255,0.10); --hover: rgba(255,255,255,0.05);
-      --bite: #239c5a; --tele2: #2e66d6; --lmt: #d97316; --tet: #b066ff; --down: #0ca30c; --up: #e66767; --accent: #3987e5;
+      --bite: #239c5a; --tele2: #2e66d6; --lmt: #d97316; --tet: #b066ff; --down: #3ccf3c; --up: #e66767; --accent: #3987e5;
     }
   }
   :root[data-theme="dark"] {
     color-scheme: dark;
     --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7;
-    --muted: #898781; --grid: #2c2c2a; --axis: #383835;
+    --muted: #9a9891; --grid: #2c2c2a; --axis: #383835; --win-bg: #17321a; --sale: #f0709a;
     --ring: rgba(255,255,255,0.10); --hover: rgba(255,255,255,0.05);
-    --bite: #239c5a; --tele2: #2e66d6; --lmt: #d97316; --tet: #b066ff; --down: #0ca30c; --up: #e66767; --accent: #3987e5;
+    --bite: #239c5a; --tele2: #2e66d6; --lmt: #d97316; --tet: #b066ff; --down: #3ccf3c; --up: #e66767; --accent: #3987e5;
   }
 
   * { box-sizing: border-box; }
@@ -59,12 +61,23 @@
   .top .sub { margin: 0; }
   .legend-ops { display: flex; gap: 12px; flex-wrap: wrap; font-size: 13px; color: var(--ink-2); }
   .legend-ops span { display: inline-flex; align-items: center; gap: 6px; }
-  .stats { color: var(--ink-2); font-size: 13px; margin: -4px 0 14px; }
+  .stats { color: var(--ink-2); font-size: 13px; margin: -4px 0 14px; display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; }
+  .stats .hero { font: inherit; font-size: 14px; color: var(--ink); background: var(--win-bg); border: 0; border-radius: 8px;
+    padding: 6px 10px; cursor: pointer; text-align: left; }
+  .stats .hero b { color: var(--down); }
   .stats b { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
   .brands { display: flex; gap: 6px; overflow-x: auto; padding: 2px 0 10px; margin-bottom: 4px; scrollbar-width: thin; }
   .brands button {
     font: inherit; font-size: 13px; white-space: nowrap; cursor: pointer; color: var(--ink-2);
-    background: var(--surface); border: 1px solid var(--ring); border-radius: 999px; padding: 5px 11px; min-height: 32px;
+    background: var(--surface); border: 1px solid var(--ring); border-radius: 999px; padding: 5px 12px; min-height: 36px;
+  }
+  .brands { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent);
+            mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent); padding-right: 40px; }
+  @media (max-width: 640px) {
+    .cats { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent);
+            mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent); padding-right: 32px; }
+    .filters #q { order: -1; flex-basis: 100%; }
+    .filters #views { flex: 1 1 100%; } .filters #views button { flex: 1; justify-content: center; }
   }
   .brands button .n { color: var(--muted); margin-left: 4px; font-variant-numeric: tabular-nums; }
   .brands button[aria-pressed=true] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
@@ -98,29 +111,49 @@
     display: inline-flex; align-items: center; gap: 6px;
   }
   .seg button[aria-pressed=true] { background: var(--hover); color: var(--ink); font-weight: 600; }
-  .chk { display: inline-flex; align-items: center; gap: 6px; color: var(--ink-2); padding: 0 4px; min-height: 40px; cursor: pointer; }
+  .chips { display: inline-flex; gap: 8px; flex-wrap: wrap; }
+  .chk { display: inline-flex; align-items: center; gap: 6px; color: var(--ink-2); cursor: pointer; position: relative;
+    background: var(--surface); border: 1px solid var(--ring); border-radius: 999px; padding: 0 14px; min-height: 40px; white-space: nowrap; }
+  .chk input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+  .chk:has(input:checked) { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+  .chk:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-  .card { background: var(--surface); border: 1px solid var(--ring); border-radius: 14px; overflow: hidden; }
+  .card { background: var(--surface); border: 1px solid var(--ring); border-radius: 14px; overflow: clip; }
+  thead th { position: sticky; top: 0; z-index: 2; background: var(--surface); box-shadow: inset 0 -1px 0 var(--grid); }
   table { width: 100%; border-collapse: collapse; }
   th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid var(--grid); vertical-align: middle; }
   th { font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; cursor: pointer; user-select: none; white-space: nowrap; }
   th.num, td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
   th[aria-sort=ascending]::after { content: " ↑"; } th[aria-sort=descending]::after { content: " ↓"; }
   tbody tr { cursor: pointer; }
+  tbody tr[data-key] td:last-child { position: relative; padding-right: 30px; }
+  tbody tr[data-key] td:last-child::after { content: "›"; position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
+    color: var(--muted); font-size: 18px; }
+  tbody tr[data-key]:hover td:last-child::after { color: var(--ink); }
+  .more-row td { text-align: center; cursor: default; padding: 14px; }
+  .more-row button { font: inherit; font-weight: 600; color: var(--ink); background: var(--surface); border: 1px solid var(--ring);
+    border-radius: 10px; padding: 9px 16px; min-height: 40px; cursor: pointer; }
+  .more-row button:hover { background: var(--hover); }
+  .more-row .n { color: var(--muted); font-weight: 400; margin-left: 6px; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+  tbody tr:focus-visible { outline-offset: -2px; }
+  .tag { display: inline-block; font-size: 11px; font-weight: 600; line-height: 1; color: var(--sale);
+    border: 1px solid currentColor; border-radius: 5px; padding: 2px 4px; margin-left: 4px; vertical-align: 1px; }
+  .tag.used { color: var(--muted); }
   tbody tr:hover { background: var(--hover); }
   tbody tr:last-child td { border-bottom: 0; }
   .name { display: flex; align-items: center; gap: 10px; }
   .name .b { color: var(--muted); font-size: 12px; }
   .old { color: var(--muted); text-decoration: line-through; font-size: 12px; display: block; }
-  .disc { color: var(--down); font-weight: 600; white-space: nowrap; }
-  .low { color: var(--down); }
+  .disc { color: var(--sale); font-weight: 600; white-space: nowrap; }   /* atlaide */
+  .gap { color: var(--ink); font-weight: 700; white-space: nowrap; }     /* starpība starp operatoriem */
+  .low { color: var(--ink-2); }
   .same { color: var(--muted); }
   td.cmp { white-space: nowrap; }
   td.cmp .pp { font-weight: 500; }
-  td.cmp .from { color: var(--muted); font-size: 11px; margin-right: 2px; }
+  td.cmp .from { color: var(--ink-2); font-size: 12px; margin-right: 3px; }
   td.cmp .mm { display: block; color: var(--muted); font-size: 12px; }
-  td.cmp.win .pp { color: var(--down); font-weight: 700; }
-  td.cmp.win .pp::before { content: "✓ "; font-size: 11px; }
+  td.cmp.win .pp { color: var(--down); font-weight: 700; background: var(--win-bg); border-radius: 6px; padding: 2px 6px; margin-right: -6px; }
   td.cmp .none { color: var(--muted); }
   th .dot { margin-right: 5px; vertical-align: 1px; }
   .variants { margin: 6px 0 0; padding: 0; list-style: none; font-size: 12px; color: var(--ink-2); }
@@ -133,7 +166,7 @@
   .skus th { font-size: 12px; color: var(--muted); font-weight: 600; cursor: default; text-transform: none; letter-spacing: 0; }
   .skus td a { color: inherit; text-decoration: none; font-variant-numeric: tabular-nums; }
   .skus td a:hover { text-decoration: underline; }
-  .skus td.win a { color: var(--down); font-weight: 700; }
+  .skus td.win a { color: var(--down); font-weight: 700; background: var(--win-bg); border-radius: 6px; padding: 2px 6px; margin-right: -6px; }
   .skus td.na { color: var(--muted); }
   .skus .vk { font-weight: 600; }
   .skus-wrap { overflow-x: auto; }
@@ -142,6 +175,7 @@
     .skus th, .skus td { padding: 7px 3px; }
     .skus th { font-size: 11px; }
     .skus th .dot { display: none; }
+    .skus td.win a { margin-right: 0; padding: 2px 4px; }
   }
   .dlg-head + .chart-title { margin-top: 14px; }
   .note { color: var(--muted); font-size: 12px; margin: -12px 0 16px; }
@@ -149,11 +183,10 @@
     td.cmp { padding: 9px 5px; font-size: 13px; }
     td.cmp .mm { display: none; }
     td.cmp .from { display: block; margin: 0; }
-    td.cmp.win .pp::before { content: ""; }
     .compare th.num { padding: 9px 5px; font-size: 11px; }
     .compare td:first-child { padding-right: 4px; }
   }
-  .card { overflow-x: auto; }
+
   @media (max-width: 640px) {
     .compare thead { display: none; }
     .compare tbody tr { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px 10px; padding: 12px; border-bottom: 1px solid var(--grid); }
@@ -162,11 +195,15 @@
     .compare td:first-child { grid-column: 1 / -1; padding-bottom: 4px !important; }
     .compare td.cmp { display: flex; align-items: baseline; justify-content: space-between; gap: 6px; font-size: 14px;
       background: var(--hover); border-radius: 8px; padding: 6px 8px !important; }
-    .compare td.cmp::before { content: attr(data-op); font-size: 12px; color: var(--ink-2); display: inline-flex; align-items: center; }
+    .compare td.cmp::before { content: attr(data-op); font-size: 12px; color: var(--ink-2); display: inline-flex; align-items: center;
+      padding-left: 13px; background: radial-gradient(circle 4.5px at 4.5px 50%, var(--opc) 98%, transparent) no-repeat; }
+    .compare td.cmp[data-op="Bite"] { --opc: var(--bite); } .compare td.cmp[data-op="Tele2"] { --opc: var(--tele2); }
+    .compare td.cmp[data-op="LMT"] { --opc: var(--lmt); } .compare td.cmp[data-op="Tet"] { --opc: var(--tet); }
     .compare td.cmp .from { display: inline; margin-left: auto; }
     .compare td.cmp .pp { margin-left: 2px; }
-    .compare td.cmp.win { outline: 1.5px solid var(--down); outline-offset: -1.5px; }
-    .compare td.cmp.win .pp::before { content: ""; }
+    .compare td.cmp.win { background: var(--win-bg); }
+    .compare td.cmp.win .pp { background: none; padding: 0; margin: 0; }
+    .compare tbody tr[data-key] td:last-child::after { content: none; }
     .compare .save { display: inline-block; margin-left: 8px; }
     .compare td.empty { grid-column: 1 / -1; }
   }
@@ -238,8 +275,10 @@
       <button data-op="lmt" aria-pressed="false"><span class="dot lmt"></span>LMT</button>
       <button data-op="tet" aria-pressed="false"><span class="dot tet"></span>Tet</button>
     </div>
-    <label class="chk"><input type="checkbox" id="sale"> Tikai akcijas</label>
-    <label class="chk" id="multiWrap" hidden><input type="checkbox" id="multi" checked> Tikai 2+ operatoros</label>
+    <span class="chips">
+      <label class="chk"><input type="checkbox" id="sale"> Akcijas</label>
+      <label class="chk" id="multiWrap" hidden><input type="checkbox" id="multi" checked> 2+ operatoros</label>
+    </span>
   </div>
   <div class="brands" id="brands" role="group" aria-label="Ražotājs"></div>
 
@@ -249,7 +288,7 @@
       <tbody id="rows"></tbody>
     </table>
   </div>
-  <p class="foot">Dati: bite.lv, tele2.lv, lmt.lv un tet.lv, atjaunojas divreiz dienā. Salīdzinājumā zaļā cena ir lētākā; “no” – operatoram ir vairāki varianti. Uzspied uz ierīces, lai redzētu precīzas variantu cenas un vēsturi.</p>
+  <p class="foot">Dati: bite.lv, tele2.lv, lmt.lv un tet.lv, atjaunojas divreiz dienā. Zaļā cena ir lētākā; “no” – operatoram ir vairāki varianti; <span class="tag" style="margin:0">akcija</span> – cena ar atlaidi. Uzspied uz ierīces, lai redzētu precīzas variantu cenas un vēsturi.</p>
 </div>
 
 <dialog id="dlg"><div class="dlg" id="dlgBody"></div></dialog>
@@ -257,8 +296,12 @@
 <script>
 const OPS = { bite: "Bite", tele2: "Tele2", lmt: "LMT", tet: "Tet" };
 const CATS = { telefoni: "Telefoni", pulksteni: "Viedpulksteņi", austinas: "Austiņas", televizori: "Televizori", puteklsuceji: "Putekļsūcēji", kameras: "Kameras" };
-const eur = v => v == null ? "–" : v.toLocaleString("lv-LV", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " €";
-const eur0 = v => v.toLocaleString("lv-LV", { maximumFractionDigits: 0 }) + " €";
+// 1 459 € (bez ,00), 899,01 € – centi tikai, ja tie nav nulle; tūkstoši atdalīti ar šauru atstarpi
+const fmtNum = (v, dec) => { const [i, f] = Math.abs(v).toFixed(dec).split(".");
+  return (v < 0 ? "−" : "") + i.replace(/\B(?=(\d{3})+(?!\d))/g, "\u202f") + (f ? "," + f : ""); };
+const eur = v => v == null ? "–" : fmtNum(v, Math.round(v * 100) % 100 === 0 ? 0 : 2) + "\u00a0€";
+const eur0 = v => fmtNum(Math.round(v), 0) + "\u00a0€";
+const PAGE = 50;
 const fmtDate = d => d.toLocaleDateString("lv-LV", { day: "2-digit", month: "2-digit", year: "numeric" });
 const fmtDT = d => d.toLocaleString("lv-LV", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" });
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -335,7 +378,7 @@ function parseCSV(text) {
 }
 
 let ITEMS = [], HIST = {}, NOW = new Date(), META = null, VARIANTS = {},
-  state = { view: "compare", cat: "telefoni", q: "", op: "", brand: "", sale: false, multi: true, sort: "diff", dir: -1 };
+  state = { limit: PAGE, view: "compare", cat: "telefoni", q: "", op: "", brand: "", sale: false, multi: true, sort: "diff", dir: -1 };
 const onSale = p => p.disc > 0 || (p.monthly_old && p.monthly_old > p.monthly);
 
 async function load() {
@@ -396,12 +439,12 @@ function renderHeader() {
   const groups = buildGroups(inCat), multi = groups.filter(g => g.nOps > 1);
   const save = multi.reduce((m, g) => g.diff > (m?.diff || 0) ? g : m, null);
   document.getElementById("stats").innerHTML =
-    `<b>${inCat.length}</b> preces · <b>${multi.length}</b> modeļi pieejami vairākos operatoros · <b>${inCat.filter(onSale).length}</b> akcijās` +
-    (save ? ` · lielākā starpība <b>${eur0(save.diff)}</b> (${esc(save.brand)} ${esc(save.model)}${save.diffVk ? " " + esc(save.diffVk) : ""})` : "");
+    (save ? `<button class="hero" data-key="${esc(save.items[0].key)}">Lielākā starpība: <b>${eur0(save.diff)}</b> · ${esc(save.brand)} ${esc(save.model)}${save.diffVk ? " " + esc(save.diffVk) : ""} ›</button>` : "") +
+    `<span><b>${inCat.length}</b> preces · <b>${multi.length}</b> salīdzināmi modeļi · <b>${inCat.filter(onSale).length}</b> akcijās</span>`;
 }
 
 const LIST_COLS = [["name", "Ierīce", ""], ["full", "Cena", "num"], ["monthly", "Mēnesī", "num"],
-  ["disc", "Atlaide", "num hide-sm"], ["min", "Zemākā", "num hide-sm"]];
+  ["disc", "Atlaide", "num hide-sm"], ["min", "Bija lētāk", "num hide-sm"]];
 
 function setHead(cols) {
   document.getElementById("head").innerHTML = "<tr>" + cols.map(([k, label, cls]) =>
@@ -432,7 +475,10 @@ function renderBrands() {
     list.map(([b, c]) => `<button data-brand="${esc(b)}" aria-pressed="${state.brand === b}">${esc(b)}<span class="n">${c}</span></button>`).join("");
 }
 
+let lastSig = "";
 function render() {
+  const sig = JSON.stringify([state.view, state.cat, state.q, state.op, state.brand, state.sale, state.multi, state.sort, state.dir]);
+  if (sig !== lastSig) { state.limit = PAGE; lastSig = sig; }
   renderHeader();
   renderBrands();
   document.querySelectorAll("#views button").forEach(b => b.setAttribute("aria-pressed", b.dataset.view === state.view));
@@ -442,24 +488,32 @@ function render() {
   state.view === "compare" ? renderCompare() : renderList();
 }
 
+function moreRow(total, cols) {
+  const left = total - state.limit;
+  return left > 0 ? `<tr class="more-row"><td colspan="${cols}"><button data-more>Rādīt vēl ${Math.min(PAGE, left)}<span class="n">(kopā ${total})</span></button></td></tr>` : "";
+}
+const isUsed = p => OPENED.test(p.model || "");
+
 function renderList() {
   if (!LIST_COLS.some(c => c[0] === state.sort)) { state.sort = "name"; state.dir = 1; }
   let list = ITEMS.filter(p => baseFilter(p) && (!state.op || p.operator === state.op) && (!state.sale || onSale(p)));
   const k = state.sort, d = state.dir;
-  list.sort((a, b) => k === "name"
+  list.sort((a, b) => (isUsed(a) - isUsed(b)) || (k === "name"
     ? a.name.localeCompare(b.name, "lv") * d || a.operator.localeCompare(b.operator)
-    : ((a[k] ?? -Infinity) - (b[k] ?? -Infinity)) * d);
+    : ((a[k] ?? -Infinity) - (b[k] ?? -Infinity)) * d));
   setHead(LIST_COLS);
+  const total = list.length;
+  list = list.slice(0, state.limit);
 
   document.getElementById("rows").innerHTML = list.length ? list.map(p => `
     <tr data-key="${esc(p.key)}" tabindex="0">
       <td><div class="name"><span class="dot ${p.operator}" title="${OPS[p.operator]}"></span>
-        <div><div class="b">${esc(p.brand)} · ${OPS[p.operator]}${state.cat ? "" : " · " + CATS[p.category]}</div>${esc(p.model)}</div></div></td>
+        <div><div class="b">${esc(p.brand)} · ${OPS[p.operator]}${state.cat ? "" : " · " + CATS[p.category]}</div>${esc(p.model)}${isUsed(p) ? '<span class="tag used">lietots</span>' : ""}</div></div></td>
       <td class="num">${eur(p.full)}${p.full_old ? `<span class="old">${eur(p.full_old)}</span>` : ""}</td>
       <td class="num">${eur(p.monthly)}${p.monthly_old ? `<span class="old">${eur(p.monthly_old)}</span>` : ""}</td>
       <td class="num hide-sm">${p.disc > 0 ? `<span class="disc">−${eur0(p.disc)}</span>` : ""}</td>
-      <td class="num hide-sm">${p.min == null ? "" : `<span class="${p.min < p.full ? "low" : "same"}" title="${p.min < p.full ? "Agrāk bija lētāk" : "Šī ir zemākā cena"}">${eur(p.min)}</span>`}</td>
-    </tr>`).join("") : `<tr><td colspan="5" class="empty">Nekas netika atrasts.</td></tr>`;
+      <td class="num hide-sm">${p.min != null && p.min < p.full ? `<span class="low" title="Agrāk bija lētāk">${eur(p.min)}</span>` : ""}</td>
+    </tr>`).join("") + moreRow(total, 5) : `<tr><td colspan="5" class="empty">Nekas netika atrasts.</td></tr>`;
 }
 
 /* ---------- Salīdzinājums: viena rinda katram modelim, kolonna katram operatoram ---------- */
@@ -512,22 +566,24 @@ function renderCompare() {
   groups.sort((a, b) => k === "name" ? a.name.localeCompare(b.name, "lv") * d
     : ((a[k] ?? (d > 0 ? Infinity : -Infinity)) - (b[k] ?? (d > 0 ? Infinity : -Infinity))) * d || a.name.localeCompare(b.name, "lv"));
   setHead(cols);
+  const total = groups.length;
+  groups = groups.slice(0, state.limit);
 
   const cell = (g, op) => {
     const list = g.byOp[op];
     if (!list) return `<td class="num cmp" data-op="${OPS[op]}"><span class="none">–</span></td>`;
-    const p = list[0], win = g.nOps > 1 && p.full === g.min;
+    const p = list[0], win = g.nOps > 1 && p.full === g.min && Object.values(g.best).some(x => x.full > g.min);
     return `<td class="num cmp${win ? " win" : ""}" data-op="${OPS[op]}" title="${esc(list.map(x => `${x.model}: ${eur(x.full)}`).join("\n"))}">
       ${list.length > 1 ? '<span class="from">no</span>' : ""}<span class="pp">${eur(p.full)}</span>
-      <span class="mm">${p.monthly != null ? eur(p.monthly) + "/mēn." : ""}${onSale(p) ? ' <span class="disc">akcija</span>' : ""}</span></td>`;
+      <span class="mm">${p.monthly != null ? eur(p.monthly) + "/mēn." : ""}${onSale(p) ? '<span class="tag">akcija</span>' : ""}</span></td>`;
   };
 
   document.getElementById("rows").innerHTML = groups.length ? groups.map(g => `
     <tr data-key="${esc(g.items[0].key)}" tabindex="0">
-      <td><div class="name"><div><div class="b">${esc(g.brand)}${state.cat ? "" : " · " + CATS[g.category]}</div>${esc(g.model)}${g.diff ? `<span class="save disc">−${eur0(g.diff)}</span>` : ""}</div></div></td>
+      <td><div class="name"><div><div class="b">${esc(g.brand)}${state.cat ? "" : " · " + CATS[g.category]}</div>${esc(g.model)}${g.diff ? `<span class="save gap">līdz ${eur0(g.diff)} starpība</span>` : ""}</div></div></td>
       ${ops.map(op => cell(g, op)).join("")}
-      <td class="num hide-sm">${g.diff ? `<span class="disc">${eur0(g.diff)}</span>${g.diffVk ? `<span class="mm" style="display:block;color:var(--muted);font-size:12px">${esc(g.diffVk)}</span>` : ""}` : ""}</td>
-    </tr>`).join("") : `<tr><td colspan="${cols.length}" class="empty">Nekas netika atrasts.</td></tr>`;
+      <td class="num hide-sm">${g.diff ? `<span class="gap">${eur0(g.diff)}</span>${g.diffVk ? `<span class="mm" style="display:block;color:var(--muted);font-size:12px">${esc(g.diffVk)}</span>` : ""}` : ""}</td>
+    </tr>`).join("") + moreRow(total, cols.length) : `<tr><td colspan="${cols.length}" class="empty">Nekas netika atrasts.</td></tr>`;
 }
 
 /* ---------- Detaļas ---------- */
@@ -575,9 +631,9 @@ function skuTable(g, ops) {
       const rs = rows.filter(r => r.op === op && r.vk === k).sort((a, b) => a.full - b.full);
       return rs[0] || null;
     });
-    const prices = cells.filter(Boolean).map(c => c.full), min = Math.min(...prices);
+    const prices = cells.filter(Boolean).map(c => c.full), min = Math.min(...prices), tie = min === Math.max(...prices);
     return `<tr><td class="vk">${esc(k || "Nav norādīts")}</td>${cells.map(c => !c ? '<td class="na">–</td>'
-      : `<td class="${prices.length > 1 && c.full === min ? "win" : ""}"><a href="${esc(c.url)}" target="_blank" rel="noopener" title="${esc(c.label)}">${eur(c.full)}</a></td>`).join("")}</tr>`;
+      : `<td class="${prices.length > 1 && !tie && c.full === min ? "win" : ""}"><a href="${esc(c.url)}" target="_blank" rel="noopener" title="${esc(c.label)}">${eur(c.full)}</a></td>`).join("")}</tr>`;
   }).join("");
   return `<p class="chart-title">Precīzs salīdzinājums pa variantiem</p>
     <div class="skus-wrap"><table class="skus"><thead><tr><th>Variants</th>${ops.map(op => `<th><span class="dot ${op}"></span>${OPS[op]}</th>`).join("")}</tr></thead>
@@ -608,6 +664,8 @@ function openDetail(key) {
   });
 
   const sku = skuTable(g, ops);
+  const allPts = series.flatMap(s => s.pts), histStart = Math.min(...allPts.map(p => +p.t));
+  const showChart = series.some(s => s.pts.length > 1);
   document.getElementById("dlgBody").innerHTML = `
     <div class="dlg-head">
       <div><div style="color:var(--muted);font-size:13px">${esc(g.brand)}</div><h2>${esc(g.model)}</h2></div>
@@ -618,17 +676,17 @@ function openDetail(key) {
       const list = g.byOp[op], x = list[0];
       return `
       <div class="offer">
-        <div class="op"><span class="dot ${op}"></span>${OPS[op]}${g.nOps > 1 && x.full === g.min ? '<span class="best">LĒTĀKAIS</span>' : ""}</div>
+        <div class="op"><span class="dot ${op}"></span>${OPS[op]}${g.nOps > 1 && x.full === g.min && Object.values(g.best).some(y => y.full > g.min) ? '<span class="best">LĒTĀKAIS</span>' : ""}</div>
         <div class="p">${list.length > 1 ? '<span style="font-size:13px;font-weight:400;color:var(--muted)">no </span>' : ""}${eur(x.full)}</div>
         <div class="m">${eur(x.monthly)} / mēn.${x.full_old ? ` · bija ${eur(x.full_old)}` : ""}</div>
-        <div class="m">Zemākā vēsturē: ${eur(Math.min(...list.map(v => v.min ?? Infinity)))}</div>
+        ${(() => { const lo = Math.min(...list.map(v => v.min ?? Infinity)); return lo < x.full ? `<div class="m">Bija lētāk: ${eur(lo)}</div>` : ""; })()}
         ${list.length > 1 && !sku ? `<ul class="variants">${list.slice(0, 6).map(v => `<li><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.model)}</a><b>${eur(v.full)}</b></li>`).join("")}${list.length > 6 ? `<li class="more">… un vēl ${list.length - 6} varianti (krāsas, atmiņa)</li>` : ""}</ul>`
           : (x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">Atvērt veikalā ↗</a>` : "")}
       </div>`; }).join("")}
     </div>
     <p class="chart-title">Pilnā cena laika gaitā${g.items.length > ops.length ? " (lētākais variants)" : ""}</p>
-    ${series.length > 1 ? `<div class="legend">${series.map(s => `<span><span class="dot ${s.op}"></span>${esc(s.label)}</span>`).join("")}</div>` : ""}
-    <div class="chart" id="chart"></div>
+    ${showChart ? `${series.length > 1 ? `<div class="legend">${series.map(s => `<span><span class="dot ${s.op}"></span>${esc(s.label)}</span>`).join("")}</div>` : ""}
+    <div class="chart" id="chart"></div>` : `<p class="note" style="margin:0 0 14px">Cena nav mainījusies kopš ${esc(fmtDate(new Date(histStart)))}. Grafiks parādīsies, kad būs izmaiņas.</p>`}
     <details><summary>Cenu izmaiņas tabulā</summary>
       <table><thead><tr><th>Datums</th><th>Operators</th><th>Variants</th><th class="num">Cena</th></tr></thead><tbody>
       ${g.items.flatMap(x => (HIST[x.key] || []).map(e => ({ ...e, op: x.operator, model: x.model })))
@@ -638,7 +696,7 @@ function openDetail(key) {
       </tbody></table>
     </details>`;
   dlg.showModal();
-  drawChart(document.getElementById("chart"), series);
+  if (showChart) drawChart(document.getElementById("chart"), series);
 }
 
 /* ---------- Grafiks: pakāpju līnija (cena ir spēkā līdz nākamajai izmaiņai) ---------- */
@@ -752,7 +810,11 @@ document.getElementById("brands").addEventListener("click", e => {
 });
 document.getElementById("multi").addEventListener("change", e => { state.multi = e.target.checked; render(); });
 const rows = document.getElementById("rows");
-rows.addEventListener("click", e => { const tr = e.target.closest("tr[data-key]"); if (tr) openDetail(tr.dataset.key); });
+rows.addEventListener("click", e => {
+  if (e.target.closest("[data-more]")) { state.limit += PAGE; render(); return; }
+  const tr = e.target.closest("tr[data-key]"); if (tr) openDetail(tr.dataset.key);
+});
+document.getElementById("stats").addEventListener("click", e => { const b = e.target.closest(".hero"); if (b) openDetail(b.dataset.key); });
 rows.addEventListener("keydown", e => { if (e.key === "Enter") { const tr = e.target.closest("tr[data-key]"); if (tr) openDetail(tr.dataset.key); } });
 
 load().catch(err => { document.getElementById("sub").textContent = "Neizdevās ielādēt datus: " + err.message; });
