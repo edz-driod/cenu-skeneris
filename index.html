@@ -330,6 +330,7 @@
   .panel .card-head { flex-direction: column; align-items: flex-start; gap: 6px; }
   .panel .ttl h2 { font-size: 36px; }
   .psub { margin: 0; font-size: 14px; color: var(--ink-2); max-width: 720px; }
+  .psub b { color: var(--ink); }
   .tblwrap { overflow-x: auto; }
   .tbl tbody th { text-align: left; padding: 14px 12px 14px 28px; font-weight: 600; border-bottom: 1px solid var(--line-2); white-space: nowrap; }
   .tbl.mx td.op .p { font-size: 18px; font-weight: 600; }
@@ -1275,6 +1276,31 @@ function renderAnalysis() {
     }).join("") + `</tbody></table>`;
 
   // 2. pa kategorijām (tikai, ja skatās visu)
+  // cenu segmenti: katras kategorijas modeļi sadalīti 4 vienādās daļās pēc lētākās cenas
+  const SEG = ["Budžets", "Vidējais", "Augstākais vidējais", "Premium"];
+  const niceCut = v => { const st = v < 100 ? 10 : v < 1000 ? 50 : 100; return Math.round(v / st) * st; };
+  const cuts = {};
+  for (const c of new Set(units.map(u => u.cat))) {
+    const v = units.filter(u => u.cat === c).map(u => u.min).sort((a, b) => a - b);
+    const q = f => v[Math.min(v.length - 1, Math.floor(v.length * f))];
+    cuts[c] = [niceCut(q(0.25)), niceCut(q(0.5)), niceCut(q(0.75))];
+  }
+  const segOf = u => { const k = cuts[u.cat]; return u.min < k[0] ? 0 : u.min < k[1] ? 1 : u.min < k[2] ? 2 : 3; };
+  const segRows = SEG.map((name, i) => {
+    let label = name;
+    if (scope && cuts[scope]) { const k = cuts[scope];
+      label += i === 0 ? ` (līdz ${eur0(k[0])})` : i === 3 ? ` (no ${eur0(k[2])})` : ` (${fmtNum(k[i - 1], 0)}–${eur0(k[i])})`; }
+    return { label, units: units.filter(u => segOf(u) === i) };
+  }).filter(r => r.units.length);
+  const topOp = us => { const cands = ops.map(op => [op, opStats(us, op)]).filter(([, st]) => st.n >= 2);
+    return cands.length > 1 ? cands.sort((a, b) => b[1].share - a[1].share || a[1].prem - b[1].prem).map(c => c[0]) : null; };
+  const segTops = segRows.map(r => [r.label.split(" (")[0], topOp(r.units)]).filter(([, t]) => t);
+  const bySeg = segRows.length > 1 ? panel("Pa cenu segmentiem",
+    (segTops.length ? segTops.map(([n, t]) => `${n}: <b>${OPS[t[0]]}</b>, otrais ${OPS[t[1]]}`).join(" · ") + ". " : "") +
+    (scope ? "Modeļi sadalīti četrās vienādās daļās pēc lētākās cenas." : "Katras kategorijas modeļi sadalīti četrās vienādās daļās pēc lētākās cenas (piem., budžeta telefons un budžeta televizors ir katrs savas kategorijas lētākā ceturtdaļa).") +
+    " Dzeltenā šūna – stiprākais segmentā.",
+    matrix(segRows, ops, "Segments")) : "";
+
   const byCat = scope ? "" : panel("Pa kategorijām", "Cik bieži operators ir lētākais katrā kategorijā. Dzeltenā šūna – labākais kategorijā.",
     matrix(cats.map(c => ({ label: CATS[c], units: units.filter(u => u.cat === c) })).filter(r => r.units.length), ops, "Kategorija"));
 
@@ -1336,6 +1362,7 @@ function renderAnalysis() {
           `<button type="button" class="chip" data-acat="${c}" aria-pressed="${scope === c}">${CATS[c]}</button>`).join("")}</div></div>
     </section>
     ${units.length ? panel("Kopvērtējums", "“Lētākais” – cik daļā no salīdzināmajiem modeļiem operatora cena ir zemākā (arī dalīta). “Vidēji dārgāks” – cik procentos vidēji jāpiemaksā salīdzinājumā ar lētāko veikalu.", score, "score-wrap") : ""}
+    ${units.length ? bySeg : ""}
     ${units.length ? byCat : ""}
     ${units.length ? byBrand : ""}
     ${duel ? panel("Divi pret divi", "Tikai modeļi, kas ir abos veikalos. Joslas krāsa – kurš lētāks.", `<div class="duels">${duel}</div>`) : ""}
