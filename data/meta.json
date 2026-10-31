@@ -1,54 +1,54 @@
 {
- "scanned_at": "2026-10-30T21:12:29+00:00",
+ "scanned_at": "2026-10-31T18:57:51+00:00",
  "updated": {
-  "lmt/telefoni": "2026-10-30T21:12:29+00:00",
-  "lmt/pulksteni": "2026-10-30T21:12:29+00:00",
-  "lmt/austinas": "2026-10-30T21:12:29+00:00",
-  "bite/telefoni": "2026-10-30T21:12:29+00:00",
-  "bite/pulksteni": "2026-10-30T21:12:29+00:00",
-  "bite/austinas": "2026-10-30T21:12:29+00:00",
-  "tele2/pulksteni": "2026-10-30T21:12:29+00:00",
-  "tele2/austinas": "2026-10-30T21:12:29+00:00",
-  "tele2/telefoni": "2026-10-30T21:12:29+00:00",
-  "tet/austinas": "2026-10-30T21:12:29+00:00",
-  "tet/telefoni": "2026-10-30T21:12:29+00:00",
-  "tet/pulksteni": "2026-10-30T21:12:29+00:00",
+  "lmt/telefoni": "2026-10-31T18:57:51+00:00",
+  "lmt/pulksteni": "2026-10-31T18:57:51+00:00",
+  "lmt/austinas": "2026-10-31T18:57:51+00:00",
+  "bite/telefoni": "2026-10-31T18:57:51+00:00",
+  "bite/pulksteni": "2026-10-31T18:57:51+00:00",
+  "bite/austinas": "2026-10-31T18:57:51+00:00",
+  "tele2/pulksteni": "2026-10-31T18:57:51+00:00",
+  "tele2/austinas": "2026-10-31T18:57:51+00:00",
+  "tele2/telefoni": "2026-10-31T18:57:51+00:00",
+  "tet/austinas": "2026-10-31T18:57:51+00:00",
+  "tet/telefoni": "2026-10-31T18:57:51+00:00",
+  "tet/pulksteni": "2026-10-31T18:57:51+00:00",
   "tet/puteklsuceji": "2026-10-30T21:12:29+00:00",
-  "tele2/kameras": "2026-10-30T21:12:29+00:00",
-  "tet/kameras": "2026-10-30T21:12:29+00:00",
-  "lmt/televizori": "2026-10-30T21:12:29+00:00",
-  "bite/televizori": "2026-10-30T21:12:29+00:00",
-  "lmt/puteklsuceji": "2026-10-30T21:12:29+00:00",
-  "bite/puteklsuceji": "2026-10-30T21:12:29+00:00",
-  "lmt/kameras": "2026-10-30T21:12:29+00:00",
-  "tele2/televizori": "2026-10-30T21:12:29+00:00",
-  "bite/kameras": "2026-10-30T21:12:29+00:00",
-  "tele2/puteklsuceji": "2026-10-30T21:12:29+00:00",
-  "tet/televizori": "2026-10-30T21:12:29+00:00",
-  "tele2/plansetes": "2026-10-30T21:12:29+00:00",
-  "tet/plansetes": "2026-10-30T21:12:29+00:00",
-  "bite/plansetes": "2026-10-30T21:12:29+00:00",
-  "lmt/plansetes": "2026-10-30T21:12:29+00:00"
+  "tele2/kameras": "2026-10-31T18:57:51+00:00",
+  "tet/kameras": "2026-10-31T18:57:51+00:00",
+  "lmt/televizori": "2026-10-31T18:57:51+00:00",
+  "bite/televizori": "2026-10-31T18:57:51+00:00",
+  "lmt/puteklsuceji": "2026-10-31T18:57:51+00:00",
+  "bite/puteklsuceji": "2026-10-31T18:57:51+00:00",
+  "lmt/kameras": "2026-10-31T18:57:51+00:00",
+  "tele2/televizori": "2026-10-31T18:57:51+00:00",
+  "bite/kameras": "2026-10-31T18:57:51+00:00",
+  "tele2/puteklsuceji": "2026-10-31T18:57:51+00:00",
+  "tet/televizori": "2026-10-31T18:57:51+00:00",
+  "tele2/plansetes": "2026-10-31T18:57:51+00:00",
+  "tet/plansetes": "2026-10-31T18:57:51+00:00",
+  "bite/plansetes": "2026-10-31T18:57:51+00:00",
+  "lmt/plansetes": "2026-10-31T18:57:51+00:00"
  },
  "counts": {
   "bite/telefoni": 71,
   "tele2/telefoni": 82,
   "tele2/pulksteni": 43,
-  "tele2/austinas": 77,
+  "tele2/austinas": 78,
   "bite/pulksteni": 62,
   "bite/austinas": 122,
-  "lmt/telefoni": 70,
+  "lmt/telefoni": 69,
   "lmt/pulksteni": 70,
-  "lmt/austinas": 70,
-  "tet/telefoni": 329,
+  "lmt/austinas": 68,
+  "tet/telefoni": 327,
   "tet/pulksteni": 300,
-  "tet/austinas": 443,
-  "bite/televizori": 106,
-  "tele2/televizori": 101,
+  "tet/austinas": 448,
+  "bite/televizori": 104,
+  "tele2/televizori": 102,
   "lmt/televizori": 33,
-  "tet/televizori": 255,
+  "tet/televizori": 254,
   "bite/plansetes": 35,
-  "tele2/plansetes": 42,
+  "tele2/plansetes": 43,
   "lmt/plansetes": 39,
   "tet/plansetes": 223,
   "bite/puteklsuceji": 45,
@@ -58,8 +58,156 @@
   "bite/kameras": 24,
   "tele2/kameras": 15,
   "lmt/kameras": 13,
-  "tet/kameras": 50
+  "tet/kameras": 51
  },
- "errors": [],
- "variant_errors": []
+ "errors": [
+  "tet/puteklsuceji: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+ ],
+ "variant_errors": [],
+ "gone": {
+  "lmt:ca1ee642-fc1b-4df3-8e32-a5bd29362f2f": {
+   "removed_at": "2026-10-31T18:57:51+00:00",
+   "operator": "lmt",
+   "category": "telefoni",
+   "brand": "Nothing",
+   "model": "Phone (3a) Pro",
+   "full": 267.33
+  },
+  "lmt:a235b1e6-b106-422f-aae3-9baff5a7471e": {
+   "removed_at": "2026-10-31T18:57:51+00:00",
+   "operator": "lmt",
+   "category": "telefoni",
+   "brand": "Apple",
+   "model": "iPhone 16 Plus",
+   "full": 783.24
+  },
+  "lmt:7b7084d8-c697-4383-84d5-b47d211b6d60": {
+   "removed_at": "2026-10-31T18:57:51+00:00",
+   "operator": "lmt",
+   "category": "telefoni",
+   "brand": "Xiaomi",
+   "model": "14T",
+   "full": 267.33
+  },
+  "lmt:6c4daf72-8e6c-476a-a97b-0f0af2be084c": {
+   "removed_at": "2026-10-31T18:57:51+00:00",
+   "operator": "lmt",
+   "category": "telefoni",
+   "brand": "Samsung",
+   "model": "Galaxy S25+",
+   "full": 465.65
+  },
+  "lmt:e8de7535-598f-4178-8b37-f20acf32c69c": {
+   "removed_at": "2026-10-31T18:57:51+00:00",
+   "operator": "lmt",
+   "category": "austinas",
+   "brand": "Razer",
+   "model": "Kraken V4 X",
+   "full": 68.99
+  },
+  "lmt:b7a349b0-cc39-4b7a-8570-92b70c53135b": {
+   "removed_at": "2026-10-31T18:57:51+00:00",
+   "operator": "lmt",
+   "category": "austinas",
+   "brand": "Razer",
+   "model": "Kraken V4 Pro",
+   "full": 409.0
+  },
+  "tet:98407": {
+   "removed_at": "2026-10-31T18:57:51+00:00",
+   "operator": "tet",
+   "category": "telefoni",
+   "brand": "Xiaomi",
+   "model": "17 Ultra 16+512GB Black",
+   "full": 1249.0
+  },
+  "tet:97736": {
+   "removed_at": "2026-10-31T18:57:51+00:00",
+   "operator": "tet",
+   "category": "telefoni",
+   "brand": "eSTAR",
+   "model": "Stone 4G Black",
+   "full": 63.0
+  },
+  "tet:101331": {
+   "removed_at": "2026-10-31T18:57:51+00:00",
+   "operator": "tet",
+   "category": "pulksteni",
+   "brand": "Apple",
+   "model": "Watch SE 3 GPS + Cellular 44mm Starlight Aluminium Case with Sand Sport Band - S/M",
+   "full": 359.0
+  },
+  "tet:81145": {
+   "removed_at": "2026-10-31T18:57:51+00:00",
+   "operator": "tet",
+   "category": "austinas",
+   "brand": "Beats",
+   "model": "Powerbeats Pro 2 - High-Performance Earbuds -Hyper Purple",
+   "full": 299.0
+  },
+  "tet:76973": {
+   "removed_at": "2026-10-31T18:57:51+00:00",
+   "operator": "tet",
+   "category": "austinas",
+   "brand": "Soundcore",
+   "model": "Q20i Black",
+   "full": 44.25
+  },
+  "tet:18438": {
+   "removed_at": "2026-10-31T18:57:51+00:00",
+   "operator": "tet",
+   "category": "austinas",
+   "brand": "Audio-Technica",
+   "model": "ATH S200BTBK Black",
+   "full": 81.0
+  },
+  "tet:70275": {
+   "removed_at": "2026-10-31T18:57:51+00:00",
+   "operator": "tet",
+   "category": "austinas",
+   "brand": "Yamaha",
+   "model": "TW-E7B White",
+   "full": 269.0
+  },
+  "bite:23087": {
+   "removed_at": "2026-10-31T18:57:51+00:00",
+   "operator": "bite",
+   "category": "televizori",
+   "brand": "Samsung",
+   "model": "85\" 4K Neo QLED Vision AI Smart TV (2026) QE85QN70HAUXXH",
+   "full": 1299.0
+  },
+  "bite:22141": {
+   "removed_at": "2026-10-31T18:57:51+00:00",
+   "operator": "bite",
+   "category": "televizori",
+   "brand": "TCL",
+   "model": "55\" 4K QLED Smart TV 55T69C",
+   "full": 356.4
+  },
+  "lmt:eae57a3a-2bc9-4856-8aa8-15db82522e16": {
+   "removed_at": "2026-10-31T18:57:51+00:00",
+   "operator": "lmt",
+   "category": "televizori",
+   "brand": "Xiaomi",
+   "model": "TV A Pro (2025)",
+   "full": 129.0
+  },
+  "tet:84746": {
+   "removed_at": "2026-10-31T18:57:51+00:00",
+   "operator": "tet",
+   "category": "televizori",
+   "brand": "Samsung",
+   "model": "55\" UHD OLED Vision AI Smart TV (2025) QE55S85FAUXXH",
+   "full": 739.0
+  },
+  "tet:84757": {
+   "removed_at": "2026-10-31T18:57:51+00:00",
+   "operator": "tet",
+   "category": "televizori",
+   "brand": "Samsung",
+   "model": "85\" Class Neo QLED 4K QN80F Vision AI Smart TV (2025) QE85QN80FAUXXH",
+   "full": 1599.0
+  }
+ }
 }
