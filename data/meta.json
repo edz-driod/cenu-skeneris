@@ -1,5 +1,5 @@
 {
- "scanned_at": "2026-10-31T18:57:51+00:00",
+ "scanned_at": "2026-10-31T19:36:24+00:00",
  "updated": {
   "lmt/telefoni": "2026-10-31T18:57:51+00:00",
   "lmt/pulksteni": "2026-10-31T18:57:51+00:00",
@@ -10,12 +10,12 @@
   "tele2/pulksteni": "2026-10-31T18:57:51+00:00",
   "tele2/austinas": "2026-10-31T18:57:51+00:00",
   "tele2/telefoni": "2026-10-31T18:57:51+00:00",
-  "tet/austinas": "2026-10-31T18:57:51+00:00",
-  "tet/telefoni": "2026-10-31T18:57:51+00:00",
-  "tet/pulksteni": "2026-10-31T18:57:51+00:00",
-  "tet/puteklsuceji": "2026-10-30T21:12:29+00:00",
+  "tet/austinas": "2026-10-31T19:36:24+00:00",
+  "tet/telefoni": "2026-10-31T19:36:24+00:00",
+  "tet/pulksteni": "2026-10-31T19:36:24+00:00",
+  "tet/puteklsuceji": "2026-10-31T19:36:24+00:00",
   "tele2/kameras": "2026-10-31T18:57:51+00:00",
-  "tet/kameras": "2026-10-31T18:57:51+00:00",
+  "tet/kameras": "2026-10-31T19:36:24+00:00",
   "lmt/televizori": "2026-10-31T18:57:51+00:00",
   "bite/televizori": "2026-10-31T18:57:51+00:00",
   "lmt/puteklsuceji": "2026-10-31T18:57:51+00:00",
@@ -24,9 +24,9 @@
   "tele2/televizori": "2026-10-31T18:57:51+00:00",
   "bite/kameras": "2026-10-31T18:57:51+00:00",
   "tele2/puteklsuceji": "2026-10-31T18:57:51+00:00",
-  "tet/televizori": "2026-10-31T18:57:51+00:00",
+  "tet/televizori": "2026-10-31T19:36:24+00:00",
   "tele2/plansetes": "2026-10-31T18:57:51+00:00",
-  "tet/plansetes": "2026-10-31T18:57:51+00:00",
+  "tet/plansetes": "2026-10-31T19:36:24+00:00",
   "bite/plansetes": "2026-10-31T18:57:51+00:00",
   "lmt/plansetes": "2026-10-31T18:57:51+00:00"
  },
@@ -40,9 +40,9 @@
   "lmt/telefoni": 69,
   "lmt/pulksteni": 70,
   "lmt/austinas": 68,
-  "tet/telefoni": 327,
+  "tet/telefoni": 328,
   "tet/pulksteni": 300,
-  "tet/austinas": 448,
+  "tet/austinas": 449,
   "bite/televizori": 104,
   "tele2/televizori": 102,
   "lmt/televizori": 33,
@@ -50,19 +50,17 @@
   "bite/plansetes": 35,
   "tele2/plansetes": 43,
   "lmt/plansetes": 39,
-  "tet/plansetes": 223,
+  "tet/plansetes": 222,
   "bite/puteklsuceji": 45,
   "tele2/puteklsuceji": 18,
   "lmt/puteklsuceji": 28,
-  "tet/puteklsuceji": 358,
+  "tet/puteklsuceji": 361,
   "bite/kameras": 24,
   "tele2/kameras": 15,
   "lmt/kameras": 13,
   "tet/kameras": 51
  },
- "errors": [
-  "tet/puteklsuceji: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
- ],
+ "errors": [],
  "variant_errors": [],
  "gone": {
   "lmt:ca1ee642-fc1b-4df3-8e32-a5bd29362f2f": {
@@ -121,14 +119,6 @@
    "model": "17 Ultra 16+512GB Black",
    "full": 1249.0
   },
-  "tet:97736": {
-   "removed_at": "2026-10-31T18:57:51+00:00",
-   "operator": "tet",
-   "category": "telefoni",
-   "brand": "eSTAR",
-   "model": "Stone 4G Black",
-   "full": 63.0
-  },
   "tet:101331": {
    "removed_at": "2026-10-31T18:57:51+00:00",
    "operator": "tet",
@@ -136,22 +126,6 @@
    "brand": "Apple",
    "model": "Watch SE 3 GPS + Cellular 44mm Starlight Aluminium Case with Sand Sport Band - S/M",
    "full": 359.0
-  },
-  "tet:81145": {
-   "removed_at": "2026-10-31T18:57:51+00:00",
-   "operator": "tet",
-   "category": "austinas",
-   "brand": "Beats",
-   "model": "Powerbeats Pro 2 - High-Performance Earbuds -Hyper Purple",
-   "full": 299.0
-  },
-  "tet:76973": {
-   "removed_at": "2026-10-31T18:57:51+00:00",
-   "operator": "tet",
-   "category": "austinas",
-   "brand": "Soundcore",
-   "model": "Q20i Black",
-   "full": 44.25
   },
   "tet:18438": {
    "removed_at": "2026-10-31T18:57:51+00:00",
@@ -208,6 +182,38 @@
    "brand": "Samsung",
    "model": "85\" Class Neo QLED 4K QN80F Vision AI Smart TV (2025) QE85QN80FAUXXH",
    "full": 1599.0
+  },
+  "tet:7040": {
+   "removed_at": "2026-10-31T19:36:24+00:00",
+   "operator": "tet",
+   "category": "austinas",
+   "brand": "Gembird",
+   "model": "GHS-402 Black",
+   "full": 8.25
+  },
+  "tet:98563": {
+   "removed_at": "2026-10-31T19:36:24+00:00",
+   "operator": "tet",
+   "category": "plansetes",
+   "brand": "Apple",
+   "model": "iPad Air 11\" M4 Wi-Fi 1TB - Space Grey",
+   "full": 1609.0
+  },
+  "tet:34069": {
+   "removed_at": "2026-10-31T19:36:24+00:00",
+   "operator": "tet",
+   "category": "puteklsuceji",
+   "brand": "Bosch",
+   "model": "Unlimited BBS611BSC",
+   "full": 159.0
+  },
+  "tet:99718": {
+   "removed_at": "2026-10-31T19:36:24+00:00",
+   "operator": "tet",
+   "category": "puteklsuceji",
+   "brand": "Dreame",
+   "model": "D20 Pro Plus White RLD43SD-WH [Mazlietots]",
+   "full": 219.0
   }
  }
 }
