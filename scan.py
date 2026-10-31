@@ -327,6 +327,19 @@ def parse_tet(html):
     return out
 
 
+def session():
+    """HTTP sesija ar atkārtojumiem: veikalu serveri reizēm pārtrauc savienojumu vai atbild 5xx."""
+    from requests.adapters import HTTPAdapter
+    from urllib3.util.retry import Retry
+    s = requests.Session()
+    s.headers.update(HEADERS)
+    retry = Retry(total=4, connect=4, read=4, backoff_factor=2, status_forcelist=(429, 500, 502, 503, 504),
+                  allowed_methods=None, raise_on_status=False)
+    s.mount("https://", HTTPAdapter(max_retries=retry))
+    s.mount("http://", HTTPAdapter(max_retries=retry))
+    return s
+
+
 def scan_tet(client, path):
     """path – kategorija, piem. "/veikals/telefoni/telefoni-un-aksesuari/viedtalruni.html"."""
     products = {}
@@ -613,8 +626,7 @@ def main():
     only = {x.strip() for x in os.getenv("OPERATORI", "").split(",") if x.strip()}
 
     new, errors, scanned, failed = {}, [], set(), set()
-    with requests.Session() as client:
-        client.headers.update(HEADERS)
+    with session() as client:
         for op, cat, fn in SOURCES:
             if only and op not in only:
                 failed.add((op, cat))  # nepieraksta vēsturi un neziņo "vairs nav"
@@ -668,8 +680,7 @@ def main():
         old_var = json.loads(VARIANTS.read_text("utf-8")) if VARIANTS.exists() else {}
         todo = {k: p for k, p in new.items() if (p["operator"], p["category"]) in scanned}
         keep = {k: v for k, v in old_var.items() if k in new and k not in todo}
-        with requests.Session() as client:
-            client.headers.update(HEADERS)
+        with session() as client:
             fresh = scan_variants(client, todo, old_var, now)
         VARIANTS.write_text(json.dumps({**keep, **fresh}, ensure_ascii=False, indent=0), "utf-8")
     old_meta = json.loads(META.read_text("utf-8")) if META.exists() else {}
