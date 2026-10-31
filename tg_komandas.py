@@ -12,6 +12,7 @@ Izmanto tikai standarta bibliotēku, lai darbs būtu ātrs (bez pip install).
 """
 import json
 import os
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
@@ -85,7 +86,12 @@ COMMANDS = {"skenet": cmd_scan, "skenēt": cmd_scan, "scan": cmd_scan, "statuss"
 
 
 def main():
-    updates = tg("getUpdates", timeout=0, allowed_updates='["message"]').get("result", [])
+    try:
+        updates = tg("getUpdates", timeout=0, allowed_updates='["message"]').get("result", [])
+    except urllib.error.HTTPError as e:
+        if e.code == 409:   # botam iestatīts webhook (Cloudflare Worker) – tas atbild pats
+            return
+        raise
     if not updates:
         return
     # apstiprina saņemtās ziņas, lai tās nenolasītu atkārtoti
