@@ -334,6 +334,15 @@
   .mh { margin: 0; padding: 18px 28px 6px; font-size: 18px; font-weight: 700; }
   .mon > div + div { border-top: 1px solid var(--line); }
   .heat tr.quietrow th { color: var(--ink-2); font-weight: 500; }
+  .chart.tl { padding: 0 20px 12px; }
+  .follow thead th:first-child { font-weight: 500; }
+  .rxl { list-style: none; margin: 0; padding: 0 28px 16px; }
+  .rxl .rx { width: 100%; display: flex; justify-content: space-between; align-items: baseline; gap: 6px 16px; flex-wrap: wrap; text-align: left;
+    background: none; border: 0; border-top: 1px solid var(--line-2); padding: 10px 0; cursor: pointer; font-size: 14px; }
+  .rxl .rx:hover .rxn { text-decoration: underline; }
+  .rxn { font-weight: 600; } .rxn .m { font-weight: 400; color: var(--ink-2); }
+  .rxs { display: inline-flex; align-items: center; gap: 6px; flex-wrap: wrap; font-variant-numeric: tabular-nums; }
+  .rxs .arr { color: var(--ink-2); font-size: 13px; }
   .heat td.op .p { font-size: 17px; }
   .tblwrap { overflow-x: auto; }
   .tbl tbody th { text-align: left; padding: 14px 12px 14px 28px; font-weight: 600; border-bottom: 1px solid var(--line-2); white-space: nowrap; }
@@ -1376,6 +1385,7 @@ function renderAnalysis() {
     ${units.length ? panel("Kur operators ir vienīgais lētākais", "Modeļi, kur operators ir vienīgais lētākais, un par cik lētāks nekā nākamais veikals. Uzspied, lai salīdzinātu.", `<div class="saves">${saves}</div>`) : ""}
     ${panel("Sortiments", "Cik dažādus modeļus piedāvā katrs operators un cik no tiem nav nevienā citā veikalā.", assort)}
     <p class="foot">Analīze balstās uz pēdējās skenēšanas cenām (${esc(fmtDT(NOW))}). Pilnā cena bez līguma; mēneša maksājumi nav ņemti vērā. Lietotas un izpakotas preces nav iekļautas.</p>`;
+  mountTimeline();
 }
 
 /* ---------- Cenu maiņu monitorings: kurās dienās, kurās kategorijās, kurš operators ---------- */
@@ -1389,7 +1399,8 @@ function priceEvents(scope) {
     if ((scope && p.category !== scope) || isUsed(p)) continue;
     const h = (HIST[p.key] || []).filter(e => e.full != null);
     for (let i = 1; i < h.length; i++) if (h[i].full !== h[i - 1].full)
-      ev.push({ t: h[i].t, op: p.operator, cat: p.category, d: h[i].full - h[i - 1].full });
+      ev.push({ t: h[i].t, op: p.operator, cat: p.category, d: h[i].full - h[i - 1].full, a: h[i - 1].full, b: h[i].full,
+        mk: p.mk, key: p.key, name: p.name, vk: variantKey(p.model, p.category) });
   }
   return ev;
 }
@@ -1444,9 +1455,116 @@ function changeMonitor(scope, ops, cats) {
 
   return panel("Cenu maiņu monitorings",
     `${summary}. Uzskaitītas pilnās cenas izmaiņas kopš ${since}. Maiņa piesaistīta dienai, kad to pamanīja skenēšana – ja skenē tikai darbdienās, brīvdienu maiņas parādās pirmdienā.`,
-    `<div class="mon"><div><h3 class="mh">Pa nedēļas dienām</h3>${heat(byWd, ops, "Diena")}</div>
-      ${scope ? "" : `<div><h3 class="mh">Pa kategorijām</h3>${heat(catRows, ops, "Kategorija")}</div>`}
-      <div><h3 class="mh">Pa datumiem</h3>${heat(dayRows, ops, "Datums")}</div></div>`);
+    `<div class="mon">${timelineBlock(scope, ops)}<div><h3 class="mh">Pa nedēļas dienām</h3>${heat(byWd, ops, "Diena")}</div>
+      ${scope ? "" : `<div><h3 class="mh">Pa kategorijām</h3>${heat(catRows, ops, "Kategorija")}</div>`}</div>`);
+}
+
+/* ---------- Laika līnija: cenu maiņas pa dienām + kurš kuram seko ---------- */
+const LAG_DAYS = 3;   // reakcija = cits operators maina tā paša modeļa cenu 1–3 dienu laikā
+let TL = null;
+function reactions(ev) {
+  const byMk = {};
+  for (const e of ev) (byMk[e.mk] ||= []).push(e);
+  const out = [];
+  for (const list of Object.values(byMk)) {
+    list.sort((a, b) => a.t - b.t);
+    for (const e2 of list) {
+      const d2 = rigaDay(e2.t);
+      let lead = null;
+      for (const e1 of list) {
+        if (e1.op === e2.op || e1.t >= e2.t || rigaDay(e1.t) === d2 || e2.t - e1.t > LAG_DAYS * 864e5) continue;
+        if (!lead || e1.t > lead.t) lead = e1;
+      }
+      if (lead && !out.some(r => r.f === e2 || (r.l.op === lead.op && r.f.op === e2.op && r.l.mk === e2.mk && rigaDay(r.f.t) === d2)))
+        out.push({ l: lead, f: e2, lag: Math.round((new Date(d2) - new Date(rigaDay(lead.t))) / 864e5) });
+    }
+  }
+  return out.sort((a, b) => b.f.t - a.f.t);
+}
+
+function timelineBlock(scope, ops) {
+  const ev = priceEvents(scope);
+  // pirmā skenēšanas diena ir bāze – tajā izmaiņas nav iespējamas, tāpēc to nerāda
+  const days = [...new Set(Object.values(HIST).flat().map(e => rigaDay(e.t)))].sort().slice(1).slice(-30);
+  const rx = reactions(ev);
+  TL = { ops, days, ev, rx };
+  const sameDir = r => Math.sign(r.l.d) === Math.sign(r.f.d);
+  const pair = {};
+  for (const r of rx) { const k = r.l.op + ">" + r.f.op; (pair[k] ||= { n: 0, same: 0 }); pair[k].n++; if (sameDir(r)) pair[k].same++; }
+  const who = ops.length ? `<div class="tblwrap"><table class="tbl mx follow"><thead><tr><th scope="col">Pirmais mainīja ↓ · sekoja →</th>${ops.map(op =>
+      `<th scope="col"><span class="dot ${op}"></span>${OPS[op]}</th>`).join("")}</tr></thead><tbody>${ops.map(a => `<tr><th scope="row"><span class="dot ${a}"></span> ${OPS[a]}</th>${ops.map(b => {
+      if (a === b) return `<td class="op" data-op="${OPS[b]}"><span class="na">·</span></td>`;
+      const c = pair[a + ">" + b];
+      return `<td class="op" data-op="${OPS[b]} seko"${c ? ` style="background:color-mix(in srgb, var(--${b}) ${Math.min(70, 15 + c.n * 8)}%, transparent)"` : ""}>${c
+        ? `<span class="p">${c.n}</span><span class="m">${c.same} tajā pašā virzienā</span>` : `<span class="na">0</span>`}</td>`; }).join("")}</tr>`).join("")}</tbody></table></div>` : "";
+  const list = rx.slice(0, 15).map(r => `<li><button type="button" class="lnk rx" data-key="${esc(r.f.key)}">
+      <span class="rxn">${esc(r.f.name)}${r.f.vk ? ` <span class="m">${esc(r.f.vk)}</span>` : ""}</span>
+      <span class="rxs"><span class="dot ${r.l.op}"></span>${OPS[r.l.op]} ${fmtD(r.l.t)} <span class="${r.l.d < 0 ? "dn" : "upc"}">${deltaTxt(r.l.d)}</span>
+        <span class="arr">→ ${r.lag} d. →</span>
+        <span class="dot ${r.f.op}"></span>${OPS[r.f.op]} ${fmtD(r.f.t)} <span class="${r.f.d < 0 ? "dn" : "upc"}">${deltaTxt(r.f.d)}</span></span></button></li>`).join("");
+  return `<div><h3 class="mh">Laika līnija</h3>
+      <p class="quiet" style="padding:0 28px 6px">Cik cenu katrs operators mainīja katrā skenēšanas dienā. Bultas – cits operators mainīja <b>tā paša modeļa</b> cenu 1–${LAG_DAYS} dienu laikā pēc pirmā; bultas biezums – cik modeļos.</p>
+      <div class="chart tl" id="tl"></div></div>
+    <div><h3 class="mh">Kurš kuram seko</h3>${rx.length ? who : `<p class="quiet" style="padding:0 28px 18px">Pagaidām nav gadījumu, kur cits operators 1–${LAG_DAYS} dienu laikā mainītu tā paša modeļa cenu.</p>`}</div>
+    ${rx.length ? `<div><h3 class="mh">Pēdējās reakcijas</h3><ul class="rxl">${list}</ul></div>` : ""}`;
+}
+const fmtD = t => new Date(t).toLocaleDateString("lv-LV", { day: "2-digit", month: "2-digit", timeZone: "Europe/Riga" });
+
+function mountTimeline() {
+  const el = document.getElementById("tl");
+  if (!el || !TL) return;
+  const { ops, days, ev, rx } = TL;
+  const cnt = {};
+  for (const e of ev) { const k = e.op + "|" + rigaDay(e.t); (cnt[k] ||= { n: 0, dn: 0, up: 0 }); cnt[k].n++; e.d < 0 ? cnt[k].dn++ : cnt[k].up++; }
+  const val = (op, d) => cnt[op + "|" + d]?.n || 0;
+  const W = el.clientWidth || 800, H = 280, M = { t: 24, r: 24, b: 44, l: 44 };
+  const iw = W - M.l - M.r, ih = H - M.t - M.b;
+  const n = days.length;
+  const X = i => M.l + (n > 1 ? i / (n - 1) * iw : iw / 2);
+  const ymax = Math.max(4, ...ops.flatMap(op => days.map(d => val(op, d))));
+  const yt = niceTicks(0, ymax, 4).filter(v => v >= 0 && Number.isInteger(v)); const y1 = yt[yt.length - 1];
+  const Y = v => M.t + ih - v / y1 * ih;
+  const off = Object.fromEntries(ops.map((op, i) => [op, (i - (ops.length - 1) / 2) * 2.5]));   // lai vienādas līnijas nepārklātos
+  const di = Object.fromEntries(days.map((d, i) => [d, i]));
+  // bultas: apvieno pēc (diena1, diena2, pirmais, sekotājs)
+  const arrows = {};
+  for (const r of rx) {
+    const d1 = rigaDay(r.l.t), d2 = rigaDay(r.f.t);
+    if (di[d1] == null || di[d2] == null) continue;
+    const k = [d1, d2, r.l.op, r.f.op].join("|"); (arrows[k] ||= { d1, d2, a: r.l.op, b: r.f.op, n: 0 }).n++;
+  }
+  const lab = d => { const dt = new Date(d + "T12:00:00Z"); return [dt.toLocaleDateString("lv-LV", { day: "2-digit", month: "2-digit", timeZone: "UTC" }), WD[rigaWd(dt)].slice(0, 2)]; };
+  const every = Math.max(1, Math.ceil(n / (W < 520 ? 5 : 12)));
+  el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" height="${H}" role="img" aria-label="Cenu maiņu skaits pa dienām">
+    <defs>${ops.map(op => `<marker id="ah-${op}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--${op})"/></marker>`).join("")}</defs>
+    ${yt.map(v => `<line x1="${M.l}" x2="${W - M.r}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--line-2)"/><text x="${M.l - 8}" y="${Y(v) + 4}" text-anchor="end">${v}</text>`).join("")}
+    ${days.map((d, i) => i % every && i !== n - 1 ? "" : `<text x="${X(i)}" y="${H - 22}" text-anchor="middle">${lab(d)[0]}</text><text x="${X(i)}" y="${H - 6}" text-anchor="middle" style="fill:var(--faint)">${lab(d)[1]}</text>`).join("")}
+    ${ops.map(op => `<polyline fill="none" stroke="var(--${op})" stroke-width="2.5" stroke-linejoin="round" points="${days.map((d, i) => `${X(i)},${Y(val(op, d)) + off[op]}`).join(" ")}"/>`).join("")}
+    ${Object.values(arrows).map(a => {
+      const x1 = X(di[a.d1]), y1p = Y(val(a.a, a.d1)), x2 = X(di[a.d2]), y2p = Y(val(a.b, a.d2));
+      const mx = (x1 + x2) / 2, my = Math.min(y1p, y2p) - 26 - Math.min(30, (x2 - x1) * 0.15);
+      return `<path d="M${x1},${y1p - 8} Q${mx},${my} ${x2},${y2p - 9}" fill="none" stroke="var(--${a.b})" stroke-width="${Math.min(6, 1.2 + a.n * 0.8)}" stroke-dasharray="5 4" marker-end="url(#ah-${a.b})" opacity=".85"><title>${OPS[a.a]} → ${OPS[a.b]}: ${a.n} modeļi</title></path>
+        <text x="${mx}" y="${0.25 * (y1p - 8) + 0.5 * my + 0.25 * (y2p - 9) - 7}" text-anchor="middle" style="fill:var(--ink);font-weight:700">${a.n}</text>`; }).join("")}
+    ${ops.map(op => days.map((d, i) => { const v = val(op, d); return v ? `<circle cx="${X(i) + off[op] * 2}" cy="${Y(v) + off[op]}" r="4.5" fill="var(--${op})" stroke="var(--surface)" stroke-width="2"/>` : ""; }).join("")).join("")}
+    <line id="tlx" y1="${M.t}" y2="${M.t + ih}" stroke="var(--line)" style="display:none"/>
+    <rect x="${M.l - 10}" y="${M.t}" width="${iw + 20}" height="${ih}" fill="transparent" id="tlhit"/>
+  </svg><div class="tip" id="tltip"></div>`;
+  const svg = el.querySelector("svg"), tip = el.querySelector("#tltip"), xl = el.querySelector("#tlx");
+  const move = e => {
+    const r = svg.getBoundingClientRect(), sx = (e.clientX - r.left) * W / r.width;
+    const i = Math.max(0, Math.min(n - 1, Math.round(n > 1 ? (sx - M.l) / iw * (n - 1) : 0))), d = days[i];
+    xl.setAttribute("x1", X(i)); xl.setAttribute("x2", X(i)); xl.style.display = "";
+    const fol = Object.values(arrows).filter(a => a.d2 === d);
+    tip.innerHTML = `<div class="t">${lab(d).join(", ")}</div>` + ops.map(op => { const c = cnt[op + "|" + d];
+      return `<div class="r"><span class="dot ${op}"></span>${OPS[op]}<b>${c ? `${c.n} <span class="dn">▼${c.dn}</span> <span class="upc">▲${c.up}</span>` : "0"}</b></div>`; }).join("") +
+      fol.map(a => `<div class="r" style="margin-top:4px">${OPS[a.b]} sekoja ${OPS[a.a]}: <b>${a.n}</b></div>`).join("");
+    tip.style.display = "block";
+    const px = X(i) * r.width / W, tw = tip.offsetWidth;
+    tip.style.left = Math.min(Math.max(0, px + 12), r.width - tw) + "px"; tip.style.top = "4px";
+  };
+  const hit = el.querySelector("#tlhit");
+  hit.addEventListener("pointermove", move); hit.addEventListener("pointerdown", move);
+  hit.addEventListener("pointerleave", () => { tip.style.display = "none"; xl.style.display = "none"; });
 }
 
 const panel = (title, sub, body, cls = "") => `<section class="card panel ${cls}"><div class="card-head"><div class="ttl"><h2>${title}</h2></div><p class="psub">${sub}</p></div>${body}</section>`;
@@ -1816,6 +1934,8 @@ document.getElementById("theme").addEventListener("click", () => {
   root.dataset.theme = dark ? "light" : "dark";
   try { localStorage.setItem("theme", root.dataset.theme); } catch (e) {}
 });
+let tlW = 0;
+window.addEventListener("resize", () => { const el = document.getElementById("tl"); if (el && el.clientWidth !== tlW) { tlW = el.clientWidth; mountTimeline(); } });
 load().catch(err => { document.getElementById("sub").textContent = "Neizdevās ielādēt datus: " + err.message; });
 </script>
 </body>
