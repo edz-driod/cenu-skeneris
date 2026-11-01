@@ -331,6 +331,10 @@
   .panel .ttl h2 { font-size: 36px; }
   .psub { margin: 0; font-size: 14px; color: var(--ink-2); max-width: 720px; }
   .psub b { color: var(--ink); }
+  .mh { margin: 0; padding: 18px 28px 6px; font-size: 18px; font-weight: 700; }
+  .mon > div + div { border-top: 1px solid var(--line); }
+  .heat tr.quietrow th { color: var(--ink-2); font-weight: 500; }
+  .heat td.op .p { font-size: 17px; }
   .tblwrap { overflow-x: auto; }
   .tbl tbody th { text-align: left; padding: 14px 12px 14px 28px; font-weight: 600; border-bottom: 1px solid var(--line-2); white-space: nowrap; }
   .tbl.mx td.op .p { font-size: 18px; font-weight: 600; }
@@ -1301,6 +1305,8 @@ function renderAnalysis() {
     " Dzeltenā šūna – stiprākais segmentā.",
     matrix(segRows, ops, "Segments")) : "";
 
+  const monitor = changeMonitor(scope, ops, cats);
+
   const byCat = scope ? "" : panel("Pa kategorijām", "Cik bieži operators ir lētākais katrā kategorijā. Dzeltenā šūna – labākais kategorijā.",
     matrix(cats.map(c => ({ label: CATS[c], units: units.filter(u => u.cat === c) })).filter(r => r.units.length), ops, "Kategorija"));
 
@@ -1363,12 +1369,84 @@ function renderAnalysis() {
     </section>
     ${units.length ? panel("Kopvērtējums", "“Lētākais” – cik daļā no salīdzināmajiem modeļiem operatora cena ir zemākā (arī dalīta). “Vidēji dārgāks” – cik procentos vidēji jāpiemaksā salīdzinājumā ar lētāko veikalu.", score, "score-wrap") : ""}
     ${units.length ? bySeg : ""}
+    ${monitor}
     ${units.length ? byCat : ""}
     ${units.length ? byBrand : ""}
     ${duel ? panel("Divi pret divi", "Tikai modeļi, kas ir abos veikalos. Joslas krāsa – kurš lētāks.", `<div class="duels">${duel}</div>`) : ""}
     ${units.length ? panel("Kur operators ir vienīgais lētākais", "Modeļi, kur operators ir vienīgais lētākais, un par cik lētāks nekā nākamais veikals. Uzspied, lai salīdzinātu.", `<div class="saves">${saves}</div>`) : ""}
     ${panel("Sortiments", "Cik dažādus modeļus piedāvā katrs operators un cik no tiem nav nevienā citā veikalā.", assort)}
     <p class="foot">Analīze balstās uz pēdējās skenēšanas cenām (${esc(fmtDT(NOW))}). Pilnā cena bez līguma; mēneša maksājumi nav ņemti vērā. Lietotas un izpakotas preces nav iekļautas.</p>`;
+}
+
+/* ---------- Cenu maiņu monitorings: kurās dienās, kurās kategorijās, kurš operators ---------- */
+const WD = ["Pirmdiena", "Otrdiena", "Trešdiena", "Ceturtdiena", "Piektdiena", "Sestdiena", "Svētdiena"];
+const rigaDay = t => t.toLocaleDateString("sv-SE", { timeZone: "Europe/Riga" });               // 2026-11-01
+const rigaWd = t => (new Date(rigaDay(t) + "T12:00:00Z").getUTCDay() + 6) % 7;                 // 0 = pirmdiena
+
+function priceEvents(scope) {
+  const ev = [];
+  for (const p of ITEMS) {
+    if ((scope && p.category !== scope) || isUsed(p)) continue;
+    const h = (HIST[p.key] || []).filter(e => e.full != null);
+    for (let i = 1; i < h.length; i++) if (h[i].full !== h[i - 1].full)
+      ev.push({ t: h[i].t, op: p.operator, cat: p.category, d: h[i].full - h[i - 1].full });
+  }
+  return ev;
+}
+
+function heat(rows, ops, label) {
+  const max = Math.max(1, ...rows.flatMap(r => ops.map(op => r.c[op]?.n || 0)));
+  return `<div class="tblwrap"><table class="tbl mx heat"><thead><tr><th scope="col">${label}</th>${ops.map(op =>
+    `<th scope="col"><span class="dot ${op}"></span>${OPS[op]}</th>`).join("")}<th scope="col">Kopā</th></tr></thead><tbody>` +
+    rows.map(r => {
+      const tot = ops.reduce((s, op) => s + (r.c[op]?.n || 0), 0);
+      return `<tr${tot ? "" : ' class="quietrow"'}><th scope="row">${esc(r.label)}${r.sub ? `<span class="m" style="display:block;font-weight:400">${esc(r.sub)}</span>` : ""}</th>${ops.map(op => {
+        const c = r.c[op];
+        if (!c?.n) return `<td class="op" data-op="${OPS[op]}"><span class="na">${r.none ?? "–"}</span></td>`;
+        const a = Math.round(12 + c.n / max * 58);
+        return `<td class="op" data-op="${OPS[op]}" style="background:color-mix(in srgb, var(--${op}) ${a}%, transparent)"><span class="p">${c.n}</span>
+          <span class="m"><span class="dn">▼${c.dn}</span> <span class="upc">▲${c.up}</span></span></td>`;
+      }).join("")}<td class="gapc"><span class="m" style="display:inline">${tot || ""}</span></td></tr>`;
+    }).join("") + `</tbody></table></div>`;
+}
+
+function changeMonitor(scope, ops, cats) {
+  const ev = priceEvents(scope);
+  const first = Math.min(...Object.values(HIST).flat().map(e => +e.t));
+  const since = isFinite(first) ? fmtDate(new Date(first)) : "";
+  const add = (m, e) => { const c = (m[e.op] ||= { n: 0, dn: 0, up: 0 }); c.n++; e.d < 0 ? c.dn++ : c.up++; };
+  // skenēšanas dienas – lai dienas bez skenēšanas neizskatītos pēc "nav izmaiņu"
+  const scanDays = new Set(Object.values(HIST).flat().map(e => rigaDay(e.t)));
+
+  const byWd = WD.map((label, i) => ({ label, c: {}, none: [...scanDays].some(d => rigaWd(new Date(d + "T12:00:00Z")) === i) ? "0" : "nav skenēts" }));
+  const byDay = {}, byCat = {};
+  for (const e of ev) {
+    add(byWd[rigaWd(e.t)].c, e);
+    add((byDay[rigaDay(e.t)] ||= {}), e);
+    add((byCat[e.cat] ||= {}), e);
+  }
+  const firstDay = [...scanDays].sort()[0];
+  const dayRows = [...scanDays].sort().reverse().slice(0, 30).map(d => {
+    const dt = new Date(d + "T12:00:00Z");
+    return { label: dt.toLocaleDateString("lv-LV", { day: "2-digit", month: "2-digit", timeZone: "UTC" }),
+      sub: WD[rigaWd(dt)] + (d === firstDay ? " · pirmā skenēšana" : ""), c: byDay[d] || {}, none: d === firstDay ? "–" : "0" };
+  });
+  const catRows = (scope ? [scope] : cats).map(c => ({ label: CATS[c], c: byCat[c] || {}, none: "0" }));
+
+  const perOp = Object.fromEntries(ops.map(op => [op, ev.filter(e => e.op === op)]));
+  const busiest = [...ops].sort((a, b) => perOp[b].length - perOp[a].length);
+  const topWd = op => { const n = byWd.map(r => r.c[op]?.n || 0), m = Math.max(...n); return m ? WD[n.indexOf(m)].toLowerCase().slice(0, -1) + "ās" : null; };
+  const topCat = op => { const e = Object.entries(byCat).map(([c, m]) => [c, m[op]?.n || 0]).sort((a, b) => b[1] - a[1])[0]; return e?.[1] ? CATS[e[0]].toLowerCase() : null; };
+  const summary = ev.length
+    ? busiest.filter(op => perOp[op].length).map(op => { const w = topWd(op), c = topCat(op), dn = perOp[op].filter(e => e.d < 0).length;
+        return `<b>${OPS[op]}</b> ${perOp[op].length} (▼${dn} ▲${perOp[op].length - dn})${w ? `, visbiežāk ${w}` : ""}${!scope && c ? `, galvenokārt ${c}` : ""}`; }).join(" · ")
+    : "Pagaidām nav fiksētu cenu maiņu.";
+
+  return panel("Cenu maiņu monitorings",
+    `${summary}. Uzskaitītas pilnās cenas izmaiņas kopš ${since}. Maiņa piesaistīta dienai, kad to pamanīja skenēšana – ja skenē tikai darbdienās, brīvdienu maiņas parādās pirmdienā.`,
+    `<div class="mon"><div><h3 class="mh">Pa nedēļas dienām</h3>${heat(byWd, ops, "Diena")}</div>
+      ${scope ? "" : `<div><h3 class="mh">Pa kategorijām</h3>${heat(catRows, ops, "Kategorija")}</div>`}
+      <div><h3 class="mh">Pa datumiem</h3>${heat(dayRows, ops, "Datums")}</div></div>`);
 }
 
 const panel = (title, sub, body, cls = "") => `<section class="card panel ${cls}"><div class="card-head"><div class="ttl"><h2>${title}</h2></div><p class="psub">${sub}</p></div>${body}</section>`;
